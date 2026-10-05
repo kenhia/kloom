@@ -1,0 +1,81 @@
+{
+	"title": "India's average wheat yield, 1961–2023",
+	"description": "Bar chart of India's national average wheat yield in tonnes per hectare: 0.85 in 1961, 0.73 in 1964, 0.83 in 1966, 1.10 in 1968, 1.21 in 1970, 1.44 in 1980, 2.12 in 1990, 2.78 in 2000, 2.84 in 2010, 3.44 in 2020 and 3.52 in 2023. Data: FAOSTAT, Crops and livestock products.",
+	"heading": "INDIA · AVERAGE WHEAT YIELD · TONNES PER HECTARE",
+	"unit": "",
+	"width": 600,
+	"barWidth": 36,
+	"axis": {
+		"max": 4,
+		"ticks": [
+			[0, "0"],
+			[1, "1"],
+			[2, "2"],
+			[3, "3"],
+			[4, "4 t/ha"]
+		]
+	},
+	"bars": [
+		{
+			"label": "1961",
+			"value": 0.85,
+			"display": "0.85"
+		},
+		{
+			"label": "1964",
+			"value": 0.73,
+			"display": "0.73"
+		},
+		{
+			"label": "1966",
+			"value": 0.83,
+			"display": "0.83"
+		},
+		{
+			"label": "1968",
+			"value": 1.1,
+			"display": "1.10",
+			"highlight": true
+		},
+		{
+			"label": "1970",
+			"value": 1.21,
+			"display": "1.21"
+		},
+		{
+			"label": "1980",
+			"value": 1.44,
+			"display": "1.44"
+		},
+		{
+			"label": "1990",
+			"value": 2.12,
+			"display": "2.12"
+		},
+		{
+			"label": "2000",
+			"value": 2.78,
+			"display": "2.78"
+		},
+		{
+			"label": "2010",
+			"value": 2.84,
+			"display": "2.84"
+		},
+		{
+			"label": "2020",
+			"value": 3.44,
+			"display": "3.44"
+		},
+		{
+			"label": "2023",
+			"value": 3.52,
+			"display": "3.52"
+		}
+	],
+	"source": {
+		"container": "FAOSTAT, Crops and livestock products, Food and Agriculture Organization of the United Nations",
+		"url": "https://www.fao.org/faostat/en/#data/QCL",
+		"accessed": "2026-10-04"
+	}
+}

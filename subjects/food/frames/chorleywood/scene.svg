@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M50 60 L50 252"/>
+		<path pathLength="1" d="M104 60 L104 252"/>
+		<path pathLength="1" d="M158 60 L158 252"/>
+		<path pathLength="1" d="M212 60 L212 252"/>
+		<path pathLength="1" d="M266 60 L266 252"/>
+		<path pathLength="1" d="M320 60 L320 252"/>
+		<path pathLength="1" d="M374 60 L374 252"/>
+		<path pathLength="1" d="M50 252 L374 252"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M50 96 L63.5 96 L63.5 122 L50 122 Z"/>
+		<path pathLength="1" d="M63.5 96 L225.5 96 L225.5 122 L63.5 122 Z"/>
+		<path pathLength="1" d="M225.5 96 L229.5 96 M232.5 96 L236.5 96 M239.5 96 L243.5 96 M246.5 96 L250.5 96 M253.5 96 L257.5 96 M260.5 96 L264.5 96 M267.5 96 L271.5 96 M274.5 96 L278.5 96 M281.5 96 L285.5 96 M288.5 96 L292.5 96 M295.5 96 L299.5 96 M302.5 96 L306.5 96 M309.5 96 L313.5 96 M316.5 96 L320.5 96 M323.5 96 L327.5 96 M330.5 96 L334.5 96 M337.5 96 L341.5 96 M344.5 96 L347 96 L347 97.5 M347 100.5 L347 104.5 M347 107.5 L347 111.5 M347 114.5 L347 118.5 M347 121.5 L347 122 L343.5 122 M340.5 122 L336.5 122 M333.5 122 L329.5 122 M326.5 122 L322.5 122 M319.5 122 L315.5 122 M312.5 122 L308.5 122 M305.5 122 L301.5 122 M298.5 122 L294.5 122 M291.5 122 L287.5 122 M284.5 122 L280.5 122 M277.5 122 L273.5 122 M270.5 122 L266.5 122 M263.5 122 L259.5 122 M256.5 122 L252.5 122 M249.5 122 L245.5 122 M242.5 122 L238.5 122 M235.5 122 L231.5 122 M228.5 122 L225.5 122"/>
+		<path pathLength="1" d="M50 196 L53.2 196 L53.2 222 L50 222 Z"/>
+		<path pathLength="1" d="M53.2 196 L60.8 196 L60.8 222 L53.2 222 Z"/>
+		<path pathLength="1" d="M60.8 196 L104 196 L104 222 L60.8 222 Z"/>
+		<path pathLength="1" d="M104 196 L122.9 196 L122.9 222 L104 222 Z"/>
+		<path pathLength="1" d="M122.9 196 L230.9 196 L230.9 222 L122.9 222 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M50 136 L347 136"/>
+		<path pathLength="1" d="M343.4 137.7 L347 136 L343.4 134.3"/>
+		<path pathLength="1" d="M53.6 134.3 L50 136 L53.6 137.7"/>
+		<path pathLength="1" d="M50 236 L230.9 236"/>
+		<path pathLength="1" d="M227.3 237.7 L230.9 236 L227.3 234.3"/>
+		<path pathLength="1" d="M53.6 234.3 L50 236 L53.6 237.7"/>
+		<path pathLength="1" d="M141.8 126 L55.4 192"/>
+		<path pathLength="1" d="M57.2 188.4 L55.4 192 L59.3 191.2"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="50" y="88" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE OLD WAY</text>
+		<text x="144.5" y="112" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BULK FERMENTATION · ABOUT 3 H</text>
+		<text x="286.2" y="112" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PROOF, BAKE, COOL</text>
+		<text x="198.5" y="146" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">5 TO 6 HOURS</text>
+		<text x="50" y="188" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CHORLEYWOOD, 1961</text>
+		<text x="82.4" y="212" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PROOF</text>
+		<text x="176.9" y="212" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COOL</text>
+		<text x="140.7" y="246" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3 TO 3½ HOURS</text>
+		<text x="152.6" y="158" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MIX 2–5 MIN AT ABOUT 11 WH PER KG</text>
+		<text x="152.6" y="169" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">IN PLACE OF THE FERMENTATION</text>
+		<text x="50" y="266" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0 H</text>
+		<text x="104" y="266" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1 H</text>
+		<text x="158" y="266" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2 H</text>
+		<text x="212" y="266" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3 H</text>
+		<text x="266" y="266" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">4 H</text>
+		<text x="320" y="266" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">5 H</text>
+		<text x="374" y="266" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">6 H</text>
+		<text x="212" y="284" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE OLD WAY'S LATER STAGES ARE SCHEMATIC</text>
+		<text x="212" y="40" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FLOUR TO WRAPPED LOAF, IN HOURS</text>
+	</g>
+</svg>

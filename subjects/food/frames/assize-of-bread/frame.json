@@ -1,0 +1,125 @@
+{
+	"id": "assize-of-bread",
+	"topic": "The Assize of Bread",
+	"position": { "label": "c. 1266", "sort": 1266 },
+	"scene": {
+		"headline": "The law set the loaf's",
+		"accent": "WEIGHT.",
+		"palette": "barley",
+		"illustration": "scene.svg",
+		"metadata": ["ENGLAND · HENRY III · c. 1266", "FARTHING LOAF · PRICE OF WHEAT · PILLORY"],
+		"counter": { "value": "20×", "label": "the farthing loaf, cheapest wheat to dearest" }
+	},
+	"connections": [
+		{
+			"to": "western-civ/wealth-of-nations",
+			"why": "Smith's Wealth of Nations called the assize of bread the only remnant of the old regulation of prices, and wrote that competition would regulate the price of bread much better."
+		}
+	],
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Assisa Panis et Cervisie: The Assise of Bread and Ale",
+			"container": "The Statutes of the Realm",
+			"volume": "1",
+			"pages": "199–200",
+			"place": "London",
+			"published": "1810",
+			"url": "https://archive.org/details/statutes-of-the-realm-v-1-1101-1377/page/n380",
+			"accessed": "2026-10-04",
+			"note": "The table of the farthing loaf, the baker's allowance and the pillory, in Latin and English"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report from the Committee of the House of Commons, on Laws Relating to the Manufacture, Sale, and Assize of Bread",
+			"publisher": "House of Commons",
+			"place": "London",
+			"published": "1815-06-06",
+			"url": "https://archive.org/details/reportfromcommit00greauoft",
+			"accessed": "2026-10-04",
+			"note": "How the table was built, the Tower pound, and why the assize raised London's bread prices"
+		},
+		{
+			"kind": "book",
+			"title": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+			"authors": [{ "family": "Smith", "given": "Adam" }],
+			"place": "London",
+			"publisher": "W. Strahan and T. Cadell",
+			"published": "1776",
+			"url": "https://www.gutenberg.org/ebooks/3300",
+			"accessed": "2026-10-04",
+			"note": "Book 1, chapters 10 and 11"
+		},
+		{
+			"kind": "article",
+			"title": "Baking for the Common Good: A Reassessment of the Assize of Bread in Medieval England",
+			"authors": [{ "family": "Davis", "given": "James" }],
+			"container": "The Economic History Review",
+			"volume": "57",
+			"issue": "3",
+			"pages": "465–502",
+			"published": "2004-08",
+			"doi": "10.1111/j.1468-0289.2004.00285.x",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The Moral Economy of the English Crowd in the Eighteenth Century",
+			"authors": [{ "family": "Thompson", "given": "E. P." }],
+			"container": "Past & Present",
+			"volume": "50",
+			"issue": "1",
+			"pages": "76–136",
+			"published": "1971-02",
+			"doi": "10.1093/past/50.1.76",
+			"accessed": "2026-10-04",
+			"read": "record"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Assize of Bread and Ale",
+			"url": "https://en.wikipedia.org/w/index.php?title=Assize_of_Bread_and_Ale&oldid=1363548812",
+			"accessed": "2026-10-04",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dozen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dozen&oldid=1343471035",
+			"accessed": "2026-10-04",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-14",
+			"note": "Its section on the baker's dozen, citing the Oxford English Dictionary"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Moral economy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Moral_economy&oldid=1341254765",
+			"accessed": "2026-10-04",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "List of acts of the Parliament of the United Kingdom from 1815",
+			"url": "https://en.wikipedia.org/w/index.php?title=List_of_acts_of_the_Parliament_of_the_United_Kingdom_from_1815&oldid=1373199256",
+			"accessed": "2026-10-04",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04",
+			"note": "The London Bread Trade Act 1815, 55 Geo. 3. c. xcix"
+		}
+	]
+}

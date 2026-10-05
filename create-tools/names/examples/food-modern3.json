@@ -1,0 +1,35 @@
+{
+	"food/gm-crops": [
+		["Food and Drug Administration", "food-and-drug-administration"],
+		["Flavr Savr", "flavr-savr"],
+		["genetically modified crops", "genetically-modified-crops"],
+		["DNA", "dna"],
+		["_Agrobacterium tumefaciens_", "agrobacterium-tumefaciens"],
+		["gene gun", "gene-gun"],
+		["polymerase chain reaction", "polymerase-chain-reaction"],
+		["Monsanto", "monsanto"],
+		["_Bacillus thuringiensis_", "bacillus-thuringiensis"],
+		["glyphosate", "glyphosate"],
+		["Ingo Potrykus", "ingo-potrykus"],
+		["Golden Rice", "golden-rice"],
+		["_Bowman v. Monsanto Co._", "bowman-v-monsanto-co"]
+	],
+	"food/hunger-now": [
+		["Food and Agriculture Organization", "food-and-agriculture-organization"],
+		["United Nations", "united-nations"],
+		[
+			"Integrated Food Security Phase Classification",
+			"integrated-food-security-phase-classification"
+		],
+		["Gaza Strip famine", "gaza-strip-famine"],
+		["famine in Sudan", "famine-in-sudan-2024-present"],
+		["World Food Programme", "world-food-programme"],
+		["Amartya Sen", "amartya-sen"],
+		["Universal Declaration of Human Rights", "universal-declaration-of-human-rights"],
+		[
+			"International Covenant on Economic, Social and Cultural Rights",
+			"international-covenant-on-economic-social-and-cultural-rights"
+		],
+		["Sustainable Development Goal 2", "sustainable-development-goal-2"]
+	]
+}

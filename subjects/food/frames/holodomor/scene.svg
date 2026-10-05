@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M80 12 L80 188"/>
+		<path pathLength="1" d="M150 211 L388 211"/>
+		<path pathLength="1" d="M222 120 L222 280"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M20 22 L140 22 L140 42 L20 42 Z"/>
+		<path pathLength="1" d="M20 62 L140 62 L140 82 L20 82 Z"/>
+		<path pathLength="1" d="M20 102 L140 102 L140 122 L20 122 Z"/>
+		<path pathLength="1" d="M20 142 L140 142 L140 162 L20 162 Z"/>
+		<path pathLength="1" d="M20 188 L150 188 L150 234 L20 234 Z"/>
+		<path pathLength="1" d="M262 122 L382 122 L382 142 L262 142 Z"/>
+		<path pathLength="1" d="M262 191 L382 191 L382 211 L262 211 Z"/>
+		<path pathLength="1" d="M262 252 L382 252 L382 272 L262 272 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M80 42 L80 62"/>
+		<path pathLength="1" d="M78.3 58.4 L80 62 L81.7 58.4"/>
+		<path pathLength="1" d="M80 82 L80 102"/>
+		<path pathLength="1" d="M78.3 98.4 L80 102 L81.7 98.4"/>
+		<path pathLength="1" d="M80 122 L80 142"/>
+		<path pathLength="1" d="M78.3 138.4 L80 142 L81.7 138.4"/>
+		<path pathLength="1" d="M80 162 L80 188"/>
+		<path pathLength="1" d="M78.3 184.4 L80 188 L81.7 184.4"/>
+		<path pathLength="1" d="M150 211 L222 211"/>
+		<path pathLength="1" d="M222 211 L222 132 L262 132"/>
+		<path pathLength="1" d="M258.4 133.7 L262 132 L258.4 130.3"/>
+		<path pathLength="1" d="M222 211 L222 201 L262 201"/>
+		<path pathLength="1" d="M258.4 202.7 L262 201 L258.4 199.3"/>
+		<path pathLength="1" d="M222 211 L222 262 L262 262"/>
+		<path pathLength="1" d="M258.4 263.7 L262 262 L258.4 260.3"/>
+		<path pathLength="1" d="M10 178 L14 178 M17 178 L21 178 M24 178 L28 178 M31 178 L35 178 M38 178 L42 178 M45 178 L49 178 M52 178 L56 178 M59 178 L63 178 M66 178 L70 178 M73 178 L77 178 M80 178 L84 178 M87 178 L91 178 M94 178 L98 178 M101 178 L105 178 M108 178 L112 178 M115 178 L119 178 M122 178 L126 178 M129 178 L133 178 M136 178 L140 178 M143 178 L147 178 M150 178 L154 178 M157 178 L161 178 M164 178 L168 178 M168 181 L168 185 M168 188 L168 192 M168 195 L168 199 M168 202 L168 206 M168 209 L168 213 M168 216 L168 220 M168 223 L168 227 M168 230 L168 234 M168 237 L168 241 M168 244 L164 244 M161 244 L157 244 M154 244 L150 244 M147 244 L143 244 M140 244 L136 244 M133 244 L129 244 M126 244 L122 244 M119 244 L115 244 M112 244 L108 244 M105 244 L101 244 M98 244 L94 244 M91 244 L87 244 M84 244 L80 244 M77 244 L73 244 M70 244 L66 244 M63 244 L59 244 M56 244 L52 244 M49 244 L45 244 M42 244 L38 244 M35 244 L31 244 M28 244 L24 244 M21 244 L17 244 M14 244 L10 244 M10 241 L10 237 M10 234 L10 230 M10 227 L10 223 M10 220 L10 216 M10 213 L10 209 M10 206 L10 202 M10 199 L10 195 M10 192 L10 188 M10 185 L10 181"/>
+		<path pathLength="1" d="M186 202 L186 220"/>
+		<path pathLength="1" d="M190 202 L190 220"/>
+		<path pathLength="1" d="M190 146 L148 168"/>
+		<path pathLength="1" d="M150.4 164.8 L148 168 L152 167.9"/>
+		<path pathLength="1" d="M164 151 L174 161"/>
+		<path pathLength="1" d="M164 161 L174 151"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="80" y="35" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">POLITBURO PLAN</text>
+		<text x="80" y="75" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">UKRAINIAN SSR</text>
+		<text x="80" y="115" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OBLAST</text>
+		<text x="80" y="155" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RAION</text>
+		<text x="85" y="208" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COLLECTIVE FARM</text>
+		<text x="85" y="220" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VILLAGE</text>
+		<text x="322" y="135" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">STATE RESERVES</text>
+		<text x="322" y="204" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TOWNS · ARMY</text>
+		<text x="322" y="265" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EXPORT</text>
+		<text x="88" y="174" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">QUOTA</text>
+		<text x="188" y="197" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LAW 7·VIII·32</text>
+		<text x="192" y="142" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BLACK BOARD</text>
+		<text x="89" y="266" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NO EXIT · 22·I·33</text>
+		<text x="330" y="22" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">UKRAINE 1932–33</text>
+		<text x="330" y="34" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PLAN 5.83 → 3.77 MT</text>
+		<text x="330" y="46" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TAKEN 3.53 MT</text>
+	</g>
+</svg>

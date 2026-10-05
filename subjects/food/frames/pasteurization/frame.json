@@ -1,0 +1,426 @@
+{
+	"id": "pasteurization",
+	"topic": "Pasteurization",
+	"position": {
+		"label": "1864–65",
+		"sort": 1864
+	},
+	"asOf": "2026-10-04",
+	"scene": {
+		"headline": "We heated it just",
+		"accent": "ENOUGH.",
+		"palette": "frost",
+		"illustration": "scene.svg",
+		"metadata": ["ARBOIS · NEW YORK · CHICAGO", "LOUIS PASTEUR · NATHAN STRAUS · MILTON ROSENAU"],
+		"counter": {
+			"value": "72 °C",
+			"label": "for 15 seconds, the standard for milk"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/chirality",
+			"why": "Before he turned to the diseases of wine, Pasteur had studied the tartrates of wine casks, and about 1857 found that fermenting microbes eat one hand of tartaric acid and leave the other."
+		},
+		{
+			"to": "chemistry/enzymes",
+			"why": "Pasteur's proof that sugar ferments only with living yeast is the theory of fermentation from which he reasoned that heat, killing the microbes, would stop wine spoiling."
+		},
+		{
+			"to": "nursing/lister",
+			"why": "Lister built antiseptic surgery on the same work of Pasteur's that gave pasteurization: that putrefaction and spoilage are caused by living germs, which can be killed."
+		},
+		{
+			"to": "food/appert-canning",
+			"why": "Pasteur granted that Nicolas Appert had first proposed keeping wine by heating it, decades before Pasteur's own patent of 1865."
+		},
+		{
+			"to": "food/first-herds",
+			"why": "The cattle's tuberculosis bacillus, found by 1902 in children who had died of the disease, was the strongest argument for heating milk."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Études sur le vin, ses maladies, causes qui les provoquent, procédés nouveaux pour le conserver et pour le vieillir",
+			"authors": [
+				{
+					"family": "Pasteur",
+					"given": "Louis"
+				}
+			],
+			"place": "Paris",
+			"publisher": "Imprimerie impériale",
+			"published": "1866",
+			"language": "fr",
+			"url": "https://archive.org/details/bub_gb_87UvAQAAMAAJ",
+			"accessed": "2026-10-04",
+			"note": "The cause of the diseases is on pp. 12–13, the heating of bottles on pp. 161–62, Appert on p. 174, the patent of 11 April 1865 and the 50° minimum on pp. 230–31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pasteurization",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pasteurization&oldid=1366228867",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-26",
+			"key": true
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Grade \"A\" Pasteurized Milk Ordinance, 2025 Revision",
+			"authors": [
+				{
+					"name": "National Conference on Interstate Milk Shipments"
+				}
+			],
+			"publisher": "US Food and Drug Administration",
+			"place": "Silver Spring, MD",
+			"published": "2026",
+			"url": "https://www.fda.gov/media/193438/download",
+			"accessed": "2026-10-04",
+			"note": "The definition of pasteurization is on p. 11; regenerators, the flow-diversion device and the phosphatase test are in Item 16p and Appendix G"
+		},
+		{
+			"kind": "statute",
+			"title": "Mandatory pasteurization for all milk and milk products in final package form intended for direct human consumption",
+			"code": {
+				"volume": "21",
+				"name": "C.F.R."
+			},
+			"section": "§ 1240.61",
+			"container": "Electronic Code of Federal Regulations",
+			"url": "https://www.ecfr.gov/current/title-21/section-1240.61",
+			"accessed": "2026-10-04",
+			"published": "1987"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Disease in Milk, the Remedy Pasteurization: The Life Work of Nathan Straus",
+			"authors": [
+				{
+					"family": "Straus",
+					"given": "Lina Gutherz"
+				}
+			],
+			"edition": "2nd ed.",
+			"place": "New York",
+			"publisher": "E. P. Dutton",
+			"published": "1917",
+			"url": "https://archive.org/details/cu31924024558805",
+			"accessed": "2026-10-04",
+			"note": "Koch's claim of 1901 is on p. 21, the first depot on p. 74, the death rates on pp. 89–90"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Milk Question",
+			"authors": [
+				{
+					"family": "Rosenau",
+					"given": "Milton J."
+				}
+			],
+			"place": "Boston and New York",
+			"publisher": "Houghton Mifflin",
+			"published": "1912",
+			"url": "https://archive.org/details/milkquestion00rose",
+			"accessed": "2026-10-04",
+			"note": "Tubercle bacilli and 60 °C on pp. 121–22, certified milk on pp. 141–44"
+		},
+		{
+			"kind": "report",
+			"title": "Public Health Efforts and the Decline in Urban Mortality",
+			"authors": [
+				{
+					"family": "Anderson",
+					"given": "D. Mark"
+				},
+				{
+					"family": "Charles",
+					"given": "Kerwin Kofi"
+				},
+				{
+					"family": "Rees",
+					"given": "Daniel I."
+				}
+			],
+			"publisher": "National Bureau of Economic Research",
+			"number": "Working Paper 25027",
+			"place": "Cambridge, MA",
+			"published": "2018-09",
+			"doi": "10.3386/w25027",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Reexamining the Contribution of Public Health Efforts to the Decline in Urban Mortality",
+			"authors": [
+				{
+					"family": "Anderson",
+					"given": "D. Mark"
+				},
+				{
+					"family": "Charles",
+					"given": "Kerwin Kofi"
+				},
+				{
+					"family": "Rees",
+					"given": "Daniel I."
+				}
+			],
+			"container": "American Economic Journal: Applied Economics",
+			"volume": "14",
+			"issue": "2",
+			"pages": "126–157",
+			"published": "2022-04",
+			"doi": "10.1257/app.20190034",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "report",
+			"title": "The Public Health Effect of Mandatory and Voluntary Food Safety Measures: Generalized Synthetic Control Methods on Milk Pasteurization in the United States",
+			"authors": [
+				{
+					"family": "Wang",
+					"given": "Huiqiang"
+				},
+				{
+					"family": "Sproul",
+					"given": "Thomas W."
+				},
+				{
+					"family": "Lang",
+					"given": "Corey"
+				}
+			],
+			"publisher": "AgEcon Search",
+			"published": "2014",
+			"doi": "10.22004/ag.econ.169775",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "\"Pure Milk Is Better Than Purified Milk\": Pasteurization and Milk Purity in Chicago, 1908–1916",
+			"authors": [
+				{
+					"family": "Czaplicki",
+					"given": "Alan"
+				}
+			],
+			"container": "Social Science History",
+			"volume": "31",
+			"issue": "3",
+			"pages": "411–433",
+			"published": "2007",
+			"doi": "10.1215/01455532-2007-004",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "An Impossible Undertaking: The Eradication of Bovine Tuberculosis in the United States",
+			"authors": [
+				{
+					"family": "Olmstead",
+					"given": "Alan L."
+				},
+				{
+					"family": "Rhode",
+					"given": "Paul W."
+				}
+			],
+			"container": "Journal of Economic History",
+			"volume": "64",
+			"issue": "3",
+			"pages": "734–772",
+			"published": "2004",
+			"doi": "10.1017/S0022050704002955",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Foodborne Illness Outbreaks Linked to Unpasteurised Milk and Relationship to Changes in State Laws – United States, 1998–2018",
+			"authors": [
+				{
+					"family": "Koski",
+					"given": "Lia"
+				},
+				{
+					"family": "Kisselburgh",
+					"given": "Hannah"
+				},
+				{
+					"family": "Landsman",
+					"given": "Lisa"
+				},
+				{
+					"family": "Hulkower",
+					"given": "Rachel"
+				},
+				{
+					"family": "Howard-Williams",
+					"given": "Mara"
+				},
+				{
+					"family": "Salah",
+					"given": "Zainab"
+				},
+				{
+					"family": "Kim",
+					"given": "Sunkyung"
+				}
+			],
+			"etAl": true,
+			"container": "Epidemiology and Infection",
+			"volume": "150",
+			"pages": "e183",
+			"published": "2022",
+			"doi": "10.1017/S0950268822001649",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The Protective Effect of Farm Milk Consumption on Childhood Asthma and Atopy: The GABRIELA Study",
+			"authors": [
+				{
+					"family": "Loss",
+					"given": "Georg"
+				},
+				{
+					"family": "Apprich",
+					"given": "Silvia"
+				},
+				{
+					"family": "Waser",
+					"given": "Marco"
+				},
+				{
+					"family": "Kneifel",
+					"given": "Wolfgang"
+				},
+				{
+					"family": "Genuneit",
+					"given": "Jon"
+				},
+				{
+					"family": "Büchele",
+					"given": "Gisela"
+				},
+				{
+					"family": "Weber",
+					"given": "Juliane"
+				}
+			],
+			"etAl": true,
+			"container": "Journal of Allergy and Clinical Immunology",
+			"volume": "128",
+			"issue": "4",
+			"pages": "766–773.e4",
+			"published": "2011",
+			"doi": "10.1016/j.jaci.2011.07.048",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Louis Pasteur",
+			"url": "https://en.wikipedia.org/w/index.php?title=Louis_Pasteur&oldid=1378036531",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Swill milk scandal",
+			"url": "https://en.wikipedia.org/w/index.php?title=Swill_milk_scandal&oldid=1378548963",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nathan Straus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nathan_Straus&oldid=1378162842",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Franz von Soxhlet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Franz_von_Soxhlet&oldid=1253764387",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-10-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Raw milk",
+			"url": "https://en.wikipedia.org/w/index.php?title=Raw_milk&oldid=1378446073",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "media",
+			"title": "Maladie des vins tournés, montés, etc. (Vin du Cher), fig. 37, from Études sur le vin",
+			"authors": [
+				{
+					"family": "Pasteur",
+					"given": "Louis"
+				}
+			],
+			"container": "Science History Institute",
+			"published": "1866",
+			"url": "https://commons.wikimedia.org/wiki/File:%C3%89tudes_Sur_Le_Vin_-_DPLA_-_6275e69e008785ed0c5157682d458709_(page_12).jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "wine-disease.jpg",
+			"note": "Drawn from nature by F. Lackerbauer; published in Paris in 1866"
+		}
+	]
+}

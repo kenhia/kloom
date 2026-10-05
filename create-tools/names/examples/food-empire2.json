@@ -1,0 +1,38 @@
+{
+	"food/open-fields": [
+		["Charlemagne", "charlemagne"],
+		["Capitulare de villis", "capitulare-de-villis"],
+		["Polyptych of Irminon", "polyptych-of-irminon"],
+		["ard", "ard-plough"],
+		["carruca", "carruca"],
+		["Domesday Book", "domesday-book"],
+		["open-field system", "open-field-system"],
+		["Walter of Henley", "walter-of-henley"],
+		["ridge and furrow", "ridge-and-furrow"],
+		["three-field system", "three-field-system"],
+		["windmill", "windmill"],
+		["Lynn White", "lynn-townsend-white-jr"],
+		["Laxton", "laxton-nottinghamshire"],
+		["Black Death", "black-death"]
+	],
+	"food/chinampas": [
+		["Tenochtitlan", "tenochtitlan"],
+		["Lake Texcoco", "lake-texcoco"],
+		["chinampas", "chinampa"],
+		["Itzcoatl", "itzcoatl"],
+		["Aztec Empire", "aztec-empire"],
+		["ahuejote", "salix-bonplandiana"],
+		["Maize", "maize"],
+		["Codex Mendoza", "codex-mendoza"],
+		["Hernán Cortés", "hernan-cortes"],
+		["Tlatelolco", "tlatelolco-altepetl"],
+		["Bernal Díaz del Castillo", "bernal-diaz-del-castillo"],
+		["Smallpox", "smallpox"],
+		["cocoliztli", "cocoliztli-epidemics"],
+		["Xochimilco", "xochimilco"],
+		[
+			"Globally Important Agricultural Heritage System",
+			"globally-important-agricultural-heritage-systems"
+		]
+	]
+}

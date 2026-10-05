@@ -1,0 +1,431 @@
+{
+	"id": "vitamins",
+	"topic": "The discovery of vitamins",
+	"asOf": "2026-10-04",
+	"position": {
+		"label": "1912",
+		"sort": 1912
+	},
+	"scene": {
+		"headline": "We found what our food was",
+		"accent": "MISSING.",
+		"palette": "nitrogen",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BATAVIA · CAMBRIDGE · LONDON · MADISON · MISSISSIPPI",
+			"EIJKMAN · HOPKINS · FUNK · MCCOLLUM · GOLDBERGER"
+		],
+		"counter": {
+			"value": "300×",
+			"label": "beriberi in Java's prisons on polished rice, against whole"
+		}
+	},
+	"connections": [
+		{
+			"to": "blood/warfarin",
+			"why": "Vitamin K, which Henrik Dam found in chicks that bled on fat-free feed, is the vitamin warfarin starves the liver of, and the antidote to it."
+		},
+		{
+			"to": "chemistry/crystallography",
+			"why": "Vitamin B12, the last of the vitamins in this frame's table, had its structure solved by Dorothy Hodgkin with X-ray crystallography in 1955–56."
+		},
+		{
+			"to": "food/maize",
+			"why": "Pellagra followed a diet of maize and little else; Goldberger showed in 1915 that its cause was the diet of poverty."
+		}
+	],
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Antineuritic Vitamin and Beriberi",
+			"authors": [
+				{
+					"family": "Eijkman",
+					"given": "Christiaan"
+				}
+			],
+			"container": "Nobel Lectures, Physiology or Medicine 1922–1941",
+			"publisher": "Elsevier",
+			"place": "Amsterdam",
+			"published": "1965",
+			"url": "https://www.nobelprize.org/prizes/medicine/1929/eijkman/lecture/",
+			"accessed": "2026-10-04",
+			"note": "Nobel lecture for 1929: the chickens, the dates and Vorderman's prisons"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Earlier History of Vitamin Research",
+			"authors": [
+				{
+					"family": "Hopkins",
+					"given": "Frederick Gowland"
+				}
+			],
+			"container": "Nobel Lectures, Physiology or Medicine 1922–1941",
+			"publisher": "Elsevier",
+			"place": "Amsterdam",
+			"published": "1965",
+			"url": "https://www.nobelprize.org/prizes/medicine/1929/hopkins/lecture/",
+			"accessed": "2026-10-04",
+			"note": "Nobel lecture of 11 December 1929, with his account of the dispute with Funk"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Feeding Experiments Illustrating the Importance of Accessory Factors in Normal Dietaries",
+			"authors": [
+				{
+					"family": "Hopkins",
+					"given": "F. Gowland"
+				}
+			],
+			"container": "The Journal of Physiology",
+			"volume": "44",
+			"issue": "5–6",
+			"pages": "425–460",
+			"published": "1912",
+			"doi": "10.1113/jphysiol.1912.sp001524",
+			"url": "https://archive.org/details/sim_journal-of-physiology_the-journal-of-physiology_1912_44",
+			"accessed": "2026-10-04",
+			"note": "Read in the Internet Archive's scan of volume 44; Experiment II and Fig. 2 are on p. 433"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Experimental Pellagra in the Human Subject Brought About by a Restricted Diet",
+			"authors": [
+				{
+					"family": "Goldberger",
+					"given": "Joseph"
+				},
+				{
+					"family": "Wheeler",
+					"given": "G. A."
+				}
+			],
+			"container": "Public Health Reports",
+			"volume": "30",
+			"issue": "46",
+			"pages": "3336–3339",
+			"published": "1915-11-12",
+			"url": "https://archive.org/details/sim_public-health-reports_1915-11-12_30_46",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "The Necessity of Certain Lipins in the Diet During Growth",
+			"authors": [
+				{
+					"family": "McCollum",
+					"given": "E. V."
+				},
+				{
+					"family": "Davis",
+					"given": "Marguerite"
+				}
+			],
+			"container": "Journal of Biological Chemistry",
+			"volume": "15",
+			"issue": "1",
+			"pages": "167–175",
+			"published": "1913",
+			"doi": "10.1016/S0021-9258(18)88553-2",
+			"accessed": "2026-10-04",
+			"note": "Read in the Internet Archive's scan of volume 15"
+		},
+		{
+			"kind": "article",
+			"title": "Effectiveness of Food Fortification in the United States: The Case of Pellagra",
+			"authors": [
+				{
+					"family": "Park",
+					"given": "Youngmee K."
+				},
+				{
+					"family": "Sempos",
+					"given": "Christopher T."
+				},
+				{
+					"family": "Barton",
+					"given": "Curtis N."
+				},
+				{
+					"family": "Vanderveen",
+					"given": "John E."
+				},
+				{
+					"family": "Yetley",
+					"given": "Elizabeth A."
+				}
+			],
+			"container": "American Journal of Public Health",
+			"volume": "90",
+			"issue": "5",
+			"pages": "727–738",
+			"published": "2000",
+			"doi": "10.2105/ajph.90.5.727",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Christiaan Eijkman (1856–1930)",
+			"authors": [
+				{
+					"family": "Pietrzak",
+					"given": "Krzysztof"
+				}
+			],
+			"container": "Journal of Neurology",
+			"volume": "266",
+			"issue": "11",
+			"pages": "2893–2895",
+			"published": "2019",
+			"doi": "10.1007/s00415-018-9162-7",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "statute",
+			"title": "Enriched flour",
+			"code": {
+				"volume": "21",
+				"name": "C.F.R."
+			},
+			"section": "§ 137.165",
+			"published": "1977-03-15",
+			"container": "Electronic Code of Federal Regulations",
+			"url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-137/subpart-B/section-137.165",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vitamin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vitamin&oldid=1356488115",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-28",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Christiaan Eijkman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Christiaan_Eijkman&oldid=1375863080",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gerrit Grijns",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gerrit_Grijns&oldid=1371999652",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Casimir Funk",
+			"url": "https://en.wikipedia.org/w/index.php?title=Casimir_Funk&oldid=1375833641",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Elmer McCollum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Elmer_McCollum&oldid=1375171773",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Goldberger",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Goldberger&oldid=1377705224",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pellagra",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pellagra&oldid=1375630063",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Enriched flour",
+			"url": "https://en.wikipedia.org/w/index.php?title=Enriched_flour&oldid=1365065684",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Food fortification",
+			"url": "https://en.wikipedia.org/w/index.php?title=Food_fortification&oldid=1374065894",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vitamin C",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vitamin_C&oldid=1378490308",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vitamin D",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vitamin_D&oldid=1378586374",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vitamin K",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vitamin_K&oldid=1359634094",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vitamin B12",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vitamin_B12&oldid=1376408665",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henrik Dam",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henrik_Dam&oldid=1372649670",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thiamine deficiency",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thiamine_deficiency&oldid=1377763872",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "media",
+			"title": "Fig. 2: growth of two sets of rats, with the milk moved from one to the other on the 18th day",
+			"authors": [
+				{
+					"family": "Hopkins",
+					"given": "F. Gowland"
+				}
+			],
+			"container": "The Journal of Physiology, vol. 44, p. 433",
+			"published": "1912",
+			"url": "https://archive.org/details/sim_journal-of-physiology_the-journal-of-physiology_1912_44/page/n442",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"note": "Published in 1912",
+			"file": "hopkins-curves.jpg"
+		}
+	]
+}

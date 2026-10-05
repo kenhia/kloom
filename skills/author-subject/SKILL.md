@@ -195,6 +195,22 @@ bookkeeping rule, the Millennium Problems' count, a twin-prime bound and
 the RSA records), and sprints 025 and 026 had about forty more between
 them. Each was caught only because an author read the source, so the
 "leads, not sources" line is what makes the brief safe to be wrong.
+Sprint 051's 24 paragraphs were wrong in nearly every part again (a
+patent's "reciprocating blades" that were endless bands, the 1935 storm
+that did not reach Washington, a "first" order that was the fifteenth).
+A frame about **the present state of something** gets a lead that says
+"the latest edition", not a year: sprint 051's said SOFI 2025, and SOFI
+2026 had been out for ten weeks.
+**List the widely shared names in `owners` too**, not only the subject's
+own crops or devices: the places, institutions and scholars several
+parts will name (sprint 051's `chicago`, `kolkata`, `dorian-fuller`,
+`anatolia`, Churchill and the vitamin names were drafted at the same
+moment by two parts each, because nothing listed them). **Build each
+part's checking command from what it will borrow**, every owner
+directory its marks need, and say that `names.py drafts <subject> --part
+<part>` finds the rest; sprint 051's commands named the wrong directories
+for a third of the parts. A message to an author mid-run starts with the
+part it is for: one of sprint 051's went to the wrong agent.
 **Run `names.py lookup` on every name id the brief gives an author.** It
 is a fact like the others, and cheaper to check than a date: sprint 028's
 brief, written from memory, named thirteen ids that were wrong (`de-motu-cordis`

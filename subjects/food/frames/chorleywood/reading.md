@@ -1,0 +1,30 @@
+In July 1961 the British Baking Industries Research Association, a laboratory paid for by bakers and the government at **[Chorleywood](kloom:e/chorleywood)**, outside London, published its Report No. 59. It described a way to make a loaf without waiting for the dough to ferment. Three years later the Association showed it at the **[Royal Society](kloom:e/royal-society)**, whose note of the evening put it in one sentence: "By the intense application of a fixed quantity of mechanical energy to the dough the period of bulk dough fermentation can be reduced from three hours to a few minutes." The **[Chorleywood bread process](kloom:e/chorleywood-bread-process)** was the work of Bill Collins, Norman Chamberlain and the Association's director of research, George Elton.
+
+It began as a rescue. In the 1950s Britain's small family bakeries were losing to big plants, among them the Weston company's, which baked with imported Canadian **[wheat](kloom:e/wheat)**. That wheat was rich in the proteins that make a strong dough, and British wheat was not. The small bakers asked the Association for help.
+
+## Work instead of time
+
+A wheat flour holds two proteins, glutenins and gliadins, coiled up when dry. With water and kneading they uncoil and bond into gluten, a stretchy net that traps the carbon dioxide the **[yeast](kloom:e/yeast)** gives off and lets the loaf rise. In the old method the mixed dough then sat for about three hours, its bulk fermentation: the yeast's bubbles stretched the gluten, its bonds broke and formed again, and the dough grew strong. The Chorleywood team, running about 30 experiments a day, found that the quality of the [bread](kloom:e/bread) depended almost entirely on the energy put into the dough while mixing, and that the best was about 11 watt-hours for each kilogram, delivered in a few minutes in a high-speed mixer. Mechanical work broke the gluten's bonds; an oxidizing improver, at first **[potassium bromate](kloom:e/potassium-bromate)** and since its ban in Europe [ascorbic acid](kloom:e/vitamin-c), vitamin C, helped them form again; a little hard fat made the dough extensible; and twice the usual yeast made up for the lost hours.
+
+| Stage                     | Bulk fermentation (the old way) | Chorleywood                                  |
+| ------------------------- | ------------------------------- | -------------------------------------------- |
+| Mix                       | flour, water, yeast, salt       | the same, with improver and fat, 2–5 minutes |
+| Work put into the dough   | kneading                        | about 11 Wh a kilogram                       |
+| Bulk fermentation         | about 3 hours                   | none                                         |
+| Rest after dividing       |                                 | about 8 minutes                              |
+| Proof in the tin          |                                 | 45–50 minutes                                |
+| Bake                      |                                 | 17–25 minutes                                |
+| Cool, then slice and wrap |                                 | about 2 hours                                |
+| Flour to wrapped loaf     | 5 to 6 hours                    | 3 to 3½ hours                                |
+
+The plate sets the two schedules side by side. Bakers also add [enzymes](kloom:e/enzyme): amylases break the flour's starch into the sugars the yeast ferments to carbon dioxide, and added ones work faster than the flour's own. Elton claimed, in 1969, that the process gave bread "better in respect of volume, texture, colour and keeping qualities" than the three-hour method, and "indistinguishable in flavour"; and, he added, "it also increases the yield of bread from flour by about 4 per cent".
+
+## Who it served
+
+Because the mixer did the work that strong gluten had done, the process could use more of Britain's own soft wheat. By one estimate imports of Canadian wheat fell from about 2.5 million tonnes a year in the early 1960s to 300,000. The Association published its method rather than patenting it, and drove a mixer round the country in a van to show it to more than a thousand bakers. But it was the big plants, with the capital for high-speed mixers, that took it up, and the small bakers it was meant to save closed in their thousands. By 2020 more than 80 percent of the bread baked in Britain and Ireland was made this way, and the process had spread to Australia, South Africa, South America and beyond.
+
+## Real bread?
+
+Its critics say the loaf is cheap at a cost. The baker Andrew Whitley, in his book _Bread Matters_ (2006), condemned its flavor and texture, and the Real Bread Campaign argues that longer fermentation may make bread easier to digest. The evidence is thin either way. Many people who believe bread disagrees with them show no reaction in blind tests: three-quarters of them, the BBC reported in 2011. A study of 2014, with Whitley among its authors, fed three kinds of bread to gut bacteria from three healthy donors and three with **[irritable bowel syndrome](kloom:e/irritable-bowel-syndrome)**, in flasks. A **[sourdough](kloom:e/sourdough)** gave less gas than a Chorleywood loaf in the samples from the patients, but a conventional bread fermented for 16 hours gave almost exactly as much as the Chorleywood one, and the authors could neither confirm nor reject the claim that the extra yeast causes symptoms.
+
+What the critics did change was the market. Long-fermented loaves, raised with a sourdough starter of wild yeasts and lactic bacteria much as Pliny described, came back in independent bakeries, at a higher price. Supermarkets answered with loaves labeled sourdough; the industry's code of practice for the word, drawn up in 2019, allows pure yeast where "space and skills are lacking", and suppliers sell a sourdough flavoring that turns an ordinary loaf into one. The oldest bread in the trail, baked at Shubayqa 14,400 years ago, had no yeast at all.

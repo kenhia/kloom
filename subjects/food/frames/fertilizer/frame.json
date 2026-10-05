@@ -1,0 +1,372 @@
+{
+	"id": "fertilizer",
+	"topic": "Fertilizer from the air",
+	"asOf": "2026-10-04",
+	"position": {
+		"label": "1909",
+		"sort": 1909
+	},
+	"scene": {
+		"headline": "We fed the fields from the",
+		"accent": "AIR.",
+		"palette": "nitrogen",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LIEBIG · GUANO · CHILE SALTPETER · HABER–BOSCH",
+			"115 MILLION TONNES OF NITROGEN A YEAR"
+		],
+		"counter": {
+			"value": "48%",
+			"label": "of humanity fed by synthetic nitrogen, 2008 (Erisman et al.)"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/haber-bosch",
+			"why": "The Haber–Bosch frame tells the chemistry and the plant that made ammonia from the air; this one follows the ammonia onto the fields, where it grows about half of the world's food."
+		},
+		{
+			"to": "western-civ/great-war",
+			"why": "The British blockade of the First World War cut Germany off from Chilean nitrate, and the Haber process made its explosives instead, before it made fertilizer for the world."
+		},
+		{
+			"to": "chemistry/gunpowder",
+			"why": "Crookes warned in 1898 that running out of fixed nitrogen would mean \"even the extinction of gunpowder\", whose oxidizer, saltpeter, is a nitrate like the ones the fields needed."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Nitrogen Cycle and World Food Production",
+			"authors": [
+				{
+					"family": "Smil",
+					"given": "Vaclav"
+				}
+			],
+			"container": "World Agriculture",
+			"pages": "9–13",
+			"published": "2011",
+			"url": "https://vaclavsmil.com/wp-content/uploads/2024/10/smil-article-worldagriculture.pdf",
+			"accessed": "2026-10-04",
+			"note": "The protein accounting, field recovery and the losses"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Detonator of the Population Explosion",
+			"authors": [
+				{
+					"family": "Smil",
+					"given": "Vaclav"
+				}
+			],
+			"container": "Nature",
+			"volume": "400",
+			"pages": "415",
+			"published": "1999-07-29",
+			"doi": "10.1038/22672",
+			"url": "https://vaclavsmil.com/wp-content/uploads/2024/10/smil-article-1999-nature7.pdf",
+			"accessed": "2026-10-04",
+			"note": "Haber's letter of 3 July 1909, and \"almost two-fifths\""
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Wheat Problem: Based on Remarks Made in the Presidential Address to the British Association at Bristol in 1898, Revised, with an Answer to Various Critics",
+			"authors": [
+				{
+					"family": "Crookes",
+					"given": "William"
+				}
+			],
+			"publisher": "John Murray",
+			"place": "London",
+			"published": "1899",
+			"url": "https://archive.org/details/wheatproblembase00croorich",
+			"accessed": "2026-10-04",
+			"note": "The quotations are on pp. 3, 39, 44 and 46"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Natural Laws of Husbandry",
+			"authors": [
+				{
+					"family": "Liebig",
+					"given": "Justus von"
+				}
+			],
+			"editors": [
+				{
+					"family": "Blyth",
+					"given": "John"
+				}
+			],
+			"publisher": "D. Appleton and Company",
+			"place": "New York",
+			"published": "1863",
+			"url": "https://archive.org/details/cu31924000914592",
+			"accessed": "2026-10-04",
+			"note": "The law of the minimum is on p. 207"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "FAOSTAT: Fertilizers by Nutrient",
+			"authors": [
+				{
+					"name": "Food and Agriculture Organization of the United Nations"
+				}
+			],
+			"container": "FAOSTAT",
+			"url": "https://www.fao.org/faostat/en/#data/RFN",
+			"accessed": "2026-10-04",
+			"note": "Agricultural use of nitrogen, total and per hectare of cropland, read from the bulk download"
+		},
+		{
+			"kind": "web",
+			"title": "FAOSTAT: Crops and Livestock Products",
+			"authors": [
+				{
+					"name": "Food and Agriculture Organization of the United Nations"
+				}
+			],
+			"container": "FAOSTAT",
+			"url": "https://www.fao.org/faostat/en/#data/QCL",
+			"accessed": "2026-10-04",
+			"note": "World cereal yield and area, read from the bulk download"
+		},
+		{
+			"kind": "article",
+			"title": "How a Century of Ammonia Synthesis Changed the World",
+			"authors": [
+				{
+					"family": "Erisman",
+					"given": "Jan Willem"
+				},
+				{
+					"family": "Sutton",
+					"given": "Mark A."
+				},
+				{
+					"family": "Galloway",
+					"given": "James"
+				},
+				{
+					"family": "Klimont",
+					"given": "Zbigniew"
+				},
+				{
+					"family": "Winiwarter",
+					"given": "Wilfried"
+				}
+			],
+			"container": "Nature Geoscience",
+			"volume": "1",
+			"issue": "10",
+			"pages": "636–639",
+			"published": "2008-09-28",
+			"doi": "10.1038/ngeo325",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "How Many People Does Synthetic Fertilizer Feed?",
+			"authors": [
+				{
+					"family": "Ritchie",
+					"given": "Hannah"
+				}
+			],
+			"container": "Our World in Data",
+			"published": "2017",
+			"url": "https://ourworldindata.org/how-many-people-does-synthetic-fertilizer-feed",
+			"accessed": "2026-10-04",
+			"note": "Smil's method and Erisman and colleagues' 48 percent"
+		},
+		{
+			"kind": "article",
+			"title": "Spreading Dead Zones and Consequences for Marine Ecosystems",
+			"authors": [
+				{
+					"family": "Díaz",
+					"given": "Robert J."
+				},
+				{
+					"family": "Rosenberg",
+					"given": "Rutger"
+				}
+			],
+			"container": "Science",
+			"volume": "321",
+			"issue": "5891",
+			"pages": "926–929",
+			"published": "2008-08-15",
+			"doi": "10.1126/science.1156401",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "book",
+			"title": "Melbourne, and the Chincha Islands; with Sketches of Lima, and a Voyage Round the World",
+			"authors": [
+				{
+					"family": "Peck",
+					"given": "George Washington"
+				}
+			],
+			"publisher": "Charles Scribner",
+			"place": "New York",
+			"published": "1854",
+			"url": "https://archive.org/details/melbourneandchi00peckgoog",
+			"accessed": "2026-10-04",
+			"note": "The guano diggers are on p. 215"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Liebig's law of the minimum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Liebig's_law_of_the_minimum&oldid=1368998221",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Guano",
+			"url": "https://en.wikipedia.org/w/index.php?title=Guano&oldid=1378021001",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of Peru (1845–1866)",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_Peru_(1845%E2%80%931866)&oldid=1341970290",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "War of the Pacific",
+			"url": "https://en.wikipedia.org/w/index.php?title=War_of_the_Pacific&oldid=1378026562",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of the Haber process",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_the_Haber_process&oldid=1376251568",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nitrogen fixation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nitrogen_fixation&oldid=1375800692",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fertilizer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fertilizer&oldid=1375961596",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dead zone (ecology)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dead_zone_(ecology)&oldid=1371804234",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "media",
+			"title": "Loading Cars with Guano at the Great Heap, Chincha Islands",
+			"authors": [
+				{
+					"family": "Moulton",
+					"given": "Henry de Witt"
+				}
+			],
+			"container": "Rays of Sunlight from South America, Bibliothèque nationale de France",
+			"published": "1865",
+			"url": "https://commons.wikimedia.org/wiki/File:Guano_Mining_in_Chincha_Islands_Peru_(1865)_Moulton.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "guano.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "World agricultural use of nitrogen fertilizer, 1961 to 2024",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "FAOSTAT, Fertilizers by Nutrient (agricultural use of nitrogen, World), Food and Agriculture Organization of the United Nations",
+			"url": "https://www.fao.org/faostat/en/#data/RFN",
+			"accessed": "2026-10-04",
+			"licence": "MIT",
+			"file": "nitrogen-use.svg"
+		}
+	]
+}

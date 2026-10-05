@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Uses of the United States potato crop, 2025</title>
+<desc id="d">Bar chart of the main uses of the 2025 United States potato crop, in millions of hundredweight: frozen french fries 159.7, fresh table stock 101.5, chips and shoestrings 58.3, dehydrated products 42.1, seed sold 18.7 and other frozen products 13.4, out of total production of 417.6. Data: USDA National Agricultural Statistics Service, Potatoes 2025 Summary, September 2026.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="460" y1="178.7" y2="178.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="182.7" text-anchor="end">60</text>
+<line x1="64" x2="460" y1="107.3" y2="107.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">120</text>
+<line x1="64" x2="460" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">180</text>
+</g>
+<rect x="73.0" y="60.1" width="48" height="189.9" class="accent" fill="currentColor"/>
+<text x="97.0" y="54.1" text-anchor="middle">159.7</text>
+<text x="97.0" y="266" text-anchor="middle">Fries</text>
+<text x="97.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">frozen</text>
+<rect x="139.0" y="129.3" width="48" height="120.7" fill-opacity="0.85"/>
+<text x="163.0" y="123.3" text-anchor="middle">101.5</text>
+<text x="163.0" y="266" text-anchor="middle">Table</text>
+<text x="163.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">fresh</text>
+<rect x="205.0" y="180.7" width="48" height="69.3" fill-opacity="0.85"/>
+<text x="229.0" y="174.7" text-anchor="middle">58.3</text>
+<text x="229.0" y="266" text-anchor="middle">Chips</text>
+<rect x="271.0" y="199.9" width="48" height="50.1" fill-opacity="0.85"/>
+<text x="295.0" y="193.9" text-anchor="middle">42.1</text>
+<text x="295.0" y="266" text-anchor="middle">Dried</text>
+<rect x="337.0" y="227.8" width="48" height="22.2" fill-opacity="0.85"/>
+<text x="361.0" y="221.8" text-anchor="middle">18.7</text>
+<text x="361.0" y="266" text-anchor="middle">Seed</text>
+<text x="361.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">sold</text>
+<rect x="403.0" y="234.1" width="48" height="15.9" fill-opacity="0.85"/>
+<text x="427.0" y="228.1" text-anchor="middle">13.4</text>
+<text x="427.0" y="266" text-anchor="middle">Other</text>
+<text x="427.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">frozen</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">2025 US POTATO CROP · MILLION CWT</text>
+</g></svg>

@@ -1,0 +1,295 @@
+{
+	"id": "hunger-now",
+	"topic": "Hunger and food security today",
+	"position": {
+		"label": "2025",
+		"sort": 2025
+	},
+	"asOf": "2026-10-04",
+	"scene": {
+		"headline": "We grow enough, yet 645 million go",
+		"accent": "HUNGRY.",
+		"palette": "nitrogen",
+		"illustration": "scene.svg",
+		"metadata": [
+			"FAO · IFAD · UNICEF · WFP · WHO · ROME, JULY 2026",
+			"UNDERNOURISHMENT · FOOD INSECURITY · FAMINE"
+		],
+		"counter": {
+			"value": "645,000,000",
+			"label": "people facing hunger in 2025"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/udhr",
+			"why": "Article 25 of the Universal Declaration names food in the standard of living due to everyone, the right against which hunger is counted today and which Sustainable Development Goal 2 set out to secure by 2030."
+		},
+		{
+			"to": "food/bengal-1943",
+			"why": "Sen's paradox, that famine is some people not having enough food to eat rather than there being too little, comes from his study of Bengal in 1943."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The State of Food Security and Nutrition in the World 2026: Understanding and Addressing the High Cost of a Healthy Diet",
+			"authors": [
+				{
+					"name": "FAO"
+				},
+				{
+					"name": "IFAD"
+				},
+				{
+					"name": "UNICEF"
+				},
+				{
+					"name": "WFP"
+				},
+				{
+					"name": "WHO"
+				}
+			],
+			"publisher": "FAO",
+			"place": "Rome",
+			"published": "2026-07-21",
+			"doi": "10.4060/cd8306en",
+			"url": "https://openknowledge.fao.org/3/cd8306en/online/cd8306en.html",
+			"accessed": "2026-10-04",
+			"read": "excerpt",
+			"note": "Read in its core messages, section 2.1, Box 2.2 and Annex 1B, the methods"
+		},
+		{
+			"kind": "web",
+			"title": "FAOSTAT: Suite of Food Security Indicators",
+			"authors": [
+				{
+					"name": "FAO"
+				}
+			],
+			"container": "FAOSTAT",
+			"publisher": "Food and Agriculture Organization of the United Nations",
+			"published": "2026-07",
+			"url": "https://www.fao.org/faostat/en/#data/FS",
+			"accessed": "2026-10-04",
+			"note": "The bulk download of July 2026: undernourishment, food supply and requirements by year"
+		},
+		{
+			"kind": "report",
+			"title": "Methods for Estimating Comparable Prevalence Rates of Food Insecurity Experienced by Adults throughout the World",
+			"authors": [
+				{
+					"family": "Cafiero",
+					"given": "Carlo"
+				},
+				{
+					"family": "Nord",
+					"given": "Mark"
+				},
+				{
+					"family": "Viviani",
+					"given": "Sara"
+				},
+				{
+					"family": "Del Grossi",
+					"given": "Mauro Eduardo"
+				},
+				{
+					"family": "Ballard",
+					"given": "Terri"
+				},
+				{
+					"family": "Kepple",
+					"given": "Anne"
+				},
+				{
+					"family": "Miller",
+					"given": "Meghan"
+				}
+			],
+			"etAl": true,
+			"number": "Voices of the Hungry Technical Report 1",
+			"edition": "Rev. ed.",
+			"publisher": "FAO",
+			"place": "Rome",
+			"published": "2016-08",
+			"url": "https://www.fao.org/3/i4830e/i4830e.pdf",
+			"accessed": "2026-10-04",
+			"note": "The eight questions are in its Table 2-1; the thresholds in section 6"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Gaza Strip: Famine Confirmed in Gaza Governorate, Projected to Expand, 1 July–30 September 2025",
+			"authors": [
+				{
+					"name": "IPC Global Initiative"
+				}
+			],
+			"publisher": "Integrated Food Security Phase Classification",
+			"published": "2025-08-22",
+			"url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/docs/IPC_Gaza_Strip_Acute_Food_Insecurity_Malnutrition_July_Sept2025_Special_Snapshot.pdf",
+			"accessed": "2026-10-04",
+			"note": "Read in the copy the European Commission hosts; the famine thresholds are on p. 4"
+		},
+		{
+			"kind": "web",
+			"title": "UN Agencies Welcome News That Famine Has Been Pushed Back in the Gaza Strip, but Warn Fragile Gains Could Be Reversed without Increased and Sustained Support",
+			"authors": [
+				{
+					"name": "FAO, UNICEF, WFP and WHO"
+				}
+			],
+			"container": "World Health Organization",
+			"published": "2025-12-19",
+			"url": "https://www.who.int/news/item/19-12-2025-un-agencies-welcome-news-that-famine-has-been-pushed-back-in-the-gaza-strip-but-warn-fragile-gains-could-be-reversed-without-increased-and-sustained-support",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gaza Strip famine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gaza_Strip_famine&oldid=1375413346",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "web",
+			"title": "Famine Conditions Confirmed in Sudan's El Fasher and Kadugli, but Hunger and Malnutrition Ease Where Conflict Subsides",
+			"authors": [
+				{
+					"name": "World Food Programme"
+				}
+			],
+			"container": "World Food Programme",
+			"published": "2025-11-04",
+			"url": "https://www.wfp.org/news/famine-conditions-confirmed-sudans-el-fasher-and-kadugli-hunger-and-malnutrition-ease-where",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Famine in Sudan (2024–present)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Famine_in_Sudan_(2024%E2%80%93present)&oldid=1374141996",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "web",
+			"title": "Acute Hunger Grips Nearly 20 Million People in War-Battered Sudan, Says IPC",
+			"authors": [
+				{
+					"name": "Al Jazeera"
+				}
+			],
+			"container": "Al Jazeera",
+			"published": "2026-05-14",
+			"url": "https://www.aljazeera.com/news/2026/5/14/acute-hunger-grips-nearly-20-million-people-in-war-battered-sudan-says-ipc",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Integrated Food Security Phase Classification",
+			"url": "https://en.wikipedia.org/w/index.php?title=Integrated_Food_Security_Phase_Classification&oldid=1372589327",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "chapter",
+			"title": "Poverty and Entitlements",
+			"authors": [
+				{
+					"family": "Sen",
+					"given": "Amartya"
+				}
+			],
+			"container": "Poverty and Famines: An Essay on Entitlement and Deprivation",
+			"publisher": "Oxford University Press",
+			"place": "Oxford",
+			"published": "1981",
+			"doi": "10.1093/0198284632.003.0001",
+			"accessed": "2026-10-04",
+			"read": "excerpt",
+			"note": "Read in its abstract, and its opening sentences checked through the Internet Archive's full-text search snippets of the 1999 printing"
+		},
+		{
+			"kind": "web",
+			"title": "Universal Declaration of Human Rights",
+			"authors": [
+				{
+					"name": "United Nations General Assembly"
+				}
+			],
+			"container": "United Nations",
+			"published": "1948-12-10",
+			"url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+			"accessed": "2026-10-04",
+			"note": "Article 25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Right to food",
+			"url": "https://en.wikipedia.org/w/index.php?title=Right_to_food&oldid=1374796501",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sustainable Development Goal 2",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sustainable_Development_Goal_2&oldid=1352681117",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-05",
+			"key": true
+		},
+		{
+			"kind": "media",
+			"title": "Prevalence of undernourishment in the world, 2001–2025",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "FAOSTAT, Suite of Food Security Indicators (FAO, July 2026 release), annual values",
+			"url": "https://www.fao.org/faostat/en/#data/FS",
+			"accessed": "2026-10-04",
+			"licence": "MIT",
+			"file": "undernourishment.svg"
+		}
+	]
+}

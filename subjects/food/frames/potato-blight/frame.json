@@ -1,0 +1,284 @@
+{
+	"id": "potato-blight",
+	"topic": "Potato blight and its cause",
+	"position": {
+		"label": "1845–61",
+		"sort": 1861
+	},
+	"scene": {
+		"headline": "The blight was",
+		"accent": "ALIVE.",
+		"palette": "hayrick",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BELGIUM · IRELAND · LONDON · FREIBURG",
+			"BERKELEY · DE BARY · PHYTOPHTHORA INFESTANS"
+		],
+		"counter": {
+			"value": "8 days",
+			"label": "for sown spores to rot a buried tuber, in de Bary's trials"
+		}
+	},
+	"connections": [
+		{
+			"to": "food/irish-famine",
+			"why": "The blight whose cause this frame traces rotted the potato on which Ireland's poorest third lived, beginning the Great Famine of 1845."
+		},
+		{
+			"to": "western-civ/revolutions-of-1848",
+			"why": "The revolutions of 1848 followed years of hunger that began with this potato blight in 1845, which that frame names among their causes."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Observations, Botanical and Physiological, on the Potato Murrain",
+			"authors": [
+				{
+					"family": "Berkeley",
+					"given": "M. J."
+				}
+			],
+			"container": "Journal of the Horticultural Society of London",
+			"volume": "1",
+			"pages": "9–34",
+			"published": "1846",
+			"url": "https://archive.org/details/journalofhorticusl01hort",
+			"accessed": "2026-10-04",
+			"note": "Lindley's view is quoted on p. 19; \"the consequence of the presence of the mould\", p. 23"
+		},
+		{
+			"kind": "article",
+			"title": "Leading article of 23 August 1845",
+			"authors": [
+				{
+					"family": "Lindley",
+					"given": "John"
+				}
+			],
+			"container": "The Gardeners' Chronicle",
+			"published": "1845-08-23",
+			"citedIn": "Observations, Botanical and Physiological, on the Potato Murrain"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Die gegenwärtig herrschende Kartoffelkrankheit, ihre Ursache und ihre Verhütung",
+			"authors": [
+				{
+					"family": "de Bary",
+					"given": "Anton"
+				}
+			],
+			"place": "Leipzig",
+			"publisher": "A. Förstner'sche Buchhandlung (Arthur Felix)",
+			"published": "1861",
+			"language": "de",
+			"url": "https://archive.org/details/diegegenwrtighe00barygoog",
+			"accessed": "2026-10-04",
+			"note": "The infection experiments, pp. 32–34"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phytophthora infestans",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phytophthora_infestans&oldid=1377165024",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Heinrich Anton de Bary",
+			"url": "https://en.wikipedia.org/w/index.php?title=Heinrich_Anton_de_Bary&oldid=1371217474",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Miles Joseph Berkeley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Miles_Joseph_Berkeley&oldid=1358706948",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Lindley",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Lindley&oldid=1372466259",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Germ theory of disease",
+			"url": "https://en.wikipedia.org/w/index.php?title=Germ_theory_of_disease&oldid=1363463071",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bordeaux mixture",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bordeaux_mixture&oldid=1378432885",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pierre-Marie-Alexis Millardet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pierre-Marie-Alexis_Millardet&oldid=1371985386",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Rise and Fall of the Phytophthora infestans Lineage That Triggered the Irish Potato Famine",
+			"authors": [
+				{
+					"family": "Yoshida",
+					"given": "Kentaro"
+				},
+				{
+					"family": "Schuenemann",
+					"given": "Verena J."
+				},
+				{
+					"family": "Cano",
+					"given": "Liliana M."
+				},
+				{
+					"family": "Pais",
+					"given": "Marina"
+				},
+				{
+					"family": "Mishra",
+					"given": "Bagdevi"
+				},
+				{
+					"family": "Sharma",
+					"given": "Rahul"
+				},
+				{
+					"family": "Lanz",
+					"given": "Christa"
+				}
+			],
+			"etAl": true,
+			"container": "eLife",
+			"volume": "2",
+			"pages": "e00731",
+			"published": "2013-05-28",
+			"doi": "10.7554/eLife.00731",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "The Irish Potato Famine Pathogen Phytophthora infestans Originated in Central Mexico Rather Than the Andes",
+			"authors": [
+				{
+					"family": "Goss",
+					"given": "Erica M."
+				},
+				{
+					"family": "Tabima",
+					"given": "Javier F."
+				},
+				{
+					"family": "Cooke",
+					"given": "David E. L."
+				},
+				{
+					"family": "Restrepo",
+					"given": "Silvia"
+				},
+				{
+					"family": "Fry",
+					"given": "William E."
+				},
+				{
+					"family": "Forbes",
+					"given": "Gregory A."
+				},
+				{
+					"family": "Fieland",
+					"given": "Valerie J."
+				}
+			],
+			"etAl": true,
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "111",
+			"issue": "24",
+			"pages": "8791–8796",
+			"published": "2014-06-02",
+			"doi": "10.1073/pnas.1401884111",
+			"read": "abstract",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "media",
+			"title": "Plate from Die gegenwärtig herrschende Kartoffelkrankheit, figures 1–9",
+			"url": "https://archive.org/details/diegegenwrtighe00barygoog/page/n88",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "de-bary-plate.jpg",
+			"authors": [
+				{
+					"family": "de Bary",
+					"given": "Anton"
+				}
+			],
+			"published": "1861",
+			"container": "de Bary, Die gegenwärtig herrschende Kartoffelkrankheit (Leipzig, 1861), lithographed by C. F. Schmidt",
+			"note": "Published in Leipzig in 1861; the artist died in 1888"
+		}
+	]
+}

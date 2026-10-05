@@ -1,0 +1,428 @@
+{
+	"id": "first-herds",
+	"topic": "Sheep, goats, cattle and milk",
+	"position": {
+		"label": "c. 8500 BC",
+		"sort": -8500
+	},
+	"scene": {
+		"headline": "We made milk into",
+		"accent": "CHEESE.",
+		"palette": "barley",
+		"illustration": "scene.svg",
+		"metadata": [
+			"GANJ DAREH · ZAGROS · UPPER EUPHRATES · KUYAVIA",
+			"SHEEP · GOATS · CATTLE · PIGS · MILK"
+		],
+		"counter": {
+			"value": "80",
+			"label": "wild cows behind today's humpless cattle"
+		}
+	},
+	"connections": [
+		{
+			"to": "making/neolithic-wells",
+			"why": "The Linear Pottery farmers who brought cattle into central Europe and built its timber-lined wells also strained curds from whey in pottery sieves, the oldest cheese making known in northern Europe."
+		},
+		{
+			"to": "food/catalhoyuk",
+			"why": "Çatalhöyük lived on the new crops and the new herds: sheep and goats were its main meat, and cattle were herded only later."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Domestication and Early Agriculture in the Mediterranean Basin: Origins, Diffusion, and Impact",
+			"authors": [
+				{
+					"family": "Zeder",
+					"given": "Melinda A."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "105",
+			"issue": "33",
+			"pages": "11597–11604",
+			"published": "2008-08-19",
+			"doi": "10.1073/pnas.0801317105",
+			"accessed": "2026-10-04",
+			"note": "Hunters' and herders' kills, Ganj Dareh, and the dates for the four livestock species"
+		},
+		{
+			"kind": "article",
+			"title": "The Initial Domestication of Goats (Capra hircus) in the Zagros Mountains 10,000 Years Ago",
+			"authors": [
+				{
+					"family": "Zeder",
+					"given": "Melinda A."
+				},
+				{
+					"family": "Hesse",
+					"given": "Brian"
+				}
+			],
+			"container": "Science",
+			"volume": "287",
+			"issue": "5461",
+			"pages": "2254–2257",
+			"published": "2000-03-24",
+			"doi": "10.1126/science.287.5461.2254",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Modern Taurine Cattle Descended from Small Number of Near-Eastern Founders",
+			"authors": [
+				{
+					"family": "Bollongino",
+					"given": "Ruth"
+				},
+				{
+					"family": "Burger",
+					"given": "Joachim"
+				},
+				{
+					"family": "Powell",
+					"given": "Adam"
+				},
+				{
+					"family": "Mashkour",
+					"given": "Marjan"
+				},
+				{
+					"family": "Vigne",
+					"given": "Jean-Denis"
+				},
+				{
+					"family": "Thomas",
+					"given": "Mark G."
+				}
+			],
+			"container": "Molecular Biology and Evolution",
+			"volume": "29",
+			"issue": "9",
+			"pages": "2101–2104",
+			"published": "2012-09",
+			"doi": "10.1093/molbev/mss092",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Earliest Date for Milk Use in the Near East and Southeastern Europe Linked to Cattle Herding",
+			"authors": [
+				{
+					"family": "Evershed",
+					"given": "Richard P."
+				},
+				{
+					"family": "Payne",
+					"given": "Sebastian"
+				},
+				{
+					"family": "Sherratt",
+					"given": "Andrew"
+				},
+				{
+					"family": "Copley",
+					"given": "Mark S."
+				},
+				{
+					"family": "Coolidge",
+					"given": "Jennifer"
+				},
+				{
+					"family": "Urem-Kotsu",
+					"given": "Duska"
+				},
+				{
+					"family": "Kotsakis",
+					"given": "Kostas"
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "455",
+			"issue": "7212",
+			"pages": "528–531",
+			"published": "2008-09-25",
+			"doi": "10.1038/nature07180",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Earliest Evidence for Cheese Making in the Sixth Millennium BC in Northern Europe",
+			"authors": [
+				{
+					"family": "Salque",
+					"given": "Mélanie"
+				},
+				{
+					"family": "Bogucki",
+					"given": "Peter I."
+				},
+				{
+					"family": "Pyzel",
+					"given": "Joanna"
+				},
+				{
+					"family": "Sobkowiak-Tabaka",
+					"given": "Iwona"
+				},
+				{
+					"family": "Grygiel",
+					"given": "Ryszard"
+				},
+				{
+					"family": "Szmyt",
+					"given": "Marzena"
+				},
+				{
+					"family": "Evershed",
+					"given": "Richard P."
+				}
+			],
+			"container": "Nature",
+			"volume": "493",
+			"issue": "7433",
+			"pages": "522–525",
+			"published": "2013-01-24",
+			"doi": "10.1038/nature11698",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Dairying, Diseases and the Evolution of Lactase Persistence in Europe",
+			"authors": [
+				{
+					"family": "Evershed",
+					"given": "Richard P."
+				},
+				{
+					"family": "Davey Smith",
+					"given": "George"
+				},
+				{
+					"family": "Roffet-Salque",
+					"given": "Mélanie"
+				},
+				{
+					"family": "Timpson",
+					"given": "Adrian"
+				},
+				{
+					"family": "Diekmann",
+					"given": "Yoan"
+				},
+				{
+					"family": "Lyon",
+					"given": "Matthew S."
+				},
+				{
+					"family": "Cramp",
+					"given": "Lucy J. E."
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "608",
+			"issue": "7922",
+			"pages": "336–345",
+			"published": "2022-08-11",
+			"doi": "10.1038/s41586-022-05010-7",
+			"accessed": "2026-10-04",
+			"note": "The Δ¹³C criterion is in its Methods"
+		},
+		{
+			"kind": "article",
+			"title": "Measles Virus and Rinderpest Virus Divergence Dated to the Sixth Century BCE",
+			"authors": [
+				{
+					"family": "Düx",
+					"given": "Ariane"
+				},
+				{
+					"family": "Lequime",
+					"given": "Sebastian"
+				},
+				{
+					"family": "Patrono",
+					"given": "Livia Victoria"
+				},
+				{
+					"family": "Vrancken",
+					"given": "Bram"
+				},
+				{
+					"family": "Boral",
+					"given": "Sengül"
+				},
+				{
+					"family": "Gogarten",
+					"given": "Jan F."
+				},
+				{
+					"family": "Hilbig",
+					"given": "Antonia"
+				}
+			],
+			"etAl": true,
+			"container": "Science",
+			"volume": "368",
+			"issue": "6497",
+			"pages": "1367–1370",
+			"published": "2020-06-19",
+			"doi": "10.1126/science.aba9411",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "A New Evolutionary Scenario for the Mycobacterium tuberculosis Complex",
+			"authors": [
+				{
+					"family": "Brosch",
+					"given": "Roland"
+				},
+				{
+					"family": "Gordon",
+					"given": "Stephen V."
+				},
+				{
+					"family": "Marmiesse",
+					"given": "Magali"
+				},
+				{
+					"family": "Brodin",
+					"given": "Priscille"
+				},
+				{
+					"family": "Buchrieser",
+					"given": "Carmen"
+				},
+				{
+					"family": "Eiglmeier",
+					"given": "Karin"
+				},
+				{
+					"family": "Garnier",
+					"given": "T."
+				}
+			],
+			"etAl": true,
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "99",
+			"issue": "6",
+			"pages": "3684–3689",
+			"published": "2002-03",
+			"doi": "10.1073/pnas.052548299",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Crop Manuring and Intensive Land Management by Europe's First Farmers",
+			"authors": [
+				{
+					"family": "Bogaard",
+					"given": "Amy"
+				},
+				{
+					"family": "Fraser",
+					"given": "Rebecca"
+				},
+				{
+					"family": "Heaton",
+					"given": "Tim H. E."
+				},
+				{
+					"family": "Wallace",
+					"given": "Michael P."
+				},
+				{
+					"family": "Vaiglova",
+					"given": "Petra"
+				},
+				{
+					"family": "Charles",
+					"given": "Michael"
+				},
+				{
+					"family": "Jones",
+					"given": "Glynis"
+				}
+			],
+			"etAl": true,
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "110",
+			"issue": "31",
+			"pages": "12589–12594",
+			"published": "2013-07-30",
+			"doi": "10.1073/pnas.1305918110",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Lactase persistence",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lactase_persistence&oldid=1369975612",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lactose intolerance",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lactose_intolerance&oldid=1376401851",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Secondary products revolution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Secondary_products_revolution&oldid=1325001129",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ganj Dareh",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ganj_Dareh&oldid=1369639028",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		}
+	]
+}

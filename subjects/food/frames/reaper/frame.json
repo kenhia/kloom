@@ -1,0 +1,283 @@
+{
+	"id": "reaper",
+	"topic": "The mechanical reaper",
+	"position": {
+		"label": "1831",
+		"sort": 1831
+	},
+	"scene": {
+		"headline": "We put down the",
+		"accent": "SCYTHE.",
+		"palette": "hayrick",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ROCKBRIDGE COUNTY · VIRGINIA · CHICAGO",
+			"CYRUS McCORMICK · OBED HUSSEY · JO ANDERSON",
+			"REEL · KNIFE · GUARDS · MAIN WHEEL"
+		],
+		"counter": {
+			"value": "15",
+			"label": "acres cut in ten hours, London trial, 1851"
+		}
+	},
+	"connections": [
+		{
+			"to": "making/interchangeable-parts",
+			"why": "McCormick's reapers were fitted by hand for decades; Hounshell found that the armory practice of interchangeable parts reached his Chicago works only in the early 1880s, with a mechanic from Colt."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Cyrus Hall McCormick: Seed-Time, 1809–1856",
+			"authors": [
+				{
+					"family": "Hutchinson",
+					"given": "William T."
+				}
+			],
+			"publisher": "Century Co.",
+			"place": "New York",
+			"published": "1930",
+			"url": "https://archive.org/details/cyrushallmccormi007444mbp",
+			"accessed": "2026-10-04",
+			"note": "The harvest by hand is on pp. 69–72, the seven parts on pp. 52–54, the trial of 1831 on pp. 81–84, and the McCormick family's dispute and Jo Anderson's statements on pp. 109–111"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Class IX: Agricultural and Horticultural Machines and Implements",
+			"authors": [
+				{
+					"family": "Pusey",
+					"given": "Philip"
+				}
+			],
+			"container": "Exhibition of the Works of Industry of All Nations, 1851: Reports by the Juries",
+			"publisher": "William Clowes & Sons for the Royal Commission",
+			"place": "London",
+			"published": "1852",
+			"pages": "231–232",
+			"url": "https://archive.org/details/reportsbyjurieso00grea/page/n360",
+			"accessed": "2026-10-04",
+			"note": "Includes McCormick's own account of his reaper, written at Pusey's request"
+		},
+		{
+			"kind": "media",
+			"title": "C. H. McCormick. Reaper. Patented June 21, 1834",
+			"authors": [
+				{
+					"name": "United States Patent Office"
+				}
+			],
+			"container": "National Archives and Records Administration",
+			"url": "https://commons.wikimedia.org/wiki/File:C._H._McCormick._Reaper_-_DPLA_-_ac84b26e5c9bf303ca13b25c40037a3a.jpg",
+			"accessed": "2026-10-04",
+			"published": "1834",
+			"licence": "Public domain",
+			"file": "patent-1834.jpg"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cyrus McCormick",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cyrus_McCormick&oldid=1377289117",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "McCormick reaper",
+			"url": "https://en.wikipedia.org/w/index.php?title=McCormick_reaper&oldid=1374355822",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Obed Hussey",
+			"url": "https://en.wikipedia.org/w/index.php?title=Obed_Hussey&oldid=1363523055",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Reaper",
+			"url": "https://en.wikipedia.org/w/index.php?title=Reaper&oldid=1377523767",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Grain cradle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Grain_cradle&oldid=1310630261",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sickle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sickle&oldid=1345050343",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-24"
+		},
+		{
+			"kind": "book",
+			"title": "Cyrus Hall McCormick: His Life and Work",
+			"authors": [
+				{
+					"family": "Casson",
+					"given": "Herbert N."
+				}
+			],
+			"publisher": "A. C. McClurg",
+			"place": "Chicago",
+			"published": "1909",
+			"pages": "79–80",
+			"url": "https://archive.org/details/cyrushallmccormi00cassrich",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "From the American System to Mass Production, 1800–1932",
+			"authors": [
+				{
+					"family": "Hounshell",
+					"given": "David A."
+				}
+			],
+			"publisher": "Johns Hopkins University Press",
+			"place": "Baltimore",
+			"published": "1984",
+			"url": "https://archive.org/details/fromamericansyst0000houn",
+			"accessed": "2026-10-04",
+			"read": "excerpt",
+			"note": "Chapter 4, The McCormick Reaper Works and American Manufacturing Technology, read through the Internet Archive's full-text search snippets"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Great Exhibition",
+			"url": "https://en.wikipedia.org/w/index.php?title=Great_Exhibition&oldid=1377905769",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "article",
+			"title": "The Mechanization of Reaping and Mowing in American Agriculture, 1833–1870",
+			"authors": [
+				{
+					"family": "Olmstead",
+					"given": "Alan L."
+				}
+			],
+			"container": "The Journal of Economic History",
+			"volume": "35",
+			"issue": "2",
+			"pages": "327–352",
+			"published": "1975",
+			"doi": "10.1017/S0022050700075082",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Beyond the Threshold: An Analysis of the Characteristics and Behavior of Early Reaper Adopters",
+			"authors": [
+				{
+					"family": "Olmstead",
+					"given": "Alan L."
+				},
+				{
+					"family": "Rhode",
+					"given": "Paul W."
+				}
+			],
+			"container": "The Journal of Economic History",
+			"volume": "55",
+			"issue": "1",
+			"pages": "27–57",
+			"published": "1995",
+			"doi": "10.1017/S0022050700040560",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "book",
+			"title": "The Romance of the Reaper",
+			"authors": [
+				{
+					"family": "Casson",
+					"given": "Herbert N."
+				}
+			],
+			"publisher": "Doubleday, Page",
+			"place": "New York",
+			"published": "1908",
+			"url": "https://www.gutenberg.org/ebooks/32702",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "International Harvester",
+			"url": "https://en.wikipedia.org/w/index.php?title=International_Harvester&oldid=1378343357",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		}
+	]
+}

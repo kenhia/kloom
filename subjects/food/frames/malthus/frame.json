@@ -1,0 +1,351 @@
+{
+	"id": "malthus",
+	"topic": "Malthus on population",
+	"position": {
+		"label": "1798",
+		"sort": 1798
+	},
+	"scene": {
+		"headline": "Numbers would outrun the",
+		"accent": "HARVEST.",
+		"palette": "hayrick",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · J. JOHNSON · 1798",
+			"THOMAS ROBERT MALTHUS · GODWIN · CONDORCET",
+			"GEOMETRICAL RATIO · ARITHMETICAL RATIO"
+		],
+		"counter": {
+			"value": "512 to 10",
+			"label": "people to food after 225 years, on his sums"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/vindication",
+			"why": "Joseph Johnson, who published Wollstonecraft's Vindication in 1792, published Malthus's Essay in 1798, and its chief target was her widower, William Godwin."
+		},
+		{
+			"to": "western-civ/wealth-of-nations",
+			"why": "Two chapters of Malthus's Essay dispute Adam Smith's view in The Wealth of Nations that every increase in a nation's wealth adds to the funds that feed its workers."
+		},
+		{
+			"to": "chemistry/haber-bosch",
+			"why": "Crookes's warning of 1898 that the wheat-eaters would outrun the land was Malthus's argument again, and the Haber–Bosch process is much of the answer to it."
+		},
+		{
+			"to": "food/foragers",
+			"why": "Gregory Clark's claim that the average person of 1800 was no better off than a forager of 100,000 BC rests on the kind of evidence the foragers frame weighs, from Ohalo II to the Hadza."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "An Essay on the Principle of Population, as It Affects the Future Improvement of Society, with Remarks on the Speculations of Mr. Godwin, M. Condorcet, and Other Writers",
+			"authors": [
+				{
+					"family": "Malthus",
+					"given": "Thomas Robert"
+				}
+			],
+			"publisher": "J. Johnson",
+			"place": "London",
+			"published": "1798",
+			"url": "https://www.gutenberg.org/ebooks/4239",
+			"accessed": "2026-10-04",
+			"note": "The ratios are in chapter 2, the checks in chapters 4 and 5, Adam Smith in chapters 16 and 17; read in Project Gutenberg's text and checked against the 1798 printing"
+		},
+		{
+			"kind": "media",
+			"title": "An Essay on the Principle of Population, 1798, page 25",
+			"authors": [
+				{
+					"family": "Malthus",
+					"given": "Thomas Robert"
+				}
+			],
+			"container": "Thomas Fisher Rare Book Library, University of Toronto",
+			"url": "https://archive.org/details/essayonprincipl00malt/page/n50",
+			"accessed": "2026-10-04",
+			"published": "1798",
+			"licence": "Public domain",
+			"note": "Published in London in 1798",
+			"file": "ratios-1798.jpg"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thomas Robert Malthus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thomas_Robert_Malthus&oldid=1377096861",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "An Essay on the Principle of Population",
+			"url": "https://en.wikipedia.org/w/index.php?title=An_Essay_on_the_Principle_of_Population&oldid=1373406611",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Malthusianism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Malthusianism&oldid=1363217028",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Marquis de Condorcet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Marquis_de_Condorcet&oldid=1373184412",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Godwin",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Godwin&oldid=1377323161",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Speenhamland system",
+			"url": "https://en.wikipedia.org/w/index.php?title=Speenhamland_system&oldid=1306508390",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-08-18"
+		},
+		{
+			"kind": "report",
+			"title": "First Report from the Committee Appointed to Consider of the Present High Price of Provisions",
+			"publisher": "House of Commons",
+			"place": "London",
+			"published": "1800-11",
+			"url": "https://archive.org/details/pp1312010-2001",
+			"accessed": "2026-10-04",
+			"note": "Read in the University of Southampton's scan of the copy communicated to the Lords"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Census Act 1800",
+			"url": "https://en.wikipedia.org/w/index.php?title=Census_Act_1800&oldid=1361066467",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-25"
+		},
+		{
+			"kind": "web",
+			"title": "Population",
+			"container": "Our World in Data",
+			"publisher": "Global Change Data Lab",
+			"url": "https://ourworldindata.org/grapher/population",
+			"accessed": "2026-10-04",
+			"note": "World series from HYDE, Gapminder and the UN's World Population Prospects 2024"
+		},
+		{
+			"kind": "web",
+			"title": "Cereal production",
+			"container": "Our World in Data",
+			"publisher": "Global Change Data Lab",
+			"url": "https://ourworldindata.org/grapher/cereal-production",
+			"accessed": "2026-10-04",
+			"note": "From FAOSTAT; world, 1961 and 2023"
+		},
+		{
+			"kind": "web",
+			"title": "Daily supply of calories per person",
+			"container": "Our World in Data",
+			"publisher": "Global Change Data Lab",
+			"url": "https://ourworldindata.org/grapher/daily-per-capita-caloric-supply",
+			"accessed": "2026-10-04",
+			"note": "From FAOSTAT's food balances; world, 1961 and 2023"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Crookes",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Crookes&oldid=1377398579",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Demographic transition",
+			"url": "https://en.wikipedia.org/w/index.php?title=Demographic_transition&oldid=1377297895",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "report",
+			"title": "World Population Prospects 2024: Summary of Results. Ten Key Messages",
+			"authors": [
+				{
+					"name": "United Nations Department of Economic and Social Affairs, Population Division"
+				}
+			],
+			"publisher": "United Nations",
+			"place": "New York",
+			"published": "2024-07",
+			"url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/key_messages_wpp_2024_20240709.pdf",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "chapter",
+			"title": "Introduction: The Sixteen-Page Economic History of the World",
+			"authors": [
+				{
+					"family": "Clark",
+					"given": "Gregory"
+				}
+			],
+			"container": "A Farewell to Alms: A Brief Economic History of the World",
+			"publisher": "Princeton University Press",
+			"place": "Princeton",
+			"published": "2007",
+			"pages": "1–16",
+			"url": "https://assets.press.princeton.edu/chapters/s8461.pdf",
+			"accessed": "2026-10-04",
+			"read": "excerpt"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ester Boserup",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ester_Boserup&oldid=1374843472",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Population Bomb",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Population_Bomb&oldid=1360518671",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "book",
+			"title": "The Life and Letters of Charles Darwin, Including an Autobiographical Chapter",
+			"editors": [
+				{
+					"family": "Darwin",
+					"given": "Francis"
+				}
+			],
+			"volume": "1",
+			"publisher": "John Murray",
+			"place": "London",
+			"published": "1887",
+			"url": "https://www.gutenberg.org/ebooks/2087",
+			"accessed": "2026-10-04",
+			"note": "Darwin's reading of Malthus in October 1838 is in the autobiographical chapter"
+		},
+		{
+			"kind": "book",
+			"title": "On the Origin of Species by Means of Natural Selection",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"publisher": "John Murray",
+			"place": "London",
+			"published": "1859",
+			"url": "https://www.gutenberg.org/ebooks/1228",
+			"accessed": "2026-10-04",
+			"note": "Chapter 3, Struggle for Existence"
+		},
+		{
+			"kind": "book",
+			"title": "My Life: A Record of Events and Opinions",
+			"authors": [
+				{
+					"family": "Wallace",
+					"given": "Alfred Russel"
+				}
+			],
+			"volume": "1",
+			"publisher": "Chapman & Hall",
+			"place": "London",
+			"published": "1905",
+			"pages": "361–362",
+			"url": "https://archive.org/details/myliferecordofev01walluoft",
+			"accessed": "2026-10-04"
+		}
+	]
+}

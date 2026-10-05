@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M6 32 L394 32"/>
+		<path pathLength="1" d="M6 66 L394 66"/>
+		<path pathLength="1" d="M6 132 L394 132"/>
+		<path pathLength="1" d="M6 158 L394 158"/>
+		<path pathLength="1" d="M6 212 L394 212"/>
+		<path pathLength="1" d="M6 232 L394 232"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M160 32 L240 32 L240 54 L160 54 Z"/>
+		<path pathLength="1" d="M166 66 L234 66 L234 84 L166 84 Z"/>
+		<path pathLength="1" d="M13 132 L81 132 L81 158 L13 158 Z"/>
+		<path pathLength="1" d="M88 132 L156 132 L156 158 L88 158 Z"/>
+		<path pathLength="1" d="M163 132 L231 132 L231 158 L163 158 Z"/>
+		<path pathLength="1" d="M238 132 L306 132 L306 158 L238 158 Z"/>
+		<path pathLength="1" d="M313 132 L381 132 L381 158 L313 158 Z"/>
+		<path pathLength="1" d="M30 212 L370 212 L370 232 L30 232 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M200 54 L200 66"/>
+		<path pathLength="1" d="M200 84 L200 104"/>
+		<path pathLength="1" d="M47 104 L347 104"/>
+		<path pathLength="1" d="M47 104 L47 132"/>
+		<path pathLength="1" d="M122 104 L122 132"/>
+		<path pathLength="1" d="M197 104 L197 132"/>
+		<path pathLength="1" d="M272 104 L272 132"/>
+		<path pathLength="1" d="M347 104 L347 132"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M392 252 L330 236"/>
+		<path pathLength="1" d="M333.9 235.2 L330 236 L333.1 238.6"/>
+		<path pathLength="1" d="M41 212 L41 209 M41 206.5 L41 203.5 M41 201 L41 198 M41 195.5 L41 192.5 M41 190 L41 187 M41 184.5 L41 181.5 M41 179 L41 176 M41 173.5 L41 170.5 M41 168 L41 165 M41 162.5 L41 160"/>
+		<path pathLength="1" d="M42.5 163.2 L41 160 L39.5 163.2"/>
+		<path pathLength="1" d="M53 160 L53 212"/>
+		<path pathLength="1" d="M51.5 208.8 L53 212 L54.5 208.8"/>
+		<path pathLength="1" d="M116 212 L116 209 M116 206.5 L116 203.5 M116 201 L116 198 M116 195.5 L116 192.5 M116 190 L116 187 M116 184.5 L116 181.5 M116 179 L116 176 M116 173.5 L116 170.5 M116 168 L116 165 M116 162.5 L116 160"/>
+		<path pathLength="1" d="M117.5 163.2 L116 160 L114.5 163.2"/>
+		<path pathLength="1" d="M128 160 L128 212"/>
+		<path pathLength="1" d="M126.5 208.8 L128 212 L129.5 208.8"/>
+		<path pathLength="1" d="M191 212 L191 209 M191 206.5 L191 203.5 M191 201 L191 198 M191 195.5 L191 192.5 M191 190 L191 187 M191 184.5 L191 181.5 M191 179 L191 176 M191 173.5 L191 170.5 M191 168 L191 165 M191 162.5 L191 160"/>
+		<path pathLength="1" d="M192.5 163.2 L191 160 L189.5 163.2"/>
+		<path pathLength="1" d="M203 160 L203 212"/>
+		<path pathLength="1" d="M201.5 208.8 L203 212 L204.5 208.8"/>
+		<path pathLength="1" d="M266 212 L266 209 M266 206.5 L266 203.5 M266 201 L266 198 M266 195.5 L266 192.5 M266 190 L266 187 M266 184.5 L266 181.5 M266 179 L266 176 M266 173.5 L266 170.5 M266 168 L266 165 M266 162.5 L266 160"/>
+		<path pathLength="1" d="M267.5 163.2 L266 160 L264.5 163.2"/>
+		<path pathLength="1" d="M278 160 L278 212"/>
+		<path pathLength="1" d="M276.5 208.8 L278 212 L279.5 208.8"/>
+		<path pathLength="1" d="M341 212 L341 209 M341 206.5 L341 203.5 M341 201 L341 198 M341 195.5 L341 192.5 M341 190 L341 187 M341 184.5 L341 181.5 M341 179 L341 176 M341 173.5 L341 170.5 M341 168 L341 165 M341 162.5 L341 160"/>
+		<path pathLength="1" d="M342.5 163.2 L341 160 L339.5 163.2"/>
+		<path pathLength="1" d="M353 160 L353 212"/>
+		<path pathLength="1" d="M351.5 208.8 L353 212 L354.5 208.8"/>
+		<path pathLength="1" d="M70 236 L8 252"/>
+		<path pathLength="1" d="M11.1 249.4 L8 252 L11.9 252.8"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="200" y="46" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CHEF</text>
+		<text x="200" y="78" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SOUS-CHEF</text>
+		<text x="47" y="148" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GARDE-MANGER</text>
+		<text x="122" y="148" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ENTREMETIER</text>
+		<text x="197" y="148" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ROTISSEUR</text>
+		<text x="272" y="148" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SAUCIER</text>
+		<text x="347" y="148" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PATISSIER</text>
+		<text x="200" y="225" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE PASS · ABOYEUR CALLS THE ORDER</text>
+		<text x="392" y="266" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ORDER IN</text>
+		<text x="8" y="266" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TO THE TABLE</text>
+		<text x="37" y="184" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CALLED</text>
+		<text x="358" y="184" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SENT</text>
+		<text x="200" y="22" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE BRIGADE DE CUISINE</text>
+	</g>
+</svg>

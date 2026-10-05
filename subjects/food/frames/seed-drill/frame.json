@@ -1,0 +1,232 @@
+{
+	"id": "seed-drill",
+	"topic": "Jethro Tull's seed drill",
+	"position": {
+		"label": "c. 1701",
+		"sort": 1701
+	},
+	"scene": {
+		"headline": "We sowed in",
+		"accent": "ROWS.",
+		"palette": "hayrick",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HOWBERRY AND SHALBOURNE · JETHRO TULL",
+			"HOPPER · SEED-BOX · NOTCHED SPINDLE · SHARE · HARROW"
+		],
+		"counter": {
+			"value": "140",
+			"label": "seeds sown broadcast for each plant that grew"
+		}
+	},
+	"connections": [
+		{
+			"to": "food/four-course",
+			"why": "What raised yields first, the seed drill's reading argues, was not the drill but a rotation: turnips and clover."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Horse-Hoing Husbandry: or, An Essay on the Principles of Tillage and Vegetation",
+			"authors": [
+				{
+					"family": "Tull",
+					"given": "Jethro"
+				}
+			],
+			"place": "London",
+			"publisher": "Printed for the author",
+			"published": "1733",
+			"url": "https://archive.org/details/b30408295",
+			"accessed": "2026-10-04",
+			"note": "The drill is described in chapters XXII–XXIII; how it was invented, in the notes on the preface"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jethro Tull (agriculturist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jethro_Tull_(agriculturist)&oldid=1372816760",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Re-establishing the English Agricultural Revolution",
+			"authors": [
+				{
+					"family": "Overton",
+					"given": "Mark"
+				}
+			],
+			"container": "The Agricultural History Review",
+			"volume": "44",
+			"issue": "1",
+			"pages": "1–20",
+			"published": "1996",
+			"url": "https://www.bahs.org.uk/AGHR/ARTICLES/44n1a1.pdf",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Seed drill",
+			"url": "https://en.wikipedia.org/w/index.php?title=Seed_drill&oldid=1347973365",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-09"
+		},
+		{
+			"kind": "article",
+			"title": "Jethro Tull I, II, and III",
+			"authors": [
+				{
+					"family": "Hidden",
+					"given": "Norman"
+				}
+			],
+			"container": "The Agricultural History Review",
+			"volume": "37",
+			"issue": "1",
+			"pages": "26–35",
+			"published": "1989",
+			"url": "https://www.bahs.org.uk/AGHR/ARTICLES/37n1a3.pdf",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "web",
+			"title": "The farmer's instructions: translation",
+			"authors": [
+				{
+					"family": "Black",
+					"given": "J. A."
+				},
+				{
+					"family": "Cunningham",
+					"given": "G."
+				},
+				{
+					"family": "Ebeling",
+					"given": "J."
+				},
+				{
+					"family": "Flückiger-Hawker",
+					"given": "E."
+				},
+				{
+					"family": "Robson",
+					"given": "E."
+				},
+				{
+					"family": "Taylor",
+					"given": "J."
+				},
+				{
+					"family": "Zólyomi",
+					"given": "G."
+				}
+			],
+			"container": "The Electronic Text Corpus of Sumerian Literature",
+			"publisher": "University of Oxford",
+			"published": "1999",
+			"url": "https://etcsl.orinst.ox.ac.uk/section5/tr563.htm",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "齊民要術 (Qimin yaoshu)",
+			"authors": [
+				{
+					"family": "Jia",
+					"given": "Sixie"
+				}
+			],
+			"published": "540",
+			"circa": true,
+			"container": "Chinese Wikisource",
+			"url": "https://zh.wikisource.org/wiki/%E9%BD%8A%E6%B0%91%E8%A6%81%E8%A1%93/%E8%87%AA%E5%BA%8F",
+			"accessed": "2026-10-04",
+			"language": "zh",
+			"note": "Huangfu Long and the drill-plow are in the author's preface, quoted in our translation"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "List of Chinese inventions",
+			"url": "https://en.wikipedia.org/w/index.php?title=List_of_Chinese_inventions&oldid=1376638368",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "British Agricultural Revolution",
+			"url": "https://en.wikipedia.org/w/index.php?title=British_Agricultural_Revolution&oldid=1376646327",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "book",
+			"title": "English Farming, Past and Present",
+			"authors": [
+				{
+					"family": "Prothero",
+					"given": "Rowland E."
+				}
+			],
+			"place": "London",
+			"publisher": "Longmans, Green",
+			"published": "1912",
+			"url": "https://archive.org/details/englishfarmingpa00ernluoft",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "media",
+			"title": "Plate V: Tull's drill and its parts",
+			"url": "https://commons.wikimedia.org/wiki/File:JethroTullDrill.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "tull-plate.jpg",
+			"authors": [
+				{
+					"family": "Tull",
+					"given": "Jethro"
+				}
+			],
+			"engravers": [
+				{
+					"family": "Cole",
+					"given": "B."
+				}
+			],
+			"container": "Horse-Hoeing Husbandry, 4th ed. (London: A. Millar, 1762), facing p. 392",
+			"published": "1762"
+		}
+	]
+}

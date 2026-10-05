@@ -1,0 +1,340 @@
+{
+	"id": "corn-laws",
+	"topic": "The repeal of the Corn Laws",
+	"position": {
+		"label": "1846",
+		"sort": 1846
+	},
+	"scene": {
+		"headline": "Britain let the world's grain in",
+		"accent": "FREE.",
+		"palette": "hayrick",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · MANCHESTER · THE ANTI–CORN LAW LEAGUE",
+			"PEEL · COBDEN · BRIGHT · RICARDO · THE SLIDING SCALE"
+		],
+		"counter": {
+			"value": "327–229",
+			"label": "the Commons vote for repeal, May 15, 1846"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "1846 and All That: The Rise and Fall of British Wheat Protection in the Nineteenth Century",
+			"authors": [
+				{
+					"family": "Sharp",
+					"given": "Paul"
+				}
+			],
+			"publisher": "Department of Economics, University of Copenhagen",
+			"number": "Discussion Paper 06-14",
+			"published": "2006",
+			"url": "https://curis.ku.dk/ws/files/23372881/0614.pdf",
+			"accessed": "2026-10-04",
+			"note": "The duty actually paid on wheat released from bond, year by year, in its appendix"
+		},
+		{
+			"kind": "statute",
+			"title": "An Act to amend the Laws now in force for regulating the Importation of Corn",
+			"citeAs": "regnal",
+			"chapter": "26",
+			"code": {
+				"volume": "55",
+				"name": "Geo. 3"
+			},
+			"published": "1815-03-23",
+			"container": "legislation.gov.uk",
+			"publisher": "The National Archives",
+			"url": "https://www.legislation.gov.uk/ukpga/Geo3/55/26/enacted",
+			"accessed": "2026-10-04",
+			"key": true,
+			"note": "The eighty-shilling rule is section 3"
+		},
+		{
+			"kind": "statute",
+			"title": "An Act to amend the Laws relating to the Importation of Corn",
+			"citeAs": "regnal",
+			"chapter": "60",
+			"code": {
+				"volume": "9",
+				"name": "Geo. 4"
+			},
+			"published": "1828-07-15",
+			"container": "legislation.gov.uk",
+			"publisher": "The National Archives",
+			"url": "https://www.legislation.gov.uk/ukpga/Geo4/9/60/enacted",
+			"accessed": "2026-10-04",
+			"note": "The sliding scale is its Table of Duties"
+		},
+		{
+			"kind": "statute",
+			"title": "An Act to amend the Laws for the Importation of Corn",
+			"citeAs": "regnal",
+			"chapter": "14",
+			"code": {
+				"volume": "5 & 6",
+				"name": "Vict."
+			},
+			"published": "1842-04-29",
+			"container": "legislation.gov.uk",
+			"publisher": "The National Archives",
+			"url": "https://www.legislation.gov.uk/ukpga/Vict/5-6/14/enacted",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "statute",
+			"title": "An Act to amend the Laws relating to the Importation of Corn",
+			"citeAs": "regnal",
+			"chapter": "22",
+			"code": {
+				"volume": "9 & 10",
+				"name": "Vict."
+			},
+			"published": "1846-06-26",
+			"container": "legislation.gov.uk",
+			"publisher": "The National Archives",
+			"url": "https://www.legislation.gov.uk/ukpga/Vict/9-10/22/enacted",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Resignation of the Ministry",
+			"container": "Hansard, HC Deb 29 June 1846, vol. 87, cc. 1040–59",
+			"publisher": "UK Parliament",
+			"published": "1846-06-29",
+			"url": "https://api.parliament.uk/historic-hansard/commons/1846/jun/29/resignation-of-the-ministry",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "web",
+			"title": "Corn Importation Bill: Adjourned Debate (Third Night)",
+			"container": "Hansard, HC Deb 15 May 1846, vol. 86, cc. 616–727",
+			"publisher": "UK Parliament",
+			"published": "1846-05-15",
+			"url": "https://api.parliament.uk/historic-hansard/commons/1846/may/15/corn-importation-bill-adjourned-debate",
+			"accessed": "2026-10-04",
+			"note": "The division of the third reading, 327 to 229"
+		},
+		{
+			"kind": "book",
+			"title": "The Corn Laws and Social England",
+			"authors": [
+				{
+					"family": "Fay",
+					"given": "C. R."
+				}
+			],
+			"place": "Cambridge",
+			"publisher": "Cambridge University Press",
+			"published": "1932",
+			"citedIn": "Sharp, 1846 and All That: The Rise and Fall of British Wheat Protection in the Nineteenth Century, p. 6, n. 9, where the exchange between Peel and Russell is quoted"
+		},
+		{
+			"kind": "article",
+			"title": "The Impact of the Corn Laws Just Prior to Repeal",
+			"authors": [
+				{
+					"family": "Williamson",
+					"given": "Jeffrey G."
+				}
+			],
+			"container": "Explorations in Economic History",
+			"volume": "27",
+			"issue": "2",
+			"pages": "123–156",
+			"published": "1990",
+			"doi": "10.1016/0014-4983(90)90007-L",
+			"accessed": "2026-10-04",
+			"read": "record"
+		},
+		{
+			"kind": "article",
+			"title": "The Economic Consequences of Sir Robert Peel: A Quantitative Assessment of the Repeal of the Corn Laws",
+			"authors": [
+				{
+					"family": "Irwin",
+					"given": "Douglas A."
+				},
+				{
+					"family": "Chepeliev",
+					"given": "Maksym G."
+				}
+			],
+			"container": "The Economic Journal",
+			"volume": "131",
+			"issue": "640",
+			"pages": "3322–3337",
+			"published": "2021",
+			"doi": "10.1093/ej/ueab029",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "book",
+			"title": "History of the Anti-Corn-Law League",
+			"authors": [
+				{
+					"family": "Prentice",
+					"given": "Archibald"
+				}
+			],
+			"edition": "2 vols.",
+			"place": "London",
+			"publisher": "W. & F. G. Cash",
+			"published": "1853",
+			"url": "https://archive.org/details/historyofanticor01pren",
+			"accessed": "2026-10-04",
+			"note": "The penny post is in vol. 1, p. 151; the bazaar in vol. 2, pp. 335–36"
+		},
+		{
+			"kind": "book",
+			"title": "An Essay on the Influence of a Low Price of Corn on the Profits of Stock",
+			"authors": [
+				{
+					"family": "Ricardo",
+					"given": "David"
+				}
+			],
+			"edition": "2nd ed.",
+			"place": "London",
+			"publisher": "John Murray",
+			"published": "1815",
+			"url": "https://archive.org/details/ricardo-essay-on-profits-1815",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Adam"
+				}
+			],
+			"place": "London",
+			"publisher": "W. Strahan and T. Cadell",
+			"published": "1776",
+			"url": "https://www.gutenberg.org/ebooks/3300",
+			"accessed": "2026-10-04",
+			"note": "Book IV, chapter 5, the digression on the corn trade; read in Project Gutenberg's edition"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Corn Laws",
+			"url": "https://en.wikipedia.org/w/index.php?title=Corn_Laws&oldid=1376553967",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Anti–Corn Law League",
+			"url": "https://en.wikipedia.org/w/index.php?title=Anti%E2%80%93Corn_Law_League&oldid=1372306498",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Peel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Peel&oldid=1372178350",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Cobden",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Cobden&oldid=1364336783",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Bright",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Bright&oldid=1347255323",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Peelite",
+			"url": "https://en.wikipedia.org/w/index.php?title=Peelite&oldid=1350769638",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-23"
+		},
+		{
+			"kind": "media",
+			"title": "A meeting of the Anti-Corn Law League in Exeter Hall, London",
+			"published": "1846",
+			"circa": true,
+			"url": "https://commons.wikimedia.org/wiki/File:1846_-_Anti-Corn_Law_League_Meeting.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "league-meeting.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/wealth-of-nations",
+			"why": "Peel, who repealed the Corn Laws, had studied Smith, whose Wealth of Nations called an unrestrained freedom of the corn trade the only effectual preventive of famine."
+		},
+		{
+			"to": "western-civ/factory-city",
+			"why": "The Anti–Corn Law League was founded in 1838 by the merchants and manufacturers of Manchester, the first factory city, and campaigned from there for free trade in grain."
+		},
+		{
+			"to": "food/irish-famine",
+			"why": "The potato blight in Ireland in 1845 turned Peel to repeal, which split his party and brought down the government that had begun Ireland's relief."
+		},
+		{
+			"to": "food/malthus",
+			"why": "In the argument over the Corn Laws, Thomas Malthus took the landlords' side."
+		}
+	]
+}

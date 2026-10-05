@@ -1,0 +1,240 @@
+{
+	"id": "tea-and-opium",
+	"topic": "Tea, opium and war",
+	"position": {
+		"label": "1839–42",
+		"sort": 1839
+	},
+	"scene": {
+		"headline": "Britain paid for tea with",
+		"accent": "OPIUM.",
+		"palette": "saffron",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CANTON · CALCUTTA · HUMEN · NANKING",
+			"LIN ZEXU · EAST INDIA COMPANY · ROBERT FORTUNE"
+		],
+		"counter": {
+			"value": "20,283",
+			"label": "chests of opium destroyed at Humen, June 1839"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/american-revolution",
+			"why": "Britain's taxes on the tea the East India Company shipped to its colonies brought the Boston Tea Party of 1773 and the laws that followed it, one road to the Revolution."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Description of the Tea Plant; Its Name; Cultivation; Mode of Curing the Leaves; Transportation to Canton; Sale and Foreign Consumption",
+			"container": "The Chinese Repository",
+			"volume": "8",
+			"issue": "3",
+			"pages": "132–164",
+			"published": "1839-07",
+			"url": "https://archive.org/details/chineserepositor8318unse",
+			"accessed": "2026-10-04",
+			"note": "The table of tea used in England is on p. 158, and tea set against opium on p. 161"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Crisis in the Opium Traffic",
+			"authors": [
+				{
+					"family": "Bridgman",
+					"given": "Elijah C."
+				}
+			],
+			"container": "The Chinese Repository",
+			"volume": "8",
+			"issue": "2",
+			"pages": "57–99",
+			"published": "1839-06",
+			"url": "https://archive.org/details/chineserepositor8218unse",
+			"accessed": "2026-10-04",
+			"note": "The visit to the trenches at Humen is on pp. 70–75"
+		},
+		{
+			"kind": "letter",
+			"key": true,
+			"title": "Letter to the Queen of England, from the High Imperial Commissioner Lin, and His Colleagues",
+			"authors": [
+				{
+					"name": "Lin Zexu"
+				}
+			],
+			"recipients": [
+				{
+					"name": "Queen Victoria"
+				}
+			],
+			"container": "The Chinese Repository",
+			"volume": "8",
+			"pages": "497–503",
+			"published": "1840-02",
+			"url": "https://archive.org/details/chineserepositor8101unse",
+			"accessed": "2026-10-04",
+			"note": "In the English translation of the Canton Press"
+		},
+		{
+			"kind": "treaty",
+			"title": "Treaty of Peace, Friendship, and Commerce (Treaty of Nanking)",
+			"parties": ["United Kingdom", "China"],
+			"published": "1842-08-29",
+			"container": "Wikisource",
+			"url": "https://en.wikisource.org/wiki/Treaty_of_Nanking",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A Journey to the Tea Countries of China",
+			"authors": [
+				{
+					"family": "Fortune",
+					"given": "Robert"
+				}
+			],
+			"place": "London",
+			"publisher": "John Murray",
+			"published": "1852",
+			"url": "https://archive.org/details/journeytoteacoun00fort",
+			"accessed": "2026-10-04",
+			"note": "His commission and its results are in the preface; the cases of seed on pp. 356–358"
+		},
+		{
+			"kind": "report",
+			"title": "A Trojan Horse in Daoguang China? Explaining the Flows of Silver in and out of China",
+			"authors": [
+				{
+					"family": "Irigoin",
+					"given": "Alejandra"
+				}
+			],
+			"number": "Working Paper 173/13",
+			"publisher": "London School of Economics, Department of Economic History",
+			"place": "London",
+			"published": "2013-01",
+			"url": "http://eprints.lse.ac.uk/49082/",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "First Opium War",
+			"url": "https://en.wikipedia.org/w/index.php?title=First_Opium_War&oldid=1377930454",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Canton System",
+			"url": "https://en.wikipedia.org/w/index.php?title=Canton_System&oldid=1366655721",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Destruction of opium at Humen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Destruction_of_opium_at_Humen&oldid=1372290045",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Commutation Act 1784",
+			"url": "https://en.wikipedia.org/w/index.php?title=Commutation_Act_1784&oldid=1359615667",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of tea",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_tea&oldid=1378439275",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Assam tea",
+			"url": "https://en.wikipedia.org/w/index.php?title=Assam_tea&oldid=1361407868",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tea Act",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tea_Act&oldid=1373618092",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "media",
+			"title": "Tea used in England, 1711 to 1838",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "The Chinese Repository 8, no. 3 (July 1839): 158",
+			"url": "https://archive.org/details/chineserepositor8318unse",
+			"accessed": "2026-10-04",
+			"licence": "MIT",
+			"file": "tea-used.svg"
+		}
+	]
+}

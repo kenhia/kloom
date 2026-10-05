@@ -1,0 +1,291 @@
+{
+	"id": "ninkasi",
+	"topic": "Sumerian beer and the Hymn to Ninkasi",
+	"position": {
+		"label": "c. 1800 BC",
+		"sort": -1800
+	},
+	"scene": {
+		"headline": "We drank through",
+		"accent": "STRAWS.",
+		"palette": "amphora",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NIPPUR · OLD BABYLONIAN TABLETS · MIGUEL CIVIL 1964",
+			"BAPPIR · MALT · MASH · SWEETWORT"
+		],
+		"counter": {
+			"value": "300,000",
+			"label": "liters of beer in one Ur III brewery's account"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/hammurabi",
+			"why": "Laws 108 to 111 of the Code of Hammurabi govern the women who kept taverns: what they took in payment for beer, and what befell them if conspirators met there."
+		},
+		{
+			"to": "western-civ/writing",
+			"why": "Among the first things the scribes of Uruk wrote down were jugs of beer and the barley and malt that went into them."
+		},
+		{
+			"to": "food/oldest-bread",
+			"why": "Whether beer or bread first drew people to cereals has been argued since 1953; the charred bread of Shubayqa 1 is older than any claimed trace of brewing."
+		}
+	],
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "A Hymn to the Beer Goddess and a Drinking Song",
+			"authors": [
+				{
+					"family": "Civil",
+					"given": "Miguel"
+				}
+			],
+			"container": "Studies Presented to A. Leo Oppenheim, June 7, 1964",
+			"editors": [
+				{
+					"family": "Biggs",
+					"given": "R. D."
+				},
+				{
+					"family": "Brinkman",
+					"given": "J. A."
+				}
+			],
+			"pages": "67–89",
+			"place": "Chicago",
+			"publisher": "Oriental Institute of the University of Chicago",
+			"published": "1964",
+			"url": "https://isac.uchicago.edu/research/publications/misc/studies-presented-leo-oppenheim-june-7-1964",
+			"accessed": "2026-10-04",
+			"note": "The translation is on pp. 72–74"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Sumerian Beer: The Origins of Brewing Technology in Ancient Mesopotamia",
+			"authors": [
+				{
+					"family": "Damerow",
+					"given": "Peter"
+				}
+			],
+			"container": "Cuneiform Digital Library Journal",
+			"number": "2012:2",
+			"published": "2012-01-22",
+			"url": "https://cdli.mpiwg-berlin.mpg.de/articles/cdlj/2012-2",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Bread and Beer: The Early Use of Cereals in the Human Diet",
+			"authors": [
+				{
+					"family": "Katz",
+					"given": "Solomon H."
+				},
+				{
+					"family": "Voigt",
+					"given": "Mary M."
+				}
+			],
+			"container": "Expedition",
+			"volume": "28",
+			"issue": "2",
+			"published": "1986",
+			"url": "https://www.penn.museum/sites/expedition/bread-and-beer/",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Code of Hammurabi",
+			"authors": [
+				{
+					"name": "Hammurabi"
+				}
+			],
+			"translators": [
+				{
+					"family": "King",
+					"given": "L. W."
+				}
+			],
+			"published": "1910",
+			"url": "https://avalon.law.yale.edu/ancient/hamcode.asp",
+			"accessed": "2026-10-04",
+			"note": "Laws 108–111; read in the Avalon Project's copy"
+		},
+		{
+			"kind": "web",
+			"title": "A Hymn to Ninkasi: Translation",
+			"authors": [
+				{
+					"family": "Black",
+					"given": "J. A."
+				},
+				{
+					"family": "Cunningham",
+					"given": "G."
+				},
+				{
+					"family": "Robson",
+					"given": "E."
+				},
+				{
+					"family": "Zólyomi",
+					"given": "G."
+				}
+			],
+			"container": "The Electronic Text Corpus of Sumerian Literature",
+			"publisher": "University of Oxford",
+			"number": "t.4.23.1",
+			"url": "https://etcsl.orinst.ox.ac.uk/section4/tr4231.htm",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Symposium: Did Man Once Live by Beer Alone?",
+			"container": "American Anthropologist",
+			"volume": "55",
+			"issue": "4",
+			"pages": "515–526",
+			"published": "1953",
+			"doi": "10.1525/aa.1953.55.4.02a00050",
+			"accessed": "2026-10-04",
+			"citedIn": "Katz and Voigt, “Bread and Beer: The Early Use of Cereals in the Human Diet” (1986)"
+		},
+		{
+			"kind": "article",
+			"title": "Fermented Beverage and Food Storage in 13,000 y-Old Stone Mortars at Raqefet Cave, Israel: Investigating Natufian Ritual Feasting",
+			"authors": [
+				{
+					"family": "Liu",
+					"given": "Li"
+				},
+				{
+					"family": "Wang",
+					"given": "Jiajing"
+				},
+				{
+					"family": "Rosenberg",
+					"given": "Danny"
+				},
+				{
+					"family": "Zhao",
+					"given": "Hao"
+				},
+				{
+					"family": "Lengyel",
+					"given": "György"
+				},
+				{
+					"family": "Nadel",
+					"given": "Dani"
+				}
+			],
+			"container": "Journal of Archaeological Science: Reports",
+			"volume": "21",
+			"pages": "783–793",
+			"published": "2018",
+			"doi": "10.1016/j.jasrep.2018.08.008",
+			"accessed": "2026-10-04",
+			"citedIn": "Raqefet Cave — Wikipedia (revision 1375411192)"
+		},
+		{
+			"kind": "article",
+			"title": "“… Yo-ho-ho, and a Bottle of [Beer]!” (R.L. Stevenson) No Beer but Rather Cereal-Food. Commentary: Liu et al. 2018",
+			"authors": [
+				{
+					"family": "Eitam",
+					"given": "David"
+				}
+			],
+			"container": "Journal of Archaeological Science: Reports",
+			"volume": "28",
+			"pages": "101913",
+			"published": "2019",
+			"doi": "10.1016/j.jasrep.2019.101913",
+			"accessed": "2026-10-04",
+			"citedIn": "Raqefet Cave — Wikipedia (revision 1375411192)"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Raqefet Cave",
+			"url": "https://en.wikipedia.org/w/index.php?title=Raqefet_Cave&oldid=1375411192",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ninkasi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ninkasi&oldid=1374339378",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bappir",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bappir&oldid=1375921674",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of beer",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_beer&oldid=1377570969",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Early writing tablet recording the allocation of beer",
+			"url": "https://commons.wikimedia.org/wiki/File:Early_writing_tablet_recording_the_allocation_of_beer.jpg",
+			"accessed": "2026-10-04",
+			"licence": "CC BY-SA 3.0",
+			"file": "beer-tablet.jpg",
+			"authors": [
+				{
+					"family": "West",
+					"given": "Andrew"
+				}
+			],
+			"container": "British Museum",
+			"number": "1989,0130.4",
+			"published": "2012-03-25",
+			"note": "A tablet of 3100–3000 BC, probably from southern Iraq; photographed by Andrew West (BabelStone)"
+		}
+	]
+}

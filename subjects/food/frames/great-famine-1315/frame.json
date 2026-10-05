@@ -1,0 +1,240 @@
+{
+	"id": "great-famine-1315",
+	"topic": "The Great Famine of 1315",
+	"position": {
+		"label": "1315–17",
+		"sort": 1315
+	},
+	"scene": {
+		"headline": "Europe's harvest",
+		"accent": "DROWNED.",
+		"palette": "amphora",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NORTHERN EUROPE · ENGLAND · FLANDERS",
+			"RAIN 1314–16 · WHEAT AT THREE TIMES ITS PRICE · THE CATTLE PLAGUE"
+		],
+		"counter": {
+			"value": "≈10%",
+			"label": "of the people lost in the worst-hit regions"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/black-death",
+			"why": "The Great Famine and the cattle plague of 1319–20 left a generation in England short of protein, and DeWitte and Slavin argue it was the more easily killed when the Black Death arrived in 1348."
+		},
+		{
+			"to": "food/assize-of-bread",
+			"why": "Through the famine Ypres reset the legal weight of its loaf 49 times in a year to keep bread priced to grain, the rule England's Assize of Bread set out as a table."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Johannis de Trokelowe, et Henrici de Blaneforde, Monachorum S. Albani, necnon quorundam anonymorum, Chronica et Annales",
+			"editors": [
+				{
+					"family": "Riley",
+					"given": "Henry Thomas"
+				}
+			],
+			"publisher": "Longmans, Green, Reader, and Dyer",
+			"place": "London",
+			"published": "1866",
+			"language": "la",
+			"url": "https://archive.org/details/johannisdetrokel00trok",
+			"accessed": "2026-10-04",
+			"note": "The dearth of 1315–1317, the writ of March 1315 and the writ on ale, pp. 89–97; the translations are ours"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A History of Agriculture and Prices in England, vol. 1, 1259–1400",
+			"authors": [
+				{
+					"family": "Rogers",
+					"given": "James E. Thorold"
+				}
+			],
+			"publisher": "Clarendon Press",
+			"place": "Oxford",
+			"published": "1866",
+			"url": "https://archive.org/details/cu31924013979244",
+			"accessed": "2026-10-04",
+			"note": "The yearly averages are on p. 230, the famine years on pp. 197–199"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Social Inequalities and the Great Famine in the County of Flanders (1315-7)",
+			"authors": [
+				{
+					"family": "Speecke",
+					"given": "Mathijs"
+				},
+				{
+					"family": "Lambrecht",
+					"given": "Thijs"
+				}
+			],
+			"container": "Socio-Economic Inequalities during the Conjuncture of the Fourteenth Century",
+			"editors": [
+				{
+					"family": "Cristoferi",
+					"given": "Davide"
+				}
+			],
+			"pages": "223–247",
+			"publisher": "Firenze University Press",
+			"place": "Florence",
+			"published": "2025",
+			"doi": "10.36253/979-12-215-0705-8.12",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Quantitative Hydroclimatic Context for the European Great Famine of 1315–1317",
+			"authors": [
+				{
+					"family": "Baek",
+					"given": "Seung H."
+				},
+				{
+					"family": "Smerdon",
+					"given": "Jason E."
+				},
+				{
+					"family": "Dobrin",
+					"given": "George-Costin"
+				},
+				{
+					"family": "Naimark",
+					"given": "Jacob G."
+				},
+				{
+					"family": "Cook",
+					"given": "Edward R."
+				},
+				{
+					"family": "Cook",
+					"given": "Benjamin I."
+				},
+				{
+					"family": "Seager",
+					"given": "Richard"
+				}
+			],
+			"etAl": true,
+			"container": "Communications Earth & Environment",
+			"volume": "1",
+			"pages": "19",
+			"published": "2020-09-15",
+			"doi": "10.1038/s43247-020-00016-3",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Famines in Medieval and Early Modern Europe—Connecting Climate and Society",
+			"authors": [
+				{
+					"family": "Ljungqvist",
+					"given": "Fredrik Charpentier"
+				},
+				{
+					"family": "Seim",
+					"given": "Andrea"
+				},
+				{
+					"family": "Collet",
+					"given": "Dominik"
+				}
+			],
+			"container": "WIREs Climate Change",
+			"volume": "15",
+			"issue": "1",
+			"pages": "e859",
+			"published": "2023-10-03",
+			"doi": "10.1002/wcc.859",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Between Famine and Death: England on the Eve of the Black Death—Evidence from Paleoepidemiology and Manorial Accounts",
+			"authors": [
+				{
+					"family": "DeWitte",
+					"given": "Sharon N."
+				},
+				{
+					"family": "Slavin",
+					"given": "Philip"
+				}
+			],
+			"container": "Journal of Interdisciplinary History",
+			"volume": "44",
+			"issue": "1",
+			"pages": "37–60",
+			"published": "2013",
+			"doi": "10.1162/JINH_a_00500",
+			"read": "abstract",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Great Famine of 1315–1317",
+			"url": "https://en.wikipedia.org/w/index.php?title=Great_Famine_of_1315%E2%80%931317&oldid=1375763552",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Great Bovine Pestilence",
+			"url": "https://en.wikipedia.org/w/index.php?title=Great_Bovine_Pestilence&oldid=1358673849",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John of Trokelowe",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_of_Trokelowe&oldid=1332052466",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-09"
+		},
+		{
+			"kind": "media",
+			"title": "A page of Trokelowe's annals, on the dearth of 1315",
+			"url": "https://archive.org/details/johannisdetrokel00trok/page/n150",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "trokelowe.jpg",
+			"container": "Johannis de Trokelowe … Chronica et Annales, edited by Henry Thomas Riley, p. 93",
+			"published": "1866",
+			"note": "Published in London in 1866"
+		}
+	]
+}

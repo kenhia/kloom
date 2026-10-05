@@ -1,0 +1,297 @@
+{
+	"id": "reinheitsgebot",
+	"topic": "Hops and the Reinheitsgebot",
+	"position": {
+		"label": "1516",
+		"sort": 1516
+	},
+	"scene": {
+		"headline": "Bavaria brewed by",
+		"accent": "DECREE.",
+		"palette": "amphora",
+		"illustration": "scene.svg",
+		"metadata": ["INGOLSTADT · DUKES WILLIAM IV AND LOUIS X", "BARLEY · HOPS · WATER · NO YEAST"],
+		"counter": {
+			"value": "3",
+			"label": "ingredients allowed in beer"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/enzymes",
+			"why": "Pasteur's studies of beer made living yeast the agent of fermentation; Buchner later fermented sugar with juice pressed out of brewer's yeast."
+		},
+		{
+			"to": "food/pasteurization",
+			"why": "Pasteur, who kept wine by heating it, turned to beer and its ferments in his Études sur la bière of 1876."
+		},
+		{
+			"to": "food/refrigeration",
+			"why": "Carl von Linde's refrigerating machines, first built for the Spaten brewery, let lager be brewed in summer."
+		}
+	],
+	"citations": [
+		{
+			"kind": "statute",
+			"citeAs": "gazette",
+			"title": "Wie das Pier summer vnd winter auffm lannd sol geschennckt vnd geprawen werden",
+			"code": {
+				"name": "Das büch der gemeinen landpot, Landsordnung, Satzung vnd Gebreüch des Fürstennthumbs in Obern vnd Nidern Bairn (Munich: Hans Schobser, 1516)",
+				"page": "102–103"
+			},
+			"published": "1516-04-24",
+			"language": "de",
+			"citedIn": "Reinheitsgebot — German Wikipedia (revision 269027733)"
+		},
+		{
+			"kind": "encyclopedia",
+			"key": true,
+			"title": "Reinheitsgebot, 1516",
+			"authors": [
+				{
+					"family": "Rupprecht",
+					"given": "Klaus"
+				}
+			],
+			"container": "Historisches Lexikon Bayerns",
+			"publisher": "Bayerische Staatsbibliothek",
+			"published": "2016-07-28",
+			"url": "https://www.historisches-lexikon-bayerns.de/Lexikon/Reinheitsgebot,_1516",
+			"accessed": "2026-10-04",
+			"language": "de"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Reinheitsgebot",
+			"url": "https://de.wikipedia.org/w/index.php?title=Reinheitsgebot&oldid=269027733",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-23",
+			"language": "de"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Reinheitsgebot",
+			"url": "https://en.wikipedia.org/w/index.php?title=Reinheitsgebot&oldid=1376620858",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Barbarian's Beverage: A History of Beer in Ancient Europe",
+			"authors": [
+				{
+					"family": "Nelson",
+					"given": "Max"
+				}
+			],
+			"place": "London",
+			"publisher": "Routledge",
+			"published": "2005",
+			"url": "https://scholar.uwindsor.ca/llcpub/26",
+			"accessed": "2026-10-04",
+			"note": "Hops, Adalard and Hildegard on pp. 105–110"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Studies on Fermentation: The Diseases of Beer, Their Causes, and the Means of Preventing Them",
+			"authors": [
+				{
+					"family": "Pasteur",
+					"given": "Louis"
+				}
+			],
+			"translators": [
+				{
+					"family": "Faulkner",
+					"given": "Frank"
+				},
+				{
+					"family": "Robb",
+					"given": "D. Constable"
+				}
+			],
+			"place": "London",
+			"publisher": "Macmillan",
+			"published": "1879",
+			"url": "https://archive.org/details/studiesonferment00past",
+			"accessed": "2026-10-04",
+			"note": "A translation of Études sur la bière (1876)"
+		},
+		{
+			"kind": "book",
+			"title": "Practical Studies in Fermentation: Being Contributions to the Life History of Micro-organisms",
+			"authors": [
+				{
+					"family": "Hansen",
+					"given": "Emil Christian"
+				}
+			],
+			"translators": [
+				{
+					"family": "Miller",
+					"given": "Alex. K."
+				}
+			],
+			"place": "London",
+			"publisher": "E. & F. N. Spon",
+			"published": "1896",
+			"url": "https://archive.org/details/practicalstudies00hansrich",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Microbe Domestication and the Identification of the Wild Genetic Stock of Lager-Brewing Yeast",
+			"authors": [
+				{
+					"family": "Libkind",
+					"given": "Diego"
+				},
+				{
+					"family": "Hittinger",
+					"given": "Chris Todd"
+				},
+				{
+					"family": "Valério",
+					"given": "Elisabete"
+				},
+				{
+					"family": "Gonçalves",
+					"given": "Carla"
+				},
+				{
+					"family": "Dover",
+					"given": "Jim"
+				},
+				{
+					"family": "Johnston",
+					"given": "Mark"
+				},
+				{
+					"family": "Gonçalves",
+					"given": "Paula"
+				}
+			],
+			"etAl": true,
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "108",
+			"issue": "35",
+			"pages": "14539–14544",
+			"published": "2011",
+			"doi": "10.1073/pnas.1105430108",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "case",
+			"title": "Commission v Germany",
+			"reporter": {
+				"volume": "1987",
+				"name": "E.C.R.",
+				"page": "1227"
+			},
+			"court": "ECJ",
+			"published": "1987-03-12",
+			"container": "EUR-Lex",
+			"url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:61984CJ0178",
+			"accessed": "2026-10-04",
+			"note": "Case 178/84, the purity requirement for beer"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hops",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hops&oldid=1374573085",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gruit",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gruit&oldid=1378183180",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lager",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lager&oldid=1374387676",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Saccharomyces pastorianus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Saccharomyces_pastorianus&oldid=1345496013",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Emil Christian Hansen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Emil_Christian_Hansen&oldid=1371990713",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "Humulus lupulus",
+			"url": "https://commons.wikimedia.org/wiki/File:Humulus_lupulus_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-072.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "hop-plate.jpg",
+			"container": "Köhler's Medizinal-Pflanzen",
+			"published": "1897",
+			"note": "A chromolithograph in a German herbal; the date is the file page's"
+		}
+	]
+}

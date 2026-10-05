@@ -1,0 +1,317 @@
+{
+	"id": "spice-routes",
+	"topic": "Pepper and the spice routes",
+	"position": {
+		"label": "1498",
+		"sort": 1498
+	},
+	"scene": {
+		"headline": "Pepper rode the",
+		"accent": "MONSOON.",
+		"palette": "saffron",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CALICUT · MUZIRIS · MALABAR COAST",
+			"BLACK PEPPER · THE MONSOON · THE CAPE ROUTE"
+		],
+		"counter": {
+			"value": "23",
+			"label": "days from Africa to India on the monsoon, 1498"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/voyages",
+			"why": "Portugal held the eastern sea route to the spices that da Gama opened in 1498, so Spain sent Magellan west for the Spice Islands in 1519."
+		},
+		{
+			"to": "food/lind-scurvy",
+			"why": "Da Gama's men died of scurvy on the slow crossing home from India in 1499, the disease Lind tested six remedies against in 1747."
+		},
+		{
+			"to": "food/banda-nutmeg",
+			"why": "The Portuguese opened the sea route to the spices in 1498; in 1621 the Dutch East India Company seized the nutmeg of the Banda Islands by force."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A Journal of the First Voyage of Vasco da Gama, 1497–1499",
+			"translators": [
+				{
+					"family": "Ravenstein",
+					"given": "E. G."
+				}
+			],
+			"place": "London",
+			"publisher": "Hakluyt Society",
+			"published": "1898",
+			"url": "https://www.gutenberg.org/ebooks/46440",
+			"accessed": "2026-10-04",
+			"note": "The anonymous Roteiro; Calicut, the route through Egypt and the voyage home"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Periplus of the Erythraean Sea: Travel and Trade in the Indian Ocean by a Merchant of the First Century",
+			"translators": [
+				{
+					"family": "Schoff",
+					"given": "Wilfred H."
+				}
+			],
+			"place": "New York",
+			"publisher": "Longmans, Green, and Co.",
+			"published": "1912",
+			"url": "https://sourcebooks.fordham.edu/ancient/periplus.asp",
+			"accessed": "2026-10-04",
+			"note": "Chapters 56 and 57; read in the Internet Ancient History Sourcebook's copy"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Natural History, Book 6, Chapter 26: Voyages to India",
+			"authors": [
+				{
+					"name": "Pliny the Elder"
+				}
+			],
+			"translators": [
+				{
+					"family": "Bostock",
+					"given": "John"
+				},
+				{
+					"family": "Riley",
+					"given": "H. T."
+				}
+			],
+			"place": "London",
+			"publisher": "Taylor and Francis",
+			"published": "1855",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137:book=6:chapter=26",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "The Natural History, Book 12, Chapter 14: The Pepper-Tree",
+			"authors": [
+				{
+					"name": "Pliny the Elder"
+				}
+			],
+			"translators": [
+				{
+					"family": "Bostock",
+					"given": "John"
+				},
+				{
+					"family": "Riley",
+					"given": "H. T."
+				}
+			],
+			"place": "London",
+			"publisher": "Taylor and Francis",
+			"published": "1855",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137:book=12:chapter=14",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "Naturalis Historia, Liber VI",
+			"authors": [
+				{
+					"name": "Pliny the Elder"
+				}
+			],
+			"container": "LacusCurtius",
+			"language": "la",
+			"url": "https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Pliny_the_Elder/6*.html",
+			"accessed": "2026-10-04",
+			"note": "Section 101, the figure HS |D|"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Black Pepper Consumption in the Roman Empire",
+			"authors": [
+				{
+					"family": "Cobb",
+					"given": "Matthew Adam"
+				}
+			],
+			"container": "Journal of the Economic and Social History of the Orient",
+			"volume": "61",
+			"issue": "4",
+			"pages": "519–559",
+			"published": "2018",
+			"doi": "10.1163/15685209-12341462",
+			"accessed": "2026-10-04",
+			"note": "Read in the author's submitted version; the Muziris papyrus is on pp. 11–12 of that copy"
+		},
+		{
+			"kind": "chapter",
+			"title": "Comparative Perspectives on the Pepper Trade",
+			"authors": [
+				{
+					"family": "De Romanis",
+					"given": "Federico"
+				}
+			],
+			"container": "Across the Ocean: Nine Essays on Indo-Mediterranean Trade",
+			"editors": [
+				{
+					"family": "De Romanis",
+					"given": "Federico"
+				},
+				{
+					"family": "Maiuro",
+					"given": "Marco"
+				}
+			],
+			"place": "Leiden",
+			"publisher": "Brill",
+			"published": "2015",
+			"pages": "127–150",
+			"citedIn": "Cobb, \"Black Pepper Consumption in the Roman Empire\""
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Did Vasco da Gama Matter for European Markets? Testing Frederick Lane's Hypotheses Fifty Years Later",
+			"authors": [
+				{
+					"family": "O'Rourke",
+					"given": "Kevin H."
+				},
+				{
+					"family": "Williamson",
+					"given": "Jeffrey G."
+				}
+			],
+			"publisher": "National Bureau of Economic Research",
+			"number": "Working Paper 11884",
+			"place": "Cambridge, MA",
+			"published": "2005-12",
+			"doi": "10.3386/w11884",
+			"accessed": "2026-10-04",
+			"note": "Published in The Economic History Review 62, no. 3 (2009): 655–684"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Spice trade",
+			"url": "https://en.wikipedia.org/w/index.php?title=Spice_trade&oldid=1377836347",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Black pepper",
+			"url": "https://en.wikipedia.org/w/index.php?title=Black_pepper&oldid=1377161631",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vasco da Gama",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vasco_da_Gama&oldid=1378508680",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Muziris",
+			"url": "https://en.wikipedia.org/w/index.php?title=Muziris&oldid=1376802069",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Monsoon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Monsoon&oldid=1368846764",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Portuguese India",
+			"url": "https://en.wikipedia.org/w/index.php?title=Portuguese_India&oldid=1377744803",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cartaz",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cartaz&oldid=1368202165",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-07"
+		},
+		{
+			"kind": "media",
+			"title": "Harvesting pepper, from Le Livre des merveilles",
+			"url": "https://commons.wikimedia.org/wiki/File:Le_livre_des_merveilles_de_Marco_Polo-pepper.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "pepper-harvest.jpg",
+			"authors": [
+				{
+					"name": "Boucicaut Master and Mazarine Master"
+				}
+			],
+			"container": "Le Livre des merveilles, Bibliothèque nationale de France, Français 2810, fol. 84",
+			"published": "1410",
+			"circa": true
+		}
+	]
+}

@@ -1,0 +1,278 @@
+{
+	"id": "restaurant",
+	"topic": "The first restaurants",
+	"position": {
+		"label": "1782",
+		"sort": 1782
+	},
+	"scene": {
+		"headline": "We ordered from the",
+		"accent": "MENU.",
+		"palette": "linen",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · RUE DES POULIES · PALAIS-ROYAL",
+			"CHANTOISEAU · BEAUVILLIERS · BRILLAT-SAVARIN"
+		],
+		"counter": {
+			"value": "268",
+			"label": "dishes at least on a Paris carte, 1825"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "L'individu au menu : l'invention du restaurant à Paris au XVIIIe siècle",
+			"authors": [
+				{
+					"family": "Spang",
+					"given": "Rebecca L."
+				}
+			],
+			"translators": [
+				{
+					"family": "Muller",
+					"given": "Sylvie"
+				}
+			],
+			"container": "Ethnologie française",
+			"volume": "44",
+			"issue": "1",
+			"pages": "11–17",
+			"published": "2014",
+			"doi": "10.3917/ethn.141.0011",
+			"accessed": "2026-10-04",
+			"language": "fr",
+			"note": "The 1767 advertisement, Mercier's cooks, and the restaurant as a way of serving"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Paris as It Was and as It Is; or, A Sketch of the French Capital, Illustrative of the Effects of the Revolution",
+			"authors": [
+				{
+					"family": "Blagdon",
+					"given": "Francis William"
+				}
+			],
+			"volume": "1",
+			"place": "London",
+			"publisher": "C. and R. Baldwin",
+			"published": "1803",
+			"url": "https://archive.org/details/parisasitwasasit01blag",
+			"accessed": "2026-10-04",
+			"note": "Boulanger and Beauvilliers's carte, pp. 439–446"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Méditation XXVIII: Des restaurateurs",
+			"authors": [
+				{
+					"family": "Brillat-Savarin",
+					"given": "Jean Anthelme"
+				}
+			],
+			"container": "Physiologie du goût",
+			"published": "1825",
+			"language": "fr",
+			"url": "https://fr.wikisource.org/wiki/Physiologie_du_go%C3%BBt/M%C3%A9ditation_XXVIII",
+			"accessed": "2026-10-04",
+			"note": "Read in an 1867 edition on Wikisource"
+		},
+		{
+			"kind": "letter",
+			"title": "Au Grandval, le 28 septembre 1767",
+			"authors": [
+				{
+					"family": "Diderot",
+					"given": "Denis"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Volland",
+					"given": "Sophie"
+				}
+			],
+			"written": "1767-09-28",
+			"container": "Œuvres complètes de Diderot",
+			"volume": "19",
+			"pages": "251–255",
+			"editors": [
+				{
+					"family": "Assézat",
+					"given": "J."
+				},
+				{
+					"family": "Tourneux",
+					"given": "Maurice"
+				}
+			],
+			"place": "Paris",
+			"publisher": "Garnier",
+			"published": "1876",
+			"language": "fr",
+			"url": "https://fr.wikisource.org/wiki/Lettres_%C3%A0_Sophie_Volland/108",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "encyclopedia",
+			"title": "Restauratif ou Restaurant",
+			"container": "Encyclopédie, ou Dictionnaire raisonné des sciences, des arts et des métiers",
+			"editors": [
+				{
+					"family": "Diderot",
+					"given": "Denis"
+				},
+				{
+					"family": "d'Alembert",
+					"given": "Jean le Rond"
+				}
+			],
+			"volume": "14",
+			"pages": "193",
+			"published": "1765",
+			"language": "fr",
+			"url": "https://fr.wikisource.org/wiki/L%E2%80%99Encyclop%C3%A9die/1re_%C3%A9dition/RESTAURATIF_ou_RESTAURANT",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "web",
+			"title": "Revolutionary Broth: The Birth of the Restaurant and the Invention of French Gastronomy",
+			"authors": [
+				{
+					"family": "Louisgrand",
+					"given": "Nathalie"
+				}
+			],
+			"container": "The Conversation",
+			"published": "2021-08-25",
+			"url": "https://theconversation.com/revolutionary-broth-the-birth-of-the-restaurant-and-the-invention-of-french-gastronomy-165507",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "Le Nouveau Paris",
+			"authors": [
+				{
+					"family": "Mercier",
+					"given": "Louis-Sébastien"
+				}
+			],
+			"volume": "4",
+			"pages": "197",
+			"published": "1798",
+			"language": "fr",
+			"citedIn": "L'individu au menu : l'invention du restaurant à Paris au XVIIIe siècle"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Restaurant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Restaurant&oldid=1376399216",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Restaurant",
+			"url": "https://fr.wikipedia.org/w/index.php?title=Restaurant&oldid=238814281",
+			"language": "fr",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Antoine Beauvilliers",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antoine_Beauvilliers&oldid=1252644566",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-10-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jean Anthelme Brillat-Savarin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jean_Anthelme_Brillat-Savarin&oldid=1363443339",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Grimod de La Reynière",
+			"url": "https://en.wikipedia.org/w/index.php?title=Grimod_de_La_Reyni%C3%A8re&oldid=1352988050",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Allarde Decree",
+			"url": "https://en.wikipedia.org/w/index.php?title=Allarde_Decree&oldid=1369393740",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-14"
+		},
+		{
+			"kind": "media",
+			"title": "Beauvilliers, restaurateur: bill of fare",
+			"container": "Paris as It Was and as It Is, vol. 1, p. 444",
+			"url": "https://archive.org/details/parisasitwasasit01blag/page/n503",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "beauvilliers-carte.jpg",
+			"published": "1803",
+			"note": "Published in London in 1803"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/encyclopedie",
+			"why": "The Encyclopédie's fourteenth volume, issued in 1765, defined a restaurant as a medicine to restore strength; two years later its editor, Diderot, wrote of his infinite liking for the new restaurateur."
+		},
+		{
+			"to": "western-civ/french-revolution",
+			"why": "The Revolution renamed Beauvilliers's Grande Taverne de Londres for the Republic and abolished the guilds that divided cooking among trades, and was long credited, too generously, with creating the restaurant."
+		}
+	]
+}

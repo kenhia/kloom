@@ -1,0 +1,386 @@
+{
+	"id": "maize",
+	"topic": "Maize from teosinte",
+	"position": {
+		"label": "c. 7000 BC",
+		"sort": -7000
+	},
+	"scene": {
+		"headline": "We bred a grass into a",
+		"accent": "COB.",
+		"palette": "barley",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BALSAS VALLEY · GUERRERO · OAXACA · MEXICO",
+			"TEOSINTE · TB1 · TGA1 · LIME · BEANS · SQUASH"
+		],
+		"counter": {
+			"value": "8,700",
+			"label": "years since maize was ground at Xihuatoxtla"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Single Domestication for Maize Shown by Multilocus Microsatellite Genotyping",
+			"authors": [
+				{
+					"family": "Matsuoka",
+					"given": "Yoshihiro"
+				},
+				{
+					"family": "Vigouroux",
+					"given": "Yves"
+				},
+				{
+					"family": "Goodman",
+					"given": "Major M."
+				},
+				{
+					"family": "Sanchez G.",
+					"given": "Jesus"
+				},
+				{
+					"family": "Buckler",
+					"given": "Edward"
+				},
+				{
+					"family": "Doebley",
+					"given": "John"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "99",
+			"issue": "9",
+			"pages": "6080–6084",
+			"published": "2002-04-30",
+			"doi": "10.1073/pnas.052125199",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Starch Grain and Phytolith Evidence for Early Ninth Millennium B.P. Maize from the Central Balsas River Valley, Mexico",
+			"authors": [
+				{
+					"family": "Piperno",
+					"given": "Dolores R."
+				},
+				{
+					"family": "Ranere",
+					"given": "Anthony J."
+				},
+				{
+					"family": "Holst",
+					"given": "Irene"
+				},
+				{
+					"family": "Iriarte",
+					"given": "Jose"
+				},
+				{
+					"family": "Dickau",
+					"given": "Ruth"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "106",
+			"issue": "13",
+			"pages": "5019–5024",
+			"published": "2009-03-31",
+			"doi": "10.1073/pnas.0812525106",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "The Earliest Archaeological Maize (Zea mays L.) from Highland Mexico: New Accelerator Mass Spectrometry Dates and Their Implications",
+			"authors": [
+				{
+					"family": "Piperno",
+					"given": "Dolores R."
+				},
+				{
+					"family": "Flannery",
+					"given": "Kent V."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "98",
+			"issue": "4",
+			"pages": "2101–2103",
+			"published": "2001-02-13",
+			"doi": "10.1073/pnas.98.4.2101",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Genetic, Evolutionary and Plant Breeding Insights from the Domestication of Maize",
+			"authors": [
+				{
+					"family": "Hake",
+					"given": "Sarah"
+				},
+				{
+					"family": "Ross-Ibarra",
+					"given": "Jeffrey"
+				}
+			],
+			"container": "eLife",
+			"volume": "4",
+			"pages": "e05861",
+			"published": "2015-03-25",
+			"doi": "10.7554/eLife.05861",
+			"accessed": "2026-10-04",
+			"note": "The comparison of teosinte and maize, Beadle's cross, tb1 and tga1"
+		},
+		{
+			"kind": "article",
+			"title": "The Origin of the Naked Grains of Maize",
+			"authors": [
+				{
+					"family": "Wang",
+					"given": "Huai"
+				},
+				{
+					"family": "Nussbaum-Wagler",
+					"given": "Tina"
+				},
+				{
+					"family": "Li",
+					"given": "Bailin"
+				},
+				{
+					"family": "Zhao",
+					"given": "Qiong"
+				},
+				{
+					"family": "Vigouroux",
+					"given": "Yves"
+				},
+				{
+					"family": "Faller",
+					"given": "Marianna"
+				},
+				{
+					"family": "Bomblies",
+					"given": "Kirsten"
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "436",
+			"issue": "7051",
+			"pages": "714–719",
+			"published": "2005-08",
+			"doi": "10.1038/nature03863",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The Evolution of Apical Dominance in Maize",
+			"authors": [
+				{
+					"family": "Doebley",
+					"given": "John"
+				},
+				{
+					"family": "Stec",
+					"given": "Adrian"
+				},
+				{
+					"family": "Hubbard",
+					"given": "Lauren"
+				}
+			],
+			"container": "Nature",
+			"volume": "386",
+			"issue": "6624",
+			"pages": "485–488",
+			"published": "1997-04",
+			"doi": "10.1038/386485a0",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Multiproxy Evidence Highlights a Complex Evolutionary Legacy of Maize in South America",
+			"authors": [
+				{
+					"family": "Kistler",
+					"given": "Logan"
+				},
+				{
+					"family": "Maezumi",
+					"given": "S. Yoshi"
+				},
+				{
+					"family": "Gregorio de Souza",
+					"given": "Jonas"
+				},
+				{
+					"family": "Przelomska",
+					"given": "Natalia A. S."
+				},
+				{
+					"family": "Malaquias Costa",
+					"given": "Flaviane"
+				},
+				{
+					"family": "Smith",
+					"given": "Oliver"
+				},
+				{
+					"family": "Loiselle",
+					"given": "Hope"
+				}
+			],
+			"etAl": true,
+			"container": "Science",
+			"volume": "362",
+			"issue": "6420",
+			"pages": "1309–1313",
+			"published": "2018-12-14",
+			"doi": "10.1126/science.aav0207",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Maize in Human Nutrition",
+			"authors": [
+				{
+					"name": "Food and Agriculture Organization of the United Nations"
+				}
+			],
+			"number": "FAO Food and Nutrition Series 25",
+			"publisher": "Food and Agriculture Organization of the United Nations",
+			"place": "Rome",
+			"published": "1992",
+			"url": "https://www.fao.org/4/t0395e/T0395E00.htm",
+			"accessed": "2026-10-04",
+			"note": "Lime-cooking (ch. 4), its effect on niacin (ch. 5) and maize with beans (ch. 8)"
+		},
+		{
+			"kind": "article",
+			"title": "The Prevention of Pellagra: A Test of Diet among Institutional Inmates",
+			"authors": [
+				{
+					"family": "Goldberger",
+					"given": "Joseph"
+				},
+				{
+					"family": "Waring",
+					"given": "C. H."
+				},
+				{
+					"family": "Willets",
+					"given": "David G."
+				}
+			],
+			"container": "Public Health Reports",
+			"volume": "30",
+			"issue": "43",
+			"pages": "3117–3131",
+			"published": "1915-10-22",
+			"url": "https://www.jstor.org/stable/4572932",
+			"accessed": "2026-10-04",
+			"note": "Read in JSTOR's Early Journal Content copy on the Internet Archive"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Maize",
+			"url": "https://en.wikipedia.org/w/index.php?title=Maize&oldid=1377441710",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nixtamalization",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nixtamalization&oldid=1378439164",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pellagra",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pellagra&oldid=1375630063",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Three Sisters (agriculture)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Three_Sisters_(agriculture)&oldid=1378529203",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George Beadle",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_Beadle&oldid=1371997934",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "Maize-teosinte",
+			"url": "https://commons.wikimedia.org/wiki/File:Maize-teosinte.jpg",
+			"accessed": "2026-10-04",
+			"licence": "CC BY 3.0",
+			"file": "teosinte-maize.jpg",
+			"authors": [
+				{
+					"family": "Doebley",
+					"given": "John"
+				}
+			],
+			"container": "Teosinte images, University of Wisconsin–Madison"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/penicillin",
+			"why": "Corn steep liquor, a waste from milling maize, raised penicillin yields tenfold at the Department of Agriculture's Peoria laboratory in 1941."
+		}
+	]
+}

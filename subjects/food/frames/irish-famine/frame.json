@@ -1,0 +1,230 @@
+{
+	"id": "irish-famine",
+	"topic": "The Great Famine in Ireland",
+	"position": {
+		"label": "1845–52",
+		"sort": 1845
+	},
+	"scene": {
+		"headline": "A million died, and a million",
+		"accent": "LEFT.",
+		"palette": "hayrick",
+		"illustration": "scene.svg",
+		"metadata": [
+			"IRELAND · BLIGHT · SOUP KITCHENS · THE QUARTER-ACRE CLAUSE",
+			"PEEL · RUSSELL · TREVELYAN · THE SOCIETY OF FRIENDS"
+		],
+		"counter": {
+			"value": "1 in 8",
+			"label": "of the people of Ireland died"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Ireland's Great Famine: An Overview",
+			"authors": [
+				{
+					"family": "Ó Gráda",
+					"given": "Cormac"
+				}
+			],
+			"publisher": "Centre for Economic Research, University College Dublin",
+			"number": "Working Paper WP04/25",
+			"published": "2004-11",
+			"url": "https://www.ucd.ie/economics/research/papers/2004/WP04.25.pdf",
+			"accessed": "2026-10-04",
+			"note": "The potato's uses, the public works and soup kitchens, Solar's food supplies and the policy debate; read in the Wayback Machine's copy"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Irish Crisis",
+			"authors": [
+				{
+					"family": "Trevelyan",
+					"given": "Charles E."
+				}
+			],
+			"place": "London",
+			"publisher": "Longman, Brown, Green & Longmans",
+			"published": "1848",
+			"url": "https://www.gutenberg.org/ebooks/56727",
+			"accessed": "2026-10-04",
+			"note": "Reprinted from the Edinburgh Review of January 1848; the ration is in note 33. Read in Project Gutenberg's edition"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Food Exports from Ireland 1846–47",
+			"authors": [
+				{
+					"family": "Kinealy",
+					"given": "Christine"
+				}
+			],
+			"container": "History Ireland",
+			"volume": "5",
+			"issue": "1",
+			"published": "1997",
+			"url": "https://www.historyireland.com/food-exports-from-ireland-1846-47/",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Great Famine (Ireland)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Great_Famine_(Ireland)&oldid=1377922927",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02",
+			"key": true,
+			"note": "The death estimates, emigration, the genocide debate and Mitchel's words"
+		},
+		{
+			"kind": "book",
+			"title": "Black '47 and Beyond: The Great Irish Famine in History, Economy, and Memory",
+			"authors": [
+				{
+					"family": "Ó Gráda",
+					"given": "Cormac"
+				}
+			],
+			"place": "Princeton",
+			"publisher": "Princeton University Press",
+			"published": "1999",
+			"citedIn": "Great Famine (Ireland), Wikipedia: the table of the Irish grain trade, from p. 123"
+		},
+		{
+			"kind": "report",
+			"title": "Bill to Make Further Provision for the Relief of the Destitute Poor in Ireland, as Amended by the Lords",
+			"publisher": "House of Commons",
+			"container": "Parliamentary Papers, Session 1847, vol. 3",
+			"published": "1847-05-18",
+			"url": "https://archive.org/details/op1246569-1001",
+			"accessed": "2026-10-04",
+			"note": "The quarter-acre clause; the University of Southampton's scan"
+		},
+		{
+			"kind": "report",
+			"title": "Distress in Ireland: Extracts from Correspondence Published by the Central Relief Committee of the Society of Friends, No. III",
+			"authors": [
+				{
+					"name": "Central Relief Committee of the Society of Friends"
+				}
+			],
+			"place": "Dublin",
+			"publisher": "Webb and Chapman",
+			"published": "1847",
+			"url": "https://archive.org/details/distressinirela00irelgoog",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "A Visit to Connaught in the Autumn of 1847: A Letter Addressed to the Central Relief Committee of the Society of Friends, Dublin",
+			"authors": [
+				{
+					"family": "Tuke",
+					"given": "James H."
+				}
+			],
+			"place": "London",
+			"publisher": "Charles Gilpin",
+			"published": "1848",
+			"url": "https://archive.org/details/avisittoconnaug00irelgoog",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Temporary Relief Act 1847",
+			"url": "https://en.wikipedia.org/w/index.php?title=Temporary_Relief_Act_1847&oldid=1359614155",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Irish Lumper",
+			"url": "https://en.wikipedia.org/w/index.php?title=Irish_Lumper&oldid=1294809580",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-06-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Historical population of Ireland",
+			"url": "https://en.wikipedia.org/w/index.php?title=Historical_population_of_Ireland&oldid=1375638097",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sir Charles Trevelyan, 1st Baronet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sir_Charles_Trevelyan,_1st_Baronet&oldid=1372659330",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Mitchel",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Mitchel&oldid=1375973821",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "media",
+			"title": "A food riot in Dungarvan, Co. Waterford, Ireland, during the famine",
+			"container": "The Pictorial Times, October 10, 1846; British Library",
+			"url": "https://commons.wikimedia.org/wiki/File:A_food_riot_in_Dungarvan,_Co._Waterford,_Ireland,_during_the_famine_-_The_Pictorial_Times_(1846)_-_BL.jpg",
+			"accessed": "2026-10-04",
+			"licence": "CC0",
+			"file": "dungarvan-riot.jpg",
+			"published": "1846-10-10"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/revolutions-of-1848",
+			"why": "The potato blight that began Ireland's famine in 1845 also spread hunger across Europe, and with the failed harvest of 1846 and the slump of 1847 laid the ground for the revolutions of 1848."
+		}
+	]
+}

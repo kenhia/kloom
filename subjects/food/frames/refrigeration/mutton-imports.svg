@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Frozen mutton and lamb imported into the United Kingdom, 1885 to 1910</title>
+<desc id="d">Bar chart of carcasses of mutton and lamb imported into the United Kingdom, in round totals: about 1 million in 1885, 3 million in 1890, 5 million in 1895, 7 million in 1900 and 13 million in 1910. Data: Critchell and Raymond, A History of the Frozen Meat Trade (1912), p. 393.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="460" y1="178.7" y2="178.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="182.7" text-anchor="end">5M</text>
+<line x1="64" x2="460" y1="107.3" y2="107.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">10M</text>
+<line x1="64" x2="460" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">15M</text>
+</g>
+<rect x="75.6" y="235.7" width="56" height="14.3" fill-opacity="0.85"/>
+<text x="103.6" y="229.7" text-anchor="middle">1M</text>
+<text x="103.6" y="266" text-anchor="middle">1885</text>
+<rect x="154.8" y="207.2" width="56" height="42.8" fill-opacity="0.85"/>
+<text x="182.8" y="201.2" text-anchor="middle">3M</text>
+<text x="182.8" y="266" text-anchor="middle">1890</text>
+<rect x="234.0" y="178.7" width="56" height="71.3" fill-opacity="0.85"/>
+<text x="262.0" y="172.7" text-anchor="middle">5M</text>
+<text x="262.0" y="266" text-anchor="middle">1895</text>
+<rect x="313.2" y="150.1" width="56" height="99.9" fill-opacity="0.85"/>
+<text x="341.2" y="144.1" text-anchor="middle">7M</text>
+<text x="341.2" y="266" text-anchor="middle">1900</text>
+<rect x="392.4" y="64.5" width="56" height="185.5" class="accent" fill="currentColor"/>
+<text x="420.4" y="58.5" text-anchor="middle">13M</text>
+<text x="420.4" y="266" text-anchor="middle">1910</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">MUTTON AND LAMB CARCASSES IMPORTED BY THE UK</text>
+</g></svg>

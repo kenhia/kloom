@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 44 L360 44"/>
+		<path pathLength="1" d="M105 72 L105 112"/>
+		<path pathLength="1" d="M295 72 L295 112"/>
+		<path pathLength="1" d="M105 172 L110 210"/>
+		<path pathLength="1" d="M295 172 L110 210"/>
+		<path pathLength="1" d="M60 252 L340 252"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M70 36 L120 36 L120 52 L70 52 Z"/>
+		<path pathLength="1" d="M128 36 L248 36 L248 52 L128 52 Z"/>
+		<path pathLength="1" d="M256 36 L320 36 L320 52 L256 52 Z"/>
+		<path pathLength="1" d="M56 34 L64 44 L56 54 Z"/>
+		<path pathLength="1" d="M334 34 L342 44 L334 54 Z"/>
+		<path pathLength="1" d="M46 132 a34 13 0 1 0 68 0 a34 13 0 1 0 -68 0"/>
+		<path pathLength="1" d="M85 132 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0"/>
+		<path pathLength="1" d="M169.5 140 L167.8 142.3 L167.4 144.7 L166.6 146.9 L166.9 149.8 L164.3 151 L162.7 152.7 L161 154.3 L159.8 156.9 L156.9 156.6 L154.7 157.4 L152.3 157.8 L150 159.5 L147.7 157.8 L145.3 157.4 L143.1 156.6 L140.2 156.9 L139 154.3 L137.3 152.7 L135.7 151 L133.1 149.8 L133.4 146.9 L132.6 144.7 L132.2 142.3 L130.5 140 L132.2 137.7 L132.6 135.3 L133.4 133.1 L133.1 130.2 L135.7 129 L137.3 127.3 L139 125.7 L140.2 123.1 L143.1 123.4 L145.3 122.6 L147.7 122.2 L150 120.5 L152.3 122.2 L154.7 122.6 L156.9 123.4 L159.8 123.1 L161 125.7 L162.7 127.3 L164.3 129 L166.9 130.2 L166.6 133.1 L167.4 135.3 L167.8 137.7 L169.5 140 Z"/>
+		<path pathLength="1" d="M250 118 L298 118 L298 136 L250 136 Z"/>
+		<path pathLength="1" d="M298 112 L298 142"/>
+		<path pathLength="1" d="M314 160 a26 6 0 1 0 52 0 a26 6 0 1 0 -52 0"/>
+		<path pathLength="1" d="M326 152 a14 6 0 1 0 28 0 a14 6 0 1 0 -28 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M102.8 107.5 L105 112 L107.2 107.5"/>
+		<path pathLength="1" d="M292.8 107.5 L295 112 L297.2 107.5"/>
+		<path pathLength="1" d="M115 134 L130 138"/>
+		<path pathLength="1" d="M126.1 138.8 L130 138 L127 135.4"/>
+		<path pathLength="1" d="M302.4 126 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M309.9 127.4 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M317.4 131.5 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M324.9 138.4 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M332.4 148 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M107.3 205.8 L110 210 L111.6 205.3"/>
+		<path pathLength="1" d="M114 207 L110 210 L114.8 211.2"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M70 228 a40 12 0 1 0 80 0 a40 12 0 1 0 -80 0"/>
+		<path pathLength="1" d="M70 228 L70 236"/>
+		<path pathLength="1" d="M150 228 L150 236"/>
+		<path pathLength="1" d="M150 236 L149.9 236.8 L149.7 237.6 L149.2 238.3 L148.6 239.1 L147.9 239.9 L147 240.6 L145.9 241.3 L144.6 242 L143.3 242.7 L141.7 243.3 L140.1 243.9 L138.3 244.5 L136.4 245 L134.4 245.5 L132.2 246 L130 246.4 L127.7 246.8 L125.3 247.1 L122.9 247.4 L120.4 247.6 L117.8 247.8 L115.2 247.9 L112.6 248 L110 248 L107.4 248 L104.8 247.9 L102.2 247.8 L99.6 247.6 L97.1 247.4 L94.7 247.1 L92.3 246.8 L90 246.4 L87.8 246 L85.6 245.5 L83.6 245 L81.7 244.5 L79.9 243.9 L78.3 243.3 L76.7 242.7 L75.4 242 L74.1 241.3 L73 240.6 L72.1 239.9 L71.4 239.1 L70.8 238.3 L70.3 237.6 L70.1 236.8 L70 236"/>
+		<path pathLength="1" d="M186 206 L214 206 L214 252 L186 252 Z"/>
+		<path pathLength="1" d="M200 246 L200 224"/>
+		<path pathLength="1" d="M 200 232 Q 192 226 190 218"/>
+		<path pathLength="1" d="M 200 228 Q 208 222 210 214"/>
+		<path pathLength="1" d="M300 252 L300 196"/>
+		<path pathLength="1" d="M 300 236 Q 314 226 326 230"/>
+		<path pathLength="1" d="M 300 222 Q 286 212 274 216"/>
+		<path pathLength="1" d="M 300 208 Q 314 198 326 202"/>
+		<path pathLength="1" d="M297 192 a3 5 0 1 0 6 0 a3 5 0 1 0 -6 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M93 226 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M115 230 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M125 224 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M82 228 L86 232"/>
+		<path pathLength="1" d="M82 232 L86 228"/>
+		<path pathLength="1" d="M102 222 L106 226"/>
+		<path pathLength="1" d="M102 226 L106 222"/>
+		<path pathLength="1" d="M138 227 L142 231"/>
+		<path pathLength="1" d="M138 231 L142 227"/>
+		<path pathLength="1" d="M112 224 L116 228"/>
+		<path pathLength="1" d="M112 228 L116 224"/>
+		<path pathLength="1" d="M154 230 L182 230"/>
+		<path pathLength="1" d="M178.4 231.7 L182 230 L178.4 228.3"/>
+		<path pathLength="1" d="M218 230 L282 230"/>
+		<path pathLength="1" d="M278.4 231.7 L282 230 L278.4 228.3"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="95" y="47" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PROMOTER</text>
+		<text x="188" y="47" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GENE</text>
+		<text x="288" y="47" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MARKER</text>
+		<text x="48" y="66" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LB</text>
+		<text x="342" y="66" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RB</text>
+		<text x="200" y="22" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE CONSTRUCT · BETWEEN THE T-DNA BORDERS</text>
+		<text x="80" y="160" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AGROBACTERIUM</text>
+		<text x="150" y="172" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LEAF DISC</text>
+		<text x="258" y="106" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GENE GUN</text>
+		<text x="340" y="178" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GOLD INTO TISSUE</text>
+		<text x="110" y="270" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SELECT</text>
+		<text x="200" y="270" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">REGENERATE</text>
+		<text x="300" y="270" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TEST AND BREED</text>
+		<text x="200" y="290" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ONLY CELLS CARRYING THE MARKER GROW</text>
+	</g>
+</svg>

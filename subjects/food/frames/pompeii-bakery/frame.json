@@ -1,0 +1,243 @@
+{
+	"id": "pompeii-bakery",
+	"topic": "The bakeries of Pompeii",
+	"position": {
+		"label": "AD 79",
+		"sort": 79
+	},
+	"scene": {
+		"headline": "Slaves and donkeys turned the",
+		"accent": "MILLS.",
+		"palette": "barley",
+		"illustration": "scene.svg",
+		"metadata": ["POMPEII · VESUVIUS · AD 79", "LAVA MILLS · KNEADING MACHINE · DOMED OVEN"],
+		"counter": {
+			"value": "81",
+			"label": "loaves found in one sealed oven"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "La disciplina dell'odiosa baracca: la casa con il panificio di Rustio Vero a Pompei (IX 10,1)",
+			"authors": [
+				{
+					"family": "Iovino",
+					"given": "Gennaro"
+				},
+				{
+					"family": "Marchello",
+					"given": "Alessandra"
+				},
+				{
+					"family": "Trapani",
+					"given": "Ausilia"
+				},
+				{
+					"family": "Zuchtriegel",
+					"given": "Gabriel"
+				}
+			],
+			"container": "E-Journal degli Scavi di Pompei",
+			"issue": "8",
+			"publisher": "Parco Archeologico di Pompei",
+			"published": "2023-12-08",
+			"language": "it",
+			"url": "https://pompeiisites.org/e-journal-degli-scavi-di-pompei/la-disciplina-dellodiosa-baracca-la-casa-con-il-panificio-di-rustio-vero-a-pompei-ix-101/",
+			"accessed": "2026-10-04",
+			"note": "The plan of the bakery, its barred windows, stable and paving, and the count of 36 bakeries"
+		},
+		{
+			"kind": "web",
+			"title": "Pompeii: Prison Bakery Emerges",
+			"authors": [
+				{
+					"name": "Parco Archeologico di Pompei"
+				}
+			],
+			"container": "Pompeii Sites",
+			"published": "2023-12-08",
+			"url": "https://pompeiisites.org/en/comunicati/pompeii-prison-bakery-emerges/",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Pompeii: Its Life and Art",
+			"authors": [
+				{
+					"family": "Mau",
+					"given": "August"
+				}
+			],
+			"translators": [
+				{
+					"family": "Kelsey",
+					"given": "Francis W."
+				}
+			],
+			"edition": "New rev. ed.",
+			"place": "New York",
+			"publisher": "Macmillan",
+			"published": "1902",
+			"url": "https://www.gutenberg.org/ebooks/42715",
+			"accessed": "2026-10-04",
+			"note": "Chapter 47 describes the bakeries, the mills, the ovens and the kneading machine"
+		},
+		{
+			"kind": "book",
+			"title": "The Natural History",
+			"authors": [
+				{
+					"name": "Pliny the Elder"
+				}
+			],
+			"translators": [
+				{
+					"family": "Bostock",
+					"given": "John"
+				},
+				{
+					"family": "Riley",
+					"given": "H. T."
+				}
+			],
+			"place": "London",
+			"publisher": "Taylor and Francis",
+			"published": "1855",
+			"container": "Perseus Digital Library",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0137%3Abook%3D18%3Achapter%3D28",
+			"accessed": "2026-10-04",
+			"note": "Book 18, chapters 26 to 28, on leaven, bread and the first bakers at Rome"
+		},
+		{
+			"kind": "book",
+			"title": "The Golden Asse",
+			"authors": [
+				{
+					"name": "Apuleius"
+				}
+			],
+			"translators": [
+				{
+					"family": "Adlington",
+					"given": "William"
+				}
+			],
+			"published": "1566",
+			"url": "https://www.gutenberg.org/ebooks/1666",
+			"accessed": "2026-10-04",
+			"note": "Book 9, the hero sold to a baker"
+		},
+		{
+			"kind": "web",
+			"title": "VII.1.36 Pompeii. Modestus Bakery",
+			"authors": [
+				{
+					"family": "Dunn",
+					"given": "Jackie"
+				},
+				{
+					"family": "Dunn",
+					"given": "Bob"
+				}
+			],
+			"container": "Pompeii in Pictures",
+			"url": "https://www.pompeiiinpictures.com/pompeiiinpictures/R7/7%2001%2036.htm",
+			"accessed": "2026-10-04",
+			"note": "Quotes Scafati (1900) and Della Corte (1965) on the 81 loaves, and Fiorelli on the notice by the door"
+		},
+		{
+			"kind": "web",
+			"title": "VII.2.6 Pompeii. House of T. Terentius Neo",
+			"authors": [
+				{
+					"family": "Dunn",
+					"given": "Jackie"
+				},
+				{
+					"family": "Dunn",
+					"given": "Bob"
+				}
+			],
+			"container": "Pompeii in Pictures",
+			"url": "https://www.pompeiiinpictures.com/pompeiiinpictures/R7/7%2002%2006.htm",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Herculaneum loaf",
+			"url": "https://en.wikipedia.org/w/index.php?title=Herculaneum_loaf&oldid=1374892518",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Portrait of Terentius Neo",
+			"url": "https://en.wikipedia.org/w/index.php?title=Portrait_of_Terentius_Neo&oldid=1371104005",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tomb of Eurysaces the Baker",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tomb_of_Eurysaces_the_Baker&oldid=1365546852",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-23"
+		},
+		{
+			"kind": "media",
+			"title": "Pompei pane",
+			"url": "https://commons.wikimedia.org/wiki/File:Pompei_pane.jpg",
+			"accessed": "2026-10-04",
+			"licence": "CC BY-SA 2.0 it",
+			"file": "loaf.jpg",
+			"authors": [
+				{
+					"name": "Beatrice (Wikimedia Commons user)"
+				}
+			],
+			"container": "National Archaeological Museum of Naples"
+		},
+		{
+			"kind": "media",
+			"title": "Pompeii: House with oven and mills, No. 5049",
+			"url": "https://commons.wikimedia.org/wiki/File:Pompeii-_House_with_oven_and_mills,_No._5049_(SM_stf1542).png",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "mills.jpg",
+			"authors": [
+				{
+					"family": "Brogi",
+					"given": "Giacomo"
+				}
+			],
+			"container": "Städel Museum",
+			"published": "1880",
+			"circa": true,
+			"note": "Cropped to the photograph from its mount"
+		}
+	]
+}

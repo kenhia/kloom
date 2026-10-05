@@ -1,0 +1,137 @@
+{
+	"id": "oldest-bread",
+	"topic": "The oldest bread, at Shubayqa",
+	"position": {
+		"label": "c. 12,400 BC",
+		"sort": -12400
+	},
+	"scene": {
+		"headline": "We baked before we",
+		"accent": "FARMED.",
+		"palette": "ember",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SHUBAYQA 1 · BLACK DESERT · JORDAN",
+			"NATUFIAN · WILD EINKORN · CLUB-RUSH TUBERS"
+		],
+		"counter": {
+			"value": "4,000",
+			"label": "years before farming"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Archaeobotanical Evidence Reveals the Origins of Bread 14,400 Years Ago in Northeastern Jordan",
+			"authors": [
+				{
+					"family": "Arranz-Otaegui",
+					"given": "Amaia"
+				},
+				{
+					"family": "Gonzalez Carretero",
+					"given": "Lara"
+				},
+				{
+					"family": "Ramsey",
+					"given": "Monica N."
+				},
+				{
+					"family": "Fuller",
+					"given": "Dorian Q."
+				},
+				{
+					"family": "Richter",
+					"given": "Tobias"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "115",
+			"issue": "31",
+			"pages": "7925–7930",
+			"published": "2018-07-31",
+			"doi": "10.1073/pnas.1801071115",
+			"accessed": "2026-10-04",
+			"note": "The table of voids and the particle sizes are from its text and SI Appendix"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Natufian culture",
+			"url": "https://en.wikipedia.org/w/index.php?title=Natufian_culture&oldid=1376030690",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Harrat al-Sham",
+			"url": "https://en.wikipedia.org/w/index.php?title=Harrat_al-Sham&oldid=1370975248",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Einkorn",
+			"url": "https://en.wikipedia.org/w/index.php?title=Einkorn&oldid=1374834272",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bolboschoenus glaucus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bolboschoenus_glaucus&oldid=1344101748",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-18"
+		},
+		{
+			"kind": "media",
+			"title": "Basalt pavement in the Black Desert, eastern Jordan",
+			"url": "https://commons.wikimedia.org/wiki/File:Basalt_pavement_in_the_Black_Desert,_eastern_Jordan.jpg",
+			"accessed": "2026-10-04",
+			"licence": "CC BY-SA 4.0",
+			"file": "black-desert.jpg",
+			"authors": [
+				{
+					"family": "Roe",
+					"given": "Joe"
+				}
+			],
+			"published": "2014-04-27"
+		}
+	],
+	"connections": [
+		{
+			"to": "food/founder-crops",
+			"why": "The Natufians of Shubayqa baked wild einkorn into bread some 4,000 years before it and the other founder crops were domesticated."
+		}
+	]
+}

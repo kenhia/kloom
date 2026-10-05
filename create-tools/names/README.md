@@ -18,7 +18,8 @@ python3 create-tools/names/names.py strip blood/abo blood/harvey --out .scratch/
   the `wikidata` item the article is about, its `name`, Wikidata's short
   description to start the name file's `description` from (rewrite it:
   one plain sentence on what it is and why it matters here), and the
-  article's `first_line`. **Read both before you use the item**: a real
+  article's `first_line` (its first 300 characters: the API's first
+  sentence ended at "Mary Prince (c.", sprint 051). **Read both before you use the item**: a real
   article on a namesake passes every other check ("Hideo Kodama" is a
   politician, "Robin Forrest" a priest; sprint 026 met four), and
   `--expect WORD` warns, and exits 1, for each article whose description
@@ -122,6 +123,10 @@ python3 create-tools/names/names.py strip blood/abo blood/harvey --out .scratch/
   brief goes out and before each commit (sprint 033: sprint 030's authors
   found owners by grepping `.scratch/names/*`, and two names were drafted
   twice because the brief's owner list and the commit order disagreed).
+  `--part <part>` shows one part's drafts and only the problems and notes
+  that touch it, by its name or a name it drafted, so an author's exit
+  status is their own (sprint 051: with 24 parts at once, every author's
+  run failed on another part's problem).
 - **`density`** prints, per subject: frames, marks, distinct names, marks
   per frame, frames with no mark, connections stored on its frames and
   touching them (either end), and connections per frame. `--json` for one

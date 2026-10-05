@@ -1,0 +1,253 @@
+{
+	"id": "tractor",
+	"topic": "The tractor replaces the horse",
+	"position": {
+		"label": "1917",
+		"sort": 1917
+	},
+	"scene": {
+		"headline": "The tractor retired the",
+		"accent": "HORSE.",
+		"palette": "nitrogen",
+		"illustration": "scene.svg",
+		"metadata": [
+			"DEARBORN · HENRY FORD & SON · HARRY FERGUSON",
+			"FORDSON · UNIT FRAME · THREE-POINT HITCH"
+		],
+		"counter": {
+			"value": "27%",
+			"label": "of US harvested cropland fed horses and mules in 1910, by our arithmetic"
+		}
+	},
+	"connections": [
+		{
+			"to": "making/assembly-line",
+			"why": "Ford built the Fordson the way he built the Model T, on moving lines where, as he wrote, \"the work flows exactly as with the automobiles\", which is how its price fell to $395."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "My Life and Work",
+			"authors": [
+				{
+					"family": "Ford",
+					"given": "Henry"
+				}
+			],
+			"publisher": "Doubleday, Page & Company",
+			"place": "Garden City, NY",
+			"published": "1922",
+			"url": "https://www.gutenberg.org/ebooks/7213",
+			"accessed": "2026-10-04",
+			"note": "Chapter XIV, \"The Tractor and Power Farming\": the shipment to England, the prices and the cost test"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Historical Statistics of the United States, Colonial Times to 1970",
+			"authors": [
+				{
+					"name": "US Bureau of the Census"
+				}
+			],
+			"publisher": "US Government Printing Office",
+			"place": "Washington, DC",
+			"published": "1975",
+			"url": "https://www2.census.gov/library/publications/1975/compendia/hist_stats_colonial-1970/hist_stats_colonial-1970p1-chK.pdf",
+			"accessed": "2026-10-04",
+			"note": "Chapter K: series K 174, K 184, K 496–501, K 570 and K 572, pp. 454–519"
+		},
+		{
+			"kind": "encyclopedia",
+			"key": true,
+			"title": "Economic History of Tractors in the United States",
+			"authors": [
+				{
+					"family": "White",
+					"given": "William J."
+				}
+			],
+			"container": "EH.Net Encyclopedia",
+			"editors": [
+				{
+					"family": "Whaples",
+					"given": "Robert"
+				}
+			],
+			"published": "2008-03-26",
+			"url": "https://eh.net/encyclopedia/economic-history-of-tractors-in-the-united-states/",
+			"accessed": "2026-10-04",
+			"note": "Read through the Wayback Machine"
+		},
+		{
+			"kind": "article",
+			"title": "Reshaping the Landscape: The Impact and Diffusion of the Tractor in American Agriculture, 1910–1960",
+			"authors": [
+				{
+					"family": "Olmstead",
+					"given": "Alan L."
+				},
+				{
+					"family": "Rhode",
+					"given": "Paul W."
+				}
+			],
+			"container": "The Journal of Economic History",
+			"volume": "61",
+			"issue": "3",
+			"pages": "663–698",
+			"published": "2001",
+			"doi": "10.1017/S0022050701030042",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "GB Patent 253,566: Apparatus for Coupling Agricultural Implements to Tractors and Automatically Regulating the Depth of Work",
+			"authors": [
+				{
+					"family": "Ferguson",
+					"given": "Harry"
+				}
+			],
+			"container": "Google Patents",
+			"published": "1926-06-14",
+			"url": "https://patents.google.com/patent/GB253566A/en",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "US Patent 1,687,719: Tractor and Tractor Implement",
+			"authors": [
+				{
+					"family": "Ferguson",
+					"given": "Harry"
+				}
+			],
+			"container": "Google Patents",
+			"published": "1928-10-16",
+			"url": "https://patents.google.com/patent/US1687719A/en",
+			"accessed": "2026-10-04",
+			"note": "Filed 25 February 1925"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fordson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fordson&oldid=1354246285",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-15",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tractor",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tractor&oldid=1367676150",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Three-point hitch",
+			"url": "https://en.wikipedia.org/w/index.php?title=Three-point_hitch&oldid=1367283684",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Harry Ferguson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Harry_Ferguson&oldid=1372016177",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Traction engine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Traction_engine&oldid=1372107121",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ford N-series tractor",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ford_N-series_tractor&oldid=1376340619",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "media",
+			"title": "Sectional View of Henry Ford Tractor, Showing Important Parts of Mechanism",
+			"authors": [
+				{
+					"family": "Pagé",
+					"given": "Victor Wilfred"
+				}
+			],
+			"container": "The Model T Ford Car, Truck and Tractor Conversion Sets, Also Genuine Ford Farm Tractor (Norman W. Henley, 1918), p. 290",
+			"published": "1918",
+			"url": "https://commons.wikimedia.org/wiki/File:Pag%C3%A9_1918_Henry_Ford_Tractor_cutaway.png",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "fordson-cutaway.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Horses and mules against tractors on American farms, 1910 to 1960",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Historical Statistics of the United States, Colonial Times to 1970, series K 184, K 570 and K 572",
+			"url": "https://www2.census.gov/library/publications/1975/compendia/hist_stats_colonial-1970/hist_stats_colonial-1970p1-chK.pdf",
+			"accessed": "2026-10-04",
+			"licence": "MIT",
+			"file": "horses-tractors.svg"
+		}
+	]
+}

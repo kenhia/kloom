@@ -1,0 +1,33 @@
+{
+	"title": "World agricultural use of nitrogen fertilizer, 1961 to 2024",
+	"description": "Bar chart of nitrogen used in agriculture worldwide, in millions of tonnes of nitrogen: 11.5 in 1961, 31.6 in 1970, 60.6 in 1980, 77.2 in 1990, 81.0 in 2000, 101.3 in 2010, 115.0 in 2020 and 115.2 in 2024. Data: FAOSTAT, Fertilizers by Nutrient, World.",
+	"heading": "NITROGEN USED ON THE WORLD'S FARMS · MILLION TONNES N",
+	"unit": "",
+	"width": 520,
+	"height": 300,
+	"barWidth": 40,
+	"axis": {
+		"max": 130,
+		"ticks": [
+			[0, "0"],
+			[40, "40"],
+			[80, "80"],
+			[120, "120"]
+		]
+	},
+	"bars": [
+		{ "label": "1961", "value": 11.5, "display": "11.5", "highlight": true },
+		{ "label": "1970", "value": 31.6, "display": "31.6" },
+		{ "label": "1980", "value": 60.6, "display": "60.6" },
+		{ "label": "1990", "value": 77.2, "display": "77.2" },
+		{ "label": "2000", "value": 81.0, "display": "81.0" },
+		{ "label": "2010", "value": 101.3, "display": "101.3" },
+		{ "label": "2020", "value": 115.0, "display": "115.0" },
+		{ "label": "2024", "value": 115.2, "display": "115.2" }
+	],
+	"source": {
+		"container": "FAOSTAT, Fertilizers by Nutrient (agricultural use of nitrogen, World), Food and Agriculture Organization of the United Nations",
+		"url": "https://www.fao.org/faostat/en/#data/RFN",
+		"accessed": "2026-10-04"
+	}
+}

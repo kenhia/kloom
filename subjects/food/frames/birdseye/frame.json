@@ -1,0 +1,283 @@
+{
+	"id": "birdseye",
+	"topic": "Birdseye's quick freezing",
+	"position": {
+		"label": "1924–30",
+		"sort": 1924
+	},
+	"scene": {
+		"headline": "Frozen fresh in a",
+		"accent": "FLASH.",
+		"palette": "frost",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LABRADOR · GLOUCESTER · SPRINGFIELD",
+			"CLARENCE BIRDSEYE · QUICK FREEZING · PLATE FREEZER"
+		],
+		"counter": {
+			"value": "75 min",
+			"label": "to freeze a two-inch carton through"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/leaded-petrol",
+			"why": "Frozen food needed refrigerators in shops and kitchens, and the refrigerators of the 1920s ran on toxic or flammable gases until Midgley's Freon, made for General Motors' Frigidaire and shown off in 1930."
+		},
+		{
+			"to": "food/refrigeration",
+			"why": "Quick-frozen food needed the cold chain and the home refrigerator to reach a kitchen."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Method of Preparing Food Products. US Patent 1,773,079",
+			"authors": [
+				{
+					"family": "Birdseye",
+					"given": "Clarence"
+				}
+			],
+			"container": "Google Patents",
+			"publisher": "United States Patent Office",
+			"published": "1930-08-12",
+			"url": "https://patents.google.com/patent/US1773079A",
+			"accessed": "2026-10-04",
+			"note": "Filed June 18, 1927; the double-belt freezer, its figures, and the definition of quick freezing"
+		},
+		{
+			"kind": "web",
+			"title": "Refrigerating Apparatus. US Patent 1,822,123",
+			"authors": [
+				{
+					"family": "Hall",
+					"given": "Bicknell"
+				},
+				{
+					"family": "Birdseye",
+					"given": "Clarence"
+				}
+			],
+			"container": "Google Patents",
+			"publisher": "United States Patent Office",
+			"published": "1931-09-08",
+			"url": "https://patents.google.com/patent/US1822123A",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Who Invented Frozen Food?",
+			"authors": [
+				{
+					"name": "Science Reference Section, Library of Congress"
+				}
+			],
+			"container": "Everyday Mysteries",
+			"publisher": "Library of Congress",
+			"published": "2019-11-19",
+			"url": "https://www.loc.gov/everyday-mysteries/food-and-nutrition/item/who-invented-frozen-food/",
+			"accessed": "2026-10-04",
+			"note": "The two freezers, with their temperatures and times; read in the Wayback Machine's copy of August 2025"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Birdseye's Frosted Possession: Processing, Storing, and Transmitting the Gift of Inuit Thermocultural Knowledge",
+			"authors": [
+				{
+					"family": "Brousseau",
+					"given": "Marcel"
+				}
+			],
+			"container": "Journal of Transnational American Studies",
+			"volume": "13",
+			"issue": "1",
+			"published": "2022",
+			"doi": "10.5070/T813158579",
+			"accessed": "2026-10-04",
+			"note": "Birdseye's 1941 telling, the Lethbridge account, and the case that Inuit knowledge went unreturned"
+		},
+		{
+			"kind": "article",
+			"title": "The Birth of an Industry",
+			"authors": [
+				{
+					"family": "Birdseye",
+					"given": "Clarence"
+				}
+			],
+			"container": "The Beaver",
+			"volume": "272",
+			"published": "1941-09",
+			"pages": "24",
+			"citedIn": "Birdseye's Frosted Possession: Processing, Storing, and Transmitting the Gift of Inuit Thermocultural Knowledge"
+		},
+		{
+			"kind": "book",
+			"title": "A Life of Challenge (One Labradorian's Experiences)",
+			"authors": [
+				{
+					"family": "Lethbridge",
+					"given": "E. Chesley G. K."
+				}
+			],
+			"published": "2007",
+			"citedIn": "Birdseye's Frosted Possession: Processing, Storing, and Transmitting the Gift of Inuit Thermocultural Knowledge"
+		},
+		{
+			"kind": "web",
+			"title": "Clarence Birdseye And His Fantastic Frozen Food Machine",
+			"authors": [
+				{
+					"family": "Richards",
+					"given": "Alison"
+				}
+			],
+			"container": "The Salt",
+			"publisher": "NPR",
+			"published": "2012-05-18",
+			"url": "https://www.npr.org/sections/thesalt/2012/05/18/152743718/clarence-birdseye-and-his-fantastic-frozen-food-machine",
+			"accessed": "2026-10-04",
+			"note": "A review of Kurlansky's biography"
+		},
+		{
+			"kind": "book",
+			"title": "Birdseye: The Adventures of a Curious Man",
+			"authors": [
+				{
+					"family": "Kurlansky",
+					"given": "Mark"
+				}
+			],
+			"place": "New York",
+			"publisher": "Doubleday",
+			"published": "2012",
+			"citedIn": "Clarence Birdseye And His Fantastic Frozen Food Machine"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Water and Freezing in Food",
+			"authors": [
+				{
+					"family": "Miyawaki",
+					"given": "Osato"
+				}
+			],
+			"container": "Food Science and Technology Research",
+			"volume": "24",
+			"issue": "1",
+			"pages": "1–21",
+			"published": "2018",
+			"doi": "10.3136/fstr.24.1",
+			"accessed": "2026-10-04",
+			"note": "Mean crystal size against the speed of the ice front, Eq. 25 and Table 4"
+		},
+		{
+			"kind": "article",
+			"title": "Control of Ice Crystal Nucleation and Growth during the Food Freezing Process",
+			"authors": [
+				{
+					"family": "Jia",
+					"given": "Guoliang"
+				},
+				{
+					"family": "Chen",
+					"given": "Yimeng"
+				},
+				{
+					"family": "Sun",
+					"given": "AiDong"
+				},
+				{
+					"family": "Orlien",
+					"given": "Vibeke"
+				}
+			],
+			"container": "Comprehensive Reviews in Food Science and Food Safety",
+			"volume": "21",
+			"issue": "3",
+			"pages": "2433–2454",
+			"published": "2022",
+			"doi": "10.1111/1541-4337.12950",
+			"accessed": "2026-10-04",
+			"note": "Read in the authors' accepted manuscript at the University of Copenhagen"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Clarence Birdseye",
+			"url": "https://en.wikipedia.org/w/index.php?title=Clarence_Birdseye&oldid=1371289968",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "General Foods",
+			"url": "https://en.wikipedia.org/w/index.php?title=General_Foods&oldid=1376258985",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frozen food",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frozen_food&oldid=1350337675",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frozen meal",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frozen_meal&oldid=1354922525",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-19"
+		},
+		{
+			"kind": "media",
+			"title": "US Patent 1773079 (Fig 1)",
+			"url": "https://commons.wikimedia.org/wiki/File:US_Patent_1773079_(Fig_1).jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "patent-fig1.jpg",
+			"authors": [
+				{
+					"family": "Birdseye",
+					"given": "Clarence"
+				}
+			],
+			"container": "United States Patent Office",
+			"published": "1930-08-12"
+		}
+	]
+}

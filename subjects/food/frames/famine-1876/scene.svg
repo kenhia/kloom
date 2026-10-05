@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M200 6 L200 22"/>
+		<path pathLength="1" d="M200 176 L200 196"/>
+		<path pathLength="1" d="M66 120 L66 136"/>
+		<path pathLength="1" d="M200 120 L200 136"/>
+		<path pathLength="1" d="M334 120 L334 136"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M4 22 L150 22 L150 56 L4 56 Z"/>
+		<path pathLength="1" d="M250 22 L396 22 L396 56 L250 56 Z"/>
+		<path pathLength="1" d="M140 66 L260 66 L260 96 L140 96 Z"/>
+		<path pathLength="1" d="M6 136 L126 136 L126 176 L6 176 Z"/>
+		<path pathLength="1" d="M140 136 L260 136 L260 176 L140 176 Z"/>
+		<path pathLength="1" d="M274 136 L394 136 L394 176 L274 176 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M150 46 L170 66"/>
+		<path pathLength="1" d="M166.2 64.7 L170 66 L168.7 62.2"/>
+		<path pathLength="1" d="M250 46 L230 66"/>
+		<path pathLength="1" d="M231.3 62.2 L230 66 L233.8 64.7"/>
+		<path pathLength="1" d="M200 96 L200 112"/>
+		<path pathLength="1" d="M198.3 108.4 L200 112 L201.7 108.4"/>
+		<path pathLength="1" d="M66 120 L334 120"/>
+		<path pathLength="1" d="M64.3 132.4 L66 136 L67.7 132.4"/>
+		<path pathLength="1" d="M198.3 132.4 L200 136 L201.7 132.4"/>
+		<path pathLength="1" d="M332.3 132.4 L334 136 L335.7 132.4"/>
+		<path pathLength="1" d="M200 112 L200 120"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="77" y="36" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VILLAGE OFFICER</text>
+		<text x="77" y="48" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CROPS · GRAIN · CATTLE</text>
+		<text x="323" y="36" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">POLICE</text>
+		<text x="323" y="48" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CRIME · WANDERING · DEATHS</text>
+		<text x="200" y="79" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SCARCITY REPORTED</text>
+		<text x="200" y="90" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">REGISTER OF THE POOR</text>
+		<text x="66" y="150" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RELIEF WORKS</text>
+		<text x="66" y="162" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WAGE BUYS A RATION</text>
+		<text x="200" y="150" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VILLAGE DOLE</text>
+		<text x="200" y="162" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FOR THOSE UNFIT</text>
+		<text x="334" y="150" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">POOR-HOUSE</text>
+		<text x="334" y="162" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FOR THOSE WHO REFUSE</text>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M92 200 L92 278"/>
+		<path pathLength="1" d="M126 200 L126 278"/>
+		<path pathLength="1" d="M160 200 L160 278"/>
+		<path pathLength="1" d="M194 200 L194 278"/>
+		<path pathLength="1" d="M228 200 L228 278"/>
+		<path pathLength="1" d="M262 200 L262 278"/>
+		<path pathLength="1" d="M296 200 L296 278"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M92 206 L296 206 L296 216 L92 216 Z"/>
+		<path pathLength="1" d="M92 224 L228 224 L228 234 L92 234 Z"/>
+		<path pathLength="1" d="M92 242 L228 242 L228 252 L92 252 Z"/>
+		<path pathLength="1" d="M92 260 L211 260 L211 270 L92 270 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="86" y="214" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FULL</text>
+		<text x="302" y="214" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">24 OZ</text>
+		<text x="86" y="232" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MINIMUM</text>
+		<text x="234" y="232" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">16 OZ</text>
+		<text x="86" y="250" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TEMPLE 1877</text>
+		<text x="234" y="250" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">16 OZ</text>
+		<text x="86" y="268" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PENAL</text>
+		<text x="217" y="268" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">14 OZ</text>
+		<text x="200" y="290" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A MAN'S DAILY FLOUR · FAMINE CODE 1883</text>
+	</g>
+</svg>

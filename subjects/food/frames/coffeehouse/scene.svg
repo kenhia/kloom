@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M22 128 L202 128"/>
+		<path pathLength="1" d="M112 50 L112 206"/>
+		<path pathLength="1" d="M46 128 a66 56 0 1 0 132 0 a66 56 0 1 0 -132 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M34 128 a78 66 0 1 0 156 0 a78 66 0 1 0 -156 0"/>
+		<path pathLength="1" d="M108 78 L105.3 78.2 L102.7 78.6 L100.1 79.4 L97.5 80.4 L95 81.8 L92.6 83.4 L90.2 85.4 L88 87.5 L85.9 90 L84 92.6 L82.1 95.5 L80.5 98.6 L79 101.9 L77.7 105.3 L76.6 108.9 L75.7 112.5 L74.9 116.3 L74.4 120.2 L74.1 124.1 L74 128 L74.1 131.9 L74.4 135.8 L74.9 139.7 L75.7 143.5 L76.6 147.1 L77.7 150.7 L79 154.1 L80.5 157.4 L82.1 160.5 L84 163.4 L85.9 166 L88 168.5 L90.2 170.6 L92.6 172.6 L95 174.2 L97.5 175.6 L100.1 176.6 L102.7 177.4 L105.3 177.8 L108 178 Z"/>
+		<path pathLength="1" d="M116 78 L118.7 78.2 L121.3 78.6 L123.9 79.4 L126.5 80.4 L129 81.8 L131.4 83.4 L133.8 85.4 L136 87.5 L138.1 90 L140 92.6 L141.9 95.5 L143.5 98.6 L145 101.9 L146.3 105.3 L147.4 108.9 L148.3 112.5 L149.1 116.3 L149.6 120.2 L149.9 124.1 L150 128 L149.9 131.9 L149.6 135.8 L149.1 139.7 L148.3 143.5 L147.4 147.1 L146.3 150.7 L145 154.1 L143.5 157.4 L141.9 160.5 L140 163.4 L138.1 166 L136 168.5 L133.8 170.6 L131.4 172.6 L129 174.2 L126.5 175.6 L123.9 176.6 L121.3 177.4 L118.7 177.8 L116 178 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M108 73 L104.9 73.2 L101.9 73.7 L98.9 74.5 L95.9 75.7 L93.1 77.2 L90.3 79 L87.6 81.1 L85.1 83.5 L82.7 86.2 L80.4 89.1 L78.3 92.3 L76.4 95.7 L74.7 99.3 L73.3 103 L72 107 L70.9 111 L70.1 115.2 L69.5 119.4 L69.1 123.7 L69 128 L69.1 132.3 L69.5 136.6 L70.1 140.8 L70.9 145 L72 149 L73.3 153 L74.7 156.7 L76.4 160.3 L78.3 163.7 L80.4 166.9 L82.7 169.8 L85.1 172.5 L87.6 174.9 L90.3 177 L93.1 178.8 L95.9 180.3 L98.9 181.5 L101.9 182.3 L104.9 182.8 L108 183"/>
+		<path pathLength="1" d="M108 73 L108 183"/>
+		<path pathLength="1" d="M108 108 L98 120 L104 128 L98 136 L108 148"/>
+		<path pathLength="1" d="M116 73 L119.1 73.2 L122.1 73.7 L125.1 74.5 L128.1 75.7 L130.9 77.2 L133.7 79 L136.4 81.1 L138.9 83.5 L141.3 86.2 L143.6 89.1 L145.7 92.3 L147.6 95.7 L149.3 99.3 L150.7 103 L152 107 L153.1 111 L153.9 115.2 L154.5 119.4 L154.9 123.7 L155 128 L154.9 132.3 L154.5 136.6 L153.9 140.8 L153.1 145 L152 149 L150.7 153 L149.3 156.7 L147.6 160.3 L145.7 163.7 L143.6 166.9 L141.3 169.8 L138.9 172.5 L136.4 174.9 L133.7 177 L130.9 178.8 L128.1 180.3 L125.1 181.5 L122.1 182.3 L119.1 182.8 L116 183"/>
+		<path pathLength="1" d="M116 73 L116 183"/>
+		<path pathLength="1" d="M116 108 L126 120 L120 128 L126 136 L116 148"/>
+		<path pathLength="1" d="M108 84 L108 172"/>
+		<path pathLength="1" d="M116 84 L116 172"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M250 30 L382 30 L382 48 L250 48 Z"/>
+		<path pathLength="1" d="M250 60 L382 60 L382 78 L250 78 Z"/>
+		<path pathLength="1" d="M250 90 L382 90 L382 108 L250 108 Z"/>
+		<path pathLength="1" d="M250 120 L382 120 L382 138 L250 138 Z"/>
+		<path pathLength="1" d="M250 150 L382 150 L382 168 L250 168 Z"/>
+		<path pathLength="1" d="M250 180 L382 180 L382 198 L250 198 Z"/>
+		<path pathLength="1" d="M250 210 L382 210 L382 228 L250 228 Z"/>
+		<path pathLength="1" d="M250 240 L382 240 L382 258 L250 258 Z"/>
+		<path pathLength="1" d="M316 48 L316 60"/>
+		<path pathLength="1" d="M314.3 56.4 L316 60 L317.7 56.4"/>
+		<path pathLength="1" d="M316 78 L316 90"/>
+		<path pathLength="1" d="M314.3 86.4 L316 90 L317.7 86.4"/>
+		<path pathLength="1" d="M316 108 L316 120"/>
+		<path pathLength="1" d="M314.3 116.4 L316 120 L317.7 116.4"/>
+		<path pathLength="1" d="M316 138 L316 150"/>
+		<path pathLength="1" d="M314.3 146.4 L316 150 L317.7 146.4"/>
+		<path pathLength="1" d="M316 168 L316 180"/>
+		<path pathLength="1" d="M314.3 176.4 L316 180 L317.7 176.4"/>
+		<path pathLength="1" d="M316 198 L316 210"/>
+		<path pathLength="1" d="M314.3 206.4 L316 210 L317.7 206.4"/>
+		<path pathLength="1" d="M316 228 L316 240"/>
+		<path pathLength="1" d="M314.3 236.4 L316 240 L317.7 236.4"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="316" y="42" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PICK RIPE CHERRY</text>
+		<text x="316" y="72" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GRATE OFF THE SKIN</text>
+		<text x="316" y="102" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SOAK AND WASH 24 H</text>
+		<text x="316" y="132" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DRAIN</text>
+		<text x="316" y="162" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DRY ON PLATFORMS</text>
+		<text x="316" y="192" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MILL OFF PARCHMENT</text>
+		<text x="316" y="222" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WINNOW</text>
+		<text x="316" y="252" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PICK OVER BY HAND</text>
+		<text x="112" y="44" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COFFEE CHERRY IN SECTION</text>
+		<text x="194" y="84" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SKIN</text>
+		<text x="30" y="84" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PULP</text>
+		<text x="112" y="216" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TWO SEEDS IN PARCHMENT</text>
+		<text x="112" y="228" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FLAT FACES TOGETHER</text>
+	</g>
+</svg>

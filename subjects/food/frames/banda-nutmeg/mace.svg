@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Mace from the Banda Islands a year, before and after the conquest of 1621</title>
+<desc id="d">Bar chart of estimates of the mace the Banda Islands yielded in a year, in thousands of Amsterdam pounds (about 494 grams each), as compiled and converted by Miske (2025). Tomé Pires, about 1515: 275 to 330 thousand. Andrés de Urdaneta, 1537: 137.5 thousand. Gijsels, for the years before 1621, as Miske converts his figures: 367.5 thousand. The Dutch East India Company's exports, averaged over 1630 to 1634: 195 thousand. The colonial figure is exports, not the harvest.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="460" y1="196.5" y2="196.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="200.5" text-anchor="end">100</text>
+<line x1="64" x2="460" y1="143.0" y2="143.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="147.0" text-anchor="end">200</text>
+<line x1="64" x2="460" y1="89.5" y2="89.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="93.5" text-anchor="end">300</text>
+<line x1="64" x2="460" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">400</text>
+</g>
+<rect x="81.5" y="88.2" width="64" height="161.8" fill-opacity="0.85"/>
+<text x="113.5" y="82.2" text-anchor="middle">275–330</text>
+<text x="113.5" y="266" text-anchor="middle">Pires</text>
+<text x="113.5" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">c. 1515</text>
+<rect x="180.5" y="176.4" width="64" height="73.6" fill-opacity="0.85"/>
+<text x="212.5" y="170.4" text-anchor="middle">137.5</text>
+<text x="212.5" y="266" text-anchor="middle">Urdaneta</text>
+<text x="212.5" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1537</text>
+<rect x="279.5" y="53.4" width="64" height="196.6" fill-opacity="0.85"/>
+<text x="311.5" y="47.4" text-anchor="middle">367.5</text>
+<text x="311.5" y="266" text-anchor="middle">Gijsels</text>
+<text x="311.5" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">pre-1621</text>
+<rect x="378.5" y="145.7" width="64" height="104.3" class="accent" fill="currentColor"/>
+<text x="410.5" y="139.7" text-anchor="middle">195</text>
+<text x="410.5" y="266" text-anchor="middle">VOC exports</text>
+<text x="410.5" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1630–34</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">MACE A YEAR · THOUSAND AMSTERDAM POUNDS</text>
+</g></svg>

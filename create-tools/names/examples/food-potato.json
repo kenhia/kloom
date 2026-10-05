@@ -1,0 +1,53 @@
+{
+	"food/chuno": [
+		["Lake Titicaca", "lake-titicaca"],
+		["potato", "potato"],
+		["solanine", "solanine"],
+		["Aymara people", "aymara-people"],
+		["Chuño", "chuno"],
+		["Pedro Cieza de León", "pedro-cieza-de-leon"],
+		["José de Acosta", "jose-de-acosta"],
+		["Potosí", "potosi"],
+		["mit'a", "mita"],
+		["Inca Empire", "inca-empire"],
+		["qullqa", "qullqa"],
+		["Felipe Guaman Poma de Ayala", "felipe-guaman-poma-de-ayala"]
+	],
+	"food/parmentier": [
+		["Antoine-Augustin Parmentier", "antoine-augustin-parmentier"],
+		["Seven Years' War", "seven-years-war"],
+		["Frederick the Great", "frederick-the-great"],
+		["potato", "potato"],
+		["War of the Bavarian Succession", "war-of-the-bavarian-succession"],
+		["Les Invalides", "les-invalides"],
+		["Louis XVI", "louis-xvi"],
+		["Julien-Joseph Virey", "julien-joseph-virey"],
+		["Adam Smith", "adam-smith"],
+		["_The Wealth of Nations_", "the-wealth-of-nations"],
+		["Rebecca Earle", "rebecca-earle"]
+	],
+	"food/potato-blight": [
+		["Miles Joseph Berkeley", "miles-joseph-berkeley"],
+		["Great Famine", "great-famine-ireland"],
+		["John Lindley", "john-lindley"],
+		["_The Gardeners' Chronicle_", "the-gardeners-chronicle"],
+		["Heinrich Anton de Bary", "heinrich-anton-de-bary"],
+		["germ theory of disease", "germ-theory-of-disease"],
+		["_Phytophthora infestans_", "phytophthora-infestans"],
+		["oomycete", "oomycete"],
+		["Pierre-Marie-Alexis Millardet", "pierre-marie-alexis-millardet"],
+		["Bordeaux mixture", "bordeaux-mixture"],
+		["Kew", "royal-botanic-gardens-kew"]
+	],
+	"food/frozen-fries": [
+		["french fries", "french-fries"],
+		["Luther Burbank", "luther-burbank"],
+		["Russet Burbank", "russet-burbank"],
+		["Idaho", "idaho"],
+		["J. R. Simplot", "j-r-simplot"],
+		["Eric Schlosser", "eric-schlosser"],
+		["_Fast Food Nation_", "fast-food-nation"],
+		["McDonald's", "mcdonalds"],
+		["Ray Kroc", "ray-kroc"]
+	]
+}

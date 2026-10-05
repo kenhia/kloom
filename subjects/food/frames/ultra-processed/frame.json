@@ -1,0 +1,508 @@
+{
+	"id": "ultra-processed",
+	"topic": "Ultra-processed food",
+	"asOf": "2026-10-04",
+	"position": {
+		"label": "2009",
+		"sort": 2009
+	},
+	"scene": {
+		"headline": "We ate",
+		"accent": "FORMULATIONS.",
+		"palette": "linen",
+		"illustration": "scene.svg",
+		"metadata": [
+			"UNIVERSITY OF SÃO PAULO · NIH CLINICAL CENTER",
+			"CARLOS MONTEIRO · KEVIN HALL · NOVA GROUPS 1–4"
+		],
+		"counter": {
+			"value": "55%",
+			"label": "of US calories from ultra-processed food, 2021–23"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Ultra-Processed Foods: What They Are and How to Identify Them",
+			"authors": [
+				{
+					"family": "Monteiro",
+					"given": "Carlos A."
+				},
+				{
+					"family": "Cannon",
+					"given": "Geoffrey"
+				},
+				{
+					"family": "Levy",
+					"given": "Renata B."
+				},
+				{
+					"family": "Moubarac",
+					"given": "Jean-Claude"
+				},
+				{
+					"family": "Louzada",
+					"given": "Maria L. C."
+				},
+				{
+					"family": "Rauber",
+					"given": "Fernanda"
+				},
+				{
+					"family": "Khandpur",
+					"given": "Neha"
+				}
+			],
+			"etAl": true,
+			"container": "Public Health Nutrition",
+			"volume": "22",
+			"issue": "5",
+			"pages": "936–941",
+			"published": "2019",
+			"doi": "10.1017/S1368980018003762",
+			"accessed": "2026-10-04",
+			"note": "The four Nova groups and the ingredient test"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Ultra-Processed Diets Cause Excess Calorie Intake and Weight Gain: An Inpatient Randomized Controlled Trial of Ad Libitum Food Intake",
+			"authors": [
+				{
+					"family": "Hall",
+					"given": "Kevin D."
+				},
+				{
+					"family": "Ayuketah",
+					"given": "Alexis"
+				},
+				{
+					"family": "Brychta",
+					"given": "Robert"
+				},
+				{
+					"family": "Cai",
+					"given": "Hongyi"
+				},
+				{
+					"family": "Cassimatis",
+					"given": "Thomas"
+				},
+				{
+					"family": "Chen",
+					"given": "Kong Y."
+				},
+				{
+					"family": "Chung",
+					"given": "Stephanie T."
+				}
+			],
+			"etAl": true,
+			"container": "Cell Metabolism",
+			"volume": "30",
+			"issue": "1",
+			"pages": "67–77.e3",
+			"published": "2019-07",
+			"doi": "10.1016/j.cmet.2019.05.008",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Ultra-Processed Food Exposure and Adverse Health Outcomes: Umbrella Review of Epidemiological Meta-Analyses",
+			"authors": [
+				{
+					"family": "Lane",
+					"given": "Melissa M."
+				},
+				{
+					"family": "Gamage",
+					"given": "Elizabeth"
+				},
+				{
+					"family": "Du",
+					"given": "Shutong"
+				},
+				{
+					"family": "Ashtree",
+					"given": "Deborah N."
+				},
+				{
+					"family": "McGuinness",
+					"given": "Amelia J."
+				},
+				{
+					"family": "Gauci",
+					"given": "Sarah"
+				},
+				{
+					"family": "Baker",
+					"given": "Phillip"
+				}
+			],
+			"etAl": true,
+			"container": "BMJ",
+			"volume": "384",
+			"pages": "e077310",
+			"published": "2024-02-28",
+			"doi": "10.1136/bmj-2023-077310",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Nutrition and Health. The Issue Is Not Food, nor Nutrients, so Much as Processing",
+			"authors": [
+				{
+					"family": "Monteiro",
+					"given": "Carlos A."
+				}
+			],
+			"container": "Public Health Nutrition",
+			"volume": "12",
+			"issue": "5",
+			"pages": "729–731",
+			"published": "2009-05",
+			"doi": "10.1017/S1368980009005291",
+			"accessed": "2026-10-04",
+			"read": "record"
+		},
+		{
+			"kind": "article",
+			"title": "A New Classification of Foods Based on the Extent and Purpose of Their Processing",
+			"authors": [
+				{
+					"family": "Monteiro",
+					"given": "Carlos Augusto"
+				},
+				{
+					"family": "Levy",
+					"given": "Renata Bertazzi"
+				},
+				{
+					"family": "Claro",
+					"given": "Rafael Moreira"
+				},
+				{
+					"family": "Castro",
+					"given": "Inês Rugani Ribeiro de"
+				},
+				{
+					"family": "Cannon",
+					"given": "Geoffrey"
+				}
+			],
+			"container": "Cadernos de Saúde Pública",
+			"volume": "26",
+			"issue": "11",
+			"pages": "2039–2049",
+			"published": "2010-11",
+			"doi": "10.1590/S0102-311X2010001100005",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nova classification",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nova_classification&oldid=1360540122",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ultra-processed food",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ultra-processed_food&oldid=1373497632",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "article",
+			"title": "Ultraprocessed or Minimally Processed Diets Following Healthy Dietary Guidelines on Weight and Cardiometabolic Health: A Randomized, Crossover Trial",
+			"authors": [
+				{
+					"family": "Dicken",
+					"given": "Samuel J."
+				},
+				{
+					"family": "Jassil",
+					"given": "Friedrich C."
+				},
+				{
+					"family": "Brown",
+					"given": "Adrian"
+				},
+				{
+					"family": "Kalis",
+					"given": "Monika"
+				},
+				{
+					"family": "Stanley",
+					"given": "Chloe"
+				},
+				{
+					"family": "Ranson",
+					"given": "Chaniqua"
+				},
+				{
+					"family": "Ruwona",
+					"given": "Tapiwa"
+				}
+			],
+			"etAl": true,
+			"container": "Nature Medicine",
+			"volume": "31",
+			"issue": "10",
+			"pages": "3297–3308",
+			"published": "2025-08-04",
+			"doi": "10.1038/s41591-025-03842-0",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "report",
+			"title": "Ultra-processed Food Consumption in Youth and Adults: United States, August 2021–August 2023",
+			"authors": [
+				{
+					"family": "Williams",
+					"given": "Anne M."
+				},
+				{
+					"family": "Couch",
+					"given": "Catharine A."
+				},
+				{
+					"family": "Emmerich",
+					"given": "Samuel D."
+				},
+				{
+					"family": "Ogburn",
+					"given": "Damon F."
+				}
+			],
+			"number": "NCHS Data Brief No. 536",
+			"place": "Hyattsville, MD",
+			"publisher": "National Center for Health Statistics",
+			"published": "2025-08",
+			"url": "https://www.cdc.gov/nchs/data/databriefs/db536.pdf",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Ultra-Processed Foods in Human Health: A Critical Appraisal",
+			"authors": [
+				{
+					"family": "Gibney",
+					"given": "Michael J."
+				},
+				{
+					"family": "Forde",
+					"given": "Ciarán G."
+				},
+				{
+					"family": "Mullally",
+					"given": "Deirdre"
+				},
+				{
+					"family": "Gibney",
+					"given": "Eileen R."
+				}
+			],
+			"container": "American Journal of Clinical Nutrition",
+			"volume": "106",
+			"issue": "3",
+			"pages": "717–724",
+			"published": "2017-09",
+			"doi": "10.3945/ajcn.117.160440",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Ultra-Processed Foods: How Functional Is the NOVA System?",
+			"authors": [
+				{
+					"family": "Braesco",
+					"given": "Véronique"
+				},
+				{
+					"family": "Souchon",
+					"given": "Isabelle"
+				},
+				{
+					"family": "Sauvant",
+					"given": "Patrick"
+				},
+				{
+					"family": "Haurogné",
+					"given": "Typhaine"
+				},
+				{
+					"family": "Maillot",
+					"given": "Matthieu"
+				},
+				{
+					"family": "Féart",
+					"given": "Catherine"
+				},
+				{
+					"family": "Darmon",
+					"given": "Nicole"
+				}
+			],
+			"container": "European Journal of Clinical Nutrition",
+			"volume": "76",
+			"issue": "9",
+			"pages": "1245–1253",
+			"published": "2022",
+			"doi": "10.1038/s41430-022-01099-1",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "An Evaluation of Chile's Law of Food Labeling and Advertising on Sugar-Sweetened Beverage Purchases from 2015 to 2017: A Before-and-After Study",
+			"authors": [
+				{
+					"family": "Taillie",
+					"given": "Lindsey Smith"
+				},
+				{
+					"family": "Reyes",
+					"given": "Marcela"
+				},
+				{
+					"family": "Colchero",
+					"given": "M. Arantxa"
+				},
+				{
+					"family": "Popkin",
+					"given": "Barry"
+				},
+				{
+					"family": "Corvalán",
+					"given": "Camila"
+				}
+			],
+			"container": "PLOS Medicine",
+			"volume": "17",
+			"issue": "2",
+			"pages": "e1003015",
+			"published": "2020-02-11",
+			"doi": "10.1371/journal.pmed.1003015",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Mexico Adopts Food Warning Labels, Why Now?",
+			"authors": [
+				{
+					"family": "White",
+					"given": "Mariel"
+				},
+				{
+					"family": "Barquera",
+					"given": "Simón"
+				}
+			],
+			"container": "Health Systems & Reform",
+			"volume": "6",
+			"issue": "1",
+			"pages": "e1752063",
+			"published": "2020",
+			"doi": "10.1080/23288604.2020.1752063",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "report",
+			"title": "Restricting Advertising of Less Healthy Food or Drink on TV and Online: Products in Scope",
+			"publisher": "Department of Health and Social Care",
+			"place": "London",
+			"published": "2025-06-04",
+			"url": "https://www.gov.uk/government/publications/restricting-advertising-of-less-healthy-food-or-drink-on-tv-and-online-products-in-scope",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "report",
+			"title": "Ultra-Processed Foods; Request for Information",
+			"number": "Docket No. FDA-2025-N-1793, 90 FR 35305",
+			"publisher": "Food and Drug Administration and US Department of Agriculture",
+			"container": "Federal Register",
+			"published": "2025-07-25",
+			"url": "https://www.federalregister.gov/documents/2025/07/25/2025-14089/ultra-processed-foods-request-for-information",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "report",
+			"title": "Dietary Guidelines for Americans, 2025–2030",
+			"publisher": "US Department of Agriculture and US Department of Health and Human Services",
+			"place": "Washington, DC",
+			"published": "2026-01",
+			"url": "https://cdn.realfood.gov/DGA.pdf",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "web",
+			"title": "FDA, USDA Submit 'Ultra-Processed Foods' Definition for Final Review",
+			"authors": [
+				{
+					"family": "Henderson",
+					"given": "Bailee"
+				}
+			],
+			"container": "Food Safety Magazine",
+			"published": "2026-08-10",
+			"url": "https://www.food-safety.com/articles/11714-fda-usda-submit-ultra-processed-foods-definition-for-final-review",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "media",
+			"title": "Daily energy intake in Hall's trial, by diet and week",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Hall et al., \"Ultra-Processed Diets Cause Excess Calorie Intake and Weight Gain,\" Cell Metabolism 30 (2019), Table 2",
+			"doi": "10.1016/j.cmet.2019.05.008",
+			"accessed": "2026-10-04",
+			"licence": "MIT",
+			"file": "hall-intake.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "food/lind-scurvy",
+			"why": "Lind gave matched sailors one common diet and changed one thing between pairs; Hall's trial matched two diets for nutrients and changed only their processing, the order assigned at random."
+		},
+		{
+			"to": "food/vitamins",
+			"why": "The vitamins were found by asking which nutrient a food lacked; Nova's founding claim, in Monteiro's title, is that the issue is \"not food, nor nutrients, so much as processing\"."
+		},
+		{
+			"to": "blood/louis-numerical",
+			"why": "Louis's groups of bled patients were not formed by chance and differed in age; the cohort studies of ultra-processed food meet the same problem, since those who eat most of it differ in income from those who eat least."
+		},
+		{
+			"to": "food/pure-food",
+			"why": "The Food and Drug Administration, which grew out of Wiley's Bureau of Chemistry and took its name in 1930, asked in 2025 for information to write a federal definition of ultra-processed food."
+		}
+	]
+}

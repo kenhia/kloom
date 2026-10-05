@@ -1,0 +1,205 @@
+{
+	"id": "four-course",
+	"topic": "Turnips and the four-course rotation",
+	"position": {
+		"label": "1730",
+		"sort": 1730
+	},
+	"scene": {
+		"headline": "We fed the soil with",
+		"accent": "CLOVER.",
+		"palette": "hayrick",
+		"illustration": "scene.svg",
+		"metadata": ["NORFOLK · RAYNHAM · HOLKHAM", "TURNIPS · BARLEY · CLOVER · WHEAT"],
+		"counter": {
+			"value": "15 → 30",
+			"label": "bushels of wheat an acre in Norfolk, 1660–1739 to 1854"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/haber-bosch",
+			"why": "The four-course rotation fed wheat on nitrogen that bacteria in clover's roots fixed slowly from the air; the Haber–Bosch process fixed it in a factory and lifted the limit that clover had set on yields."
+		},
+		{
+			"to": "food/open-fields",
+			"why": "The turnip took the place of the bare fallow, the year in three when a field of the old rotation rested."
+		},
+		{
+			"to": "food/fertilizer",
+			"why": "Before synthetic fertilizer, clover's nitrogen fixation was how a rotation fed nitrogen to wheat and barley; Haber's ammonia lifted that limit."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"title": "The Farmer's Tour through the East of England",
+			"authors": [
+				{
+					"family": "Young",
+					"given": "Arthur"
+				}
+			],
+			"place": "London",
+			"publisher": "W. Strahan",
+			"published": "1771",
+			"url": "https://archive.org/details/farmerstourthrou02youn",
+			"accessed": "2026-10-04",
+			"key": true,
+			"note": "Vol. 2, Letter XIV, pp. 150–160: the causes of Norfolk's improvement and the course of crops"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Re-establishing the English Agricultural Revolution",
+			"authors": [
+				{
+					"family": "Overton",
+					"given": "Mark"
+				}
+			],
+			"container": "The Agricultural History Review",
+			"volume": "44",
+			"issue": "1",
+			"pages": "1–20",
+			"published": "1996",
+			"url": "https://www.bahs.org.uk/AGHR/ARTICLES/44n1a1.pdf",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "The Nitrogen Hypothesis and the English Agricultural Revolution: A Biological Analysis",
+			"authors": [
+				{
+					"family": "Allen",
+					"given": "Robert C."
+				}
+			],
+			"container": "The Journal of Economic History",
+			"volume": "68",
+			"issue": "1",
+			"pages": "182–210",
+			"published": "2008",
+			"doi": "10.1017/S0022050708000065",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Norfolk four-course system",
+			"url": "https://en.wikipedia.org/w/index.php?title=Norfolk_four-course_system&oldid=1335425037",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Crop rotation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Crop_rotation&oldid=1378333435",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Townshend, 2nd Viscount Townshend",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Townshend,_2nd_Viscount_Townshend&oldid=1374618629",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thomas Coke, 1st Earl of Leicester (seventh creation)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thomas_Coke,_1st_Earl_of_Leicester_(seventh_creation)&oldid=1368430529",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "British Agricultural Revolution",
+			"url": "https://en.wikipedia.org/w/index.php?title=British_Agricultural_Revolution&oldid=1376646327",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "book",
+			"title": "English Farming, Past and Present",
+			"authors": [
+				{
+					"family": "Prothero",
+					"given": "Rowland E."
+				}
+			],
+			"place": "London",
+			"publisher": "Longmans, Green",
+			"published": "1912",
+			"url": "https://archive.org/details/englishfarmingpa00ernluoft",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "media",
+			"title": "The Course of Crops, page 156 of The Farmer's Tour through the East of England, vol. 2",
+			"authors": [
+				{
+					"family": "Young",
+					"given": "Arthur"
+				}
+			],
+			"container": "Getty Research Institute copy, Internet Archive",
+			"published": "1771",
+			"url": "https://archive.org/details/farmerstourthrou02youn/page/n165",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "young-course.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Wheat yields in Norfolk, 1250 to 1854",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Overton, \"Re-establishing the English Agricultural Revolution\", Agricultural History Review 44 (1996), Table 3",
+			"url": "https://www.bahs.org.uk/AGHR/ARTICLES/44n1a1.pdf",
+			"accessed": "2026-10-04",
+			"licence": "MIT",
+			"file": "wheat-yields.svg"
+		}
+	]
+}

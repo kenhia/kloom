@@ -1,0 +1,345 @@
+{
+	"id": "refrigeration",
+	"topic": "Refrigeration and frozen meat",
+	"position": {
+		"label": "1882",
+		"sort": 1882
+	},
+	"asOf": "2026-10-04",
+	"scene": {
+		"headline": "We made our own",
+		"accent": "WINTER.",
+		"palette": "frost",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PORT CHALMERS · LONDON · THE RIVER PLATE",
+			"THE DUNEDIN · BELL-COLEMAN COLD-AIR MACHINE"
+		],
+		"counter": {
+			"value": "98",
+			"label": "days, New Zealand to London, frozen"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/entropy",
+			"why": "The second law, that heat never passes from colder to warmer without some other change, is why a refrigerator must spend work to pump heat out of its cold box."
+		},
+		{
+			"to": "physics/carnot",
+			"why": "Carnot's ideal cycle, run backwards, sets the most heat a refrigerator can move for each unit of work: about 5.3 for a freezer at −18 °C in a 30 °C room."
+		},
+		{
+			"to": "chemistry/ozone-hole",
+			"why": "The chlorofluorocarbons that replaced the poisonous refrigerants of the 1920s in household refrigerators were the gases that thinned the ozone layer."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A History of the Frozen Meat Trade: An Account of the Development and Present Day Methods of Preparation, Transport, and Marketing of Frozen and Chilled Meats",
+			"authors": [
+				{
+					"family": "Critchell",
+					"given": "James Troubridge"
+				},
+				{
+					"family": "Raymond",
+					"given": "Joseph"
+				}
+			],
+			"edition": "2nd ed.",
+			"place": "London",
+			"publisher": "Constable",
+			"published": "1912",
+			"url": "https://archive.org/details/historyoffrozenm00crituoft",
+			"accessed": "2026-10-04",
+			"note": "Harrison and the Melbourne Age on pp. 22–24, Bell-Coleman on pp. 25–26, the Frigorifique and the Paraguay on pp. 27–29, the Dunedin on pp. 39–42, Argentina on p. 76, air machines on p. 389, imports on p. 393"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dunedin (1874 ship)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dunedin_(1874_ship)&oldid=1376554329",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ice trade",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ice_trade&oldid=1363540524",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-10",
+			"key": true
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Sustainable Food Cold Chains: Opportunities, Challenges and the Way Forward",
+			"authors": [
+				{
+					"name": "United Nations Environment Programme"
+				},
+				{
+					"name": "Food and Agriculture Organization of the United Nations"
+				}
+			],
+			"place": "Nairobi and Rome",
+			"publisher": "UNEP and FAO",
+			"published": "2022",
+			"doi": "10.4060/cc0923en",
+			"url": "https://www.fao.org/3/cc0923en/cc0923en.pdf",
+			"accessed": "2026-10-04",
+			"note": "The 2017 estimates are on p. 23, from the International Institute of Refrigeration"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vapor-compression refrigeration",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vapor-compression_refrigeration&oldid=1375050685",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "web",
+			"title": "Apparatus and Means for Producing Ice, and in Cooling Fluids, British patent 6662",
+			"authors": [
+				{
+					"family": "Perkins",
+					"given": "Jacob"
+				}
+			],
+			"published": "1834",
+			"citedIn": "Vapor-compression refrigeration"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jacob Perkins",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jacob_Perkins&oldid=1368710355",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "James Harrison (engineer)",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_Harrison_(engineer)&oldid=1364788601",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carl von Linde",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carl_von_Linde&oldid=1357440733",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Tellier",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Tellier&oldid=1356752616",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ferdinand Carré",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ferdinand_Carr%C3%A9&oldid=1269957134",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-01-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Refrigerator",
+			"url": "https://en.wikipedia.org/w/index.php?title=Refrigerator&oldid=1370339781",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cold chain",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cold_chain&oldid=1369751900",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Coefficient of performance",
+			"url": "https://en.wikipedia.org/w/index.php?title=Coefficient_of_performance&oldid=1363521631",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-10"
+		},
+		{
+			"kind": "article",
+			"title": "A Different Product? The Formation and Expansion of the International Meat and Live Cattle Market (1850–1939)",
+			"authors": [
+				{
+					"family": "Delgado",
+					"given": "Pablo"
+				},
+				{
+					"family": "Pinilla",
+					"given": "Vicente"
+				},
+				{
+					"family": "Aparicio",
+					"given": "Gema"
+				}
+			],
+			"container": "Revista de Historia Económica / Journal of Iberian and Latin American Economic History",
+			"volume": "41",
+			"issue": "1",
+			"pages": "147–182",
+			"published": "2023",
+			"doi": "10.1017/S021261092200012X",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "United by Grass, Separated by Coal: Uruguay and New Zealand during the First Globalization",
+			"authors": [
+				{
+					"family": "Travieso",
+					"given": "Emiliano"
+				}
+			],
+			"container": "Journal of Global History",
+			"volume": "15",
+			"issue": "2",
+			"pages": "269–289",
+			"published": "2020",
+			"doi": "10.1017/S1740022820000042",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "report",
+			"title": "Did Improvements in Household Technology Cause the Baby Boom? Evidence from Electrification, Appliance Diffusion, and the Amish",
+			"authors": [
+				{
+					"family": "Bailey",
+					"given": "Martha J."
+				},
+				{
+					"family": "Collins",
+					"given": "William J."
+				}
+			],
+			"publisher": "National Bureau of Economic Research",
+			"number": "Working Paper 14641",
+			"place": "Cambridge, MA",
+			"published": "2009-01",
+			"doi": "10.3386/w14641",
+			"accessed": "2026-10-04",
+			"note": "The 1940 census figures are on p. 3"
+		},
+		{
+			"kind": "media",
+			"title": "Refrigerating machine for cooling ships' provisions, Bell-Coleman Refrigeration Company, Glasgow",
+			"engravers": [
+				{
+					"name": "Cole, Swain & Sons"
+				}
+			],
+			"container": "The Engineer",
+			"published": "1881",
+			"url": "https://commons.wikimedia.org/wiki/File:Bell-Coleman_refrigerator00.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "bell-coleman.jpg",
+			"note": "Vol. 52, p. 314, as Grace's Guide's copy is named"
+		},
+		{
+			"kind": "media",
+			"title": "Frozen mutton and lamb imported into the United Kingdom, 1885 to 1910",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Critchell and Raymond, A History of the Frozen Meat Trade, 2nd ed. (London: Constable, 1912), p. 393",
+			"url": "https://archive.org/details/historyoffrozenm00crituoft",
+			"accessed": "2026-10-04",
+			"licence": "MIT",
+			"file": "mutton-imports.svg"
+		}
+	]
+}

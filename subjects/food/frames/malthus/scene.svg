@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M60 250 L60 50"/>
+		<path pathLength="1" d="M86.7 250 L86.7 50"/>
+		<path pathLength="1" d="M113.3 250 L113.3 50"/>
+		<path pathLength="1" d="M140 250 L140 50"/>
+		<path pathLength="1" d="M166.7 250 L166.7 50"/>
+		<path pathLength="1" d="M193.3 250 L193.3 50"/>
+		<path pathLength="1" d="M220 250 L220 50"/>
+		<path pathLength="1" d="M246.7 250 L246.7 50"/>
+		<path pathLength="1" d="M273.3 250 L273.3 50"/>
+		<path pathLength="1" d="M300 250 L300 50"/>
+		<path pathLength="1" d="M60 250 L300 250"/>
+		<path pathLength="1" d="M60 227.8 L300 227.8"/>
+		<path pathLength="1" d="M60 205.6 L300 205.6"/>
+		<path pathLength="1" d="M60 183.3 L300 183.3"/>
+		<path pathLength="1" d="M60 161.1 L300 161.1"/>
+		<path pathLength="1" d="M60 138.9 L300 138.9"/>
+		<path pathLength="1" d="M60 116.7 L300 116.7"/>
+		<path pathLength="1" d="M60 94.4 L300 94.4"/>
+		<path pathLength="1" d="M60 72.2 L300 72.2"/>
+		<path pathLength="1" d="M60 50 L300 50"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M60 50 L60 250 L300 250"/>
+		<path pathLength="1" d="M60 250 L86.7 227.8 L113.3 205.6 L140 183.3 L166.7 161.1 L193.3 138.9 L220 116.7 L246.7 94.4 L273.3 72.2 L300 50"/>
+		<path pathLength="1" d="M60 250 L86.7 227.8 L113.3 214.8 L140 205.6 L166.7 198.4 L193.3 192.6 L220 187.6 L246.7 183.3 L273.3 179.6 L300 176.2"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M57.8 250 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M57.8 250 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M84.5 227.8 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M84.5 227.8 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M111.1 205.6 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M111.1 214.8 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M137.8 183.3 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M137.8 205.6 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M164.5 161.1 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M164.5 198.4 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M191.1 138.9 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M191.1 192.6 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M217.8 116.7 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M217.8 187.6 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M244.5 94.4 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M244.5 183.3 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M271.1 72.2 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M271.1 179.6 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M297.8 50 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M297.8 176.2 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M60 250 L64 249.4 M66.9 249 L70.9 248.4 M73.9 248 L77.8 247.4 M80.8 246.9 L84.7 246.4 M87.7 245.9 L91.7 245.3 M94.6 244.8 L98.6 244.2 M101.5 243.7 L105.5 243.1 M108.4 242.6 L112.4 242 M115.4 241.7 L119.4 241.3 M122.3 241.1 L126.3 240.8 M129.3 240.5 L133.3 240.2 M136.3 240 L140 239.7 L140.3 239.6 M143.2 239 L147.1 238.2 M150.1 237.7 L154 236.9 M157 236.3 L160.9 235.5 M163.8 234.9 L166.7 234.3 L167.7 234.1 M170.7 233.4 L174.5 232.5 M177.5 231.8 L181.4 230.9 M184.3 230.2 L188.2 229.3 M191.1 228.6 L193.3 228.1 L195 227.7 M197.9 226.9 L201.7 225.8 M204.6 225 L208.5 224 M211.4 223.2 L215.3 222.2 M218.1 221.4 L220 220.9 L221.8 219.8 M224.4 218.4 L227.9 216.4 M230.5 214.9 L234 212.9 M236.6 211.4 L240 209.4 M242.6 207.9 L246.1 206 M248.8 204.6 L252.3 202.7 M255 201.4 L258.6 199.5 M261.2 198.2 L264.8 196.4 M267.5 195 L271 193.2 M273.7 191.8 L277.5 190.5 M280.3 189.5 L284.1 188.1 M286.9 187.1 L290.7 185.8 M293.5 184.8 L297.2 183.4"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M312 54 L312 172.2"/>
+		<path pathLength="1" d="M313.7 57.6 L312 54 L310.3 57.6"/>
+		<path pathLength="1" d="M310.3 168.6 L312 172.2 L313.7 168.6"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="294" y="42" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PEOPLE 512</text>
+		<text x="305" y="179.2" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FOOD 10</text>
+		<text x="305" y="195.4" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WORLD 8.2</text>
+		<text x="318" y="116.1" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">512 TO 10</text>
+		<text x="170.7" y="153.1" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1, 2, 4, 8 …</text>
+		<text x="216" y="178.6" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1, 2, 3, 4 …</text>
+		<text x="54" y="253" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="54" y="186.3" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">8</text>
+		<text x="54" y="119.7" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">64</text>
+		<text x="54" y="53" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">512</text>
+		<text x="60" y="262" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1798</text>
+		<text x="166.7" y="262" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1898</text>
+		<text x="300" y="262" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2023</text>
+		<text x="180" y="276" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ONE STEP EVERY 25 YEARS</text>
+		<text x="180" y="30" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE TWO RATIOS OF 1798 · LOG SCALE</text>
+	</g>
+</svg>

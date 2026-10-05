@@ -1,0 +1,239 @@
+{
+	"id": "egypt-grain",
+	"topic": "Egypt's granaries and bread rations",
+	"position": {
+		"label": "c. 2500 BC",
+		"sort": -2500
+	},
+	"scene": {
+		"headline": "We paid wages in",
+		"accent": "LOAVES.",
+		"palette": "amphora",
+		"illustration": "scene.svg",
+		"metadata": [
+			"GIZA · THE PYRAMID BUILDERS' TOWN · OLD KINGDOM",
+			"EMMER · BARLEY · BEDJA BREAD MOLDS · SCRIBES"
+		],
+		"counter": {
+			"value": "15",
+			"label": "silos traced in Giza's royal grain court"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Pyramid Age Bakery Reconstructed: Experimental Archaeology Offers Clues to Ancient Baking Technology",
+			"container": "AERAGRAM",
+			"volume": "1",
+			"issue": "1",
+			"pages": "6–7",
+			"publisher": "Ancient Egypt Research Associates",
+			"published": "1996",
+			"url": "https://aeraweb.org/wp-content/uploads/2022/08/aeragram1_1.pdf",
+			"accessed": "2026-10-04",
+			"note": "The bakeries of 1990–91, the bedja and the reconstruction of 1993"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Lost City of the Pyramid Builders",
+			"authors": [
+				{
+					"name": "Ancient Egypt Research Associates"
+				}
+			],
+			"container": "Ancient Egypt Research Associates",
+			"url": "https://aeraweb.org/projects/lost-city/",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Silos 2022: End Game at Heit el-Ghurab?",
+			"container": "AERAGRAM",
+			"volume": "23",
+			"issue": "1–2",
+			"pages": "2–5",
+			"publisher": "Ancient Egypt Research Associates",
+			"published": "2022",
+			"url": "https://aeraweb.org/wp-content/uploads/2024/09/AERAgram23_1-2.pdf",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Season 2015: Doing Science at Giza",
+			"authors": [
+				{
+					"family": "Redding",
+					"given": "Richard"
+				},
+				{
+					"family": "Wetterstrom",
+					"given": "Wilma"
+				}
+			],
+			"container": "AERAGRAM",
+			"volume": "15",
+			"issue": "1–2",
+			"pages": "10–12",
+			"publisher": "Ancient Egypt Research Associates",
+			"published": "2014",
+			"url": "https://aeraweb.org/wp-content/uploads/2022/08/aeragram15_1-2.pdf",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Rhind Mathematical Papyrus, British Museum 10057 and 10058",
+			"authors": [
+				{
+					"family": "Peet",
+					"given": "T. Eric"
+				}
+			],
+			"publisher": "University Press of Liverpool and Hodder & Stoughton",
+			"place": "Liverpool and London",
+			"published": "1923",
+			"url": "https://archive.org/details/Peet_1923",
+			"accessed": "2026-10-04",
+			"note": "Problem 41 (pp. 80–81), 65 (p. 109), the pefsu (pp. 112–113) and 72 (p. 118), and the introduction on the scribe's needs. Read in the Kraus reprint of 1970"
+		},
+		{
+			"kind": "web",
+			"title": "The Natural History, Book 5, chapter 10: Egypt and the Nile",
+			"authors": [
+				{
+					"name": "Pliny the Elder"
+				}
+			],
+			"editors": [
+				{
+					"family": "Bostock",
+					"given": "John"
+				},
+				{
+					"family": "Riley",
+					"given": "H. T."
+				}
+			],
+			"container": "Perseus Digital Library",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0137%3Abook%3D5%3Achapter%3D10",
+			"accessed": "2026-10-04",
+			"note": "Bostock and Riley's translation of 1855"
+		},
+		{
+			"kind": "web",
+			"title": "Model of a Granary with Scribes",
+			"authors": [
+				{
+					"name": "Metropolitan Museum of Art"
+				}
+			],
+			"container": "The Met Collection",
+			"url": "https://www.metmuseum.org/art/collection/search/545281",
+			"accessed": "2026-10-04",
+			"note": "Accession 20.3.11, from the tomb of Meketre, ca. 1981–1975 BC; read through the Museum's open-access collection API"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nilometer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nilometer&oldid=1362188415",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ancient Egyptian agriculture",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ancient_Egyptian_agriculture&oldid=1375503397",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Famine Stela",
+			"url": "https://en.wikipedia.org/w/index.php?title=Famine_Stela&oldid=1348636838",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-13",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ankhtifi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ankhtifi&oldid=1356846241",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Meketre",
+			"url": "https://en.wikipedia.org/w/index.php?title=Meketre&oldid=1359561700",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-15"
+		},
+		{
+			"kind": "media",
+			"title": "Model of a Granary with Scribes",
+			"url": "https://commons.wikimedia.org/wiki/File:Model_of_a_Granary_with_Scribes_MET_DP351557.jpg",
+			"accessed": "2026-10-04",
+			"licence": "CC0",
+			"file": "granary-model.jpg",
+			"authors": [
+				{
+					"name": "Metropolitan Museum of Art"
+				}
+			],
+			"container": "Metropolitan Museum of Art, New York, 20.3.11",
+			"published": "1975 BC",
+			"circa": true
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/rhind-papyrus",
+			"why": "The Rhind papyrus's problems on loaves, granaries and the pefsu of bread and beer are the reckoning Egypt's granary scribes used to store grain and pay wages in bread."
+		},
+		{
+			"to": "western-civ/royal-cubit",
+			"why": "Egypt measured the Nile's flood in cubits, from the Palermo Stone's records to the nilometers by which officials forecast the harvest and set its taxes."
+		},
+		{
+			"to": "food/founder-crops",
+			"why": "Egypt's basins were sown with emmer and barley, two of the Fertile Crescent's founder crops."
+		}
+	]
+}

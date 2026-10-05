@@ -11,10 +11,12 @@ holds the narrative, charts, images and sources for the frame you are on; and
 an AI pane lets you ask for more detail or _grow_ the story — new frames on
 the main spine, or a side trail to explore.
 
-There are ten subjects so far, all served by one app:
+There are eleven subjects so far, all served by one app:
 
-- **the History of Western Civilization**, 19 main-spine frames and two
-  trails;
+- **the History of Western Civilization**, 58 main-spine frames from
+  myth to cosmos, through law, faith, philosophy, art, politics and
+  empire, with five trails (the measure of things, the printing press,
+  Rome, revolutions, the idea of rights);
 - **the History and Current State of AI**, 41 main-spine frames and four
   trails, on a spine that runs from myths through dates to technologies;
 - **Richard Feynman**, a life on 34 dated frames with five trails (the path
@@ -54,7 +56,12 @@ There are ten subjects so far, all served by one app:
   profession, with four trails (Nightingale's numbers, the scrub nurse's
   work, the Navy Nurse Corps, who was let in), built around Ken's
   mother's career as a Navy surgical nurse and ending on a dedication to
-  her; the companion to In the Blood.
+  her; the companion to In the Blood;
+- **Daily Bread**, 49 main-spine frames on how humanity learned to feed
+  itself, from fire and foraging through the first farmers, grain and
+  empire, spice and trade, the agricultural revolutions, keeping food and
+  the modern harvest to the table, with four trails (the first drinks,
+  bread, the potato, famine).
 
 The longer aim is a framework (starter code, agent skills and instructions)
 for generating a kloom on any subject.

@@ -1,0 +1,45 @@
+{
+	"food/salt": [
+		["Hallstatt", "hallstatt"],
+		["water activity", "water-activity"],
+		["sodium chloride", "sodium-chloride"],
+		["Pliny the Elder", "pliny-the-elder"],
+		["Emperor Wu of Han", "emperor-wu-of-han"],
+		["Discourses on Salt and Iron", "discourses-on-salt-and-iron"],
+		["gabelle", "gabelle"],
+		["Jacques Necker", "jacques-necker"],
+		["French Revolution", "french-revolution"],
+		["Napoleon", "napoleon"],
+		["John Cabot", "john-cabot"],
+		["Grand Banks of Newfoundland", "grand-banks-of-newfoundland"],
+		["salt cod", "dried-and-salted-cod"],
+		["Mary Prince", "mary-prince"],
+		["World Health Organization", "world-health-organization"]
+	],
+	"food/lind-scurvy": [
+		["George Anson", "george-anson-1st-baron-anson"],
+		["scurvy", "scurvy"],
+		["James Lind", "james-lind"],
+		["HMS Salisbury", "hms-salisbury-1746"],
+		["Royal Navy", "royal-navy"],
+		["James Cook", "james-cook"],
+		["sauerkraut", "sauerkraut"],
+		["Gilbert Blane", "gilbert-blane"],
+		["Robert Falcon Scott", "robert-falcon-scott"],
+		["Albert Szent-Györgyi", "albert-szent-gyorgyi"],
+		["vitamin C", "vitamin-c"]
+	],
+	"food/appert-canning": [
+		["Nicolas Appert", "nicolas-appert"],
+		["Napoleon", "napoleon"],
+		["Peter Durand", "peter-durand"],
+		["Philippe de Girard", "philippe-de-girard"],
+		["Bryan Donkin", "bryan-donkin"],
+		["canning", "canning"],
+		["can opener", "can-opener"],
+		["Louis Pasteur", "louis-pasteur"],
+		["_Clostridium botulinum_", "clostridium-botulinum"],
+		["Sir John Franklin", "john-franklin"],
+		["Owen Beattie", "owen-beattie"]
+	]
+}

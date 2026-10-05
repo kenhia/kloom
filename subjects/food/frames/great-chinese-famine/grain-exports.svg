@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">China's grain exports, 1957–1962, in million tonnes</title>
+<desc id="d">Bar chart, gross grain exports in million tonnes: 1957, 2.09; 1958, 2.89; 1959, 4.16; 1960, 2.72; 1961, 1.36; 1962, 1.03. Exports peaked in 1959, the first year of the famine. Data: China Statistical Yearbook 1981, as tabulated by Fan, Xiong and Zhou.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="460" y1="207.2" y2="207.2" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="211.2" text-anchor="end">1</text>
+<line x1="64" x2="460" y1="164.4" y2="164.4" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="168.4" text-anchor="end">2</text>
+<line x1="64" x2="460" y1="121.6" y2="121.6" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="125.6" text-anchor="end">3</text>
+<line x1="64" x2="460" y1="78.8" y2="78.8" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="82.8" text-anchor="end">4</text>
+<line x1="64" x2="460" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">5</text>
+</g>
+<rect x="75.0" y="160.5" width="44" height="89.5" fill-opacity="0.85"/>
+<text x="97.0" y="154.5" text-anchor="middle">2.09</text>
+<text x="97.0" y="266" text-anchor="middle">1957</text>
+<rect x="141.0" y="126.5" width="44" height="123.5" fill-opacity="0.85"/>
+<text x="163.0" y="120.5" text-anchor="middle">2.89</text>
+<text x="163.0" y="266" text-anchor="middle">1958</text>
+<rect x="207.0" y="72.2" width="44" height="177.8" class="accent" fill="currentColor"/>
+<text x="229.0" y="66.2" text-anchor="middle">4.16</text>
+<text x="229.0" y="266" text-anchor="middle">1959</text>
+<rect x="273.0" y="133.6" width="44" height="116.4" class="accent" fill="currentColor"/>
+<text x="295.0" y="127.6" text-anchor="middle">2.72</text>
+<text x="295.0" y="266" text-anchor="middle">1960</text>
+<rect x="339.0" y="192.0" width="44" height="58.0" fill-opacity="0.85"/>
+<text x="361.0" y="186.0" text-anchor="middle">1.36</text>
+<text x="361.0" y="266" text-anchor="middle">1961</text>
+<rect x="405.0" y="205.9" width="44" height="44.1" fill-opacity="0.85"/>
+<text x="427.0" y="199.9" text-anchor="middle">1.03</text>
+<text x="427.0" y="266" text-anchor="middle">1962</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">GRAIN EXPORTS · MILLION TONNES</text>
+</g></svg>

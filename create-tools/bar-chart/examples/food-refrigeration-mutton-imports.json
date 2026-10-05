@@ -1,0 +1,27 @@
+{
+	"title": "Frozen mutton and lamb imported into the United Kingdom, 1885 to 1910",
+	"description": "Bar chart of carcasses of mutton and lamb imported into the United Kingdom, in round totals: about 1 million in 1885, 3 million in 1890, 5 million in 1895, 7 million in 1900 and 13 million in 1910. Data: Critchell and Raymond, A History of the Frozen Meat Trade (1912), p. 393.",
+	"heading": "MUTTON AND LAMB CARCASSES IMPORTED BY THE UK",
+	"unit": "M",
+	"axis": {
+		"max": 15,
+		"ticks": [
+			[0, "0"],
+			[5, "5M"],
+			[10, "10M"],
+			[15, "15M"]
+		]
+	},
+	"bars": [
+		{ "label": "1885", "value": 1 },
+		{ "label": "1890", "value": 3 },
+		{ "label": "1895", "value": 5 },
+		{ "label": "1900", "value": 7 },
+		{ "label": "1910", "value": 13, "highlight": true }
+	],
+	"source": {
+		"container": "Critchell and Raymond, A History of the Frozen Meat Trade, 2nd ed. (London: Constable, 1912), p. 393",
+		"url": "https://archive.org/details/historyoffrozenm00crituoft",
+		"accessed": "2026-10-04"
+	}
+}

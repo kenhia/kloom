@@ -1,0 +1,30 @@
+{
+	"title": "Wheat yields in Norfolk, 1250 to 1854",
+	"description": "Bar chart of wheat yields in Norfolk in bushels per acre, from Mark Overton's Table 3 (1996): 15 in 1250–1349, 12 in 1350–1449, 15 in 1584–1640, 15 in 1660–1739, 23 in 1836 and 30 in 1854. Turnips and clover were 0 percent of the sown area until 1640, 7 and 2 percent in 1660–1739, and 24 and 25 percent in 1836.",
+	"heading": "NORFOLK WHEAT · BUSHELS PER ACRE",
+	"unit": "",
+	"width": 480,
+	"height": 300,
+	"barWidth": 56,
+	"axis": {
+		"max": 35,
+		"ticks": [
+			[0, "0"],
+			[10, "10"],
+			[20, "20"],
+			[30, "30"]
+		]
+	},
+	"bars": [
+		{ "label": "1250–1349", "value": 15 },
+		{ "label": "1350–1449", "value": 12 },
+		{ "label": "1584–1640", "value": 15 },
+		{ "label": "1660–1739", "value": 15 },
+		{ "label": "1836", "value": 23, "highlight": true },
+		{ "label": "1854", "value": 30, "highlight": true }
+	],
+	"source": {
+		"container": "Overton, \"Re-establishing the English Agricultural Revolution\", Agricultural History Review 44 (1996), Table 3",
+		"url": "https://www.bahs.org.uk/AGHR/ARTICLES/44n1a1.pdf"
+	}
+}

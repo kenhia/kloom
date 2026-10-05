@@ -1,0 +1,86 @@
+{
+	"title": "Tea used in England, 1711 to 1838",
+	"description": "Bar chart. Tea used in England, in millions of pounds weight, as The Chinese Repository tabulated it in July 1839: 1711, 0.14; 1735, 1.4; 1750, 2.1; 1760, 2.3; 1770, 7.7; 1780, 5.6; 1790, 14.7; 1800, 20.4; 1810, 19.1; 1820, 22.5; 1830, 30.0; 1838, 36.4. The first year after the Commutation Act of 1784 cut the duty is highlighted.",
+	"heading": "TEA USED IN ENGLAND · MILLION POUNDS A YEAR",
+	"unit": "",
+	"axis": {
+		"max": 40,
+		"ticks": [
+			[0, "0"],
+			[10, "10"],
+			[20, "20"],
+			[30, "30"],
+			[40, "40 M"]
+		]
+	},
+	"bars": [
+		{
+			"label": "1711",
+			"value": 0.142,
+			"display": "0.14"
+		},
+		{
+			"label": "1735",
+			"value": 1.38,
+			"display": "1.4"
+		},
+		{
+			"label": "1750",
+			"value": 2.115,
+			"display": "2.1"
+		},
+		{
+			"label": "1760",
+			"value": 2.294,
+			"display": "2.3"
+		},
+		{
+			"label": "1770",
+			"value": 7.724,
+			"display": "7.7"
+		},
+		{
+			"label": "1780",
+			"value": 5.588,
+			"display": "5.6"
+		},
+		{
+			"label": "1790",
+			"value": 14.693,
+			"display": "14.7",
+			"highlight": true
+		},
+		{
+			"label": "1800",
+			"value": 20.359,
+			"display": "20.4"
+		},
+		{
+			"label": "1810",
+			"value": 19.093,
+			"display": "19.1"
+		},
+		{
+			"label": "1820",
+			"value": 22.452,
+			"display": "22.5"
+		},
+		{
+			"label": "1830",
+			"value": 30.047,
+			"display": "30.0"
+		},
+		{
+			"label": "1838",
+			"value": 36.416,
+			"display": "36.4"
+		}
+	],
+	"barWidth": 34,
+	"width": 600,
+	"source": {
+		"container": "The Chinese Repository 8, no. 3 (July 1839): 158",
+		"url": "https://archive.org/details/chineserepositor8318unse",
+		"accessed": "2026-10-04"
+	}
+}

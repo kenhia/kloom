@@ -1,0 +1,354 @@
+{
+	"id": "first-wine",
+	"topic": "The first wine, in the Caucasus",
+	"position": {
+		"label": "c. 6000 BC",
+		"sort": -6000
+	},
+	"scene": {
+		"headline": "We kept the grape in",
+		"accent": "CLAY.",
+		"palette": "amphora",
+		"illustration": "scene.svg",
+		"metadata": [
+			"GADACHRILI GORA · SHULAVERIS GORA · GEORGIA",
+			"TARTARIC ACID · GRAPE POLLEN · ARENI-1"
+		],
+		"counter": {
+			"value": "8",
+			"label": "Neolithic jars with a grape residue"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/chirality",
+			"why": "Tartaric acid, the marker chemists look for in a potsherd to find ancient wine, is the acid of wine casks whose crystals Pasteur sorted into left- and right-handed forms."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Early Neolithic Wine of Georgia in the South Caucasus",
+			"authors": [
+				{
+					"family": "McGovern",
+					"given": "Patrick E."
+				},
+				{
+					"family": "Jalabadze",
+					"given": "Mindia"
+				},
+				{
+					"family": "Batiuk",
+					"given": "Stephen"
+				},
+				{
+					"family": "Callahan",
+					"given": "Michael P."
+				},
+				{
+					"family": "Smith",
+					"given": "Karen E."
+				},
+				{
+					"family": "Hall",
+					"given": "Gretchen R."
+				},
+				{
+					"family": "Kvavadze",
+					"given": "Eliso"
+				}
+			],
+			"etAl": true,
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "114",
+			"issue": "48",
+			"pages": "E10309–E10318",
+			"published": "2017-11-13",
+			"doi": "10.1073/pnas.1714728114",
+			"accessed": "2026-10-04",
+			"note": "Table 1 gives the acids in each sherd and its soil; read in PubMed Central's copy"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Is It Possible to Identify Ancient Wine Production Using Biomolecular Approaches?",
+			"authors": [
+				{
+					"family": "Drieu",
+					"given": "Léa"
+				},
+				{
+					"family": "Rageot",
+					"given": "Maxime"
+				},
+				{
+					"family": "Wales",
+					"given": "Nathan"
+				},
+				{
+					"family": "Stern",
+					"given": "Ben"
+				},
+				{
+					"family": "Lundy",
+					"given": "Jasmine"
+				},
+				{
+					"family": "Zerrer",
+					"given": "Maximilian"
+				},
+				{
+					"family": "Gaffney",
+					"given": "Isabella"
+				}
+			],
+			"etAl": true,
+			"container": "STAR: Science & Technology of Archaeological Research",
+			"volume": "6",
+			"issue": "1",
+			"pages": "16–29",
+			"published": "2020",
+			"doi": "10.1080/20548923.2020.1738728",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "A Response to Léa Drieu et al., 2020, “Is It Possible to Identify Ancient Wine Production Using Biomolecular Approaches?”",
+			"authors": [
+				{
+					"family": "McGovern",
+					"given": "Patrick E."
+				},
+				{
+					"family": "Callahan",
+					"given": "Michael P."
+				},
+				{
+					"family": "Hall",
+					"given": "Gretchen R."
+				},
+				{
+					"family": "Petersen",
+					"given": "W. Christian"
+				},
+				{
+					"family": "Cavalieri",
+					"given": "Duccio"
+				},
+				{
+					"family": "Hartl",
+					"given": "Daniel L."
+				},
+				{
+					"family": "Jáuregui",
+					"given": "Olga"
+				}
+			],
+			"etAl": true,
+			"container": "STAR: Science & Technology of Archaeological Research",
+			"volume": "7",
+			"issue": "1",
+			"pages": "43–48",
+			"published": "2021",
+			"doi": "10.1080/20548923.2021.1921934",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Dual Domestications and Origin of Traits in Grapevine Evolution",
+			"authors": [
+				{
+					"family": "Dong",
+					"given": "Yang"
+				},
+				{
+					"family": "Duan",
+					"given": "Shengchang"
+				},
+				{
+					"family": "Xia",
+					"given": "Qiuju"
+				},
+				{
+					"family": "Liang",
+					"given": "Zhenchang"
+				},
+				{
+					"family": "Dong",
+					"given": "Xiao"
+				},
+				{
+					"family": "Margaryan",
+					"given": "Kristine"
+				},
+				{
+					"family": "Musayev",
+					"given": "Mirza"
+				}
+			],
+			"etAl": true,
+			"container": "Science",
+			"volume": "379",
+			"issue": "6635",
+			"pages": "892–901",
+			"published": "2023-03-03",
+			"doi": "10.1126/science.add8655",
+			"accessed": "2026-10-04",
+			"note": "Read in the authors' accepted manuscript at the University of Milan"
+		},
+		{
+			"kind": "article",
+			"title": "Historical and Heritage Sustainability for the Revival of Ancient Wine-Making Techniques and Wine Styles",
+			"authors": [
+				{
+					"family": "Harutyunyan",
+					"given": "Mkrtich"
+				},
+				{
+					"family": "Malfeito-Ferreira",
+					"given": "Manuel"
+				}
+			],
+			"container": "Beverages",
+			"volume": "8",
+			"issue": "1",
+			"pages": "10",
+			"published": "2022-02-07",
+			"doi": "10.3390/beverages8010010",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Chemical Evidence for Wine Production around 4000 BCE in the Late Chalcolithic Near Eastern Highlands",
+			"authors": [
+				{
+					"family": "Barnard",
+					"given": "Hans"
+				},
+				{
+					"family": "Dooley",
+					"given": "Alek N."
+				},
+				{
+					"family": "Areshian",
+					"given": "Gregory"
+				},
+				{
+					"family": "Gasparyan",
+					"given": "Boris"
+				},
+				{
+					"family": "Faull",
+					"given": "Kym F."
+				}
+			],
+			"container": "Journal of Archaeological Science",
+			"volume": "38",
+			"issue": "5",
+			"pages": "977–984",
+			"published": "2011",
+			"doi": "10.1016/j.jas.2010.11.012",
+			"accessed": "2026-10-04",
+			"citedIn": "Harutyunyan and Malfeito-Ferreira, “Historical and Heritage Sustainability for the Revival of Ancient Wine-Making Techniques and Wine Styles” (2022)"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Ancient Georgian Traditional Qvevri Wine-Making Method",
+			"container": "Intangible Cultural Heritage, Representative List (inscribed 2013, 8.COM)",
+			"publisher": "UNESCO",
+			"url": "https://ich.unesco.org/en/RL/ancient-georgian-traditional-qvevri-wine-making-method-00870",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Areni-1 winery",
+			"url": "https://en.wikipedia.org/w/index.php?title=Areni-1_winery&oldid=1359958466",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kvevri",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kvevri&oldid=1368664621",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Shulaveri–Shomu culture",
+			"url": "https://en.wikipedia.org/w/index.php?title=Shulaveri%E2%80%93Shomu_culture&oldid=1360735933",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vitis vinifera",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vitis_vinifera&oldid=1370458146",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tartaric acid",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tartaric_acid&oldid=1377893100",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "media",
+			"title": "A terracotta kvevri decorated with depictions of bunches of grapes, first half of the 6th millennium BC, from Khramis Didi Gora",
+			"url": "https://commons.wikimedia.org/wiki/File:A_terracotta_Kvevri_used_to_ferment_and_age_wine_decorated_with_depictions_of_bunches_of_grapes,_First_half_of_the_6th_millennium_BC,_from_Khramis_Didid_Gora,_National_Museum_of_Georgia,_Tbilisi,_Georgia.jpg",
+			"accessed": "2026-10-04",
+			"licence": "CC BY-SA 2.0",
+			"file": "neolithic-jar.jpg",
+			"authors": [
+				{
+					"family": "Raddato",
+					"given": "Carole"
+				}
+			],
+			"container": "National Museum of Georgia, Tbilisi",
+			"published": "2023-08-08"
+		}
+	]
+}

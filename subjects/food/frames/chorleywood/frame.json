@@ -1,0 +1,154 @@
+{
+	"id": "chorleywood",
+	"topic": "The Chorleywood process",
+	"position": {
+		"label": "1961",
+		"sort": 1961
+	},
+	"asOf": "2026-10-04",
+	"scene": {
+		"headline": "Minutes of mixing replaced",
+		"accent": "HOURS.",
+		"palette": "barley",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CHORLEYWOOD · HERTFORDSHIRE · 1961",
+			"HIGH-SPEED MIXER · 11 WH A KILOGRAM · ASCORBIC ACID"
+		],
+		"counter": {
+			"value": "80%",
+			"label": "of British bread made this way"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/enzymes",
+			"why": "A Chorleywood loaf rises on yeast fermenting sugar to carbon dioxide, the work of enzymes that Buchner showed act without the living cell, and bakers add amylases to speed it."
+		},
+		{
+			"to": "food/pompeii-bakery",
+			"why": "Long-fermented sourdough loaves came back much as Pliny described the Roman leaven: a little of yesterday's dough."
+		}
+	],
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Worst Thing Since Sliced Bread: The Chorleywood Bread Process",
+			"authors": [
+				{
+					"family": "Cherfas",
+					"given": "Jeremy"
+				}
+			],
+			"container": "Dublin Gastronomy Symposium 2020: Food and Disruption",
+			"publisher": "Technological University Dublin",
+			"place": "Dublin",
+			"published": "2020",
+			"doi": "10.21427/99cm-eb95",
+			"accessed": "2026-10-04",
+			"note": "The process step by step, its origins at the BBIRA, and the wheat it let Britain use"
+		},
+		{
+			"kind": "article",
+			"title": "Conversaziones and Receptions, 1964",
+			"container": "Notes and Records of the Royal Society of London",
+			"volume": "19",
+			"issue": "2",
+			"pages": "113–118",
+			"published": "1964",
+			"doi": "10.1098/rsnr.1964.0010",
+			"accessed": "2026-10-04",
+			"citedIn": "The Worst Thing Since Sliced Bread: The Chorleywood Bread Process"
+		},
+		{
+			"kind": "article",
+			"title": "Our Daily Bread",
+			"authors": [
+				{
+					"family": "Elton",
+					"given": "G. A. H."
+				}
+			],
+			"container": "Journal of the Royal Society of Arts",
+			"volume": "117",
+			"issue": "5153",
+			"pages": "317–334",
+			"published": "1969",
+			"url": "https://www.jstor.org/stable/41370338",
+			"accessed": "2026-10-04",
+			"citedIn": "The Worst Thing Since Sliced Bread: The Chorleywood Bread Process"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Chorleywood: The Bread That Changed Britain",
+			"authors": [
+				{
+					"family": "Sillito",
+					"given": "David"
+				}
+			],
+			"container": "BBC News",
+			"published": "2011-06-07",
+			"url": "https://www.bbc.co.uk/news/magazine-13670278",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Effect of Breadmaking Process on In Vitro Gut Microbiota Parameters in Irritable Bowel Syndrome",
+			"authors": [
+				{
+					"family": "Costabile",
+					"given": "Adele"
+				},
+				{
+					"family": "Santarelli",
+					"given": "Sara"
+				},
+				{
+					"family": "Claus",
+					"given": "Sandrine P."
+				},
+				{
+					"family": "Sanderson",
+					"given": "Jeremy"
+				},
+				{
+					"family": "Hudspith",
+					"given": "Barry N."
+				},
+				{
+					"family": "Brostoff",
+					"given": "Jonathan"
+				},
+				{
+					"family": "Ward",
+					"given": "Jane L."
+				}
+			],
+			"etAl": true,
+			"container": "PLOS ONE",
+			"volume": "9",
+			"issue": "10",
+			"pages": "e111225",
+			"published": "2014-10-30",
+			"doi": "10.1371/journal.pone.0111225",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chorleywood bread process",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chorleywood_bread_process&oldid=1377067628",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		}
+	]
+}

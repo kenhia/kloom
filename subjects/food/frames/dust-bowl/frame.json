@@ -1,0 +1,246 @@
+{
+	"id": "dust-bowl",
+	"topic": "The Dust Bowl",
+	"position": {
+		"label": "1930s",
+		"sort": 1934
+	},
+	"scene": {
+		"headline": "The plains' topsoil",
+		"accent": "BLEW.",
+		"palette": "nitrogen",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SOUTHERN GREAT PLAINS · 1930–1940",
+			"BLACK SUNDAY · SOIL CONSERVATION SERVICE · SHELTERBELTS"
+		],
+		"counter": {
+			"value": "46,600,000",
+			"label": "acres of Plains crops failed in 1935"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Hugh Hammond Bennett and the Creation of the Soil Conservation Service, September 19, 1933–April 27, 1935",
+			"authors": [
+				{
+					"family": "Helms",
+					"given": "Douglas"
+				}
+			],
+			"number": "Historical Insights No. 9",
+			"publisher": "Natural Resources Conservation Service, U.S. Department of Agriculture",
+			"place": "Washington, DC",
+			"published": "2010-03",
+			"url": "http://www.nrcs.usda.gov/about/history/articles/hugh_hammond_bennett_and_the_creation_of_the_soil_conservation_service.pdf",
+			"accessed": "2026-10-04",
+			"note": "The hearing of 21 March 1935, the storms of May 1934 and Black Sunday"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Emergency Wind-Erosion Control",
+			"authors": [
+				{
+					"family": "Rule",
+					"given": "Glenn K."
+				}
+			],
+			"number": "Circular No. 430",
+			"publisher": "U.S. Department of Agriculture",
+			"place": "Washington, DC",
+			"published": "1937-02",
+			"url": "https://archive.org/details/emergencywindero430rule",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "report",
+			"title": "Strip Cropping to Prevent Erosion",
+			"authors": [
+				{
+					"family": "Geib",
+					"given": "H. V."
+				}
+			],
+			"number": "Leaflet No. 85",
+			"publisher": "U.S. Department of Agriculture",
+			"place": "Washington, DC",
+			"published": "1931-11",
+			"url": "https://archive.org/details/stripcroppingtop85geib",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "statute",
+			"title": "Soil Conservation Act of 1935",
+			"publicLaw": "74-46",
+			"chapter": "85",
+			"code": {
+				"volume": "49",
+				"name": "Stat.",
+				"page": "163"
+			},
+			"published": "1935-04-27",
+			"container": "United States Statutes at Large",
+			"publisher": "govinfo",
+			"url": "https://www.govinfo.gov/content/pkg/STATUTE-49/pdf/STATUTE-49-Pg163.pdf",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "encyclopedia",
+			"key": true,
+			"title": "The Dust Bowl",
+			"authors": [
+				{
+					"family": "Cunfer",
+					"given": "Geoff"
+				}
+			],
+			"container": "EH.Net Encyclopedia",
+			"editors": [
+				{
+					"family": "Whaples",
+					"given": "Robert"
+				}
+			],
+			"publisher": "Economic History Association",
+			"published": "2004-08-18",
+			"url": "https://eh.net/encyclopedia/the-dust-bowl/",
+			"accessed": "2026-10-04",
+			"note": "The case that the 1930s storms were drought's, and the New Deal's story"
+		},
+		{
+			"kind": "article",
+			"title": "The Enduring Impact of the American Dust Bowl: Short- and Long-Run Adjustments to Environmental Catastrophe",
+			"authors": [
+				{
+					"family": "Hornbeck",
+					"given": "Richard"
+				}
+			],
+			"container": "American Economic Review",
+			"volume": "102",
+			"issue": "4",
+			"pages": "1477–1507",
+			"published": "2012-06",
+			"doi": "10.1257/aer.102.4.1477",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "book",
+			"title": "Dust Bowl: The Southern Plains in the 1930s",
+			"authors": [
+				{
+					"family": "Worster",
+					"given": "Donald"
+				}
+			],
+			"place": "New York",
+			"publisher": "Oxford University Press",
+			"published": "1979",
+			"url": "https://archive.org/details/dustbowl00dona",
+			"accessed": "2026-10-04",
+			"read": "excerpt",
+			"note": "Read through the Internet Archive's full-text search snippets"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dust Bowl",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dust_Bowl&oldid=1374309727",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aeolian processes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aeolian_processes&oldid=1356939373",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Great Plains Shelterbelt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Great_Plains_Shelterbelt&oldid=1377687581",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Migrant Mother",
+			"url": "https://en.wikipedia.org/w/index.php?title=Migrant_Mother&oldid=1372875798",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "media",
+			"title": "Farmer and sons walking in the face of a dust storm, Cimarron County, Oklahoma",
+			"url": "https://commons.wikimedia.org/wiki/File:Farmer_walking_in_dust_storm_Cimarron_County_Oklahoma2.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "dust-storm.jpg",
+			"authors": [
+				{
+					"family": "Rothstein",
+					"given": "Arthur"
+				}
+			],
+			"container": "Farm Security Administration/Office of War Information Collection, Library of Congress",
+			"number": "LC-DIG-ppmsc-00241",
+			"published": "1936-04"
+		},
+		{
+			"kind": "media",
+			"title": "\"Tractored out\": power farming displaces tenants from the land in the western dry cotton area, Childress County, Texas",
+			"url": "https://commons.wikimedia.org/wiki/File:Tenantless_farm_Texas_panhandle_1938.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "tractored-out.jpg",
+			"authors": [
+				{
+					"family": "Lange",
+					"given": "Dorothea"
+				}
+			],
+			"container": "Farm Security Administration/Office of War Information Collection, Library of Congress",
+			"number": "LC-DIG-ppmsc-00232",
+			"published": "1938-06"
+		}
+	],
+	"connections": [
+		{
+			"to": "food/tractor",
+			"why": "Tractors let a Plains family break more ground, and later pushed tenant families off it."
+		}
+	]
+}

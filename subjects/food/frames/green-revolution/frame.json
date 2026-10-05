@@ -1,0 +1,387 @@
+{
+	"id": "green-revolution",
+	"topic": "Borlaug and the Green Revolution",
+	"position": {
+		"label": "1966",
+		"sort": 1966
+	},
+	"scene": {
+		"headline": "We bred the wheat",
+		"accent": "SHORT.",
+		"palette": "nitrogen",
+		"illustration": "scene.svg",
+		"metadata": ["SONORA · TOLUCA · PUNJAB · LOS BAÑOS", "NORMAN BORLAUG · NORIN 10 · IR8"],
+		"counter": {
+			"value": "18,000",
+			"label": "tons of Mexican seed wheat India bought in 1966"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/haber-bosch",
+			"why": "The dwarf wheats were bred to turn heavy doses of nitrogen fertilizer into grain, and the Haber–Bosch process makes almost all of the world's synthetic nitrogen, about 70 percent of it for fertilizer."
+		},
+		{
+			"to": "food/fertilizer",
+			"why": "The semi-dwarf wheats were bred to turn heavy doses of nitrogen fertilizer into grain without falling over."
+		},
+		{
+			"to": "food/rice",
+			"why": "IR8, the Green Revolution's semi-dwarf rice, was released by the International Rice Research Institute in 1966."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Green Revolution, Peace, and Humanity",
+			"authors": [
+				{
+					"family": "Borlaug",
+					"given": "Norman E."
+				}
+			],
+			"container": "Nobel Lecture, NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1970-12-11",
+			"url": "https://www.nobelprize.org/prizes/peace/1970/borlaug/lecture/",
+			"accessed": "2026-10-04",
+			"note": "Shuttle breeding, lodging, Norin 10, the seed imports and the figures in the table"
+		},
+		{
+			"kind": "letter",
+			"title": "Agreement between Secretary of Agriculture Orville L. Freeman and Minister of Food and Agriculture C. Subramaniam",
+			"authors": [
+				{
+					"family": "Freeman",
+					"given": "Orville L."
+				}
+			],
+			"recipients": [
+				{
+					"family": "Johnson",
+					"given": "Lyndon B."
+				}
+			],
+			"written": "1965-11-26",
+			"container": "Foreign Relations of the United States, 1964–1968, Volume XXV, South Asia",
+			"number": "Document 253",
+			"publisher": "Office of the Historian, U.S. Department of State",
+			"url": "https://history.state.gov/historicaldocuments/frus1964-68v25/d253",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "letter",
+			"title": "India—Food and Agriculture",
+			"authors": [
+				{
+					"family": "Freeman",
+					"given": "Orville L."
+				}
+			],
+			"recipients": [
+				{
+					"family": "Johnson",
+					"given": "Lyndon B."
+				}
+			],
+			"written": "1965-12-01",
+			"container": "Foreign Relations of the United States, 1964–1968, Volume XXV, South Asia",
+			"number": "Document 255",
+			"publisher": "Office of the Historian, U.S. Department of State",
+			"url": "https://history.state.gov/historicaldocuments/frus1964-68v25/d255",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Green Revolution: Impacts, Limits, and the Path Ahead",
+			"authors": [
+				{
+					"family": "Pingali",
+					"given": "Prabhu L."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "109",
+			"issue": "31",
+			"pages": "12302–12308",
+			"published": "2012-07-31",
+			"doi": "10.1073/pnas.0912953109",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "'Green Revolution' Genes Encode Mutant Gibberellin Response Modulators",
+			"authors": [
+				{
+					"family": "Peng",
+					"given": "Jinrong"
+				},
+				{
+					"family": "Richards",
+					"given": "Donald E."
+				},
+				{
+					"family": "Hartley",
+					"given": "Nigel M."
+				},
+				{
+					"family": "Murphy",
+					"given": "George P."
+				},
+				{
+					"family": "Devos",
+					"given": "Katrien M."
+				},
+				{
+					"family": "Flintham",
+					"given": "John E."
+				},
+				{
+					"family": "Beales",
+					"given": "James"
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "400",
+			"issue": "6741",
+			"pages": "256–261",
+			"published": "1999-07",
+			"doi": "10.1038/22307",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The Genes of the Green Revolution",
+			"authors": [
+				{
+					"family": "Hedden",
+					"given": "Peter"
+				}
+			],
+			"container": "Trends in Genetics",
+			"volume": "19",
+			"issue": "1",
+			"pages": "5–9",
+			"published": "2003-01",
+			"doi": "10.1016/S0168-9525(02)00009-4",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Origin, History, and Use of Norin 10 Wheat",
+			"authors": [
+				{
+					"family": "Reitz",
+					"given": "L. P."
+				},
+				{
+					"family": "Salmon",
+					"given": "S. C."
+				}
+			],
+			"container": "Crop Science",
+			"volume": "8",
+			"issue": "6",
+			"pages": "686–689",
+			"published": "1968-11",
+			"doi": "10.2135/cropsci1968.0011183X000800060014x",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Satellite-Based Estimates of Groundwater Depletion in India",
+			"authors": [
+				{
+					"family": "Rodell",
+					"given": "Matthew"
+				},
+				{
+					"family": "Velicogna",
+					"given": "Isabella"
+				},
+				{
+					"family": "Famiglietti",
+					"given": "James S."
+				}
+			],
+			"container": "Nature",
+			"volume": "460",
+			"issue": "7258",
+			"pages": "999–1002",
+			"published": "2009-08",
+			"doi": "10.1038/nature08238",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Emerging Issues and Potential Opportunities in the Rice–Wheat Cropping System of North-Western India",
+			"authors": [
+				{
+					"family": "Dhanda",
+					"given": "Sachin"
+				},
+				{
+					"family": "Yadav",
+					"given": "Ashok"
+				},
+				{
+					"family": "Yadav",
+					"given": "Dharam Bir"
+				},
+				{
+					"family": "Chauhan",
+					"given": "Bhagirath Singh"
+				}
+			],
+			"container": "Frontiers in Plant Science",
+			"volume": "13",
+			"pages": "832683",
+			"published": "2022-02-22",
+			"doi": "10.3389/fpls.2022.832683",
+			"accessed": "2026-10-04",
+			"note": "Punjab's wheat yields and water table"
+		},
+		{
+			"kind": "article",
+			"title": "Commentary: New Histories of the Indian Green Revolution",
+			"authors": [
+				{
+					"family": "Stone",
+					"given": "Glenn Davis"
+				}
+			],
+			"container": "The Geographical Journal",
+			"volume": "185",
+			"issue": "2",
+			"pages": "243–250",
+			"published": "2019-02-21",
+			"doi": "10.1111/geoj.12297",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "book",
+			"title": "The Violence of the Green Revolution: Third World Agriculture, Ecology, and Politics",
+			"authors": [
+				{
+					"family": "Shiva",
+					"given": "Vandana"
+				}
+			],
+			"place": "London",
+			"publisher": "Zed Books",
+			"published": "1991",
+			"url": "https://archive.org/details/violenceofgreen00shiv",
+			"accessed": "2026-10-04",
+			"read": "excerpt",
+			"note": "Read through the Internet Archive's full-text search snippets"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Norman Borlaug",
+			"url": "https://en.wikipedia.org/w/index.php?title=Norman_Borlaug&oldid=1374738942",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Norin 10 wheat",
+			"url": "https://en.wikipedia.org/w/index.php?title=Norin_10_wheat&oldid=1365653813",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Orville Vogel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Orville_Vogel&oldid=1314949806",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "IR8",
+			"url": "https://en.wikipedia.org/w/index.php?title=IR8&oldid=1332730370",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lodging (agriculture)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lodging_(agriculture)&oldid=1224421978",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-05-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vandana Shiva",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vandana_Shiva&oldid=1372612872",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "media",
+			"title": "India's average wheat yield, 1961–2023",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "FAOSTAT, Crops and livestock products, Food and Agriculture Organization of the United Nations",
+			"url": "https://www.fao.org/faostat/en/#data/QCL",
+			"accessed": "2026-10-04",
+			"licence": "MIT",
+			"file": "wheat-yield.svg"
+		}
+	]
+}

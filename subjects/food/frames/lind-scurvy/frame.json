@@ -1,0 +1,260 @@
+{
+	"id": "lind-scurvy",
+	"topic": "Lind's scurvy trial",
+	"position": {
+		"label": "1747",
+		"sort": 1747
+	},
+	"scene": {
+		"headline": "We put cures to the",
+		"accent": "TEST.",
+		"palette": "frost",
+		"illustration": "scene.svg",
+		"metadata": ["HMS SALISBURY · 20 MAY 1747", "JAMES LIND · TWELVE SAILORS · SIX REMEDIES"],
+		"counter": {
+			"value": "48 years",
+			"label": "from Lind's trial to the Navy's lemon ration"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A Treatise of the Scurvy, in Three Parts",
+			"authors": [
+				{
+					"family": "Lind",
+					"given": "James"
+				}
+			],
+			"place": "Edinburgh",
+			"publisher": "Sands, Murray and Cochran",
+			"published": "1753",
+			"url": "https://archive.org/details/b30507054",
+			"accessed": "2026-10-04",
+			"note": "The trial on the Salisbury, pp. 191–196"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A Voyage Round the World in the Years MDCCXL, I, II, III, IV, by George Anson",
+			"authors": [
+				{
+					"family": "Walter",
+					"given": "Richard"
+				}
+			],
+			"edition": "Everyman's Library ed.",
+			"place": "London",
+			"publisher": "J. M. Dent",
+			"published": "1911",
+			"url": "https://www.gutenberg.org/ebooks/47130",
+			"accessed": "2026-10-04",
+			"note": "First published 1748; the scurvy aboard the Centurion is in book 1, chapter 10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George Anson's voyage around the world",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_Anson's_voyage_around_the_world&oldid=1367924280",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Scurvy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Scurvy&oldid=1375507061",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "James Lind",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_Lind&oldid=1359022684",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "HMS Salisbury (1746)",
+			"url": "https://en.wikipedia.org/w/index.php?title=HMS_Salisbury_(1746)&oldid=1345234292",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-25"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "James Lind and Scurvy: A Revaluation",
+			"authors": [
+				{
+					"family": "Bartholomew",
+					"given": "Michael"
+				}
+			],
+			"container": "Journal for Maritime Research",
+			"volume": "4",
+			"issue": "1",
+			"pages": "1–14",
+			"published": "2002",
+			"doi": "10.1080/21533369.2002.9668317",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "The Method Taken for Preserving the Health of the Crew of His Majesty's Ship the Resolution during Her Late Voyage Round the World",
+			"authors": [
+				{
+					"family": "Cook",
+					"given": "James"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "66",
+			"pages": "402–406",
+			"published": "1776",
+			"doi": "10.1098/rstl.1776.0023",
+			"url": "https://archive.org/details/jstor-106286",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sauerkraut",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sauerkraut&oldid=1377104869",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gilbert Blane",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gilbert_Blane&oldid=1377670229",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sick and Hurt Commissioners",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sick_and_Hurt_Commissioners&oldid=1368544654",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vitamin C",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vitamin_C&oldid=1378490308",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Albert Szent-Györgyi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Albert_Szent-Gy%C3%B6rgyi&oldid=1371963104",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Glen King",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Glen_King&oldid=1371979635",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "J. Lind; A treatise of the scurvy",
+			"url": "https://commons.wikimedia.org/wiki/File:J._Lind;_A_treatise_of_the_scurvy._Wellcome_L0019183.jpg",
+			"accessed": "2026-10-04",
+			"licence": "CC BY 4.0",
+			"file": "treatise.jpg",
+			"container": "Wellcome Collection",
+			"number": "L0019183"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/voyages",
+			"why": "Magellan's men died of scurvy crossing the Pacific; two centuries later Anson's voyage lost most of its crews to the same disease, and Lind set out to cure it."
+		},
+		{
+			"to": "blood/louis-numerical",
+			"why": "Lind compared matched pairs of sailors on different remedies in 1747; Pierre Louis made counting the outcomes of groups of patients a method of medicine in Paris in the 1820s and 1830s."
+		},
+		{
+			"to": "western-civ/harrison-chronometer",
+			"why": "Cook's voyage in the Resolution of 1772–75 carried both Kendall's copy of Harrison's watch, K1, and the sauerkraut Cook credited with keeping scurvy away."
+		},
+		{
+			"to": "food/vitamins",
+			"why": "Lind's citrus cure was explained only when the antiscorbutic factor was isolated and named vitamin C in the early 1930s."
+		}
+	]
+}

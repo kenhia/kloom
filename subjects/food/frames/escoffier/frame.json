@@ -1,0 +1,258 @@
+{
+	"id": "escoffier",
+	"topic": "Escoffier's kitchen brigade",
+	"position": {
+		"label": "1903",
+		"sort": 1903
+	},
+	"scene": {
+		"headline": "The kitchen became a",
+		"accent": "BRIGADE.",
+		"palette": "linen",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · THE SAVOY · PARIS · THE RITZ",
+			"ESCOFFIER · CÉSAR RITZ · LE GUIDE CULINAIRE"
+		],
+		"counter": {
+			"value": "2,973",
+			"label": "recipes in the 1907 English Guide"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A Guide to Modern Cookery",
+			"authors": [
+				{
+					"family": "Escoffier",
+					"given": "A."
+				}
+			],
+			"place": "London",
+			"publisher": "William Heinemann",
+			"published": "1907",
+			"url": "https://archive.org/details/cu31924000610117",
+			"accessed": "2026-10-04",
+			"note": "The preface, the basic sauces and the Russian service"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The Emergence, Development and Influence of French Haute Cuisine on Public Dining in Dublin Restaurants 1900–2000: An Oral History",
+			"authors": [
+				{
+					"family": "Mac Con Iomaire",
+					"given": "Máirtín"
+				}
+			],
+			"publisher": "Dublin Institute of Technology",
+			"number": "Doctoral thesis",
+			"published": "2009",
+			"doi": "10.21427/D79K7H",
+			"accessed": "2026-10-04",
+			"note": "The partie system, pp. 141–142"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Innovation and 19th Century Hotel Industry Evolution",
+			"authors": [
+				{
+					"family": "Bowie",
+					"given": "David"
+				}
+			],
+			"container": "Tourism Management",
+			"volume": "64",
+			"pages": "314–323",
+			"published": "2018",
+			"doi": "10.1016/j.tourman.2017.09.005",
+			"accessed": "2026-10-04",
+			"note": "Read in the author's accepted manuscript"
+		},
+		{
+			"kind": "article",
+			"title": "The Chef in Society: Origins and Development",
+			"authors": [
+				{
+					"family": "Escoffier",
+					"given": "Marcel R."
+				}
+			],
+			"container": "Hospitality Review",
+			"volume": "5",
+			"issue": "1",
+			"published": "1987",
+			"url": "https://digitalcommons.fiu.edu/hospitalityreview/vol5/iss1/6",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "Georges Auguste Escoffier",
+			"authors": [
+				{
+					"family": "Herbodeau",
+					"given": "E."
+				},
+				{
+					"family": "Thalamas",
+					"given": "P."
+				}
+			],
+			"place": "London",
+			"publisher": "Practical Press",
+			"published": "1955",
+			"citedIn": "The Emergence, Development and Influence of French Haute Cuisine on Public Dining in Dublin Restaurants 1900–2000: An Oral History"
+		},
+		{
+			"kind": "book",
+			"title": "The Master Chefs: A History of Haute Cuisine",
+			"authors": [
+				{
+					"family": "Page",
+					"given": "E. B."
+				},
+				{
+					"family": "Kingsford",
+					"given": "P. W."
+				}
+			],
+			"place": "London",
+			"publisher": "Edward Arnold",
+			"published": "1971",
+			"citedIn": "The Emergence, Development and Influence of French Haute Cuisine on Public Dining in Dublin Restaurants 1900–2000: An Oral History"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Auguste Escoffier",
+			"url": "https://en.wikipedia.org/w/index.php?title=Auguste_Escoffier&oldid=1377677729",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kitchen brigade",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kitchen_brigade&oldid=1358099875",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Le guide culinaire",
+			"url": "https://en.wikipedia.org/w/index.php?title=Le_guide_culinaire&oldid=1378172463",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "French mother sauces",
+			"url": "https://en.wikipedia.org/w/index.php?title=French_mother_sauces&oldid=1366486040",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Service à la russe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Service_%C3%A0_la_russe&oldid=1373225058",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Marie-Antoine Carême",
+			"url": "https://en.wikipedia.org/w/index.php?title=Marie-Antoine_Car%C3%AAme&oldid=1370503794",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "César Ritz",
+			"url": "https://en.wikipedia.org/w/index.php?title=C%C3%A9sar_Ritz&oldid=1373327380",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Savoy Hotel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Savoy_Hotel&oldid=1377312824",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "A. Escoffier",
+			"container": "A Guide to Modern Cookery (London: William Heinemann, 1907), frontispiece",
+			"url": "https://archive.org/details/cu31924000610117/page/n9",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "escoffier-1907.jpg",
+			"published": "1907",
+			"note": "Published in London in 1907; the photographer is not named"
+		}
+	],
+	"connections": [
+		{
+			"to": "food/restaurant",
+			"why": "The Savoy's prospectus promised London a restaurant to equal the best in Paris, the city where the restaurant began a century before."
+		}
+	]
+}

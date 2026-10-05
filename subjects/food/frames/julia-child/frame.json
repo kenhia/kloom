@@ -1,0 +1,307 @@
+{
+	"id": "julia-child",
+	"topic": "Julia Child and the home cook",
+	"position": {
+		"label": "1961",
+		"sort": 1961
+	},
+	"scene": {
+		"headline": "Julia Child made the cook",
+		"accent": "FEARLESS.",
+		"palette": "linen",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · CAMBRIDGE, MASSACHUSETTS · WGBH BOSTON",
+			"JULIA CHILD · SIMONE BECK · LOUISETTE BERTHOLLE"
+		],
+		"counter": {
+			"value": "524",
+			"label": "recipes in Volume One, 1961"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "A New Kind of Cookbook",
+			"container": "Food: Transforming the American Table, Julia Child's Kitchen",
+			"publisher": "National Museum of American History, Smithsonian Institution",
+			"url": "https://americanhistory.si.edu/explore/exhibitions/food/online/julia-childs-kitchen/new-kind-cookbook",
+			"accessed": "2026-10-04",
+			"note": "Also its pages A Passion for Food, Television Star and Modern Kitchens"
+		},
+		{
+			"kind": "web",
+			"title": "A Passion for Food",
+			"container": "Food: Transforming the American Table, Julia Child's Kitchen",
+			"publisher": "National Museum of American History, Smithsonian Institution",
+			"url": "https://americanhistory.si.edu/explore/exhibitions/food/online/julia-childs-kitchen/passion-food",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "web",
+			"title": "Television Star",
+			"container": "Food: Transforming the American Table, Julia Child's Kitchen",
+			"publisher": "National Museum of American History, Smithsonian Institution",
+			"url": "https://americanhistory.si.edu/explore/exhibitions/food/online/julia-childs-kitchen/television-star",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "web",
+			"title": "Modern Kitchens",
+			"container": "Food: Transforming the American Table, Julia Child's Kitchen",
+			"publisher": "National Museum of American History, Smithsonian Institution",
+			"url": "https://americanhistory.si.edu/explore/exhibitions/food/online/julia-childs-kitchen/modern-kitchens",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mastering the Art of French Cooking",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mastering_the_Art_of_French_Cooking&oldid=1368424489",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Julia Child",
+			"url": "https://en.wikipedia.org/w/index.php?title=Julia_Child&oldid=1375542184",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The French Chef",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_French_Chef&oldid=1377037187",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Louisette Bertholle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Louisette_Bertholle&oldid=1372967328",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Le Cordon Bleu",
+			"url": "https://en.wikipedia.org/w/index.php?title=Le_Cordon_Bleu&oldid=1369207299",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frozen meal",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frozen_meal&oldid=1354922525",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-19"
+		},
+		{
+			"kind": "book",
+			"title": "Mastering the Art of French Cooking",
+			"authors": [
+				{
+					"family": "Beck",
+					"given": "Simone"
+				},
+				{
+					"family": "Bertholle",
+					"given": "Louisette"
+				},
+				{
+					"family": "Child",
+					"given": "Julia"
+				}
+			],
+			"place": "New York",
+			"publisher": "Alfred A. Knopf",
+			"published": "1961",
+			"url": "https://archive.org/details/bwb_KR-529-982",
+			"accessed": "2026-10-04",
+			"read": "excerpt",
+			"note": "The foreword's words on the two-column form, read through the Internet Archive's full-text search snippets of this copy and of later printings"
+		},
+		{
+			"kind": "web",
+			"title": "Mastering the Art of French Cooking, Volume 1",
+			"publisher": "Penguin Random House",
+			"url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780394721781",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "web",
+			"title": "Relive the Moment That Julia Child Became an American Icon",
+			"authors": [
+				{
+					"family": "Prud'homme",
+					"given": "Alex"
+				}
+			],
+			"container": "alexprudhomme.com",
+			"published": "2016-10-05",
+			"url": "https://alexprudhomme.com/2016/10/05/relive-moment-julia-child-became-american-icon/",
+			"accessed": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"title": "Julia Child at GBH",
+			"publisher": "GBH",
+			"url": "https://www.wgbh.org/collections/julia-child-at-gbh",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "The Vigorous Approach to Cooking: Julia Child, Domesticity, and Gendered Labor at Midcentury",
+			"authors": [
+				{
+					"family": "Deutsch",
+					"given": "Tracey"
+				}
+			],
+			"container": "Journal of American History",
+			"volume": "111",
+			"issue": "3",
+			"pages": "497–523",
+			"published": "2024-12",
+			"doi": "10.1093/jahist/jaae182",
+			"accessed": "2026-10-04",
+			"read": "excerpt"
+		},
+		{
+			"kind": "web",
+			"title": "Tracey Deutsch, Julia Child and Gendered Labor at Midcentury",
+			"container": "Journal of American History Podcast",
+			"publisher": "Organization of American Historians",
+			"published": "2025",
+			"url": "https://www.oah.org/captivate-podcast/tracey-deutsch-julia-child-and-gendered-labor-at-midcentury/",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "chapter",
+			"title": "Julia Child and the “Servantless American Cook”",
+			"authors": [
+				{
+					"family": "Barta",
+					"given": "Caroline B."
+				}
+			],
+			"container": "Consumption and the Literary Cookbook",
+			"editors": [
+				{
+					"family": "Harde",
+					"given": "Roxanne"
+				},
+				{
+					"family": "Wesselius",
+					"given": "Janet"
+				}
+			],
+			"pages": "93–106",
+			"place": "New York",
+			"publisher": "Routledge",
+			"published": "2020",
+			"doi": "10.4324/9781003119517-8",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The Genre of the Culinary Classic: The Works of Julia Child",
+			"authors": [
+				{
+					"family": "Kreamer",
+					"given": "Jean T."
+				}
+			],
+			"container": "Collection Building",
+			"volume": "8",
+			"issue": "3",
+			"pages": "19–22",
+			"published": "1987-03",
+			"doi": "10.1108/eb023220",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "Why You'll Never Cook from Julia Child's Mastering the Art of French Cooking",
+			"authors": [
+				{
+					"family": "Schrambling",
+					"given": "Regina"
+				}
+			],
+			"container": "Slate",
+			"published": "2009-08-28",
+			"url": "https://slate.com/human-interest/2009/08/why-you-ll-never-cook-from-julia-child-s-mastering-the-art-of-french-cooking.html",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "media",
+			"title": "Julia Child's kitchen by Matthew Bisanz",
+			"authors": [
+				{
+					"family": "Bisanz",
+					"given": "Matthew"
+				}
+			],
+			"container": "Photographed at the National Museum of American History",
+			"published": "2009-10-03",
+			"url": "https://commons.wikimedia.org/wiki/File:Julia_Child%27s_kitchen_by_Matthew_Bisanz.JPG",
+			"accessed": "2026-10-04",
+			"licence": "CC BY-SA 3.0",
+			"file": "kitchen.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "food/birdseye",
+			"why": "The frozen meal that Swanson put on sale in 1953, at the end of the Birdseye frame, was part of the convenience kitchen that Mastering the Art of French Cooking was written against."
+		}
+	]
+}

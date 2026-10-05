@@ -1,0 +1,394 @@
+{
+	"id": "chuno",
+	"topic": "The Andean potato and chuño",
+	"position": {
+		"label": "c. 6000 BC",
+		"sort": -6000
+	},
+	"scene": {
+		"headline": "We froze the harvest at",
+		"accent": "ALTITUDE.",
+		"palette": "hayrick",
+		"illustration": "scene.svg",
+		"metadata": ["LAKE TITICACA · ALTIPLANO · INCA QULLQA", "SOLANUM TUBEROSUM · CHUÑO · TUNTA"],
+		"counter": {
+			"value": "4,000+",
+			"label": "native potato varieties in the Andes"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/valladolid",
+			"why": "Chuño was first described by chroniclers of the Spanish conquest of the Inca, which Valladolid weighs, and was sold to feed the forced and paid laborers of the silver mines at Potosí."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Single Domestication for Potato Based on Multilocus Amplified Fragment Length Polymorphism Genotyping",
+			"authors": [
+				{
+					"family": "Spooner",
+					"given": "David M."
+				},
+				{
+					"family": "McLean",
+					"given": "Karen"
+				},
+				{
+					"family": "Ramsay",
+					"given": "Gavin"
+				},
+				{
+					"family": "Waugh",
+					"given": "Robbie"
+				},
+				{
+					"family": "Bryan",
+					"given": "Glenn J."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "102",
+			"issue": "41",
+			"pages": "14694–14699",
+			"published": "2005-10-03",
+			"doi": "10.1073/pnas.0507400102",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Late Archaic–Early Formative Period Microbotanical Evidence for Potato at Jiskairumoko in the Titicaca Basin of Southern Peru",
+			"authors": [
+				{
+					"family": "Rumold",
+					"given": "Claudia Ursula"
+				},
+				{
+					"family": "Aldenderfer",
+					"given": "Mark S."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "113",
+			"issue": "48",
+			"pages": "13672–13677",
+			"published": "2016-11-14",
+			"doi": "10.1073/pnas.1604265113",
+			"read": "abstract",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of the potato",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_the_potato&oldid=1376268865",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"title": "Potato",
+			"container": "International Potato Center",
+			"url": "https://cipotato.org/potato/",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "International Potato Center"
+				}
+			]
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Solanine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Solanine&oldid=1365924047",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-25"
+		},
+		{
+			"kind": "article",
+			"title": "Detoxification Function of Geophagy and Domestication of the Potato",
+			"authors": [
+				{
+					"family": "Johns",
+					"given": "Timothy"
+				}
+			],
+			"container": "Journal of Chemical Ecology",
+			"volume": "12",
+			"issue": "3",
+			"pages": "635–646",
+			"published": "1986-03",
+			"doi": "10.1007/BF01012098",
+			"read": "abstract",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "report",
+			"title": "Chemical Ecology of the Aymara of Western Bolivia: Selection for Glycoalkaloids in the Solanum × ajanhuiri Domestication Complex",
+			"authors": [
+				{
+					"family": "Johns",
+					"given": "Timothy"
+				}
+			],
+			"publisher": "University of Michigan",
+			"published": "1985",
+			"url": "https://hdl.handle.net/2027.42/127708",
+			"read": "abstract",
+			"accessed": "2026-10-04",
+			"note": "PhD dissertation"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Structural and Functional Effects of Traditional Chuño Processing on Potato Starch (Solanum spp.)",
+			"authors": [
+				{
+					"family": "Valdivieso",
+					"given": "Fabiola"
+				},
+				{
+					"family": "Vila",
+					"given": "José Luis"
+				},
+				{
+					"family": "Mollinedo",
+					"given": "Patricia A."
+				},
+				{
+					"family": "Apaza Ticona",
+					"given": "Luis"
+				}
+			],
+			"container": "Foods",
+			"volume": "15",
+			"issue": "12",
+			"pages": "2180",
+			"published": "2026-06-17",
+			"doi": "10.3390/foods15122180",
+			"accessed": "2026-10-04",
+			"note": "The temperatures, soaking times and leaching of glycoalkaloids are from its introduction"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chuño",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chu%C3%B1o&oldid=1291805889",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-05-23",
+			"key": true
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Travels of Pedro de Cieza de León, A.D. 1532–50, Contained in the First Part of His Chronicle of Peru",
+			"authors": [
+				{
+					"family": "Cieza de León",
+					"given": "Pedro de"
+				}
+			],
+			"translators": [
+				{
+					"family": "Markham",
+					"given": "Clements R."
+				}
+			],
+			"place": "London",
+			"publisher": "Hakluyt Society",
+			"published": "1864",
+			"url": "https://www.gutenberg.org/ebooks/48770",
+			"accessed": "2026-10-04",
+			"note": "Chapter XCIX, on the Collao and chuño; read at Project Gutenberg"
+		},
+		{
+			"kind": "book",
+			"title": "The Natural and Moral History of the Indies, Vol. 1",
+			"authors": [
+				{
+					"family": "Acosta",
+					"given": "José de"
+				}
+			],
+			"translators": [
+				{
+					"family": "Grimston",
+					"given": "Edward"
+				}
+			],
+			"editors": [
+				{
+					"family": "Markham",
+					"given": "Clements R."
+				}
+			],
+			"place": "London",
+			"publisher": "Hakluyt Society",
+			"published": "1880",
+			"url": "https://archive.org/details/naturalmoralhis00markgoog/page/n294",
+			"accessed": "2026-10-04",
+			"note": "Book IV, chapter 17, p. 233; Grimston's translation of 1604"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Potosí",
+			"url": "https://en.wikipedia.org/w/index.php?title=Potos%C3%AD&oldid=1377100912",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mit'a",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mit'a&oldid=1377419345",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Qullqa",
+			"url": "https://en.wikipedia.org/w/index.php?title=Qullqa&oldid=1374157966",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "Inca Storage and Accounting Facilities at Pachacamac",
+			"authors": [
+				{
+					"family": "Eeckhout",
+					"given": "Peter"
+				}
+			],
+			"container": "Andean Past",
+			"volume": "10",
+			"pages": "article 12",
+			"published": "2012-04-15",
+			"url": "https://digitalcommons.library.umaine.edu/andean_past/vol10/iss1/12",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "chapter",
+			"title": "The Technology of Highland Inka Food Storage",
+			"authors": [
+				{
+					"family": "Morris",
+					"given": "Craig"
+				}
+			],
+			"container": "Inka Storage Systems",
+			"editors": [
+				{
+					"family": "LeVine",
+					"given": "Terry Y."
+				}
+			],
+			"pages": "237–258",
+			"place": "Norman",
+			"publisher": "University of Oklahoma Press",
+			"published": "1992",
+			"citedIn": "Inca Storage and Accounting Facilities at Pachacamac"
+		},
+		{
+			"kind": "article",
+			"title": "Ancient Potato Varieties of the Canary Islands: Their History, Diversity and Origin of the Potato in Europe",
+			"authors": [
+				{
+					"family": "Ríos",
+					"given": "Domingo"
+				},
+				{
+					"family": "Devaux",
+					"given": "André"
+				},
+				{
+					"family": "Ruiz de Galarreta",
+					"given": "José Ignacio"
+				}
+			],
+			"container": "Potato Research",
+			"volume": "67",
+			"issue": "3",
+			"pages": "963–994",
+			"published": "2023-12",
+			"doi": "10.1007/s11540-023-09672-2",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "media",
+			"title": "Chinchero Chunos 1",
+			"url": "https://commons.wikimedia.org/wiki/File:Chinchero_Chunos_1.jpg",
+			"accessed": "2026-10-04",
+			"licence": "CC BY 2.0",
+			"file": "chuno.jpg",
+			"authors": [
+				{
+					"family": "Moravec",
+					"given": "Chuck"
+				}
+			],
+			"published": "2014-07-05",
+			"container": "Chinchero, Peru, via Flickr"
+		},
+		{
+			"kind": "media",
+			"title": "Depósito del Inga, collca (storehouses of the Inca)",
+			"url": "https://commons.wikimedia.org/wiki/File:Qullqa_(Inca_Warehouse)_by_Guaman_Poma.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "qollqa-guaman-poma.jpg",
+			"authors": [
+				{
+					"family": "Guaman Poma de Ayala",
+					"given": "Felipe"
+				}
+			],
+			"published": "1615",
+			"circa": true,
+			"container": "El primer nueva corónica y buen gobierno, p. 335, Royal Danish Library, GKS 2232 4°"
+		}
+	]
+}

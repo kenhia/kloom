@@ -1,0 +1,100 @@
+{
+	"segments": [
+		{
+			"id": "before-farming",
+			"title": "Before farming",
+			"labelKind": "date",
+			"palette": "ember",
+			"frames": ["cooking", "foragers", "oldest-bread"]
+		},
+		{
+			"id": "first-farmers",
+			"title": "The first farmers",
+			"labelKind": "date",
+			"palette": "barley",
+			"frames": ["gobekli-tepe", "founder-crops", "first-herds", "catalhoyuk", "maize", "rice"]
+		},
+		{
+			"id": "grain-and-empire",
+			"title": "Grain and empire",
+			"labelKind": "date",
+			"palette": "amphora",
+			"frames": [
+				"egypt-grain",
+				"annona",
+				"ever-normal-granary",
+				"open-fields",
+				"chinampas",
+				"columbian-exchange",
+				"sugar-slavery"
+			]
+		},
+		{
+			"id": "spice-and-trade",
+			"title": "Spice, tea and trade",
+			"labelKind": "date",
+			"palette": "saffron",
+			"frames": ["spice-routes", "chocolate", "banda-nutmeg", "coffeehouse", "tea-and-opium"]
+		},
+		{
+			"id": "agricultural-revolutions",
+			"title": "Agricultural revolutions",
+			"labelKind": "date",
+			"palette": "hayrick",
+			"frames": [
+				"seed-drill",
+				"four-course",
+				"enclosure",
+				"malthus",
+				"reaper",
+				"irish-famine",
+				"corn-laws"
+			]
+		},
+		{
+			"id": "keeping-food",
+			"title": "Keeping food",
+			"labelKind": "date",
+			"palette": "frost",
+			"frames": [
+				"salt",
+				"lind-scurvy",
+				"appert-canning",
+				"pasteurization",
+				"refrigeration",
+				"pure-food",
+				"birdseye"
+			]
+		},
+		{
+			"id": "modern-harvest",
+			"title": "The modern harvest",
+			"labelKind": "date",
+			"palette": "nitrogen",
+			"frames": [
+				"fertilizer",
+				"vitamins",
+				"tractor",
+				"dust-bowl",
+				"green-revolution",
+				"gm-crops",
+				"hunger-now"
+			]
+		},
+		{
+			"id": "the-table",
+			"title": "The table",
+			"labelKind": "date",
+			"palette": "linen",
+			"frames": [
+				"restaurant",
+				"fannie-farmer",
+				"escoffier",
+				"supermarket",
+				"fast-food",
+				"julia-child",
+				"ultra-processed"
+			]
+		}
+	]
+}

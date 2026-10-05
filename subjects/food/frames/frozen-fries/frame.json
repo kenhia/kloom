@@ -1,0 +1,247 @@
+{
+	"id": "frozen-fries",
+	"topic": "The frozen french fry",
+	"asOf": "2026-10-04",
+	"position": {
+		"label": "1953",
+		"sort": 1953
+	},
+	"scene": {
+		"headline": "Our fries arrived",
+		"accent": "FROZEN.",
+		"palette": "hayrick",
+		"illustration": "scene.svg",
+		"metadata": ["IDAHO · J. R. SIMPLOT · RAY KROC", "RUSSET BURBANK · BLANCH · PAR-FRY · FREEZE"],
+		"counter": {
+			"value": "38%",
+			"label": "of the 2025 US potato crop made into frozen fries"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "French fries",
+			"url": "https://en.wikipedia.org/w/index.php?title=French_fries&oldid=1377867535",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "History and Origin of Russet Burbank (Netted Gem) a Sport of Burbank",
+			"authors": [
+				{
+					"family": "Bethke",
+					"given": "Paul C."
+				},
+				{
+					"family": "Nassar",
+					"given": "Atef M. K."
+				},
+				{
+					"family": "Kubow",
+					"given": "Stan"
+				},
+				{
+					"family": "Leclerc",
+					"given": "Yves N."
+				},
+				{
+					"family": "Li",
+					"given": "Xiu-Qing"
+				},
+				{
+					"family": "Haroon",
+					"given": "Muhammad"
+				},
+				{
+					"family": "Molen",
+					"given": "Teresa"
+				}
+			],
+			"etAl": true,
+			"container": "American Journal of Potato Research",
+			"volume": "91",
+			"issue": "6",
+			"pages": "594–609",
+			"published": "2014",
+			"doi": "10.1007/s12230-014-9397-5",
+			"read": "abstract",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Russet Burbank",
+			"url": "https://en.wikipedia.org/w/index.php?title=Russet_Burbank&oldid=1373526340",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Luther Burbank",
+			"url": "https://en.wikipedia.org/w/index.php?title=Luther_Burbank&oldid=1361091740",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-25"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "US Patent 2,597,066: Process for Preparing and Preserving Frozen Potatoes",
+			"authors": [
+				{
+					"family": "Chase",
+					"given": "Henry M."
+				}
+			],
+			"container": "Google Patents",
+			"published": "1952-05-20",
+			"url": "https://patents.google.com/patent/US2597066A/en",
+			"accessed": "2026-10-04",
+			"note": "Filed September 13, 1949; the steps, times and temperatures in the table"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Causal Factors Concerning the Texture of French Fries Manufactured at Industrial Scale",
+			"authors": [
+				{
+					"family": "van der Sman",
+					"given": "R. G. M."
+				},
+				{
+					"family": "Schenk",
+					"given": "E."
+				}
+			],
+			"container": "Current Research in Food Science",
+			"volume": "8",
+			"pages": "100706",
+			"published": "2024",
+			"doi": "10.1016/j.crfs.2024.100706",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Fast Food Nation: The Dark Side of the All-American Meal",
+			"authors": [
+				{
+					"family": "Schlosser",
+					"given": "Eric"
+				}
+			],
+			"place": "Boston",
+			"publisher": "Houghton Mifflin",
+			"published": "2001",
+			"url": "https://archive.pov.org/foodinc/excerpt-fast-food-nation/",
+			"read": "excerpt",
+			"accessed": "2026-10-04",
+			"note": "The chapter \"Why the Fries Taste Good\", read in the excerpt published by PBS's POV"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "J. R. Simplot",
+			"url": "https://en.wikipedia.org/w/index.php?title=J._R._Simplot&oldid=1377114188",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "web",
+			"title": "About Our Founder",
+			"container": "J. R. Simplot Company",
+			"authors": [
+				{
+					"name": "J. R. Simplot Company"
+				}
+			],
+			"url": "https://www.simplot.com/company/our-founder",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ray Kroc",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ray_Kroc&oldid=1377280919",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "McDonald's French fries",
+			"url": "https://en.wikipedia.org/w/index.php?title=McDonald's_French_fries&oldid=1375067803",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Potatoes 2025 Summary",
+			"authors": [
+				{
+					"name": "National Agricultural Statistics Service"
+				}
+			],
+			"publisher": "United States Department of Agriculture",
+			"published": "2026-09",
+			"url": "https://esmis.nal.usda.gov/concern/publications/fx719m44h",
+			"accessed": "2026-10-04",
+			"note": "Production by state, and the processing table"
+		},
+		{
+			"kind": "media",
+			"title": "Uses of the United States potato crop, 2025",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "USDA National Agricultural Statistics Service, Potatoes 2025 Summary (September 2026)",
+			"url": "https://esmis.nal.usda.gov/concern/publications/fx719m44h",
+			"accessed": "2026-10-04",
+			"licence": "MIT",
+			"file": "potato-uses.svg"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"id": "drink",
+	"title": "The first drinks",
+	"anchor": "gobekli-tepe",
+	"spine": {
+		"segments": [
+			{
+				"id": "drink-seg",
+				"title": "Beer and wine",
+				"labelKind": "date",
+				"palette": "amphora",
+				"frames": ["first-wine", "ninkasi", "reinheitsgebot"]
+			}
+		]
+	}
+}

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M30 148 L35 148 M39 148 L44 148 M48 148 L53 148 M57 148 L62 148 M66 148 L71 148 M75 148 L80 148 M84 148 L89 148 M93 148 L98 148 M102 148 L107 148 M111 148 L116 148 M120 148 L125 148 M129 148 L134 148 M138 148 L143 148 M147 148 L152 148 M156 148 L161 148 M165 148 L170 148 M174 148 L179 148 M183 148 L188 148 M192 148 L197 148 M201 148 L206 148 M210 148 L215 148 M219 148 L224 148 M228 148 L233 148 M237 148 L242 148 M246 148 L251 148 M255 148 L260 148 M264 148 L269 148 M273 148 L278 148 M282 148 L287 148 M291 148 L296 148 M300 148 L305 148 M309 148 L314 148 M318 148 L323 148 M327 148 L332 148 M336 148 L341 148 M345 148 L350 148 M354 148 L359 148 M363 148 L368 148"/>
+		<path pathLength="1" d="M200 40 L200 256"/>
+		<path pathLength="1" d="M110 192 L290 192 L290 254 L110 254 Z"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M70 80 L125 80"/>
+		<path pathLength="1" d="M275 80 L330 80"/>
+		<path pathLength="1" d="M70 215 L125 215"/>
+		<path pathLength="1" d="M275 215 L330 215"/>
+		<path pathLength="1" d="M70 80 L70 138"/>
+		<path pathLength="1" d="M70 158 L70 215"/>
+		<path pathLength="1" d="M330 80 L330 134"/>
+		<path pathLength="1" d="M330 162 L330 215"/>
+		<path pathLength="1" d="M125 80 L135.7 89 L146.4 71 L157.1 89 L167.9 71 L178.6 89 L189.3 71 L200 89 L210.7 71 L221.4 89 L232.1 71 L242.9 89 L253.6 71 L264.3 89 L275 80"/>
+		<path pathLength="1" d="M125 215 L135.7 224 L146.4 206 L157.1 224 L167.9 206 L178.6 224 L189.3 206 L200 224 L210.7 206 L221.4 224 L232.1 206 L242.9 224 L253.6 206 L264.3 224 L275 215"/>
+		<path pathLength="1" d="M316 148 a14 14 0 1 0 28 0 a14 14 0 1 0 -28 0"/>
+		<path pathLength="1" d="M61 138 L79 158 L79 138 L61 158 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M322 158 L330 136 L338 158"/>
+		<path pathLength="1" d="M332.2 94.5 L330 90 L327.8 94.5"/>
+		<path pathLength="1" d="M174.5 55.8 L170 58 L174.5 60.2"/>
+		<path pathLength="1" d="M230 58 L170 58"/>
+		<path pathLength="1" d="M67.8 115.5 L70 120 L72.2 115.5"/>
+		<path pathLength="1" d="M170 239 L230 239"/>
+		<path pathLength="1" d="M225.5 241.2 L230 239 L225.5 236.8"/>
+		<path pathLength="1" d="M150 48 L150 32"/>
+		<path pathLength="1" d="M151.7 35.6 L150 32 L148.3 35.6"/>
+		<path pathLength="1" d="M200 48 L200 32"/>
+		<path pathLength="1" d="M201.7 35.6 L200 32 L198.3 35.6"/>
+		<path pathLength="1" d="M250 48 L250 32"/>
+		<path pathLength="1" d="M251.7 35.6 L250 32 L248.3 35.6"/>
+		<path pathLength="1" d="M150 247 L150 231"/>
+		<path pathLength="1" d="M151.7 234.6 L150 231 L148.3 234.6"/>
+		<path pathLength="1" d="M200 247 L200 231"/>
+		<path pathLength="1" d="M201.7 234.6 L200 231 L198.3 234.6"/>
+		<path pathLength="1" d="M250 247 L250 231"/>
+		<path pathLength="1" d="M251.7 234.6 L250 231 L248.3 234.6"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="200" y="22" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HEAT OUT TO THE ROOM</text>
+		<text x="200" y="104" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CONDENSER</text>
+		<text x="310" y="120" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COMPRESSOR</text>
+		<text x="86" y="128" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EXPANSION</text>
+		<text x="86" y="139" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VALVE</text>
+		<text x="200" y="197" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EVAPORATOR</text>
+		<text x="200" y="268" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE COLD BOX: HEAT TAKEN IN</text>
+		<text x="374" y="142" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HIGH</text>
+		<text x="374" y="160" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LOW</text>
+		<text x="40" y="112" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WARM</text>
+		<text x="40" y="123" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LIQUID</text>
+		<text x="40" y="180" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COLD</text>
+		<text x="40" y="191" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MIST</text>
+		<text x="360" y="96" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HOT</text>
+		<text x="360" y="107" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VAPOR</text>
+		<text x="360" y="200" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COOL</text>
+		<text x="360" y="211" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VAPOR</text>
+	</g>
+</svg>

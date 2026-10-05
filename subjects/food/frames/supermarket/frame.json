@@ -1,0 +1,277 @@
+{
+	"id": "supermarket",
+	"topic": "The self-service supermarket",
+	"position": {
+		"label": "1916",
+		"sort": 1916
+	},
+	"scene": {
+		"headline": "We served",
+		"accent": "OURSELVES.",
+		"palette": "linen",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MEMPHIS · CLARENCE SAUNDERS · PIGGLY WIGGLY",
+			"TURNSTILE · FOUR AISLES · CHECKOUT"
+		],
+		"counter": {
+			"value": "2,660",
+			"label": "Piggly Wiggly stores at the 1932 peak"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Self-Serving Store. U.S. Patent 1,242,872",
+			"authors": [
+				{
+					"family": "Saunders",
+					"given": "Clarence"
+				}
+			],
+			"published": "1917-10-09",
+			"container": "United States Patent Office",
+			"url": "https://patents.google.com/patent/US1242872A/en",
+			"accessed": "2026-10-04",
+			"note": "Filed October 21, 1916; the plan is its Fig. 2"
+		},
+		{
+			"kind": "web",
+			"title": "Price-Tagging Means. U.S. Patent 1,297,405",
+			"authors": [
+				{
+					"family": "Saunders",
+					"given": "Clarence"
+				}
+			],
+			"published": "1919-03-18",
+			"container": "United States Patent Office",
+			"url": "https://patents.google.com/patent/US1297405A/en",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Piggly Wiggly",
+			"url": "https://en.wikipedia.org/w/index.php?title=Piggly_Wiggly&oldid=1373560857",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Clarence Saunders",
+			"url": "https://en.wikipedia.org/w/index.php?title=Clarence_Saunders&oldid=1375748609",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Supermarket",
+			"url": "https://en.wikipedia.org/w/index.php?title=Supermarket&oldid=1369952460",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-18",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "King Kullen",
+			"url": "https://en.wikipedia.org/w/index.php?title=King_Kullen&oldid=1378543166",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Michael J. Cullen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Michael_J._Cullen&oldid=1371320789",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Grocery store",
+			"url": "https://en.wikipedia.org/w/index.php?title=Grocery_store&oldid=1374678032",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Universal Product Code",
+			"url": "https://en.wikipedia.org/w/index.php?title=Universal_Product_Code&oldid=1373001632",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robinson–Patman Act",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robinson%E2%80%93Patman_Act&oldid=1366892454",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "book",
+			"title": "The Super Market: A Revolution in Distribution",
+			"authors": [
+				{
+					"family": "Zimmerman",
+					"given": "M. M."
+				}
+			],
+			"published": "1955",
+			"url": "https://archive.org/details/supermarketrevol0000mmzi",
+			"accessed": "2026-10-04",
+			"read": "excerpt",
+			"note": "Read through the Internet Archive's full-text search snippets: Cullen's letter to Kroger's vice-president, its \"monstrous stores\", and King Kullen's \"price wrecker\" slogan"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Upstream, Downstream: Diffusion and Impacts of the Universal Product Code",
+			"authors": [
+				{
+					"family": "Basker",
+					"given": "Emek"
+				},
+				{
+					"family": "Simcoe",
+					"given": "Timothy"
+				}
+			],
+			"publisher": "National Bureau of Economic Research",
+			"place": "Cambridge, MA",
+			"number": "Working Paper 24040",
+			"published": "2020-08",
+			"url": "https://www.nber.org/papers/w24040",
+			"accessed": "2026-10-04",
+			"note": "Revised August 2020; scanner adoption is on pp. 6–7"
+		},
+		{
+			"kind": "web",
+			"title": "Piggly Wiggly advertisement",
+			"container": "The Grand Rapids Press",
+			"published": "1920",
+			"url": "https://commons.wikimedia.org/wiki/File:Piggly_Wiggly_1920_ad_in_The_Grand_Rapids_Press.jpg",
+			"accessed": "2026-10-04",
+			"note": "Read in the scan of the page on Wikimedia Commons"
+		},
+		{
+			"kind": "article",
+			"title": "Piggly Wiggly Man",
+			"container": "Time",
+			"published": "1929-02-25",
+			"citedIn": "Grocery store"
+		},
+		{
+			"kind": "case",
+			"title": "Federal Trade Commission v. Morton Salt Co.",
+			"reporter": {
+				"volume": "334",
+				"name": "U.S.",
+				"page": "37"
+			},
+			"published": "1948-05-03",
+			"url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep334/usrep334037/usrep334037.pdf",
+			"accessed": "2026-10-04",
+			"container": "United States Reports",
+			"publisher": "Library of Congress"
+		},
+		{
+			"kind": "media",
+			"title": "Interior of Piggly Wiggly store, Tenn., showing entrance turnstile with small wicker shopping baskets, and check-out counter; 1st self-service grocery store in U.S.",
+			"authors": [
+				{
+					"family": "Poland",
+					"given": "Clifford H."
+				}
+			],
+			"container": "Library of Congress Prints and Photographs Division",
+			"number": "LCCN 2004676518",
+			"published": "1917",
+			"url": "https://commons.wikimedia.org/wiki/File:Interior_of_Piggly_Wiggly_store,_Tenn.,_showing_entrance_turnstile_with_small_wicker_shopping_baskets,_and_check-out_counter;_1st_self-service_grocery_store_in_U.S._LCCN2004676518.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "turnstile.jpg",
+			"note": "Published with Clarence Saunders's copyright notice in 1917; the Library of Congress records no known restrictions"
+		},
+		{
+			"kind": "media",
+			"title": "Aisle view in a Piggly Wiggly Supermarket. 1917-1918",
+			"authors": [
+				{
+					"family": "Poland",
+					"given": "Clifford H."
+				}
+			],
+			"container": "Library of Congress Prints and Photographs Division",
+			"number": "LCCN 2017646579",
+			"published": "1918",
+			"url": "https://commons.wikimedia.org/wiki/File:Aisle_view_in_a_Piggly_Wiggly_Supermarket._1917-1918_LCCN2017646579.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "price-tags.jpg",
+			"note": "Published with Clarence Saunders's copyright notice in 1918; the Library of Congress records no known restrictions"
+		}
+	],
+	"connections": [
+		{
+			"to": "food/fast-food",
+			"why": "Self-service went from the grocery to the restaurant: at the McDonald brothers' drive-in in San Bernardino, customers ordered at a window and carried their own food."
+		}
+	]
+}

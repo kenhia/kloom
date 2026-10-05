@@ -1,0 +1,279 @@
+{
+	"id": "chocolate",
+	"topic": "Chocolate from Mesoamerica",
+	"position": {
+		"label": "1544",
+		"sort": 1544
+	},
+	"scene": {
+		"headline": "We poured it for",
+		"accent": "FOAM.",
+		"palette": "saffron",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SANTA ANA-LA FLORIDA · SOCONUSCO · TLAXCALA · SÃO TOMÉ",
+			"CACAO · METATE · FROTH · COCOA PRESS"
+		],
+		"counter": {
+			"value": "200",
+			"label": "cacao beans to one silver tomín, Tlaxcala 1545"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Use and Domestication of Theobroma cacao during the Mid-Holocene in the Upper Amazon",
+			"authors": [
+				{
+					"family": "Zarrillo",
+					"given": "Sonia"
+				},
+				{
+					"family": "Gaikwad",
+					"given": "Nilesh"
+				},
+				{
+					"family": "Lanaud",
+					"given": "Claire"
+				},
+				{
+					"family": "Powis",
+					"given": "Terry"
+				},
+				{
+					"family": "Viot",
+					"given": "Christopher"
+				},
+				{
+					"family": "Lesur",
+					"given": "Isabelle"
+				},
+				{
+					"family": "Fouet",
+					"given": "Olivier"
+				}
+			],
+			"etAl": true,
+			"container": "Nature Ecology & Evolution",
+			"volume": "2",
+			"issue": "12",
+			"pages": "1879–1888",
+			"published": "2018-10-29",
+			"doi": "10.1038/s41559-018-0697-x",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Chemical and Archaeological Evidence for the Earliest Cacao Beverages",
+			"authors": [
+				{
+					"family": "Henderson",
+					"given": "John S."
+				},
+				{
+					"family": "Joyce",
+					"given": "Rosemary A."
+				},
+				{
+					"family": "Hall",
+					"given": "Gretchen R."
+				},
+				{
+					"family": "Hurst",
+					"given": "W. Jeffrey"
+				},
+				{
+					"family": "McGovern",
+					"given": "Patrick E."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "104",
+			"issue": "48",
+			"pages": "18937–18940",
+			"published": "2007-11-27",
+			"doi": "10.1073/pnas.0708815104",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The English-American His Travail by Sea and Land: or, A New Survey of the West-India's",
+			"authors": [
+				{
+					"family": "Gage",
+					"given": "Thomas"
+				}
+			],
+			"place": "London",
+			"publisher": "R. Cotes",
+			"published": "1648",
+			"pages": "107–109",
+			"url": "https://archive.org/details/englishamericanh00gage",
+			"accessed": "2026-10-04",
+			"note": "Chapter XVI, on chocolate, drawing on Antonio Colmenero de Ledesma's treatise"
+		},
+		{
+			"kind": "web",
+			"title": "cacahuatl",
+			"container": "Online Nahuatl Dictionary",
+			"publisher": "Wired Humanities Projects, University of Oregon",
+			"url": "https://nahuatl.wired-humanities.org/content/cacahuatl",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "web",
+			"title": "ahuacatl",
+			"container": "Online Nahuatl Dictionary",
+			"publisher": "Wired Humanities Projects, University of Oregon",
+			"url": "https://nahuatl.wired-humanities.org/content/ahuacatl",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "web",
+			"title": "tamalli",
+			"container": "Online Nahuatl Dictionary",
+			"publisher": "Wired Humanities Projects, University of Oregon",
+			"url": "https://nahuatl.wired-humanities.org/content/tamalli",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "Beyond the Codices: The Nahua View of Colonial Mexico",
+			"editors": [
+				{
+					"family": "Anderson",
+					"given": "Arthur J. O."
+				},
+				{
+					"family": "Berdan",
+					"given": "Frances"
+				},
+				{
+					"family": "Lockhart",
+					"given": "James"
+				}
+			],
+			"place": "Los Angeles",
+			"publisher": "UCLA Latin American Center",
+			"published": "1976",
+			"pages": "210–211",
+			"citedIn": "cacahuatl"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A Modern Slavery",
+			"authors": [
+				{
+					"family": "Nevinson",
+					"given": "Henry W."
+				}
+			],
+			"place": "London and New York",
+			"publisher": "Harper & Brothers",
+			"published": "1906",
+			"pages": "166–167, 187–189",
+			"url": "https://archive.org/details/modernslavery00nevi_0",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "NORC Final Report: Assessing Progress in Reducing Child Labor in Cocoa Production in Cocoa Growing Areas of Côte d'Ivoire and Ghana",
+			"authors": [
+				{
+					"family": "Sadhu",
+					"given": "Santadarshan"
+				},
+				{
+					"family": "Kysia",
+					"given": "Kareem"
+				},
+				{
+					"family": "Onyango",
+					"given": "Letitia"
+				},
+				{
+					"family": "Zinnes",
+					"given": "Clifford"
+				},
+				{
+					"family": "Lord",
+					"given": "Sarah"
+				},
+				{
+					"family": "Monnard",
+					"given": "Alexandre"
+				},
+				{
+					"family": "Rojas Arellano",
+					"given": "Ingrid"
+				}
+			],
+			"place": "Chicago",
+			"publisher": "NORC at the University of Chicago",
+			"published": "2020-10",
+			"url": "https://www.dol.gov/sites/dolgov/files/ILAB/NORC%202020%20Cocoa%20Report_English.pdf",
+			"accessed": "2026-10-04",
+			"note": "The 2018/19 estimates are in its executive summary"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of chocolate",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_chocolate&oldid=1376881751",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cocoa bean",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cocoa_bean&oldid=1378039096",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Child labour in cocoa production",
+			"url": "https://en.wikipedia.org/w/index.php?title=Child_labour_in_cocoa_production&oldid=1376888449",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "media",
+			"title": "Woman pouring chocolate, Codex Tudela, folio 3r",
+			"container": "Codex Tudela, Museo de América, Madrid",
+			"url": "https://commons.wikimedia.org/wiki/File:Mujer_vertiendo_chocolate_-_Codex_Tudela.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "codex-tudela.jpg",
+			"published": "1553",
+			"circa": true
+		}
+	]
+}

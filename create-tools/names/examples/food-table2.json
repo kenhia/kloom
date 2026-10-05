@@ -1,0 +1,34 @@
+{
+	"food/supermarket": [
+		["Clarence Saunders", "clarence-saunders"],
+		["Memphis, Tennessee", "memphis-tennessee"],
+		["Piggly Wiggly", "piggly-wiggly"],
+		["Self-service", "self-service"],
+		["Michael J. Cullen", "michael-j-cullen"],
+		["Kroger", "kroger"],
+		["King Kullen", "king-kullen"],
+		["supermarket", "supermarket"],
+		["Great Depression", "great-depression"],
+		["Great Atlantic & Pacific Tea Company", "a-and-p"],
+		["Robinson–Patman Act", "robinson-patman-act"],
+		["Universal Product Code", "universal-product-code"],
+		["barcode", "barcode"],
+		["NCR", "ncr-voyix"]
+	],
+	"food/fast-food": [
+		["Richard and Maurice McDonald", "richard-and-maurice-mcdonald"],
+		["San Bernardino, California", "san-bernardino-california"],
+		["McDonald's", "mcdonalds"],
+		["fast food", "fast-food"],
+		["hamburger", "hamburger"],
+		["French fries", "french-fries"],
+		["Henry Ford", "henry-ford"],
+		["assembly line", "assembly-line"],
+		["Eric Schlosser", "eric-schlosser"],
+		["Ray Kroc", "ray-kroc"],
+		["Des Plaines, Illinois", "des-plaines-illinois"],
+		["franchising", "franchising"],
+		["Harry J. Sonneborn", "harry-j-sonneborn"],
+		["_Fast Food Nation_", "fast-food-nation"]
+	]
+}

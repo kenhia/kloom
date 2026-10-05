@@ -1,0 +1,160 @@
+{
+	"id": "ever-normal-granary",
+	"topic": "China's ever-normal granary",
+	"position": {
+		"label": "54 BC",
+		"sort": -54
+	},
+	"scene": {
+		"headline": "Han China stored grain against",
+		"accent": "DEARTH.",
+		"palette": "amphora",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HAN CHINA · GENG SHOUCHANG · THE BORDER COMMANDERIES",
+			"CHANGPINGCANG · BUY CHEAP, SELL DEAR"
+		],
+		"counter": {
+			"value": "45,000,000",
+			"label": "shi in Qing granaries at the recorded peak"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Book of Han, juan 24: Treatise on Food and Money",
+			"authors": [
+				{
+					"name": "Ban Gu"
+				}
+			],
+			"container": "Chinese Wikisource",
+			"url": "https://zh.wikisource.org/w/index.php?title=%E6%BC%A2%E6%9B%B8/%E5%8D%B7024&oldid=7498330",
+			"accessed": "2026-10-04",
+			"language": "zh",
+			"note": "Li Kui's rule, Geng Shouchang's granaries and their abolition, in our translation"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Economic Principles of Confucius and His School",
+			"authors": [
+				{
+					"family": "Chen",
+					"given": "Huan-chang"
+				}
+			],
+			"publisher": "Columbia University",
+			"place": "New York",
+			"published": "1911",
+			"url": "https://archive.org/details/economicprincipl02chen",
+			"accessed": "2026-10-04",
+			"note": "Vol. 2, pp. 568–573: Li K'o's law and the \"constantly normal granary\""
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Nourish the People: The State Civilian Granary System in China, 1650–1850",
+			"authors": [
+				{
+					"family": "Will",
+					"given": "Pierre-Étienne"
+				},
+				{
+					"family": "Wong",
+					"given": "R. Bin"
+				}
+			],
+			"publisher": "Center for Chinese Studies, University of Michigan",
+			"place": "Ann Arbor",
+			"published": "1991",
+			"doi": "10.3998/mpub.19044",
+			"url": "https://www.fulcrum.org/concern/monographs/0c483m200",
+			"accessed": "2026-10-04",
+			"note": "Chapters 1–3, 6 and 8: Han and Jin origins, the 30 percent rule, the totals and the 1835 audit"
+		},
+		{
+			"kind": "statute",
+			"title": "Agricultural Adjustment Act of 1938",
+			"publicLaw": "75-430",
+			"code": {
+				"volume": "52",
+				"name": "Stat.",
+				"page": "31"
+			},
+			"published": "1938-02-16",
+			"container": "govinfo",
+			"publisher": "U.S. Government Publishing Office",
+			"url": "https://www.govinfo.gov/content/pkg/STATUTE-52/pdf/STATUTE-52-Pg31.pdf",
+			"accessed": "2026-10-04",
+			"note": "Section 2, the declaration of policy, and section 302 (d), the corn loans"
+		},
+		{
+			"kind": "article",
+			"title": "Henry A. Wallace and the Ever-Normal Granary",
+			"authors": [
+				{
+					"family": "Bodde",
+					"given": "Derk"
+				}
+			],
+			"container": "The Far Eastern Quarterly",
+			"volume": "5",
+			"issue": "4",
+			"pages": "411–426",
+			"published": "1946",
+			"doi": "10.2307/2049789",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Buffer stock scheme",
+			"url": "https://en.wikipedia.org/w/index.php?title=Buffer_stock_scheme&oldid=1325487057",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henry A. Wallace",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_A._Wallace&oldid=1378175870",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Li Kui (legalist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Li_Kui_(legalist)&oldid=1361035483",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-25"
+		}
+	],
+	"connections": [
+		{
+			"to": "mathematics/nine-chapters",
+			"why": "Geng Shouchang, who proposed the ever-normal granary in 54 BC, is one of the two Han officials Liu Hui credited with restoring the Nine Chapters, a book of problems on grain, fields and taxes."
+		}
+	]
+}

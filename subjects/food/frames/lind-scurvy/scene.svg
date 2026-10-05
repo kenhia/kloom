@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M120 46 L120 236"/>
+		<path pathLength="1" d="M148 46 L148 236"/>
+		<path pathLength="1" d="M176 46 L176 236"/>
+		<path pathLength="1" d="M204 46 L204 236"/>
+		<path pathLength="1" d="M232 46 L232 236"/>
+		<path pathLength="1" d="M260 46 L260 236"/>
+		<path pathLength="1" d="M288 46 L288 236"/>
+		<path pathLength="1" d="M316 46 L316 236"/>
+		<path pathLength="1" d="M26 54 L26 230"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M35 62 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M49 62 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M120 58 L316 58 L316 66 L120 66 Z"/>
+		<path pathLength="1" d="M35 94 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M49 94 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M120 90 L316 90 L316 98 L120 98 Z"/>
+		<path pathLength="1" d="M35 126 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M49 126 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M120 122 L316 122 L316 130 L120 130 Z"/>
+		<path pathLength="1" d="M35 158 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M49 158 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M120 154 L316 154 L316 162 L120 162 Z"/>
+		<path pathLength="1" d="M35 190 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M49 190 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M120 186 L204 186 L204 194 L120 194 Z"/>
+		<path pathLength="1" d="M35 222 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M49 222 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M120 218 L316 218 L316 226 L120 226 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M26 62 L34 62"/>
+		<path pathLength="1" d="M326 65 L336 60"/>
+		<path pathLength="1" d="M26 94 L34 94"/>
+		<path pathLength="1" d="M326 94 L336 94"/>
+		<path pathLength="1" d="M26 126 L34 126"/>
+		<path pathLength="1" d="M326 126 L336 126"/>
+		<path pathLength="1" d="M26 158 L34 158"/>
+		<path pathLength="1" d="M326 158 L336 158"/>
+		<path pathLength="1" d="M26 190 L34 190"/>
+		<path pathLength="1" d="M214 198 L224 182"/>
+		<path pathLength="1" d="M223.5 187 L224 182 L219.8 184.7"/>
+		<path pathLength="1" d="M26 222 L34 222"/>
+		<path pathLength="1" d="M326 222 L336 222"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="120" y="54" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CIDER</text>
+		<text x="120" y="86" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ELIXIR OF VITRIOL</text>
+		<text x="120" y="118" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VINEGAR</text>
+		<text x="120" y="150" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SEA WATER</text>
+		<text x="120" y="182" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2 ORANGES, 1 LEMON</text>
+		<text x="120" y="214" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ELECTUARY</text>
+		<text x="230" y="193" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FIT FOR DUTY IN 6 DAYS</text>
+		<text x="316" y="54" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SOMEWHAT ABATED</text>
+		<text x="120" y="248" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="204" y="248" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">6</text>
+		<text x="316" y="248" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">14</text>
+		<text x="218" y="260" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DAYS ON THE REMEDY</text>
+		<text x="30" y="248" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ONE DIET</text>
+		<text x="200" y="24" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HMS SALISBURY · 20 MAY 1747 · SIX PAIRS</text>
+	</g>
+</svg>

@@ -288,6 +288,57 @@ never a person, and wait when a site tells you to.
 - **Coordinates** for a map plate: Wikipedia's `prop=coordinates` returns
   ten results unless you pass `colimit=max`.
 
+## Food, agriculture and policy (sprint 051)
+
+- **FAO**: FAOSTAT's API now asks for an authorization header, but its
+  bulk zips download freely
+  (`bulks-faostat.fao.org/production/Production_Crops_Livestock_E_<Region>.zip`
+  and the food-security files beside them). FAO's reports are PDFs at
+  `fao.org/3/<code>/<code>.pdf` and older books HTML at
+  `fao.org/4/<code>/`, while the repository's handle pages are a
+  JavaScript app; the GIAHS pages moved, and their old addresses answer
+  only on the Wayback Machine.
+- **US history and law**: _Foreign Relations of the United States_ on
+  `history.state.gov` serves documents as HTML; _Historical Statistics of
+  the United States_ (1975) is scanned pages at census.gov, and the
+  Internet Archive's `historicalstatis00unit` text finds the page to read
+  with `read_source --png`; the Federal Register's whole issues come from
+  govinfo (`FR-YYYY-MM-DD.pdf`, the issue found from the page number);
+  `tile.loc.gov` serves the _United States Reports_ as PDFs, and
+  `static.case.law` the old volumes.
+- **Patents**: Google Patents answers a script with "automated queries",
+  but `patentimages.storage.googleapis.com/pdfs/US<number>.pdf` serves the
+  PDF; its text layer is often garbled, so read the numbers off the page
+  images. The Internet Archive's Wellcome items hold old British patent
+  specifications (Durand's of 1810).
+- **Texts in other languages**: Chinese Wikisource's and Russian
+  Wikisource's MediaWiki APIs serve the _Shiji_, the _Book of Han_ and
+  Soviet decrees, with a revision id to cite; ctext.org's terms forbid
+  scraping. _Peking Review_'s scans are on marxists.org
+  (`subject/china/peking-review/<year>/PR<year>-<nn>.pdf`), the best
+  primary source for the PRC's own claims, read as page images.
+- **Open monographs**: Fulcrum's open ebooks download whole
+  (`fulcrum.org/ebooks/<id>/download`, the EPUB); _The Agricultural
+  History Review_'s articles are open at
+  `bahs.org.uk/AGHR/ARTICLES/<vol>n<issue>a<n>.pdf` through the Wayback
+  Machine; NBER working papers at
+  `nber.org/system/files/working_papers/wNNNNN/wNNNNN.pdf`; JSTOR's Early
+  Journal Content is on the Internet Archive.
+- **The Internet Archive's own search**: `inside.php` full-text search
+  finds the leaf of a statute, a table or a figure in a scanned volume,
+  and its leaf index is the `page/n<N>` of the reader. Its OCR mangles
+  tables and fractions ("5¼" in the 1880 Famine Commission report; the
+  ECCO `bim_eighteenth-century_…` items are unusable): read the numbers
+  off the page image.
+- **The Nobel lectures** before about 1930 have HTML pages that answer a
+  script, where their PDF names do not exist.
+- **Copyright by year**: works published in the United States in 1930
+  entered the public domain on 1 January 2026 (Hutchinson's 1930 life of
+  McCormick may be quoted at length). Soviet and Chinese photographs of
+  about 1930–1960 that Commons tags public domain are often restored to
+  copyright in the United States by the URAA: leave them out unless the
+  file page shows why they are free here.
+
 ## Broken certificates
 
 - **Oracc**'s cuneiform editions serve an incomplete certificate chain:
@@ -340,6 +391,17 @@ what you read. Refused at least once in sprints 021–030:
   instruction, and was ignored (sprint 030). Pass `curl -m 30`
   so a site that hangs costs half a minute, not the shell's two (one sprint
   028 fetch hung for 120 seconds).
+- **Sprint 051**: Persée (an "altcha" challenge, its Wayback copy only
+  the abstract), Project MUSE, Taylor & Francis and Dundee's repository
+  (Cloudflare, no Wayback copy), UCL Press (an Anubis challenge), the DAI's
+  `publications.dainst.org` (Anubis), Durham's and UCD's repositories
+  (Cloudflare and an AWS WAF CAPTCHA; UCD's Wayback `id_` copies work),
+  UNU's `collections.unu.edu` (WAF; Wayback works), Te Ara, `ipcinfo.org`
+  (Cloudflare; Wayback `id_` at a real timestamp works), `hhs.gov`, the
+  Smithsonian, Harvard Business School's PDFs, and SEC EDGAR, which wants
+  an email address in the User-Agent that kloom's rules forbid sending.
+  The Wayback Machine itself answered 429 for minutes at a time with 24
+  authors at once; space requests about 20 seconds apart.
 - **arXiv** answered `read_source` with 406 once (sprint 024) but served
   it in sprint 027; if it refuses, fetch the PDF with `curl` and read the
   file.
