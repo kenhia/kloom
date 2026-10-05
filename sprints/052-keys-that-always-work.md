@@ -104,3 +104,17 @@ the spine in `afterNavigate`, so they are unchanged.
 ## Follow-ups
 
 None.
+
+## Deployed
+
+2026-10-05, from merged `main` (`6a32bd1c`, PR #59), by `just deploy` on
+kai. Its verify passed 10/10: both doors read, the tailnet door refuses an
+anonymous write and keeps reader data and notes, frame bodies come from the
+library, and pages go compressed. Library `f88c6e`.
+
+Verified live: `focus_check.mjs --url http://127.0.0.1:4890` (the tailnet
+door, anonymous, so nothing was written to a reader's data) passed 14/14.
+Continue and B after a click were skipped because they need a reader.
+
+The public reader site (kloom.kenhiatt.us) was not published in this ship.
+It still runs sprint 051's build until `just publish-public`.
