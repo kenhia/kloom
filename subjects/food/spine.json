@@ -50,6 +50,13 @@
 				"irish-famine",
 				"corn-laws"
 			]
+		},
+		{
+			"id": "keeping-food",
+			"title": "Keeping food",
+			"labelKind": "date",
+			"palette": "frost",
+			"frames": ["salt", "lind-scurvy", "appert-canning"]
 		}
 	]
 }

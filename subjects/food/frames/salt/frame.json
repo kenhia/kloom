@@ -1,0 +1,477 @@
+{
+	"id": "salt",
+	"topic": "Salt, smoke and the salt cod",
+	"position": {
+		"label": "c. 1450 BC",
+		"sort": -1500
+	},
+	"scene": {
+		"headline": "Salt held back the",
+		"accent": "ROT.",
+		"palette": "frost",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HALLSTATT · THE GRAND BANKS · TURKS ISLAND",
+			"ROCK SALT · WATER ACTIVITY · THE GABELLE"
+		],
+		"counter": {
+			"value": "38.8 lb",
+			"label": "of salt cod from 100 lb of fish"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Salt in Prehistoric Europe",
+			"authors": [
+				{
+					"family": "Harding",
+					"given": "Anthony"
+				}
+			],
+			"place": "Leiden",
+			"publisher": "Sidestone Press",
+			"published": "2013",
+			"url": "https://www.sidestone.com/books/salt-in-prehistoric-europe",
+			"accessed": "2026-10-04",
+			"note": "Hallstatt's Bronze Age mining and its dates are on p. 62"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Water Activity (aw) in Foods",
+			"number": "Inspection Technical Guide 39",
+			"publisher": "US Food and Drug Administration",
+			"published": "1984-04-16",
+			"url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-technical-guides/water-activity-aw-foods",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Water activity",
+			"url": "https://en.wikipedia.org/w/index.php?title=Water_activity&oldid=1338334272",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Smoking (cooking)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Smoking_(cooking)&oldid=1364630519",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Curing (food preservation)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Curing_(food_preservation)&oldid=1376623472",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "book",
+			"title": "The Natural History of Pliny",
+			"authors": [
+				{
+					"name": "Pliny the Elder"
+				}
+			],
+			"translators": [
+				{
+					"family": "Bostock",
+					"given": "John"
+				},
+				{
+					"family": "Riley",
+					"given": "H. T."
+				}
+			],
+			"place": "London",
+			"publisher": "Henry G. Bohn",
+			"published": "1855",
+			"url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137:book=31:chapter=41",
+			"accessed": "2026-10-04",
+			"note": "Book 31, chapter 41"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Salary",
+			"url": "https://en.wikipedia.org/w/index.php?title=Salary&oldid=1376890421",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "web",
+			"title": "Salt and salary: were Roman soldiers paid in salt?",
+			"authors": [
+				{
+					"family": "Gainsford",
+					"given": "Peter"
+				}
+			],
+			"container": "Kiwi Hellenist",
+			"published": "2017-01-11",
+			"url": "https://kiwihellenist.blogspot.com/2017/01/salt-and-salary.html",
+			"accessed": "2026-10-04",
+			"read": "record"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Salt in Chinese history",
+			"url": "https://en.wikipedia.org/w/index.php?title=Salt_in_Chinese_history&oldid=1377763656",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Discourses on Salt and Iron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Discourses_on_Salt_and_Iron&oldid=1376891005",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gabelle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gabelle&oldid=1371105369",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24",
+			"key": true
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A Treatise on the Administration of the Finances of France",
+			"authors": [
+				{
+					"family": "Necker",
+					"given": "Jacques"
+				}
+			],
+			"translators": [
+				{
+					"family": "Mortimer",
+					"given": "Thomas"
+				}
+			],
+			"volume": "2",
+			"place": "London",
+			"publisher": "Logographic Press, sold by J. Walter",
+			"published": "1785",
+			"url": "https://archive.org/details/treatiseonadmini32neck",
+			"accessed": "2026-10-04",
+			"note": "Vol. 2, ch. 1, pp. 11–18: prices and consumption by province"
+		},
+		{
+			"kind": "letter",
+			"title": "Raimondo de Raimondi de Soncino to Ludovico Maria Sforza, Duke of Milan",
+			"authors": [
+				{
+					"family": "Soncino",
+					"given": "Raimondo de Raimondi de"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Sforza",
+					"given": "Ludovico Maria"
+				}
+			],
+			"written": "1497-12-18",
+			"container": "Calendar of State Papers and Manuscripts in the Archives and Collections of Milan, 1385–1618",
+			"editors": [
+				{
+					"family": "Hinds",
+					"given": "Allen B."
+				}
+			],
+			"pages": "336–338",
+			"published": "1912",
+			"url": "http://www.bris.ac.uk/Depts/History/Maritime/Sources/1497soncino.htm",
+			"accessed": "2026-10-04",
+			"note": "Read on the University of Bristol's Smugglers' City pages"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Cabot",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Cabot&oldid=1375440445",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Grand Banks of Newfoundland",
+			"url": "https://en.wikipedia.org/w/index.php?title=Grand_Banks_of_Newfoundland&oldid=1373945798",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bacalhau",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bacalhau&oldid=1355857286",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dried and salted cod",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dried_and_salted_cod&oldid=1375915692",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Bank Trawl-Line Cod Fishery",
+			"container": "The Fisheries and Fishery Industries of the United States, Section V: History and Methods of the Fisheries, vol. 1",
+			"editors": [
+				{
+					"family": "Goode",
+					"given": "George Brown"
+				}
+			],
+			"pages": "156–157",
+			"place": "Washington",
+			"publisher": "Government Printing Office",
+			"published": "1887",
+			"url": "https://archive.org/details/fisheriesfishery0501good",
+			"accessed": "2026-10-04",
+			"note": "Captain D. E. Collins's journal of the dressing and salting"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Preservation of Fishery Products for Food",
+			"authors": [
+				{
+					"family": "Stevenson",
+					"given": "Charles H."
+				}
+			],
+			"container": "Bulletin of the United States Fish Commission",
+			"volume": "18",
+			"volumeYear": "1898",
+			"pages": "335–563",
+			"published": "1899",
+			"url": "https://archive.org/details/preservationoffi00stev",
+			"accessed": "2026-10-04",
+			"note": "Curing cod, pp. 391–397; the weights are on p. 397"
+		},
+		{
+			"kind": "article",
+			"title": "Salt Fish and Molasses: Unsettling the Palate in the Spaces Between Two Continents",
+			"authors": [
+				{
+					"family": "Snooks",
+					"given": "Gina"
+				},
+				{
+					"family": "Boon",
+					"given": "Sonja"
+				}
+			],
+			"container": "European Journal of Life Writing",
+			"volume": "6",
+			"pages": "218–241",
+			"published": "2017",
+			"doi": "10.5463/ejlw.6.213",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "chapter",
+			"title": "The \"Long\" Eighteenth Century, 1697–1815",
+			"authors": [
+				{
+					"family": "Janzen",
+					"given": "Olaf U."
+				}
+			],
+			"container": "A Short History of Newfoundland",
+			"citedIn": "Snooks and Boon, \"Salt Fish and Molasses\", p. 227",
+			"published": "2008"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ackee and saltfish",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ackee_and_saltfish&oldid=1367957192",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-06"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The History of Mary Prince, a West Indian Slave. Related by Herself",
+			"authors": [
+				{
+					"family": "Prince",
+					"given": "Mary"
+				}
+			],
+			"editors": [
+				{
+					"family": "Pringle",
+					"given": "Thomas"
+				}
+			],
+			"place": "London",
+			"publisher": "F. Westley and A. H. Davis",
+			"published": "1831",
+			"url": "https://docsouth.unc.edu/neh/prince/prince.html",
+			"accessed": "2026-10-04",
+			"note": "The salt ponds of Turks Island, p. 10"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Salt Reduction",
+			"authors": [
+				{
+					"name": "World Health Organization"
+				}
+			],
+			"container": "Fact sheets",
+			"publisher": "World Health Organization",
+			"published": "2026-05-11",
+			"url": "https://www.who.int/news-room/fact-sheets/detail/salt-reduction",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "report",
+			"title": "IARC Monographs Evaluate Consumption of Red Meat and Processed Meat",
+			"number": "Press release 240",
+			"publisher": "International Agency for Research on Cancer",
+			"place": "Lyon",
+			"published": "2015-10-26",
+			"url": "https://www.iarc.who.int/wp-content/uploads/2018/07/pr240_E.pdf",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Salt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Salt&oldid=1377839847",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hallstatt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hallstatt&oldid=1376079060",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "media",
+			"title": "Drying Codfish in Flake Yard at Gloucester, Massachusetts",
+			"url": "https://commons.wikimedia.org/wiki/File:FMIB_38918_Drying_Codfish_in_Flake_Yard_at_Gloucester_Massachusetts.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "flake-yard.jpg",
+			"container": "Stevenson, \"The Preservation of Fishery Products for Food,\" Bulletin of the United States Fish Commission",
+			"note": "A US government publication of 1899"
+		}
+	],
+	"connections": [
+		{
+			"to": "chemistry/leblanc-solvay",
+			"why": "Salt was taxed as a food almost everywhere; when Britain's salt tax went at the end of 1824, the Leblanc process could turn the same salt into soda on an industrial scale."
+		}
+	]
+}

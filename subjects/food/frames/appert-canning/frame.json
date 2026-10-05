@@ -1,0 +1,284 @@
+{
+	"id": "appert-canning",
+	"topic": "Appert and the can",
+	"position": {
+		"label": "1810",
+		"sort": 1810
+	},
+	"scene": {
+		"headline": "We bottled the",
+		"accent": "SEASONS.",
+		"palette": "frost",
+		"illustration": "scene.svg",
+		"metadata": ["PARIS · BREST · BERMONDSEY", "NICOLAS APPERT · PETER DURAND · BRYAN DONKIN"],
+		"counter": {
+			"value": "12,000",
+			"label": "francs to make the method public"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Art of Preserving All Kinds of Animal and Vegetable Substances for Several Years",
+			"authors": [
+				{
+					"family": "Appert",
+					"given": "Nicolas"
+				}
+			],
+			"edition": "2nd ed.",
+			"place": "London",
+			"publisher": "Black, Parry and Kingsbury",
+			"published": "1812",
+			"url": "https://www.gutenberg.org/ebooks/52551",
+			"accessed": "2026-10-04",
+			"note": "Montalivet's letter and the Brest report precede the text; the method is in §§ 1–6"
+		},
+		{
+			"kind": "book",
+			"title": "L'Art de conserver, pendant plusieurs années, toutes les substances animales et végétales",
+			"authors": [
+				{
+					"family": "Appert",
+					"given": "Nicolas"
+				}
+			],
+			"place": "Paris",
+			"publisher": "Patris et Cie",
+			"published": "1810",
+			"language": "fr",
+			"url": "https://archive.org/details/b2153276x",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nicolas Appert",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nicolas_Appert&oldid=1360612101",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Canning",
+			"url": "https://en.wikipedia.org/w/index.php?title=Canning&oldid=1373261433",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Specification of Peter Durand: Preserving Animal and Vegetable Food, A.D. 1810, No. 3372",
+			"authors": [
+				{
+					"family": "Durand",
+					"given": "Peter"
+				}
+			],
+			"publisher": "Great Seal Patent Office",
+			"place": "London",
+			"published": "1855",
+			"url": "https://archive.org/details/b30752334",
+			"accessed": "2026-10-04",
+			"note": "The patent of 25 August 1810, printed in 1855"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Peter Durand",
+			"url": "https://en.wikipedia.org/w/index.php?title=Peter_Durand&oldid=1378045367",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bryan Donkin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bryan_Donkin&oldid=1373559139",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Can opener",
+			"url": "https://en.wikipedia.org/w/index.php?title=Can_opener&oldid=1378553350",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "report",
+			"title": "Water Activity (aw) in Foods",
+			"number": "Inspection Technical Guide 39",
+			"publisher": "US Food and Drug Administration",
+			"published": "1984-04-16",
+			"url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-technical-guides/water-activity-aw-foods",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Franklin's lost expedition",
+			"url": "https://en.wikipedia.org/w/index.php?title=Franklin's_lost_expedition&oldid=1376138126",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "The Final Days of the Franklin Expedition: New Skeletal Evidence",
+			"authors": [
+				{
+					"family": "Keenleyside",
+					"given": "Anne"
+				},
+				{
+					"family": "Bertulli",
+					"given": "Margaret M."
+				},
+				{
+					"family": "Fricke",
+					"given": "Henry C."
+				}
+			],
+			"container": "Arctic",
+			"volume": "50",
+			"issue": "1",
+			"published": "1997",
+			"doi": "10.14430/arctic1089",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "A Re-analysis of the Supposed Role of Lead Poisoning in Sir John Franklin's Last Expedition, 1845–1848",
+			"authors": [
+				{
+					"family": "Millar",
+					"given": "Keith"
+				},
+				{
+					"family": "Bowman",
+					"given": "Adrian W."
+				},
+				{
+					"family": "Battersby",
+					"given": "William"
+				}
+			],
+			"container": "Polar Record",
+			"volume": "51",
+			"issue": "3",
+			"pages": "224–238",
+			"published": "2014",
+			"doi": "10.1017/s0032247413000867",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Franklin Expedition Lead Exposure: New Insights from High Resolution Confocal X-ray Fluorescence Imaging of Skeletal Microstructure",
+			"authors": [
+				{
+					"family": "Swanston",
+					"given": "Treena"
+				},
+				{
+					"family": "Varney",
+					"given": "Tamara L."
+				},
+				{
+					"family": "Kozachuk",
+					"given": "Madalena S."
+				},
+				{
+					"family": "Choudhury",
+					"given": "Sanjukta"
+				},
+				{
+					"family": "Bewer",
+					"given": "Brian"
+				},
+				{
+					"family": "Coulthard",
+					"given": "Ian"
+				},
+				{
+					"family": "Keenleyside",
+					"given": "Anne"
+				}
+			],
+			"etAl": true,
+			"container": "PLOS ONE",
+			"volume": "13",
+			"issue": "8",
+			"pages": "e0202983",
+			"published": "2018",
+			"doi": "10.1371/journal.pone.0202983",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "media",
+			"title": "Plate of corking machinery, in The Art of Preserving All Kinds of Animal and Vegetable Substances for Several Years",
+			"engravers": [
+				{
+					"name": "Neele"
+				}
+			],
+			"url": "https://archive.org/details/b22017884/page/n5",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "corking-plate.jpg",
+			"container": "Appert, The Art of Preserving (London: Black, Parry and Kingsbury, 1811), Wellcome Collection copy",
+			"published": "1811-02-25",
+			"note": "Published in London in 1811"
+		}
+	],
+	"connections": [
+		{
+			"to": "nursing/asepsis",
+			"why": "Boiling at 100 °C kills germs but not every spore, so low-acid food is now canned under steam pressure above 116 °C, for the reason surgical dressings went into the autoclave at about 121 °C."
+		}
+	]
+}
