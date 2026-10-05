@@ -41,7 +41,7 @@
 			"title": "Agricultural revolutions",
 			"labelKind": "date",
 			"palette": "hayrick",
-			"frames": ["malthus", "reaper"]
+			"frames": ["malthus", "reaper", "irish-famine", "corn-laws"]
 		}
 	]
 }

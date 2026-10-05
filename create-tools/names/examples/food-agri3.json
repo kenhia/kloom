@@ -1,0 +1,35 @@
+{
+	"food/irish-famine": [
+		["_Phytophthora infestans_", "phytophthora-infestans"],
+		["Great Famine", "great-famine-ireland"],
+		["Cormac Ó Gráda", "cormac-o-grada"],
+		["potato", "potato"],
+		["Irish Lumper", "irish-lumper"],
+		["Charles Trevelyan", "sir-charles-trevelyan-1st-baronet"],
+		["Robert Peel", "robert-peel"],
+		["maize", "maize"],
+		["Corn Laws", "corn-laws"],
+		["Lord John Russell", "john-russell-1st-earl-russell"],
+		["Temporary Relief Act", "temporary-relief-act-1847"],
+		["Quakers", "quakers"],
+		["John Mitchel", "john-mitchel"],
+		["Christine Kinealy", "christine-kinealy"],
+		["Joel Mokyr", "joel-mokyr"]
+	],
+	"food/corn-laws": [
+		["Corn Law", "corn-laws"],
+		["Robert Peel", "robert-peel"],
+		["Lord John Russell", "john-russell-1st-earl-russell"],
+		["Manchester", "manchester"],
+		["Anti–Corn Law League", "anti-corn-law-league"],
+		["Richard Cobden", "richard-cobden"],
+		["John Bright", "john-bright"],
+		["Uniform Penny Post", "uniform-penny-post"],
+		["Benjamin Disraeli", "benjamin-disraeli"],
+		["Peelites", "peelite"],
+		["_The Wealth of Nations_", "the-wealth-of-nations"],
+		["Adam Smith", "adam-smith"],
+		["David Ricardo", "david-ricardo"],
+		["Thomas Malthus", "thomas-robert-malthus"]
+	]
+}
