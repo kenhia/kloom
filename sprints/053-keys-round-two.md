@@ -132,3 +132,15 @@ Verified live:
 
 The public reader site was not published. `just publish-public` is a
 separate step.
+
+### Public reader site
+
+2026-10-05 19:32Z, `just publish-public` from clean `main` (`1499f3a`,
+which is the sprint's merge plus its deploy record) to kloom.kenhiatt.us.
+That is Fly release v15, image `kloom-reader:1499f3af4-202610051931`, with
+library `b7acc5`. `verify-public` passed every check: TLS, HSTS,
+robots.txt, a stranger sent to sign in, the API refusing a stranger, and a
+welcome link signing a reader in. Grow, ask and keep are 404 without ask,
+and kept answers are 404 without ask. Pages go compressed, frame bodies
+come from the library, and Fly overwrites a client's Fly-Client-IP. It
+reported ask at $0.06 of $15 for October and 5 notes, none detached.
