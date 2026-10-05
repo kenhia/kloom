@@ -7,7 +7,15 @@
 	import type { MyNotesOffer } from '../my-notes';
 	import type { JumpItem, Note, ReaderLayer } from '../reader-data';
 	import { contentsOf, openTrails } from '../contents';
-	import { clamp, indexLabel, stops, WheelGate, type BackStop, type SyncMode } from '../navigation';
+	import {
+		clamp,
+		indexLabel,
+		segmentStep,
+		stops,
+		WheelGate,
+		type BackStop,
+		type SyncMode
+	} from '../navigation';
 	import { AHEAD, PENDING, type ServedBody } from '../served';
 	import { keyName, onMac, pageKey, SHORTCUTS, tabKey, type Binding } from '../keys';
 	import { marksText, type FrameMarks } from '../marks';
@@ -536,7 +544,9 @@
 				(s.action !== 'my-notes' || myNotes) &&
 				(s.action !== 'back' || back) &&
 				(s.action !== 'map' || onmap) &&
-				((s.action !== 'random' && s.action !== 'anywhere') || onrandom)
+				((s.action !== 'random' && s.action !== 'anywhere') || onrandom) &&
+				(s.action !== 'ask' || hasAi) &&
+				(s.action !== 'home' || onhome)
 		).map((s) => ({
 			action: s.action,
 			key: shown(keys[s.action])!,
@@ -552,7 +562,10 @@
 				map: 'map',
 				zoom: 'zoom',
 				random: 'random',
-				anywhere: 'anywhere'
+				anywhere: 'anywhere',
+				ask: 'ask',
+				home: 'home',
+				settings: 'settings'
 			}[s.action]
 		}))
 	);
@@ -684,6 +697,14 @@
 		index = to;
 	}
 	const step = (delta: number) => go(index + delta);
+	/** PageUp and PageDown (korg 3568): a section at a time, along this spine or trail. */
+	function stepSegment(direction: -1 | 1) {
+		const to = segmentStep(path, clamp(index, path.length), direction);
+		if (to !== null) go(to);
+	}
+
+	let settingsEl = $state<ReturnType<typeof Settings>>();
+	let aiEl = $state<ReturnType<typeof AiPane>>();
 
 	function syncNarrative() {
 		pinned = stop.frameId;
@@ -752,6 +773,12 @@
 			case 'last':
 				go(path.length - 1);
 				break;
+			case 'segment-next':
+				stepSegment(1);
+				break;
+			case 'segment-previous':
+				stepSegment(-1);
+				break;
 			case 'scroll-down':
 				scrollNarrative(1);
 				break;
@@ -806,6 +833,18 @@
 			case 'anywhere':
 				if (!onrandom) return;
 				random(action === 'random' ? 'subject' : 'library');
+				break;
+			case 'ask':
+				// Focus only: the tab showing stays, so the reading stays in sight.
+				if (!aiEl) return;
+				aiEl.focusInput();
+				break;
+			case 'home':
+				if (!onhome) return;
+				goHome();
+				break;
+			case 'settings':
+				settingsEl?.show(focused());
 				break;
 			default:
 				return;
@@ -1021,7 +1060,7 @@
 						<Icon name="home" />
 					</IconButton>
 				{/if}
-				<Settings {settings} />
+				<Settings {settings} bind:this={settingsEl} />
 			</div>
 		</div>
 
@@ -1074,8 +1113,12 @@
 				layout={shape}
 				showResults={!tabbed || tab === 'ai'}
 				onshow={() => (tab = 'ai')}
+				onsend={() => {
+					if (tabbed) tab = 'ai';
+				}}
 				onactivity={(a) => (aiActivity = a)}
 				onkept={(id) => layer?.onkept(id)}
+				bind:this={aiEl}
 			/>
 		{/if}
 
@@ -1097,14 +1140,14 @@
 	</div>
 
 	<p id="ai-hint" class="hint">
-		<kbd>←</kbd><kbd>→</kbd> spine · <kbd>↑</kbd><kbd>↓</kbd> narrative
+		<kbd>←</kbd><kbd>→</kbd> spine · <kbd>PgUp</kbd><kbd>PgDn</kbd> section ·
+		<kbd>↑</kbd><kbd>↓</kbd> narrative
 		{#if hintRun.length}
 			·
 			<!-- prettier-ignore -->
 			<span>{#each hintRun as h (h.action)}{h.lead}<kbd>{h.key}</kbd>&nbsp;{h.label}{/each}</span>
 		{/if}
-		{#if hasAi}· <kbd>Tab</kbd> into and out of the AI pane{/if} · <kbd>Esc</kbd> back to the spine ·
-		drag a divider, or focus it and use the arrows
+		· <kbd>Esc</kbd> back to the spine · drag a divider, or focus it and use the arrows
 	</p>
 </div>
 

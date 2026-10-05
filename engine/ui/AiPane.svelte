@@ -34,6 +34,11 @@
 		showResults?: boolean;
 		/** Bring the results into sight (the tabs layout: the AI tab). */
 		onshow?: () => void;
+		/**
+		 * A question or a grow request was sent (korg 3568): the tabs layout
+		 * brings the AI tab forward. Stop is not a send.
+		 */
+		onsend?: () => void;
 		/** What the tab can say about the pane changed: working, or a result not yet seen. */
 		onactivity?: (activity: 'idle' | 'working' | 'ready') => void;
 		/** An answer was kept, on this frame: its Q&A and spine mark count it. */
@@ -52,6 +57,7 @@
 		layout = 'strip',
 		showResults = true,
 		onshow,
+		onsend,
 		onactivity,
 		onkept
 	}: Props = $props();
@@ -205,12 +211,21 @@
 
 	function submit(e: SubmitEvent) {
 		e.preventDefault();
-		if (isGrow(verb)) return queueGrow();
+		if (isGrow(verb)) {
+			if (!growing && (text.trim() || growKept)) onsend?.();
+			return queueGrow();
+		}
 		if (running) return stop();
 		const q = text.trim();
 		if (!q || resting) return;
 		text = '';
+		onsend?.();
 		ask(q);
+	}
+
+	/** Put focus in the text box (Q, korg 3568). The tab showing stays as it is. */
+	export function focusInput() {
+		input?.focus();
 	}
 
 	function stop() {

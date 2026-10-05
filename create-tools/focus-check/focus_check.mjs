@@ -11,9 +11,15 @@
 // - Enter after a click on the start screen's background begins;
 // - and Z typed in the AI box stays in the box.
 //
+// And the keys of korg 3568: Q puts focus in the ask box with the Narrative
+// tab still showing; Send in the tabs layout brings the AI tab forward with
+// focus left in the box; H opens the start screen; G opens the settings and
+// Esc returns focus where it was; PageDown and PageUp step by section.
+//
 //   node create-tools/focus-check/focus_check.mjs [--url URL] [--frame subject/frame]
 //
 // Exits 1 on any failure.
+import { readFileSync } from 'node:fs';
 import { launch } from '../lib/browser.mjs';
 
 const args = process.argv.slice(2);
@@ -228,6 +234,95 @@ if (await goHome()) {
 		expect(!(await zoomOpen()), `Z typed in the AI box opens nothing`);
 		expect((await box.inputValue()).endsWith('zz'), `Z typed in the AI box types`);
 	} else console.log('note: no AI box on this edition; the typing check is skipped');
+}
+
+// 10. Q from the scene: focus in the ask box, the Narrative tab still showing.
+const selected = (id) =>
+	page.evaluate((id) => document.getElementById(id)?.getAttribute('aria-selected') === 'true', id);
+const inAskBox = () => page.evaluate(() => document.activeElement?.id === 'ai-input');
+{
+	await page.goto(`${url}/${frame}`, { waitUntil: 'networkidle' });
+	await reading();
+	if (await page.locator('#ai-input').count()) {
+		await press(page.locator('.spine .scene').first(), `the scene is there to click`);
+		await page.keyboard.press('q');
+		await page.waitForTimeout(150);
+		expect(await inAskBox(), `Q from the scene: focus is in the ask box (${await focused()})`);
+		expect(await selected('tab-narrative'), `Q from the scene: the Narrative tab is still showing`);
+		expect((await page.locator('#ai-input').inputValue()) === '', `Q is not typed into the box`);
+
+		// 11. Send brings the AI tab forward; focus stays in the box for a follow-up.
+		await page.route('**/api/ask**', (r) => r.fulfill({ status: 503, body: '{}' }));
+		await page.keyboard.type('Who was Prometheus?');
+		await page.keyboard.press('Enter');
+		await page.waitForTimeout(300);
+		expect(await selected('tab-ai'), `Send in the tabs layout: the AI tab is showing`);
+		expect(await inAskBox(), `Send: focus stays in the ask box (${await focused()})`);
+		await page.unroute('**/api/ask**');
+	} else console.log('note: no AI box on this edition; Q and Send are skipped');
+}
+
+// 12. H opens the start screen.
+await page.goto(`${url}/${frame}`, { waitUntil: 'networkidle' });
+await reading();
+if (await page.locator('.shell .home').count()) {
+	await page.keyboard.press('h');
+	expect(await home(true), `H opens the start screen (focus: ${await focused()})`);
+} else expect(false, `the shell has a Home button for H to stand for`);
+
+// 13. G opens the settings; Esc closes them and returns focus to the spine.
+await page.goto(`${url}/${frame}`, { waitUntil: 'networkidle' });
+await reading();
+{
+	await page.keyboard.press('g');
+	await page.waitForTimeout(150);
+	const inPanel = () =>
+		page.evaluate(() => !!document.activeElement?.closest('.shell .settings .panel'));
+	expect(
+		await page.locator('.shell .settings .panel').isVisible(),
+		`G opens the settings (focus: ${await focused()})`
+	);
+	expect(await inPanel(), `G: focus is in the settings (${await focused()})`);
+	await page.keyboard.press('Escape');
+	await page.waitForTimeout(150);
+	expect(!(await page.locator('.shell .settings .panel').isVisible()), `Esc closes the settings`);
+	expect(await inSpine(), `Esc from the settings: focus is back on the spine (${await focused()})`);
+}
+
+// 14. PageDown to the next section's first frame, PageUp back.
+{
+	const spine = JSON.parse(
+		readFileSync(new URL(`../../subjects/${subject}/spine.json`, import.meta.url), 'utf8')
+	);
+	const starts = [];
+	let n = 0;
+	for (const seg of spine.segments) {
+		starts.push(n + 1);
+		n += seg.frames.length;
+	}
+	const at = () => page.locator('.spine [role="slider"]').getAttribute('aria-valuenow');
+	await page.goto(`${url}/${subject}/${spine.segments[0].frames[0]}`, { waitUntil: 'networkidle' });
+	await reading();
+	await page.keyboard.press('PageDown');
+	await page.waitForTimeout(150);
+	expect(
+		(await at()) === String(starts[1]),
+		`PageDown lands on the next section's first frame (at ${await at()}, want ${starts[1]})`
+	);
+	await page.keyboard.press('PageDown');
+	await page.keyboard.press('ArrowRight');
+	await page.keyboard.press('PageUp');
+	await page.waitForTimeout(150);
+	expect(
+		(await at()) === String(starts[2]),
+		`PageUp goes to this section's first frame (at ${await at()}, want ${starts[2]})`
+	);
+	await page.keyboard.press('PageUp');
+	await page.waitForTimeout(150);
+	expect(
+		(await at()) === String(starts[1]),
+		`PageUp from a section's first frame goes to the one before (at ${await at()}, want ${starts[1]})`
+	);
 }
 
 await context.close();

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { clamp, cursorAt, indexLabel, stops, WheelGate } from './navigation';
+import { clamp, cursorAt, indexLabel, segmentStep, stops, WheelGate } from './navigation';
 
 describe('stops', () => {
 	it('flattens segments in order and keeps each frame’s segment', () => {
@@ -14,6 +14,49 @@ describe('stops', () => {
 			'b:two',
 			'b:three'
 		]);
+	});
+});
+
+describe('segmentStep (PageUp, PageDown; korg 3568)', () => {
+	const seg = (id: string, frames: string[]) => ({
+		id,
+		title: id,
+		labelKind: 'date' as const,
+		frames
+	});
+	// 0 | 1 2 3 | 4 5
+	const path = stops({
+		segments: [seg('a', ['f0']), seg('b', ['f1', 'f2', 'f3']), seg('c', ['f4', 'f5'])]
+	});
+
+	it('goes forward to the first frame of the next segment', () => {
+		expect(segmentStep(path, 0, 1)).toBe(1);
+		expect(segmentStep(path, 1, 1)).toBe(4);
+		expect(segmentStep(path, 2, 1)).toBe(4);
+	});
+
+	it('does nothing forward from the last segment', () => {
+		expect(segmentStep(path, 4, 1)).toBeNull();
+		expect(segmentStep(path, 5, 1)).toBeNull();
+	});
+
+	it('goes back to this segment’s first frame, or the previous one’s from there', () => {
+		expect(segmentStep(path, 3, -1)).toBe(1);
+		expect(segmentStep(path, 2, -1)).toBe(1);
+		expect(segmentStep(path, 1, -1)).toBe(0);
+		expect(segmentStep(path, 5, -1)).toBe(4);
+		expect(segmentStep(path, 4, -1)).toBe(1);
+	});
+
+	it('does nothing back from the very first frame', () => {
+		expect(segmentStep(path, 0, -1)).toBeNull();
+	});
+
+	it('steps a one-segment spine (a trail) to its start, and no further', () => {
+		const trail = stops({ segments: [seg('t', ['x', 'y', 'z'])] });
+		expect(segmentStep(trail, 2, -1)).toBe(0);
+		expect(segmentStep(trail, 0, -1)).toBeNull();
+		expect(segmentStep(trail, 0, 1)).toBeNull();
 	});
 });
 

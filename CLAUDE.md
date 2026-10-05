@@ -324,6 +324,10 @@ shell but a text field or `data-own-keys` (the pane scoping retired, WCAG
 begun and after Begin or Continue (Esc returns to Home), Enter anywhere on
 the start screen, `keepFocus` on Home and subject navigations, and `just
 focus-check`.
+Sprint 053 keys round two: Q to the ask box (the tab showing stays), H to
+the start screen, G to the settings (Esc returns focus where it was),
+PageUp and PageDown a section at a time (`segmentStep`, on a trail too),
+Send bringing the AI tab forward, and Tab left as the browser's own order.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 
