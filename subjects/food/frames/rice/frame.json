@@ -1,0 +1,440 @@
+{
+	"id": "rice",
+	"topic": "Rice in the Yangtze valley",
+	"position": {
+		"label": "c. 7000–4600 BC",
+		"sort": -6000
+	},
+	"scene": {
+		"headline": "We farmed the",
+		"accent": "MARSH.",
+		"palette": "barley",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SHANGSHAN · KUAHUQIAO · TIANLUOSHAN · ZHEJIANG",
+			"WILD RICE · SH4 · PADDY FIELDS · MILLET AT CISHAN"
+		],
+		"counter": {
+			"value": "27% → 39%",
+			"label": "domesticated spikelet bases at Tianluoshan"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "The Domestication Process and Domestication Rate in Rice: Spikelet Bases from the Lower Yangtze",
+			"authors": [
+				{
+					"family": "Fuller",
+					"given": "Dorian Q."
+				},
+				{
+					"family": "Qin",
+					"given": "Ling"
+				},
+				{
+					"family": "Zheng",
+					"given": "Yunfei"
+				},
+				{
+					"family": "Zhao",
+					"given": "Zhijun"
+				},
+				{
+					"family": "Chen",
+					"given": "Xugao"
+				},
+				{
+					"family": "Hosoya",
+					"given": "Leo Aoi"
+				},
+				{
+					"family": "Sun",
+					"given": "Guo-Ping"
+				}
+			],
+			"container": "Science",
+			"volume": "323",
+			"issue": "5921",
+			"pages": "1607–1610",
+			"published": "2009-03-20",
+			"doi": "10.1126/science.1166605",
+			"accessed": "2026-10-04",
+			"key": true,
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Rice Domestication Revealed by Reduced Shattering of Archaeological Rice from the Lower Yangtze Valley",
+			"authors": [
+				{
+					"family": "Zheng",
+					"given": "Yunfei"
+				},
+				{
+					"family": "Crawford",
+					"given": "Gary W."
+				},
+				{
+					"family": "Jiang",
+					"given": "Leping"
+				},
+				{
+					"family": "Chen",
+					"given": "Xugao"
+				}
+			],
+			"container": "Scientific Reports",
+			"volume": "6",
+			"pages": "28136",
+			"published": "2016-06-21",
+			"doi": "10.1038/srep28136",
+			"accessed": "2026-10-04",
+			"key": true,
+			"note": "The spikelet-base counts for Huxi, Kuahuqiao and Tianluoshan, and the dispute over unripe bases"
+		},
+		{
+			"kind": "article",
+			"title": "Rice Domestication by Reducing Shattering",
+			"authors": [
+				{
+					"family": "Li",
+					"given": "Changbao"
+				},
+				{
+					"family": "Zhou",
+					"given": "Ailing"
+				},
+				{
+					"family": "Sang",
+					"given": "Tao"
+				}
+			],
+			"container": "Science",
+			"volume": "311",
+			"issue": "5769",
+			"pages": "1936–1939",
+			"published": "2006-03-31",
+			"doi": "10.1126/science.1123604",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Dating Rice Remains through Phytolith Carbon-14 Study Reveals Domestication at the Beginning of the Holocene",
+			"authors": [
+				{
+					"family": "Zuo",
+					"given": "Xinxin"
+				},
+				{
+					"family": "Lu",
+					"given": "Houyuan"
+				},
+				{
+					"family": "Jiang",
+					"given": "Leping"
+				},
+				{
+					"family": "Zhang",
+					"given": "Jianping"
+				},
+				{
+					"family": "Yang",
+					"given": "Xiaoyan"
+				},
+				{
+					"family": "Huan",
+					"given": "Xiujia"
+				},
+				{
+					"family": "He",
+					"given": "Keyang"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "114",
+			"issue": "25",
+			"pages": "6486–6491",
+			"published": "2017-05-30",
+			"doi": "10.1073/pnas.1704304114",
+			"accessed": "2026-10-04",
+			"etAl": true,
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Fire and Flood Management of Coastal Swamp Enabled First Rice Paddy Cultivation in East China",
+			"authors": [
+				{
+					"family": "Zong",
+					"given": "Y."
+				},
+				{
+					"family": "Chen",
+					"given": "Z."
+				},
+				{
+					"family": "Innes",
+					"given": "J. B."
+				},
+				{
+					"family": "Chen",
+					"given": "C."
+				},
+				{
+					"family": "Wang",
+					"given": "Z."
+				},
+				{
+					"family": "Wang",
+					"given": "H."
+				}
+			],
+			"container": "Nature",
+			"volume": "449",
+			"issue": "7161",
+			"pages": "459–462",
+			"published": "2007-09",
+			"doi": "10.1038/nature06135",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "A Map of Rice Genome Variation Reveals the Origin of Cultivated Rice",
+			"authors": [
+				{
+					"family": "Huang",
+					"given": "Xuehui"
+				},
+				{
+					"family": "Kurata",
+					"given": "Nori"
+				},
+				{
+					"family": "Wei",
+					"given": "Xinghua"
+				},
+				{
+					"family": "Wang",
+					"given": "Zi-Xuan"
+				},
+				{
+					"family": "Wang",
+					"given": "Ahong"
+				},
+				{
+					"family": "Zhao",
+					"given": "Qiang"
+				},
+				{
+					"family": "Zhao",
+					"given": "Yan"
+				}
+			],
+			"container": "Nature",
+			"volume": "490",
+			"issue": "7421",
+			"pages": "497–501",
+			"published": "2012-10-03",
+			"doi": "10.1038/nature11532",
+			"accessed": "2026-10-04",
+			"etAl": true,
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The Rice Paradox: Multiple Origins but Single Domestication in Asian Rice",
+			"authors": [
+				{
+					"family": "Choi",
+					"given": "Jae Young"
+				},
+				{
+					"family": "Platts",
+					"given": "Adrian E."
+				},
+				{
+					"family": "Fuller",
+					"given": "Dorian Q."
+				},
+				{
+					"family": "Hsing",
+					"given": "Yue-Ie"
+				},
+				{
+					"family": "Wing",
+					"given": "Rod A."
+				},
+				{
+					"family": "Purugganan",
+					"given": "Michael D."
+				}
+			],
+			"container": "Molecular Biology and Evolution",
+			"volume": "34",
+			"issue": "4",
+			"pages": "969–979",
+			"published": "2017-04",
+			"doi": "10.1093/molbev/msx049",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Archaeological and Genetic Insights into the Origins of Domesticated Rice",
+			"authors": [
+				{
+					"family": "Gross",
+					"given": "Briana L."
+				},
+				{
+					"family": "Zhao",
+					"given": "Zhijun"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "111",
+			"issue": "17",
+			"pages": "6190–6197",
+			"published": "2014-04-21",
+			"doi": "10.1073/pnas.1308942110",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Earliest Domestication of Common Millet (Panicum miliaceum) in East Asia Extended to 10,000 Years Ago",
+			"authors": [
+				{
+					"family": "Lu",
+					"given": "Houyuan"
+				},
+				{
+					"family": "Zhang",
+					"given": "Jianping"
+				},
+				{
+					"family": "Liu",
+					"given": "Kam-biu"
+				},
+				{
+					"family": "Wu",
+					"given": "Naiqin"
+				},
+				{
+					"family": "Li",
+					"given": "Yumei"
+				},
+				{
+					"family": "Zhou",
+					"given": "Kunshu"
+				},
+				{
+					"family": "Ye",
+					"given": "Maolin"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "106",
+			"issue": "18",
+			"pages": "7367–7372",
+			"published": "2009-05-05",
+			"doi": "10.1073/pnas.0900158106",
+			"accessed": "2026-10-04",
+			"etAl": true,
+			"read": "abstract"
+		},
+		{
+			"kind": "chapter",
+			"title": "Huozhi liezhuan 貨殖列傳 (Biographies of the Money-Makers)",
+			"authors": [
+				{
+					"name": "Sima Qian"
+				}
+			],
+			"container": "Shiji 史記, juan 129",
+			"published": "91 BC",
+			"circa": true,
+			"language": "zh",
+			"publisher": "Wikisource",
+			"url": "https://zh.wikisource.org/w/index.php?title=%E5%8F%B2%E8%A8%98/%E5%8D%B7129&oldid=7904128",
+			"accessed": "2026-10-04",
+			"note": "The passage on Chu and Yue, translated in the reading"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rice",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rice&oldid=1376837633",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paddy field",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paddy_field&oldid=1372195861",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hemudu culture",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hemudu_culture&oldid=1369639744",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cishan culture",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cishan_culture&oldid=1333464586",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-17"
+		},
+		{
+			"kind": "media",
+			"title": "清陳枚畫耕織圖 冊 插秧 (Pictures of Tilling and Weaving: transplanting rice)",
+			"url": "https://commons.wikimedia.org/wiki/File:%E6%B8%85%E9%99%B3%E6%9E%9A%E7%95%AB%E8%80%95%E7%B9%94%E5%9C%96_%E5%86%8A_%E6%8F%92%E7%A7%A7.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "transplanting.jpg",
+			"authors": [
+				{
+					"family": "Chen",
+					"given": "Mei"
+				}
+			],
+			"container": "National Palace Museum, Taipei",
+			"note": "Qing dynasty; cropped of the museum's label strip"
+		}
+	]
+}

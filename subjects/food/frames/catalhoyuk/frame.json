@@ -1,0 +1,226 @@
+{
+	"id": "catalhoyuk",
+	"topic": "Çatalhöyük and the price of farming",
+	"position": {
+		"label": "c. 7100–5950 BC",
+		"sort": -7100
+	},
+	"scene": {
+		"headline": "We settled, and paid the",
+		"accent": "PRICE.",
+		"palette": "barley",
+		"illustration": "scene.svg",
+		"metadata": ["ÇATALHÖYÜK · KONYA PLAIN · ANATOLIA", "EMMER · EINKORN · PEAS · SHEEP AND GOATS"],
+		"counter": {
+			"value": "25 of 93",
+			"label": "skulls with healed blows to the head"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Bioarchaeology of Neolithic Çatalhöyük Reveals Fundamental Transitions in Health, Mobility, and Lifestyle in Early Farmers",
+			"authors": [
+				{
+					"family": "Larsen",
+					"given": "Clark Spencer"
+				},
+				{
+					"family": "Knüsel",
+					"given": "Christopher J."
+				},
+				{
+					"family": "Haddow",
+					"given": "Scott D."
+				},
+				{
+					"family": "Pilloud",
+					"given": "Marin A."
+				},
+				{
+					"family": "Milella",
+					"given": "Marco"
+				},
+				{
+					"family": "Sadvari",
+					"given": "Joshua W."
+				},
+				{
+					"family": "Pearson",
+					"given": "Jessica"
+				}
+			],
+			"etAl": true,
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "116",
+			"issue": "26",
+			"pages": "12615–12623",
+			"published": "2019-06-17",
+			"doi": "10.1073/pnas.1904345116",
+			"accessed": "2026-10-04",
+			"note": "The periods, the table's figures and the head injuries; read in the University of Copenhagen's copy of the published version"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Worst Mistake in the History of the Human Race",
+			"authors": [
+				{
+					"family": "Diamond",
+					"given": "Jared"
+				}
+			],
+			"container": "Discover",
+			"pages": "64–66",
+			"published": "1987-05",
+			"url": "https://www.discovermagazine.com/planet-earth/the-worst-mistake-in-the-history-of-the-human-race",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Çatalhöyük",
+			"url": "https://en.wikipedia.org/w/index.php?title=%C3%87atalh%C3%B6y%C3%BCk&oldid=1377983158",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "Private Pantries and Celebrated Surplus: Storing and Sharing Food at Neolithic Çatalhöyük, Central Anatolia",
+			"authors": [
+				{
+					"family": "Bogaard",
+					"given": "Amy"
+				},
+				{
+					"family": "Charles",
+					"given": "Michael"
+				},
+				{
+					"family": "Twiss",
+					"given": "Katheryn C."
+				},
+				{
+					"family": "Fairbairn",
+					"given": "Andrew"
+				},
+				{
+					"family": "Yalman",
+					"given": "Nurcan"
+				},
+				{
+					"family": "Filipović",
+					"given": "Dragana"
+				},
+				{
+					"family": "Demirergi",
+					"given": "G. Arzu"
+				}
+			],
+			"etAl": true,
+			"container": "Antiquity",
+			"volume": "83",
+			"issue": "321",
+			"pages": "649–668",
+			"published": "2009-09",
+			"doi": "10.1017/S0003598X00098896",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Stature and Robusticity during the Agricultural Transition: Evidence from the Bioarchaeological Record",
+			"authors": [
+				{
+					"family": "Mummert",
+					"given": "Amanda"
+				},
+				{
+					"family": "Esche",
+					"given": "Emily"
+				},
+				{
+					"family": "Robinson",
+					"given": "Joshua"
+				},
+				{
+					"family": "Armelagos",
+					"given": "George J."
+				}
+			],
+			"container": "Economics and Human Biology",
+			"volume": "9",
+			"issue": "3",
+			"pages": "284–301",
+			"published": "2011-07",
+			"doi": "10.1016/j.ehb.2011.03.004",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "When the World's Population Took Off: The Springboard of the Neolithic Demographic Transition",
+			"authors": [
+				{
+					"family": "Bocquet-Appel",
+					"given": "Jean-Pierre"
+				}
+			],
+			"container": "Science",
+			"volume": "333",
+			"issue": "6042",
+			"pages": "560–561",
+			"published": "2011-07-29",
+			"doi": "10.1126/science.1208880",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Neolithic Revolution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Neolithic_Revolution&oldid=1378394732",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "media",
+			"title": "Çatalhöyük excavations",
+			"url": "https://commons.wikimedia.org/wiki/File:%C3%87atalh%C3%B6y%C3%BCk_excavations_..jpg",
+			"accessed": "2026-10-04",
+			"licence": "CC BY-SA 3.0",
+			"file": "early-trench.jpg",
+			"authors": [
+				{
+					"family": "Hoftun",
+					"given": "Omar"
+				}
+			],
+			"published": "2013-06-12"
+		}
+	],
+	"connections": [
+		{
+			"to": "food/foragers",
+			"why": "Diamond's case against farming set it beside the leisure of foragers such as the ǃKung, whose working week that frame shows was longer than the first counts said."
+		},
+		{
+			"to": "chemistry/copper-smelting",
+			"why": "A green lump from a burned house at Çatalhöyük, once offered as the oldest copper slag, was shown in 2017 to be a copper mineral, probably a pigment from a burial, baked when the house burned."
+		}
+	]
+}
