@@ -1,0 +1,34 @@
+{
+	"food/pasteurization": [
+		["Napoleon III", "napoleon-iii"],
+		["Louis Pasteur", "louis-pasteur"],
+		["Arbois", "arbois"],
+		["Nicolas Appert", "nicolas-appert"],
+		["pasteurization", "pasteurization"],
+		["swill milk", "swill-milk-scandal"],
+		["New York", "new-york-city"],
+		["Franz von Soxhlet", "franz-von-soxhlet"],
+		["Nathan Straus", "nathan-straus"],
+		["raw milk", "raw-milk"],
+		["Milton Rosenau", "milton-j-rosenau"],
+		["Chicago", "chicago"],
+		["Tuberculosis", "tuberculosis"],
+		["Robert Koch", "robert-koch"],
+		["_Mycobacterium bovis_", "mycobacterium-bovis"]
+	],
+	"food/refrigeration": [
+		["Dunedin", "dunedin-1874-ship"],
+		["Frederic Tudor", "frederic-tudor"],
+		["ice trade", "ice-trade"],
+		["refrigeration", "refrigeration"],
+		["Jacob Perkins", "jacob-perkins"],
+		["James Harrison", "james-harrison-engineer"],
+		["Carl von Linde", "carl-von-linde"],
+		["Charles Tellier", "charles-tellier"],
+		["Ferdinand Carré", "ferdinand-carre"],
+		["William Soltau Davidson", "william-davidson-agribusinessman"],
+		["refrigerator", "refrigerator"],
+		["chlorofluorocarbons", "chlorofluorocarbon"],
+		["cold chain", "cold-chain"]
+	]
+}
