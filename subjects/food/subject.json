@@ -1,0 +1,78 @@
+{
+	"title": "Daily Bread",
+	"subtitle": "how humanity learned to feed itself",
+	"palettes": {
+		"ember": {
+			"scheme": "dark",
+			"background": "#17120e",
+			"ink": "#efe5d6",
+			"muted": "#b3a38d",
+			"accent": "#f0b24a",
+			"line": "#d9cab3",
+			"counterpart": "barley"
+		},
+		"barley": {
+			"scheme": "light",
+			"background": "#f4eedc",
+			"ink": "#231d12",
+			"muted": "#5e553f",
+			"accent": "#86541a",
+			"line": "#2f2818",
+			"counterpart": "ember"
+		},
+		"amphora": {
+			"scheme": "dark",
+			"background": "#1a1210",
+			"ink": "#f0e3da",
+			"muted": "#b9a399",
+			"accent": "#e38a66",
+			"line": "#dac8be",
+			"counterpart": "saffron"
+		},
+		"saffron": {
+			"scheme": "light",
+			"background": "#f7f0e1",
+			"ink": "#251a0f",
+			"muted": "#625240",
+			"accent": "#a14300",
+			"line": "#33261a",
+			"counterpart": "amphora"
+		},
+		"hayrick": {
+			"scheme": "light",
+			"background": "#f1efe2",
+			"ink": "#1f2116",
+			"muted": "#565a45",
+			"accent": "#4a671a",
+			"line": "#2a2c1f",
+			"counterpart": "frost"
+		},
+		"frost": {
+			"scheme": "dark",
+			"background": "#0f1519",
+			"ink": "#e6eef2",
+			"muted": "#a0afb8",
+			"accent": "#8fcfe6",
+			"line": "#c3d2da",
+			"counterpart": "hayrick"
+		},
+		"nitrogen": {
+			"scheme": "dark",
+			"background": "#121612",
+			"ink": "#e5ece2",
+			"muted": "#a3af9f",
+			"accent": "#b8d46c",
+			"line": "#c6d1c1",
+			"counterpart": "linen"
+		},
+		"linen": {
+			"scheme": "light",
+			"background": "#f5f2ec",
+			"ink": "#201c1a",
+			"muted": "#5b5550",
+			"accent": "#a12f3a",
+			"line": "#2b2724",
+			"counterpart": "nitrogen"
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"segments": [
+		{
+			"id": "before-farming",
+			"title": "Before farming",
+			"labelKind": "date",
+			"palette": "ember",
+			"frames": ["cooking", "foragers", "oldest-bread"]
+		}
+	]
+}

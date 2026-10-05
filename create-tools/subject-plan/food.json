@@ -1,0 +1,598 @@
+{
+	"spine": {
+		"segments": [
+			{
+				"id": "before-farming",
+				"title": "Before farming",
+				"labelKind": "date",
+				"palette": "ember",
+				"frames": [
+					"cooking",
+					"foragers",
+					"oldest-bread"
+				]
+			},
+			{
+				"id": "first-farmers",
+				"title": "The first farmers",
+				"labelKind": "date",
+				"palette": "barley",
+				"frames": [
+					"gobekli-tepe",
+					"founder-crops",
+					"first-herds",
+					"catalhoyuk",
+					"maize",
+					"rice"
+				]
+			},
+			{
+				"id": "grain-and-empire",
+				"title": "Grain and empire",
+				"labelKind": "date",
+				"palette": "amphora",
+				"frames": [
+					"egypt-grain",
+					"annona",
+					"ever-normal-granary",
+					"open-fields",
+					"chinampas",
+					"columbian-exchange",
+					"sugar-slavery"
+				]
+			},
+			{
+				"id": "spice-and-trade",
+				"title": "Spice, tea and trade",
+				"labelKind": "date",
+				"palette": "saffron",
+				"frames": [
+					"spice-routes",
+					"chocolate",
+					"banda-nutmeg",
+					"coffeehouse",
+					"tea-and-opium"
+				]
+			},
+			{
+				"id": "agricultural-revolutions",
+				"title": "Agricultural revolutions",
+				"labelKind": "date",
+				"palette": "hayrick",
+				"frames": [
+					"seed-drill",
+					"four-course",
+					"enclosure",
+					"malthus",
+					"reaper",
+					"irish-famine",
+					"corn-laws"
+				]
+			},
+			{
+				"id": "keeping-food",
+				"title": "Keeping food",
+				"labelKind": "date",
+				"palette": "frost",
+				"frames": [
+					"salt",
+					"lind-scurvy",
+					"appert-canning",
+					"pasteurization",
+					"refrigeration",
+					"pure-food",
+					"birdseye"
+				]
+			},
+			{
+				"id": "modern-harvest",
+				"title": "The modern harvest",
+				"labelKind": "date",
+				"palette": "nitrogen",
+				"frames": [
+					"fertilizer",
+					"vitamins",
+					"tractor",
+					"dust-bowl",
+					"green-revolution",
+					"gm-crops",
+					"hunger-now"
+				]
+			},
+			{
+				"id": "the-table",
+				"title": "The table",
+				"labelKind": "date",
+				"palette": "linen",
+				"frames": [
+					"restaurant",
+					"fannie-farmer",
+					"escoffier",
+					"supermarket",
+					"fast-food",
+					"julia-child",
+					"ultra-processed"
+				]
+			}
+		]
+	},
+	"trails": [
+		{
+			"id": "drink",
+			"title": "The first drinks",
+			"anchor": "gobekli-tepe",
+			"spine": {
+				"segments": [
+					{
+						"id": "drink-seg",
+						"title": "Beer and wine",
+						"labelKind": "date",
+						"palette": "amphora",
+						"frames": [
+							"first-wine",
+							"ninkasi",
+							"reinheitsgebot"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "bread",
+			"title": "Bread",
+			"anchor": "oldest-bread",
+			"spine": {
+				"segments": [
+					{
+						"id": "bread-seg",
+						"title": "A loaf through time",
+						"labelKind": "date",
+						"palette": "barley",
+						"frames": [
+							"pompeii-bakery",
+							"assize-of-bread",
+							"sliced-bread",
+							"chorleywood"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "potato",
+			"title": "The potato",
+			"anchor": "columbian-exchange",
+			"spine": {
+				"segments": [
+					{
+						"id": "potato-seg",
+						"title": "From the Andes to the chip",
+						"labelKind": "date",
+						"palette": "hayrick",
+						"frames": [
+							"chuno",
+							"parmentier",
+							"potato-blight",
+							"frozen-fries"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "famine",
+			"title": "Famine",
+			"anchor": "irish-famine",
+			"spine": {
+				"segments": [
+					{
+						"id": "famine-seg",
+						"title": "Supply and entitlement",
+						"labelKind": "date",
+						"palette": "amphora",
+						"frames": [
+							"great-famine-1315",
+							"famine-1876",
+							"holodomor",
+							"bengal-1943",
+							"great-chinese-famine"
+						]
+					}
+				]
+			}
+		}
+	],
+	"owners": {},
+	"frames": {
+		"cooking": {
+			"topic": "Fire and the first cooks",
+			"palette": "ember",
+			"sort": -1000000,
+			"part": "hand"
+		},
+		"foragers": {
+			"topic": "How foragers ate",
+			"palette": "ember",
+			"sort": -21000,
+			"part": "hand"
+		},
+		"oldest-bread": {
+			"topic": "The oldest bread, at Shubayqa",
+			"palette": "ember",
+			"sort": -12400,
+			"part": "hand"
+		},
+		"gobekli-tepe": {
+			"topic": "Göbekli Tepe and the feast",
+			"palette": "barley",
+			"sort": -9600,
+			"part": "farm1"
+		},
+		"founder-crops": {
+			"topic": "The Fertile Crescent's founder crops",
+			"palette": "barley",
+			"sort": -9500,
+			"part": "farm1"
+		},
+		"first-herds": {
+			"topic": "Sheep, goats, cattle and milk",
+			"palette": "barley",
+			"sort": -8500,
+			"part": "farm1"
+		},
+		"catalhoyuk": {
+			"topic": "Çatalhöyük and the price of farming",
+			"palette": "barley",
+			"sort": -7100,
+			"part": "farm2"
+		},
+		"maize": {
+			"topic": "Maize from teosinte",
+			"palette": "barley",
+			"sort": -7000,
+			"part": "farm2"
+		},
+		"rice": {
+			"topic": "Rice in the Yangtze valley",
+			"palette": "barley",
+			"sort": -6000,
+			"part": "farm2"
+		},
+		"egypt-grain": {
+			"topic": "Egypt's granaries and bread rations",
+			"palette": "amphora",
+			"sort": -2500,
+			"part": "empire1"
+		},
+		"annona": {
+			"topic": "Rome's grain dole and Ostia",
+			"palette": "amphora",
+			"sort": -123,
+			"part": "empire1"
+		},
+		"ever-normal-granary": {
+			"topic": "China's ever-normal granary",
+			"palette": "amphora",
+			"sort": -54,
+			"part": "empire1"
+		},
+		"open-fields": {
+			"topic": "The heavy plow and the open fields",
+			"palette": "amphora",
+			"sort": 800,
+			"part": "empire2"
+		},
+		"chinampas": {
+			"topic": "The chinampas of Tenochtitlan",
+			"palette": "amphora",
+			"sort": 1325,
+			"part": "empire2"
+		},
+		"columbian-exchange": {
+			"topic": "The Columbian Exchange",
+			"palette": "amphora",
+			"sort": 1493,
+			"part": "empire3"
+		},
+		"sugar-slavery": {
+			"topic": "Sugar and slavery",
+			"palette": "amphora",
+			"sort": 1640,
+			"part": "empire3"
+		},
+		"spice-routes": {
+			"topic": "Pepper and the spice routes",
+			"palette": "saffron",
+			"sort": 1498,
+			"part": "trade1"
+		},
+		"chocolate": {
+			"topic": "Chocolate from Mesoamerica",
+			"palette": "saffron",
+			"sort": 1544,
+			"part": "trade2"
+		},
+		"banda-nutmeg": {
+			"topic": "Nutmeg and the Banda Islands",
+			"palette": "saffron",
+			"sort": 1621,
+			"part": "trade1"
+		},
+		"coffeehouse": {
+			"topic": "Coffee and the coffeehouse",
+			"palette": "saffron",
+			"sort": 1652,
+			"part": "trade2"
+		},
+		"tea-and-opium": {
+			"topic": "Tea, opium and war",
+			"palette": "saffron",
+			"sort": 1839,
+			"part": "trade2"
+		},
+		"seed-drill": {
+			"topic": "Jethro Tull's seed drill",
+			"palette": "hayrick",
+			"sort": 1701,
+			"part": "agri1"
+		},
+		"four-course": {
+			"topic": "Turnips and the four-course rotation",
+			"palette": "hayrick",
+			"sort": 1730,
+			"part": "agri1"
+		},
+		"enclosure": {
+			"topic": "Enclosure of the open fields",
+			"palette": "hayrick",
+			"sort": 1760,
+			"part": "agri1"
+		},
+		"malthus": {
+			"topic": "Malthus on population",
+			"palette": "hayrick",
+			"sort": 1798,
+			"part": "agri2"
+		},
+		"reaper": {
+			"topic": "The mechanical reaper",
+			"palette": "hayrick",
+			"sort": 1831,
+			"part": "agri2"
+		},
+		"irish-famine": {
+			"topic": "The Great Famine in Ireland",
+			"palette": "hayrick",
+			"sort": 1845,
+			"part": "agri3"
+		},
+		"corn-laws": {
+			"topic": "The repeal of the Corn Laws",
+			"palette": "hayrick",
+			"sort": 1846,
+			"part": "agri3"
+		},
+		"salt": {
+			"topic": "Salt, smoke and the salt cod",
+			"palette": "frost",
+			"sort": -1500,
+			"part": "keep1"
+		},
+		"lind-scurvy": {
+			"topic": "Lind's scurvy trial",
+			"palette": "frost",
+			"sort": 1747,
+			"part": "keep1"
+		},
+		"appert-canning": {
+			"topic": "Appert and the can",
+			"palette": "frost",
+			"sort": 1810,
+			"part": "keep1"
+		},
+		"pasteurization": {
+			"topic": "Pasteurization",
+			"palette": "frost",
+			"sort": 1864,
+			"part": "keep2"
+		},
+		"refrigeration": {
+			"topic": "Refrigeration and frozen meat",
+			"palette": "frost",
+			"sort": 1882,
+			"part": "keep2"
+		},
+		"pure-food": {
+			"topic": "Adulteration and pure food laws",
+			"palette": "frost",
+			"sort": 1906,
+			"part": "keep3"
+		},
+		"birdseye": {
+			"topic": "Birdseye's quick freezing",
+			"palette": "frost",
+			"sort": 1924,
+			"part": "keep3"
+		},
+		"fertilizer": {
+			"topic": "Fertilizer from the air",
+			"palette": "nitrogen",
+			"sort": 1909,
+			"part": "modern1"
+		},
+		"vitamins": {
+			"topic": "The discovery of vitamins",
+			"palette": "nitrogen",
+			"sort": 1912,
+			"part": "modern1"
+		},
+		"tractor": {
+			"topic": "The tractor replaces the horse",
+			"palette": "nitrogen",
+			"sort": 1917,
+			"part": "modern1"
+		},
+		"dust-bowl": {
+			"topic": "The Dust Bowl",
+			"palette": "nitrogen",
+			"sort": 1934,
+			"part": "modern2"
+		},
+		"green-revolution": {
+			"topic": "Borlaug and the Green Revolution",
+			"palette": "nitrogen",
+			"sort": 1966,
+			"part": "modern2"
+		},
+		"gm-crops": {
+			"topic": "Genetically modified crops",
+			"palette": "nitrogen",
+			"sort": 1994,
+			"part": "modern3"
+		},
+		"hunger-now": {
+			"topic": "Hunger and food security today",
+			"palette": "nitrogen",
+			"sort": 2025,
+			"part": "modern3"
+		},
+		"restaurant": {
+			"topic": "The first restaurants",
+			"palette": "linen",
+			"sort": 1782,
+			"part": "table1"
+		},
+		"fannie-farmer": {
+			"topic": "Fannie Farmer's level measures",
+			"palette": "linen",
+			"sort": 1896,
+			"part": "table1"
+		},
+		"escoffier": {
+			"topic": "Escoffier's kitchen brigade",
+			"palette": "linen",
+			"sort": 1903,
+			"part": "table1"
+		},
+		"supermarket": {
+			"topic": "The self-service supermarket",
+			"palette": "linen",
+			"sort": 1916,
+			"part": "table2"
+		},
+		"fast-food": {
+			"topic": "McDonald's and fast food",
+			"palette": "linen",
+			"sort": 1948,
+			"part": "table2"
+		},
+		"julia-child": {
+			"topic": "Julia Child and the home cook",
+			"palette": "linen",
+			"sort": 1961,
+			"part": "table3"
+		},
+		"ultra-processed": {
+			"topic": "Ultra-processed food",
+			"palette": "linen",
+			"sort": 2009,
+			"part": "table3"
+		},
+		"first-wine": {
+			"topic": "The first wine, in the Caucasus",
+			"palette": "amphora",
+			"sort": -6000,
+			"part": "drink"
+		},
+		"ninkasi": {
+			"topic": "Sumerian beer and the Hymn to Ninkasi",
+			"palette": "amphora",
+			"sort": -1800,
+			"part": "drink"
+		},
+		"reinheitsgebot": {
+			"topic": "Hops and the Reinheitsgebot",
+			"palette": "amphora",
+			"sort": 1516,
+			"part": "drink"
+		},
+		"pompeii-bakery": {
+			"topic": "The bakeries of Pompeii",
+			"palette": "barley",
+			"sort": 79,
+			"part": "bread"
+		},
+		"assize-of-bread": {
+			"topic": "The Assize of Bread",
+			"palette": "barley",
+			"sort": 1266,
+			"part": "bread"
+		},
+		"sliced-bread": {
+			"topic": "Sliced bread",
+			"palette": "barley",
+			"sort": 1928,
+			"part": "bread"
+		},
+		"chorleywood": {
+			"topic": "The Chorleywood process",
+			"palette": "barley",
+			"sort": 1961,
+			"part": "bread"
+		},
+		"chuno": {
+			"topic": "The Andean potato and chuño",
+			"palette": "hayrick",
+			"sort": -6000,
+			"part": "potato"
+		},
+		"parmentier": {
+			"topic": "Parmentier and the potato in Europe",
+			"palette": "hayrick",
+			"sort": 1772,
+			"part": "potato"
+		},
+		"potato-blight": {
+			"topic": "Potato blight and its cause",
+			"palette": "hayrick",
+			"sort": 1861,
+			"part": "potato"
+		},
+		"frozen-fries": {
+			"topic": "The frozen french fry",
+			"palette": "hayrick",
+			"sort": 1953,
+			"part": "potato"
+		},
+		"great-famine-1315": {
+			"topic": "The Great Famine of 1315",
+			"palette": "amphora",
+			"sort": 1315,
+			"part": "famine1"
+		},
+		"famine-1876": {
+			"topic": "India's famine of 1876–78",
+			"palette": "amphora",
+			"sort": 1876,
+			"part": "famine1"
+		},
+		"holodomor": {
+			"topic": "The Holodomor",
+			"palette": "amphora",
+			"sort": 1932,
+			"part": "famine2"
+		},
+		"bengal-1943": {
+			"topic": "The Bengal famine of 1943",
+			"palette": "amphora",
+			"sort": 1943,
+			"part": "famine2"
+		},
+		"great-chinese-famine": {
+			"topic": "The Great Chinese Famine",
+			"palette": "amphora",
+			"sort": 1959,
+			"part": "famine2"
+		}
+	}
+}

@@ -1,0 +1,254 @@
+{
+	"id": "foragers",
+	"topic": "How foragers ate",
+	"position": {
+		"label": "c. 21,000 BC",
+		"sort": -21000
+	},
+	"scene": {
+		"headline": "We ate the",
+		"accent": "WILD.",
+		"palette": "ember",
+		"illustration": "scene.svg",
+		"metadata": ["OHALO II · SEA OF GALILEE", "THE HADZA · LAKE EYASI · TANZANIA"],
+		"counter": {
+			"value": "142",
+			"label": "kinds of plant at Ohalo II"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "The Broad Spectrum Revisited: Evidence from Plant Remains",
+			"authors": [
+				{
+					"family": "Weiss",
+					"given": "Ehud"
+				},
+				{
+					"family": "Wetterstrom",
+					"given": "Wilma"
+				},
+				{
+					"family": "Nadel",
+					"given": "Dani"
+				},
+				{
+					"family": "Bar-Yosef",
+					"given": "Ofer"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "101",
+			"issue": "26",
+			"pages": "9551–9555",
+			"published": "2004-06-29",
+			"doi": "10.1073/pnas.0402362101",
+			"accessed": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "Processing of Wild Cereal Grains in the Upper Palaeolithic Revealed by Starch Grain Analysis",
+			"authors": [
+				{
+					"family": "Piperno",
+					"given": "Dolores R."
+				},
+				{
+					"family": "Weiss",
+					"given": "Ehud"
+				},
+				{
+					"family": "Holst",
+					"given": "Irene"
+				},
+				{
+					"family": "Nadel",
+					"given": "Dani"
+				}
+			],
+			"container": "Nature",
+			"volume": "430",
+			"issue": "7000",
+			"pages": "670–673",
+			"published": "2004-08-05",
+			"doi": "10.1038/nature02734",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Composite Sickles and Cereal Harvesting Methods at 23,000-Years-Old Ohalo II, Israel",
+			"authors": [
+				{
+					"family": "Groman-Yaroslavski",
+					"given": "Iris"
+				},
+				{
+					"family": "Weiss",
+					"given": "Ehud"
+				},
+				{
+					"family": "Nadel",
+					"given": "Dani"
+				}
+			],
+			"container": "PLOS ONE",
+			"volume": "11",
+			"issue": "11",
+			"pages": "e0167151",
+			"published": "2016-11-23",
+			"doi": "10.1371/journal.pone.0167151",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Tubers as Fallback Foods and Their Impact on Hadza Hunter-Gatherers",
+			"authors": [
+				{
+					"family": "Marlowe",
+					"given": "Frank W."
+				},
+				{
+					"family": "Berbesque",
+					"given": "Julia C."
+				}
+			],
+			"container": "American Journal of Physical Anthropology",
+			"volume": "140",
+			"issue": "4",
+			"pages": "751–758",
+			"published": "2009-12",
+			"doi": "10.1002/ajpa.21040",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Hunter-Gatherer Energetics and Human Obesity",
+			"authors": [
+				{
+					"family": "Pontzer",
+					"given": "Herman"
+				},
+				{
+					"family": "Raichlen",
+					"given": "David A."
+				},
+				{
+					"family": "Wood",
+					"given": "Brian M."
+				},
+				{
+					"family": "Mabulla",
+					"given": "Audax Z. P."
+				},
+				{
+					"family": "Racette",
+					"given": "Susan B."
+				},
+				{
+					"family": "Marlowe",
+					"given": "Frank W."
+				}
+			],
+			"container": "PLOS ONE",
+			"volume": "7",
+			"issue": "7",
+			"pages": "e40503",
+			"published": "2012-07-25",
+			"doi": "10.1371/journal.pone.0040503",
+			"accessed": "2026-10-04",
+			"key": true,
+			"note": "Table 1 gives the daily energy figures"
+		},
+		{
+			"kind": "article",
+			"title": "The Darker Side of the \"Original Affluent Society\"",
+			"authors": [
+				{
+					"family": "Kaplan",
+					"given": "David"
+				}
+			],
+			"container": "Journal of Anthropological Research",
+			"volume": "56",
+			"issue": "3",
+			"pages": "301–324",
+			"published": "2000",
+			"doi": "10.1086/jar.56.3.3631086",
+			"citedIn": "Original affluent society",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ohalo II",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ohalo_II&oldid=1364717452",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-18",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Original affluent society",
+			"url": "https://en.wikipedia.org/w/index.php?title=Original_affluent_society&oldid=1346809877",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-03",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hadza people",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hadza_people&oldid=1372416869",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "media",
+			"title": "Composite Sickles for Cereal Harvesting at 23,000-Years-Old Ohalo II, Israel. Artifacts with micrographs of the semi-ripe cereal use and prehension wear",
+			"url": "https://commons.wikimedia.org/wiki/File:Composite_Sickles_for_Cereal_Harvesting_at_23,000-Years-Old_Ohalo_II,_Israel._Artifacts_with_micrographs_of_the_semi-ripe_cereal_use_and_prehension_wear.jpg",
+			"accessed": "2026-10-04",
+			"licence": "CC BY 4.0",
+			"file": "ohalo-sickles.jpg",
+			"authors": [
+				{
+					"family": "Groman-Yaroslavski",
+					"given": "Iris"
+				},
+				{
+					"family": "Weiss",
+					"given": "Ehud"
+				},
+				{
+					"family": "Nadel",
+					"given": "Dani"
+				}
+			],
+			"container": "PLOS ONE 11, no. 11 (2016): e0167151",
+			"published": "2016"
+		}
+	]
+}

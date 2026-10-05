@@ -1,0 +1,318 @@
+{
+	"id": "cooking",
+	"topic": "Fire and the first cooks",
+	"position": {
+		"label": "c. 1 million years ago",
+		"sort": -1000000
+	},
+	"scene": {
+		"headline": "Fire did our",
+		"accent": "CHEWING.",
+		"palette": "ember",
+		"illustration": "scene.svg",
+		"metadata": [
+			"WONDERWERK CAVE · GESHER BENOT YA'AQOV",
+			"HOMO ERECTUS · BURNED BONE · COOKED FISH"
+		],
+		"counter": {
+			"value": "4.7%",
+			"label": "of our day spent feeding; 48% predicted"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Microstratigraphic Evidence of In Situ Fire in the Acheulean Strata of Wonderwerk Cave, Northern Cape Province, South Africa",
+			"authors": [
+				{
+					"family": "Berna",
+					"given": "Francesco"
+				},
+				{
+					"family": "Goldberg",
+					"given": "Paul"
+				},
+				{
+					"family": "Horwitz",
+					"given": "Liora Kolska"
+				},
+				{
+					"family": "Brink",
+					"given": "James"
+				},
+				{
+					"family": "Holt",
+					"given": "Sharon"
+				},
+				{
+					"family": "Bamford",
+					"given": "Marion"
+				},
+				{
+					"family": "Chazan",
+					"given": "Michael"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "109",
+			"issue": "20",
+			"pages": "E1215–E1220",
+			"published": "2012-05-15",
+			"doi": "10.1073/pnas.1117620109",
+			"accessed": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "Evidence for the Cooking of Fish 780,000 Years Ago at Gesher Benot Ya'aqov, Israel",
+			"authors": [
+				{
+					"family": "Zohar",
+					"given": "Irit"
+				},
+				{
+					"family": "Alperson-Afil",
+					"given": "Nira"
+				},
+				{
+					"family": "Goren-Inbar",
+					"given": "Naama"
+				},
+				{
+					"family": "Prévost",
+					"given": "Marion"
+				},
+				{
+					"family": "Tütken",
+					"given": "Thomas"
+				},
+				{
+					"family": "Sisma-Ventura",
+					"given": "Guy"
+				},
+				{
+					"family": "Hershkovitz",
+					"given": "Israel"
+				}
+			],
+			"container": "Nature Ecology & Evolution",
+			"volume": "6",
+			"issue": "12",
+			"pages": "2016–2028",
+			"published": "2022-12",
+			"doi": "10.1038/s41559-022-01910-z",
+			"accessed": "2026-10-04",
+			"key": true,
+			"read": "abstract",
+			"etAl": true
+		},
+		{
+			"kind": "article",
+			"title": "Phylogenetic Rate Shifts in Feeding Time during the Evolution of Homo",
+			"authors": [
+				{
+					"family": "Organ",
+					"given": "Chris"
+				},
+				{
+					"family": "Nunn",
+					"given": "Charles L."
+				},
+				{
+					"family": "Machanda",
+					"given": "Zarin"
+				},
+				{
+					"family": "Wrangham",
+					"given": "Richard W."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "108",
+			"issue": "35",
+			"pages": "14555–14559",
+			"published": "2011-08-30",
+			"doi": "10.1073/pnas.1107806108",
+			"accessed": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "Energetic Consequences of Thermal and Nonthermal Food Processing",
+			"authors": [
+				{
+					"family": "Carmody",
+					"given": "Rachel N."
+				},
+				{
+					"family": "Weintraub",
+					"given": "Gil S."
+				},
+				{
+					"family": "Wrangham",
+					"given": "Richard W."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "108",
+			"issue": "48",
+			"pages": "19199–19203",
+			"published": "2011-11-29",
+			"doi": "10.1073/pnas.1112128108",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Digestibility of Cooked and Raw Egg Protein in Humans as Assessed by Stable Isotope Techniques",
+			"authors": [
+				{
+					"family": "Evenepoel",
+					"given": "Pieter"
+				},
+				{
+					"family": "Geypens",
+					"given": "Benny"
+				},
+				{
+					"family": "Luypaerts",
+					"given": "Anja"
+				},
+				{
+					"family": "Hiele",
+					"given": "Martin"
+				},
+				{
+					"family": "Ghoos",
+					"given": "Yvo"
+				},
+				{
+					"family": "Rutgeerts",
+					"given": "Paul"
+				}
+			],
+			"container": "Journal of Nutrition",
+			"volume": "128",
+			"issue": "10",
+			"pages": "1716–1722",
+			"published": "1998-10",
+			"doi": "10.1093/jn/128.10.1716",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Consequences of a Long-Term Raw Food Diet on Body Weight and Menstruation: Results of a Questionnaire Survey",
+			"authors": [
+				{
+					"family": "Koebnick",
+					"given": "Corinna"
+				},
+				{
+					"family": "Strassner",
+					"given": "Carola"
+				},
+				{
+					"family": "Hoffmann",
+					"given": "Ingrid"
+				},
+				{
+					"family": "Leitzmann",
+					"given": "Claus"
+				}
+			],
+			"container": "Annals of Nutrition and Metabolism",
+			"volume": "43",
+			"issue": "2",
+			"pages": "69–79",
+			"published": "1999",
+			"doi": "10.1159/000012770",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "On the Earliest Evidence for Habitual Use of Fire in Europe",
+			"authors": [
+				{
+					"family": "Roebroeks",
+					"given": "Wil"
+				},
+				{
+					"family": "Villa",
+					"given": "Paola"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "108",
+			"issue": "13",
+			"pages": "5209–5214",
+			"published": "2011-03-29",
+			"doi": "10.1073/pnas.1018116108",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Control of fire by early humans",
+			"url": "https://en.wikipedia.org/w/index.php?title=Control_of_fire_by_early_humans&oldid=1374975705",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Catching Fire: How Cooking Made Us Human",
+			"url": "https://en.wikipedia.org/w/index.php?title=Catching_Fire%3A_How_Cooking_Made_Us_Human&oldid=1345777126",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wonderwerk Cave",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wonderwerk_Cave&oldid=1365044087",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Daughters of Jacob Bridge",
+			"url": "https://en.wikipedia.org/w/index.php?title=Daughters_of_Jacob_Bridge&oldid=1366740216",
+			"accessed": "2026-10-04",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-29"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/prometheus",
+			"why": "The Greeks told the getting of fire as a theft from the gods; both frames read the burned bone and ash of Wonderwerk Cave as early humans keeping fire about a million years ago."
+		}
+	]
+}
