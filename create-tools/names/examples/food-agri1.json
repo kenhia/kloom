@@ -1,0 +1,44 @@
+{
+	"food/seed-drill": [
+		["Jethro Tull", "jethro-tull-agriculturist"],
+		["sainfoin", "onobrychis-viciifolia"],
+		["seed drill", "seed-drill"],
+		["wheat", "wheat"],
+		["Han dynasty", "han-dynasty"],
+		["_Qimin Yaoshu_", "qimin-yaoshu"],
+		["British Agricultural Revolution", "british-agricultural-revolution"],
+		["Mark Overton", "mark-overton"]
+	],
+	"food/four-course": [
+		["Arthur Young", "arthur-young-agriculturist"],
+		["Norfolk", "norfolk"],
+		["Norfolk four-course system", "norfolk-four-course-system"],
+		["turnip", "turnip"],
+		["Clover", "clover"],
+		["nitrogen fixation", "nitrogen-fixation"],
+		["wheat", "wheat"],
+		["barley", "barley"],
+		["Charles Townshend, 2nd Viscount Townshend", "charles-townshend-2nd-viscount-townshend"],
+		["Raynham Hall", "raynham-hall"],
+		["Alexander Pope", "alexander-pope"],
+		["Thomas Coke", "thomas-coke-1st-earl-of-leicester-seventh-creation"],
+		["Holkham Hall", "holkham-hall"]
+	],
+	"food/enclosure": [
+		["open fields", "open-field-system"],
+		["common land", "common-land"],
+		["Enclosure", "enclosure"],
+		["Thomas More", "thomas-more"],
+		["_Utopia_", "utopia-book"],
+		["inclosure act", "inclosure-act"],
+		["John Locke", "john-locke"],
+		["J. L. Hammond", "john-lawrence-hammond"],
+		["Barbara Hammond", "barbara-hammond"],
+		["Otmoor", "otmoor"],
+		["Robert Allen", "bob-allen-economic-historian"],
+		["Jane Humphries", "jane-humphries"],
+		["John Clare", "john-clare"],
+		["Karl Marx", "karl-marx"],
+		["industrial revolution", "industrial-revolution"]
+	]
+}

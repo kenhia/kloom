@@ -1,0 +1,314 @@
+{
+	"id": "enclosure",
+	"topic": "Enclosure of the open fields",
+	"position": {
+		"label": "c. 1760–1820",
+		"sort": 1760
+	},
+	"scene": {
+		"headline": "Landlords hedged the",
+		"accent": "COMMONS.",
+		"palette": "hayrick",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ENGLAND · OPEN FIELDS AND COMMONS",
+			"PETITION · ACT · COMMISSIONERS · AWARD · HEDGE"
+		],
+		"counter": {
+			"value": "5,200",
+			"label": "acts of enclosure, 1604–1914"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/factory-city",
+			"why": "Marx argued that enclosure drove country people off the land to become the hands of the mill towns, an argument historians still test against the evidence."
+		},
+		{
+			"to": "western-civ/locke",
+			"why": "Locke's chapter on property, which says that whoever tills land \"by his labour does, as it were, inclose it from the common\", joined property to the improvement that the advocates of enclosure promised."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Village Labourer, 1760–1832: A Study in the Government of England before the Reform Bill",
+			"authors": [
+				{
+					"family": "Hammond",
+					"given": "J. L."
+				},
+				{
+					"family": "Hammond",
+					"given": "Barbara"
+				}
+			],
+			"place": "London",
+			"publisher": "Longmans, Green",
+			"published": "1911",
+			"url": "https://archive.org/details/villagelabourer100hammuoft",
+			"accessed": "2026-10-04",
+			"note": "The procedure is in chapter III; the Otmoor riots in chapter V"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The Economic Effects of the English Parliamentary Enclosures",
+			"authors": [
+				{
+					"family": "Heldring",
+					"given": "Leander"
+				},
+				{
+					"family": "Robinson",
+					"given": "James A."
+				},
+				{
+					"family": "Vollmer",
+					"given": "Sebastian"
+				}
+			],
+			"publisher": "National Bureau of Economic Research",
+			"number": "Working Paper 29772",
+			"published": "2022",
+			"doi": "10.3386/w29772",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Enclosure",
+			"url": "https://en.wikipedia.org/w/index.php?title=Enclosure&oldid=1370247607",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-20",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Inclosure act",
+			"url": "https://en.wikipedia.org/w/index.php?title=Inclosure_act&oldid=1347785499",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-08"
+		},
+		{
+			"kind": "book",
+			"title": "The Utopia of Sir Thomas More",
+			"authors": [
+				{
+					"family": "More",
+					"given": "Thomas"
+				}
+			],
+			"translators": [
+				{
+					"family": "Robinson",
+					"given": "Ralph"
+				}
+			],
+			"editors": [
+				{
+					"family": "Lupton",
+					"given": "J. H."
+				}
+			],
+			"place": "Oxford",
+			"publisher": "Clarendon Press",
+			"published": "1895",
+			"url": "https://archive.org/details/utopiaofsirthom00more",
+			"accessed": "2026-10-04",
+			"note": "Robinson's translation of 1551; the sheep passage is in the first book"
+		},
+		{
+			"kind": "book",
+			"title": "Two Treatises of Government",
+			"authors": [
+				{
+					"family": "Locke",
+					"given": "John"
+				}
+			],
+			"place": "London",
+			"publisher": "Awnsham Churchill",
+			"published": "1690",
+			"url": "https://www.gutenberg.org/ebooks/7370",
+			"accessed": "2026-10-04",
+			"note": "Second treatise, chapter V, § 32, read in Project Gutenberg's text"
+		},
+		{
+			"kind": "book",
+			"title": "The Farmer's Tour through the East of England",
+			"authors": [
+				{
+					"family": "Young",
+					"given": "Arthur"
+				}
+			],
+			"place": "London",
+			"publisher": "W. Strahan",
+			"published": "1771",
+			"url": "https://archive.org/details/farmerstourthrou02youn",
+			"accessed": "2026-10-04",
+			"note": "Vol. 2, p. 152, on the cost of parliamentary enclosure"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Re-establishing the English Agricultural Revolution",
+			"authors": [
+				{
+					"family": "Overton",
+					"given": "Mark"
+				}
+			],
+			"container": "The Agricultural History Review",
+			"volume": "44",
+			"issue": "1",
+			"pages": "1–20",
+			"published": "1996",
+			"url": "https://www.bahs.org.uk/AGHR/ARTICLES/44n1a1.pdf",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "article",
+			"title": "Enclosures, Common Rights, and Women: The Proletarianization of Families in the Late Eighteenth and Early Nineteenth Centuries",
+			"authors": [
+				{
+					"family": "Humphries",
+					"given": "Jane"
+				}
+			],
+			"container": "The Journal of Economic History",
+			"volume": "50",
+			"issue": "1",
+			"pages": "17–42",
+			"published": "1990",
+			"doi": "10.1017/S0022050700035701",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Parliamentary Enclosure and the Emergence of an English Agricultural Proletariat",
+			"authors": [
+				{
+					"family": "Shaw-Taylor",
+					"given": "Leigh"
+				}
+			],
+			"container": "The Journal of Economic History",
+			"volume": "61",
+			"issue": "3",
+			"pages": "640–662",
+			"published": "2001",
+			"doi": "10.1017/S0022050701030030",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "book",
+			"title": "The Village Minstrel, and Other Poems",
+			"authors": [
+				{
+					"family": "Clare",
+					"given": "John"
+				}
+			],
+			"place": "London",
+			"publisher": "Taylor and Hessey",
+			"published": "1821",
+			"url": "https://archive.org/details/clarevillageminstrel01",
+			"accessed": "2026-10-04",
+			"note": "Vol. 1, stanza XCIV, p. 50"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Clare",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Clare&oldid=1376746823",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "book",
+			"title": "Capital: A Critical Analysis of Capitalist Production",
+			"authors": [
+				{
+					"family": "Marx",
+					"given": "Karl"
+				}
+			],
+			"translators": [
+				{
+					"family": "Moore",
+					"given": "Samuel"
+				},
+				{
+					"family": "Aveling",
+					"given": "Edward"
+				}
+			],
+			"editors": [
+				{
+					"family": "Engels",
+					"given": "Frederick"
+				}
+			],
+			"place": "London",
+			"publisher": "Swan Sonnenschein, Lowrey",
+			"published": "1887",
+			"url": "https://www.marxists.org/archive/marx/works/1867-c1/ch27.htm",
+			"accessed": "2026-10-04",
+			"note": "Vol. 1, chapter XXVII, read in the Marxists Internet Archive's transcription"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Otmoor",
+			"url": "https://en.wikipedia.org/w/index.php?title=Otmoor&oldid=1297456406",
+			"accessed": "2026-10-05",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-06-26"
+		},
+		{
+			"kind": "media",
+			"title": "Enclosure award and map of Brockford Green, Suffolk",
+			"authors": [
+				{
+					"family": "Grimwade",
+					"given": "William Sheppard"
+				}
+			],
+			"container": "The National Archives, MAF 1/1055",
+			"published": "1847",
+			"url": "https://commons.wikimedia.org/wiki/File:Enclosure_Award_and_Map_of_Brockford_Green,_1847.jpg",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "brockford-award.jpg"
+		}
+	]
+}
