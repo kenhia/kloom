@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Icon from './Icon.svelte';
+	import { tick } from 'svelte';
 	import type { Setting } from '../settings';
 	import type { UserSettings } from '../user-settings.svelte';
 	import IconButton from './IconButton.svelte';
@@ -16,10 +17,22 @@
 	let open = $state(false);
 	let root = $state<HTMLElement>();
 	let gear = $state<IconButton>();
+	let panel = $state<HTMLElement>();
+	/** Where focus was when a key opened the pop-up (G): Esc returns it there, not to the gear. */
+	let from: HTMLElement | null = null;
 
 	function close(refocus: boolean) {
 		open = false;
-		if (refocus) gear?.focus();
+		if (refocus) (from ?? gear)?.focus();
+		from = null;
+	}
+
+	/** Open the pop-up from a key (korg 3568), focus on its first control. */
+	export async function show(opener: HTMLElement | null) {
+		from = opener && opener !== document.body ? opener : null;
+		open = true;
+		await tick();
+		panel?.querySelector<HTMLElement>('select, input, summary, button')?.focus();
 	}
 
 	/**
@@ -93,7 +106,10 @@
 		aria-expanded={open}
 		aria-controls="{id}-panel"
 		bind:this={gear}
-		onclick={() => (open = !open)}
+		onclick={() => {
+			from = null;
+			open = !open;
+		}}
 		onkeydown={escape}
 	>
 		<Icon name="settings" />
@@ -107,6 +123,7 @@
 		aria-labelledby="{id}-title"
 		data-own-keys
 		hidden={!open}
+		bind:this={panel}
 	>
 		<p id="{id}-title" class="title">Settings</p>
 		{#each plain as setting, i (setting.id)}

@@ -10,6 +10,26 @@ export interface Stop {
 export const stops = (spine: Spine): Stop[] =>
 	spine.segments.flatMap((segment) => segment.frames.map((frameId) => ({ frameId, segment })));
 
+/**
+ * Where PageUp (-1) or PageDown (1) goes from `index` (docs/design.md
+ * §Interaction): forward to the next segment's first frame; back to this
+ * segment's first frame, or the previous segment's when already there. Null
+ * when there is nowhere to go. A trail steps through its own segments.
+ */
+export function segmentStep(path: Stop[], index: number, direction: -1 | 1): number | null {
+	const here = path[index]?.segment;
+	if (!here) return null;
+	if (direction === 1) {
+		const next = path.findIndex((s, i) => i > index && s.segment !== here);
+		return next < 0 ? null : next;
+	}
+	const start = path.findIndex((s) => s.segment === here);
+	if (start < index) return start;
+	if (start === 0) return null;
+	const before = path[start - 1].segment;
+	return path.findIndex((s) => s.segment === before);
+}
+
 export const clamp = (i: number, length: number) => Math.min(Math.max(i, 0), length - 1);
 
 /** The HUD's top-right index, zero-padded to the width of the total: "02 / 12". */

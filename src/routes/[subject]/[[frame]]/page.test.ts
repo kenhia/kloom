@@ -179,9 +179,11 @@ describe('the shell', () => {
 		expect(page().body).toMatch(/<button type="submit"[^>]*>\s*Ask\s*<\/button>/);
 	});
 
-	it('names S, T, C, M, Z, D and W in the hint bar, acting anywhere but a text box (korg 3564)', () => {
+	it('names S, T, C, M, Z, D, W, Q, H and G in the hint bar, acting anywhere but a text box (korg 3564, 3568)', () => {
 		const hint = said(page().body.match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0]);
-		expect(hint).toContain('S sync, T trail, C contents, M map, Z zoom, D random and W anywhere ·');
+		expect(hint).toContain(
+			'S sync, T trail, C contents, M map, Z zoom, D random, W anywhere, Q ask, H home and G settings ·'
+		);
 		expect(hint).not.toContain('in the spine');
 	});
 
@@ -714,6 +716,12 @@ describe('with no AI pane (the reader edition, korg 3500)', () => {
 		expect(text(body)).toContain('A timeline you can read and annotate');
 	});
 
+	it('leaves Q out of the help, with no ask box for it to reach (korg 3568)', () => {
+		const hint = text(bare().match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0]);
+		expect(hint).not.toContain('Q ask');
+		expect(hint).toContain('G settings');
+	});
+
 	it('keeps the notes, with the reader’s tabs', () => {
 		const body = bare({
 			reader: { name: 'Joel and Kathy', signedIn: true },
@@ -836,13 +844,15 @@ describe('the reader’s keys', () => {
 
 	it('name the reader’s keys in the help, and leave out one turned off', () => {
 		const h = hint(shell({ sync: 'y', trail: 'off' }));
-		expect(h).toContain('Y sync, C contents and Z zoom ·');
+		expect(h).toContain('Y sync, C contents, Z zoom, Q ask and G settings ·');
 		expect(h).not.toContain('T trail');
 	});
 
 	it('name a binding with a modifier among the rest, since every one acts anywhere (korg 3564)', () => {
 		const h = hint(shell({ contents: 'alt+c', sync: 'ctrl+shift+y' }));
-		expect(h).toContain('Ctrl+Shift+Y sync, T trail, Alt+C contents and Z zoom ·');
+		expect(h).toContain(
+			'Ctrl+Shift+Y sync, T trail, Alt+C contents, Z zoom, Q ask and G settings ·'
+		);
 	});
 
 	it('keep the settings pop-up to settings, with the shortcuts a button away', () => {
@@ -946,7 +956,7 @@ describe('the reader’s layer on a frame', () => {
 	it('says N adds a note, in the help and on the Add button', () => {
 		const body = shell(layer());
 		expect(said(body.match(/<p id="ai-hint"[\s\S]*?<\/p>/)![0])).toContain(
-			'S sync, T trail, N note, A annotate, C contents and Z zoom ·'
+			'S sync, T trail, N note, A annotate, C contents, Z zoom, Q ask and G settings ·'
 		);
 		expect(said(body)).toContain('Add a note N');
 	});

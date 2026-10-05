@@ -3,6 +3,7 @@ import {
 	bindingOf,
 	bindingText,
 	DEFAULT_KEYS,
+	FIXED_KEYS,
 	keyClashes,
 	keyName,
 	pageKey,
@@ -103,6 +104,40 @@ describe('page keys', () => {
 		expect(pageKey('Escape', slider)).toBe('leave-trail');
 		expect(pageKey('Escape', body)).toBe('leave-trail');
 		expect(pageKey('Escape', settingsSelect)).toBeNull();
+	});
+
+	it('acts on Q, H and G anywhere but a text field or a control that owns its keys (korg 3568)', () => {
+		for (const t of [slider, reading, gear, notes, sendButton, body, null]) {
+			expect(pageKey('q', t)).toBe('ask');
+			expect(pageKey('Q', t)).toBe('ask');
+			expect(pageKey('h', t)).toBe('home');
+			expect(pageKey('g', t)).toBe('settings');
+		}
+		for (const t of [askBox, settingsSelect]) {
+			expect(pageKey('q', t)).toBeNull();
+			expect(pageKey('h', t)).toBeNull();
+			expect(pageKey('g', t)).toBeNull();
+		}
+		// Rebindable and turned off like the rest.
+		const keys = { ...DEFAULT_KEYS, ask: plain('k'), home: null };
+		expect(pageKey('k', slider, keys)).toBe('ask');
+		expect(pageKey('q', slider, keys)).toBeNull();
+		expect(pageKey('h', slider, keys)).toBeNull();
+	});
+
+	it('steps by segment with PageUp and PageDown, fixed keys that stand down like the arrows (korg 3568)', () => {
+		for (const t of [slider, reading, gear, notes, sendButton, body, null]) {
+			expect(pageKey('PageDown', t)).toBe('segment-next');
+			expect(pageKey('PageUp', t)).toBe('segment-previous');
+		}
+		for (const t of [askBox, settingsSelect]) {
+			expect(pageKey('PageDown', t)).toBeNull();
+			expect(pageKey('PageUp', t)).toBeNull();
+		}
+		for (const mod of ['altKey', 'ctrlKey', 'metaKey'])
+			for (const key of ['PageDown', 'PageUp'])
+				expect(pageKey({ key, [mod]: true }, slider)).toBeNull();
+		expect(FIXED_KEYS.map((k) => k.keys)).toContain('PageUp, PageDown');
 	});
 
 	it('ignores other keys', () => {

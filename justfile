@@ -280,7 +280,10 @@ home-check:
 # the reading (a deep link, Begin on this subject or another, Enter on the
 # list, a resume, Home then Esc) and after a click on the scene or a
 # paragraph, Z opens the drawing; Enter anywhere on the start screen begins;
-# Z in the AI box types (same Playwright and dev server as scene-fit)
+# Z in the AI box types; and korg 3568's keys: Q to the ask box with the
+# Narrative tab still showing, Send bringing the AI tab forward, H home, G
+# settings with Esc returning focus, PageUp and PageDown by section (same
+# Playwright and dev server as scene-fit)
 focus-check:
     #!/usr/bin/env bash
     set -euo pipefail

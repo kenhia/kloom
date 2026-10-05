@@ -39,8 +39,13 @@ competed with the reading for height, so four layouts were built and compared:
   pick** (2026-09-28). The right-hand pane has two tabs, Narrative and AI. The
   AI control (§The AI control) stays at the foot of the pane under **both**
   tabs, so a reader can keep reading while they type a question. The AI tab
-  holds the results: the answer, its actions and the grow jobs. Sending does
-  not switch tabs. When a result lands while the Narrative tab is showing, the
+  holds the results: the answer, its actions and the grow jobs. **Sending
+  brings the AI tab forward** (Ken, 2026-10-05, korg 3568; until then it did
+  not): answers come back quickly enough that the switch explains itself,
+  and focus stays in the box for a follow-up. Q, which only puts focus in
+  the box (§Interaction), does not switch: a reader frames a question from
+  the reading and keeps it in sight while typing. When a result lands while
+  the Narrative tab is showing (the reader went back to it mid-answer), the
   AI tab gets a dot and the status line says "Answer ready, on the AI tab",
   with a "Show it" link. Switching to the AI tab clears it. The settings gear
   moves up into the tab row, so it stays reachable from either tab.
@@ -63,9 +68,8 @@ has ("Notes 2", and ", 2 on this frame" to a screen reader).
 selected tab only (a roving tabindex). Left and Right move between the tabs
 and wrap, and Home and End jump to the first and last. They activate the tab
 as they move. The tab handles those keys itself (`engine/keys.ts` `tabKey`),
-so the spine does not move while focus is on a tab. The tab list sits in
-none of `.spine`, `.narrative` and `.notes`, so the character shortcuts do
-nothing there. The AI tab's panel is the AI pane's results region, inside
+so the spine does not move while focus is on a tab. The character shortcuts
+act on a tab as anywhere else in the shell (sprint 052). The AI tab's panel is the AI pane's results region, inside
 `.ai`: Esc from it returns to the spine, and the shortcuts stand down there,
 as in every layout. S also brings the Narrative tab forward, because syncing
 the reading means wanting to see it.
@@ -828,14 +832,27 @@ question has room before it wraps (Ken, 2026-09-28). The verbs come from `engine
   A annotates words of the reading (§Annotations); C opens the table of
   contents (§Contents); R goes back after a jump (§Connections); M opens the
   map (§The map); Z shows the frame's drawing full-screen (§Zoom drawing); D jumps to a random frame in this subject and W to a
-  random frame anywhere in the library (§Random); Tab moves into
-  and out of the AI pane, and Esc anywhere in it returns to the spine. In the
+  random frame anywhere in the library (§Random); PageUp and PageDown move
+  a section at a time (below); Q puts focus in the ask box, H opens the
+  start screen as Home does, and G opens the settings as the gear does,
+  with Esc returning focus where it was (korg 3568). Tab is the browser's
+  own tab order, never taken over, so it can never trap focus (WCAG
+  2.1.2); Esc anywhere in the AI pane returns to the spine. In the
   tabs layout, the arrows on a tab move between the tabs, and on a divider
   they move the divider (§Layout). Keys
   typed into a text field stay there. `engine/keys.ts` (`pageKey`) decides
   what a press means from where focus is, and the shell acts on it.
+- **PageUp and PageDown step by section** (korg 3568): the ARIA slider
+  pattern's larger step, with Home and End still its minimum and maximum.
+  PageDown goes to the next segment's first frame; PageUp to this segment's
+  first frame, or to the previous segment's when already there, as a media
+  player's "previous" does. At either end they do nothing. On a trail they
+  step through the trail's own segments: most trails have one, so PageUp
+  goes to the trail's first frame and PageDown does nothing
+  (`navigation.ts` `segmentStep`). Like the arrows they are fixed keys,
+  standing down under Alt, Ctrl or Meta and in a text field.
 - **Character shortcuts act anywhere in the shell** (sprint 052, korg
-  3564). S, T, B, N, A, O, C, R, M, Z, D and W act wherever focus is on the
+  3564). S, T, B, N, A, O, C, R, M, Z, D, W, Q, H and G act wherever focus is on the
   page: the spine, the reading, the notes, the shell's corner buttons, the
   AI pane's buttons, or the bare page after a click on the drawing or a
   paragraph. They stand down only in a text field, in anything marked
@@ -860,12 +877,12 @@ question has room before it wraps (Ken, 2026-09-28). The verbs come from `engine
   Add a note button, the trail buttons and the sync line all show the
   reader's keys, modifiers included, and leave one out when it is off. One
   binding given to two shortcuts is allowed: the first in `SHORTCUTS` order
-  acts, and the dialog says which. The arrows, Home/End, Esc and Tab are
-  not rebindable, and stand down under Alt, Ctrl or Meta (Alt+← is the
+  acts, and the dialog says which. The arrows, Home/End, PageUp/PageDown,
+  Esc and Tab are not rebindable, and stand down under Alt, Ctrl or Meta (Alt+← is the
   browser's Back). They are not
   character keys, so 2.1.4 does not reach them, and they are the slider's,
   tabs' and splitter's own ARIA keys, which assistive technology expects.
-  The arrows, Home/End and Esc are not character keys, so they stay
+  The arrows, Home/End, PageUp/PageDown and Esc are not character keys, so they stay
   page-wide, except in a text field, an element marked `data-own-keys`, or
   the reading while words are being chosen in it (§Annotations).
   The hint bar says so. Visible focus, ARIA
@@ -2568,7 +2585,7 @@ in the shell and on the start screen.
   keycaps, and Change,
   Off and Reset. "Reset all to defaults" and Done close the dialog's foot.
   Below the rows, what kloom keeps for itself (`FIXED_KEYS`: the arrows,
-  Home/End, Tab, Esc), which cannot be rebound.
+  Home/End, PageUp/PageDown, Tab, Esc), which cannot be rebound.
 - **Change captures the next key press**, modifiers included: a letter, a
   digit or F1 to F12 with any of Shift, Alt/Option, Ctrl and Meta/Cmd. A
   press of a modifier alone waits for the key. The physical key stands in

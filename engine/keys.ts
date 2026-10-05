@@ -3,14 +3,12 @@
  * means, given where focus is. The shell listens on the window and acts on
  * the answer.
  *
- * S, T, B, N, A, O, C, R, M, Z, D and W are the shortcuts out of the box, and
- * the reader can rebind each, modifiers included, or turn it off (korg 3363,
- * 3493): the keymap is theirs, from the keyboard shortcuts dialog. A binding
- * with no Alt, Ctrl or Meta is a character key, so WCAG 2.1.4 applies: it
- * acts only while focus is in the spine, the narrative or the notes (korg
- * 3366), never in the AI pane, the settings or on the bare page. A binding
- * with one of those modifiers is exempt and acts page-wide, except in a text
- * field or a dialog that keeps its own keys.
+ * The `SHORTCUTS` below are the letters out of the box, and the reader can
+ * rebind each, modifiers included, or turn it off (korg 3363, 3493): the
+ * keymap is theirs, from the keyboard shortcuts dialog. That is how kloom
+ * meets WCAG 2.1.4. Every shortcut and fixed key acts anywhere in the shell
+ * but a text field or a control that keeps its own keys (`OWN_KEYS`, korg
+ * 3564), and the fixed keys stand down under Alt, Ctrl or Meta.
  */
 
 export type PageKey =
@@ -33,6 +31,11 @@ export type PageKey =
 	| 'zoom'
 	| 'random'
 	| 'anywhere'
+	| 'ask'
+	| 'home'
+	| 'settings'
+	| 'segment-next'
+	| 'segment-previous'
 	| 'to-spine';
 
 /** The shortcuts: the page keys a reader may rebind or turn off. */
@@ -48,7 +51,10 @@ export type Shortcut =
 	| 'map'
 	| 'zoom'
 	| 'random'
-	| 'anywhere';
+	| 'anywhere'
+	| 'ask'
+	| 'home'
+	| 'settings';
 
 /** Each shortcut, what it does in a few words, and its letter out of the box. */
 export const SHORTCUTS: { action: Shortcut; label: string; key: string }[] = [
@@ -63,7 +69,10 @@ export const SHORTCUTS: { action: Shortcut; label: string; key: string }[] = [
 	{ action: 'map', label: 'open the map', key: 'm' },
 	{ action: 'zoom', label: 'zoom the drawing', key: 'z' },
 	{ action: 'random', label: 'go to a random frame in this subject', key: 'd' },
-	{ action: 'anywhere', label: 'go to a random frame anywhere', key: 'w' }
+	{ action: 'anywhere', label: 'go to a random frame anywhere', key: 'w' },
+	{ action: 'ask', label: 'ask a question', key: 'q' },
+	{ action: 'home', label: 'go to the start screen', key: 'h' },
+	{ action: 'settings', label: 'open the settings', key: 'g' }
 ];
 
 /**
@@ -253,8 +262,9 @@ export function reserved(b: Binding, mac = false): string | null {
 export const FIXED_KEYS: { keys: string; does: string }[] = [
 	{ keys: '← →', does: 'move along the spine' },
 	{ keys: 'Home, End', does: 'go to the first or last frame' },
+	{ keys: 'PageUp, PageDown', does: 'go to the previous or next section' },
 	{ keys: '↑ ↓', does: 'scroll the reading' },
-	{ keys: 'Tab', does: 'move between the panes' },
+	{ keys: 'Tab', does: 'move to the next control, in page order' },
 	{ keys: 'Esc', does: 'leave a trail, close a dialog, or go back to the spine' }
 ];
 
@@ -316,6 +326,10 @@ export function pageKey(
 			return 'first';
 		case 'End':
 			return 'last';
+		case 'PageDown':
+			return 'segment-next';
+		case 'PageUp':
+			return 'segment-previous';
 		case 'ArrowDown':
 			return 'scroll-down';
 		case 'ArrowUp':
