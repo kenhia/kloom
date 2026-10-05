@@ -41,8 +41,11 @@
 		 * `href` opens another.
 		 */
 		resume?: Resume[];
-		/** Close the start screen over `current`. */
-		onbegin: () => void;
+		/**
+		 * Close the start screen over `current`: `closed` when Esc only closed it,
+		 * not Begin or a resume starting to read (focus goes back to Home then).
+		 */
+		onbegin: (closed: boolean) => void;
 		/**
 		 * Begin on `current` starts it from its first frame (korg 3432): the
 		 * shell moves there first. Esc only closes, leaving the reader where
@@ -226,13 +229,13 @@
 		return () => seen.disconnect();
 	});
 
-	/** Leave, then begin; `before` moves the shell first (a resume). */
-	function begin(before?: () => void) {
+	/** Leave, then begin; `before` moves the shell first (a resume), and Esc only `closed` it. */
+	function begin(before?: () => void, closed = false) {
 		if (leaving) return;
 		leaving = true;
 		before?.();
 		const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
-		setTimeout(onbegin, reduced ? 0 : 500);
+		setTimeout(() => onbegin(closed), reduced ? 0 : 500);
 	}
 
 	/**
@@ -252,8 +255,18 @@
 		if (e.key === 'Escape' && !e.defaultPrevented) {
 			e.preventDefault();
 			selected = current;
-			begin();
+			begin(undefined, true);
+			return;
 		}
+		// Enter begins from anywhere in here (korg 3563), but a control's own Enter
+		// and a pop-up in the corner keep theirs.
+		const held = e.altKey || e.ctrlKey || e.metaKey || e.shiftKey;
+		if (e.key !== 'Enter' || held || e.defaultPrevented || e.isComposing) return;
+		const target = e.target instanceof Element ? e.target : null;
+		if (target?.closest('button, a[href], input, select, textarea, summary, [data-own-keys]'))
+			return;
+		e.preventDefault();
+		go();
 	}
 
 	/** The subject list: up and down arrows, Home, End; Enter begins. */
@@ -455,9 +468,9 @@
 								<span class="where">{r.label}</span>
 							</button>
 						{:else}
-							<!-- The page resolved these app routes. -->
+							<!-- The page resolved these app routes. Focus is kept for the new shell to take. -->
 							<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
-							<a href={r.href}>
+							<a href={r.href} data-sveltekit-keepfocus>
 								<span class="action">{r.action}</span>
 								<span class="where">{r.label}</span>
 							</a>

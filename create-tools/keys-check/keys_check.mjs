@@ -143,7 +143,7 @@ async function run([width, height]) {
 	);
 	await page.keyboard.press('Alt+y');
 	expect(
-		(await row('sync').textContent()).replace(/\s/g, '') === 'Alt+Yanywhere',
+		(await row('sync').textContent()).replace(/\s/g, '') === 'Alt+Y',
 		`${at}: Alt+Y is captured for sync (row: ${await row('sync').textContent()})`
 	);
 	expect((await said()) === 'Sync the narrative is now Alt+Y.', `${at}: the change is said`);
@@ -158,7 +158,7 @@ async function run([width, height]) {
 	);
 	await page.keyboard.press('Enter');
 	expect(
-		(await row('map').textContent()).replace(/\s/g, '') === 'Alt+Yanywhere' &&
+		(await row('map').textContent()).replace(/\s/g, '') === 'Alt+Y' &&
 			(await row('sync').textContent()).trim() === 'M',
 		`${at}: Swap gives the map Alt+Y and sync the map's M`
 	);
@@ -185,7 +185,7 @@ async function run([width, height]) {
 
 	// 3. The help bar, and a modified binding acting from outside the panes.
 	const hint = (await page.locator('#ai-hint').textContent()).replace(/\s+/g, ' ');
-	expect(hint.includes('Alt+Y map, anywhere'), `${at}: the help bar names Alt+Y (${hint})`);
+	expect(hint.includes('Alt+Y map'), `${at}: the help bar names Alt+Y (${hint})`);
 	await page.keyboard.press('Alt+y');
 	const map = page.locator('dialog.map');
 	await map.waitFor({ state: 'visible', timeout: 3000 }).catch(() => {});

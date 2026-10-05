@@ -318,6 +318,12 @@ parallel authors and committed as each reported, with borrowed names
 brought in by the earlier part; `subject_plan.py --complete` leaving out
 unfinished drafts, `names.py drafts --part`, and the biology subject's
 pending links on korg 3543.
+Sprint 052 keys that always work: character shortcuts act anywhere in the
+shell but a text field or `data-own-keys` (the pane scoping retired, WCAG
+2.1.4 resting on off and remap), the spine focused when a shell mounts
+begun and after Begin or Continue (Esc returns to Home), Enter anywhere on
+the start screen, `keepFocus` on Home and subject navigations, and `just
+focus-check`.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

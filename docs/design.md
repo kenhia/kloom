@@ -834,18 +834,23 @@ question has room before it wraps (Ken, 2026-09-28). The verbs come from `engine
   they move the divider (§Layout). Keys
   typed into a text field stay there. `engine/keys.ts` (`pageKey`) decides
   what a press means from where focus is, and the shell acts on it.
-- **Character shortcuts are scoped** (WCAG 2.1.4, sprint 004, korg 3366). S,
-  T, B, N, A, O, C, R, M, Z, D and W act only while focus is inside the spine, the narrative or the
-  notes. They do nothing in the AI pane, in the settings panel, in the note
-  editor, or on the bare page. That holds for any binding without Alt, Ctrl
-  or Meta, Shift included, since Shift with a letter is still a character
-  key.
-- **A binding with Alt, Ctrl or Meta acts page-wide** (sprint 037, korg
-  3493). WCAG 2.1.4 is about single character keys, and a combination with
-  one of those modifiers is not one, so it is exempt. It still stands down in
-  a text field and in anything marked `data-own-keys` (a dialog, the
-  settings), where Option with a letter types a character on a Mac. The help
-  bar lists such bindings apart, ending "anywhere".
+- **Character shortcuts act anywhere in the shell** (sprint 052, korg
+  3564). S, T, B, N, A, O, C, R, M, Z, D and W act wherever focus is on the
+  page: the spine, the reading, the notes, the shell's corner buttons, the
+  AI pane's buttons, or the bare page after a click on the drawing or a
+  paragraph. They stand down only in a text field, in anything marked
+  `data-own-keys` (a dialog, the settings, the AI pane's results), and in
+  the reading while words are being chosen in it (§Annotations). The start
+  screen is a dialog of its own with its own keys (§Start screen), so none
+  of these reach it. From sprint 004 (korg 3366) to sprint 051 they acted
+  only while focus was inside the spine, the narrative or the notes, which
+  was then kloom's only WCAG 2.1.4 remedy. Rebinding and turning a key off
+  (sprints 011 and 037, below) are 2.1.4's other two remedies, and either
+  alone meets it, so the scoping no longer did anything for compliance. All
+  it still did was leave the keys dead whenever focus left those three
+  panes: after a trip home, a deep link, or a click on the drawing.
+  Modifiers make no difference to where a shortcut acts (sprint 037 had
+  exempted Alt, Ctrl and Meta from the scoping).
 - **And rebindable** (WCAG 2.1.4's other remedy, sprint 011, korg 3363;
   modifiers from sprint 037, korg 3493). Each shortcut is rebound, turned off
   or reset in the keyboard shortcuts dialog (§Keyboard shortcuts). A binding
@@ -934,7 +939,7 @@ listed and `engine/ui/Contents.svelte` draws it.
 
 - **Where.** An icon button in the spine's HUD, left of the bookmark,
   in `IconButton`'s look. It is there with or without a reader. C opens
-  it too: a remappable character shortcut, scoped like the others
+  it too: a remappable character shortcut, like the others
   (§Interaction).
 - **What.** The main spine's frames under their segment titles, each with
   its title, then its position label and topic, linked to its deep link. Each trail sits
@@ -1046,8 +1051,8 @@ printing press). kloom has a layer for each. The map draws both (§The map).
   spine's `replaceState`), so the chip is simply the browser's Back:
   the two can never disagree, and Forward brings the chip back. Jumps
   stack; the chip names the latest and shows how many more wait (+1). R
-  goes back too: the seventh character shortcut, remappable and scoped
-  like the others (§Interaction).
+  goes back too: the seventh character shortcut, remappable like the
+  others (§Interaction).
 - **Duplication across subjects stays** (Ken): each subject must read on
   its own, and a connection turns a retelling into the other angle.
 
@@ -1063,7 +1068,7 @@ about 340 KB), fetched when the map first opens and kept until a grow.
 - **Where.** A full-screen modal (a native `<dialog>`): the page behind is
   inert, and Esc closes it and returns focus to what opened it. It opens
   from an icon button in the spine's HUD, right of the contents, and from
-  M, the eighth character shortcut, remappable and scoped like the others
+  M, the eighth character shortcut, remappable like the others
   (§Interaction), on the frame's neighbourhood. From the start screen,
   "Map of the library" opens the library, and a name card's "Show on the
   map" opens the name's view.
@@ -1189,7 +1194,7 @@ stays the everyday tool, and the way to read the graph.
 Sprint 023, korg 3437: two dice, for wandering. One die, left of the table
 of contents in the spine's HUD, goes to a random frame in this subject; two
 dice, left of Home, go to a random frame anywhere in the library. D and W
-do the same, remappable and scoped like the other shortcuts (§Interaction).
+do the same, remappable like the other shortcuts (§Interaction).
 
 - **Any frame a spine walks.** In the subject, the main spine's frames and
   every trail's (`walkedFrames`); anywhere, every frame the map's data
@@ -1760,7 +1765,7 @@ visiting every frame, and an annotation left detached by a fix had nowhere
 to be cleared in bulk.
 
 - **One list, every subject.** A control in the spine's HUD, beside the
-  bookmarks, and O (remappable and scoped like the other shortcuts,
+  bookmarks, and O (remappable like the other shortcuts,
   §Interaction) open a modal dialog listing every note and annotation the
   reader has, grouped by subject, the last written first.
   `GET /api/reader/my-notes` sends them, each with its subject's title and
@@ -2041,7 +2046,8 @@ after they started it.
 
 Built in sprint 002 (korg 3359). The page opens on a modal start screen over
 an inert shell: the subject's title, a Begin button (focused; Enter or Esc
-begins) and, behind them, kloom's loom drawn on in the colours of the spine's
+begins, Enter from anywhere on the screen but another control or a pop-up,
+sprint 052, korg 3563) and, behind them, kloom's loom drawn on in the colours of the spine's
 first frame, over a slowly turning inscribed dial. The loom is the
 public-domain "Modern Loose Reed Power Loom" engraving from Richard Marsden's
 _Cotton Weaving_ (1895), traced to vector; its source, licence and how it was
@@ -2058,7 +2064,14 @@ past two subjects:
   narrative and any unsaved note all survive. Esc returns to exactly where
   the reader was, and so does _Continue where you were_. Begin starts the
   subject from its first frame (sprint 016, korg 3432, §Reader data). Focus
-  goes back to Home. Going home is a history entry of its own at
+  goes back to Home after Esc, which only closed the screen; Begin and
+  Continue start reading, so the spine takes it, as it does when a shell
+  mounts begun (another subject opened from the list, a deep link, a
+  resume in another subject; sprint 052, korg 3561, 3564). Home and those
+  navigations keep focus where the start screen or the new shell put it,
+  rather than SvelteKit's reset to the bare page. `just focus-check`
+  (`create-tools/focus-check/focus_check.mjs`) drives every entry route and
+  presses Z after each. Going home is a history entry of its own at
   `/<subject>` (sprint 042, korg 3517), so the address always says what is
   on screen: a reload stays on the start screen, Back returns to the frame
   and Forward comes home again. When the reader begins or returns, that
@@ -2552,7 +2565,7 @@ opened from the settings pop-up's "Keyboard shortcuts…" button, on the gear
 in the shell and on the start screen.
 
 - **A row per shortcut** (`SHORTCUTS`): what it does, its binding as
-  keycaps (marked "anywhere" when it has Alt, Ctrl or Meta), and Change,
+  keycaps, and Change,
   Off and Reset. "Reset all to defaults" and Done close the dialog's foot.
   Below the rows, what kloom keeps for itself (`FIXED_KEYS`: the arrows,
   Home/End, Tab, Esc), which cannot be rebound.

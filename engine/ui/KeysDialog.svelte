@@ -4,7 +4,6 @@
 		bindingOf,
 		FIXED_KEYS,
 		keyName,
-		modified,
 		onMac,
 		plain,
 		reserved,
@@ -187,9 +186,8 @@
 		<p id="{id}-about" class="about">
 			Change a shortcut, then press its new keys: a letter, a digit or F1 to F12, with Shift, {mac
 				? 'Option'
-				: 'Alt'}, Ctrl or {mac ? 'Cmd' : 'Meta'} if you like. Without {mac ? 'Option' : 'Alt'}, Ctrl
-			or {mac ? 'Cmd' : 'Meta'} a shortcut works while you are in the spine, the reading or your notes;
-			with one, it works anywhere on the page but a text box.
+				: 'Alt'}, Ctrl or {mac ? 'Cmd' : 'Meta'} if you like. A shortcut works anywhere on the page but
+			a text box or an open dialog.
 		</p>
 
 		<ul class="rows">
@@ -204,7 +202,6 @@
 							{#each caps(b) as cap, i (i)}{#if i}<span aria-hidden="true">+</span>{/if}<kbd
 									>{cap}</kbd
 								>{/each}
-							{#if modified(b)}<span class="where">anywhere</span>{/if}
 						{:else}
 							<span class="off">Off</span>
 						{/if}
@@ -387,13 +384,9 @@
 		border-bottom-width: 2px;
 		border-radius: 0.2rem;
 	}
-	.off,
-	.where {
+	.off {
 		font-size: 0.8rem;
 		color: var(--muted);
-	}
-	.where {
-		margin-left: 0.3rem;
 	}
 	button {
 		font: inherit;

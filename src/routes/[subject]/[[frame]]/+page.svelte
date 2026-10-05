@@ -168,8 +168,11 @@
 		selected = data.subject.id;
 		begun = null;
 		goingHome = true;
+		// keepFocus: the start screen has taken it, and SvelteKit's reset would
+		// leave it on the bare page, where neither Esc nor Enter reaches it.
 		goto(resolve('/[subject]/[[frame]]', { subject: data.subject.id }), {
-			state: { home: true }
+			state: { home: true },
+			keepFocus: true
 		}).finally(() => (goingHome = false));
 	}
 	// Coming back to a home entry (Forward, say) shows the start screen again.
@@ -184,7 +187,8 @@
 	/** Open another subject from the list: begun already, as the reader chose it there. */
 	function open(id: string) {
 		begun = id;
-		goto(resolve('/[subject]/[[frame]]', { subject: id }));
+		// keepFocus: the new shell mounts begun and puts focus on its spine.
+		goto(resolve('/[subject]/[[frame]]', { subject: id }), { keepFocus: true });
 	}
 
 	// The reader's own data (docs/design.md §Reader data, korg 3413, 3414).
@@ -496,7 +500,7 @@
 		if (started) follow(subject, frame);
 		else {
 			begun = subject;
-			goto(frameHref(subject, frame));
+			goto(frameHref(subject, frame), { keepFocus: true });
 		}
 	}
 
@@ -688,7 +692,10 @@
 		palette={startPalette}
 		ring={look?.illustrations ?? []}
 		{resume}
-		onbegin={() => (begun = data.subject.id)}
+		onbegin={(closed) => {
+			if (!closed) shell?.reading();
+			begun = data.subject.id;
+		}}
 		onfirst={() => shell?.goTo(first)}
 		onopen={open}
 		onmap={(refocus) =>
