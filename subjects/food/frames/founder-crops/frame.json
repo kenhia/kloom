@@ -1,0 +1,210 @@
+{
+	"id": "founder-crops",
+	"topic": "The Fertile Crescent's founder crops",
+	"position": { "label": "c. 9500–7500 BC", "sort": -9500 },
+	"scene": {
+		"headline": "We tamed the",
+		"accent": "GRASSES.",
+		"palette": "barley",
+		"illustration": "scene.svg",
+		"metadata": [
+			"FERTILE CRESCENT · KARACA DAĞ · DHRA'",
+			"EINKORN · EMMER · BARLEY · PULSES · FLAX"
+		],
+		"counter": { "value": "2,000", "label": "years for barley's ear to stop shattering" }
+	},
+	"connections": [
+		{
+			"to": "food/foragers",
+			"why": "Ohalo II's sickles cut wild cereals green, before the ears shattered; cutting with a sickle is how the rare tough-eared plants came home to be sown, until domestic wheat and barley could no longer sow themselves."
+		},
+		{
+			"to": "western-civ/writing",
+			"why": "Barley, one of the founder crops, became the grain of account in Mesopotamia: the first tablets kept records of grain and rations, and a Girsu tablet of about 2350 BC lists monthly barley rations."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Contrasting Patterns in Crop Domestication and Domestication Rates: Recent Archaeobotanical Insights from the Old World",
+			"authors": [{ "family": "Fuller", "given": "Dorian Q." }],
+			"container": "Annals of Botany",
+			"volume": "100",
+			"issue": "5",
+			"pages": "903–924",
+			"published": "2007-07-28",
+			"doi": "10.1093/aob/mcm048",
+			"accessed": "2026-10-04",
+			"note": "The domestication syndrome, the smooth and rough scars, and the rates for wheat and barley"
+		},
+		{
+			"kind": "article",
+			"title": "How Fast Was Wild Wheat Domesticated?",
+			"authors": [
+				{ "family": "Tanno", "given": "Ken-ichi" },
+				{ "family": "Willcox", "given": "George" }
+			],
+			"container": "Science",
+			"volume": "311",
+			"issue": "5769",
+			"pages": "1886",
+			"published": "2006-03-31",
+			"doi": "10.1126/science.1124635",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Domestication Rates in Wild-Type Wheats and Barley under Primitive Cultivation",
+			"authors": [
+				{ "family": "Hillman", "given": "Gordon C." },
+				{ "family": "Davies", "given": "M. S." }
+			],
+			"container": "Biological Journal of the Linnean Society",
+			"volume": "39",
+			"issue": "1",
+			"pages": "39–78",
+			"published": "1990-01",
+			"doi": "10.1111/j.1095-8312.1990.tb01611.x",
+			"accessed": "2026-10-04",
+			"citedIn": "Contrasting Patterns in Crop Domestication and Domestication Rates: Recent Archaeobotanical Insights from the Old World"
+		},
+		{
+			"kind": "article",
+			"title": "Site of Einkorn Wheat Domestication Identified by DNA Fingerprinting",
+			"authors": [
+				{ "family": "Heun", "given": "Manfred" },
+				{ "family": "Schäfer-Pregl", "given": "Ralf" },
+				{ "family": "Klawan", "given": "Dieter" },
+				{ "family": "Castagna", "given": "Renato" },
+				{ "family": "Accerbi", "given": "Monica" },
+				{ "family": "Borghi", "given": "Basilio" },
+				{ "family": "Salamini", "given": "Francesco" }
+			],
+			"container": "Science",
+			"volume": "278",
+			"issue": "5341",
+			"pages": "1312–1314",
+			"published": "1997-11-14",
+			"doi": "10.1126/science.278.5341.1312",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The Cradle of Agriculture",
+			"authors": [
+				{ "family": "Lev-Yadun", "given": "Simcha" },
+				{ "family": "Gopher", "given": "Avi" },
+				{ "family": "Abbo", "given": "Shahal" }
+			],
+			"container": "Science",
+			"volume": "288",
+			"issue": "5471",
+			"pages": "1602–1603",
+			"published": "2000-06-02",
+			"doi": "10.1126/science.288.5471.1602",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Early Agricultural Pathways: Moving outside the 'Core Area' Hypothesis in Southwest Asia",
+			"authors": [
+				{ "family": "Fuller", "given": "Dorian Q." },
+				{ "family": "Willcox", "given": "George" },
+				{ "family": "Allaby", "given": "Robin G." }
+			],
+			"container": "Journal of Experimental Botany",
+			"volume": "63",
+			"issue": "2",
+			"pages": "617–633",
+			"published": "2012-01",
+			"doi": "10.1093/jxb/err307",
+			"accessed": "2026-10-04",
+			"read": "abstract",
+			"note": "Published online in November 2011"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Evidence for Food Storage and Predomestication Granaries 11,000 Years Ago in the Jordan Valley",
+			"authors": [
+				{ "family": "Kuijt", "given": "Ian" },
+				{ "family": "Finlayson", "given": "Bill" }
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "106",
+			"issue": "27",
+			"pages": "10966–10970",
+			"published": "2009-07-07",
+			"doi": "10.1073/pnas.0812764106",
+			"accessed": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "Ancient Times, a History of the Early World",
+			"authors": [{ "family": "Breasted", "given": "James Henry" }],
+			"place": "Boston",
+			"publisher": "Ginn and Company",
+			"published": "1916",
+			"url": "https://archive.org/details/ancienttimeshist00breauoft",
+			"accessed": "2026-10-04",
+			"note": "The Fertile Crescent is named on p. 101"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Founder crops",
+			"url": "https://en.wikipedia.org/w/index.php?title=Founder_crops&oldid=1374251703",
+			"accessed": "2026-10-04",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wheat",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wheat&oldid=1378570352",
+			"accessed": "2026-10-04",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Barley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Barley&oldid=1377470667",
+			"accessed": "2026-10-04",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fertile Crescent",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fertile_Crescent&oldid=1377625149",
+			"accessed": "2026-10-04",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "media",
+			"title": "Issue of barley rations",
+			"url": "https://commons.wikimedia.org/wiki/File:Issue_of_barley_rations.JPG",
+			"accessed": "2026-10-04",
+			"licence": "Public domain",
+			"file": "barley-rations.jpg",
+			"authors": [{ "name": "Gavin.collins (uploader)" }],
+			"container": "British Museum, BM 102081",
+			"published": "2010-02-27",
+			"note": "Released into the public domain by its photographer (PD-self)"
+		}
+	]
+}

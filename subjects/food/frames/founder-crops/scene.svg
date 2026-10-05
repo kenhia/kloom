@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M92 284 L92 58"/>
+		<path pathLength="1" d="M76 118 a16 16 0 1 0 32 0 a16 16 0 1 0 -32 0"/>
+		<path pathLength="1" d="M107.9 116.2 L260.2 99.4"/>
+		<path pathLength="1" d="M76 218 a16 16 0 1 0 32 0 a16 16 0 1 0 -32 0"/>
+		<path pathLength="1" d="M108 218.3 L260 221.2"/>
+		<path pathLength="1" d="M260 95 a40 40 0 1 0 80 0 a40 40 0 1 0 -80 0"/>
+		<path pathLength="1" d="M260 222 a40 40 0 1 0 80 0 a40 40 0 1 0 -80 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M92 284 L88 258 L96 238 L88 218 L96 198 L88 178 L96 158 L88 138 L96 118 L88 98 L96 78"/>
+		<path pathLength="1" d="M96.0 238.0 Q109.2 231.0 107.0 218.0 Q98.2 227.0 96.0 238.0"/>
+		<path pathLength="1" d="M107 218 L111 202"/>
+		<path pathLength="1" d="M88.0 218.0 Q74.8 211.0 77.0 198.0 Q85.8 207.0 88.0 218.0"/>
+		<path pathLength="1" d="M77 198 L73 182"/>
+		<path pathLength="1" d="M96.0 198.0 Q109.2 191.0 107.0 178.0 Q98.2 187.0 96.0 198.0"/>
+		<path pathLength="1" d="M107 178 L111 162"/>
+		<path pathLength="1" d="M88.0 178.0 Q74.8 171.0 77.0 158.0 Q85.8 167.0 88.0 178.0"/>
+		<path pathLength="1" d="M77 158 L73 142"/>
+		<path pathLength="1" d="M96.0 158.0 Q109.2 151.0 107.0 138.0 Q98.2 147.0 96.0 158.0"/>
+		<path pathLength="1" d="M107 138 L111 122"/>
+		<path pathLength="1" d="M88.0 138.0 Q74.8 131.0 77.0 118.0 Q85.8 127.0 88.0 138.0"/>
+		<path pathLength="1" d="M77 118 L73 102"/>
+		<path pathLength="1" d="M96.0 118.0 Q109.2 111.0 107.0 98.0 Q98.2 107.0 96.0 118.0"/>
+		<path pathLength="1" d="M107 98 L111 82"/>
+		<path pathLength="1" d="M88.0 98.0 Q74.8 91.0 77.0 78.0 Q85.8 87.0 88.0 98.0"/>
+		<path pathLength="1" d="M77 78 L73 62"/>
+		<path pathLength="1" d="M96.0 78.0 Q109.2 71.0 107.0 58.0 Q98.2 67.0 96.0 78.0"/>
+		<path pathLength="1" d="M107 58 L111 42"/>
+		<path pathLength="1" d="M294 121 L291 83 L309 83 L306 121"/>
+		<path pathLength="1" d="M294 121 L294.1 120.2 L294.5 119.5 L295 118.8 L295.8 118.2 L296.7 117.7 L297.7 117.3 L298.8 117.1 L300 117 L301.2 117.1 L302.3 117.3 L303.3 117.7 L304.2 118.2 L305 118.8 L305.5 119.5 L305.9 120.2 L306 121"/>
+		<path pathLength="1" d="M307.0 85.0 Q326.2 78.0 323.0 65.0 Q310.2 74.0 307.0 85.0"/>
+		<path pathLength="1" d="M294 248 L291 210 L309 210 L306 248"/>
+		<path pathLength="1" d="M294 248 L296 252 L298 247 L300 252 L302 247 L304 252 L306 248"/>
+		<path pathLength="1" d="M307.0 212.0 Q326.2 205.0 323.0 192.0 Q310.2 201.0 307.0 212.0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="92" y="24" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EAR OF EINKORN</text>
+		<text x="92" y="296" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RACHIS NODES</text>
+		<text x="300" y="47" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WILD · SHATTERS</text>
+		<text x="300" y="147" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SMOOTH SCAR</text>
+		<text x="300" y="174" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DOMESTIC · THRESHED</text>
+		<text x="300" y="274" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TORN BREAK</text>
+	</g>
+</svg>

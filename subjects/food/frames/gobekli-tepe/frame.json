@@ -1,0 +1,212 @@
+{
+	"id": "gobekli-tepe",
+	"topic": "Göbekli Tepe and the feast",
+	"position": { "label": "c. 9500 BC", "sort": -9600 },
+	"scene": {
+		"headline": "We gathered to",
+		"accent": "FEAST.",
+		"palette": "barley",
+		"illustration": "scene.svg",
+		"metadata": [
+			"GÖBEKLI TEPE · ŞANLIURFA · TURKEY",
+			"T-PILLARS · GAZELLE · AUROCHS · WILD EINKORN"
+		],
+		"counter": { "value": "7,268", "label": "grinding tools studied" }
+	},
+	"connections": [
+		{
+			"to": "food/oldest-bread",
+			"why": "Both find foragers grinding wild cereals for more than everyday meals: the bread at Shubayqa may have been feast food, and Göbekli Tepe's thousands of grinding stones are read as cooking for work feasts."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Cereal Processing at Early Neolithic Göbekli Tepe, Southeastern Turkey",
+			"authors": [
+				{ "family": "Dietrich", "given": "Laura" },
+				{ "family": "Meister", "given": "Julia" },
+				{ "family": "Dietrich", "given": "Oliver" },
+				{ "family": "Notroff", "given": "Jens" },
+				{ "family": "Kiep", "given": "Janika" },
+				{ "family": "Heeb", "given": "Julia" },
+				{ "family": "Beuger", "given": "André" }
+			],
+			"etAl": true,
+			"container": "PLOS ONE",
+			"volume": "14",
+			"issue": "5",
+			"pages": "e0215214",
+			"published": "2019-05-01",
+			"doi": "10.1371/journal.pone.0215214",
+			"accessed": "2026-10-04",
+			"note": "The grinding experiments, the 7,268 tools and the cisterns are in its Discussion"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Role of Cult and Feasting in the Emergence of Neolithic Communities: New Evidence from Göbekli Tepe, South-Eastern Turkey",
+			"authors": [
+				{ "family": "Dietrich", "given": "Oliver" },
+				{ "family": "Heun", "given": "Manfred" },
+				{ "family": "Notroff", "given": "Jens" },
+				{ "family": "Schmidt", "given": "Klaus" },
+				{ "family": "Zarnkow", "given": "Martin" }
+			],
+			"container": "Antiquity",
+			"volume": "86",
+			"issue": "333",
+			"pages": "674–695",
+			"published": "2012-09",
+			"doi": "10.1017/S0003598X00047840",
+			"accessed": "2026-10-04",
+			"note": "The limestone vessels and the oxalate test are on pp. 687–688"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Animals in the Symbolic World of Pre-Pottery Neolithic Göbekli Tepe, South-Eastern Turkey: A Preliminary Assessment",
+			"authors": [
+				{ "family": "Peters", "given": "Joris" },
+				{ "family": "Schmidt", "given": "Klaus" }
+			],
+			"container": "Anthropozoologica",
+			"volume": "39",
+			"issue": "1",
+			"pages": "179–218",
+			"published": "2004",
+			"url": "https://sciencepress.mnhn.fr/sites/default/files/articles/pdf/az2004n1a13.pdf",
+			"accessed": "2026-10-04",
+			"note": "Table 1 gives the bone counts; the shares of meat are on p. 208"
+		},
+		{
+			"kind": "article",
+			"title": "Gazelle Behaviour and Human Presence at Early Neolithic Göbekli Tepe, South-East Anatolia",
+			"authors": [
+				{ "family": "Lang", "given": "Caroline" },
+				{ "family": "Peters", "given": "Joris" },
+				{ "family": "Pöllath", "given": "Nadja" },
+				{ "family": "Schmidt", "given": "Klaus" },
+				{ "family": "Grupe", "given": "Gisela" }
+			],
+			"container": "World Archaeology",
+			"volume": "45",
+			"issue": "3",
+			"pages": "410–429",
+			"published": "2013-08",
+			"doi": "10.1080/00438243.2013.820648",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Investigating the Function of Pre-Pottery Neolithic Stone Troughs from Göbekli Tepe: An Integrated Approach",
+			"authors": [
+				{ "family": "Dietrich", "given": "Laura" },
+				{ "family": "Götting-Martin", "given": "Eva" },
+				{ "family": "Hertzog", "given": "Jasmine" },
+				{ "family": "Schmitt-Kopplin", "given": "Philippe" },
+				{ "family": "McGovern", "given": "Patrick E." },
+				{ "family": "Hall", "given": "Gretchen R." },
+				{ "family": "Petersen", "given": "W. Christian" }
+			],
+			"etAl": true,
+			"container": "Journal of Archaeological Science: Reports",
+			"volume": "34",
+			"pages": "102618",
+			"published": "2020-12",
+			"doi": "10.1016/j.jasrep.2020.102618",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Göbekli Tepe, Turkey. A Brief Summary of Research at a New World Heritage Site (2015–2019)",
+			"authors": [{ "family": "Clare", "given": "Lee" }],
+			"container": "e-Forschungsberichte des Deutschen Archäologischen Instituts",
+			"volume": "2020",
+			"issue": "2",
+			"pages": "81–88",
+			"published": "2020",
+			"doi": "10.34780/efb.v0i2.1012",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Site of Einkorn Wheat Domestication Identified by DNA Fingerprinting",
+			"authors": [
+				{ "family": "Heun", "given": "Manfred" },
+				{ "family": "Schäfer-Pregl", "given": "Ralf" },
+				{ "family": "Klawan", "given": "Dieter" },
+				{ "family": "Castagna", "given": "Renato" },
+				{ "family": "Accerbi", "given": "Monica" },
+				{ "family": "Borghi", "given": "Basilio" },
+				{ "family": "Salamini", "given": "Francesco" }
+			],
+			"container": "Science",
+			"volume": "278",
+			"issue": "5341",
+			"pages": "1312–1314",
+			"published": "1997-11-14",
+			"doi": "10.1126/science.278.5341.1312",
+			"accessed": "2026-10-04",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Göbekli Tepe",
+			"url": "https://en.wikipedia.org/w/index.php?title=G%C3%B6bekli_Tepe&oldid=1374064541",
+			"accessed": "2026-10-04",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Klaus Schmidt (archaeologist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Klaus_Schmidt_(archaeologist)&oldid=1377702051",
+			"accessed": "2026-10-04",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Karaca Dağ",
+			"url": "https://en.wikipedia.org/w/index.php?title=Karaca_Da%C4%9F&oldid=1372836450",
+			"accessed": "2026-10-04",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02",
+			"note": "Its coordinates and Göbekli Tepe's give the distance"
+		},
+		{
+			"kind": "media",
+			"title": "Göbekli Tepe Pilar Arm and Fox",
+			"url": "https://commons.wikimedia.org/wiki/File:G%C3%B6bekli_Tepe_Pilar_Arm_and_Fox.JPG",
+			"accessed": "2026-10-04",
+			"licence": "CC BY-SA 3.0",
+			"file": "pillar-arm-fox.jpg",
+			"authors": [{ "family": "Guérin", "given": "Nicolas" }],
+			"container": "Göbekli Tepe, enclosure D",
+			"published": "2011-06-12"
+		},
+		{
+			"kind": "media",
+			"title": "Identified animal bones from Göbekli Tepe, by species",
+			"authors": [{ "name": "kloom contributors" }],
+			"published": "2026",
+			"container": "Peters and Schmidt, Anthropozoologica 39, no. 1 (2004), table 1",
+			"url": "https://sciencepress.mnhn.fr/sites/default/files/articles/pdf/az2004n1a13.pdf",
+			"accessed": "2026-10-04",
+			"licence": "MIT",
+			"file": "bones.svg"
+		}
+	]
+}

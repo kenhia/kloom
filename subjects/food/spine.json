@@ -6,6 +6,13 @@
 			"labelKind": "date",
 			"palette": "ember",
 			"frames": ["cooking", "foragers", "oldest-bread"]
+		},
+		{
+			"id": "first-farmers",
+			"title": "The first farmers",
+			"labelKind": "date",
+			"palette": "barley",
+			"frames": ["gobekli-tepe", "founder-crops", "first-herds"]
 		}
 	]
 }

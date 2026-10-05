@@ -1,0 +1,33 @@
+{
+	"title": "Identified animal bones from Göbekli Tepe, by species",
+	"description": "Bar chart of the number of identified specimens (NISP) from the central area of Göbekli Tepe, excavations 1996–2001: goitered gazelle 7,949; aurochs 2,574; wild sheep 1,237; Asiatic wild ass 1,177; fox 971; wild boar 863; Cape hare 386; red deer 170. Data: Peters and Schmidt 2004, table 1.",
+	"heading": "GÖBEKLI TEPE · IDENTIFIED BONES (NISP), 1996–2001",
+	"unit": "",
+	"width": 600,
+	"barWidth": 46,
+	"axis": {
+		"max": 8000,
+		"ticks": [
+			[0, "0"],
+			[2000, "2,000"],
+			[4000, "4,000"],
+			[6000, "6,000"],
+			[8000, "8,000"]
+		]
+	},
+	"bars": [
+		{ "label": "Gazelle", "value": 7949, "display": "7,949", "highlight": true },
+		{ "label": "Aurochs", "value": 2574, "display": "2,574" },
+		{ "label": "Wild sheep", "value": 1237, "display": "1,237" },
+		{ "label": "Wild ass", "value": 1177, "display": "1,177" },
+		{ "label": "Fox", "value": 971, "display": "971" },
+		{ "label": "Boar", "value": 863, "display": "863" },
+		{ "label": "Hare", "value": 386, "display": "386" },
+		{ "label": "Red deer", "value": 170, "display": "170" }
+	],
+	"source": {
+		"container": "Peters and Schmidt, Anthropozoologica 39, no. 1 (2004), table 1",
+		"url": "https://sciencepress.mnhn.fr/sites/default/files/articles/pdf/az2004n1a13.pdf",
+		"accessed": "2026-10-04"
+	}
+}

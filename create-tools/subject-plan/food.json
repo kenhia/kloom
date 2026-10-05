@@ -6,25 +6,14 @@
 				"title": "Before farming",
 				"labelKind": "date",
 				"palette": "ember",
-				"frames": [
-					"cooking",
-					"foragers",
-					"oldest-bread"
-				]
+				"frames": ["cooking", "foragers", "oldest-bread"]
 			},
 			{
 				"id": "first-farmers",
 				"title": "The first farmers",
 				"labelKind": "date",
 				"palette": "barley",
-				"frames": [
-					"gobekli-tepe",
-					"founder-crops",
-					"first-herds",
-					"catalhoyuk",
-					"maize",
-					"rice"
-				]
+				"frames": ["gobekli-tepe", "founder-crops", "first-herds", "catalhoyuk", "maize", "rice"]
 			},
 			{
 				"id": "grain-and-empire",
@@ -46,13 +35,7 @@
 				"title": "Spice, tea and trade",
 				"labelKind": "date",
 				"palette": "saffron",
-				"frames": [
-					"spice-routes",
-					"chocolate",
-					"banda-nutmeg",
-					"coffeehouse",
-					"tea-and-opium"
-				]
+				"frames": ["spice-routes", "chocolate", "banda-nutmeg", "coffeehouse", "tea-and-opium"]
 			},
 			{
 				"id": "agricultural-revolutions",
@@ -128,11 +111,7 @@
 						"title": "Beer and wine",
 						"labelKind": "date",
 						"palette": "amphora",
-						"frames": [
-							"first-wine",
-							"ninkasi",
-							"reinheitsgebot"
-						]
+						"frames": ["first-wine", "ninkasi", "reinheitsgebot"]
 					}
 				]
 			}
@@ -148,12 +127,7 @@
 						"title": "A loaf through time",
 						"labelKind": "date",
 						"palette": "barley",
-						"frames": [
-							"pompeii-bakery",
-							"assize-of-bread",
-							"sliced-bread",
-							"chorleywood"
-						]
+						"frames": ["pompeii-bakery", "assize-of-bread", "sliced-bread", "chorleywood"]
 					}
 				]
 			}
@@ -169,12 +143,7 @@
 						"title": "From the Andes to the chip",
 						"labelKind": "date",
 						"palette": "hayrick",
-						"frames": [
-							"chuno",
-							"parmentier",
-							"potato-blight",
-							"frozen-fries"
-						]
+						"frames": ["chuno", "parmentier", "potato-blight", "frozen-fries"]
 					}
 				]
 			}
@@ -202,7 +171,62 @@
 			}
 		}
 	],
-	"owners": {},
+	"owners": {
+		"wheat": "farm1",
+		"barley": "farm1",
+		"fertile-crescent": "farm1",
+		"domestication": "farm1",
+		"neolithic-revolution": "farm1",
+		"lactase-persistence": "farm1",
+		"maize": "farm2",
+		"rice": "farm2",
+		"jared-diamond": "farm2",
+		"beer": "drink",
+		"wine": "drink",
+		"hops": "drink",
+		"yeast": "drink",
+		"saccharomyces-cerevisiae": "drink",
+		"sumer": "drink",
+		"ostia-antica": "empire1",
+		"potato": "empire3",
+		"sugarcane": "empire3",
+		"sugar": "empire3",
+		"columbian-exchange": "empire3",
+		"phytophthora-infestans": "potato",
+		"spice-trade": "trade1",
+		"black-pepper": "trade1",
+		"vasco-da-gama": "trade1",
+		"nutmeg": "trade1",
+		"banda-islands": "trade1",
+		"tea": "trade2",
+		"coffee": "trade2",
+		"chocolate": "trade2",
+		"first-opium-war": "trade2",
+		"qing-dynasty": "trade2",
+		"enclosure": "agri1",
+		"thomas-robert-malthus": "agri2",
+		"great-famine-ireland": "agri3",
+		"corn-laws": "agri3",
+		"amartya-sen": "famine1",
+		"british-raj": "famine1",
+		"scurvy": "keep1",
+		"james-lind": "keep1",
+		"vitamin-c": "keep1",
+		"nicolas-appert": "keep1",
+		"canning": "keep1",
+		"pasteurization": "keep2",
+		"refrigeration": "keep2",
+		"united-states-department-of-agriculture": "keep3",
+		"harvey-washington-wiley": "keep3",
+		"fertilizer": "modern1",
+		"nitrogen-fixation": "modern1",
+		"norman-borlaug": "modern2",
+		"green-revolution": "modern2",
+		"food-and-agriculture-organization": "modern2",
+		"genetically-modified-crops": "modern3",
+		"auguste-escoffier": "table1",
+		"mcdonalds": "table2"
+	},
 	"frames": {
 		"cooking": {
 			"topic": "Fire and the first cooks",
