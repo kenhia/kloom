@@ -116,5 +116,11 @@ Verified live: `focus_check.mjs --url http://127.0.0.1:4890` (the tailnet
 door, anonymous, so nothing was written to a reader's data) passed 14/14.
 Continue and B after a click were skipped because they need a reader.
 
-The public reader site (kloom.kenhiatt.us) was not published in this ship.
-It still runs sprint 051's build until `just publish-public`.
+The public reader site (kloom.kenhiatt.us) was published the same day,
+after the ship, by `just publish-public` from `bcb7ab87` (main with this
+sprint's deploy record). It is Fly release v14, image
+`kloom-reader:bcb7ab872-202610051817`, library `bc290d`. `verify-public`
+passed every check: TLS, HSTS, the sign-in wall, robots, grow and keep
+gone, compression, the library build, and Fly-Client-IP. focus-check was
+not run there, because the public site needs a signed-in reader. The build
+is the one checked live on kai.
