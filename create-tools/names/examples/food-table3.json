@@ -1,0 +1,33 @@
+{
+	"food/julia-child": [
+		["Julia Child", "julia-child"],
+		["Paris", "paris"],
+		["Office of Strategic Services", "office-of-strategic-services"],
+		["Le Cordon Bleu", "le-cordon-bleu"],
+		["Simone Beck", "simone-beck"],
+		["Louisette Bertholle", "louisette-bertholle"],
+		["Judith Jones", "judith-jones"],
+		["Alfred A. Knopf", "alfred-a-knopf"],
+		["_Mastering the Art of French Cooking_", "mastering-the-art-of-french-cooking"],
+		["WGBH-TV", "wgbh-tv"],
+		["_The French Chef_", "the-french-chef"],
+		["frozen meal", "frozen-meal"],
+		["Peg Bracken", "peg-bracken"],
+		["National Museum of American History", "national-museum-of-american-history"]
+	],
+	"food/ultra-processed": [
+		["Carlos Augusto Monteiro", "carlos-augusto-monteiro"],
+		["_Public Health Nutrition_", "public-health-nutrition"],
+		["University of São Paulo", "university-of-sao-paulo"],
+		["Nova", "nova-classification"],
+		["ultra-processed food", "ultra-processed-food"],
+		["National Institutes of Health", "national-institutes-of-health"],
+		["randomized controlled trial", "randomized-controlled-trial"],
+		["cohort studies", "cohort-study"],
+		["_The BMJ_", "the-bmj"],
+		["Food and Drug Administration", "food-and-drug-administration"],
+		["United States Department of Agriculture", "united-states-department-of-agriculture"],
+		["Dietary Guidelines for Americans", "dietary-guidelines-for-americans"],
+		["Office of Management and Budget", "office-of-management-and-budget"]
+	]
+}

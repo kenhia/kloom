@@ -1,0 +1,28 @@
+{
+	"title": "Daily energy intake in Hall's trial, by diet and week",
+	"description": "Bar chart of mean daily energy intake, in kilocalories, of 19 inpatients at the NIH Clinical Center over the doubly labeled water measurement periods: on the ultra-processed diet 3,099 in week 1 and 2,865 in week 2; on the unprocessed diet 2,555 in week 1 and 2,486 in week 2. Data: Hall et al. 2019, Table 2.",
+	"heading": "HALL ET AL. 2019 · ENERGY EATEN · KCAL A DAY",
+	"unit": "",
+	"width": 480,
+	"barWidth": 56,
+	"axis": {
+		"max": 3500,
+		"ticks": [
+			[0, "0"],
+			[1000, "1,000"],
+			[2000, "2,000"],
+			[3000, "3,000"]
+		]
+	},
+	"bars": [
+		{ "label": "ULTRA", "sublabel": "week 1", "value": 3099, "display": "3,099", "highlight": true },
+		{ "label": "ULTRA", "sublabel": "week 2", "value": 2865, "display": "2,865", "highlight": true },
+		{ "label": "UNPROC.", "sublabel": "week 1", "value": 2555, "display": "2,555" },
+		{ "label": "UNPROC.", "sublabel": "week 2", "value": 2486, "display": "2,486" }
+	],
+	"source": {
+		"container": "Hall et al., \"Ultra-Processed Diets Cause Excess Calorie Intake and Weight Gain,\" Cell Metabolism 30 (2019), Table 2",
+		"doi": "10.1016/j.cmet.2019.05.008",
+		"accessed": "2026-10-04"
+	}
+}
