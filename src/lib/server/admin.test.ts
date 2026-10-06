@@ -1,7 +1,7 @@
 import { execFileSync, spawnSync } from 'node:child_process';
-import { mkdtempSync, rmSync } from 'node:fs';
+import { mkdtempSync, readFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
-import { join } from 'node:path';
+import { basename, dirname, join, relative, resolve } from 'node:path';
 import { DatabaseSync } from 'node:sqlite';
 import { afterEach, describe, expect, it } from 'vitest';
 import { openAccounts } from './accounts';
@@ -193,5 +193,33 @@ describe('admins (korg 3570)', () => {
 		expect(run(dir, 'admin', 'disable', 'ken@github').status).toBe(1);
 		expect(run(dir, 'delete', 'kt', '--yes').status).toBe(0);
 		expect(run(dir, 'admin', 'list').stdout).toBe('No admins.\n');
+	});
+});
+
+describe('the public image', () => {
+	/** Every repo file admin.mjs loads, following relative imports. */
+	function loaded(file: string, seen = new Set<string>()): Set<string> {
+		if (seen.has(file)) return seen;
+		seen.add(file);
+		const text = readFileSync(join(repo, file), 'utf8');
+		for (const [, spec] of text.matchAll(
+			/^\s*(?:import|export)\b(?!\s+type\b)[^'"]*?from\s+'(\.{1,2}\/[^']+)'/gm
+		))
+			loaded(relative(repo, resolve(dirname(join(repo, file)), spec)), seen);
+		return seen;
+	}
+
+	it('copies every file admin.mjs loads, so it runs on Fly (sprint 054 shipped without one)', () => {
+		const copied = new Set<string>();
+		for (const [, line] of readFileSync(join(repo, 'Dockerfile'), 'utf8').matchAll(
+			/^COPY (?!--from)(.+)$/gm
+		)) {
+			const parts = line.trim().split(/\s+/);
+			const dest = parts.pop()!;
+			for (const p of parts)
+				copied.add(dest.endsWith('/') && dest !== './' ? join(dest, basename(p)) : p);
+		}
+		const missing = [...loaded('admin.mjs')].filter((f) => !copied.has(f));
+		expect(missing).toEqual([]);
 	});
 });

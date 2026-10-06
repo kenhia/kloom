@@ -162,3 +162,14 @@ ken@github`.
   "only ken" decision, so the grid is his to open there.
 - **Not yet on the public site.** `just publish-public`, then `just
 site-admin enable ken`, are Ken's to run.
+
+### Fixed after the ship: the public image lacked `admins.ts`
+
+`just publish-public` deployed the image, then failed `verify-public` at its
+first `fly ssh` admin call. Sprint 054 made admin.mjs import
+`src/lib/server/admins.ts`, but the Dockerfile copies admin.mjs's modules
+by name, so `admin.mjs` crashed on Fly with `ERR_MODULE_NOT_FOUND`. The site
+itself was unaffected. The Dockerfile now copies it. `admin.test.ts` gained
+a gate: it follows admin.mjs's runtime imports and fails on any file the
+image does not copy. The gate was seen to fail naming `admins.ts` before
+the fix.
