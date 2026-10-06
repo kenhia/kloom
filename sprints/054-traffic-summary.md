@@ -141,3 +141,24 @@ frame, day, n)` and `admin (reader, enabled)`. `day` is the UTC date of
   site. The migration creates the table empty, so nobody is an admin until
   then. On kai: `just admin --data ~/.local/share/kloom/data admin enable
 ken@github`.
+
+## Deployed
+
+- **kai, 2026-10-06 01:43Z**, by `just deploy` (the `.sprint-deploy`
+  recipe), from merged `main` at `db6bc633` (PR #61). Its own checks
+  passed: both doors read, the tailnet door refuses an anonymous write and
+  keeps reader data from one, frame bodies come from the library, and pages
+  are compressed. The library was rebuilt (`bc6011`).
+- **The migration, live:** the service's `reader.db` is at schema 9.
+  `frame_visit` and `admin` are new and empty, and the 34 `seen` rows from
+  before are untouched.
+- **This sprint's behavior, live, on the ssh door:**
+  - `/admin/traffic` answered 404 to its reader (`ken@kai`, not an admin).
+  - With `ken@kai` made an admin for the check, it answered 200 with the
+    heading and all 11 subject rows. The flag was then taken away.
+  - `POST /api/reader/visit` with an unknown subject answered 404.
+- `ken@github` is now an admin on kai (`admin.mjs --data
+~/.local/share/kloom/data admin enable ken@github`). That follows Ken's
+  "only ken" decision, so the grid is his to open there.
+- **Not yet on the public site.** `just publish-public`, then `just
+site-admin enable ken`, are Ken's to run.
