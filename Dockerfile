@@ -38,7 +38,8 @@ COPY --from=deps /app/node_modules node_modules
 # 3530). The key is the Fly secret ANTHROPIC_API_KEY, never in the image.
 COPY package.json serve.js admin.mjs kloom.reader.json ./
 # admin.mjs opens these with plain Node; they import nothing but node: modules.
-COPY src/lib/server/accounts.ts src/lib/server/sqlite-reader-store.ts src/lib/server/ask-ledger.ts src/lib/server/
+# admin.test.ts fails when admin.mjs loads a file this image does not copy.
+COPY src/lib/server/accounts.ts src/lib/server/sqlite-reader-store.ts src/lib/server/ask-ledger.ts src/lib/server/admins.ts src/lib/server/
 # The detached-note check's (korg 3504): finding an annotation's words.
 COPY engine/anchor.ts engine/
 COPY --from=build /src/build-reader build-reader
