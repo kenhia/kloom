@@ -173,3 +173,13 @@ itself was unaffected. The Dockerfile now copies it. `admin.test.ts` gained
 a gate: it follows admin.mjs's runtime imports and fails on any file the
 image does not copy. The gate was seen to fail naming `admins.ts` before
 the fix.
+
+### Published to the public site
+
+- **2026-10-06 01:51Z**, by `just publish-public` from `main` at `b148528d`
+  (sprint 054 and the fix above). The site is release v17, library
+  `7744d6`. Every `verify-public` check passed. Ask was at $0.12 of $15 for
+  the month, with 9 asks, and readers' 5 notes had 0 detached.
+- `just site-admin enable ken`: `ken@kloom.kenhiatt.us` is the site's one
+  admin. A signed-out request for `/admin/traffic` is sent to sign in, as
+  any page is.
