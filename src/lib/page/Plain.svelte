@@ -4,16 +4,21 @@
 	/**
 	 * A page of plain words outside the shell: signing in, a welcome link,
 	 * and the Welcome and How-To page. One readable column that keeps to a
-	 * phone's width and to large text, in the reader's light or dark.
+	 * phone's width and to large text, in the reader's light or dark. `wide`
+	 * lets a page of figures (the traffic page) use a desktop's width.
 	 */
-	let { title, children }: { title: string; children: Snippet } = $props();
+	let {
+		title,
+		wide = false,
+		children
+	}: { title: string; wide?: boolean; children: Snippet } = $props();
 </script>
 
 <svelte:head>
 	<title>{title} · kloom</title>
 </svelte:head>
 
-<main class="plain">
+<main class="plain" class:wide>
 	<p class="brand" aria-hidden="true">kloom</p>
 	{@render children()}
 </main>
@@ -32,6 +37,9 @@
 		padding: 2rem 1.25rem 4rem;
 		color: var(--ink);
 		font: 1.0625rem/1.6 var(--sans);
+	}
+	.plain.wide {
+		max-width: 72rem;
 	}
 	@media (prefers-color-scheme: light) {
 		:global(html:has(.plain)),

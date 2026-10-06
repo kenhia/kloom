@@ -1600,7 +1600,9 @@ user_version` counts how many a file has had, and opening it runs the
   spans subjects can name a frame without loading another subject. The
   current subject's live titles replace it where they can.
 - **Last visited.** One place per reader per subject, written 800ms after
-  the reader stops moving. The last place overall is the newest of them.
+  the reader stops moving (`PLACE_MS`). A place does not open the frame:
+  five seconds' visit does (§What's new, §Traffic). The last place
+  overall is the newest of them.
   The start screen offers the selected subject's place under Begin as
   _Continue where you were_, and never forces it. The list marks the
   subject of the newest place _Last read_ (sprint 013; before it, a second
@@ -1625,7 +1627,7 @@ user_version` counts how many a file has had, and opening it runs the
   this subject moves the shell, and one elsewhere is a deep link. Each has
   a named remove button. Writes are optimistic and roll back if the server
   refuses them.
-- **Routes** (`src/routes/api/reader/`). `POST place`, `GET`/`POST`/`DELETE
+- **Routes** (`src/routes/api/reader/`). `POST place`, `POST visit`, `GET`/`POST`/`DELETE
 bookmarks`, `GET`/`POST`/`PATCH`/`DELETE notes`, `GET`/`POST my-notes`,
   `GET`/`DELETE kept`, `GET`/`POST suggestions`, `POST seen`, `POST
 caught-up`, `GET export` and `POST import`. A place, bookmark or note must name a served subject
@@ -1652,7 +1654,11 @@ caught-up`, `GET export` and `POST import`. A place, bookmark or note must name 
   reading data. The seventh (sprint 043) keeps what's new to a reader
   (§What's new): each subject's first visit and caught-up watermark, the
   frames opened or marked seen, and when they were last active. Deleting a
-  reader deletes theirs.
+  reader deletes theirs. The eighth (sprint 046) is the ask ledger (§Ask
+  costs). The ninth (sprint 054, korg 3570) counts visits, one row per
+  reader, frame and UTC day (`frame_visit`, §Traffic), and keeps the
+  site's admins. The export leaves visits out: they are telemetry, not
+  something the reader made. Deleting a reader deletes their visits.
 - **The adapter loads under plain Node.** `sqlite-reader-store.ts` imports
   only `node:` modules and types, so Node's type stripping can load it
   outside the app. The review-notes skill's script does that (§Notes), and so
@@ -2036,9 +2042,12 @@ after they started it.
 - **New to you.** A frame is new to a reader when it was added after
   their first visit to its subject (or after they last caught up on it)
   and they have not opened it (`newToYou`). A subject never visited has
-  nothing new: all of it is. Opening is being on the frame when the
-  place is written (800 ms after the reader stops); the store's `visit`
-  also starts the subject and counts as activity. Shown: on the spine
+  nothing new: all of it is. Opening is staying on the frame five
+  seconds (`VISIT_MS`, Ken, sprint 054): the same timer that counts a
+  visit (§Traffic), so a one-second flick past a picture does not mark a
+  new frame read. The place is still written at 800 ms (`PLACE_MS`), so
+  _Continue where you were_ keeps quick moves; it starts the subject and
+  counts as activity, but opens nothing. Shown: on the spine
   (the spark, §Marks), in the contents and on trail markers (a trail with
   a new frame says so), on the HUD's count, and on the start screen (a "2
   new" count in the subject list, "3 new since you started" under Begin). The
@@ -2231,6 +2240,47 @@ With **no AI pane** (the reader edition) the shell is two panes, Narrative
 and Notes as tabs. There is no Layout setting, no model setting and no Q&A
 section, and the start screen's line reads "A timeline you can read and
 annotate".
+
+## Traffic
+
+Built in sprint 054 (korg 3570, Ken's decisions of 2026-10-05). Ken wants to
+see which frames his readers read, the way GitHub's contribution graph shows
+days. It is for admins only.
+
+- **The grid** (`/admin/traffic`, `engine/traffic.ts`). One row per served
+  subject and one square per frame, in the contents' order (§Contents),
+  so a trail's frames follow the frame it branches from. They are drawn in
+  a second hue, and outlined so an unread trail frame is still told apart.
+  Rows wrap; AI's ~100 squares fit at 390px. A square's brightness is the
+  number of **distinct readers who opened it** (the `seen` table, history
+  included), in GitHub's five steps: 0, 1, 2, 3, then 4 or more. It is not
+  visit volume, and there are no quartiles. The legend reads _Less … More_.
+- **Reading it.** A square is a link that opens the frame, named for
+  assistive technology with its title, position, trail and readers.
+  Hovering or focusing one shows the same in a readout above the grid. Each
+  row is one tab stop (a roving tabindex): ←/→, Home and End move along
+  it, ↑/↓ between rows, and Enter opens the frame. The page follows the
+  system's light or dark (`Plain`, wide).
+- **Visits** (`frame_visit`). Staying five seconds on a frame
+  (`VISIT_MS`) posts `POST /api/reader/visit`, which adds one to the
+  reader's count for that frame and UTC day, and opens the frame (§What's
+  new). Moving on, or going Home, before then counts nothing. Ken flicks
+  through pictures for a second or two; any reading of the narrative goes
+  past five. The grid does not show visits yet. They accrue so a later
+  toggle can offer _readers_ (the default) or _visits_; the store's
+  `traffic()` already returns both.
+- **Admins** (`src/lib/server/admins.ts`, the `admin` table). Made only by
+  `admin.mjs admin enable` (docs/deploying.md §The admin CLI); only `ken`
+  for now. Anyone else, signed out included, gets the same 404 as a route
+  that was never there, and the start screen's _Traffic_ link is drawn
+  only for an admin. The page is in both editions behind the same check;
+  on kai it shows Ken's reading alone.
+- **Checked by** the store's tests (the migration from a schema-8 file,
+  the upsert across days, readers with trails, deletion), the route's (an
+  admin 200, anyone else 404), and `just traffic-check`. That check runs
+  its own dev server over seeded readers. It confirms a visit counts after 5
+  s and not 1 s, that the levels match readers 0/1/2/3/5, that trails sit
+  after their anchors, and that the page fits 390px in both themes.
 
 ## About
 

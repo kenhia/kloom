@@ -176,3 +176,22 @@ describe('suggestions', () => {
 		expect(JSON.parse(run(dir, 'suggestions', '--json').stdout)).toEqual([]);
 	});
 });
+
+describe('admins (korg 3570)', () => {
+	it('are given, listed and taken away by login or username, and go with a deleted reader', async () => {
+		const { dir, done } = setup();
+		done();
+		expect(run(dir, 'admin', 'enable', 'nobody').stderr).toMatch(/no reader "nobody"/);
+		expect(run(dir, 'admin', 'enable', 'kt').stdout).toContain('kt: admin');
+		expect(run(dir, 'admin', 'enable', 'ken@github').status).toBe(0);
+		expect(
+			JSON.parse(run(dir, 'admin', 'list', '--json').stdout).map(
+				(a: { reader: string }) => a.reader
+			)
+		).toEqual(['ken@github', login]);
+		expect(run(dir, 'admin', 'disable', 'ken@github').stdout).toContain('no longer an admin');
+		expect(run(dir, 'admin', 'disable', 'ken@github').status).toBe(1);
+		expect(run(dir, 'delete', 'kt', '--yes').status).toBe(0);
+		expect(run(dir, 'admin', 'list').stdout).toBe('No admins.\n');
+	});
+});

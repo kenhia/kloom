@@ -51,6 +51,7 @@
 	import type { StartLook } from '$engine/start';
 	import type { LibraryStats } from '$engine/stats';
 	import { UserSettings } from '$engine/user-settings.svelte';
+	import { PLACE_MS, VISIT_MS } from '$engine/reader-data';
 	import { inscription, loomCredit } from '$lib/start/credit';
 	import type { PageProps } from './$types';
 	import type { Placed } from './+page.server';
@@ -422,6 +423,7 @@
 	// shared, and kept as their place a moment after they stop moving.
 	let current = $state<FrameHead | null>(null);
 	let placeTimer: ReturnType<typeof setTimeout> | undefined;
+	let visitTimer: ReturnType<typeof setTimeout> | undefined;
 	// Each subject's place as the reader's store has it (korg 3432): loaded
 	// with the page, and moved here at once as the reader moves, so the start
 	// screen never waits on the write. A later load keeps whichever is newer.
@@ -429,7 +431,8 @@
 	const places = $derived(newerPlaces(moved, data.readerData?.places ?? {}));
 	$effect(() => {
 		const f = current;
-		if (!started || !f) return;
+		// Home before five seconds is not a visit.
+		if (!started || !f) return clearTimeout(visitTimer);
 		const subject = data.subject.id;
 		untrack(() => {
 			const href = frameHref(subject, f.id);
@@ -444,17 +447,22 @@
 				[subject]: { subject, frame: f.id, label, at, subjectTitle: here.title }
 			};
 			clearTimeout(placeTimer);
+			clearTimeout(visitTimer);
 			placeTimer = setTimeout(async () => {
 				if (!(await write(resolve('/api/reader/place'), 'POST', { subject, frame: f.id, label })))
 					return;
-				// Being on it opened it, and a first visit started the subject (§What's new).
-				seenHere(subject, [f.id]);
+				// A first place in a subject started it (§What's new).
 				if (news && !news.readings[subject])
 					news = {
 						...news,
 						readings: { ...news.readings, [subject]: { first: at, caughtUp: null } }
 					};
-			}, 800);
+			}, PLACE_MS);
+			// Staying is a visit (§Traffic), and a visit opens the frame: a flick past does neither.
+			visitTimer = setTimeout(async () => {
+				if (await write(resolve('/api/reader/visit'), 'POST', { subject, frame: f.id }))
+					seenHere(subject, [f.id]);
+			}, VISIT_MS);
 		});
 	});
 
@@ -706,6 +714,7 @@
 		about={{ stats: loadStats, build: __KLOOM_BUILD__ || undefined, suggest, ask: !!data.ai }}
 		help={resolve('/welcome')}
 		guide={resolve('/guide')}
+		traffic={data.admin ? resolve('/admin/traffic') : undefined}
 		signOut={data.reader?.signedIn ? { action: resolve('/signout'), who: data.reader.name } : null}
 	/>
 {/if}

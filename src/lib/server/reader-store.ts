@@ -3,6 +3,7 @@ import type { DatabaseSync } from 'node:sqlite';
 import { env } from '$env/dynamic/private';
 import type { ReaderStore } from '$engine/reader-data';
 import { DEFAULT_DOMAIN, openAccounts, type Accounts } from './accounts';
+import { openAdmins, type Admins } from './admins';
 import { openAskLedger, type AskLedger } from './ask-ledger';
 import { dataDir } from './config';
 import { openReaderDb, openReaderStore } from './sqlite-reader-store';
@@ -15,6 +16,7 @@ let db: DatabaseSync | null = null;
 let shared: ReaderStore | null = null;
 let accountsShared: Accounts | null = null;
 let ledgerShared: AskLedger | null = null;
+let adminsShared: Admins | null = null;
 
 /** `<dataDir>/reader.db`, opened on first use; the store and the accounts share it. */
 function readerDb(): DatabaseSync {
@@ -43,6 +45,17 @@ export function accounts(): Accounts {
 export function askLedger(): AskLedger {
 	ledgerShared ??= openAskLedger(readerDb());
 	return ledgerShared;
+}
+
+/** The site's admins (admins.ts), who may see the traffic page, in the same file. */
+export function admins(): Admins {
+	adminsShared ??= openAdmins(readerDb());
+	return adminsShared;
+}
+
+/** Put other admins in their place: tests use throwaway ones. */
+export function useAdmins(a: Admins) {
+	adminsShared = a;
 }
 
 /** Put another ledger in its place: tests use a throwaway one. */
