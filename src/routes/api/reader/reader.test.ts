@@ -13,6 +13,7 @@ import {
 	POST as saveNote
 } from './notes/+server';
 import { POST as visit } from './place/+server';
+import { POST as frameVisit } from './visit/+server';
 import { POST as catchUp } from './caught-up/+server';
 import { POST as markSeen } from './seen/+server';
 import { readerNews } from '$lib/server/whats-new';
@@ -68,6 +69,7 @@ describe('reader data needs a reader', () => {
 		expect(await call(forget, send('DELETE', {}, null))).toMatchObject({ status: 401 });
 		expect(await call(markSeen, send('POST', {}, null))).toMatchObject({ status: 401 });
 		expect(await call(catchUp, send('POST', {}, null))).toMatchObject({ status: 401 });
+		expect(await call(frameVisit, send('POST', first, null))).toMatchObject({ status: 401 });
 	});
 });
 
@@ -92,7 +94,10 @@ describe('what is new to a reader (korg 3525)', () => {
 		expect(before).toContain('prometheus');
 		expect((await readerNews(store, ada.login)).fresh).toEqual({});
 
+		// A place alone does not open it (a flick past); five seconds' visit does (korg 3570).
 		await call(visit, send('POST', first));
+		expect((await readerNews(store, ken.login)).fresh['western-civ']).toContain('prometheus');
+		expect(await body(await call(frameVisit, send('POST', first)))).toEqual({ ok: true });
 		expect((await readerNews(store, ken.login)).fresh['western-civ']).not.toContain('prometheus');
 		expect(
 			await body(
@@ -121,6 +126,12 @@ describe('what is new to a reader (korg 3525)', () => {
 			status: 404
 		});
 		expect(await call(catchUp, send('POST', { subject: '../x' }))).toMatchObject({ status: 404 });
+		expect(await call(frameVisit, send('POST', { ...first, frame: 'nope' }))).toMatchObject({
+			status: 400
+		});
+		expect(await call(frameVisit, send('POST', { ...first, subject: 'nope' }))).toMatchObject({
+			status: 404
+		});
 	});
 });
 
@@ -154,6 +165,7 @@ describe('bookmarks', () => {
 describe('export and import', () => {
 	it('exports a reader’s data as a file, and imports it under another', async () => {
 		await call(visit, send('POST', first));
+		await call(frameVisit, send('POST', first));
 		await call(mark, send('POST', first));
 		const res = (await call(exportData, read())) as Response;
 		expect(res.headers.get('content-disposition')).toMatch(

@@ -216,6 +216,7 @@ describe('deleting a reader', () => {
 		await welcomed(accounts);
 		const login = accounts.loginOf('j-n-k');
 		await store.visit(login, { subject: 'western-civ', frame: 'fire', label: 'Fire' });
+		await store.frameVisit(login, 'western-civ', 'fire');
 		await store.bookmark(login, { subject: 'western-civ', frame: 'fire', label: 'Fire' });
 		await store.saveNote(login, {
 			subject: 'western-civ',
@@ -232,6 +233,7 @@ describe('deleting a reader', () => {
 			kept: 0,
 			readings: 1,
 			seen: 1,
+			visits: 1,
 			suggestions: 0
 		});
 		expect(accounts.remove('j-n-k')).toBe(true);

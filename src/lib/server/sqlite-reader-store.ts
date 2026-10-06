@@ -4,6 +4,7 @@ import { dirname } from 'node:path';
 import { DatabaseSync } from 'node:sqlite';
 import type {
 	Bookmark,
+	FrameTraffic,
 	Kept,
 	Note,
 	Place,
@@ -192,6 +193,23 @@ const MIGRATIONS = [
 	CREATE TABLE ask_access (
 		reader TEXT PRIMARY KEY,
 		cap_usd REAL,
+		enabled TEXT NOT NULL
+	);`,
+	// Sprint 054 (korg 3570): visits, five seconds on a frame, counted per
+	// reader, frame and UTC day; and the site's admins (admins.ts), the
+	// readers who may see the traffic page. Visits are telemetry, so the
+	// export leaves them out and deleting a reader removes them.
+	`CREATE TABLE frame_visit (
+		reader TEXT NOT NULL,
+		subject TEXT NOT NULL,
+		frame TEXT NOT NULL,
+		day TEXT NOT NULL,
+		n INTEGER NOT NULL,
+		PRIMARY KEY (reader, subject, frame, day)
+	);
+	CREATE INDEX frame_visit_frame ON frame_visit (subject, frame);
+	CREATE TABLE admin (
+		reader TEXT PRIMARY KEY,
 		enabled TEXT NOT NULL
 	);`
 ];
@@ -398,6 +416,18 @@ export function openReaderStore(
 	const seenOf = db.prepare(
 		'SELECT subject, frame, at FROM seen WHERE reader = ? ORDER BY subject, frame'
 	);
+	// Traffic (korg 3570): a visit a day per row, and readers per frame from what they opened.
+	const putVisit = db.prepare(
+		`INSERT INTO frame_visit (reader, subject, frame, day, n) VALUES (?, ?, ?, ?, 1)
+		 ON CONFLICT (reader, subject, frame, day) DO UPDATE SET n = frame_visit.n + 1`
+	);
+	const traffic = db.prepare(
+		`SELECT subject, frame, sum(readers) AS readers, sum(visits) AS visits FROM (
+			SELECT subject, frame, count(*) AS readers, 0 AS visits FROM seen GROUP BY subject, frame
+			UNION ALL
+			SELECT subject, frame, 0, sum(n) FROM frame_visit GROUP BY subject, frame
+		) GROUP BY subject, frame ORDER BY subject, frame`
+	);
 	const activityOf = db.prepare('SELECT active, previous FROM activity WHERE reader = ?');
 	const putActivity = db.prepare(
 		`INSERT INTO activity (reader, active, previous) VALUES (?, ?, ?)
@@ -454,7 +484,8 @@ export function openReaderStore(
 		suggestion: db.prepare('DELETE FROM suggestion WHERE reader = ?'),
 		reading: db.prepare('DELETE FROM reading WHERE reader = ?'),
 		seen: db.prepare('DELETE FROM seen WHERE reader = ?'),
-		activity: db.prepare('DELETE FROM activity WHERE reader = ?')
+		activity: db.prepare('DELETE FROM activity WHERE reader = ?'),
+		visit: db.prepare('DELETE FROM frame_visit WHERE reader = ?')
 	};
 
 	return {
@@ -462,11 +493,22 @@ export function openReaderStore(
 			const at = stamp();
 			inTransaction(() => {
 				putPlace.run(reader, p.subject, p.frame, p.label, at);
-				// Being on a frame opens it, and the first visit to a subject starts it.
+				// The first place in a subject starts it; opening a frame waits for a visit.
 				startReading.run(reader, p.subject, at);
-				putSeen.run(reader, p.subject, p.frame, at);
 				touch(reader, at);
 			});
+		},
+		async frameVisit(reader, subject, frame) {
+			const at = stamp();
+			inTransaction(() => {
+				putVisit.run(reader, subject, frame, at.slice(0, 10));
+				// A visit opens the frame (§What's new), and starts the subject if nothing had.
+				startReading.run(reader, subject, at);
+				putSeen.run(reader, subject, frame, at);
+			});
+		},
+		async traffic() {
+			return traffic.all().map((r) => row<FrameTraffic>(r)!);
 		},
 		async readings(reader) {
 			const out: Record<string, Reading> = {};
@@ -663,6 +705,7 @@ export function openReaderStore(
 				kept: 0,
 				readings: 0,
 				seen: 0,
+				visits: 0,
 				suggestions: 0
 			};
 			inTransaction(() => {
@@ -673,6 +716,7 @@ export function openReaderStore(
 				n.readings = Number(dropAll.reading.run(reader).changes);
 				n.seen = Number(dropAll.seen.run(reader).changes);
 				dropAll.activity.run(reader);
+				n.visits = Number(dropAll.visit.run(reader).changes);
 				n.suggestions = Number(dropAll.suggestion.run(reader).changes);
 			});
 			return n;

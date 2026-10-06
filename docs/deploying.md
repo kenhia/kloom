@@ -198,9 +198,12 @@ for the people Ken invites.
 
 ### The admin CLI
 
-There is no admin on the site. `admin.mjs` runs where `reader.db` is, with
-plain Node 24, through the accounts module and the reader store. On Fly it
-runs through `fly ssh console -C`, so Fly's own sign-in is the admin's.
+The site has one admin page, the traffic grid (`/admin/traffic`,
+docs/design.md §Traffic), and nothing on it administers. Everything that
+changes something is `admin.mjs`, run where `reader.db` is, with plain Node
+24, through the accounts module, the reader store, the ask ledger and the
+admins module. On Fly it runs through `fly ssh console -C`, so Fly's own
+sign-in is the admin's.
 
 ```sh
 node admin.mjs add <username> <display name>      # no password until their link
@@ -215,7 +218,21 @@ node admin.mjs handle-notes '<JSON list>'          # several answers in one call
 node admin.mjs detached [--library FILE] [--json]  # notes whose frame or words are gone
 node admin.mjs suggestions [--status S] [--json]   # subjects readers suggested
 node admin.mjs mark-suggestion <reader> <id> new|planned|written|declined
+node admin.mjs reader-ask enable|disable <reader> [--cap USD]
+node admin.mjs admin enable|disable <reader>       # who may see /admin/traffic
+node admin.mjs admin list [--json]
 ```
+
+**Admins** (sprint 054, korg 3570) are kept by login in `reader.db`'s
+`admin` table, as `ask_access` keeps ask. `admin enable` is the only way one
+is made; `delete` takes the flag with the account. On the public site, `just
+site-admin enable ken` (`disable`, `list`). Only `ken` is an admin there.
+The page is in both editions behind the same check: on kai, with one
+reader, Ken makes his tailnet login an admin (`just admin admin enable
+ken@github`, with `--data` the service's data directory) and the grid shows
+his reading alone. Nobody else is told the page exists. The start screen's
+_Traffic_ link appears only for an admin, and the page answers anyone else,
+signed out included, with the same 404 as a route that was never there.
 
 A reader is a username or a login. `handle-note` refuses a note that is gone
 or no longer flagged and, given `--seen` (the `updated` it was listed with),

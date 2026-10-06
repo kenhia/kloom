@@ -1,7 +1,7 @@
 import { redirect } from '@sveltejs/kit';
 import { aiOffer } from '$edition/offer';
 import type { AiOffered } from '$lib/server/offer';
-import { readerStore } from '$lib/server/reader-store';
+import { admins, readerStore } from '$lib/server/reader-store';
 import { readerNews } from '$lib/server/whats-new';
 import {
 	servedBody,
@@ -24,6 +24,16 @@ export type Placed<T> = T & { subjectTitle: string };
 //
 // The page carries every frame's head and only the bodies around the frame
 // it opens on; the shell fetches the rest as the reader moves.
+/** Whether this reader is an admin; a store that fails says no. */
+function isAdmin(login: string | undefined) {
+	try {
+		return admins().is(login);
+	} catch (e) {
+		console.error('admins: could not read the store', e);
+		return false;
+	}
+}
+
 export const load: PageServerLoad = async ({ params, locals }) => {
 	const [subject, ai, subjects, build] = await Promise.all([
 		servedSubject(params.subject),
@@ -96,6 +106,8 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 			? { name: locals.reader.name, signedIn: locals.reader.via === 'session' }
 			: null,
 		readerData,
+		// An admin is offered the traffic page (§Traffic); nobody else hears of it.
+		admin: isAdmin(locals.reader?.login),
 		// The AI pane's offer; null in the reader edition, which has no AI pane.
 		ai
 	};

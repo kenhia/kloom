@@ -193,16 +193,37 @@ export function suggestionOf(v: unknown): SuggestionInput | null {
 	return { title, cover, why };
 }
 
+/**
+ * The dwell timers (docs/design.md §Reader data, §Traffic; korg 3570). A
+ * frame becomes the reader's place this long after they stop on it, so
+ * "Continue" keeps even quick moves.
+ */
+export const PLACE_MS = 800;
+/**
+ * Staying this long on a frame is a visit: counted for the traffic page, and
+ * the frame is opened (§What's new). A glance at the picture is shorter;
+ * any reading of the narrative is longer.
+ */
+export const VISIT_MS = 5000;
+
 /** Longest note accepted, in characters. */
 export const NOTE_MAX = 10_000;
 
 export interface ReaderStore {
 	/**
 	 * Record that `reader` is on this frame now: their place in its subject.
-	 * It also opens the frame, starts the subject if this is their first
-	 * visit to it, and counts as activity, for "since my last visit".
+	 * It also starts the subject if this is their first place in it, and
+	 * counts as activity, for "since my last visit". It does not open the
+	 * frame: `frameVisit` does.
 	 */
 	visit(reader: string, place: Omit<Place, 'at'>): Promise<void>;
+	/**
+	 * `reader` stayed on this frame long enough to count (§Traffic, korg
+	 * 3570): one more visit to it today, and it is opened (§What's new).
+	 */
+	frameVisit(reader: string, subject: string, frame: string): Promise<void>;
+	/** Every frame anyone has opened: distinct readers, and visits counted (§Traffic). Across readers. */
+	traffic(): Promise<FrameTraffic[]>;
 	/** Each subject they have started: their first visit, and when they caught up (korg 3525). */
 	readings(reader: string): Promise<Record<string, Reading>>;
 	/** The frames they have opened or marked seen, by subject. */
@@ -288,9 +309,21 @@ export interface ReaderStore {
 	deleteReader(reader: string): Promise<DeletedCounts>;
 }
 
-/** What `deleteReader` removed: everything an import carries, and suggestions, which it does not. */
+/**
+ * What `deleteReader` removed: everything an import carries, and suggestions
+ * and visits, which it does not.
+ */
 export interface DeletedCounts extends ImportCounts {
 	suggestions: number;
+	visits: number;
+}
+
+/** One frame's traffic (§Traffic): readers who opened it, and the visits counted to it. */
+export interface FrameTraffic {
+	subject: string;
+	frame: string;
+	readers: number;
+	visits: number;
 }
 
 export interface ImportCounts {

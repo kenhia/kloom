@@ -313,6 +313,25 @@ hud-check:
     fi
     node create-tools/hud-check/hud_check.mjs --url "$url"
 
+# Traffic (korg 3570): a visit counted after 5 s on a frame and not after
+# 1 s, the grid's levels against readers seeded 0/1/2/3/5, trails after
+# their anchors, 390px in dark and light, and the page a 404 once the reader
+# is not an admin. Its own dev server on :5418 over a seeded data directory
+# in .scratch, so no real reader data is touched
+traffic-check:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    data="$PWD/.scratch/traffic-check"
+    rm -rf "$data" && mkdir -p "$data"
+    login=checker@kloom.test
+    node create-tools/traffic-check/traffic_check.mjs --seed "$data" --admin "$login"
+    KLOOM_DATA_DIR="$data" KLOOM_LOCAL_LOGIN="$login" \
+        node_modules/.bin/vite dev --host 127.0.0.1 --port 5418 --strictPort >"$data/server.log" 2>&1 &
+    server=$!
+    trap 'kill $server' EXIT
+    for _ in $(seq 240); do curl -sf -o /dev/null http://127.0.0.1:5418/ && break; sleep 0.5; done
+    node create-tools/traffic-check/traffic_check.mjs --url http://127.0.0.1:5418 --data "$data" --subjects subjects
+
 # The start screen (korg 3514) at 1024x768, 1280x800, 1400x900 and 390x844,
 # with the library as served and with 24 subjects: every title on one line
 # and on screen, the list in the dial's band and never meeting the title, the
@@ -485,6 +504,12 @@ disable-reader username:
 # Give a public reader ask, or take it away
 reader-ask action *args:
     {{ fly }} ssh console -a {{ fly_app }} -q -C "node --disable-warning=ExperimentalWarning /app/admin.mjs --data /data reader-ask {{ action }} {{ args }}"
+
+# The public site's admins (korg 3570): `enable <reader>` lets a reader see
+# /admin/traffic, `disable <reader>` stops it, `list`. Nobody else hears of it.
+# Make a public reader an admin, or stop
+site-admin action *args:
+    {{ fly }} ssh console -a {{ fly_app }} -q -C "node --disable-warning=ExperimentalWarning /app/admin.mjs --data /data admin {{ action }} {{ args }}"
 
 # This month's spend on the public site, per reader and site-wide, each with
 # its cap (kloom.reader.json): `--json` is the report kmon collects (korg

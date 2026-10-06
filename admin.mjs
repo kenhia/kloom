@@ -23,6 +23,8 @@
 //   node admin.mjs [--data DIR] reader-ask list [--json]
 //   node admin.mjs [--data DIR] ask-usage [--month YYYY-MM] [--config FILE] [--json]
 //   node admin.mjs [--data DIR] ask-costs [--since DATE] [--until DATE] [--reader READER] [--model MODEL] [--json]
+//   node admin.mjs [--data DIR] admin enable|disable READER
+//   node admin.mjs [--data DIR] admin list [--json]
 //   node admin.mjs [--data DIR] --args-b64 BASE64
 //
 // `invite` prints a welcome link, good once for a week; a display name adds
@@ -54,6 +56,10 @@
 // with --json. `ask-costs` is the cost per ask over any span: count, total,
 // mean, p50, p90, per 1k output tokens and the web's share, per model.
 //
+// The site's admins (korg 3570; src/lib/server/admins.ts): `admin enable`
+// lets a reader see the traffic page (/admin/traffic), `disable` stops it.
+// It is the only way an admin is made; the site has no page for it.
+//
 // `--args-b64` stands for arguments given as a base64 JSON list, so text
 // passes `fly ssh console -C`, which splits on spaces and keeps no quotes,
 // whole.
@@ -63,6 +69,7 @@ import { join, resolve } from 'node:path';
 import { DatabaseSync } from 'node:sqlite';
 import { detachment } from './engine/anchor.ts';
 import { AccountError, DEFAULT_DOMAIN, openAccounts } from './src/lib/server/accounts.ts';
+import { openAdmins } from './src/lib/server/admins.ts';
 import { openReaderDb, openReaderStore } from './src/lib/server/sqlite-reader-store.ts';
 import {
 	costReport,
@@ -90,6 +97,8 @@ const usage = `usage:
   admin.mjs [--data DIR] reader-ask list [--json]
   admin.mjs [--data DIR] ask-usage [--month YYYY-MM] [--config FILE] [--json]
   admin.mjs [--data DIR] ask-costs [--since DATE] [--until DATE] [--reader READER] [--model MODEL] [--json]
+  admin.mjs [--data DIR] admin enable|disable READER
+  admin.mjs [--data DIR] admin list [--json]
   admin.mjs [--data DIR] --args-b64 BASE64`;
 
 const STATUSES = ['new', 'planned', 'written', 'declined'];
@@ -153,6 +162,7 @@ const db = openReaderDb(join(dataDir, 'reader.db'));
 const accounts = openAccounts(db, { domain: process.env.KLOOM_LOGIN_DOMAIN || DEFAULT_DOMAIN });
 const store = openReaderStore(db);
 const ledger = openAskLedger(db);
+const admins = openAdmins(db);
 
 /** The ask caps in the app config, or undefined (uncapped). */
 function askCaps() {
@@ -259,6 +269,7 @@ try {
 			const removed = await store.deleteReader(accounts.loginOf(a.username));
 			// Their ask goes; what they spent stays in the cost log, which holds no words of theirs.
 			ledger.revoke(accounts.loginOf(a.username));
+			admins.disable(accounts.loginOf(a.username));
 			accounts.remove(a.username);
 			console.log(
 				`deleted ${a.username}: ${removed.notes} notes, ${removed.bookmarks} bookmarks, ` +
@@ -427,6 +438,27 @@ try {
 			});
 			if (json) console.log(JSON.stringify(summarize(rows), null, 2));
 			else console.log(costReport(rows));
+			break;
+		}
+		case 'admin': {
+			const [who] = rest;
+			if (username === 'list') {
+				const all = admins.list().map((a) => ({ ...a, name: nameOf(a.reader) }));
+				if (json) console.log(JSON.stringify(all, null, 2));
+				else if (!all.length) console.log('No admins.');
+				else for (const a of all) console.log(`${a.name} (${a.reader})  since ${when(a.enabled)}`);
+				break;
+			}
+			if (!['enable', 'disable'].includes(username) || !who) fail(usage);
+			if (!who.includes('@') && !accounts.get(who)) fail(`There is no reader "${who}".`);
+			const login = loginFor(who);
+			if (username === 'disable') {
+				if (!admins.disable(login)) fail(`${who} is not an admin.`);
+				console.log(`${who}: no longer an admin`);
+				break;
+			}
+			admins.enable(login);
+			console.log(`${who}: admin; /admin/traffic is theirs to see`);
 			break;
 		}
 		default:

@@ -328,6 +328,12 @@ Sprint 053 keys round two: Q to the ask box (the tab showing stays), H to
 the start screen, G to the settings (Esc returns focus where it was),
 PageUp and PageDown a section at a time (`segmentStep`, on a trail too),
 Send bringing the AI tab forward, and Tab left as the browser's own order.
+Sprint 054 traffic for admins: kloom's first site admin (`admin.mjs admin`,
+an `admin` table, `just site-admin`), `/admin/traffic`, a GitHub-style grid
+of distinct readers per frame (0/1/2/3/4+, trails after their anchors, a
+404 for anyone else), and a `frame_visit` counter at 5 s on a frame, which
+is now also what opens a frame for what's new (the place stays at 800 ms;
+`just traffic-check`).
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

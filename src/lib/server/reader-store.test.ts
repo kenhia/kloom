@@ -9,6 +9,7 @@ import { context } from '$engine/ai/fixture';
 import { parseExport } from '$engine/reader-data';
 import { migrateKeptFiles } from './kept-files';
 import { openReaderStore, SCHEMA_VERSION } from './reader-store';
+import { openReaderDb } from './sqlite-reader-store';
 
 /** A clock the test moves: each call is a second after the last. */
 function clock(start = Date.parse('2026-09-28T12:00:00Z')) {
@@ -56,14 +57,17 @@ describe('what is new to a reader (korg 3525)', () => {
 		return now;
 	};
 
-	it('starts a subject on the first visit to it, and opens each frame visited', async () => {
+	it('starts a subject on the first place in it, and opens each frame visited', async () => {
 		const now = settable('2026-10-01T09:00:00Z');
 		const store = openReaderStore(':memory:', now);
 		expect(await store.readings(ken)).toEqual({});
 		await store.visit(ken, at('nursing', 'nightingale'));
+		await store.frameVisit(ken, 'nursing', 'nightingale');
 		now.set('2026-10-02T09:00:00Z');
 		await store.visit(ken, at('nursing', 'navy-pow'));
+		await store.frameVisit(ken, 'nursing', 'navy-pow');
 		await store.visit(ada, at('blood', 'harvey'));
+		await store.frameVisit(ada, 'blood', 'harvey');
 		expect(await store.readings(ken)).toEqual({
 			nursing: { first: '2026-10-01T09:00:00.000Z', caughtUp: null }
 		});
@@ -112,6 +116,7 @@ describe('what is new to a reader (korg 3525)', () => {
 	it('carries readings and seen frames through an export: earlier first visits, later watermarks', async () => {
 		const from = openReaderStore(':memory:', settable('2026-10-01T09:00:00Z'));
 		await from.visit(ken, at('ai', 'turing'));
+		await from.frameVisit(ken, 'ai', 'turing');
 		await from.catchUp(ken, 'ai');
 		const parsed = parseExport(JSON.parse(JSON.stringify(await from.exportData(ken))));
 		if ('error' in parsed) throw new Error(parsed.error);
@@ -121,6 +126,7 @@ describe('what is new to a reader (korg 3525)', () => {
 		const now = settable('2026-10-05T09:00:00Z');
 		const to = openReaderStore(':memory:', now);
 		await to.visit(ada, at('ai', 'dartmouth'));
+		await to.frameVisit(ada, 'ai', 'dartmouth');
 		await to.catchUp(ada, 'ai');
 		await to.importData(ada, parsed);
 		expect((await to.readings(ada)).ai).toEqual({
@@ -147,7 +153,7 @@ describe('what is new to a reader (korg 3525)', () => {
 		// Back to sprint 041's schema, with the records kept.
 		const raw = new DatabaseSync(path);
 		raw.exec(
-			`DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access; PRAGMA user_version = 6;`
+			`DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access; DROP TABLE frame_visit; DROP TABLE admin; PRAGMA user_version = 6;`
 		);
 		raw.close();
 		const store = openReaderStore(path, settable('2026-10-03T09:00:00Z'));
@@ -495,6 +501,7 @@ describe('export and import', () => {
 	it('round-trips through the export format into another reader', async () => {
 		const from = openReaderStore(':memory:', clock());
 		await from.visit(ken, at('ai', 'turing'));
+		await from.frameVisit(ken, 'ai', 'turing');
 		await from.bookmark(ken, at('western-civ', 'fire'));
 		const file = JSON.parse(JSON.stringify(await from.exportData(ken)));
 		const parsed = parseExport(file);
@@ -532,6 +539,78 @@ describe('export and import', () => {
 			seen: []
 		});
 		expect(await store.lastVisited(ken, 'ai')).toMatchObject({ frame: 'transformer' });
+	});
+});
+
+describe('traffic (korg 3570)', () => {
+	/** A clock the test sets. */
+	const settable = (start: string) => {
+		let t = Date.parse(start);
+		const now = () => new Date(t);
+		now.set = (iso: string) => (t = Date.parse(iso));
+		return now;
+	};
+
+	it('counts a visit to a frame once a day per reader, adding up across days', async () => {
+		const now = settable('2026-10-05T23:59:00Z');
+		const db = openReaderDb(':memory:');
+		const store = openReaderStore(db, now);
+		await store.frameVisit(ken, 'ai', 'turing');
+		await store.frameVisit(ken, 'ai', 'turing');
+		now.set('2026-10-06T00:01:00Z');
+		await store.frameVisit(ken, 'ai', 'turing');
+		await store.frameVisit(ada, 'ai', 'turing');
+		expect(
+			db.prepare('SELECT reader, frame, day, n FROM frame_visit ORDER BY reader, day').all()
+		).toEqual([
+			{ reader: ada, frame: 'turing', day: '2026-10-06', n: 1 },
+			{ reader: ken, frame: 'turing', day: '2026-10-05', n: 2 },
+			{ reader: ken, frame: 'turing', day: '2026-10-06', n: 1 }
+		]);
+	});
+
+	it('opens a frame on a visit, not on the place alone (§What’s new)', async () => {
+		const store = openReaderStore(':memory:', clock());
+		await store.visit(ken, at('ai', 'turing'));
+		expect(await store.seenFrames(ken)).toEqual({});
+		expect(Object.keys(await store.readings(ken))).toEqual(['ai']);
+		await store.frameVisit(ken, 'ai', 'turing');
+		expect(await store.seenFrames(ken)).toEqual({ ai: ['turing'] });
+	});
+
+	it('counts distinct readers per frame from what they opened, and visits beside them', async () => {
+		const store = openReaderStore(':memory:', clock());
+		// Seen without a visit: history from before the counter, or "Mark all as seen".
+		await store.markSeen(ken, 'ai', ['turing', 'dartmouth']);
+		await store.frameVisit(ken, 'ai', 'turing');
+		await store.frameVisit(ken, 'ai', 'turing');
+		await store.frameVisit(ada, 'ai', 'turing');
+		await store.frameVisit(ada, 'blood', 'harvey');
+		expect(await store.traffic()).toEqual([
+			{ subject: 'ai', frame: 'dartmouth', readers: 1, visits: 0 },
+			{ subject: 'ai', frame: 'turing', readers: 2, visits: 3 },
+			{ subject: 'blood', frame: 'harvey', readers: 1, visits: 1 }
+		]);
+	});
+
+	it('forgets a deleted reader’s visits', async () => {
+		const db = openReaderDb(':memory:');
+		const store = openReaderStore(db, clock());
+		await store.frameVisit(ken, 'ai', 'turing');
+		await store.frameVisit(ada, 'ai', 'turing');
+		expect((await store.deleteReader(ken)).visits).toBe(1);
+		expect(db.prepare('SELECT reader FROM frame_visit').all()).toEqual([{ reader: ada }]);
+		expect(await store.traffic()).toEqual([
+			{ subject: 'ai', frame: 'turing', readers: 1, visits: 1 }
+		]);
+	});
+
+	it('leaves visits out of the export: telemetry, not something the reader made', async () => {
+		const store = openReaderStore(':memory:', clock());
+		await store.frameVisit(ken, 'ai', 'turing');
+		const file = await store.exportData(ken);
+		expect(Object.keys(file)).not.toContain('visits');
+		expect(file.seen).toMatchObject([{ subject: 'ai', frame: 'turing' }]);
 	});
 });
 
@@ -616,7 +695,7 @@ describe('the file', () => {
 		const raw = new DatabaseSync(path);
 		raw.exec(`ALTER TABLE note DROP COLUMN unseen;
 			DROP TABLE account; DROP TABLE session; DROP TABLE invite; DROP TABLE suggestion;
-			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access;
+			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access; DROP TABLE frame_visit; DROP TABLE admin;
 			PRAGMA user_version = 3;`);
 		raw.close();
 		const store = openReaderStore(path, clock());
@@ -637,7 +716,7 @@ describe('the file', () => {
 		// Back to sprint 034's schema, before the reader edition's sign-in.
 		const raw = new DatabaseSync(path);
 		raw.exec(`DROP TABLE account; DROP TABLE session; DROP TABLE invite; DROP TABLE suggestion;
-			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access;
+			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access; DROP TABLE frame_visit; DROP TABLE admin;
 			PRAGMA user_version = 4;`);
 		raw.close();
 		const store = openReaderStore(path, clock());
@@ -658,7 +737,7 @@ describe('the file', () => {
 		// Back to sprint 039's schema, the one the public site first shipped with.
 		const raw = new DatabaseSync(path);
 		raw.exec(`DROP TABLE suggestion;
-			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access; PRAGMA user_version = 5;`);
+			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access; DROP TABLE frame_visit; DROP TABLE admin; PRAGMA user_version = 5;`);
 		raw.close();
 		const store = openReaderStore(path, clock());
 		expect((await store.allNotes(ken)).map((x) => x.text)).toEqual(['kept']);
@@ -674,7 +753,9 @@ describe('the file', () => {
 		before.close();
 		// Back to sprint 043's schema, the one the public site ran before ask.
 		const raw = new DatabaseSync(path);
-		raw.exec(`DROP TABLE ask_cost; DROP TABLE ask_access; PRAGMA user_version = 7;`);
+		raw.exec(
+			`DROP TABLE ask_cost; DROP TABLE ask_access; DROP TABLE frame_visit; DROP TABLE admin; PRAGMA user_version = 7;`
+		);
 		raw.close();
 		const store = openReaderStore(path, clock());
 		expect((await store.allNotes(ken)).map((x) => x.text)).toEqual(['kept']);
@@ -682,6 +763,31 @@ describe('the file', () => {
 		const after = new DatabaseSync(path);
 		expect(after.prepare('SELECT count(*) AS n FROM ask_cost').get()).toEqual({ n: 0 });
 		expect(after.prepare('SELECT count(*) AS n FROM ask_access').get()).toEqual({ n: 0 });
+		expect(after.prepare('PRAGMA user_version').get()).toEqual({ user_version: SCHEMA_VERSION });
+		after.close();
+	});
+
+	it('moves a file made at schema 8 forward: visits and admins arrive, the readers stay (sprint 054)', async () => {
+		dir = mkdtempSync(join(tmpdir(), 'kloom-reader-'));
+		const path = join(dir, 'reader.db');
+		const before = openReaderStore(path, clock());
+		await before.saveNote(ken, note('turing', 'kept'));
+		await before.markSeen(ken, 'ai', ['turing']);
+		before.close();
+		// Back to sprint 046's schema, the one the public site runs before this.
+		const raw = new DatabaseSync(path);
+		raw.exec(`DROP TABLE frame_visit; DROP TABLE admin; PRAGMA user_version = 8;`);
+		raw.close();
+		const store = openReaderStore(path, clock());
+		expect((await store.allNotes(ken)).map((x) => x.text)).toEqual(['kept']);
+		// History counts: the grid needs nothing the earlier schema lacked.
+		expect(await store.traffic()).toEqual([
+			{ subject: 'ai', frame: 'turing', readers: 1, visits: 0 }
+		]);
+		store.close();
+		const after = new DatabaseSync(path);
+		expect(after.prepare('SELECT count(*) AS n FROM frame_visit').get()).toEqual({ n: 0 });
+		expect(after.prepare('SELECT count(*) AS n FROM admin').get()).toEqual({ n: 0 });
 		expect(after.prepare('PRAGMA user_version').get()).toEqual({ user_version: SCHEMA_VERSION });
 		after.close();
 	});

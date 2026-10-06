@@ -76,6 +76,8 @@
 		help?: string;
 		/** The User's Guide's address (korg 3515), beside Welcome. */
 		guide?: string;
+		/** The traffic page's address (korg 3570), given only to an admin. */
+		traffic?: string;
 		/**
 		 * Signing out, for a reader signed in to the reader edition (korg 3501):
 		 * the form's action, and the login's display name.
@@ -114,6 +116,7 @@
 		about,
 		help,
 		guide,
+		traffic,
 		signOut = null
 	}: Props = $props();
 
@@ -493,7 +496,7 @@
 				Map of the library
 			</button>
 		{/if}
-		{#if help || guide || signOut}
+		{#if help || guide || traffic || signOut}
 			<div class="account">
 				{#if help}
 					<!-- An app route, resolved by the page. -->
@@ -504,6 +507,11 @@
 					<!-- An app route, resolved by the page. -->
 					<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
 					<a href={guide}>User's Guide</a>
+				{/if}
+				{#if traffic}
+					<!-- An app route, resolved by the page; an admin's alone. -->
+					<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
+					<a href={traffic}>Traffic</a>
 				{/if}
 				{#if signOut}
 					<!-- A plain form, so signing out works before the page's script has loaded. -->
