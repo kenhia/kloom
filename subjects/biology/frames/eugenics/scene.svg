@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M24 78 L392 78"/>
+		<path pathLength="1" d="M24 148 L392 148"/>
+		<path pathLength="1" d="M24 218 L392 218"/>
+		<path pathLength="1" d="M206 40 L206 262"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M78 78 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0"/>
+		<path pathLength="1" d="M39 71 L53 71 L53 85 L39 85 Z"/>
+		<path pathLength="1" d="M135 71 L149 71 L149 85 L135 85 Z"/>
+		<path pathLength="1" d="M58 148 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0"/>
+		<path pathLength="1" d="M142 148 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0"/>
+		<path pathLength="1" d="M107 141 L121 141 L121 155 L107 155 Z"/>
+		<path pathLength="1" d="M82 218 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0"/>
+		<path pathLength="1" d="M53 78 L78 78"/>
+		<path pathLength="1" d="M94 78 L135 78"/>
+		<path pathLength="1" d="M66 78 L66 124 L66 124 L66 140"/>
+		<path pathLength="1" d="M114 78 L114 124 L150 124 L150 140"/>
+		<path pathLength="1" d="M74 148 L77 148 M79.5 148 L82.5 148 M85 148 L88 148 M90.5 148 L93.5 148 M96 148 L99 148 M101.5 148 L104.5 148"/>
+		<path pathLength="1" d="M90 148 L90 194 L90 194 L90 210"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M79.2 78.2 L85.8 84.8 M79.5 75.9 L88.1 84.5 M80.4 74.2 L89.8 83.6 M81.6 72.8 L91.2 82.4 M83.2 71.8 L92.2 80.8 M85.2 71.2 L92.8 78.8 M88.1 71.5 L92.5 75.9"/>
+		<path pathLength="1" d="M59.2 148.2 L65.8 154.8 M59.5 145.9 L68.1 154.5 M60.4 144.2 L69.8 153.6 M61.6 142.8 L71.2 152.4 M63.2 141.8 L72.2 150.8 M65.2 141.2 L72.8 148.8 M68.1 141.5 L72.5 145.9"/>
+		<path pathLength="1" d="M83.2 218.2 L89.8 224.8 M83.5 215.9 L92.1 224.5 M84.4 214.2 L93.8 223.6 M85.6 212.8 L95.2 222.4 M87.2 211.8 L96.2 220.8 M89.2 211.2 L96.8 218.8 M92.1 211.5 L96.5 215.9"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M268 78 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0"/>
+		<path pathLength="1" d="M229 71 L243 71 L243 85 L229 85 Z"/>
+		<path pathLength="1" d="M325 71 L339 71 L339 85 L325 85 Z"/>
+		<path pathLength="1" d="M248 148 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0"/>
+		<path pathLength="1" d="M332 148 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0"/>
+		<path pathLength="1" d="M297 141 L311 141 L311 155 L297 155 Z"/>
+		<path pathLength="1" d="M272 218 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0"/>
+		<path pathLength="1" d="M243 78 L268 78"/>
+		<path pathLength="1" d="M284 78 L325 78"/>
+		<path pathLength="1" d="M256 78 L256 124 L256 124 L256 140"/>
+		<path pathLength="1" d="M304 78 L304 124 L340 124 L340 140"/>
+		<path pathLength="1" d="M264 148 L267 148 M269.5 148 L272.5 148 M275 148 L278 148 M280.5 148 L283.5 148 M286 148 L289 148 M291.5 148 L294.5 148"/>
+		<path pathLength="1" d="M280 148 L280 194 L280 194 L280 210"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M246 160 L266 160"/>
+		<path pathLength="1" d="M330 160 L350 160"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="114" y="30" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE COURT, 1927</text>
+		<text x="86" y="64" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EMMA</text>
+		<text x="66" y="170" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CARRIE</text>
+		<text x="150" y="170" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DORIS</text>
+		<text x="90" y="238" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VIVIAN</text>
+		<text x="304" y="30" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE RECORDS</text>
+		<text x="276" y="64" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EMMA</text>
+		<text x="256" y="170" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CARRIE</text>
+		<text x="340" y="170" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DORIS</text>
+		<text x="280" y="238" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VIVIAN</text>
+		<text x="14" y="80.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">I</text>
+		<text x="14" y="150.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">II</text>
+		<text x="14" y="220.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">III</text>
+		<text x="110" y="284" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HATCHED: "FEEBLE-MINDED"</text>
+		<text x="304" y="284" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BAR: STERILIZED</text>
+	</g>
+</svg>

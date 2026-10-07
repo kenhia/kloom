@@ -1,0 +1,213 @@
+{
+	"id": "lysenko",
+	"topic": "Lysenko and Soviet biology",
+	"position": {
+		"label": "1948",
+		"sort": 1948
+	},
+	"scene": {
+		"headline": "Stalin's Party banned",
+		"accent": "GENETICS.",
+		"palette": "garden",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MOSCOW · LENIN ACADEMY OF AGRICULTURAL SCIENCES",
+			"TROFIM LYSENKO · JULY 31 – AUGUST 7, 1948"
+		],
+		"counter": {
+			"value": "8 of 56",
+			"label": "speakers who defended genetics"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Lysenkoism Against Genetics: The Meeting of the Lenin All-Union Academy of Agricultural Sciences of August 1948, Its Background, Causes, and Aftermath",
+			"authors": [
+				{
+					"family": "Borinskaya",
+					"given": "Svetlana A."
+				},
+				{
+					"family": "Ermolaev",
+					"given": "Andrei I."
+				},
+				{
+					"family": "Kolchinsky",
+					"given": "Eduard I."
+				}
+			],
+			"container": "Genetics",
+			"volume": "212",
+			"issue": "1",
+			"pages": "1–12",
+			"published": "2019",
+			"doi": "10.1534/genetics.118.301413",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Situation in the Science of Biology",
+			"authors": [
+				{
+					"family": "Lysenko",
+					"given": "Trofim D."
+				}
+			],
+			"publisher": "Birch Books",
+			"published": "1950",
+			"url": "https://www.marxists.org/reference/archive/lysenko/works/1940s/report.htm",
+			"accessed": "2026-10-06",
+			"note": "His report of 31 July 1948 and concluding remarks, read in the transcription at marxists.org"
+		},
+		{
+			"kind": "article",
+			"title": "Exploring the Nature of Science through Courage and Purpose: A Case Study of Nikolai Vavilov and Plant Biodiversity",
+			"authors": [
+				{
+					"family": "Cohen",
+					"given": "Joel I."
+				},
+				{
+					"family": "Loskutov",
+					"given": "Igor G."
+				}
+			],
+			"container": "SpringerPlus",
+			"volume": "5",
+			"pages": "1159",
+			"published": "2016-07-22",
+			"doi": "10.1186/s40064-016-2795-z",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Human Genetics in Troubled Times and Places",
+			"authors": [
+				{
+					"family": "Harper",
+					"given": "Peter S."
+				}
+			],
+			"container": "Hereditas",
+			"volume": "155",
+			"pages": "7",
+			"published": "2017-08-03",
+			"doi": "10.1186/s41065-017-0042-4",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "The Rise and Fall of T. D. Lysenko",
+			"authors": [
+				{
+					"family": "Medvedev",
+					"given": "Zhores A."
+				}
+			],
+			"translators": [
+				{
+					"family": "Lerner",
+					"given": "I. Michael"
+				}
+			],
+			"place": "New York",
+			"publisher": "Columbia University Press",
+			"published": "1969",
+			"citedIn": "Human Genetics in Troubled Times and Places"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lysenkoism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lysenkoism&oldid=1377509652",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Trofim Lysenko",
+			"url": "https://en.wikipedia.org/w/index.php?title=Trofim_Lysenko&oldid=1375147800",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nikolai Vavilov",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nikolai_Vavilov&oldid=1375745619",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vernalization",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vernalization&oldid=1368854371",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Institute of Plant Industry",
+			"url": "https://en.wikipedia.org/w/index.php?title=Institute_of_Plant_Industry&oldid=1369933161",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Georgii Karpechenko",
+			"url": "https://en.wikipedia.org/w/index.php?title=Georgii_Karpechenko&oldid=1366944818",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-31"
+		}
+	],
+	"connections": [
+		{
+			"to": "food/great-chinese-famine",
+			"why": "Close planting and deep plowing, ideas taken from Lysenko and his followers, were ordered onto China's fields in the Great Leap Forward and lowered the yields of the famine years."
+		}
+	]
+}
