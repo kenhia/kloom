@@ -32,6 +32,13 @@
 			]
 		},
 		{
+			"id": "deep-time",
+			"title": "Deep time and change",
+			"labelKind": "date",
+			"palette": "strata",
+			"frames": ["steno-fossils", "cuvier-extinction", "lamarck"]
+		},
+		{
 			"id": "inheritance",
 			"title": "Inheritance",
 			"labelKind": "date",

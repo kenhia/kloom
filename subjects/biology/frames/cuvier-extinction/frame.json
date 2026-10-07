@@ -1,0 +1,173 @@
+{
+	"id": "cuvier-extinction",
+	"topic": "Cuvier and extinction",
+	"position": {
+		"label": "1796",
+		"sort": 1796
+	},
+	"scene": {
+		"headline": "Life had lost the",
+		"accent": "MAMMOTH.",
+		"palette": "strata",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · THE MUSÉUM · GEORGES CUVIER",
+			"ON THE SPECIES OF ELEPHANTS, LIVING AND FOSSIL · 1796"
+		],
+		"counter": {
+			"value": "2 of 4",
+			"label": "elephants in Cuvier's memoir known only as fossils"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/french-revolution",
+			"why": "The revolutionary Convention made the Paris Muséum in 1793, and the Republic's conquest of the Netherlands brought it the stadholder's elephant skulls that Cuvier compared in 1796."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Mémoire sur les espèces d'éléphans vivantes et fossiles",
+			"authors": [
+				{
+					"family": "Cuvier",
+					"given": "Georges"
+				}
+			],
+			"container": "Mémoires de l'Institut national des sciences et arts: Sciences mathématiques et physiques",
+			"volume": "2",
+			"pages": "1–22",
+			"place": "Paris",
+			"publisher": "Baudouin",
+			"published": "1799",
+			"language": "fr",
+			"url": "https://archive.org/details/mmoiresdelinst02inst",
+			"accessed": "2026-10-06",
+			"note": "Read 1 Pluviôse an IV; the molars are compared on pp. 11–12 and the fossil species on pp. 14–21"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Essay on the Theory of the Earth",
+			"authors": [
+				{
+					"family": "Cuvier",
+					"given": "Georges"
+				}
+			],
+			"edition": "5th ed.",
+			"place": "Edinburgh",
+			"publisher": "William Blackwood",
+			"published": "1827",
+			"url": "https://www.gutenberg.org/ebooks/62918",
+			"accessed": "2026-10-06",
+			"note": "The correlation of parts, the Egyptian mummies, and an appendix on the living and fossil elephants"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Georges Cuvier",
+			"url": "https://en.wikipedia.org/w/index.php?title=Georges_Cuvier&oldid=1376851025",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Megatherium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Megatherium&oldid=1374810096",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of paleontology",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_paleontology&oldid=1378547849",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Le Règne Animal",
+			"url": "https://en.wikipedia.org/w/index.php?title=Le_R%C3%A8gne_Animal&oldid=1374149064",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sarah Baartman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sarah_Baartman&oldid=1378492285",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "book",
+			"title": "Georges Cuvier, Fossil Bones, and Geological Catastrophes: New Translations and Interpretations of the Primary Texts",
+			"authors": [
+				{
+					"family": "Rudwick",
+					"given": "Martin J. S."
+				}
+			],
+			"place": "Chicago",
+			"publisher": "University of Chicago Press",
+			"published": "1997",
+			"url": "https://archive.org/details/georgescuvierfos0000rudw",
+			"accessed": "2026-10-06",
+			"read": "excerpt",
+			"note": "Read through the Internet Archive's full-text search snippets, for the date of the memoir's public reading"
+		},
+		{
+			"kind": "media",
+			"title": "Lower jaws of an Indian elephant and of a mammoth, in profile and from above, plates 4 and 5 of Cuvier's memoir on the species of elephants",
+			"url": "https://commons.wikimedia.org/wiki/File:Cuvier_elephant_jaw.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "jaw.jpg",
+			"authors": [
+				{
+					"family": "Cuvier",
+					"given": "Georges"
+				}
+			],
+			"published": "1799",
+			"container": "Mémoires de l'Institut national des sciences et arts, vol. 2"
+		}
+	]
+}

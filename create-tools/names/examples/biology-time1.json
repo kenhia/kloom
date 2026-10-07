@@ -1,0 +1,50 @@
+{
+	"biology/steno-fossils": [
+		["Ferdinando II de' Medici", "ferdinando-ii-de-medici"],
+		["Florence", "florence"],
+		["Nicolas Steno", "nicolas-steno"],
+		["Accademia del Cimento", "accademia-del-cimento"],
+		["Francesco Redi", "francesco-redi"],
+		["Pliny the Elder", "pliny-the-elder"],
+		["Fabio Colonna", "fabio-colonna"],
+		["Michele Mercati", "michele-mercati"],
+		["great white shark", "great-white-shark"],
+		["Fossils", "fossil"],
+		["law of superposition", "law-of-superposition"],
+		["Robert Hooke", "robert-hooke"],
+		["_Micrographia_", "micrographia"],
+		["Robert Boyle", "robert-boyle"],
+		["Henry Oldenburg", "henry-oldenburg"]
+	],
+	"biology/cuvier-extinction": [
+		["Georges Cuvier", "georges-cuvier"],
+		["National Museum of Natural History", "national-museum-of-natural-history-france"],
+		["African elephant", "african-elephant"],
+		["Asian elephant", "asian-elephant"],
+		["mastodon", "mastodon"],
+		["Petrus Camper", "petrus-camper"],
+		["woolly mammoth", "woolly-mammoth"],
+		["extinction", "extinction"],
+		["_Megatherium_", "megatherium"],
+		["Richard Owen", "richard-owen"],
+		["Étienne Geoffroy Saint-Hilaire", "etienne-geoffroy-saint-hilaire"],
+		["_Le Règne Animal_", "le-regne-animal"],
+		["Sarah Baartman", "sarah-baartman"],
+		["Jean-Baptiste Lamarck", "jean-baptiste-lamarck"]
+	],
+	"biology/lamarck": [
+		["Muséum", "national-museum-of-natural-history-france"],
+		["Jean-Baptiste Lamarck", "jean-baptiste-lamarck"],
+		["Aristotle", "aristotle"],
+		["invertebrates", "invertebrate"],
+		["_Philosophie zoologique_", "philosophie-zoologique"],
+		["giraffe", "giraffe"],
+		["Georges Cuvier", "georges-cuvier"],
+		["Charles Darwin", "charles-darwin"],
+		["pangenesis", "pangenesis"],
+		["August Weismann", "august-weismann"],
+		["Lamarckism", "lamarckism"],
+		["Trofim Lysenko", "trofim-lysenko"],
+		["Epigenetics", "epigenetics"]
+	]
+}

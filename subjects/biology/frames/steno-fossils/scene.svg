@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M157.1 106 L160.1 106 M163.1 106 L166.1 106 M169.1 106 L172.1 106 M175.1 106 L178.1 106 M181.1 106 L184.1 106 M187.1 106 L190.1 106 M193.1 106 L196.1 106 M199.1 106 L202.1 106 M205.1 106 L208.1 106 M211.1 106 L214.1 106 M217.1 106 L220.1 106 M223.1 106 L224.9 106"/>
+		<path pathLength="1" d="M166.3 138 L169.3 138 M172.3 138 L175.3 138 M178.3 138 L181.3 138 M184.3 138 L187.3 138 M190.3 138 L193.3 138 M196.3 138 L199.3 138 M202.3 138 L205.3 138 M208.3 138 L211.3 138 M214.3 138 L215.7 138"/>
+		<path pathLength="1" d="M175.4 170 L178.4 170 M181.4 170 L184.4 170 M187.4 170 L190.4 170 M193.4 170 L196.4 170 M199.4 170 L202.4 170 M205.4 170 L206.6 170"/>
+		<path pathLength="1" d="M38 234 L384 234"/>
+		<path pathLength="1" d="M300 150 L366 150"/>
+		<path pathLength="1" d="M336.5 133.7 L337.1 135 L337.6 136.3 L338 137.6 L338.5 139 L338.8 140.3 L339.1 141.7 L339.4 143.1 L339.6 144.4 L339.8 145.8 L339.9 147.2 L340 148.6 L340 150"/>
+		<path pathLength="1" d="M30 82 L30 226"/>
+		<path pathLength="1" d="M28.3 222.4 L30 226 L31.7 222.4"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M52 234 L52 74 L148 74 L180 186 L202 186 L234 74 L270 74 L280 234"/>
+		<path pathLength="1" d="M270 92 L372 126 L372 234"/>
+		<path pathLength="1" d="M52 106 L157.1 106"/>
+		<path pathLength="1" d="M224.9 106 L272 106"/>
+		<path pathLength="1" d="M52 138 L166.3 138"/>
+		<path pathLength="1" d="M215.7 138 L274 138"/>
+		<path pathLength="1" d="M52 170 L175.4 170"/>
+		<path pathLength="1" d="M206.6 170 L276 170"/>
+		<path pathLength="1" d="M52 202 L278 202"/>
+		<path pathLength="1" d="M271.1 107.1 L372 152.1"/>
+		<path pathLength="1" d="M273.2 138.1 L372 182.1"/>
+		<path pathLength="1" d="M275.4 169.1 L372 212.1"/>
+		<path pathLength="1" d="M277.6 200 L353.9 234"/>
+		<path pathLength="1" d="M279.8 231 L286.5 234"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M80 192 L80.8 189.6 L83 187.2 L83.8 184.9 L86 182.5 L86.8 180.1 L89 177.8 L89.8 175.4 L92 173 L94.2 175.4 L95 177.8 L97.2 180.1 L98 182.5 L100.2 184.9 L101 187.2 L103.2 189.6 L104 192 L105.2 194.3 L102.8 197.3 L94.9 196.6 L92 194.3 L89.1 196.6 L81.2 197.3 L78.8 194.3 Z"/>
+		<path pathLength="1" d="M80 192 L104 192"/>
+		<path pathLength="1" d="M122 156 L122.2 154.4 L122.8 153 L123.8 151.8 L125 150.8 L126.4 150.2 L128 150 L129.6 150.2 L131 150.8 L132.2 151.8 L133.2 153 L133.8 154.4 L134 156"/>
+		<path pathLength="1" d="M122 156 L134 156"/>
+		<path pathLength="1" d="M128 156 L125 150.5"/>
+		<path pathLength="1" d="M128 156 L128 150.5"/>
+		<path pathLength="1" d="M128 156 L131 150.5"/>
+		<path pathLength="1" d="M246 124 L246.2 122.4 L246.8 121 L247.8 119.8 L249 118.8 L250.4 118.2 L252 118 L253.6 118.2 L255 118.8 L256.2 119.8 L257.2 121 L257.8 122.4 L258 124"/>
+		<path pathLength="1" d="M246 124 L258 124"/>
+		<path pathLength="1" d="M252 124 L249 118.5"/>
+		<path pathLength="1" d="M252 124 L252 118.5"/>
+		<path pathLength="1" d="M252 124 L255 118.5"/>
+		<path pathLength="1" d="M62 88 L64 88"/>
+		<path pathLength="1" d="M73 92 L75 92"/>
+		<path pathLength="1" d="M84 96 L86 96"/>
+		<path pathLength="1" d="M95 88 L97 88"/>
+		<path pathLength="1" d="M106 92 L108 92"/>
+		<path pathLength="1" d="M117 96 L119 96"/>
+		<path pathLength="1" d="M128 88 L130 88"/>
+		<path pathLength="1" d="M139 92 L141 92"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="100" y="64" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SUPERPOSITION</text>
+		<text x="191" y="64" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CONTINUITY</text>
+		<text x="322" y="64" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HORIZONTALITY</text>
+		<text x="30" y="68" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">YOUNGER</text>
+		<text x="30" y="247" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OLDER</text>
+		<text x="92" y="228" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TOOTH</text>
+		<text x="200" y="272" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">STRATA IN SECTION · STENO'S PRODROMUS, 1669</text>
+	</g>
+</svg>
