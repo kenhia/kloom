@@ -1,0 +1,229 @@
+{
+	"id": "coral-reefs",
+	"topic": "Darwin's theory of coral reefs",
+	"position": {
+		"label": "1836",
+		"sort": 1836
+	},
+	"scene": {
+		"headline": "A sinking island left an",
+		"accent": "ATOLL.",
+		"palette": "ocean",
+		"illustration": "scene.svg",
+		"metadata": [
+			"KEELING ISLANDS · APRIL 1836",
+			"CHARLES DARWIN · ROBERT FITZROY · CORAL REEFS, 1842"
+		],
+		"counter": {
+			"value": "1,267 m",
+			"label": "down to basalt under Enewetak, 1952"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/fusion",
+			"why": "The 1952 drill hole that first reached the volcano under Enewetak's reef was on Elugelab, the island the Ivy Mike hydrogen bomb destroyed soon after."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Structure and Distribution of Coral Reefs: Being the First Part of the Geology of the Voyage of the Beagle",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"place": "London",
+			"publisher": "Smith, Elder and Co.",
+			"published": "1842",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=F271&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"note": "Read in Project Gutenberg's text; the Keeling soundings are in chapter I, the theory in chapter V"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Bikini and Nearby Atolls, Marshall Islands: Drilling Operations on Eniwetok Atoll",
+			"authors": [
+				{
+					"family": "Ladd",
+					"given": "Harry S."
+				},
+				{
+					"family": "Schlanger",
+					"given": "Seymour O."
+				}
+			],
+			"number": "Professional Paper 260-Y",
+			"publisher": "United States Geological Survey",
+			"place": "Washington",
+			"published": "1960",
+			"doi": "10.3133/pp260y",
+			"url": "https://pubs.usgs.gov/pp/0260y/report.pdf",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Coral Islands, by Charles Darwin, with Introduction, Map and Remarks",
+			"authors": [
+				{
+					"family": "Stoddart",
+					"given": "D. R."
+				}
+			],
+			"container": "Atoll Research Bulletin",
+			"volume": "88",
+			"pages": "1–20",
+			"published": "1962-12-15",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=F1576&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"note": "Read in Darwin Online's transcription"
+		},
+		{
+			"kind": "web",
+			"title": "'Coral Islands' Essay",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"published": "1835-12",
+			"container": "The Complete Work of Charles Darwin Online",
+			"editors": [
+				{
+					"family": "van Wyhe",
+					"given": "John"
+				}
+			],
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=CUL-DAR41.1-12&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "The Autobiography of Charles Darwin",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"editors": [
+				{
+					"family": "Darwin",
+					"given": "Francis"
+				}
+			],
+			"place": "London",
+			"publisher": "John Murray",
+			"published": "1887",
+			"url": "https://www.gutenberg.org/ebooks/2010",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Structure and Distribution of Coral Reefs",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Structure_and_Distribution_of_Coral_Reefs&oldid=1330809868",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-02",
+			"key": true
+		},
+		{
+			"kind": "letter",
+			"title": "Letter to John Herschel",
+			"authors": [
+				{
+					"family": "Lyell",
+					"given": "Charles"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Herschel",
+					"given": "John"
+				}
+			],
+			"written": "1837-05-24",
+			"citedIn": "The Structure and Distribution of Coral Reefs"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Atoll",
+			"url": "https://en.wikipedia.org/w/index.php?title=Atoll&oldid=1378293416",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "article",
+			"title": "The Origin of Modern Atolls: Challenging Darwin's Deeply Ingrained Theory",
+			"authors": [
+				{
+					"family": "Droxler",
+					"given": "André W."
+				},
+				{
+					"family": "Jorry",
+					"given": "Stéphan J."
+				}
+			],
+			"container": "Annual Review of Marine Science",
+			"volume": "13",
+			"pages": "537–573",
+			"published": "2021-01-03",
+			"doi": "10.1146/annurev-marine-122414-034137",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "media",
+			"title": "Inside an Atoll, Keeling Island",
+			"url": "https://commons.wikimedia.org/wiki/File:FMIB_47332_Inside_an_Atoll,_Keeling_Island.jpeg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "keeling.jpg",
+			"authors": [
+				{
+					"family": "Pritchett",
+					"given": "Robert Taylor"
+				}
+			],
+			"published": "1890",
+			"container": "Charles Darwin, Journal of Researches (New York: D. Appleton, 1890), p. 481; Freshwater and Marine Image Bank, University of Washington"
+		},
+		{
+			"kind": "media",
+			"title": "Map Showing the Distribution of the Different Kinds of Coral Reefs",
+			"url": "https://commons.wikimedia.org/wiki/File:On_the_structure_and_distribution_of_coral_reefs_BHL40453231.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "reef-map.jpg",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"published": "1900",
+			"circa": true,
+			"container": "On the Structure and Distribution of Coral Reefs, edited by Joseph W. Williams (London: Walter Scott); Biodiversity Heritage Library",
+			"note": "After the map in Darwin's first edition of 1842"
+		}
+	]
+}
