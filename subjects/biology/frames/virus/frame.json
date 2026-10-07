@@ -1,0 +1,354 @@
+{
+	"id": "virus",
+	"topic": "The discovery of viruses",
+	"position": {
+		"label": "1886–1939",
+		"sort": 1898
+	},
+	"scene": {
+		"headline": "Something slipped through the",
+		"accent": "FILTER.",
+		"palette": "stain",
+		"illustration": "scene.svg",
+		"metadata": [
+			"WAGENINGEN · ST. PETERSBURG · DELFT",
+			"MAYER 1886 · IVANOVSKY 1892 · BEIJERINCK 1898"
+		],
+		"counter": {
+			"value": "10⁻⁹ g",
+			"label": "of Stanley's virus crystals in a milliliter, enough to infect a plant"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/enzymes",
+			"why": "Stanley purified tobacco mosaic virus into crystals like an enzyme chemist, and shared the 1946 Nobel Prize in Chemistry with Sumner and Northrop, who had crystallized urease and pepsin."
+		},
+		{
+			"to": "food/fertilizer",
+			"why": "Beijerinck, who named the virus, had first grown the root-nodule bacteria of peas and beans in 1887–88, the bacteria whose nitrogen fixation Hellriegel and Wilfarth had shown in 1886."
+		},
+		{
+			"to": "nursing/asepsis",
+			"why": "Charles Chamberland of Pasteur's laboratory made both the autoclave that sterilized surgical dressings and the porcelain filter whose failure to stop the tobacco mosaic agent revealed viruses."
+		}
+	],
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Concerning a Contagium Vivum Fluidum as a Cause of the Spot-Disease of Tobacco Leaves",
+			"authors": [
+				{
+					"family": "Beijerinck",
+					"given": "Martinus W."
+				}
+			],
+			"pages": "33–52",
+			"note": "First published in German in 1898",
+			"container": "Phytopathological Classics, No. 7",
+			"translators": [
+				{
+					"family": "Johnson",
+					"given": "James"
+				}
+			],
+			"publisher": "American Phytopathological Society",
+			"published": "1942",
+			"url": "https://archive.org/details/phytopathological-classics_1942_7",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Concerning the Mosaic Disease of Tobacco",
+			"authors": [
+				{
+					"family": "Mayer",
+					"given": "Adolf"
+				}
+			],
+			"pages": "11–24",
+			"note": "First published in German in 1886",
+			"container": "Phytopathological Classics, No. 7",
+			"translators": [
+				{
+					"family": "Johnson",
+					"given": "James"
+				}
+			],
+			"publisher": "American Phytopathological Society",
+			"published": "1942",
+			"url": "https://archive.org/details/phytopathological-classics_1942_7",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Concerning the Mosaic Disease of the Tobacco Plant",
+			"authors": [
+				{
+					"family": "Ivanowski",
+					"given": "Dmitrii"
+				}
+			],
+			"pages": "27–30",
+			"note": "First published in German in 1892",
+			"container": "Phytopathological Classics, No. 7",
+			"translators": [
+				{
+					"family": "Johnson",
+					"given": "James"
+				}
+			],
+			"publisher": "American Phytopathological Society",
+			"published": "1942",
+			"url": "https://archive.org/details/phytopathological-classics_1942_7",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "One Hundred Years of Virology",
+			"authors": [
+				{
+					"family": "Lustig",
+					"given": "Alice"
+				},
+				{
+					"family": "Levine",
+					"given": "Arnold J."
+				}
+			],
+			"container": "Journal of Virology",
+			"volume": "66",
+			"issue": "8",
+			"pages": "4629–4631",
+			"published": "1992-08",
+			"doi": "10.1128/jvi.66.8.4629-4631.1992",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Découverte du premier virus, le virus de la mosaïque du tabac : 1892 ou 1898 ?",
+			"authors": [
+				{
+					"family": "Lecoq",
+					"given": "Hervé"
+				}
+			],
+			"container": "Comptes Rendus de l'Académie des Sciences, Série III, Sciences de la Vie",
+			"volume": "324",
+			"issue": "10",
+			"pages": "929–933",
+			"published": "2001",
+			"doi": "10.1016/S0764-4469(01)01368-3",
+			"language": "fr",
+			"accessed": "2026-10-06",
+			"note": "Read in the accepted manuscript at HAL"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Isolation and Properties of Crystalline Tobacco Mosaic Virus",
+			"authors": [
+				{
+					"family": "Stanley",
+					"given": "Wendell M."
+				}
+			],
+			"container": "Nobel Lectures, Chemistry 1942–1962",
+			"publisher": "Elsevier",
+			"place": "Amsterdam",
+			"published": "1964",
+			"url": "https://www.nobelprize.org/prizes/chemistry/1946/stanley/lecture/",
+			"accessed": "2026-10-06",
+			"note": "Nobel lecture of December 12, 1946"
+		},
+		{
+			"kind": "article",
+			"title": "From Contagium vivum fluidum to Riboviria: A Tobacco Mosaic Virus-Centric History of Virus Taxonomy",
+			"authors": [
+				{
+					"family": "Zerbini",
+					"given": "F. Murilo"
+				},
+				{
+					"family": "Kitajima",
+					"given": "Elliot W."
+				}
+			],
+			"container": "Biomolecules",
+			"volume": "12",
+			"issue": "10",
+			"pages": "1363",
+			"published": "2022-09-24",
+			"doi": "10.3390/biom12101363",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "An Investigation on the Nature of Ultra-Microscopic Viruses",
+			"authors": [
+				{
+					"family": "Twort",
+					"given": "F. W."
+				}
+			],
+			"container": "The Lancet",
+			"volume": "186",
+			"issue": "4814",
+			"pages": "1241–1243",
+			"published": "1915",
+			"doi": "10.1016/S0140-6736(01)20383-3",
+			"accessed": "2026-10-06",
+			"citedIn": "History of virology"
+		},
+		{
+			"kind": "article",
+			"title": "Sur un microbe invisible antagoniste des bacilles dysentériques",
+			"authors": [
+				{
+					"family": "d'Hérelle",
+					"given": "Félix"
+				}
+			],
+			"container": "Comptes rendus hebdomadaires des séances de l'Académie des sciences",
+			"volume": "165",
+			"pages": "373–375",
+			"published": "1917",
+			"language": "fr",
+			"citedIn": "One Hundred Years of Virology"
+		},
+		{
+			"kind": "article",
+			"title": "Soviet Studies on Viruses",
+			"authors": [
+				{
+					"family": "Stanley",
+					"given": "W. M."
+				}
+			],
+			"container": "Science",
+			"volume": "99",
+			"pages": "136–138",
+			"published": "1944",
+			"citedIn": "One Hundred Years of Virology"
+		},
+		{
+			"kind": "article",
+			"title": "Die Sichtbarmachung von pflanzlichem Virus im Übermikroskop",
+			"authors": [
+				{
+					"family": "Kausche",
+					"given": "G. A."
+				},
+				{
+					"family": "Pfankuch",
+					"given": "E."
+				},
+				{
+					"family": "Ruska",
+					"given": "H."
+				}
+			],
+			"container": "Die Naturwissenschaften",
+			"volume": "27",
+			"pages": "292–299",
+			"published": "1939",
+			"doi": "10.1007/BF01493353",
+			"language": "de",
+			"accessed": "2026-10-06",
+			"citedIn": "From Contagium vivum fluidum to Riboviria: A Tobacco Mosaic Virus-Centric History of Virus Taxonomy"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of virology",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_virology&oldid=1371952887",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Martinus Beijerinck",
+			"url": "https://en.wikipedia.org/w/index.php?title=Martinus_Beijerinck&oldid=1371971742",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dmitri Ivanovsky",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dmitri_Ivanovsky&oldid=1372416462",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rhizobium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rhizobium&oldid=1377988126",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wendell Meredith Stanley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wendell_Meredith_Stanley&oldid=1372007334",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "Mosaic Disease of Tobacco (Plate I)",
+			"authors": [
+				{
+					"family": "Passmore",
+					"given": "D. G."
+				}
+			],
+			"container": "Albert F. Woods, Observations on the Mosaic Disease of Tobacco, Bureau of Plant Industry Bulletin 18 (Washington: US Department of Agriculture, 1902)",
+			"url": "https://commons.wikimedia.org/wiki/File:Observations_on_the_mosaic_disease_of_tobacco_(1902)_(14583710387).jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "mosaic-leaf.jpg",
+			"published": "1902",
+			"note": "A US government work, printed by the Government Printing Office in 1902"
+		}
+	]
+}

@@ -1,0 +1,209 @@
+{
+	"id": "ross-malaria",
+	"topic": "Ross and the malaria mosquito",
+	"position": {
+		"label": "1897–98",
+		"sort": 1897
+	},
+	"scene": {
+		"headline": "The fever rode a",
+		"accent": "MOSQUITO.",
+		"palette": "stain",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SECUNDERABAD · 20 AUGUST 1897 · CALCUTTA · JULY 1898",
+			"RONALD ROSS · HUSEIN KHAN · MAHOMED BUX"
+		],
+		"counter": {
+			"value": "22 of 28",
+			"label": "healthy sparrows infected by mosquito bites"
+		}
+	},
+	"connections": [
+		{
+			"to": "blood/sickle-cell",
+			"why": "The parasite Laveran found inside red blood cells, and Ross traced through the mosquito, is why the sickle-cell trait is common where malaria is intense: carriers are protected from dying of it."
+		},
+		{
+			"to": "western-civ/scramble-for-africa",
+			"why": "Ross took his mosquito to Sierra Leone in 1899, hoping it might 'open continents to civilization', in an Africa that quinine had already made Europeans far less fearful of."
+		}
+	],
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Researches on Malaria",
+			"authors": [
+				{
+					"family": "Ross",
+					"given": "Ronald"
+				}
+			],
+			"container": "Nobel Lectures, Physiology or Medicine 1901–1921",
+			"publisher": "Elsevier",
+			"place": "Amsterdam",
+			"published": "1967",
+			"url": "https://www.nobelprize.org/prizes/medicine/1902/ross/lecture/",
+			"accessed": "2026-10-06",
+			"note": "Nobel lecture of December 12, 1902, in its full published form; sections 13, 15, 17, 22 and 23"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Memoirs, with a Full Account of the Great Malaria Problem and Its Solution",
+			"authors": [
+				{
+					"family": "Ross",
+					"given": "Ronald"
+				}
+			],
+			"publisher": "John Murray",
+			"place": "London",
+			"published": "1923",
+			"url": "https://archive.org/details/memoirswithfulla00rossuoft",
+			"accessed": "2026-10-06",
+			"note": "The days of August 16–22, 1897, the notebook and the poem, pp. 221–226"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "History of the Discovery of the Malaria Parasites and Their Vectors",
+			"authors": [
+				{
+					"family": "Cox",
+					"given": "Francis E. G."
+				}
+			],
+			"container": "Parasites & Vectors",
+			"volume": "3",
+			"pages": "5",
+			"published": "2010-02-01",
+			"doi": "10.1186/1756-3305-3-5",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Grassi versus Ross: Who Solved the Riddle of Malaria?",
+			"authors": [
+				{
+					"family": "Capanna",
+					"given": "Ernesto"
+				}
+			],
+			"container": "International Microbiology",
+			"volume": "9",
+			"issue": "1",
+			"pages": "69–74",
+			"published": "2006",
+			"url": "http://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1139-67092006000100010",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "chapter",
+			"title": "Protozoa as Causes of Diseases",
+			"authors": [
+				{
+					"family": "Laveran",
+					"given": "Alphonse"
+				}
+			],
+			"container": "Nobel Lectures, Physiology or Medicine 1901–1921",
+			"publisher": "Elsevier",
+			"place": "Amsterdam",
+			"published": "1967",
+			"url": "https://www.nobelprize.org/prizes/medicine/1907/laveran/lecture/",
+			"accessed": "2026-10-06",
+			"note": "Nobel lecture of December 11, 1907"
+		},
+		{
+			"kind": "book",
+			"title": "Sanitation in Panama",
+			"authors": [
+				{
+					"family": "Gorgas",
+					"given": "William Crawford"
+				}
+			],
+			"publisher": "D. Appleton and Company",
+			"place": "New York",
+			"published": "1915",
+			"url": "https://archive.org/details/sanitationinpana00gorgrich",
+			"accessed": "2026-10-06",
+			"note": "The malarial rate, p. 275"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ronald Ross",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ronald_Ross&oldid=1371992444",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Louis Alphonse Laveran",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Louis_Alphonse_Laveran&oldid=1371980035",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "Facsimile of Page in Laboratory Notebook No. 1 (Plate V)",
+			"authors": [
+				{
+					"family": "Ross",
+					"given": "Ronald"
+				}
+			],
+			"container": "Ross, Memoirs (London: John Murray, 1923), facing p. 224",
+			"url": "https://archive.org/details/memoirswithfulla00rossuoft/page/n254",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "notebook.jpg",
+			"published": "1923",
+			"note": "Published in 1923; Ross died in 1932"
+		},
+		{
+			"kind": "media",
+			"title": "Sir R. Ross on steps of laboratory in Calcutta, 1898",
+			"url": "https://commons.wikimedia.org/wiki/File:Sir_R._Ross_on_steps_of_laboratory_in_Calcutta,_1898_Wellcome_L0011943.jpg",
+			"accessed": "2026-10-06",
+			"licence": "CC BY 4.0",
+			"file": "calcutta.jpg",
+			"container": "Wellcome Collection",
+			"number": "L0011943",
+			"published": "1898"
+		},
+		{
+			"kind": "media",
+			"title": "Hospital admissions for malaria per 1,000 employees of the Panama Canal, 1906 to 1913",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "William C. Gorgas, Sanitation in Panama (New York: D. Appleton, 1915), p. 275",
+			"url": "https://archive.org/details/sanitationinpana00gorgrich/page/n301",
+			"accessed": "2026-10-06",
+			"licence": "MIT",
+			"file": "panama-malaria.svg"
+		}
+	]
+}

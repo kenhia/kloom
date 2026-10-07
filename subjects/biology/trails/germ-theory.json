@@ -1,0 +1,16 @@
+{
+	"id": "germ-theory",
+	"title": "Germ theory",
+	"anchor": "swan-neck-flask",
+	"spine": {
+		"segments": [
+			{
+				"id": "germ-seg",
+				"title": "Seeds of disease",
+				"labelKind": "date",
+				"palette": "stain",
+				"frames": ["ross-malaria", "virus"]
+			}
+		]
+	}
+}
