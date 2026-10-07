@@ -1,0 +1,261 @@
+{
+	"id": "food-chain",
+	"topic": "Elton's food chains",
+	"position": {
+		"label": "1927",
+		"sort": 1927
+	},
+	"scene": {
+		"headline": "We followed who ate",
+		"accent": "WHOM.",
+		"palette": "canopy",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BEAR ISLAND · OXFORD · CEDAR BOG LAKE",
+			"CHARLES ELTON · ANIMAL ECOLOGY · RAYMOND LINDEMAN"
+		],
+		"counter": {
+			"value": "13.3%",
+			"label": "of the plants' energy reached the herbivores"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/energy",
+			"why": "Lindeman's balance sheet for Cedar Bog Lake counts calories, every one the plants fixed accounted for as growth, respiration, food for the next level or decay: the bookkeeping that the conservation of energy allows."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Animal Ecology",
+			"authors": [
+				{
+					"family": "Elton",
+					"given": "Charles"
+				}
+			],
+			"place": "New York",
+			"publisher": "Macmillan",
+			"published": "1927",
+			"url": "https://archive.org/details/animalecology00elto",
+			"accessed": "2026-10-06",
+			"note": "Chapter 5, The Animal Community: food chains, niches and the pyramid of numbers; the Bear Island diagram is fig. 4, p. 58"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Trophic-Dynamic Aspect of Ecology",
+			"authors": [
+				{
+					"family": "Lindeman",
+					"given": "Raymond L."
+				}
+			],
+			"container": "Ecology",
+			"volume": "23",
+			"issue": "4",
+			"pages": "399–417",
+			"published": "1942-10",
+			"doi": "10.2307/1930126",
+			"accessed": "2026-10-06",
+			"note": "Tables II and IV give Cedar Bog Lake's productivities and efficiencies"
+		},
+		{
+			"kind": "article",
+			"title": "Contributions to the Ecology of Spitsbergen and Bear Island",
+			"authors": [
+				{
+					"family": "Summerhayes",
+					"given": "V. S."
+				},
+				{
+					"family": "Elton",
+					"given": "C. S."
+				}
+			],
+			"container": "Journal of Ecology",
+			"volume": "11",
+			"issue": "2",
+			"pages": "214–286",
+			"published": "1923-09",
+			"doi": "10.2307/2255864",
+			"accessed": "2026-10-06",
+			"citedIn": "Elton, Animal Ecology, fig. 4"
+		},
+		{
+			"kind": "article",
+			"title": "The Use and Abuse of Vegetational Concepts and Terms",
+			"authors": [
+				{
+					"family": "Tansley",
+					"given": "A. G."
+				}
+			],
+			"container": "Ecology",
+			"volume": "16",
+			"issue": "3",
+			"pages": "284–307",
+			"published": "1935-07",
+			"doi": "10.2307/1930070",
+			"accessed": "2026-10-06",
+			"citedIn": "Lindeman, The Trophic-Dynamic Aspect of Ecology, p. 400"
+		},
+		{
+			"kind": "article",
+			"title": "Raymond Lindeman and the Trophic-Dynamic Concept in Ecology",
+			"authors": [
+				{
+					"family": "Cook",
+					"given": "Robert Edward"
+				}
+			],
+			"container": "Science",
+			"volume": "198",
+			"issue": "4312",
+			"pages": "22–26",
+			"published": "1977-10-07",
+			"doi": "10.1126/science.198.4312.22",
+			"accessed": "2026-10-06",
+			"note": "Read in a copy at origins.swau.edu; the referees' reports and Hutchinson's letter are quoted here"
+		},
+		{
+			"kind": "article",
+			"title": "Lindeman's Trophic-Dynamic Aspect of Ecology: “Will You Still Need Me When I'm 64?”",
+			"authors": [
+				{
+					"family": "Sobczak",
+					"given": "William V."
+				}
+			],
+			"container": "Limnology and Oceanography Bulletin",
+			"volume": "14",
+			"issue": "3",
+			"pages": "53–57",
+			"published": "2005",
+			"doi": "10.1002/lob.200514353",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Sutherland Elton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Sutherland_Elton&oldid=1376844912",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Raymond Lindeman",
+			"url": "https://en.wikipedia.org/w/index.php?title=Raymond_Lindeman&oldid=1371987861",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bjørnøya",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bj%C3%B8rn%C3%B8ya&oldid=1368685921",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ecosystem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ecosystem&oldid=1369245800",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ecological efficiency",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ecological_efficiency&oldid=1345173199",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Food web",
+			"url": "https://en.wikipedia.org/w/index.php?title=Food_web&oldid=1368879113",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ecological niche",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ecological_niche&oldid=1373871825",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "media",
+			"title": "Food-cycle among the animals on Bear Island",
+			"authors": [
+				{
+					"family": "Summerhayes",
+					"given": "V. S."
+				},
+				{
+					"family": "Elton",
+					"given": "C. S."
+				}
+			],
+			"container": "Charles Elton, Animal Ecology (New York: Macmillan, 1927), fig. 4, p. 58, from the copy of the MBLWHOI Library",
+			"url": "https://archive.org/details/animalecology00elto/page/n97",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"note": "Published in the United States in 1927, and first in 1923",
+			"file": "bear-island.jpg",
+			"published": "1927"
+		}
+	]
+}

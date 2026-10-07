@@ -1,0 +1,284 @@
+{
+	"id": "silent-spring",
+	"topic": "Silent Spring",
+	"position": {
+		"label": "1962",
+		"sort": 1962
+	},
+	"asOf": "2026-10-06",
+	"scene": {
+		"headline": "The birds fell",
+		"accent": "SILENT.",
+		"palette": "canopy",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CLEAR LAKE · EAST LANSING · WASHINGTON",
+			"RACHEL CARSON · HOUGHTON MIFFLIN · 1962"
+		],
+		"counter": {
+			"value": "1,600",
+			"label": "parts per million of DDD in a dead grebe's fat"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Silent Spring",
+			"authors": [
+				{
+					"family": "Carson",
+					"given": "Rachel"
+				}
+			],
+			"place": "Boston",
+			"publisher": "Houghton Mifflin",
+			"published": "1962",
+			"url": "https://archive.org/details/silentspring00cars",
+			"accessed": "2026-10-06",
+			"read": "excerpt",
+			"note": "Read through the Internet Archive's full-text search snippets: the Clear Lake and robin passages, the chapter on resistance, and her notes"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Inimical Effects on Wildlife of Periodic DDD Applications to Clear Lake",
+			"authors": [
+				{
+					"family": "Hunt",
+					"given": "Eldridge G."
+				},
+				{
+					"family": "Bischoff",
+					"given": "Arthur I."
+				}
+			],
+			"container": "California Fish and Game",
+			"volume": "46",
+			"issue": "1",
+			"pages": "91–106",
+			"published": "1960-01",
+			"url": "https://archive.org/details/california-fish-and-game_1960-01_46_1",
+			"accessed": "2026-10-06",
+			"note": "Tables 1 to 4 give the DDD in fish, frogs and grebes"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Some Effects of DDT on Nesting Robins",
+			"authors": [
+				{
+					"family": "Twiest",
+					"given": "Gilbert"
+				}
+			],
+			"publisher": "Michigan State University",
+			"place": "East Lansing",
+			"number": "MS thesis",
+			"published": "1963",
+			"url": "https://d.lib.msu.edu/etd/7406",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Use of Pesticides: A Report of the President's Science Advisory Committee",
+			"authors": [
+				{
+					"name": "President's Science Advisory Committee"
+				}
+			],
+			"publisher": "The White House",
+			"place": "Washington, DC",
+			"published": "1963-05-15",
+			"url": "https://www.jfklibrary.org/asset-viewer/archives/JFKPOF/087/JFKPOF-087-003",
+			"accessed": "2026-10-06",
+			"note": "Read in a copy at cpp.edu; the recommendations and the line on Silent Spring are on pp. 20 and 23"
+		},
+		{
+			"kind": "web",
+			"title": "DDT Ban Takes Effect",
+			"authors": [
+				{
+					"name": "US Environmental Protection Agency"
+				}
+			],
+			"container": "EPA press release",
+			"publisher": "US Environmental Protection Agency",
+			"published": "1972-12-31",
+			"url": "https://www.epa.gov/archive/epa/aboutepa/ddt-ban-takes-effect.html",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "Bald Eagle (Haliaeetus leucocephalus)",
+			"authors": [
+				{
+					"name": "US Fish and Wildlife Service"
+				}
+			],
+			"publisher": "US Fish and Wildlife Service",
+			"url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "Bald Eagle Breeding Pairs 1963 to 2006",
+			"authors": [
+				{
+					"name": "US Fish and Wildlife Service"
+				}
+			],
+			"container": "Midwest Region, Bald and Golden Eagles",
+			"publisher": "US Fish and Wildlife Service",
+			"url": "https://www.fws.gov/midwest/eagle/NestingData/countatdelist.html",
+			"accessed": "2026-10-06",
+			"note": "Read through the Wayback Machine"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rachel Carson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rachel_Carson&oldid=1378563052",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Silent Spring",
+			"url": "https://en.wikipedia.org/w/index.php?title=Silent_Spring&oldid=1375920899",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "DDT",
+			"url": "https://en.wikipedia.org/w/index.php?title=DDT&oldid=1377197664",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Clear Lake (California)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Clear_Lake_(California)&oldid=1375577894",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Biomagnification",
+			"url": "https://en.wikipedia.org/w/index.php?title=Biomagnification&oldid=1371872657",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bald eagle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bald_eagle&oldid=1378346427",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Sea Around Us",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Sea_Around_Us&oldid=1335556317",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stockholm Convention on Persistent Organic Pollutants",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stockholm_Convention_on_Persistent_Organic_Pollutants&oldid=1361516827",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-28"
+		},
+		{
+			"kind": "media",
+			"title": "Rachel Carson Conducts Marine Biology Research with Bob Hines",
+			"authors": [
+				{
+					"name": "US Fish and Wildlife Service"
+				}
+			],
+			"container": "US Fish and Wildlife Service National Digital Library, image 8515",
+			"url": "https://commons.wikimedia.org/wiki/File:Rachel_Carson_Conducts_Marine_Biology_Research_with_Bob_Hines.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"note": "A work of the US Fish and Wildlife Service",
+			"file": "carson-hines.jpg",
+			"published": "1952"
+		},
+		{
+			"kind": "media",
+			"title": "Bald eagle breeding pairs in the lower 48 states, 1963 to 2019",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "US Fish and Wildlife Service, Bald Eagle Breeding Pairs 1963 to 2006, and Bald Eagle species profile",
+			"url": "https://www.fws.gov/species/bald-eagle-haliaeetus-leucocephalus",
+			"accessed": "2026-10-06",
+			"licence": "MIT",
+			"file": "eagle-pairs.svg"
+		}
+	]
+}
