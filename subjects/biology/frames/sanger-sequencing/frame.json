@@ -27,6 +27,10 @@
 		{
 			"to": "chemistry/alphafold",
 			"why": "AlphaFold reads a protein's shape from an alignment of related sequences across many species; the library it learns from was built gene by gene with this method, which read most of the DNA sequenced anywhere for thirty years."
+		},
+		{
+			"to": "biology/human-genome",
+			"why": "Sanger's chain-terminating method, automated with four colored dyes, ran the sequencing machines of the 1990s and read all of the first human genome; the Sanger Centre near Cambridge was one of the project's largest."
 		}
 	],
 	"citations": [

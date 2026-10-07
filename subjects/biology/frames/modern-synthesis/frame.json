@@ -27,6 +27,14 @@
 		{
 			"to": "blood/sickle-cell",
 			"why": "Haldane, one of the synthesis's mathematicians, suggested in 1949 that red-cell disorders persist where malaria is endemic because carriers resist the disease; Allison's work on the sickle-cell trait in East Africa confirmed it."
+		},
+		{
+			"to": "biology/pangenesis",
+			"why": "Jenkin argued in 1867 that blending would swamp any favorable variant; Fisher in 1930 showed the cost, the variance halving each generation, and that Mendel's genes, passed on whole, keep variation for selection to work on."
+		},
+		{
+			"to": "biology/eugenics",
+			"why": "Fisher's Genetical Theory of Natural Selection, a founding text of the synthesis, turned its last five chapters to eugenics, warning from the British census that the upper classes were having fewer children than the poor."
 		}
 	],
 	"citations": [

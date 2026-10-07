@@ -17,7 +17,13 @@
 	"bars": [
 		{ "label": "Untreated", "sublabel": "two plasmids", "value": 200, "display": "200" },
 		{ "label": "Cut", "sublabel": "EcoRI", "value": 70, "display": "70" },
-		{ "label": "Cut, joined", "sublabel": "and ligase", "value": 570, "display": "570", "highlight": true }
+		{
+			"label": "Cut, joined",
+			"sublabel": "and ligase",
+			"value": 570,
+			"display": "570",
+			"highlight": true
+		}
 	],
 	"source": {
 		"container": "Cohen, Chang, Boyer and Helling, \"Construction of Biologically Functional Bacterial Plasmids In Vitro,\" PNAS 70 (1973), Table 2",

@@ -19,6 +19,12 @@
 			"label": "living edentate species, South America to the rest of the world"
 		}
 	},
+	"connections": [
+		{
+			"to": "biology/origin-of-species",
+			"why": "The law Darwin drew from the Punta Alta bones, that South America's extinct giants resembled its living sloths and armadillos, had become by 1859, in the Origin, evidence of descent."
+		}
+	],
 	"citations": [
 		{
 			"kind": "article",

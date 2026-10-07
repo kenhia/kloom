@@ -23,6 +23,10 @@
 		{
 			"to": "chemistry/dna-chemistry",
 			"why": "The chemistry of DNA before 1953 sets Avery's nitrogen-to-phosphorus ratio against the tetranucleotide theory it was calculated from, and tells how Chargaff, reading this paper as a challenge, showed that DNA differs from species to species."
+		},
+		{
+			"to": "biology/hershey-chase",
+			"why": "Hershey and Chase's blender experiment of 1952, from inside the phage group that had doubted Avery, convinced more biologists that genes are DNA, though the protein entering its cells was a larger contamination than any in Avery's DNA."
 		}
 	],
 	"citations": [

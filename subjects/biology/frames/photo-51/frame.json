@@ -337,6 +337,10 @@
 		{
 			"to": "chemistry/protein-structure",
 			"why": "Pauling's triple-helix structure for DNA, early in 1953, was the manuscript Watson carried to King's on the day Wilkins showed him Photo 51."
+		},
+		{
+			"to": "biology/virus",
+			"why": "After Photo 51, Franklin turned at Birkbeck to tobacco mosaic virus, the agent that passed Ivanovsky's and Beijerinck's porcelain filters, showing that its particles share one length and that its RNA winds inside the hollow rod."
 		}
 	]
 }

@@ -28,6 +28,14 @@
 		{
 			"to": "food/potato-blight",
 			"why": "De Bary proved by infection experiments that a fungus caused potato blight decades before Koch set out how to prove that a microbe causes a disease."
+		},
+		{
+			"to": "biology/virus",
+			"why": "Viruses, which grow only in living cells, defeat Koch's rule of pure culture; Loeffler, the assistant who first set out the postulates, passed foot-and-mouth disease through a porcelain filter in 1898, the first virus of animals."
+		},
+		{
+			"to": "biology/virchow",
+			"why": "Virchow, who doubted that germs caused disease and called them settlers of tissue already sick, found fresh tubercles in the bodies of patients treated with Koch's tuberculin early in 1891."
 		}
 	],
 	"citations": [

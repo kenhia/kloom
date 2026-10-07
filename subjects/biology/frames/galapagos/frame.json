@@ -16,6 +16,12 @@
 			"label": "in the islands, September 15 to October 20, 1835"
 		}
 	},
+	"connections": [
+		{
+			"to": "biology/notebook-b",
+			"why": "Gould's verdict on the Galápagos mockingbirds, separate species from island to island, and on the finches is what led Darwin in July 1837 to open Notebook B, his first on the transmutation of species."
+		}
+	],
 	"citations": [
 		{
 			"kind": "article",

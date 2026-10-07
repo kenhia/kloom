@@ -24,6 +24,14 @@
 		{
 			"to": "western-civ/royal-society",
 			"why": "Oldenburg printed Leeuwenhoek's pepper-water letter in the Philosophical Transactions, the journal that frame describes, and the Society's fellows saw his animals for themselves in November 1677."
+		},
+		{
+			"to": "biology/hooke-cells",
+			"why": "Leeuwenhoek's lens was a glass bead of the kind Hooke had described in the preface of Micrographia, and in 1677 Hooke's own single-lens microscope showed the Royal Society the creatures Leeuwenhoek reported."
+		},
+		{
+			"to": "biology/achromatic-microscope",
+			"why": "Leeuwenhoek's single beads of glass were not surpassed for a century and a half, until achromatic object-glasses freed the compound microscope of the colored fringes that had kept it worse than a bead."
 		}
 	],
 	"citations": [

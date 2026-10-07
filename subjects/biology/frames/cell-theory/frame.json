@@ -20,6 +20,14 @@
 		{
 			"to": "chemistry/enzymes",
 			"why": "Schwann's proof in 1837 that fermentation needs living yeast is the claim Liebig and Wöhler mocked in their satire of 1839, a dispute Buchner's cell-free yeast juice reopened in 1897."
+		},
+		{
+			"to": "biology/virchow",
+			"why": "Schwann held that animal cells crystallize out of a formless cytoblastema; Remak and Virchow showed in the 1850s that every cell comes from a cell, by division."
+		},
+		{
+			"to": "biology/neuron-doctrine",
+			"why": "By the 1870s cell theory held for every tissue but the nervous system, whose branches seemed to fuse into one net; Cajal's stained slides showed nerve cells too to be separate units."
 		}
 	],
 	"citations": [

@@ -19,6 +19,12 @@
 			"label": "mice dead of a type never injected alive"
 		}
 	},
+	"connections": [
+		{
+			"to": "biology/avery",
+			"why": "Griffith's mice of 1928 showed one pneumococcal type turning into another; Avery's laboratory, at first doubtful, made the change in a test tube, and in 1944 identified the transforming principle as DNA."
+		}
+	],
 	"citations": [
 		{
 			"kind": "article",

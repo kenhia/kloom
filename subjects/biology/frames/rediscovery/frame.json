@@ -23,6 +23,14 @@
 		{
 			"to": "mathematics/normal-distribution",
 			"why": "The biometricians who fought Bateson followed Galton in measuring traits that vary smoothly along the normal curve, and the fight ended when Fisher showed that many Mendelian factors, each adding a little, sum to that same bell curve."
+		},
+		{
+			"to": "biology/fly-room",
+			"why": "In 1902 Sutton proposed that chromosomes, paired and parted, are the physical basis of Mendel's law; that chromosome theory waited for proof until Morgan's fly room tied the white-eye factor to the X chromosome in 1910."
+		},
+		{
+			"to": "biology/modern-synthesis",
+			"why": "The quarrel between Bateson's Mendelians and the biometricians lost its substance in 1918, when Fisher showed that many Mendelian factors, each adding a little, give the smooth variation the biometricians measured, a result the synthesis built on."
 		}
 	],
 	"citations": [

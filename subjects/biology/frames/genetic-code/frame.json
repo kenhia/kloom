@@ -28,6 +28,10 @@
 		{
 			"to": "chemistry/protein-structure",
 			"why": "Sanger's insulin, the first protein read in order, gave the code its other side, and Crick used its sequences to rule out Gamow's overlapping code."
+		},
+		{
+			"to": "biology/lac-operon",
+			"why": "Nirenberg had once applied to work with Monod in Paris and been turned down; while he was reading the code's first word, Monod's laboratory was finding how a cell decides which genes to read."
 		}
 	],
 	"citations": [

@@ -255,6 +255,14 @@
 		{
 			"to": "feynman/caltech",
 			"why": "The experiment was done at Caltech, where Feynman sat on Meselson's dissertation committee, the kind of conversation across biology and physics that drew him there."
+		},
+		{
+			"to": "biology/lac-operon",
+			"why": "In June 1960 Brenner and Jacob used Meselson's ultracentrifuge at Caltech to show that a phage's new RNA ran on the cell's old ribosomes, part of the finding of messenger RNA."
+		},
+		{
+			"to": "biology/genetic-code",
+			"why": "Meselson heard Nirenberg read the poly-U result to about two dozen people in Moscow in August 1961 and fetched Crick, who gave Nirenberg the stage of his symposium before an audience of about a thousand."
 		}
 	]
 }

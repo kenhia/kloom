@@ -20,6 +20,14 @@
 		{
 			"to": "food/maize",
 			"why": "The maize McClintock bred carries transposable elements in its domestication genes too: an element called Hopscotch beside teosinte branched1 helps turn the teosinte bush into maize's single stalk."
+		},
+		{
+			"to": "biology/lac-operon",
+			"why": "McClintock thought her moving elements Ac and Ds were the cell's means of switching genes on and off; that larger theory of control lost out to Jacob and Monod's operon."
+		},
+		{
+			"to": "biology/human-genome",
+			"why": "The first analysis of the human genome, in 2001, recognized about half of it as descended from transposable elements, the moving pieces of chromosome McClintock found in maize."
 		}
 	],
 	"citations": [

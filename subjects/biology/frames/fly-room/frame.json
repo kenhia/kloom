@@ -23,6 +23,18 @@
 		{
 			"to": "physics/x-rays",
 			"why": "Muller made the first mutations on purpose in 1927 by dosing fruit flies with the X-rays that Röntgen had found in 1895."
+		},
+		{
+			"to": "biology/modern-synthesis",
+			"why": "Dobzhansky came to Morgan's group at Columbia in 1927 and took the fruit fly into the wild, counting chromosome arrangements of Drosophila pseudoobscura on Mount San Jacinto and in population cages."
+		},
+		{
+			"to": "biology/mcclintock",
+			"why": "Morgan proposed that paired chromosomes exchange pieces in crossing over; in 1931 Creighton and McClintock saw it happen in maize, a chromosome 9 marked at both ends trading its visible pieces along with its genes."
+		},
+		{
+			"to": "biology/beadle-tatum",
+			"why": "The mycologist B. O. Dodge told Morgan that Neurospora was \"even better than Drosophila\"; Beadle, trained on fruit flies, took the bread mold up to ask what genes, by then known to lie in a line on the chromosomes, actually do."
 		}
 	],
 	"citations": [

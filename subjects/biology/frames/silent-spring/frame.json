@@ -20,6 +20,12 @@
 			"label": "parts per million of DDD in a dead grebe's fat"
 		}
 	},
+	"connections": [
+		{
+			"to": "biology/food-chain",
+			"why": "Carson's case rested on the food chain Elton had named: persistent insecticides stored in fat and concentrated at every link, from Clear Lake's water to its plankton, fish and grebes."
+		}
+	],
 	"citations": [
 		{
 			"kind": "book",

@@ -357,6 +357,10 @@
 		{
 			"to": "computing/moores-law",
 			"why": "The National Human Genome Research Institute measures the falling cost of sequencing a genome against Moore’s law, which it kept pace with until 2008 and then far outran."
+		},
+		{
+			"to": "biology/neanderthal-genome",
+			"why": "The machines that from 2008 read millions of short fragments at once read the Neanderthal draft of 2010, every fragment whole, each mapped to the human and chimpanzee genomes."
 		}
 	]
 }

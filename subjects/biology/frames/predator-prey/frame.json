@@ -27,6 +27,14 @@
 		{
 			"to": "mathematics/chaos",
 			"why": "Robert May's logistic map of 1976 asked of one species, generation by generation, what Lotka and Volterra had asked of two: how a population's numbers move."
+		},
+		{
+			"to": "biology/food-chain",
+			"why": "Charles Elton, who drew Bear Island's food relations and named the food chain and the niche, also drew the cycle of Canada lynx following the snowshoe hare from the Hudson's Bay Company's fur returns in 1942."
+		},
+		{
+			"to": "biology/ross-malaria",
+			"why": "Conceding Lotka's priority for the predator and prey equations in 1927, Volterra added that Sir Ronald Ross's equations for malaria had come earlier still."
 		}
 	],
 	"citations": [

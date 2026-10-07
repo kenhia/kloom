@@ -20,6 +20,14 @@
 		{
 			"to": "biology/aristotle-animals",
 			"why": "Aristotle's History of Animals, that frame's book, taught that flies grow from dung and lice from flesh, and Redi's flasks and his lice answered it."
+		},
+		{
+			"to": "biology/swan-neck-flask",
+			"why": "Redi's flasks settled spontaneous generation for flies but not for creatures too small to see; by 1859 the argument had shrunk to microbes, and Pasteur's swan-neck flask, open to the air, settled it there."
+		},
+		{
+			"to": "biology/leeuwenhoek-animalcules",
+			"why": "Eight years after Redi's flasks, Leeuwenhoek found creatures in a drop of pepper-water too small for any veil to stop, and the argument over spontaneous generation moved to them."
 		}
 	],
 	"citations": [
