@@ -1,0 +1,583 @@
+{
+	"id": "crispr",
+	"topic": "CRISPR gene editing",
+	"position": {
+		"label": "2012",
+		"sort": 2012
+	},
+	"asOf": "2026-10-06",
+	"scene": {
+		"headline": "Bacteria lent us their",
+		"accent": "SCISSORS.",
+		"palette": "gel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BERKELEY · UMEÅ · SCIENCE, JUNE 2012",
+			"JINEK · CHYLINSKI · FONFARA · HAUER · DOUDNA · CHARPENTIER"
+		],
+		"counter": {
+			"value": "20",
+			"label": "letters of guide RNA choose the cut"
+		}
+	},
+	"connections": [
+		{
+			"to": "blood/sickle-cell",
+			"why": "Casgevy, the first approved CRISPR medicine, treats sickle cell disease by editing a patient's own blood stem cells so that they make fetal hemoglobin again."
+		},
+		{
+			"to": "food/gm-crops",
+			"why": "Where the first engineered crops carried genes added from other species, CRISPR can change a plant's own genes; the first CRISPR-edited food, a tomato, went on sale in Japan in 2021."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "A Programmable Dual-RNA–Guided DNA Endonuclease in Adaptive Bacterial Immunity",
+			"authors": [
+				{
+					"family": "Jinek",
+					"given": "Martin"
+				},
+				{
+					"family": "Chylinski",
+					"given": "Krzysztof"
+				},
+				{
+					"family": "Fonfara",
+					"given": "Ines"
+				},
+				{
+					"family": "Hauer",
+					"given": "Michael"
+				},
+				{
+					"family": "Doudna",
+					"given": "Jennifer A."
+				},
+				{
+					"family": "Charpentier",
+					"given": "Emmanuelle"
+				}
+			],
+			"container": "Science",
+			"volume": "337",
+			"issue": "6096",
+			"pages": "816–821",
+			"published": "2012-08-17",
+			"doi": "10.1126/science.1225829",
+			"accessed": "2026-10-06",
+			"key": true,
+			"read": "abstract"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Scientific Background on the Nobel Prize in Chemistry 2020: A Tool for Genome Editing",
+			"authors": [
+				{
+					"name": "Royal Swedish Academy of Sciences"
+				}
+			],
+			"publisher": "Royal Swedish Academy of Sciences",
+			"place": "Stockholm",
+			"published": "2020-10-07",
+			"url": "https://www.nobelprize.org/prizes/chemistry/2020/advanced-information/",
+			"accessed": "2026-10-06",
+			"note": "The history from 1987, tracrRNA, the PAM and the cut"
+		},
+		{
+			"kind": "article",
+			"title": "Nucleotide Sequence of the iap Gene, Responsible for Alkaline Phosphatase Isozyme Conversion in Escherichia coli, and Identification of the Gene Product",
+			"authors": [
+				{
+					"family": "Ishino",
+					"given": "Yoshizumi"
+				},
+				{
+					"family": "Shinagawa",
+					"given": "Hideo"
+				},
+				{
+					"family": "Makino",
+					"given": "Kozo"
+				},
+				{
+					"family": "Amemura",
+					"given": "Mitsuko"
+				},
+				{
+					"family": "Nakata",
+					"given": "Atsuo"
+				}
+			],
+			"container": "Journal of Bacteriology",
+			"volume": "169",
+			"issue": "12",
+			"pages": "5429–5433",
+			"published": "1987-12",
+			"doi": "10.1128/jb.169.12.5429-5433.1987",
+			"accessed": "2026-10-06",
+			"key": true,
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC213968/",
+			"note": "The repeats are described on p. 5432"
+		},
+		{
+			"kind": "article",
+			"title": "Intervening Sequences of Regularly Spaced Prokaryotic Repeats Derive from Foreign Genetic Elements",
+			"authors": [
+				{
+					"family": "Mojica",
+					"given": "Francisco J. M."
+				},
+				{
+					"family": "Díez-Villaseñor",
+					"given": "César"
+				},
+				{
+					"family": "García-Martínez",
+					"given": "Jesús"
+				},
+				{
+					"family": "Soria",
+					"given": "Elena"
+				}
+			],
+			"container": "Journal of Molecular Evolution",
+			"volume": "60",
+			"issue": "2",
+			"pages": "174–182",
+			"published": "2005-02",
+			"doi": "10.1007/s00239-004-0046-3",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "CRISPR Provides Acquired Resistance Against Viruses in Prokaryotes",
+			"authors": [
+				{
+					"family": "Barrangou",
+					"given": "Rodolphe"
+				},
+				{
+					"family": "Fremaux",
+					"given": "Christophe"
+				},
+				{
+					"family": "Deveau",
+					"given": "Hélène"
+				},
+				{
+					"family": "Richards",
+					"given": "Melissa"
+				},
+				{
+					"family": "Boyaval",
+					"given": "Patrick"
+				},
+				{
+					"family": "Moineau",
+					"given": "Sylvain"
+				},
+				{
+					"family": "Romero",
+					"given": "Dennis A."
+				}
+			],
+			"container": "Science",
+			"volume": "315",
+			"issue": "5819",
+			"pages": "1709–1712",
+			"published": "2007-03-23",
+			"doi": "10.1126/science.1138140",
+			"accessed": "2026-10-06",
+			"etAl": true,
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Multiplex Genome Engineering Using CRISPR/Cas Systems",
+			"authors": [
+				{
+					"family": "Cong",
+					"given": "Le"
+				},
+				{
+					"family": "Ran",
+					"given": "F. Ann"
+				},
+				{
+					"family": "Cox",
+					"given": "David"
+				},
+				{
+					"family": "Lin",
+					"given": "Shuailiang"
+				},
+				{
+					"family": "Barretto",
+					"given": "Robert"
+				},
+				{
+					"family": "Habib",
+					"given": "Naomi"
+				},
+				{
+					"family": "Hsu",
+					"given": "Patrick D."
+				}
+			],
+			"container": "Science",
+			"volume": "339",
+			"issue": "6121",
+			"pages": "819–823",
+			"published": "2013-02-15",
+			"doi": "10.1126/science.1231143",
+			"accessed": "2026-10-06",
+			"etAl": true,
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "RNA-Guided Human Genome Engineering via Cas9",
+			"authors": [
+				{
+					"family": "Mali",
+					"given": "Prashant"
+				},
+				{
+					"family": "Yang",
+					"given": "Luhan"
+				},
+				{
+					"family": "Esvelt",
+					"given": "Kevin M."
+				},
+				{
+					"family": "Aach",
+					"given": "John"
+				},
+				{
+					"family": "Guell",
+					"given": "Marc"
+				},
+				{
+					"family": "DiCarlo",
+					"given": "James E."
+				},
+				{
+					"family": "Norville",
+					"given": "Julie E."
+				}
+			],
+			"container": "Science",
+			"volume": "339",
+			"issue": "6121",
+			"pages": "823–826",
+			"published": "2013-02-15",
+			"doi": "10.1126/science.1232033",
+			"accessed": "2026-10-06",
+			"etAl": true,
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3712628/"
+		},
+		{
+			"kind": "article",
+			"title": "CRISPR-Cas9 Gene Editing for Sickle Cell Disease and β-Thalassemia",
+			"authors": [
+				{
+					"family": "Frangoul",
+					"given": "Haydar"
+				},
+				{
+					"family": "Altshuler",
+					"given": "David"
+				},
+				{
+					"family": "Cappellini",
+					"given": "M. Domenica"
+				},
+				{
+					"family": "Chen",
+					"given": "Yi-Shan"
+				},
+				{
+					"family": "Domm",
+					"given": "Jennifer"
+				},
+				{
+					"family": "Eustace",
+					"given": "Brenda K."
+				},
+				{
+					"family": "Foell",
+					"given": "Juergen"
+				}
+			],
+			"container": "New England Journal of Medicine",
+			"volume": "384",
+			"issue": "3",
+			"pages": "252–260",
+			"published": "2021-01-21",
+			"doi": "10.1056/NEJMoa2031054",
+			"accessed": "2026-10-06",
+			"etAl": true,
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Biodiversity of Phages Infecting the Dairy Bacterium Streptococcus thermophilus",
+			"authors": [
+				{
+					"family": "Hanemaaijer",
+					"given": "Laurens"
+				},
+				{
+					"family": "Kelleher",
+					"given": "Philip"
+				},
+				{
+					"family": "Neve",
+					"given": "Horst"
+				},
+				{
+					"family": "Franz",
+					"given": "Charles M. A. P."
+				},
+				{
+					"family": "de Waal",
+					"given": "Paul P."
+				},
+				{
+					"family": "van Peij",
+					"given": "Noël N. M. E."
+				},
+				{
+					"family": "van Sinderen",
+					"given": "Douwe"
+				}
+			],
+			"container": "Microorganisms",
+			"volume": "9",
+			"issue": "9",
+			"pages": "1822",
+			"published": "2021-08-27",
+			"doi": "10.3390/microorganisms9091822",
+			"accessed": "2026-10-06",
+			"etAl": true,
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "FDA Approves First Gene Therapies to Treat Patients with Sickle Cell Disease",
+			"authors": [
+				{
+					"name": "US Food and Drug Administration"
+				}
+			],
+			"container": "FDA News Release",
+			"publisher": "US Food and Drug Administration",
+			"published": "2023-12-08",
+			"url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapies-treat-patients-sickle-cell-disease",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "report",
+			"title": "Statement from the Organising Committee of the Third International Summit on Human Genome Editing",
+			"authors": [
+				{
+					"name": "Organising Committee of the Third International Summit on Human Genome Editing"
+				}
+			],
+			"publisher": "The Royal Society",
+			"place": "London",
+			"published": "2023-03-08",
+			"url": "https://royalsociety.org/-/media/events/2023/03/human-genome-editing-summit/statement-from-the-organising-committee-of-the-third-international-summit-on-human-genome-editing.pdf",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "The PTAB Reaffirms Priority Decision for CRISPR IP",
+			"authors": [
+				{
+					"name": "Morrison Foerster"
+				}
+			],
+			"container": "MoFo Insights",
+			"publisher": "Morrison & Foerster LLP",
+			"published": "2026-04-07",
+			"url": "https://www.mofo.com/resources/insights/260407-the-ptab-reaffirms-priority-decision-for-crispr-ip",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "Federal Circuit Vacates and Remands in Long-Pending Dispute over CRISPR IP",
+			"authors": [
+				{
+					"name": "Morrison Foerster"
+				}
+			],
+			"container": "MoFo Insights",
+			"publisher": "Morrison & Foerster LLP",
+			"published": "2025-05-13",
+			"url": "https://www.mofo.com/resources/insights/250513-federal-circuit-vacates-and-remands",
+			"accessed": "2026-10-06",
+			"read": "record"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "CRISPR gene editing",
+			"url": "https://en.wikipedia.org/w/index.php?title=CRISPR_gene_editing&oldid=1375110502",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "He Jiankui affair",
+			"url": "https://en.wikipedia.org/w/index.php?title=He_Jiankui_affair&oldid=1374845546",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Exagamglogene autotemcel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Exagamglogene_autotemcel&oldid=1376826291",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Francisco Mojica",
+			"url": "https://en.wikipedia.org/w/index.php?title=Francisco_Mojica&oldid=1371994655",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Virginijus Šikšnys",
+			"url": "https://en.wikipedia.org/w/index.php?title=Virginijus_%C5%A0ik%C5%A1nys&oldid=1372615590",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Emmanuelle Charpentier",
+			"url": "https://en.wikipedia.org/w/index.php?title=Emmanuelle_Charpentier&oldid=1370255673",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Streptococcus thermophilus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Streptococcus_thermophilus&oldid=1357044978",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "CRISPR",
+			"url": "https://en.wikipedia.org/w/index.php?title=CRISPR&oldid=1376493355",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "media",
+			"title": "Electron micrographs of phages infecting Streptococcus thermophilus (Fig. 1 of Hanemaaijer et al. 2021)",
+			"url": "https://commons.wikimedia.org/wiki/File:Microorganisms-09-01822-g001.png",
+			"accessed": "2026-10-06",
+			"licence": "CC BY 4.0",
+			"file": "phages.jpg",
+			"authors": [
+				{
+					"family": "Hanemaaijer",
+					"given": "Laurens"
+				},
+				{
+					"family": "Kelleher",
+					"given": "Philip"
+				},
+				{
+					"family": "Neve",
+					"given": "Horst"
+				},
+				{
+					"family": "Franz",
+					"given": "Charles M. A. P."
+				},
+				{
+					"family": "de Waal",
+					"given": "Paul P."
+				},
+				{
+					"family": "van Peij",
+					"given": "Noël N. M. E."
+				},
+				{
+					"family": "van Sinderen",
+					"given": "Douwe"
+				}
+			],
+			"etAl": true,
+			"published": "2021-08-27",
+			"container": "Microorganisms 9, no. 9 (2021): 1822"
+		}
+	]
+}

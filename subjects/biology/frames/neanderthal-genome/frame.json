@@ -1,0 +1,661 @@
+{
+	"id": "neanderthal-genome",
+	"topic": "Ancient DNA and the Neanderthal genome",
+	"position": {
+		"label": "2010",
+		"sort": 2010
+	},
+	"scene": {
+		"headline": "We read our extinct",
+		"accent": "COUSINS.",
+		"palette": "gel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LEIPZIG · MAX PLANCK INSTITUTE FOR EVOLUTIONARY ANTHROPOLOGY",
+			"SVANTE PÄÄBO · VINDIJA CAVE · SCIENCE, MAY 2010"
+		],
+		"counter": {
+			"value": "1–4%",
+			"label": "of non-African genomes from Neanderthals"
+		}
+	},
+	"connections": [
+		{
+			"to": "food/potato-blight",
+			"why": "Kentaro Yoshida's team read the blight's genome from herbarium leaves of 1845 onward, with the damage typical of ancient DNA, and found that one strain, HERB-1, caused the famine."
+		},
+		{
+			"to": "food/first-herds",
+			"why": "Ancient DNA gave the estimate that humpless cattle descend from about 80 tamed aurochs cows, and showed that early European farmers lacked the main lactase-persistence variant."
+		},
+		{
+			"to": "food/maize",
+			"why": "The genome of a 5,310-year-old cob from the Tehuacan Valley showed maize already close to modern maize yet carrying many domestication genes in their wild form."
+		},
+		{
+			"to": "chemistry/pcr",
+			"why": "PCR made ancient DNA easy to amplify, and a contaminating trace of a living person's DNA just as easy, which is why the field built clean rooms."
+		},
+		{
+			"to": "making/birch-tar",
+			"why": "A lump of birch tar chewed 5,700 years ago kept enough of its chewer's DNA to sequence her whole genome: ancient DNA read from an artifact, not a bone."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "A Draft Sequence of the Neandertal Genome",
+			"authors": [
+				{
+					"family": "Green",
+					"given": "Richard E."
+				},
+				{
+					"family": "Krause",
+					"given": "Johannes"
+				},
+				{
+					"family": "Briggs",
+					"given": "Adrian W."
+				},
+				{
+					"family": "Maricic",
+					"given": "Tomislav"
+				},
+				{
+					"family": "Stenzel",
+					"given": "Udo"
+				},
+				{
+					"family": "Kircher",
+					"given": "Martin"
+				},
+				{
+					"family": "Patterson",
+					"given": "Nick"
+				}
+			],
+			"container": "Science",
+			"volume": "328",
+			"issue": "5979",
+			"pages": "710–722",
+			"published": "2010-05-07",
+			"doi": "10.1126/science.1188021",
+			"accessed": "2026-10-06",
+			"etAl": true,
+			"key": true,
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5100745/",
+			"note": "Read in the author manuscript in PubMed Central"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Scientific Background: Discoveries Concerning the Genomes of Extinct Hominins and Human Evolution",
+			"authors": [
+				{
+					"name": "Nobel Assembly at Karolinska Institutet"
+				}
+			],
+			"publisher": "Nobel Prize Outreach",
+			"published": "2022-10-03",
+			"url": "https://www.nobelprize.org/prizes/medicine/2022/advanced-information/",
+			"accessed": "2026-10-06",
+			"note": "The mummy, the clean rooms and the 1997 mitochondrial sequence"
+		},
+		{
+			"kind": "article",
+			"title": "DNA Sequences from the Quagga, an Extinct Member of the Horse Family",
+			"authors": [
+				{
+					"family": "Higuchi",
+					"given": "Russell"
+				},
+				{
+					"family": "Bowman",
+					"given": "Barbara"
+				},
+				{
+					"family": "Freiberger",
+					"given": "Mary"
+				},
+				{
+					"family": "Ryder",
+					"given": "Oliver A."
+				},
+				{
+					"family": "Wilson",
+					"given": "Allan C."
+				}
+			],
+			"container": "Nature",
+			"volume": "312",
+			"issue": "5991",
+			"pages": "282–284",
+			"published": "1984-11-15",
+			"doi": "10.1038/312282a0",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Molecular Cloning of Ancient Egyptian Mummy DNA",
+			"authors": [
+				{
+					"family": "Pääbo",
+					"given": "Svante"
+				}
+			],
+			"container": "Nature",
+			"volume": "314",
+			"issue": "6012",
+			"pages": "644–645",
+			"published": "1985-04",
+			"doi": "10.1038/314644a0",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Neandertal DNA Sequences and the Origin of Modern Humans",
+			"authors": [
+				{
+					"family": "Krings",
+					"given": "Matthias"
+				},
+				{
+					"family": "Stone",
+					"given": "Anne"
+				},
+				{
+					"family": "Schmitz",
+					"given": "Ralf W."
+				},
+				{
+					"family": "Krainitzki",
+					"given": "Heike"
+				},
+				{
+					"family": "Stoneking",
+					"given": "Mark"
+				},
+				{
+					"family": "Pääbo",
+					"given": "Svante"
+				}
+			],
+			"container": "Cell",
+			"volume": "90",
+			"issue": "1",
+			"pages": "19–30",
+			"published": "1997-07",
+			"doi": "10.1016/S0092-8674(00)80310-4",
+			"accessed": "2026-10-06",
+			"read": "record"
+		},
+		{
+			"kind": "article",
+			"title": "Patterns of Damage in Genomic DNA Sequences from a Neandertal",
+			"authors": [
+				{
+					"family": "Briggs",
+					"given": "Adrian W."
+				},
+				{
+					"family": "Stenzel",
+					"given": "Udo"
+				},
+				{
+					"family": "Johnson",
+					"given": "Philip L. F."
+				},
+				{
+					"family": "Green",
+					"given": "Richard E."
+				},
+				{
+					"family": "Kelso",
+					"given": "Janet"
+				},
+				{
+					"family": "Prüfer",
+					"given": "Kay"
+				},
+				{
+					"family": "Meyer",
+					"given": "Matthias"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "104",
+			"issue": "37",
+			"pages": "14616–14621",
+			"published": "2007-09-11",
+			"doi": "10.1073/pnas.0704665104",
+			"accessed": "2026-10-06",
+			"etAl": true,
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Genetic History of an Archaic Hominin Group from Denisova Cave in Siberia",
+			"authors": [
+				{
+					"family": "Reich",
+					"given": "David"
+				},
+				{
+					"family": "Green",
+					"given": "Richard E."
+				},
+				{
+					"family": "Kircher",
+					"given": "Martin"
+				},
+				{
+					"family": "Krause",
+					"given": "Johannes"
+				},
+				{
+					"family": "Patterson",
+					"given": "Nick"
+				},
+				{
+					"family": "Durand",
+					"given": "Eric Y."
+				},
+				{
+					"family": "Viola",
+					"given": "Bence"
+				}
+			],
+			"container": "Nature",
+			"volume": "468",
+			"issue": "7327",
+			"pages": "1053–1060",
+			"published": "2010-12",
+			"doi": "10.1038/nature09710",
+			"accessed": "2026-10-06",
+			"etAl": true,
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4306417/"
+		},
+		{
+			"kind": "article",
+			"title": "The Complete Genome Sequence of a Neanderthal from the Altai Mountains",
+			"authors": [
+				{
+					"family": "Prüfer",
+					"given": "Kay"
+				},
+				{
+					"family": "Racimo",
+					"given": "Fernando"
+				},
+				{
+					"family": "Patterson",
+					"given": "Nick"
+				},
+				{
+					"family": "Jay",
+					"given": "Flora"
+				},
+				{
+					"family": "Sankararaman",
+					"given": "Sriram"
+				},
+				{
+					"family": "Sawyer",
+					"given": "Susanna"
+				},
+				{
+					"family": "Heinze",
+					"given": "Anja"
+				}
+			],
+			"container": "Nature",
+			"volume": "505",
+			"issue": "7481",
+			"pages": "43–49",
+			"published": "2014-01",
+			"doi": "10.1038/nature12886",
+			"accessed": "2026-10-06",
+			"etAl": true,
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4031459/"
+		},
+		{
+			"kind": "article",
+			"title": "Identifying and Interpreting Apparent Neanderthal Ancestry in African Individuals",
+			"authors": [
+				{
+					"family": "Chen",
+					"given": "Lu"
+				},
+				{
+					"family": "Wolf",
+					"given": "Aaron B."
+				},
+				{
+					"family": "Fu",
+					"given": "Wenqing"
+				},
+				{
+					"family": "Li",
+					"given": "Liming"
+				},
+				{
+					"family": "Akey",
+					"given": "Joshua M."
+				}
+			],
+			"container": "Cell",
+			"volume": "180",
+			"issue": "4",
+			"pages": "677–687",
+			"published": "2020-02",
+			"doi": "10.1016/j.cell.2020.01.012",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The Rise and Fall of the Phytophthora infestans Lineage That Triggered the Irish Potato Famine",
+			"authors": [
+				{
+					"family": "Yoshida",
+					"given": "Kentaro"
+				},
+				{
+					"family": "Schuenemann",
+					"given": "Verena J."
+				},
+				{
+					"family": "Cano",
+					"given": "Liliana M."
+				},
+				{
+					"family": "Pais",
+					"given": "Marina"
+				},
+				{
+					"family": "Mishra",
+					"given": "Bagdevi"
+				},
+				{
+					"family": "Sharma",
+					"given": "Rahul"
+				},
+				{
+					"family": "Lanz",
+					"given": "Christa"
+				}
+			],
+			"container": "eLife",
+			"volume": "2",
+			"pages": "e00731",
+			"published": "2013-05-28",
+			"doi": "10.7554/eLife.00731",
+			"accessed": "2026-10-06",
+			"etAl": true
+		},
+		{
+			"kind": "article",
+			"title": "Modern Taurine Cattle Descended from Small Number of Near-Eastern Founders",
+			"authors": [
+				{
+					"family": "Bollongino",
+					"given": "Ruth"
+				},
+				{
+					"family": "Burger",
+					"given": "Joachim"
+				},
+				{
+					"family": "Powell",
+					"given": "Adam"
+				},
+				{
+					"family": "Mashkour",
+					"given": "Marjan"
+				},
+				{
+					"family": "Vigne",
+					"given": "Jean-Denis"
+				},
+				{
+					"family": "Thomas",
+					"given": "Mark G."
+				}
+			],
+			"container": "Molecular Biology and Evolution",
+			"volume": "29",
+			"issue": "9",
+			"pages": "2101–2104",
+			"published": "2012-09",
+			"doi": "10.1093/molbev/mss092",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Absence of the Lactase-Persistence-Associated Allele in Early Neolithic Europeans",
+			"authors": [
+				{
+					"family": "Burger",
+					"given": "Joachim"
+				},
+				{
+					"family": "Kirchner",
+					"given": "Martina"
+				},
+				{
+					"family": "Bramanti",
+					"given": "Barbara"
+				},
+				{
+					"family": "Haak",
+					"given": "Wolfgang"
+				},
+				{
+					"family": "Thomas",
+					"given": "Mark G."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "104",
+			"issue": "10",
+			"pages": "3736–3741",
+			"published": "2007-03-06",
+			"doi": "10.1073/pnas.0607187104",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Genome Sequence of a 5,310-Year-Old Maize Cob Provides Insights into the Early Stages of Maize Domestication",
+			"authors": [
+				{
+					"family": "Ramos-Madrigal",
+					"given": "Jazmín"
+				},
+				{
+					"family": "Smith",
+					"given": "Bruce D."
+				},
+				{
+					"family": "Moreno-Mayar",
+					"given": "J. Víctor"
+				},
+				{
+					"family": "Gopalakrishnan",
+					"given": "Shyam"
+				},
+				{
+					"family": "Ross-Ibarra",
+					"given": "Jeffrey"
+				},
+				{
+					"family": "Gilbert",
+					"given": "M. Thomas P."
+				},
+				{
+					"family": "Wales",
+					"given": "Nathan"
+				}
+			],
+			"container": "Current Biology",
+			"volume": "26",
+			"issue": "23",
+			"pages": "3195–3201",
+			"published": "2016-12",
+			"doi": "10.1016/j.cub.2016.09.036",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "Press Release: The Nobel Prize in Physiology or Medicine 2022",
+			"authors": [
+				{
+					"name": "Nobel Assembly at Karolinska Institutet"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "2022-10-03",
+			"url": "https://www.nobelprize.org/prizes/medicine/2022/press-release/",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ancient DNA",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ancient_DNA&oldid=1351282181",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-27",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Interbreeding between archaic and modern humans",
+			"url": "https://en.wikipedia.org/w/index.php?title=Interbreeding_between_archaic_and_modern_humans&oldid=1378514100",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Neanderthal genome project",
+			"url": "https://en.wikipedia.org/w/index.php?title=Neanderthal_genome_project&oldid=1378846556",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Denisovan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Denisovan&oldid=1374242437",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quagga",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quagga&oldid=1377897027",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Svante Pääbo",
+			"url": "https://en.wikipedia.org/w/index.php?title=Svante_P%C3%A4%C3%A4bo&oldid=1375094971",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "media",
+			"title": "Quagga mare, Regent's Park Zoo, London",
+			"url": "https://commons.wikimedia.org/wiki/File:Quagga_photo.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "quagga.jpg",
+			"authors": [
+				{
+					"family": "York",
+					"given": "Frederick"
+				}
+			],
+			"published": "1870",
+			"container": "Biodiversity Heritage Library, via Wikimedia Commons",
+			"note": "Published before 1931; the photographer died in 1903"
+		},
+		{
+			"kind": "media",
+			"title": "Vindija Cave near Ivanec, northern Croatia",
+			"url": "https://commons.wikimedia.org/wiki/File:Vindija_Cave_1.jpg",
+			"accessed": "2026-10-06",
+			"licence": "CC BY-SA 4.0",
+			"file": "vindija.jpg",
+			"authors": [
+				{
+					"family": "Parg",
+					"given": "Thilo"
+				}
+			],
+			"published": "2022-04-18",
+			"container": "Wikimedia Commons"
+		},
+		{
+			"kind": "media",
+			"title": "How many times each letter of an archaic genome was read, 2010 to 2017 (log scale)",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Green et al. 2010; Reich et al. 2010; Prüfer et al. 2014; Nobel Assembly, Scientific Background 2022",
+			"url": "https://www.nobelprize.org/prizes/medicine/2022/advanced-information/",
+			"accessed": "2026-10-06",
+			"licence": "MIT",
+			"file": "coverage.svg"
+		}
+	]
+}

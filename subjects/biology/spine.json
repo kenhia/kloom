@@ -76,6 +76,13 @@
 				"genetic-code",
 				"lac-operon"
 			]
+		},
+		{
+			"id": "reading-writing",
+			"title": "Reading and writing life",
+			"labelKind": "date",
+			"palette": "gel",
+			"frames": ["neanderthal-genome", "crispr"]
 		}
 	]
 }
