@@ -1,0 +1,194 @@
+{
+	"id": "hardy-weinberg",
+	"topic": "The Hardy–Weinberg principle",
+	"position": {
+		"label": "1908",
+		"sort": 1908
+	},
+	"scene": {
+		"headline": "Inheritance holds an",
+		"accent": "EQUILIBRIUM.",
+		"palette": "garden",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAMBRIDGE · STUTTGART · 1908",
+			"G. H. HARDY · WILHELM WEINBERG · p² + 2pq + q² = 1"
+		],
+		"counter": {
+			"value": "35 years",
+			"label": "before Weinberg's share was noticed"
+		}
+	},
+	"connections": [
+		{
+			"to": "blood/bernstein",
+			"why": "Bernstein turned the Hardy–Weinberg rule into a test in 1924: from the counts of the four blood groups alone it showed that ABO is one gene with three alleles, not two genes."
+		}
+	],
+	"citations": [
+		{
+			"kind": "letter",
+			"key": true,
+			"title": "Mendelian Proportions in a Mixed Population",
+			"authors": [
+				{
+					"family": "Hardy",
+					"given": "G. H."
+				}
+			],
+			"recipients": [
+				{
+					"name": "The Editor of Science"
+				}
+			],
+			"written": "1908-04-05",
+			"container": "Science",
+			"volume": "28",
+			"pages": "49–50",
+			"published": "1908-07-10",
+			"doi": "10.1126/science.28.706.49",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2582692/",
+			"accessed": "2026-10-06",
+			"note": "Read in the Yale Journal of Biology and Medicine's reprint of 2003"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Über den Nachweis der Vererbung beim Menschen",
+			"authors": [
+				{
+					"family": "Weinberg",
+					"given": "Wilhelm"
+				}
+			],
+			"container": "Jahreshefte des Vereins für vaterländische Naturkunde in Württemberg",
+			"volume": "64",
+			"pages": "369–382",
+			"published": "1908",
+			"language": "de",
+			"url": "https://archive.org/details/jahresheftedesve64vere",
+			"accessed": "2026-10-06",
+			"note": "Read to the society on 13 January 1908; the rule is on pp. 378–379"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "G. H. Hardy (1908) and Hardy–Weinberg Equilibrium",
+			"authors": [
+				{
+					"family": "Edwards",
+					"given": "A. W. F."
+				}
+			],
+			"container": "Genetics",
+			"volume": "179",
+			"issue": "3",
+			"pages": "1143–1150",
+			"published": "2008-07",
+			"doi": "10.1534/genetics.104.92940",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Hardy, Weinberg and Language Impediments",
+			"authors": [
+				{
+					"family": "Crow",
+					"given": "James F."
+				}
+			],
+			"container": "Genetics",
+			"volume": "152",
+			"issue": "3",
+			"pages": "821–825",
+			"published": "1999-07",
+			"doi": "10.1093/genetics/152.3.821",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "A Mathematician's Apology",
+			"authors": [
+				{
+					"family": "Hardy",
+					"given": "G. H."
+				}
+			],
+			"place": "Cambridge",
+			"publisher": "Cambridge University Press",
+			"published": "1940",
+			"citedIn": "G. H. Hardy (1908) and Hardy–Weinberg Equilibrium"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Hardy–Weinberg principle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hardy%E2%80%93Weinberg_principle&oldid=1367629467",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "G. H. Hardy",
+			"url": "https://en.wikipedia.org/w/index.php?title=G._H._Hardy&oldid=1375662867",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wilhelm Weinberg",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wilhelm_Weinberg&oldid=1346899480",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Reginald Punnett",
+			"url": "https://en.wikipedia.org/w/index.php?title=Reginald_Punnett&oldid=1359836488",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Udny Yule",
+			"url": "https://en.wikipedia.org/w/index.php?title=Udny_Yule&oldid=1372003187",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		}
+	]
+}

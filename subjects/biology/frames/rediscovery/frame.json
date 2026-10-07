@@ -1,0 +1,277 @@
+{
+	"id": "rediscovery",
+	"topic": "Mendel rediscovered",
+	"position": {
+		"label": "1900",
+		"sort": 1900
+	},
+	"scene": {
+		"headline": "We read Mendel at",
+		"accent": "LAST.",
+		"palette": "garden",
+		"illustration": "scene.svg",
+		"metadata": [
+			"AMSTERDAM · TÜBINGEN · VIENNA · CAMBRIDGE",
+			"DE VRIES · CORRENS · TSCHERMAK · BATESON"
+		],
+		"counter": {
+			"value": "34 years",
+			"label": "from Mendel's paper to its rediscovery"
+		}
+	},
+	"connections": [
+		{
+			"to": "mathematics/normal-distribution",
+			"why": "The biometricians who fought Bateson followed Galton in measuring traits that vary smoothly along the normal curve, and the fight ended when Fisher showed that many Mendelian factors, each adding a little, sum to that same bell curve."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Das Spaltungsgesetz der Bastarde",
+			"authors": [
+				{
+					"family": "de Vries",
+					"given": "Hugo"
+				}
+			],
+			"container": "Berichte der Deutschen Botanischen Gesellschaft",
+			"volume": "18",
+			"published": "1900",
+			"language": "de",
+			"url": "https://archive.org/details/mobot31753002189832",
+			"accessed": "2026-10-06",
+			"pages": "83–90",
+			"note": "Received 14 March 1900; the footnote on Mendel is on p. 85. Read in the Missouri Botanical Garden's scan of the volume"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "G. Mendel's Regel über das Verhalten der Nachkommenschaft der Rassenbastarde",
+			"authors": [
+				{
+					"family": "Correns",
+					"given": "Carl"
+				}
+			],
+			"container": "Berichte der Deutschen Botanischen Gesellschaft",
+			"volume": "18",
+			"published": "1900",
+			"language": "de",
+			"url": "https://archive.org/details/mobot31753002189832",
+			"accessed": "2026-10-06",
+			"pages": "158–168",
+			"note": "Received 24 April 1900"
+		},
+		{
+			"kind": "article",
+			"title": "Ueber künstliche Kreuzung bei Pisum sativum",
+			"authors": [
+				{
+					"family": "Tschermak",
+					"given": "Erich"
+				}
+			],
+			"container": "Berichte der Deutschen Botanischen Gesellschaft",
+			"volume": "18",
+			"published": "1900",
+			"language": "de",
+			"url": "https://archive.org/details/mobot31753002189832",
+			"accessed": "2026-10-06",
+			"pages": "232–239"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Mendel's Principles of Heredity: A Defence, with a Translation of Mendel's Original Papers on Hybridisation",
+			"authors": [
+				{
+					"family": "Bateson",
+					"given": "William"
+				}
+			],
+			"place": "Cambridge",
+			"publisher": "Cambridge University Press",
+			"published": "1902",
+			"url": "https://archive.org/details/mendelsprinciple00bate_0",
+			"accessed": "2026-10-06",
+			"note": "The preface answers Weldon; Mendel's two-character cross begins on p. 60"
+		},
+		{
+			"kind": "article",
+			"title": "Mendel's Laws of Alternative Inheritance in Peas",
+			"authors": [
+				{
+					"family": "Weldon",
+					"given": "W. F. R."
+				}
+			],
+			"container": "Biometrika",
+			"volume": "1",
+			"issue": "2",
+			"pages": "228–254",
+			"published": "1902-01",
+			"url": "https://archive.org/details/biometrika119011902pear",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "On the Morphology of the Chromosome Group in Brachystola magna",
+			"authors": [
+				{
+					"family": "Sutton",
+					"given": "Walter S."
+				}
+			],
+			"container": "The Biological Bulletin",
+			"volume": "4",
+			"issue": "1",
+			"pages": "24–39",
+			"published": "1902-12",
+			"doi": "10.2307/1535510",
+			"url": "http://www.esp.org/foundations/genetics/classical/wss-02.pdf",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Weldon, Bateson, and the Origins of Genetics: Reflections on the Unraveling and Rebuilding of a Scientific Community",
+			"authors": [
+				{
+					"family": "Davis",
+					"given": "Lea K."
+				}
+			],
+			"container": "PLOS Genetics",
+			"volume": "18",
+			"issue": "10",
+			"pages": "e1010379",
+			"published": "2022-10-27",
+			"doi": "10.1371/journal.pgen.1010379",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Hugo de Vries",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hugo_de_Vries&oldid=1367186782",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carl Correns",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carl_Correns&oldid=1371977748",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Erich von Tschermak",
+			"url": "https://en.wikipedia.org/w/index.php?title=Erich_von_Tschermak&oldid=1371991430",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Bateson",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Bateson&oldid=1372011480",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Raphael Weldon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Raphael_Weldon&oldid=1372834510",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Boveri–Sutton chromosome theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Boveri%E2%80%93Sutton_chromosome_theory&oldid=1377853759",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Theodor Boveri",
+			"url": "https://en.wikipedia.org/w/index.php?title=Theodor_Boveri&oldid=1368419771",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Walter Sutton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Walter_Sutton&oldid=1372006857",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "Gregor Mendel, abbot of Brünn",
+			"url": "https://commons.wikimedia.org/wiki/File:Gregor_Mendel_Monk.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "abbot.jpg",
+			"container": "Frontispiece of William Bateson, Mendel's Principles of Heredity: A Defence (Cambridge, 1902)",
+			"published": "1902"
+		}
+	]
+}
