@@ -1,0 +1,268 @@
+{
+	"id": "hershey-chase",
+	"topic": "The Hershey–Chase experiment",
+	"position": {
+		"label": "1952",
+		"sort": 1952
+	},
+	"scene": {
+		"headline": "The coats came off in a",
+		"accent": "BLENDER.",
+		"palette": "helix",
+		"illustration": "scene.svg",
+		"metadata": [
+			"COLD SPRING HARBOR · CARNEGIE INSTITUTION OF WASHINGTON",
+			"ALFRED HERSHEY · MARTHA CHASE · PHAGE T2 · E. COLI"
+		],
+		"counter": {
+			"value": "81%",
+			"label": "of the coat's sulfur sheared off in 2.5 minutes"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/dna",
+			"why": "Seven months after Hershey and Chase showed that a phage's DNA, not its protein, enters the cell, Watson, a phage-group man, and Crick proposed the double helix that showed how DNA could copy itself."
+		},
+		{
+			"to": "physics/manhattan-project",
+			"why": "The phosphorus-32 and sulfur-35 that labeled Hershey and Chase's phages came from Oak Ridge, whose X-10 reactor, built for the Manhattan Project, had turned to making isotopes for research after the war."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Independent Functions of Viral Protein and Nucleic Acid in Growth of Bacteriophage",
+			"authors": [
+				{
+					"family": "Hershey",
+					"given": "A. D."
+				},
+				{
+					"family": "Chase",
+					"given": "Martha"
+				}
+			],
+			"container": "Journal of General Physiology",
+			"volume": "36",
+			"issue": "1",
+			"pages": "39–56",
+			"published": "1952-09-20",
+			"doi": "10.1085/jgp.36.1.39",
+			"accessed": "2026-10-06",
+			"note": "The blender on pp. 46–49, Table V on p. 48"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Hershey-Chase Experiments (1952), by Alfred Hershey and Martha Chase",
+			"authors": [
+				{
+					"family": "Hernandez",
+					"given": "Victoria"
+				}
+			],
+			"container": "Embryo Project Encyclopedia",
+			"publisher": "Arizona State University",
+			"published": "2019-06-23",
+			"url": "https://embryo.asu.edu/pages/hershey-chase-experiments-1952-alfred-hershey-and-martha-chase",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Osvald T. Avery and the Nobel Prize in Medicine",
+			"authors": [
+				{
+					"family": "Reichard",
+					"given": "Peter"
+				}
+			],
+			"container": "Journal of Biological Chemistry",
+			"volume": "277",
+			"issue": "16",
+			"pages": "13355–13362",
+			"published": "2002",
+			"doi": "10.1074/jbc.R200002200",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "Press Release: The Nobel Prize in Physiology or Medicine 1969",
+			"authors": [
+				{
+					"name": "Karolinska Institutet"
+				}
+			],
+			"publisher": "Nobel Foundation",
+			"container": "NobelPrize.org",
+			"url": "https://www.nobelprize.org/prizes/medicine/1969/press-release/",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "After the Discovery: The Transforming Principle's Reception by the Scientific Community",
+			"container": "The Oswald T. Avery Collection, Profiles in Science",
+			"publisher": "National Library of Medicine",
+			"url": "https://profiles.nlm.nih.gov/spotlight/cc/feature/after",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Martha Chase at the University of Rochester: The Woman in STEM Who Was Forgotten",
+			"authors": [
+				{
+					"family": "Bischoff",
+					"given": "Michelle A."
+				},
+				{
+					"family": "Wang",
+					"given": "Xuke"
+				},
+				{
+					"family": "Song",
+					"given": "Erin"
+				},
+				{
+					"family": "Wilson",
+					"given": "Gabrielle"
+				},
+				{
+					"family": "Brody",
+					"given": "Monica"
+				},
+				{
+					"family": "Iyer",
+					"given": "Suchi"
+				},
+				{
+					"family": "Caine",
+					"given": "Kirya"
+				}
+			],
+			"etAl": true,
+			"container": "Journal of Undergraduate Research",
+			"volume": "22",
+			"issue": "2",
+			"published": "2024",
+			"doi": "10.47761/hema1238",
+			"url": "https://www.rochester.edu/college/ugresearch/jur/michbisbiol/",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hershey–Chase experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hershey%E2%80%93Chase_experiment&oldid=1368337364",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Martha Chase",
+			"url": "https://en.wikipedia.org/w/index.php?title=Martha_Chase&oldid=1372347728",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alfred Hershey",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alfred_Hershey&oldid=1371965274",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phage group",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phage_group&oldid=1365288729",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Max Delbrück",
+			"url": "https://en.wikipedia.org/w/index.php?title=Max_Delbr%C3%BCck&oldid=1378272270",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "X-10 Graphite Reactor",
+			"url": "https://en.wikipedia.org/w/index.php?title=X-10_Graphite_Reactor&oldid=1373544480",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "media",
+			"title": "Enterobacteria phage T2 transmission electron micrograph",
+			"authors": [
+				{
+					"name": "SnaxMikn"
+				}
+			],
+			"published": "2022-01-14",
+			"url": "https://commons.wikimedia.org/wiki/File:Enterobacteria_phage_T2_transmission_electron_micrograph.jpg",
+			"container": "Wikimedia Commons, own work",
+			"accessed": "2026-10-06",
+			"licence": "CC BY-SA 4.0",
+			"file": "t2.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Phage label released from infected bacteria by the blender, Hershey and Chase 1952",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Hershey and Chase, Journal of General Physiology 36 (1952), Table V",
+			"doi": "10.1085/jgp.36.1.39",
+			"accessed": "2026-10-06",
+			"licence": "MIT",
+			"file": "blender.svg"
+		}
+	]
+}

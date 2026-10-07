@@ -45,6 +45,13 @@
 				"beadle-tatum",
 				"mcclintock"
 			]
+		},
+		{
+			"id": "molecule",
+			"title": "The molecule",
+			"labelKind": "date",
+			"palette": "helix",
+			"frames": ["griffith", "avery", "hershey-chase"]
 		}
 	]
 }

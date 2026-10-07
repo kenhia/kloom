@@ -1,0 +1,47 @@
+{
+	"biology/griffith": [
+		["Fred Griffith", "frederick-griffith"],
+		["pneumonia", "pneumonia"],
+		["_Streptococcus pneumoniae_", "streptococcus-pneumoniae"],
+		["Fred Neufeld", "fred-neufeld"],
+		["Rockefeller Institute", "rockefeller-university"],
+		["Oswald Avery", "oswald-avery"],
+		["capsule", "bacterial-capsule"],
+		["Martin Dawson", "martin-henry-dawson"],
+		["transformation", "genetic-transformation"],
+		["the Blitz", "the-blitz"]
+	],
+	"biology/avery": [
+		["Rockefeller Institute", "rockefeller-university"],
+		["Oswald Avery", "oswald-avery"],
+		["pneumococcus", "streptococcus-pneumoniae"],
+		["Colin MacLeod", "colin-munro-macleod"],
+		["Maclyn McCarty", "maclyn-mccarty"],
+		["Avery–MacLeod–McCarty experiment", "avery-macleod-mccarty-experiment"],
+		["DNA", "dna"],
+		["protein", "protein"],
+		["Alfred Mirsky", "alfred-mirsky"],
+		["Phoebus Levene", "phoebus-levene"],
+		["tetranucleotide hypothesis", "tetranucleotide-hypothesis"],
+		["deoxyribonuclease", "deoxyribonuclease"],
+		["Erwin Chargaff", "erwin-chargaff"],
+		["Copley Medal", "copley-medal"]
+	],
+	"biology/hershey-chase": [
+		["Alfred Hershey", "alfred-hershey"],
+		["Martha Chase", "martha-chase"],
+		["Carnegie Institution of Washington", "carnegie-institution-for-science"],
+		["Cold Spring Harbor", "cold-spring-harbor-laboratory"],
+		["DNA", "dna"],
+		["protein", "protein"],
+		["Hershey–Chase experiment", "hershey-chase-experiment"],
+		["bacteriophage", "bacteriophage"],
+		["_Escherichia coli_", "escherichia-coli"],
+		["Max Delbrück", "max-delbruck"],
+		["Salvador Luria", "salvador-luria"],
+		["phage group", "phage-group"],
+		["phosphorus-32", "phosphorus-32"],
+		["Oak Ridge National Laboratory", "oak-ridge-national-laboratory"],
+		["James Watson", "james-watson"]
+	]
+}

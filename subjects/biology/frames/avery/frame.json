@@ -1,0 +1,253 @@
+{
+	"id": "avery",
+	"topic": "Avery: genes are DNA",
+	"position": {
+		"label": "1944",
+		"sort": 1944
+	},
+	"scene": {
+		"headline": "The transforming principle was an",
+		"accent": "ACID.",
+		"palette": "helix",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NEW YORK · HOSPITAL OF THE ROCKEFELLER INSTITUTE",
+			"AVERY · MACLEOD · MCCARTY · J. EXP. MED. · FEBRUARY 1944"
+		],
+		"counter": {
+			"value": "0.003 µg",
+			"label": "of the purified DNA still transformed"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/dna-chemistry",
+			"why": "The chemistry of DNA before 1953 sets Avery's nitrogen-to-phosphorus ratio against the tetranucleotide theory it was calculated from, and tells how Chargaff, reading this paper as a challenge, showed that DNA differs from species to species."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Studies on the Chemical Nature of the Substance Inducing Transformation of Pneumococcal Types: Induction of Transformation by a Desoxyribonucleic Acid Fraction Isolated from Pneumococcus Type III",
+			"authors": [
+				{
+					"family": "Avery",
+					"given": "Oswald T."
+				},
+				{
+					"family": "MacLeod",
+					"given": "Colin M."
+				},
+				{
+					"family": "McCarty",
+					"given": "Maclyn"
+				}
+			],
+			"container": "Journal of Experimental Medicine",
+			"volume": "79",
+			"issue": "2",
+			"pages": "137–158",
+			"published": "1944-02-01",
+			"doi": "10.1084/jem.79.2.137",
+			"accessed": "2026-10-06",
+			"note": "The method is on pp. 142–144; Tables I and II on pp. 145–146"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Osvald T. Avery and the Nobel Prize in Medicine",
+			"authors": [
+				{
+					"family": "Reichard",
+					"given": "Peter"
+				}
+			],
+			"container": "Journal of Biological Chemistry",
+			"volume": "277",
+			"issue": "16",
+			"pages": "13355–13362",
+			"published": "2002",
+			"doi": "10.1074/jbc.R200002200",
+			"accessed": "2026-10-06",
+			"note": "The committee's evaluations of 1946, 1952 and 1954"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter from Oswald T. Avery to Roy Avery (partial transcription)",
+			"authors": [
+				{
+					"family": "Avery",
+					"given": "Oswald T."
+				}
+			],
+			"recipients": [
+				{
+					"family": "Avery",
+					"given": "Roy C."
+				}
+			],
+			"written": "1943-05-13",
+			"container": "The Oswald T. Avery Collection, Profiles in Science, National Library of Medicine",
+			"url": "https://collections.nlm.nih.gov/catalog/nlm:nlmuid-101584575X38-doc",
+			"accessed": "2026-10-06",
+			"note": "Begun 13 May and finished 26 May 1943, by the Library's record"
+		},
+		{
+			"kind": "web",
+			"title": "DNA as the \"Stuff of Genes\": The Discovery of the Transforming Principle, 1940–1944",
+			"container": "The Oswald T. Avery Collection, Profiles in Science",
+			"publisher": "National Library of Medicine",
+			"url": "https://profiles.nlm.nih.gov/spotlight/cc/feature/dna",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "After the Discovery: The Transforming Principle's Reception by the Scientific Community",
+			"container": "The Oswald T. Avery Collection, Profiles in Science",
+			"publisher": "National Library of Medicine",
+			"url": "https://profiles.nlm.nih.gov/spotlight/cc/feature/after",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Pneumococcal Transformation—A Backward View: Fourth Griffith Memorial Lecture",
+			"authors": [
+				{
+					"family": "Downie",
+					"given": "A. W."
+				}
+			],
+			"container": "Journal of General Microbiology",
+			"volume": "73",
+			"issue": "1",
+			"pages": "1–11",
+			"published": "1972",
+			"doi": "10.1099/00221287-73-1-1",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Address of the President",
+			"authors": [
+				{
+					"family": "Dale",
+					"given": "Henry"
+				}
+			],
+			"container": "Proceedings of the Royal Society B",
+			"volume": "133",
+			"pages": "123–139",
+			"published": "1946",
+			"citedIn": "Pneumococcal Transformation—A Backward View: Fourth Griffith Memorial Lecture"
+		},
+		{
+			"kind": "article",
+			"title": "Studies on the Chemical Nature of the Substance Inducing Transformation of Pneumococcal Types: II. Effect of Desoxyribonuclease on the Biological Activity of the Transforming Substance",
+			"authors": [
+				{
+					"family": "McCarty",
+					"given": "Maclyn"
+				},
+				{
+					"family": "Avery",
+					"given": "Oswald T."
+				}
+			],
+			"container": "Journal of Experimental Medicine",
+			"volume": "83",
+			"issue": "2",
+			"pages": "89–96",
+			"published": "1946",
+			"doi": "10.1084/jem.83.2.89",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Avery–MacLeod–McCarty experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Avery%E2%80%93MacLeod%E2%80%93McCarty_experiment&oldid=1300689347",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-07-15",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Oswald Avery",
+			"url": "https://en.wikipedia.org/w/index.php?title=Oswald_Avery&oldid=1378474209",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Colin Munro MacLeod",
+			"url": "https://en.wikipedia.org/w/index.php?title=Colin_Munro_MacLeod&oldid=1371982449",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Maclyn McCarty",
+			"url": "https://en.wikipedia.org/w/index.php?title=Maclyn_McCarty&oldid=1366952477",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alfred Mirsky",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alfred_Mirsky&oldid=1366921458",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "media",
+			"title": "Nitrogen-to-phosphorus ratios of the purified transforming substance, Avery, MacLeod and McCarty 1944",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Avery, MacLeod and McCarty, Journal of Experimental Medicine 79 (1944), Table I",
+			"doi": "10.1084/jem.79.2.137",
+			"accessed": "2026-10-06",
+			"licence": "MIT",
+			"file": "nitrogen-phosphorus.svg"
+		}
+	]
+}

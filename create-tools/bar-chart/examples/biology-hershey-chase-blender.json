@@ -1,0 +1,30 @@
+{
+	"title": "Phage label released from infected bacteria by the blender, Hershey and Chase 1952",
+	"description": "Bar chart of the percentage of each radioactive label found in the fluid after infected E. coli were spun down, from Table V of Hershey and Chase (1952), at 0.6 phage per bacterium. Sulfur-35, in the protein coat: 16 percent without the blender, 81 percent after 2.5 minutes in it. Phosphorus-32, in the DNA: 10 percent without the blender, 21 percent after it.",
+	"heading": "LABEL RELEASED FROM THE CELLS · PERCENT · TABLE V",
+	"unit": "%",
+	"width": 480,
+	"height": 300,
+	"barWidth": 56,
+	"axis": {
+		"max": 100,
+		"ticks": [
+			[0, "0"],
+			[25, "25"],
+			[50, "50"],
+			[75, "75"],
+			[100, "100"]
+		]
+	},
+	"bars": [
+		{ "label": "S-35", "sublabel": "no blender", "value": 16 },
+		{ "label": "S-35", "sublabel": "2.5 min", "value": 81, "highlight": true },
+		{ "label": "P-32", "sublabel": "no blender", "value": 10 },
+		{ "label": "P-32", "sublabel": "2.5 min", "value": 21 }
+	],
+	"source": {
+		"container": "Hershey and Chase, Journal of General Physiology 36 (1952), Table V",
+		"doi": "10.1085/jgp.36.1.39",
+		"accessed": "2026-10-06"
+	}
+}
