@@ -82,7 +82,16 @@
 			"title": "Reading and writing life",
 			"labelKind": "date",
 			"palette": "gel",
-			"frames": ["recombinant-dna", "asilomar", "sanger-sequencing", "neanderthal-genome", "crispr"]
+			"frames": [
+				"recombinant-dna",
+				"asilomar",
+				"sanger-sequencing",
+				"woese-archaea",
+				"dolly",
+				"human-genome",
+				"neanderthal-genome",
+				"crispr"
+			]
 		},
 		{
 			"id": "ecology",

@@ -1,0 +1,38 @@
+{
+	"title": "Cost of sequencing a human genome, 2001–2022",
+	"description": "Bar chart on a logarithmic scale of the cost of sequencing a human-sized genome at the sequencing centers funded by the US National Human Genome Research Institute. September 2001: $95.3 million. October 2003: $40.2 million. October 2005: $13.8 million. October 2007: $7.1 million. October 2009: $70,333. October 2011: $7,743. October 2013: $5,096. October 2015: $1,245. November 2017: $1,844. November 2019: $695. November 2021: $552. May 2022: $525. The fall steepens after January 2008, when the centers changed to second-generation sequencing machines. Data: NHGRI, DNA Sequencing Costs: Data.",
+	"heading": "COST PER HUMAN GENOME (NHGRI) · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"width": 600,
+	"barWidth": 36,
+	"axis": {
+		"min": 100,
+		"max": 1000000000,
+		"ticks": [
+			[100, "$100"],
+			[10000, "$10K"],
+			[1000000, "$1M"],
+			[100000000, "$100M"]
+		]
+	},
+	"bars": [
+		{ "label": "2001", "value": 95263072, "display": "$95M", "highlight": true },
+		{ "label": "2003", "value": 40157554, "display": "$40M" },
+		{ "label": "2005", "value": 13801124, "display": "$14M" },
+		{ "label": "2007", "value": 7147571, "display": "$7.1M" },
+		{ "label": "2009", "value": 70333, "display": "$70K" },
+		{ "label": "2011", "value": 7743, "display": "$7.7K" },
+		{ "label": "2013", "value": 5096, "display": "$5.1K" },
+		{ "label": "2015", "value": 1245, "display": "$1.2K" },
+		{ "label": "2017", "value": 1844, "display": "$1.8K" },
+		{ "label": "2019", "value": 695, "display": "$695" },
+		{ "label": "2021", "value": 552, "display": "$552" },
+		{ "label": "2022", "value": 525, "display": "$525" }
+	],
+	"source": {
+		"container": "Chart drawn for kloom from the National Human Genome Research Institute, DNA Sequencing Costs: Data (data to May 2022)",
+		"url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data",
+		"accessed": "2026-10-06"
+	}
+}

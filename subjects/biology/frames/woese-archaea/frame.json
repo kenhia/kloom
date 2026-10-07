@@ -1,0 +1,395 @@
+{
+	"id": "woese-archaea",
+	"topic": "Woese and the three domains",
+	"position": {
+		"label": "1977–90",
+		"sort": 1977
+	},
+	"asOf": "2026-10-06",
+	"scene": {
+		"headline": "Life had three",
+		"accent": "DOMAINS.",
+		"palette": "gel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"URBANA, ILLINOIS · CARL WOESE · GEORGE FOX",
+			"16S RIBOSOMAL RNA · PNAS · NOVEMBER 1977"
+		],
+		"counter": {
+			"value": "3–4 weeks",
+			"label": "to catalog one organism’s 16S RNA"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Phylogenetic Structure of the Prokaryotic Domain: The Primary Kingdoms",
+			"authors": [
+				{
+					"family": "Woese",
+					"given": "Carl R."
+				},
+				{
+					"family": "Fox",
+					"given": "George E."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences of the United States of America",
+			"volume": "74",
+			"issue": "11",
+			"pages": "5088–5090",
+			"published": "1977-11",
+			"doi": "10.1073/pnas.74.11.5088",
+			"accessed": "2026-10-06",
+			"key": true,
+			"note": "Table 1 gives the association coefficients the plate is computed from"
+		},
+		{
+			"kind": "article",
+			"title": "Towards a Natural System of Organisms: Proposal for the Domains Archaea, Bacteria, and Eucarya",
+			"authors": [
+				{
+					"family": "Woese",
+					"given": "Carl R."
+				},
+				{
+					"family": "Kandler",
+					"given": "Otto"
+				},
+				{
+					"family": "Wheelis",
+					"given": "Mark L."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences of the United States of America",
+			"volume": "87",
+			"issue": "12",
+			"pages": "4576–4579",
+			"published": "1990-06",
+			"doi": "10.1073/pnas.87.12.4576",
+			"accessed": "2026-10-06",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "The Singular Quest for a Universal Tree of Life",
+			"authors": [
+				{
+					"family": "Sapp",
+					"given": "Jan"
+				},
+				{
+					"family": "Fox",
+					"given": "George E."
+				}
+			],
+			"container": "Microbiology and Molecular Biology Reviews",
+			"volume": "77",
+			"issue": "4",
+			"pages": "541–550",
+			"published": "2013-12",
+			"doi": "10.1128/MMBR.00038-13",
+			"accessed": "2026-10-06",
+			"key": true,
+			"note": "How the fingerprints and catalogs were made, and the first methanogen"
+		},
+		{
+			"kind": "article",
+			"title": "Two Empires or Three?",
+			"authors": [
+				{
+					"family": "Mayr",
+					"given": "Ernst"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences of the United States of America",
+			"volume": "95",
+			"issue": "17",
+			"pages": "9720–9723",
+			"published": "1998-08-18",
+			"doi": "10.1073/pnas.95.17.9720",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Complex Archaea That Bridge the Gap between Prokaryotes and Eukaryotes",
+			"authors": [
+				{
+					"family": "Spang",
+					"given": "Anja"
+				},
+				{
+					"family": "Saw",
+					"given": "Jimmy H."
+				},
+				{
+					"family": "Jørgensen",
+					"given": "Steffen L."
+				}
+			],
+			"container": "Nature",
+			"volume": "521",
+			"issue": "7551",
+			"pages": "173–179",
+			"published": "2015-05",
+			"doi": "10.1038/nature14447",
+			"accessed": "2026-10-06",
+			"etAl": true,
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Isolation of an Archaeon at the Prokaryote–Eukaryote Interface",
+			"authors": [
+				{
+					"family": "Imachi",
+					"given": "Hiroyuki"
+				},
+				{
+					"family": "Nobu",
+					"given": "Masaru K."
+				},
+				{
+					"family": "Nakahara",
+					"given": "Nozomi"
+				}
+			],
+			"container": "Nature",
+			"volume": "577",
+			"issue": "7791",
+			"pages": "519–525",
+			"published": "2020-01-15",
+			"doi": "10.1038/s41586-019-1916-6",
+			"accessed": "2026-10-06",
+			"etAl": true,
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Inference and Reconstruction of the Heimdallarchaeial Ancestry of Eukaryotes",
+			"authors": [
+				{
+					"family": "Eme",
+					"given": "Laura"
+				},
+				{
+					"family": "Tamarit",
+					"given": "Daniel"
+				},
+				{
+					"family": "Caceres",
+					"given": "Eva F."
+				}
+			],
+			"container": "Nature",
+			"volume": "618",
+			"issue": "7967",
+			"pages": "992–999",
+			"published": "2023-06-14",
+			"doi": "10.1038/s41586-023-06186-2",
+			"accessed": "2026-10-06",
+			"etAl": true,
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Deep Origin of Eukaryotes outside Heimdallarchaeia within Asgardarchaeota",
+			"authors": [
+				{
+					"family": "Zhang",
+					"given": "Jiawei"
+				},
+				{
+					"family": "Feng",
+					"given": "Xiaoyuan"
+				},
+				{
+					"family": "Li",
+					"given": "Meng"
+				}
+			],
+			"container": "Nature",
+			"volume": "642",
+			"issue": "8069",
+			"pages": "990–998",
+			"published": "2025-05-07",
+			"doi": "10.1038/s41586-025-08955-7",
+			"accessed": "2026-10-06",
+			"etAl": true,
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Lokiarchaea Are Close Relatives of Euryarchaeota, Not Bridging the Gap between Prokaryotes and Eukaryotes",
+			"authors": [
+				{
+					"family": "Da Cunha",
+					"given": "Violette"
+				},
+				{
+					"family": "Gaia",
+					"given": "Morgan"
+				},
+				{
+					"family": "Gadelle",
+					"given": "Daniele"
+				},
+				{
+					"family": "Nasir",
+					"given": "Arshan"
+				},
+				{
+					"family": "Forterre",
+					"given": "Patrick"
+				}
+			],
+			"container": "PLOS Genetics",
+			"volume": "13",
+			"issue": "6",
+			"pages": "e1006810",
+			"published": "2017-06-12",
+			"doi": "10.1371/journal.pgen.1006810",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Kingdoms in Turmoil",
+			"authors": [
+				{
+					"family": "Margulis",
+					"given": "Lynn"
+				},
+				{
+					"family": "Guerrero",
+					"given": "Ricardo"
+				}
+			],
+			"container": "New Scientist",
+			"volume": "129",
+			"pages": "46–50",
+			"published": "1991",
+			"citedIn": "Sapp and Fox, The Singular Quest for a Universal Tree of Life"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carl Woese",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carl_Woese&oldid=1371978253",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Archaea",
+			"url": "https://en.wikipedia.org/w/index.php?title=Archaea&oldid=1378900219",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Two-domain system",
+			"url": "https://en.wikipedia.org/w/index.php?title=Two-domain_system&oldid=1376783230",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Asgard archaea",
+			"url": "https://en.wikipedia.org/w/index.php?title=Asgard_archaea&oldid=1369789250",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "16S ribosomal RNA",
+			"url": "https://en.wikipedia.org/w/index.php?title=16S_ribosomal_RNA&oldid=1377095285",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Methanogen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Methanogen&oldid=1372790760",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Halobacterium salinarum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Halobacterium_salinarum&oldid=1363688746",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-11"
+		},
+		{
+			"kind": "media",
+			"title": "ISS-65 San Francisco Bay Salt Ponds, California",
+			"url": "https://commons.wikimedia.org/wiki/File:ISS-65_San_Francisco_Bay_Salt_Ponds,_California.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "ponds.jpg",
+			"authors": [
+				{
+					"name": "NASA"
+				}
+			],
+			"container": "Photograph taken from the International Space Station, Expedition 65",
+			"published": "2021"
+		}
+	],
+	"connections": [
+		{
+			"to": "food/salt",
+			"why": "Brine keeps food because almost nothing can grow in it; the halophilic archaea are among the few that can, and they turn up in salted fish and hides."
+		}
+	]
+}

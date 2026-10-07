@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M46 36 L46 262"/>
+		<path pathLength="1" d="M82 36 L82 262"/>
+		<path pathLength="1" d="M118 36 L118 262"/>
+		<path pathLength="1" d="M154 36 L154 262"/>
+		<path pathLength="1" d="M190 36 L190 262"/>
+		<path pathLength="1" d="M226 36 L226 262"/>
+		<path pathLength="1" d="M46 262 L249.4 262"/>
+		<path pathLength="1" d="M46 262 L46 266"/>
+		<path pathLength="1" d="M82 262 L82 266"/>
+		<path pathLength="1" d="M118 262 L118 266"/>
+		<path pathLength="1" d="M154 262 L154 266"/>
+		<path pathLength="1" d="M190 262 L190 266"/>
+		<path pathLength="1" d="M226 262 L226 266"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M157.6 55.2 L76.4 55.2 L76.4 167.1 L82.8 167.1"/>
+		<path pathLength="1" d="M249.4 44 L157.6 44 L157.6 66.5 L175.6 66.5"/>
+		<path pathLength="1" d="M249.4 59 L175.6 59 L175.6 74 L249.4 74"/>
+		<path pathLength="1" d="M139.6 217.5 L82.8 217.5 L82.8 116.7 L123 116.7"/>
+		<path pathLength="1" d="M229.6 202.5 L139.6 202.5 L139.6 232.5 L161.2 232.5"/>
+		<path pathLength="1" d="M249.4 195 L229.6 195 L229.6 210 L249.4 210"/>
+		<path pathLength="1" d="M249.4 225 L161.2 225 L161.2 240 L249.4 240"/>
+		<path pathLength="1" d="M249.4 97 L123 97 L123 136.4 L128.2 136.4"/>
+		<path pathLength="1" d="M157.6 119.5 L128.2 119.5 L128.2 153.2 L141.4 153.2"/>
+		<path pathLength="1" d="M249.4 112 L157.6 112 L157.6 127 L249.4 127"/>
+		<path pathLength="1" d="M249.4 142 L141.4 142 L141.4 164.5 L168.4 164.5"/>
+		<path pathLength="1" d="M249.4 157 L168.4 157 L168.4 172 L249.4 172"/>
+		<path pathLength="1" d="M76.4 111.2 L62.4 111.2"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M249.7 44 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M249.7 59 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M249.7 74 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M249.7 97 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M249.7 112 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M249.7 127 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M249.7 142 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M249.7 157 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M249.7 172 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M249.7 195 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M249.7 210 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M249.7 225 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M249.7 240 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M73.6 111.2 a2.8 2.8 0 1 0 5.6 0 a2.8 2.8 0 1 0 -5.6 0"/>
+		<text x="80.4" y="107.2" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0.08</text>
+		<path pathLength="1" d="M80 167.1 a2.8 2.8 0 1 0 5.6 0 a2.8 2.8 0 1 0 -5.6 0"/>
+		<text x="86.8" y="163.1" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0.10</text>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="258.4" y="46.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">YEAST</text>
+		<text x="258.4" y="61.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DUCKWEED</text>
+		<text x="258.4" y="76.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MOUSE L CELL</text>
+		<text x="258.4" y="99.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CHLOROBIUM</text>
+		<text x="258.4" y="114.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">APHANOCAPSA</text>
+		<text x="258.4" y="129.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CHLOROPLAST</text>
+		<text x="258.4" y="144.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">E. COLI</text>
+		<text x="258.4" y="159.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BACILLUS</text>
+		<text x="258.4" y="174.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CORYNEBACTERIUM</text>
+		<text x="258.4" y="197.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">M. THERMOAUTOTROPHICUM</text>
+		<text x="258.4" y="212.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">M. RUMINANTIUM</text>
+		<text x="258.4" y="227.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">METHANOBACTERIUM JR-1</text>
+		<text x="258.4" y="242.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">METHANOSARCINA</text>
+		<text x="243.4" y="39" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EUCARYA</text>
+		<text x="243.4" y="92" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BACTERIA</text>
+		<text x="243.4" y="190" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ARCHAEA</text>
+		<text x="46" y="275" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0.0</text>
+		<text x="82" y="275" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0.1</text>
+		<text x="118" y="275" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0.2</text>
+		<text x="154" y="275" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0.3</text>
+		<text x="190" y="275" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0.4</text>
+		<text x="226" y="275" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0.5</text>
+		<text x="146.8" y="286" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SIMILARITY S AT WHICH GROUPS JOIN</text>
+		<text x="200" y="20" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">16S rRNA CATALOGS · WOESE AND FOX 1977 · AVERAGE LINKAGE</text>
+	</g>
+</svg>
