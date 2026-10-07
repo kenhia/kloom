@@ -24,3 +24,17 @@ whitened that and kept the line work. Nothing was drawn, sharpened or
 upscaled. Saved as a grayscale JPEG. The media citation now points at the
 2004 capture and its `note` records the levels pass. Because the source
 changed, the frame carries a `revision` entry in `edits`.
+
+**Repaired in passing:** the skill's own step 7, written before its first
+run, deleted a local branch that `gh pr merge --delete-branch` had already
+deleted. It now checks the merge's own cleanup instead.
+
+### Deployed
+
+2026-10-06 (2026-10-07 UTC) from `main` at `efe4c752` (PR #65). **The
+service on kai:** `just deploy`, all ten `just verify` checks ok, library
+`845acb`, content clone at the same commit; `/blood/vietnam-blood` and
+`/media/blood/vietnam-blood/map-5.jpg` 200 on :4891, the map byte-identical
+to the repo's. **The public site:** `just publish-public`, Fly release v19,
+image `kloom-reader:efe4c752a-202610070512`, library `1466e1`, every
+verify-public check ok.

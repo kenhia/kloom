@@ -79,7 +79,10 @@ Images:
   detail can be wrong. Don't use it unless Ken has agreed to it in the
   conversation. If he has, the caption must say the image was enhanced from
   a low-resolution source and may contain errors.
-- Work in `.scratch/cleanup-<short-tag>/`, not `/tmp`. When you replace an
+- Work in `.scratch/cleanup-<short-tag>/`, not `/tmp`. Write commit
+  messages and PR bodies to files there too (`git commit -F`,
+  `gh pr create --body-file`): text sent through `ssh '…'` breaks on its
+  first apostrophe. When you replace an
   image, write the new file and `mv` it over the old one. Some media files
   are hard-linked into `.scratch` copies, and writing into them in place
   changes those copies too.
@@ -129,12 +132,20 @@ always squash. kloom has no GitHub CI: `just check` in step 5 is the gate.
 
 ## 7. Clean up locally
 
+`gh pr merge --delete-branch` does most of it: it deletes the remote
+branch, checks out `main`, fast-forwards it and deletes the local branch.
+Confirm that it did:
+
 ```sh
-git checkout main
-git pull --ff-only
-git branch -D cleanup-<short-tag>     # -D: a squash merge is not an ancestor
+git branch --show-current             # main
+git rev-parse HEAD origin/main        # the same commit: the squash merge
+git branch --list 'cleanup-*'         # nothing
 git status --porcelain                # nothing
 ```
+
+If the merge was made another way (the GitHub UI), do it by hand:
+`git checkout main && git pull --ff-only && git branch -D cleanup-<short-tag>`
+(`-D`, because a squash merge is not an ancestor).
 
 ## 8. Deploy, then record it
 
