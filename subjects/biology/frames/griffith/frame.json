@@ -1,0 +1,196 @@
+{
+	"id": "griffith",
+	"topic": "Griffith's transforming principle",
+	"position": {
+		"label": "1928",
+		"sort": 1928
+	},
+	"scene": {
+		"headline": "A harmless germ was",
+		"accent": "TRANSFORMED.",
+		"palette": "helix",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · MINISTRY OF HEALTH PATHOLOGICAL LABORATORY",
+			"FRED GRIFFITH · JOURNAL OF HYGIENE · JANUARY 1928"
+		],
+		"counter": {
+			"value": "2 of 8",
+			"label": "mice dead of a type never injected alive"
+		}
+	},
+	"connections": [
+		{
+			"to": "biology/avery",
+			"why": "Griffith's mice of 1928 showed one pneumococcal type turning into another; Avery's laboratory, at first doubtful, made the change in a test tube, and in 1944 identified the transforming principle as DNA."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Significance of Pneumococcal Types",
+			"authors": [
+				{
+					"family": "Griffith",
+					"given": "Fred"
+				}
+			],
+			"container": "Journal of Hygiene",
+			"volume": "27",
+			"issue": "2",
+			"pages": "113–159",
+			"published": "1928-01",
+			"doi": "10.1017/S0022172400031879",
+			"accessed": "2026-10-06",
+			"note": "Table VII is on p. 134; the pabulum on p. 153"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Pneumococcal Transformation—A Backward View: Fourth Griffith Memorial Lecture",
+			"authors": [
+				{
+					"family": "Downie",
+					"given": "A. W."
+				}
+			],
+			"container": "Journal of General Microbiology",
+			"volume": "73",
+			"issue": "1",
+			"pages": "1–11",
+			"published": "1972",
+			"doi": "10.1099/00221287-73-1-1",
+			"accessed": "2026-10-06",
+			"note": "Griffith, Scott and their laboratory, by a bacteriologist who knew them"
+		},
+		{
+			"kind": "article",
+			"title": "Obituary: W. M. Scott and F. Griffith",
+			"authors": [
+				{
+					"family": "Wright",
+					"given": "H. D."
+				}
+			],
+			"container": "The Lancet",
+			"pages": "588–589",
+			"published": "1941",
+			"citedIn": "Pneumococcal Transformation—A Backward View: Fourth Griffith Memorial Lecture"
+		},
+		{
+			"kind": "article",
+			"title": "In Vitro Transformation of Pneumococcal Types: I. A Technique for Inducing Transformation of Pneumococcal Types In Vitro",
+			"authors": [
+				{
+					"family": "Dawson",
+					"given": "Martin H."
+				},
+				{
+					"family": "Sia",
+					"given": "Richard H. P."
+				}
+			],
+			"container": "Journal of Experimental Medicine",
+			"volume": "54",
+			"issue": "5",
+			"pages": "681–699",
+			"published": "1931-10-31",
+			"doi": "10.1084/jem.54.5.681",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The Transformation In Vitro of R Pneumococci into S Forms of Different Specific Types by the Use of Filtered Pneumococcus Extracts",
+			"authors": [
+				{
+					"family": "Alloway",
+					"given": "J. Lionel"
+				}
+			],
+			"container": "Journal of Experimental Medicine",
+			"volume": "55",
+			"issue": "1",
+			"pages": "91–99",
+			"published": "1932",
+			"doi": "10.1084/jem.55.1.91",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "Shifting Focus: Early Work on Bacterial Transformation, 1928–1940",
+			"container": "The Oswald T. Avery Collection, Profiles in Science",
+			"publisher": "National Library of Medicine",
+			"url": "https://profiles.nlm.nih.gov/spotlight/cc/feature/shifting",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frederick Griffith",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frederick_Griffith&oldid=1340745710",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-27",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Griffith's experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Griffith's_experiment&oldid=1355408579",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Streptococcus pneumoniae",
+			"url": "https://en.wikipedia.org/w/index.php?title=Streptococcus_pneumoniae&oldid=1365920768",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-25"
+		},
+		{
+			"kind": "media",
+			"title": "Pneumocoque. Capsules négatives, capsules positives: planche didactique",
+			"authors": [
+				{
+					"name": "Institut Pasteur"
+				}
+			],
+			"engravers": [
+				{
+					"family": "Roussel",
+					"given": "V."
+				}
+			],
+			"container": "Masson & Cie, Paris; Musée national de l'Éducation, via Gallica, Bibliothèque nationale de France",
+			"url": "https://commons.wikimedia.org/wiki/File:Pneumocoque._Capsules_n%C3%A9gatives,_capsules_positives_-_Planche_didactique_-_Institut_Pasteur_;_V._Roussel_(lithographe)_-_btv1b10116930z.jpg",
+			"published": "1918",
+			"circa": true,
+			"language": "fr",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "capsules.jpg"
+		}
+	]
+}

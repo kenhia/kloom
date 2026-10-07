@@ -1,0 +1,31 @@
+{
+	"title": "Hospital admissions for malaria per 1,000 employees of the Panama Canal, 1906 to 1913",
+	"description": "Bar chart, admissions per 1,000 employees a year: 821 in 1906, 426 in 1907, 282 in 1908, 215 in 1909, 187 in 1910, 184 in 1911, 110 in 1912 and 76 in 1913. Data: William C. Gorgas, Sanitation in Panama (1915), p. 275.",
+	"heading": "MALARIA ADMISSIONS PER 1,000 CANAL EMPLOYEES",
+	"unit": "",
+	"axis": {
+		"max": 900,
+		"ticks": [
+			[0, "0"],
+			[300, "300"],
+			[600, "600"],
+			[900, "900"]
+		]
+	},
+	"bars": [
+		{ "label": "1906", "value": 821, "highlight": true },
+		{ "label": "1907", "value": 426 },
+		{ "label": "1908", "value": 282 },
+		{ "label": "1909", "value": 215 },
+		{ "label": "1910", "value": 187 },
+		{ "label": "1911", "value": 184 },
+		{ "label": "1912", "value": 110 },
+		{ "label": "1913", "value": 76, "highlight": true }
+	],
+	"barWidth": 40,
+	"width": 480,
+	"source": {
+		"container": "William C. Gorgas, Sanitation in Panama (New York: D. Appleton, 1915), p. 275",
+		"url": "https://archive.org/details/sanitationinpana00gorgrich/page/n301"
+	}
+}

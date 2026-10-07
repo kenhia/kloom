@@ -1,0 +1,191 @@
+{
+	"id": "gesner",
+	"topic": "Gessner's History of Animals",
+	"position": {
+		"label": "1551–58",
+		"sort": 1551
+	},
+	"scene": {
+		"headline": "We gathered every",
+		"accent": "BEAST.",
+		"palette": "herbarium",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ZURICH · CONRAD GESSNER · CHRISTOPH FROSCHAUER",
+			"HISTORIAE ANIMALIUM · FIVE VOLUMES · 1551–1587"
+		],
+		"counter": {
+			"value": "1,160",
+			"label": "folio pages in the first volume alone"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/printing-press",
+			"why": "Gessner's Bibliotheca universalis of 1545, which tried to list every book in Latin, Greek and Hebrew, and his serial zoology, enlarged volume by volume with what readers sent in, were works only the printing press made possible."
+		},
+		{
+			"to": "biology/aristotle-animals",
+			"why": "Gessner took his title from Aristotle's History of Animals and built his own on it, quoting Aristotle first among the authors whose writings on animals he gathered and corrected."
+		},
+		{
+			"to": "biology/herbals",
+			"why": "Gessner promised that his woodcuts of animals were drawn from life, the rule Fuchs's herbal of 1542 had set for plants, and he broke it for Dürer's rhinoceros."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Historiae animalium liber I: De quadrupedibus viviparis",
+			"authors": [
+				{
+					"family": "Gessner",
+					"given": "Conrad"
+				}
+			],
+			"place": "Zurich",
+			"publisher": "Christoph Froschauer",
+			"published": "1551",
+			"language": "la",
+			"url": "https://archive.org/details/b33552010_0001",
+			"accessed": "2026-10-06",
+			"note": "The scheme of chapters A to H and the note on the pictures are in the preface, \"Ordinis ratio\"; the rhinoceros and the unicorn are in the second part (archive.org/details/b33552010_0002). Read in the Wellcome Collection's copy"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The 2016 Josephine Waters Bennett Lecture: Humanism and Printing in the Work of Conrad Gessner",
+			"authors": [
+				{
+					"family": "Blair",
+					"given": "Ann"
+				}
+			],
+			"container": "Renaissance Quarterly",
+			"volume": "70",
+			"issue": "1",
+			"pages": "1–43",
+			"published": "2017",
+			"doi": "10.1086/691829",
+			"url": "http://nrs.harvard.edu/urn-3:HUL.InstRepos:41376563",
+			"accessed": "2026-10-06",
+			"note": "Read in the author's manuscript in Harvard's repository"
+		},
+		{
+			"kind": "article",
+			"title": "The Sources of Gessner's Pictures for the Historia animalium",
+			"authors": [
+				{
+					"family": "Kusukawa",
+					"given": "Sachiko"
+				}
+			],
+			"container": "Annals of Science",
+			"volume": "67",
+			"issue": "3",
+			"pages": "303–328",
+			"published": "2010",
+			"doi": "10.1080/00033790.2010.488899",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Conrad Gessner",
+			"url": "https://en.wikipedia.org/w/index.php?title=Conrad_Gessner&oldid=1371982512",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Historia animalium (Gessner book)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Historia_animalium_(Gessner_book)&oldid=1375565365",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bibliotheca universalis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bibliotheca_universalis&oldid=1359869290",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dürer's Rhinoceros",
+			"url": "https://en.wikipedia.org/w/index.php?title=D%C3%BCrer's_Rhinoceros&oldid=1374118687",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Index Librorum Prohibitorum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Index_Librorum_Prohibitorum&oldid=1375694543",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Edward Topsell",
+			"url": "https://en.wikipedia.org/w/index.php?title=Edward_Topsell&oldid=1377884570",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "media",
+			"title": "De rhinocerote",
+			"url": "https://commons.wikimedia.org/wiki/File:De_rhinocerote.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "rhino.jpg",
+			"note": "A hand-colored woodcut printed in Zurich in 1551",
+			"container": "Conrad Gessner, Historiae animalium, vol. 1 (Zurich, 1551), p. 953; National Library of Medicine",
+			"number": "NLM Image ID C03429",
+			"published": "1551"
+		}
+	]
+}

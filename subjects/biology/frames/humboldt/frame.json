@@ -1,0 +1,339 @@
+{
+	"id": "humboldt",
+	"topic": "Humboldt's web of nature",
+	"position": {
+		"label": "1807",
+		"sort": 1807
+	},
+	"scene": {
+		"headline": "We saw nature",
+		"accent": "WHOLE.",
+		"palette": "canopy",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CHIMBORAZO · 23 JUNE 1802",
+			"HUMBOLDT AND BONPLAND · ESSAY ON THE GEOGRAPHY OF PLANTS"
+		],
+		"counter": {
+			"value": "14",
+			"label": "scales of measurement beside the mountain"
+		}
+	},
+	"connections": [
+		{
+			"to": "food/fertilizer",
+			"why": "Humboldt studied guano's power as a fertilizer at Callao in 1802, and his word of it began the trade in Peru's seabird droppings."
+		},
+		{
+			"to": "food/sugar-slavery",
+			"why": "Humboldt saw Cuba's sugar estates in 1800–04 and called the slavery that worked them the greatest evil that afflicts human nature."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Essai sur la géographie des plantes",
+			"authors": [
+				{
+					"family": "Humboldt",
+					"given": "Alexander von"
+				},
+				{
+					"family": "Bonpland",
+					"given": "Aimé"
+				}
+			],
+			"place": "Paris",
+			"publisher": "Levrault, Schoell et Compagnie",
+			"published": "1807",
+			"language": "fr",
+			"url": "https://archive.org/details/mobot31753002739909",
+			"accessed": "2026-10-06",
+			"note": "The fourteen scales, pp. 41–42 and 80; the temperature table, p. 81; the zones, pp. 57–70; the cyanometer, pp. 102–103; the snow line, pp. 131–132. The title page is dated 1805"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Humboldt's Tableau Physique Revisited",
+			"authors": [
+				{
+					"family": "Moret",
+					"given": "Pierre"
+				},
+				{
+					"family": "Muriel",
+					"given": "Priscilla"
+				},
+				{
+					"family": "Jaramillo",
+					"given": "Ricardo"
+				},
+				{
+					"family": "Dangles",
+					"given": "Olivier"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "116",
+			"issue": "26",
+			"pages": "12889–12894",
+			"published": "2019-06-25",
+			"doi": "10.1073/pnas.1904585116",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alexander von Humboldt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alexander_von_Humboldt&oldid=1374862327",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14",
+			"key": true
+		},
+		{
+			"kind": "book",
+			"title": "Personal Narrative of Travels to the Equinoctial Regions of America, During the Years 1799–1804",
+			"authors": [
+				{
+					"family": "Humboldt",
+					"given": "Alexander von"
+				},
+				{
+					"family": "Bonpland",
+					"given": "Aimé"
+				}
+			],
+			"translators": [
+				{
+					"family": "Ross",
+					"given": "Thomasina"
+				}
+			],
+			"volume": "3",
+			"place": "London",
+			"publisher": "George Bell & Sons",
+			"published": "1908",
+			"url": "https://www.gutenberg.org/ebooks/7254",
+			"accessed": "2026-10-06",
+			"note": "Ross's translation was first published in 1852–53; chapter 28 is the political essay on Cuba"
+		},
+		{
+			"kind": "chapter",
+			"title": "Humboldt and the Americans",
+			"authors": [
+				{
+					"family": "Humboldt",
+					"given": "Alexander von"
+				}
+			],
+			"container": "Sämtliche Schriften digital",
+			"editors": [
+				{
+					"family": "Lubrich",
+					"given": "Oliver"
+				},
+				{
+					"family": "Nehrlich",
+					"given": "Thomas"
+				}
+			],
+			"publisher": "Universität Bern",
+			"published": "2021",
+			"url": "https://humboldt.unibe.ch/text/1856-Insel_Cuba-03-neu",
+			"accessed": "2026-10-06",
+			"note": "Humboldt's protest of July 1856, as reprinted in English that year"
+		},
+		{
+			"kind": "web",
+			"title": "Humboldt-Thrasher Controversy",
+			"container": "Humboldt in English",
+			"publisher": "University of Chicago Press",
+			"url": "https://press.uchicago.edu/sites/humboldt/1_7_thrasher.html",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "The Island of Cuba",
+			"authors": [
+				{
+					"family": "Humboldt",
+					"given": "Alexander von"
+				}
+			],
+			"translators": [
+				{
+					"family": "Thrasher",
+					"given": "J. S."
+				}
+			],
+			"place": "New York",
+			"publisher": "Derby & Jackson",
+			"published": "1856",
+			"url": "https://archive.org/details/islandofcu00humb",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "Cosmos: A Sketch of a Physical Description of the Universe",
+			"authors": [
+				{
+					"family": "Humboldt",
+					"given": "Alexander von"
+				}
+			],
+			"translators": [
+				{
+					"family": "Otté",
+					"given": "E. C."
+				}
+			],
+			"volume": "1",
+			"place": "New York",
+			"publisher": "Harper & Brothers",
+			"published": "1858",
+			"url": "https://www.gutenberg.org/ebooks/14565",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter to J. S. Henslow",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Henslow",
+					"given": "John Stevens"
+				}
+			],
+			"written": "1832-05-18",
+			"container": "Darwin Correspondence Project",
+			"number": "DCP-LETT-171",
+			"publisher": "University of Cambridge",
+			"url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-171.xml",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "The Autobiography of Charles Darwin",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"editors": [
+				{
+					"family": "Darwin",
+					"given": "Francis"
+				}
+			],
+			"place": "London",
+			"publisher": "John Murray",
+			"published": "1887",
+			"url": "https://www.gutenberg.org/ebooks/2010",
+			"accessed": "2026-10-06",
+			"note": "From The Life and Letters of Charles Darwin"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chimborazo",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chimborazo&oldid=1371319665",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Francisco José de Caldas",
+			"url": "https://en.wikipedia.org/w/index.php?title=Francisco_Jos%C3%A9_de_Caldas&oldid=1378872633",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carlos de Montúfar",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carlos_de_Mont%C3%BAfar&oldid=1375897239",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cosmos (Humboldt book)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cosmos_(Humboldt_book)&oldid=1334880817",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Contour line",
+			"url": "https://en.wikipedia.org/w/index.php?title=Contour_line&oldid=1378659650",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "media",
+			"title": "Geographie der Pflanzen in den Tropen-Ländern; ein Naturgemälde der Anden",
+			"authors": [
+				{
+					"family": "Humboldt",
+					"given": "Alexander von"
+				},
+				{
+					"family": "Bonpland",
+					"given": "Aimé"
+				}
+			],
+			"container": "Zentralbibliothek Zürich",
+			"published": "1807",
+			"licence": "Public domain",
+			"file": "naturgemalde.jpg",
+			"url": "https://commons.wikimedia.org/wiki/File:Zentralbibliothek_Z%C3%BCrich_-_Ideen_zu_einer_Geographie_der_Pflanzen_nebst_einem_Naturgem%C3%A4lde_der_Tropenl%C3%A4nder_-_000012142.jpg",
+			"accessed": "2026-10-06"
+		}
+	]
+}

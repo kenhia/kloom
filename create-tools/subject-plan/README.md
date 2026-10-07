@@ -64,7 +64,7 @@ part frame` a line (`#` a comment): it exits 1 on a word claimed twice,
   passed wins and a warning names both (sprint 028, where a draft lost its
   `home` that way unseen). A draft whose `kind` or `description` is still
   empty, as `lookup --write-draft` leaves it, is left out of the copy and
-  named, and so is a drafts directory not made yet: one owner's unfinished
+  named (one line a directory, naming the first three, since sprint 055), and so is a drafts directory not made yet: one owner's unfinished
   draft failed every borrower's copy in sprint 051. `--only FRAME …` keeps only those frames and the ones already
   committed, so another author's half-written frame cannot fail this
   one's check, and a draft's `home` on a frame not in the copy is dropped

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M200 40 L200 262"/>
+		<path pathLength="1" d="M200 52 L200 258"/>
+		<path pathLength="1" d="M200 52 L200 258"/>
+		<path pathLength="1" d="M173 52 L173 258"/>
+		<path pathLength="1" d="M227 52 L227 258"/>
+		<path pathLength="1" d="M146 52 L146 258"/>
+		<path pathLength="1" d="M254 52 L254 258"/>
+		<path pathLength="1" d="M119 52 L119 258"/>
+		<path pathLength="1" d="M281 52 L281 258"/>
+		<path pathLength="1" d="M92 52 L92 258"/>
+		<path pathLength="1" d="M308 52 L308 258"/>
+		<path pathLength="1" d="M65 52 L65 258"/>
+		<path pathLength="1" d="M335 52 L335 258"/>
+		<path pathLength="1" d="M38 52 L38 258"/>
+		<path pathLength="1" d="M362 52 L362 258"/>
+		<path pathLength="1" d="M38 258 L362 258"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M191.9 236 L208.1 236 L208.1 254 L191.9 254 Z"/>
+		<path pathLength="1" d="M127.1 194 L272.9 194 L272.9 212 L127.1 212 Z"/>
+		<path pathLength="1" d="M123.2 152 L276.8 152 L276.8 170 L123.2 170 Z"/>
+		<path pathLength="1" d="M127.1 110 L272.9 110 L272.9 128 L127.1 128 Z"/>
+		<path pathLength="1" d="M68.8 68 L331.2 68 L331.2 86 L68.8 86 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M123.2 161 L110.6 161"/>
+		<path pathLength="1" d="M110.6 156 L110.6 166"/>
+		<path pathLength="1" d="M276.8 161 L289.4 161"/>
+		<path pathLength="1" d="M289.4 156 L289.4 166"/>
+		<path pathLength="1" d="M127.1 119 L88.2 119"/>
+		<path pathLength="1" d="M88.2 114 L88.2 124"/>
+		<path pathLength="1" d="M272.9 119 L311.8 119"/>
+		<path pathLength="1" d="M311.8 114 L311.8 124"/>
+		<path pathLength="1" d="M68.8 77 L59.5 77"/>
+		<path pathLength="1" d="M59.5 72 L59.5 82"/>
+		<path pathLength="1" d="M331.2 77 L340.5 77"/>
+		<path pathLength="1" d="M340.5 72 L340.5 82"/>
+		<path pathLength="1" d="M200 223 L200 214"/>
+		<path pathLength="1" d="M201.3 216.7 L200 214 L198.7 216.7"/>
+		<path pathLength="1" d="M200 181 L200 172"/>
+		<path pathLength="1" d="M201.3 174.7 L200 172 L198.7 174.7"/>
+		<path pathLength="1" d="M200 139 L200 130"/>
+		<path pathLength="1" d="M201.3 132.7 L200 130 L198.7 132.7"/>
+		<path pathLength="1" d="M200 97 L200 88"/>
+		<path pathLength="1" d="M201.3 90.7 L200 88 L198.7 90.7"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="200" y="232" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LAKE WATER 0.02</text>
+		<text x="200" y="190" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PLANKTON ABOUT 5</text>
+		<text x="200" y="148" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PLANKTON-EATING FISH, FLESH 7–20</text>
+		<text x="200" y="106" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BASS, FLESH 5–138</text>
+		<text x="200" y="64" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GREBE FAT 723–1,600</text>
+		<text x="200" y="270" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0.01</text>
+		<text x="254" y="270" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="308" y="270" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">100</text>
+		<text x="362" y="270" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10,000</text>
+		<text x="38" y="270" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PPM</text>
+		<text x="200" y="292" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CLEAR LAKE, CALIFORNIA · DDD UP THE FOOD CHAIN · LOG SCALE</text>
+	</g>
+</svg>

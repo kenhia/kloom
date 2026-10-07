@@ -1,0 +1,50 @@
+{
+	"biology/recombinant-dna": [
+		["Stanley Cohen", "stanley-norman-cohen"],
+		["Herbert Boyer", "herbert-boyer"],
+		["_Escherichia coli_", "escherichia-coli"],
+		["recombinant DNA", "recombinant-dna"],
+		["Plasmids", "plasmid"],
+		["Restriction enzymes", "restriction-enzyme"],
+		["Werner Arber", "werner-arber"],
+		["Hamilton Smith", "hamilton-o-smith"],
+		["Daniel Nathans", "daniel-nathans"],
+		["SV40", "sv40"],
+		["EcoRI", "ecori"],
+		["DNA ligase", "dna-ligase"],
+		["Paul Berg", "paul-berg"],
+		["Genentech", "genentech"],
+		["insulin", "insulin"]
+	],
+	"biology/asilomar": [
+		["Paul Berg", "paul-berg"],
+		["David Baltimore", "david-baltimore"],
+		["Herbert Boyer", "herbert-boyer"],
+		["Stanley Cohen", "stanley-norman-cohen"],
+		["Daniel Nathans", "daniel-nathans"],
+		["James Watson", "james-watson"],
+		["plasmids", "plasmid"],
+		["National Institutes of Health", "national-institutes-of-health"],
+		["Asilomar Conference on Recombinant DNA", "asilomar-conference-on-recombinant-dna"],
+		["_E. coli_", "escherichia-coli"],
+		["biosafety levels", "biosafety-level"],
+		["Cambridge, Massachusetts", "cambridge-massachusetts"],
+		["Harvard", "harvard-university"],
+		["Alfred Vellucci", "alfred-vellucci"]
+	],
+	"biology/sanger-sequencing": [
+		["Frederick Sanger", "frederick-sanger"],
+		["insulin", "insulin"],
+		["Nobel Prize in Chemistry", "nobel-prize-in-chemistry"],
+		["MRC Laboratory of Molecular Biology", "mrc-laboratory-of-molecular-biology"],
+		["dideoxynucleotide", "dideoxynucleotide"],
+		["ΦX174", "phi-x-174"],
+		["_E. coli_", "escherichia-coli"],
+		["Allan Maxam", "allan-maxam"],
+		["Walter Gilbert", "walter-gilbert"],
+		["Paul Berg", "paul-berg"],
+		["mitochondrial DNA", "mitochondrial-dna"],
+		["Leroy Hood", "leroy-hood"],
+		["Sanger sequencing", "sanger-sequencing"]
+	]
+}

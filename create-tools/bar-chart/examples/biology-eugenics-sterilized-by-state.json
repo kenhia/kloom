@@ -1,0 +1,34 @@
+{
+	"title": "People sterilized under the eugenic sterilization laws of the United States, by state",
+	"description": "Bar chart, people sterilized under state laws passed from 1907 to 1937. California 20,108; Virginia 8,300; North Carolina 6,851; Michigan 3,786; Georgia 3,284; Kansas 3,032; Indiana 2,424; Minnesota 2,350; the other 24 states with laws 15,235. Total 65,370. Data: Lombardo, Journal of Law, Medicine and Ethics, 2023, from Lombardo, Three Generations, No Imbeciles, 2008.",
+	"heading": "STERILIZED UNDER STATE EUGENIC LAWS",
+	"unit": "",
+	"axis": {
+		"max": 22000,
+		"ticks": [
+			[0, "0"],
+			[5000, "5,000"],
+			[10000, "10,000"],
+			[15000, "15,000"],
+			[20000, "20,000"]
+		]
+	},
+	"bars": [
+		{ "label": "Calif.", "value": 20108, "display": "20,108", "highlight": true },
+		{ "label": "Va.", "value": 8300, "display": "8,300" },
+		{ "label": "N.C.", "value": 6851, "display": "6,851" },
+		{ "label": "Mich.", "value": 3786, "display": "3,786" },
+		{ "label": "Ga.", "value": 3284, "display": "3,284" },
+		{ "label": "Kans.", "value": 3032, "display": "3,032" },
+		{ "label": "Ind.", "value": 2424, "display": "2,424" },
+		{ "label": "Minn.", "value": 2350, "display": "2,350" },
+		{ "label": "Others", "sublabel": "24 states", "value": 15235, "display": "15,235" }
+	],
+	"barWidth": 40,
+	"width": 540,
+	"source": {
+		"container": "Paul A. Lombardo, \"Republicans, Democrats, & Doctors: The Lawmakers Who Wrote Sterilization Laws,\" Journal of Law, Medicine & Ethics 51 (2023), Table I",
+		"doi": "10.1017/jme.2023.47",
+		"accessed": "2026-10-06"
+	}
+}

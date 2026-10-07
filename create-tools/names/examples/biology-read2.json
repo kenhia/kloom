@@ -1,0 +1,53 @@
+{
+	"biology/woese-archaea": [
+		["eukaryote", "eukaryote"],
+		["prokaryote", "prokaryote"],
+		["tree of life", "tree-of-life-biology"],
+		["Carl Woese", "carl-woese"],
+		["George E. Fox", "george-e-fox"],
+		["ribosomal RNA", "ribosomal-rna"],
+		["Ralph Wolfe", "ralph-stoner-wolfe"],
+		["methanogens", "methanogen"],
+		["Otto Kandler", "otto-kandler"],
+		["_Halobacterium salinarum_", "halobacterium-salinarum"],
+		["Archaea", "archaea"],
+		["Salvador Luria", "salvador-luria"],
+		["Ernst Mayr", "ernst-mayr"],
+		["Lynn Margulis", "lynn-margulis"],
+		["Asgard archaea", "asgard-archaea"]
+	],
+	"biology/dolly": [
+		["Roslin Institute", "roslin-institute"],
+		["Dolly", "dolly-sheep"],
+		["Ian Wilmut", "ian-wilmut"],
+		["cloning", "cloning"],
+		["Robert Briggs", "robert-briggs-scientist"],
+		["Thomas King", "thomas-joseph-king"],
+		["John Gurdon", "john-gurdon"],
+		["African clawed frog", "african-clawed-frog"],
+		["Keith Campbell", "keith-campbell-biologist"],
+		["somatic cell nuclear transfer", "somatic-cell-nuclear-transfer"],
+		["factor IX", "factor-ix"],
+		["sheep", "sheep"],
+		["Human Reproductive Cloning Act 2001", "human-reproductive-cloning-act-2001"],
+		["Shinya Yamanaka", "shinya-yamanaka"],
+		["induced pluripotent stem cells", "induced-pluripotent-stem-cell"]
+	],
+	"biology/human-genome": [
+		["Bill Clinton", "bill-clinton"],
+		["Francis Collins", "francis-collins"],
+		["Human Genome Project", "human-genome-project"],
+		["J. Craig Venter", "j-craig-venter"],
+		["Celera Genomics", "celera-corporation"],
+		["DNA", "dna"],
+		["Robert Sinsheimer", "robert-l-sinsheimer"],
+		["US Department of Energy", "united-states-department-of-energy"],
+		["Renato Dulbecco", "renato-dulbecco"],
+		["National Institutes of Health", "national-institutes-of-health"],
+		["James Watson", "james-watson"],
+		["bacterial artificial chromosome", "bacterial-artificial-chromosome"],
+		["Eric Lander", "eric-lander"],
+		["John Sulston", "john-sulston"],
+		["Moore's law", "moores-law"]
+	]
+}

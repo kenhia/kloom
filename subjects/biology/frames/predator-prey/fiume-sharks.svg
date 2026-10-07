@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" role="img" aria-labelledby="t d">
+<title id="t">Sharks and rays as a share of the fish landed at Fiume, 1914–1923</title>
+<desc id="d">Bar chart. Sharks and rays as a percentage, by weight, of all fish landed at the Fiume (Rijeka) market: 7.4 in 1914, 5.8 in 1915, 10.5 in 1916, 13.8 in 1917, 18.7 in 1918, 8.2 in 1919, 6.9 in 1920, 5.8 in 1921, 7.5 in 1922, 6.3 in 1923. Computed from D'Ancona's 1926 market figures as digitized by OGS and ISPRA (2017).</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="540" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="540" y1="196.5" y2="196.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="200.5" text-anchor="end">5%</text>
+<line x1="64" x2="540" y1="143.0" y2="143.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="147.0" text-anchor="end">10%</text>
+<line x1="64" x2="540" y1="89.5" y2="89.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="93.5" text-anchor="end">15%</text>
+<line x1="64" x2="540" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">20%</text>
+</g>
+<rect x="67.8" y="170.8" width="40" height="79.2" fill-opacity="0.85"/>
+<text x="87.8" y="164.8" text-anchor="middle">7.4%</text>
+<text x="87.8" y="266" text-anchor="middle">1914</text>
+<rect x="115.4" y="187.9" width="40" height="62.1" class="accent" fill="currentColor"/>
+<text x="135.4" y="181.9" text-anchor="middle">5.8%</text>
+<text x="135.4" y="266" text-anchor="middle">1915</text>
+<rect x="163.0" y="137.7" width="40" height="112.3" class="accent" fill="currentColor"/>
+<text x="183.0" y="131.7" text-anchor="middle">10.5%</text>
+<text x="183.0" y="266" text-anchor="middle">1916</text>
+<rect x="210.6" y="102.3" width="40" height="147.7" class="accent" fill="currentColor"/>
+<text x="230.6" y="96.3" text-anchor="middle">13.8%</text>
+<text x="230.6" y="266" text-anchor="middle">1917</text>
+<rect x="258.2" y="49.9" width="40" height="200.1" class="accent" fill="currentColor"/>
+<text x="278.2" y="43.9" text-anchor="middle">18.7%</text>
+<text x="278.2" y="266" text-anchor="middle">1918</text>
+<rect x="305.8" y="162.3" width="40" height="87.7" fill-opacity="0.85"/>
+<text x="325.8" y="156.3" text-anchor="middle">8.2%</text>
+<text x="325.8" y="266" text-anchor="middle">1919</text>
+<rect x="353.4" y="176.2" width="40" height="73.8" fill-opacity="0.85"/>
+<text x="373.4" y="170.2" text-anchor="middle">6.9%</text>
+<text x="373.4" y="266" text-anchor="middle">1920</text>
+<rect x="401.0" y="187.9" width="40" height="62.1" fill-opacity="0.85"/>
+<text x="421.0" y="181.9" text-anchor="middle">5.8%</text>
+<text x="421.0" y="266" text-anchor="middle">1921</text>
+<rect x="448.6" y="169.8" width="40" height="80.2" fill-opacity="0.85"/>
+<text x="468.6" y="163.8" text-anchor="middle">7.5%</text>
+<text x="468.6" y="266" text-anchor="middle">1922</text>
+<rect x="496.2" y="182.6" width="40" height="67.4" fill-opacity="0.85"/>
+<text x="516.2" y="176.6" text-anchor="middle">6.3%</text>
+<text x="516.2" y="266" text-anchor="middle">1923</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">SHARKS AND RAYS · % OF FISH LANDED AT FIUME, BY WEIGHT</text>
+</g></svg>

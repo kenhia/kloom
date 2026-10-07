@@ -1,0 +1,227 @@
+{
+	"id": "mendel-peas",
+	"topic": "Mendel's peas",
+	"position": {
+		"label": "1866",
+		"sort": 1866
+	},
+	"scene": {
+		"headline": "We counted the",
+		"accent": "PEAS.",
+		"palette": "garden",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BRÜNN · ST THOMAS'S ABBEY · GREGOR MENDEL",
+			"PISUM SATIVUM · SEVEN CHARACTERS · 1856–1863"
+		],
+		"counter": {
+			"value": "5,474 : 1,850",
+			"label": "round to wrinkled seeds"
+		}
+	},
+	"connections": [
+		{
+			"to": "mathematics/large-numbers",
+			"why": "Mendel warned that his three to one would show only in large totals, since \"the greater the number the more are merely chance elements eliminated\": Bernoulli's law of large numbers, put to work in a pea garden."
+		},
+		{
+			"to": "biology/lysenko",
+			"why": "Lysenko's session of 1948 condemned \"Mendelism-Morganism\" as idealist and reactionary, and the genetics that began with Mendel's pea counts was purged from Soviet science until 1965."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Mendel's Principles of Heredity: A Defence, with a Translation of Mendel's Original Papers on Hybridisation",
+			"authors": [
+				{
+					"family": "Bateson",
+					"given": "William"
+				}
+			],
+			"place": "Cambridge",
+			"publisher": "Cambridge University Press",
+			"published": "1902",
+			"url": "https://archive.org/details/mendelsprinciple00bate_0",
+			"accessed": "2026-10-06",
+			"note": "Mendel's paper, in the Royal Horticultural Society's translation, is on pp. 40–95"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Has Mendel's Work Been Rediscovered?",
+			"authors": [
+				{
+					"family": "Fisher",
+					"given": "R. A."
+				}
+			],
+			"container": "Annals of Science",
+			"volume": "1",
+			"issue": "2",
+			"pages": "115–137",
+			"published": "1936-04-15",
+			"doi": "10.1080/00033793600200111",
+			"url": "https://digital.library.adelaide.edu.au/dspace/bitstream/2440/15123/1/144.pdf",
+			"accessed": "2026-10-06",
+			"note": "Read in the University of Adelaide's reprint; the table of χ² values is on p. 131"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Mud Sticks: On the Alleged Falsification of Mendel's Data",
+			"authors": [
+				{
+					"family": "Hartl",
+					"given": "Daniel L."
+				},
+				{
+					"family": "Fairbanks",
+					"given": "Daniel J."
+				}
+			],
+			"container": "Genetics",
+			"volume": "175",
+			"issue": "3",
+			"pages": "975–979",
+			"published": "2007-03",
+			"doi": "10.1093/genetics/175.3.975",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Mendel and Darwin: Untangling a Persistent Enigma",
+			"authors": [
+				{
+					"family": "Fairbanks",
+					"given": "Daniel J."
+				}
+			],
+			"container": "Heredity",
+			"volume": "124",
+			"issue": "2",
+			"pages": "263–273",
+			"published": "2020-02",
+			"doi": "10.1038/s41437-019-0289-9",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "Ending the Mendel–Fisher Controversy",
+			"authors": [
+				{
+					"family": "Franklin",
+					"given": "Allan"
+				},
+				{
+					"family": "Edwards",
+					"given": "A. W. F."
+				},
+				{
+					"family": "Fairbanks",
+					"given": "Daniel J."
+				},
+				{
+					"family": "Hartl",
+					"given": "Daniel L."
+				},
+				{
+					"family": "Seidenfeld",
+					"given": "Teddy"
+				}
+			],
+			"place": "Pittsburgh",
+			"publisher": "University of Pittsburgh Press",
+			"published": "2008",
+			"citedIn": "Gregor Mendel"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Gregor Mendel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gregor_Mendel&oldid=1376806037",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Experiments on Plant Hybridization",
+			"url": "https://en.wikipedia.org/w/index.php?title=Experiments_on_Plant_Hybridization&oldid=1376466396",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gene",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gene&oldid=1372241427",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Apomixis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Apomixis&oldid=1361769043",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carl Nägeli",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carl_N%C3%A4geli&oldid=1377870972",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "media",
+			"title": "Mendel's Experiments: Seed Shape & Color",
+			"url": "https://commons.wikimedia.org/wiki/File:Fairbanks_-_Mendel_Seed_Shape_%26_Color.jpg",
+			"accessed": "2026-10-06",
+			"licence": "CC BY-SA 4.0",
+			"file": "seeds.jpg",
+			"authors": [
+				{
+					"family": "Fairbanks",
+					"given": "Daniel J."
+				}
+			],
+			"container": "Oil on panel, Mendelianum, Moravian Museum, Brno",
+			"published": "2016"
+		}
+	]
+}

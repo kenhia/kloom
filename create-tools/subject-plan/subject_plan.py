@@ -277,6 +277,7 @@ def merge_drafts(dirs, names):
         if not os.path.isdir(d):
             out.append(f'no drafts directory {d} yet; nothing merged from it')
             continue
+        half = []
         for f in sorted(os.listdir(d)):
             if not f.endswith('.json'):
                 continue
@@ -287,12 +288,19 @@ def merge_drafts(dirs, names):
             except ValueError:
                 draft = {}
             if isinstance(draft, dict) and any(k in draft and not draft[k] for k in ('kind', 'description')):
-                out.append(f'{f} in {d} is unfinished (no kind or description yet); the copy leaves it out')
+                half.append(f)
                 continue
             if f in seen and seen[f][1] != body:
                 out.append(f'{f} is drafted in both {seen[f][0]} and {d}; the copy holds {d}\'s')
             seen[f] = (d, body)
             shutil.copy(os.path.join(d, f), names)
+        # One line a directory: an owner's 37 unfinished drafts once printed 37 lines (sprint 055).
+        if len(half) == 1:
+            out.append(f'{half[0]} in {d} is unfinished (no kind or description yet); the copy leaves it out')
+        elif half:
+            more = f' and {len(half) - 3} more' if len(half) > 3 else ''
+            out.append(f'{len(half)} unfinished drafts in {d} (no kind or description yet), left out of '
+                       f'the copy: {", ".join(half[:3])}{more}')
     return out
 
 

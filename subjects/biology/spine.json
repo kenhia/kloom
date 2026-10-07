@@ -1,0 +1,112 @@
+{
+	"segments": [
+		{
+			"id": "naming",
+			"title": "Naming and ordering life",
+			"labelKind": "date",
+			"palette": "herbarium",
+			"frames": [
+				"aristotle-animals",
+				"theophrastus",
+				"herbals",
+				"gesner",
+				"cabinet",
+				"ray-species",
+				"linnaeus"
+			]
+		},
+		{
+			"id": "seeing-small",
+			"title": "Seeing small",
+			"labelKind": "date",
+			"palette": "stain",
+			"frames": [
+				"hooke-cells",
+				"redi-flies",
+				"leeuwenhoek-animalcules",
+				"achromatic-microscope",
+				"cell-theory",
+				"virchow",
+				"swan-neck-flask",
+				"neuron-doctrine"
+			]
+		},
+		{
+			"id": "deep-time",
+			"title": "Deep time and change",
+			"labelKind": "date",
+			"palette": "strata",
+			"frames": [
+				"steno-fossils",
+				"cuvier-extinction",
+				"lamarck",
+				"mary-anning",
+				"lyell",
+				"darwin-wallace",
+				"origin-of-species",
+				"oxford-1860"
+			]
+		},
+		{
+			"id": "inheritance",
+			"title": "Inheritance",
+			"labelKind": "date",
+			"palette": "garden",
+			"frames": [
+				"mendel-peas",
+				"rediscovery",
+				"hardy-weinberg",
+				"fly-room",
+				"modern-synthesis",
+				"beadle-tatum",
+				"mcclintock"
+			]
+		},
+		{
+			"id": "molecule",
+			"title": "The molecule",
+			"labelKind": "date",
+			"palette": "helix",
+			"frames": [
+				"griffith",
+				"avery",
+				"hershey-chase",
+				"photo-51",
+				"meselson-stahl",
+				"genetic-code",
+				"lac-operon"
+			]
+		},
+		{
+			"id": "reading-writing",
+			"title": "Reading and writing life",
+			"labelKind": "date",
+			"palette": "gel",
+			"frames": [
+				"recombinant-dna",
+				"asilomar",
+				"sanger-sequencing",
+				"woese-archaea",
+				"dolly",
+				"human-genome",
+				"neanderthal-genome",
+				"crispr"
+			]
+		},
+		{
+			"id": "ecology",
+			"title": "Ecology and the whole",
+			"labelKind": "date",
+			"palette": "canopy",
+			"frames": [
+				"humboldt",
+				"haeckel-ecology",
+				"predator-prey",
+				"food-chain",
+				"silent-spring",
+				"island-biogeography",
+				"biodiversity-now"
+			]
+		}
+	]
+}

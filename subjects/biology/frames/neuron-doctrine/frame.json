@@ -1,0 +1,291 @@
+{
+	"id": "neuron-doctrine",
+	"topic": "Cajal and the neuron",
+	"position": {
+		"label": "1888",
+		"sort": 1888
+	},
+	"scene": {
+		"headline": "Every nerve cell stood",
+		"accent": "ALONE.",
+		"palette": "stain",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BARCELONA · SANTIAGO RAMÓN Y CAJAL",
+			"GOLGI'S BLACK REACTION · THE BIRD CEREBELLUM"
+		],
+		"counter": {
+			"value": "20 nm",
+			"label": "the gap between two neurons, seen in 1956"
+		}
+	},
+	"connections": [
+		{
+			"to": "ai/mcculloch-pitts",
+			"why": "McCulloch and Pitts built the first artificial neuron on the neuron doctrine, opening their 1943 paper: \"The nervous system is a net of neurons, each having a soma and an axon.\""
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Cajal and the Discovery of the Golgi Method: A Neuroanatomist's Dream",
+			"authors": [
+				{
+					"family": "DeFelipe",
+					"given": "Javier"
+				}
+			],
+			"container": "Anatomical Science International",
+			"volume": "100",
+			"issue": "4",
+			"pages": "384–399",
+			"published": "2025",
+			"doi": "10.1007/s12565-025-00840-7",
+			"accessed": "2026-10-06",
+			"note": "His translations of Golgi's letter of 1873 and of Cajal's Textura"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Neuron Doctrine: Theory and Facts",
+			"authors": [
+				{
+					"family": "Golgi",
+					"given": "Camillo"
+				}
+			],
+			"container": "Nobel Lecture, December 11, 1906",
+			"publisher": "NobelPrize.org",
+			"published": "1906-12-11",
+			"url": "https://www.nobelprize.org/prizes/medicine/1906/golgi/lecture/",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Structure and Connexions of Neurons",
+			"authors": [
+				{
+					"family": "Ramón y Cajal",
+					"given": "Santiago"
+				}
+			],
+			"container": "Nobel Lecture, December 12, 1906",
+			"publisher": "NobelPrize.org",
+			"published": "1906-12-12",
+			"url": "https://www.nobelprize.org/prizes/medicine/1906/cajal/lecture/",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Pathological Technique: A Practical Manual for the Pathological Laboratory",
+			"authors": [
+				{
+					"family": "Mallory",
+					"given": "Frank Burr"
+				},
+				{
+					"family": "Wright",
+					"given": "James Homer"
+				}
+			],
+			"place": "Philadelphia",
+			"publisher": "W. B. Saunders",
+			"published": "1897",
+			"url": "https://archive.org/details/pathologicalte00mall/page/n306",
+			"accessed": "2026-10-06",
+			"note": "Golgi's methods and Cajal's double method, pp. 308–311"
+		},
+		{
+			"kind": "article",
+			"title": "Camillo Golgi (1843–1926): Scientist Extraordinaire and Pioneer Figure of Modern Neurology",
+			"authors": [
+				{
+					"family": "Ghosh",
+					"given": "Sanjib Kumar"
+				}
+			],
+			"container": "Anatomy & Cell Biology",
+			"volume": "53",
+			"issue": "4",
+			"pages": "385–392",
+			"published": "2020",
+			"doi": "10.5115/acb.20.196",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Cajal, the Neuronal Theory and the Idea of Brain Plasticity",
+			"authors": [
+				{
+					"family": "Rozo",
+					"given": "Jairo A."
+				},
+				{
+					"family": "Martínez-Gallego",
+					"given": "Irene"
+				},
+				{
+					"family": "Rodríguez-Moreno",
+					"given": "Antonio"
+				}
+			],
+			"container": "Frontiers in Neuroanatomy",
+			"volume": "18",
+			"pages": "1331666",
+			"published": "2024",
+			"doi": "10.3389/fnana.2024.1331666",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Some Features of the Submicroscopic Morphology of Synapses in Frog and Earthworm",
+			"authors": [
+				{
+					"family": "De Robertis",
+					"given": "Eduardo"
+				},
+				{
+					"family": "Bennett",
+					"given": "H. Stanley"
+				}
+			],
+			"container": "Journal of Biophysical and Biochemical Cytology",
+			"volume": "1",
+			"issue": "1",
+			"pages": "47–58",
+			"published": "1955",
+			"doi": "10.1083/jcb.1.1.47",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Synapses in the Central Nervous System",
+			"authors": [
+				{
+					"family": "Palay",
+					"given": "Sanford L."
+				}
+			],
+			"container": "Journal of Biophysical and Biochemical Cytology",
+			"volume": "2",
+			"issue": "4",
+			"pages": "193–202",
+			"published": "1956",
+			"doi": "10.1083/jcb.2.4.193",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+			"authors": [
+				{
+					"family": "McCulloch",
+					"given": "Warren S."
+				},
+				{
+					"family": "Pitts",
+					"given": "Walter"
+				}
+			],
+			"container": "Bulletin of Mathematical Biophysics",
+			"volume": "5",
+			"pages": "115–133",
+			"published": "1943",
+			"doi": "10.1007/BF02478259",
+			"accessed": "2026-10-06",
+			"note": "Read in its reprint in the Bulletin of Mathematical Biology 52 (1990)"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Neuron doctrine",
+			"url": "https://en.wikipedia.org/w/index.php?title=Neuron_doctrine&oldid=1323051543",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-19",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Camillo Golgi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Camillo_Golgi&oldid=1375497335",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Santiago Ramón y Cajal",
+			"url": "https://en.wikipedia.org/w/index.php?title=Santiago_Ram%C3%B3n_y_Cajal&oldid=1373949979",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Reticular theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Reticular_theory&oldid=1339464294",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Golgi's method",
+			"url": "https://en.wikipedia.org/w/index.php?title=Golgi's_method&oldid=1361551550",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-28"
+		},
+		{
+			"kind": "media",
+			"title": "Purkinje cells (A) and granule cells (B) from pigeon cerebellum",
+			"authors": [
+				{
+					"family": "Ramón y Cajal",
+					"given": "Santiago"
+				}
+			],
+			"url": "https://commons.wikimedia.org/wiki/File:PurkinjeCell.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "purkinje.jpg",
+			"container": "Instituto Cajal, Madrid",
+			"published": "1899"
+		}
+	]
+}

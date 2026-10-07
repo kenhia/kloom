@@ -1,0 +1,35 @@
+{
+	"biology/ray-species": [
+		["John Ray", "john-ray"],
+		["Trinity College, Cambridge", "trinity-college-cambridge"],
+		["Francis Willughby", "francis-willughby"],
+		["_De Historia Piscium_", "de-historia-piscium"],
+		["Royal Society", "royal-society"],
+		["_Principia_", "philosophiae-naturalis-principia-mathematica"],
+		["Edmond Halley", "edmond-halley"],
+		["_Historia plantarum_", "historia-plantarum-ray-book"],
+		["species", "species"],
+		["Henry Oldenburg", "henry-oldenburg"],
+		["Marcello Malpighi", "marcello-malpighi"],
+		["monocotyledons", "monocotyledon"],
+		["natural theology", "natural-theology"],
+		["Gaspard Bauhin", "gaspard-bauhin"]
+	],
+	"biology/linnaeus": [
+		["Carl Linnaeus", "carl-linnaeus"],
+		["Uppsala University", "uppsala-university"],
+		["_Systema Naturae_", "systema-naturae"],
+		["Georg Dionysius Ehret", "georg-dionysius-ehret"],
+		["_Species Plantarum_", "species-plantarum"],
+		["John Ray", "john-ray"],
+		["binomial nomenclature", "binomial-nomenclature"],
+		["_Physalis angulata_", "physalis-angulata"],
+		["taxonomy", "taxonomy-biology"],
+		["Theophrastus", "theophrastus"],
+		["Daniel Solander", "daniel-solander"],
+		["James Cook", "james-cook"],
+		["Linnean Society of London", "linnean-society-of-london"],
+		["scientific racism", "scientific-racism"],
+		["James Edward Smith", "james-edward-smith-botanist"]
+	]
+}

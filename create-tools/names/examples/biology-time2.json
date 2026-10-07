@@ -1,0 +1,32 @@
+{
+	"biology/mary-anning": [
+		["Mary Anning", "mary-anning"],
+		["Lyme Regis", "lyme-regis"],
+		["ichthyosaurs", "ichthyosauria"],
+		["William Conybeare", "william-conybeare-geologist"],
+		["_Plesiosaurus_", "plesiosaurus"],
+		["Henry De la Beche", "henry-de-la-beche"],
+		["Geological Society of London", "geological-society-of-london"],
+		["Georges Cuvier", "georges-cuvier"],
+		["Hugh Torrens", "hugh-torrens"],
+		["William Buckland", "william-buckland"],
+		["coprolites", "coprolite"],
+		["_Duria Antiquior_", "duria-antiquior"],
+		["Louis Agassiz", "louis-agassiz"]
+	],
+	"biology/lyell": [
+		["Charles Lyell", "charles-lyell"],
+		["_Principles of Geology_", "principles-of-geology"],
+		["James Hutton", "james-hutton"],
+		["William Whewell", "william-whewell"],
+		["uniformitarianism", "uniformitarianism"],
+		["_Lithophaga_", "lithophaga"],
+		["Macellum of Pozzuoli", "macellum-of-pozzuoli"],
+		["Henry De la Beche", "henry-de-la-beche"],
+		["Charles Darwin", "charles-darwin"],
+		["Lord Kelvin", "lord-kelvin"],
+		["Clair Patterson", "clair-patterson"],
+		["Robert FitzRoy", "robert-fitzroy"],
+		["John Stevens Henslow", "john-stevens-henslow"]
+	]
+}

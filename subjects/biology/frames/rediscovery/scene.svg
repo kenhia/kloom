@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M52 74 L52 250"/>
+		<path pathLength="1" d="M52 74 L228 74"/>
+		<path pathLength="1" d="M96 74 L96 250"/>
+		<path pathLength="1" d="M52 118 L228 118"/>
+		<path pathLength="1" d="M140 74 L140 250"/>
+		<path pathLength="1" d="M52 162 L228 162"/>
+		<path pathLength="1" d="M184 74 L184 250"/>
+		<path pathLength="1" d="M52 206 L228 206"/>
+		<path pathLength="1" d="M228 74 L228 250"/>
+		<path pathLength="1" d="M52 250 L228 250"/>
+		<path pathLength="1" d="M22 52 L52 74"/>
+		<path pathLength="1" d="M262 112 L392 112"/>
+		<path pathLength="1" d="M262 156 L392 156"/>
+		<path pathLength="1" d="M262 200 L392 200"/>
+		<path pathLength="1" d="M262 244 L392 244"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M62 96 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M106 96 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M150 96 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M194 96 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M62 140 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M106 140 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M150 140 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M194 140 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M62 184 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M106 184 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M173.8 184 L172.9 185.9 L171.1 187.3 L170.4 188.8 L170.5 191.1 L169.7 193.2 L167.5 193.6 L165.1 192.5 L163.5 192.3 L162 193.7 L160.1 195 L158.3 194.3 L157.2 192.3 L156.1 191 L153.9 190.8 L151.5 190.1 L150.8 188.1 L152 185.8 L153.1 184 L152.6 182.3 L151.8 180.3 L152.5 178.5 L154.7 177.9 L156.5 177.4 L157.2 175.7 L158.1 173.2 L159.9 172 L162 173.1 L163.6 174.7 L165.3 174.9 L167.5 174.4 L169.4 175.2 L169.7 177.5 L169.3 179.8 L170.2 181 L172.4 182.2 Z"/>
+		<path pathLength="1" d="M217.8 184 L216.9 185.9 L215.1 187.3 L214.4 188.8 L214.5 191.1 L213.7 193.2 L211.5 193.6 L209.1 192.5 L207.5 192.3 L206 193.7 L204.1 195 L202.3 194.3 L201.2 192.3 L200.1 191 L197.9 190.8 L195.5 190.1 L194.8 188.1 L196 185.8 L197.1 184 L196.6 182.3 L195.8 180.3 L196.5 178.5 L198.7 177.9 L200.5 177.4 L201.2 175.7 L202.1 173.2 L203.9 172 L206 173.1 L207.6 174.7 L209.3 174.9 L211.5 174.4 L213.4 175.2 L213.7 177.5 L213.3 179.8 L214.2 181 L216.4 182.2 Z"/>
+		<path pathLength="1" d="M62 228 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M106 228 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M173.8 228 L172.9 229.9 L171.1 231.3 L170.4 232.8 L170.5 235.1 L169.7 237.2 L167.5 237.6 L165.1 236.5 L163.5 236.3 L162 237.7 L160.1 239 L158.3 238.3 L157.2 236.3 L156.1 235 L153.9 234.8 L151.5 234.1 L150.8 232.1 L152 229.8 L153.1 228 L152.6 226.3 L151.8 224.3 L152.5 222.5 L154.7 221.9 L156.5 221.4 L157.2 219.7 L158.1 217.2 L159.9 216 L162 217.1 L163.6 218.7 L165.3 218.9 L167.5 218.4 L169.4 219.2 L169.7 221.5 L169.3 223.8 L170.2 225 L172.4 226.2 Z"/>
+		<path pathLength="1" d="M217.8 228 L216.9 229.9 L215.1 231.3 L214.4 232.8 L214.5 235.1 L213.7 237.2 L211.5 237.6 L209.1 236.5 L207.5 236.3 L206 237.7 L204.1 239 L202.3 238.3 L201.2 236.3 L200.1 235 L197.9 234.8 L195.5 234.1 L194.8 232.1 L196 229.8 L197.1 228 L196.6 226.3 L195.8 224.3 L196.5 222.5 L198.7 221.9 L200.5 221.4 L201.2 219.7 L202.1 217.2 L203.9 216 L206 217.1 L207.6 218.7 L209.3 218.9 L211.5 218.4 L213.4 219.2 L213.7 221.5 L213.3 223.8 L214.2 225 L216.4 226.2 Z"/>
+		<path pathLength="1" d="M264 96 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0"/>
+		<path pathLength="1" d="M283.8 140 L283.1 141.6 L281.6 142.8 L281 144 L281.1 145.9 L280.4 147.7 L278.6 148 L276.6 147.1 L275.2 146.9 L274 148.1 L272.4 149.2 L270.9 148.6 L270 146.9 L269.1 145.9 L267.2 145.7 L265.2 145.1 L264.6 143.4 L265.7 141.5 L266.6 140 L266.2 138.6 L265.5 136.9 L266.1 135.4 L267.9 134.9 L269.4 134.5 L270 133.1 L270.7 131 L272.2 130 L274 130.9 L275.4 132.2 L276.8 132.4 L278.6 132 L280.1 132.7 L280.4 134.6 L280.1 136.5 L280.8 137.5 L282.6 138.5 Z"/>
+		<path pathLength="1" d="M264 184 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0"/>
+		<path pathLength="1" d="M283.8 228 L283.1 229.6 L281.6 230.8 L281 232 L281.1 233.9 L280.4 235.7 L278.6 236 L276.6 235.1 L275.2 234.9 L274 236.1 L272.4 237.2 L270.9 236.6 L270 234.9 L269.1 233.9 L267.2 233.7 L265.2 233.1 L264.6 231.4 L265.7 229.5 L266.6 228 L266.2 226.6 L265.5 224.9 L266.1 223.4 L267.9 222.9 L269.4 222.5 L270 221.1 L270.7 219 L272.2 218 L274 218.9 L275.4 220.2 L276.8 220.4 L278.6 220 L280.1 220.7 L280.4 222.6 L280.1 224.5 L280.8 225.5 L282.6 226.5 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M111.3 131.2 L124.7 131.2 M109.3 134.4 L126.7 134.4 M108.4 137.6 L127.6 137.6 M108.2 140.8 L127.8 140.8 M108.7 144 L127.3 144 M110.1 147.2 L125.9 147.2 M113.1 150.4 L122.9 150.4"/>
+		<path pathLength="1" d="M199.3 131.2 L212.7 131.2 M197.3 134.4 L214.7 134.4 M196.4 137.6 L215.6 137.6 M196.2 140.8 L215.8 140.8 M196.7 144 L215.3 144 M198.1 147.2 L213.9 147.2 M201.1 150.4 L210.9 150.4"/>
+		<path pathLength="1" d="M111.3 219.2 L124.7 219.2 M109.3 222.4 L126.7 222.4 M108.4 225.6 L127.6 225.6 M108.2 228.8 L127.8 228.8 M108.7 232 L127.3 232 M110.1 235.2 L125.9 235.2 M113.1 238.4 L122.9 238.4"/>
+		<path pathLength="1" d="M200 221.2 L212 221.2 M198.3 224.4 L213.7 224.4 M197.8 227.6 L214.2 227.6 M198.1 230.8 L213.9 230.8 M199.4 234 L212.6 234"/>
+		<path pathLength="1" d="M268 177.2 L280 177.2 M266.3 180.4 L281.7 180.4 M265.8 183.6 L282.2 183.6 M266.1 186.8 L281.9 186.8 M267.4 190 L280.6 190"/>
+		<path pathLength="1" d="M268.6 222.7 L279.4 222.7 M267.2 225.9 L280.8 225.9 M267.1 229.1 L280.9 229.1 M268 232.3 L280 232.3"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="200" y="28" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TWO CHARACTERS AT ONCE · RrYy SELFED</text>
+		<text x="140" y="52" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">POLLEN</text>
+		<text x="26" y="68" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EGGS</text>
+		<text x="74" y="66" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RY</text>
+		<text x="40" y="98.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RY</text>
+		<text x="118" y="66" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Ry</text>
+		<text x="40" y="142.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">Ry</text>
+		<text x="162" y="66" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">rY</text>
+		<text x="40" y="186.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">rY</text>
+		<text x="206" y="66" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ry</text>
+		<text x="40" y="230.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ry</text>
+		<text x="392" y="66" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EXPECTED · SEEN</text>
+		<text x="292" y="94" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">9 ROUND YELLOW</text>
+		<text x="392" y="106" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">315</text>
+		<text x="292" y="138" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3 WRINKLED YELLOW</text>
+		<text x="392" y="150" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">101</text>
+		<text x="292" y="182" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3 ROUND GREEN</text>
+		<text x="392" y="194" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">108</text>
+		<text x="292" y="226" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1 WRINKLED GREEN</text>
+		<text x="392" y="238" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">32</text>
+		<text x="392" y="268" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">556 SEEDS · MENDEL 1866</text>
+	</g>
+</svg>

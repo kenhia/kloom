@@ -334,6 +334,12 @@ of distinct readers per frame (0/1/2/3/4+, trails after their anchors, a
 404 for anyone else), and a `frame_visit` counter at 5 s on a frame, which
 is now also what opens a frame for what's new (the place stays at 800 ms;
 `just traffic-check`).
+Sprint 055 the twelfth subject, `subjects/biology`, _The Story of Life_ (67
+frames: seven dated sections from Aristotle's animals to the biodiversity
+crisis, three trails: germ theory, the Beagle, what we got wrong), written
+by 26 parallel authors, with 97 connections out to ten subjects and Daily
+Bread's pending links made; `mark --check` now refuses a mark on an
+unfinished draft, as the checking copy does.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

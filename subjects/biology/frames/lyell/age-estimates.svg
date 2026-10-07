@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Estimates of the time geology had to work with, in years</title>
+<desc id="d">Bar chart on a logarithmic scale. Buffon's age of the earth from cooling globes, 1779: 74,832 years. Darwin's time for the erosion of the Weald alone, 1859: about 306 million years. William Thomson's age of the earth's crust from its cooling, 1862: 98 million years, within limits of 20 and 400 million. Clair Patterson's age of the earth from meteorite lead, 1956: 4.55 billion years.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">10⁴</text>
+<line x1="64" x2="460" y1="188.9" y2="188.9" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="192.9" text-anchor="end">10⁶</text>
+<line x1="64" x2="460" y1="127.7" y2="127.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="131.7" text-anchor="end">10⁸</text>
+<line x1="64" x2="460" y1="66.6" y2="66.6" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="70.6" text-anchor="end">10¹⁰</text>
+</g>
+<rect x="85.5" y="223.3" width="56" height="26.7" fill-opacity="0.85"/>
+<text x="113.5" y="217.3" text-anchor="middle">74,832</text>
+<text x="113.5" y="266" text-anchor="middle">Buffon</text>
+<text x="113.5" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1779</text>
+<rect x="184.5" y="112.8" width="56" height="137.2" fill-opacity="0.85"/>
+<text x="212.5" y="106.8" text-anchor="middle">306 M</text>
+<text x="212.5" y="266" text-anchor="middle">Darwin</text>
+<text x="212.5" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">Weald only</text>
+<rect x="283.5" y="128.0" width="56" height="122.0" fill-opacity="0.85"/>
+<text x="311.5" y="122.0" text-anchor="middle">98 M</text>
+<text x="311.5" y="266" text-anchor="middle">Thomson</text>
+<text x="311.5" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1862</text>
+<rect x="382.5" y="77.0" width="56" height="173.0" class="accent" fill="currentColor"/>
+<text x="410.5" y="71.0" text-anchor="middle">4.55 B</text>
+<text x="410.5" y="266" text-anchor="middle">Patterson</text>
+<text x="410.5" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">1956</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">TIME FOR GEOLOGY · YEARS (LOG SCALE)</text>
+</g></svg>

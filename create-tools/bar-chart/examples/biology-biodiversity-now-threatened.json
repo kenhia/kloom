@@ -1,0 +1,70 @@
+{
+	"title": "Share of species threatened with extinction, by group, IUCN Red List version 2026-1",
+	"description": "Bar chart of the best estimate of the percentage of extant species threatened (Critically Endangered, Endangered or Vulnerable, or Extinct in the Wild) in the groups the IUCN Red List has assessed comprehensively, version 2026-1 of July 2026: cycads 71 percent, reef-forming corals 44, amphibians 41, trees 38, sharks, rays and chimaeras 38, conifers 34, mammals 26, freshwater fishes 26, reptiles 21 and birds 11.5.",
+	"heading": "THREATENED WITH EXTINCTION · % OF SPECIES · RED LIST 2026-1",
+	"unit": "%",
+	"width": 760,
+	"height": 300,
+	"barWidth": 40,
+	"axis": {
+		"max": 100,
+		"ticks": [
+			[0, "0"],
+			[25, "25"],
+			[50, "50"],
+			[75, "75"],
+			[100, "100"]
+		]
+	},
+	"bars": [
+		{
+			"label": "Cycads",
+			"value": 71,
+			"highlight": true
+		},
+		{
+			"label": "Corals",
+			"sublabel": "reef",
+			"value": 44
+		},
+		{
+			"label": "Amphibians",
+			"value": 41
+		},
+		{
+			"label": "Trees",
+			"value": 38
+		},
+		{
+			"label": "Sharks",
+			"sublabel": "and rays",
+			"value": 38
+		},
+		{
+			"label": "Conifers",
+			"value": 34
+		},
+		{
+			"label": "Mammals",
+			"value": 26
+		},
+		{
+			"label": "Fishes",
+			"sublabel": "freshwater",
+			"value": 26
+		},
+		{
+			"label": "Reptiles",
+			"value": 21
+		},
+		{
+			"label": "Birds",
+			"value": 11.5
+		}
+	],
+	"source": {
+		"container": "IUCN Red List of Threatened Species, version 2026-1, Summary statistics, Figure 2",
+		"url": "https://www.iucnredlist.org/resources/summary-statistics",
+		"accessed": "2026-10-06"
+	}
+}

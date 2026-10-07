@@ -198,6 +198,24 @@ class MergeDrafts(unittest.TestCase):
         finally:
             shutil.rmtree(root)
 
+    def test_many_unfinished_drafts_in_one_directory_are_one_line(self):
+        # sprint 055: an owner's 37 unfinished drafts printed 37 lines, burying a borrower's own.
+        root = tempfile.mkdtemp()
+        try:
+            a, names = os.path.join(root, 'a'), os.path.join(root, 'names')
+            for d in (a, names):
+                os.makedirs(d)
+            for i in range(5):
+                with open(os.path.join(a, f'half{i}.json'), 'w') as fh:
+                    json.dump({'id': f'half{i}', 'kind': '', 'description': ''}, fh)
+            out = merge_drafts([a], names)
+            self.assertEqual(len(out), 1)
+            self.assertIn('5 unfinished', out[0])
+            self.assertIn('half0.json', out[0])
+            self.assertIn('2 more', out[0])
+        finally:
+            shutil.rmtree(root)
+
     def test_a_missing_directory_is_said_not_a_crash(self):
         # sprint 051: an owner's drafts directory that did not exist yet raised FileNotFoundError.
         root = tempfile.mkdtemp()

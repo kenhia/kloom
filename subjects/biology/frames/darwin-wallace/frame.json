@@ -1,0 +1,360 @@
+{
+	"id": "darwin-wallace",
+	"topic": "Darwin, Wallace and the 1858 papers",
+	"position": {
+		"label": "1858",
+		"sort": 1858
+	},
+	"scene": {
+		"headline": "The idea arrived",
+		"accent": "TWICE.",
+		"palette": "strata",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TERNATE · DOWN HOUSE · LINNEAN SOCIETY, LONDON",
+			"ALFRED RUSSEL WALLACE · CHARLES DARWIN · 1 JULY 1858"
+		],
+		"counter": {
+			"value": "20 years : 1 week",
+			"label": "Wallace's own weighing of their shares"
+		}
+	},
+	"connections": [
+		{
+			"to": "food/malthus",
+			"why": "Both men found natural selection in Malthus: Darwin read the Essay on population in 1838, and Wallace, ill with fever in the Moluccas in 1858, remembered its \"positive checks\" and asked why some die and some live."
+		},
+		{
+			"to": "western-civ/steam",
+			"why": "Wallace's Ternate essay likens natural selection to \"the centrifugal governor of the steam engine,\" the feedback device Watt added to his engine, which corrects an irregularity almost before it shows."
+		},
+		{
+			"to": "biology/linnaeus",
+			"why": "The Linnean Society, which heard Darwin's and Wallace's papers on 1 July 1858, was founded in 1788 around Linnaeus's own collections, bought from his widow by James Edward Smith."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Tendency of Species to form Varieties; and on the Perpetuation of Varieties and Species by Natural Means of Selection",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				},
+				{
+					"family": "Wallace",
+					"given": "Alfred Russel"
+				}
+			],
+			"container": "Journal of the Proceedings of the Linnean Society of London. Zoology",
+			"volume": "3",
+			"pages": "45–62",
+			"published": "1858-08-20",
+			"doi": "10.1111/j.1096-3642.1858.tb02500.x",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=F350&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"note": "Read in Darwin Online's text, with John van Wyhe's editorial notes"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter to Charles Lyell, 18 June 1858",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Lyell",
+					"given": "Charles"
+				}
+			],
+			"written": "1858-06-18",
+			"container": "Darwin Correspondence Project",
+			"number": "DCP-LETT-2285",
+			"publisher": "University of Cambridge",
+			"url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-2285.xml",
+			"accessed": "2026-10-06",
+			"key": true
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "My Life: A Record of Events and Opinions",
+			"authors": [
+				{
+					"family": "Wallace",
+					"given": "Alfred Russel"
+				}
+			],
+			"volume": "1",
+			"place": "London",
+			"publisher": "Chapman & Hall",
+			"published": "1905",
+			"url": "https://archive.org/details/myliferecordofev01walluoft",
+			"accessed": "2026-10-06",
+			"note": "His account of the Ternate essay is on pp. 360–63"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter to Charles Lyell, 25 June 1858",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Lyell",
+					"given": "Charles"
+				}
+			],
+			"written": "1858-06-25",
+			"container": "Darwin Correspondence Project",
+			"number": "DCP-LETT-2294",
+			"publisher": "University of Cambridge",
+			"url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-2294.xml",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "On the Law which has regulated the Introduction of New Species",
+			"authors": [
+				{
+					"family": "Wallace",
+					"given": "Alfred Russel"
+				}
+			],
+			"container": "Annals and Magazine of Natural History",
+			"volume": "16",
+			"pages": "184–196",
+			"published": "1855-09",
+			"url": "https://en.wikisource.org/wiki/1855_The_Annals_and_Magazine_of_Natural_History/On_the_Law_which_has_regulated_the_Introduction_of_New_Species",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "The Malay Archipelago",
+			"authors": [
+				{
+					"family": "Wallace",
+					"given": "Alfred Russel"
+				}
+			],
+			"place": "London",
+			"publisher": "Macmillan",
+			"published": "1869",
+			"url": "https://www.gutenberg.org/ebooks/2530",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "chapter",
+			"title": "Address by Dr. Alfred Russel Wallace",
+			"authors": [
+				{
+					"family": "Wallace",
+					"given": "Alfred Russel"
+				}
+			],
+			"container": "The Darwin-Wallace Celebration Held on Thursday, 1st July, 1908, by the Linnean Society of London",
+			"place": "London",
+			"publisher": "Linnean Society of London",
+			"published": "1908",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=A281&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "Darwinism: An Exposition of the Theory of Natural Selection with Some of Its Applications",
+			"authors": [
+				{
+					"family": "Wallace",
+					"given": "Alfred Russel"
+				}
+			],
+			"place": "London",
+			"publisher": "Macmillan",
+			"published": "1889",
+			"url": "https://www.gutenberg.org/ebooks/14558",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "A New Theory to Explain the Receipt of Wallace's Ternate Essay by Darwin in 1858",
+			"authors": [
+				{
+					"family": "van Wyhe",
+					"given": "John"
+				},
+				{
+					"family": "Rookmaaker",
+					"given": "Kees"
+				}
+			],
+			"container": "Biological Journal of the Linnean Society",
+			"volume": "105",
+			"pages": "249–252",
+			"published": "2012",
+			"doi": "10.1111/j.1095-8312.2011.01808.x",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "How Charles Darwin Received Wallace's Ternate Paper 15 Days Earlier than He Claimed: A Comment on van Wyhe and Rookmaaker (2012)",
+			"authors": [
+				{
+					"family": "Davies",
+					"given": "Roy"
+				}
+			],
+			"container": "Biological Journal of the Linnean Society",
+			"volume": "105",
+			"published": "2012",
+			"doi": "10.1111/j.1095-8312.2011.01858.x",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "'I am Ali Wallace': The Malay Assistant of Alfred Russel Wallace",
+			"authors": [
+				{
+					"family": "van Wyhe",
+					"given": "John"
+				},
+				{
+					"family": "Drawhorn",
+					"given": "Gerrell M."
+				}
+			],
+			"container": "Journal of the Malaysian Branch of the Royal Asiatic Society",
+			"volume": "88",
+			"pages": "3–31",
+			"published": "2015",
+			"doi": "10.1353/ras.2015.0012",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "Presidential address, Linnean Society of London, May 1859",
+			"authors": [
+				{
+					"family": "Bell",
+					"given": "Thomas"
+				}
+			],
+			"published": "1859-05",
+			"citedIn": "Wikipedia, On the Tendency of Species to form Varieties; and on the Perpetuation of Varieties and Species by Natural Means of Selection"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "On the Tendency of Species to form Varieties; and on the Perpetuation of Varieties and Species by Natural Means of Selection",
+			"url": "https://en.wikipedia.org/w/index.php?title=On_the_Tendency_of_Species_to_form_Varieties%3B_and_on_the_Perpetuation_of_Varieties_and_Species_by_Natural_Means_of_Selection&oldid=1341233844",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alfred Russel Wallace",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alfred_Russel_Wallace&oldid=1378558854",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ali Wallace (naturalist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ali_Wallace_(naturalist)&oldid=1367787579",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wallace Line",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wallace_Line&oldid=1377724537",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lombok Strait",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lombok_Strait&oldid=1366425508",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-27"
+		},
+		{
+			"kind": "media",
+			"title": "My faithful Malay boy, Ali, 1855–1862",
+			"container": "Alfred Russel Wallace, My Life (London: Chapman & Hall, 1905), vol. 1",
+			"published": "1905",
+			"url": "https://commons.wikimedia.org/wiki/File:Ali_Wallace_1905.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "ali.jpg",
+			"note": "Photographed in Singapore in 1862 by a friend of Wallace's, and first published in 1905"
+		},
+		{
+			"kind": "media",
+			"title": "Map to Illustrate a Paper on the Physical Geography of the Malay Archipelago",
+			"authors": [
+				{
+					"family": "Wallace",
+					"given": "Alfred Russel"
+				}
+			],
+			"engravers": [
+				{
+					"family": "Arrowsmith",
+					"given": "John"
+				}
+			],
+			"container": "Journal of the Royal Geographical Society of London 33 (1863)",
+			"published": "1863",
+			"url": "https://commons.wikimedia.org/wiki/File:Wallace-line1.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "wallace-map.jpg"
+		}
+	]
+}

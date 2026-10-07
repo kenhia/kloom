@@ -1,0 +1,203 @@
+{
+	"id": "achromatic-microscope",
+	"topic": "The achromatic microscope",
+	"position": {
+		"label": "1830",
+		"sort": 1830
+	},
+	"scene": {
+		"headline": "We saw without",
+		"accent": "FRINGES.",
+		"palette": "stain",
+		"illustration": "scene.svg",
+		"metadata": ["LONDON · JOSEPH JACKSON LISTER", "PHILOSOPHICAL TRANSACTIONS · JANUARY 1830"],
+		"counter": {
+			"value": "2",
+			"label": "aplanatic foci in every doublet"
+		}
+	},
+	"connections": [
+		{
+			"to": "nursing/lister",
+			"why": "Joseph Jackson Lister, who made the achromatic microscope practical, was the father of the surgeon Joseph Lister and guided his career."
+		},
+		{
+			"to": "physics/prism",
+			"why": "Newton concluded from his prism that a lens could never be freed of color; the achromatic doublet of crown and flint glass proved him wrong, and made the compound microscope usable."
+		},
+		{
+			"to": "physics/atoms-real",
+			"why": "Robert Brown, who named the cell nucleus in 1831, is the botanist whose jittering specks of 1827 became Brownian motion, the evidence for atoms."
+		},
+		{
+			"to": "biology/hooke-cells",
+			"why": "Hooke drew Micrographia with a compound microscope, struggling for light, and admitted a single glass bead magnified better; the compound instrument stayed that way until achromatic doublets corrected its color."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On Some Properties in Achromatic Object-Glasses Applicable to the Improvement of the Microscope",
+			"authors": [
+				{
+					"family": "Lister",
+					"given": "Joseph Jackson"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "120",
+			"pages": "187–200",
+			"published": "1830",
+			"doi": "10.1098/rstl.1830.0015",
+			"url": "https://archive.org/details/jstor-107900",
+			"accessed": "2026-10-06",
+			"note": "Read in JSTOR's Early Journal Content scan; the rule of the two aplanatic foci is on p. 195"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Organs and Mode of Fecundation in Orchideae and Asclepiadeae",
+			"authors": [
+				{
+					"family": "Brown",
+					"given": "Robert"
+				}
+			],
+			"container": "Transactions of the Linnean Society of London",
+			"volume": "16",
+			"pages": "685–745",
+			"published": "1833",
+			"url": "https://archive.org/details/transactionsofli02linn",
+			"accessed": "2026-10-06",
+			"note": "Read to the Society in 1831; the nucleus is named on p. 710"
+		},
+		{
+			"kind": "article",
+			"title": "Brownian Movement in Clarkia Pollen: A Reprise of the First Observations",
+			"authors": [
+				{
+					"family": "Ford",
+					"given": "Brian J."
+				}
+			],
+			"container": "The Microscope",
+			"volume": "40",
+			"issue": "4",
+			"pages": "235–241",
+			"published": "1992",
+			"url": "https://www.brianjford.com/wbbrowna.htm",
+			"accessed": "2026-10-06",
+			"note": "Read in the author's reprint on his website"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Jackson Lister",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Jackson_Lister&oldid=1372060489",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Achromatic lens",
+			"url": "https://en.wikipedia.org/w/index.php?title=Achromatic_lens&oldid=1371224452",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chromatic aberration",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chromatic_aberration&oldid=1375127074",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chester Moore Hall",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chester_Moore_Hall&oldid=1324103888",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Brown (botanist, born 1773)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Brown_(botanist,_born_1773)&oldid=1375549715",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Royal Microscopical Society",
+			"url": "https://en.wikipedia.org/w/index.php?title=Royal_Microscopical_Society&oldid=1349777903",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cell nucleus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cell_nucleus&oldid=1373582252",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "media",
+			"title": "The first achromatic microscope made for J.J. Lister by James Smith, London, 1826",
+			"url": "https://commons.wikimedia.org/wiki/File:The_first_achromatic_microscope_made_for_J.J._Lister_by_Jame_Wellcome_L0057211.jpg",
+			"accessed": "2026-10-06",
+			"licence": "CC BY 4.0",
+			"file": "smith-microscope.jpg",
+			"container": "Wellcome Collection",
+			"number": "L0057211"
+		}
+	]
+}

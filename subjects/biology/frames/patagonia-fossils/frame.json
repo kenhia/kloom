@@ -1,0 +1,350 @@
+{
+	"id": "patagonia-fossils",
+	"topic": "Darwin's fossils at Punta Alta",
+	"position": {
+		"label": "1832",
+		"sort": 1832
+	},
+	"scene": {
+		"headline": "The dead were like the",
+		"accent": "LIVING.",
+		"palette": "ocean",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PUNTA ALTA · BAHÍA BLANCA",
+			"MEGATHERIUM · TOXODON · MACRAUCHENIA · RICHARD OWEN"
+		],
+		"counter": {
+			"value": "19 : 5",
+			"label": "living edentate species, South America to the rest of the world"
+		}
+	},
+	"connections": [
+		{
+			"to": "biology/origin-of-species",
+			"why": "The law Darwin drew from the Punta Alta bones, that South America's extinct giants resembled its living sloths and armadillos, had become by 1859, in the Origin, evidence of descent."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Fossil Mammals Collected by Charles Darwin in South America during His Travels on Board the HMS Beagle",
+			"authors": [
+				{
+					"family": "Fernicola",
+					"given": "Juan Carlos"
+				},
+				{
+					"family": "Vizcaíno",
+					"given": "Sergio F."
+				},
+				{
+					"family": "De Iuliis",
+					"given": "Gerardo"
+				}
+			],
+			"container": "Revista de la Asociación Geológica Argentina",
+			"volume": "64",
+			"issue": "1",
+			"pages": "147–159",
+			"published": "2009",
+			"url": "https://revista.geologica.org.ar/raga/article/download/1339/1310",
+			"accessed": "2026-10-06",
+			"note": "Darwin's field names set against Owen's, and the fate of the collection"
+		},
+		{
+			"kind": "book",
+			"title": "Journal and Remarks, 1832–1836",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"container": "Narrative of the Surveying Voyages of His Majesty's Ships Adventure and Beagle",
+			"volume": "3",
+			"place": "London",
+			"publisher": "Henry Colburn",
+			"published": "1839",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=F10.3&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"key": true,
+			"note": "Punta Alta is on pp. 95–97; the relation of the living and the dead, and extinction, on pp. 208–212"
+		},
+		{
+			"kind": "book",
+			"title": "Journal of Researches into the Natural History and Geology of the Countries Visited during the Voyage of H.M.S. Beagle round the World",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"edition": "2nd ed.",
+			"place": "London",
+			"publisher": "John Murray",
+			"published": "1845",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=F14&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"note": "The Toxodon skull bought for eighteen pence is on p. 155"
+		},
+		{
+			"kind": "diary",
+			"title": "Charles Darwin's Beagle Diary",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"written": "1832-09-22",
+			"editors": [
+				{
+					"family": "Rookmaaker",
+					"given": "Kees"
+				},
+				{
+					"family": "van Wyhe",
+					"given": "John"
+				}
+			],
+			"container": "The Complete Work of Charles Darwin Online",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=EH88202366&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "diary",
+			"title": "Charles Darwin's Beagle Diary",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"written": "1832-09-23",
+			"editors": [
+				{
+					"family": "Rookmaaker",
+					"given": "Kees"
+				},
+				{
+					"family": "van Wyhe",
+					"given": "John"
+				}
+			],
+			"container": "The Complete Work of Charles Darwin Online",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=EH88202366&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter to J. S. Henslow",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Henslow",
+					"given": "John Stevens"
+				}
+			],
+			"written": "1832-11-24",
+			"container": "Darwin Correspondence Project",
+			"number": "DCP-LETT-192",
+			"publisher": "University of Cambridge",
+			"url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-192.xml",
+			"accessed": "2026-10-06",
+			"note": "Begun about October 26 and finished November 24, 1832"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter to J. S. Henslow",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Henslow",
+					"given": "John Stevens"
+				}
+			],
+			"written": "1834-03",
+			"container": "Darwin Correspondence Project",
+			"number": "DCP-LETT-238",
+			"publisher": "University of Cambridge",
+			"url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-238.xml",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "chapter",
+			"title": "Fossil Mammalia",
+			"authors": [
+				{
+					"family": "Owen",
+					"given": "Richard"
+				}
+			],
+			"container": "The Zoology of the Voyage of H.M.S. Beagle",
+			"editors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"volume": "Part 1, no. 1",
+			"place": "London",
+			"publisher": "Smith, Elder and Co.",
+			"published": "1838",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=F8.1&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Darwin's Conversion: The Beagle Voyage and Its Aftermath",
+			"authors": [
+				{
+					"family": "Sulloway",
+					"given": "Frank J."
+				}
+			],
+			"container": "Journal of the History of Biology",
+			"volume": "15",
+			"issue": "3",
+			"pages": "325–396",
+			"published": "1982",
+			"doi": "10.1007/bf00133143",
+			"accessed": "2026-10-06",
+			"citedIn": "The Fossil Mammals Collected by Charles Darwin in South America during His Travels on Board the HMS Beagle"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Megatherium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Megatherium&oldid=1374810096",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Toxodon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Toxodon&oldid=1378615698",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Macrauchenia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Macrauchenia&oldid=1378696989",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Glyptodont",
+			"url": "https://en.wikipedia.org/w/index.php?title=Glyptodont&oldid=1378608563",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hunterian Museum, London",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hunterian_Museum,_London&oldid=1363279663",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Three-toed sloth",
+			"url": "https://en.wikipedia.org/w/index.php?title=Three-toed_sloth&oldid=1354828628",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-18"
+		},
+		{
+			"kind": "media",
+			"title": "Descripción del esqueleto de un quadrúpedo muy corpulento y raro que se conserva en el Real Gabinete de Historia Natural de Madrid",
+			"url": "https://commons.wikimedia.org/wiki/File:Descripcion_del_esqueleto_de_un_quadr%C3%BApedo_muy_corpulento_y_raro_que_se_conserva_en_el_Real_Gabinete_de_Historia_natural_de_Madrid.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "madrid.jpg",
+			"authors": [
+				{
+					"family": "Bru",
+					"given": "Juan Bautista"
+				}
+			],
+			"engravers": [
+				{
+					"family": "Navarro",
+					"given": "Manuel"
+				}
+			],
+			"container": "José Garriga, Descripción del esqueleto (Madrid, 1796); Biblioteca Nacional de España",
+			"published": "1796"
+		},
+		{
+			"kind": "media",
+			"title": "Top View of the Skull of the Toxodon",
+			"url": "https://commons.wikimedia.org/wiki/File:Toxodon-Schaedel.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "toxodon.jpg",
+			"authors": [
+				{
+					"family": "Scharf",
+					"given": "George Johann"
+				}
+			],
+			"container": "Richard Owen, Fossil Mammalia, The Zoology of the Voyage of H.M.S. Beagle, part 1 (London, 1838), plate 3",
+			"published": "1838"
+		}
+	]
+}

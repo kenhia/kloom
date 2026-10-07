@@ -1,0 +1,48 @@
+{
+	"biology/fracastoro": [
+		["Verona", "verona"],
+		["Girolamo Fracastoro", "girolamo-fracastoro"],
+		["University of Padua", "university-of-padua"],
+		["syphilis", "syphilis"],
+		["Galen", "galen"],
+		["Titian", "titian"],
+		["fomite", "fomite"],
+		["Vivian Nutton", "vivian-nutton"],
+		["Lucretius", "lucretius"],
+		["Lazzaretto Vecchio", "lazzaretto-vecchio"],
+		["Ragusa", "republic-of-ragusa"],
+		["Council of Trent", "council-of-trent"],
+		["miasma", "miasma-theory"]
+	],
+	"biology/snow-pump": [
+		["Cholera", "cholera"],
+		["miasma", "miasma-theory"],
+		["John Snow", "john-snow"],
+		["Queen Victoria", "queen-victoria"],
+		["chloroform", "chloroform"],
+		["Soho", "soho"],
+		["General Register Office", "general-register-office-for-england-and-wales"],
+		["John Gould", "john-gould"],
+		["Lambeth Company", "lambeth-waterworks-company"],
+		["Southwark and Vauxhall Company", "southwark-and-vauxhall-waterworks-company"],
+		["William Farr", "william-farr"],
+		["Henry Whitehead", "henry-whitehead-priest"]
+	],
+	"biology/koch-postulates": [
+		["Robert Koch", "robert-koch"],
+		["Wollstein", "wolsztyn"],
+		["anthrax", "anthrax"],
+		["_Bacillus anthracis_", "bacillus-anthracis"],
+		["Fanny Hesse", "fanny-hesse"],
+		["agar", "agar"],
+		["tuberculosis", "tuberculosis"],
+		["methylene blue", "methylene-blue"],
+		["Paul Ehrlich", "paul-ehrlich"],
+		["_Mycobacterium tuberculosis_", "mycobacterium-tuberculosis"],
+		["Koch's postulates", "kochs-postulates"],
+		["Friedrich Loeffler", "friedrich-loeffler"],
+		["viruses", "virus"],
+		["Tuberculin", "tuberculin"],
+		["Rudolf Virchow", "rudolf-virchow"]
+	]
+}

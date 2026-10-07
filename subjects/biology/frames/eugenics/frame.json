@@ -1,0 +1,390 @@
+{
+	"id": "eugenics",
+	"topic": "Eugenics and forced sterilization",
+	"position": {
+		"label": "1927",
+		"sort": 1927
+	},
+	"scene": {
+		"headline": "Thirty-two states forcibly",
+		"accent": "STERILIZED.",
+		"palette": "garden",
+		"illustration": "scene.svg",
+		"metadata": [
+			"COLD SPRING HARBOR · LYNCHBURG, VIRGINIA",
+			"BUCK v. BELL · 274 U.S. 200 · MAY 2, 1927"
+		],
+		"counter": {
+			"value": "65,370",
+			"label": "people sterilized under US state laws"
+		}
+	},
+	"citations": [
+		{
+			"kind": "case",
+			"key": true,
+			"title": "Buck v. Bell",
+			"reporter": {
+				"volume": "274",
+				"name": "U.S.",
+				"page": "200"
+			},
+			"published": "1927-05-02",
+			"url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep274/usrep274200/usrep274200.pdf",
+			"container": "United States Reports",
+			"publisher": "Library of Congress",
+			"accessed": "2026-10-06",
+			"note": "Holmes's opinion is on pp. 205–208"
+		},
+		{
+			"kind": "encyclopedia",
+			"key": true,
+			"title": "Buck v. Bell (1927)",
+			"authors": [
+				{
+					"family": "Wolfe",
+					"given": "Brendan"
+				}
+			],
+			"container": "Encyclopedia Virginia",
+			"publisher": "Virginia Humanities",
+			"published": "2021-02-12",
+			"url": "https://encyclopediavirginia.org/entries/buck-v-bell-1927/",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "Three Generations, No Imbeciles: Eugenics, the Supreme Court, and Buck v. Bell",
+			"authors": [
+				{
+					"family": "Lombardo",
+					"given": "Paul A."
+				}
+			],
+			"place": "Baltimore",
+			"publisher": "Johns Hopkins University Press",
+			"published": "2008",
+			"citedIn": "Buck v. Bell (1927)"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Republicans, Democrats, & Doctors: The Lawmakers Who Wrote Sterilization Laws",
+			"authors": [
+				{
+					"family": "Lombardo",
+					"given": "Paul A."
+				}
+			],
+			"container": "Journal of Law, Medicine & Ethics",
+			"volume": "51",
+			"issue": "1",
+			"pages": "123–130",
+			"published": "2023",
+			"doi": "10.1017/jme.2023.47",
+			"accessed": "2026-10-06",
+			"note": "Table I counts each state's law, its sponsors and those sterilized"
+		},
+		{
+			"kind": "article",
+			"title": "California's Sterilization Survivors: An Estimate and Call for Redress",
+			"authors": [
+				{
+					"family": "Stern",
+					"given": "Alexandra Minna"
+				},
+				{
+					"family": "Novak",
+					"given": "Nicole L."
+				},
+				{
+					"family": "Lira",
+					"given": "Natalie"
+				},
+				{
+					"family": "O'Connor",
+					"given": "Kate"
+				},
+				{
+					"family": "Harlow",
+					"given": "Siobán"
+				},
+				{
+					"family": "Kardia",
+					"given": "Sharon"
+				}
+			],
+			"container": "American Journal of Public Health",
+			"volume": "107",
+			"issue": "1",
+			"pages": "50–54",
+			"published": "2017-01",
+			"doi": "10.2105/AJPH.2016.303489",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "Inquiries into Human Faculty and Its Development",
+			"authors": [
+				{
+					"family": "Galton",
+					"given": "Francis"
+				}
+			],
+			"edition": "2nd ed.",
+			"published": "1907",
+			"url": "https://www.gutenberg.org/ebooks/11562",
+			"accessed": "2026-10-06",
+			"note": "First published in 1883; the word eugenics is coined in a note on p. 24 of that edition"
+		},
+		{
+			"kind": "article",
+			"title": "Human Genetics in Troubled Times and Places",
+			"authors": [
+				{
+					"family": "Harper",
+					"given": "Peter S."
+				}
+			],
+			"container": "Hereditas",
+			"volume": "155",
+			"pages": "7",
+			"published": "2017-08-03",
+			"doi": "10.1186/s41065-017-0042-4",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "The Outstanding Scientist, R.A. Fisher: His Views on Eugenics and Race",
+			"authors": [
+				{
+					"family": "Bodmer",
+					"given": "Walter"
+				},
+				{
+					"family": "Bailey",
+					"given": "R. A."
+				},
+				{
+					"family": "Charlesworth",
+					"given": "Brian"
+				},
+				{
+					"family": "Eyre-Walker",
+					"given": "Adam"
+				},
+				{
+					"family": "Farewell",
+					"given": "Vernon"
+				},
+				{
+					"family": "Mead",
+					"given": "Andrew"
+				},
+				{
+					"family": "Senn",
+					"given": "Stephen"
+				}
+			],
+			"container": "Heredity",
+			"volume": "126",
+			"issue": "4",
+			"pages": "565–576",
+			"published": "2021-01-15",
+			"doi": "10.1038/s41437-020-00394-6",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Social Biology and Population Improvement",
+			"authors": [
+				{
+					"family": "Crew",
+					"given": "F. A. E."
+				},
+				{
+					"family": "Darlington",
+					"given": "C. D."
+				},
+				{
+					"family": "Haldane",
+					"given": "J. B. S."
+				},
+				{
+					"family": "Harland",
+					"given": "C."
+				},
+				{
+					"family": "Hogben",
+					"given": "L. T."
+				},
+				{
+					"family": "Huxley",
+					"given": "J. S."
+				},
+				{
+					"family": "Muller",
+					"given": "H. J."
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "144",
+			"issue": "3646",
+			"pages": "521–522",
+			"published": "1939-09-16",
+			"doi": "10.1038/144521a0",
+			"read": "first-page",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Buck v. Bell",
+			"url": "https://en.wikipedia.org/w/index.php?title=Buck_v._Bell&oldid=1362419701",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-03",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carrie Buck",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carrie_Buck&oldid=1369466054",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Harry H. Laughlin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Harry_H._Laughlin&oldid=1365846865",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Eugenics Record Office",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eugenics_Record_Office&oldid=1358723104",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Law for the Prevention of Hereditarily Diseased Offspring",
+			"url": "https://en.wikipedia.org/w/index.php?title=Law_for_the_Prevention_of_Hereditarily_Diseased_Offspring&oldid=1336495728",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Immigration Act of 1924",
+			"url": "https://en.wikipedia.org/w/index.php?title=Immigration_Act_of_1924&oldid=1376466352",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Eugenics manifesto",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eugenics_manifesto&oldid=1371945106",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Eugenics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eugenics&oldid=1378653668",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "media",
+			"title": "Buck v. Bell, 274 U.S. 200, page 207",
+			"url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep274/usrep274200/usrep274200.pdf",
+			"container": "United States Reports, vol. 274, Library of Congress",
+			"published": "1927",
+			"licence": "Public domain",
+			"note": "A work of the United States government",
+			"file": "opinion.jpg",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "media",
+			"title": "People sterilized under the eugenic sterilization laws of the United States, by state",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Paul A. Lombardo, \"Republicans, Democrats, & Doctors: The Lawmakers Who Wrote Sterilization Laws,\" Journal of Law, Medicine & Ethics 51 (2023), Table I",
+			"doi": "10.1017/jme.2023.47",
+			"accessed": "2026-10-06",
+			"licence": "MIT",
+			"file": "sterilized-by-state.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/holocaust",
+			"why": "Nazi Germany's compulsory sterilization law of 1933 came before Aktion T4, the murder of disabled patients from 1939, whose staff went on to the killing centers in occupied Poland."
+		},
+		{
+			"to": "mathematics/normal-distribution",
+			"why": "Francis Galton, who built the quincunx to show the normal law of error, put that law to the service of eugenics, the word he coined in 1883."
+		}
+	]
+}

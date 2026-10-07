@@ -1,0 +1,48 @@
+{
+	"biology/humboldt": [
+		["Alexander von Humboldt", "alexander-von-humboldt"],
+		["Aimé Bonpland", "aime-bonpland"],
+		["Carlos de Montúfar", "carlos-de-montufar"],
+		["Chimborazo", "chimborazo"],
+		["Antisana", "antisana"],
+		["_Kosmos_", "cosmos-humboldt-book"],
+		["Charles Darwin", "charles-darwin"],
+		["Henry David Thoreau", "henry-david-thoreau"],
+		["John Muir", "john-muir"],
+		["José Celestino Mutis", "jose-celestino-mutis"],
+		["Francisco José de Caldas", "francisco-jose-de-caldas"],
+		["guano", "guano"]
+	],
+	"biology/haeckel-ecology": [
+		["Ernst Haeckel", "ernst-haeckel"],
+		["radiolaria", "radiolaria"],
+		["Darwin", "charles-darwin"],
+		["_Origin of Species_", "on-the-origin-of-species"],
+		["Robert J. Richards", "robert-j-richards"],
+		["University of Jena", "university-of-jena"],
+		["ecology", "ecology"],
+		["Ludwig Rütimeyer", "ludwig-ruetimeyer"],
+		["Wilhelm His", "wilhelm-his-sr"],
+		["recapitulation theory", "recapitulation-theory"],
+		["Challenger expedition", "challenger-expedition"],
+		["_Kunstformen der Natur_", "kunstformen-der-natur"],
+		["Daniel Gasman", "daniel-gasman"]
+	],
+	"biology/predator-prey": [
+		["Adriatic", "adriatic-sea"],
+		["Umberto D'Ancona", "umberto-dancona"],
+		["Rijeka", "rijeka"],
+		["Vito Volterra", "vito-volterra"],
+		["Thomas Robert Malthus", "thomas-robert-malthus"],
+		["Alfred J. Lotka", "alfred-j-lotka"],
+		["Ronald Ross", "ronald-ross"],
+		["Lotka–Volterra equations", "lotka-volterra-equations"],
+		["Hudson's Bay Company", "hudsons-bay-company"],
+		["Charles Elton", "charles-sutherland-elton"],
+		["Canada lynx", "canada-lynx"],
+		["snowshoe hare", "snowshoe-hare"],
+		["Georgy Gause", "georgy-gause"],
+		["_Paramecium_", "paramecium"],
+		["competitive exclusion principle", "competitive-exclusion-principle"]
+	]
+}

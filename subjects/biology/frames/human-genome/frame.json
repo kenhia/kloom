@@ -1,0 +1,366 @@
+{
+	"id": "human-genome",
+	"topic": "The Human Genome Project",
+	"position": {
+		"label": "1990–2003",
+		"sort": 2001
+	},
+	"scene": {
+		"headline": "We read",
+		"accent": "OURSELVES.",
+		"palette": "gel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NIH · DEPARTMENT OF ENERGY · WELLCOME TRUST · CELERA",
+			"NATURE · SCIENCE · FEBRUARY 2001"
+		],
+		"counter": {
+			"value": "20,000",
+			"label": "protein-coding genes, about; up to 140,000 were expected"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Initial Sequencing and Analysis of the Human Genome",
+			"authors": [
+				{
+					"name": "International Human Genome Sequencing Consortium"
+				}
+			],
+			"container": "Nature",
+			"volume": "409",
+			"issue": "6822",
+			"pages": "860–921",
+			"published": "2001-02-15",
+			"doi": "10.1038/35057062",
+			"accessed": "2026-10-06",
+			"key": true,
+			"note": "The hierarchical shotgun strategy and the reasons for it are on pp. 863–864"
+		},
+		{
+			"kind": "article",
+			"title": "The Sequence of the Human Genome",
+			"authors": [
+				{
+					"family": "Venter",
+					"given": "J. Craig"
+				},
+				{
+					"family": "Adams",
+					"given": "Mark D."
+				},
+				{
+					"family": "Myers",
+					"given": "Eugene W."
+				}
+			],
+			"container": "Science",
+			"volume": "291",
+			"issue": "5507",
+			"pages": "1304–1351",
+			"published": "2001-02-16",
+			"doi": "10.1126/science.1058040",
+			"accessed": "2026-10-06",
+			"etAl": true,
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Finishing the Euchromatic Sequence of the Human Genome",
+			"authors": [
+				{
+					"name": "International Human Genome Sequencing Consortium"
+				}
+			],
+			"container": "Nature",
+			"volume": "431",
+			"issue": "7011",
+			"pages": "931–945",
+			"published": "2004-10-21",
+			"doi": "10.1038/nature03001",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The Complete Sequence of a Human Genome",
+			"authors": [
+				{
+					"family": "Nurk",
+					"given": "Sergey"
+				},
+				{
+					"family": "Koren",
+					"given": "Sergey"
+				},
+				{
+					"family": "Rhie",
+					"given": "Arang"
+				}
+			],
+			"container": "Science",
+			"volume": "376",
+			"issue": "6588",
+			"pages": "44–53",
+			"published": "2022-04-01",
+			"doi": "10.1126/science.abj6987",
+			"accessed": "2026-10-06",
+			"etAl": true,
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "On the Sequencing of the Human Genome",
+			"authors": [
+				{
+					"family": "Waterston",
+					"given": "Robert H."
+				},
+				{
+					"family": "Lander",
+					"given": "Eric S."
+				},
+				{
+					"family": "Sulston",
+					"given": "John E."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences of the United States of America",
+			"volume": "99",
+			"issue": "6",
+			"pages": "3712–3716",
+			"published": "2002-03",
+			"doi": "10.1073/pnas.042692499",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "On the Sequencing and Assembly of the Human Genome",
+			"authors": [
+				{
+					"family": "Myers",
+					"given": "Eugene W."
+				},
+				{
+					"family": "Sutton",
+					"given": "Granger G."
+				},
+				{
+					"family": "Smith",
+					"given": "Hamilton O."
+				},
+				{
+					"family": "Adams",
+					"given": "Mark D."
+				},
+				{
+					"family": "Venter",
+					"given": "J. Craig"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences of the United States of America",
+			"volume": "99",
+			"issue": "7",
+			"pages": "4145–4146",
+			"published": "2002-03",
+			"doi": "10.1073/pnas.092136699",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "Remarks Made by the President, Prime Minister Tony Blair of England (via Satellite), Dr. Francis Collins, and Dr. Craig Venter on the Completion of the First Survey of the Entire Human Genome Project",
+			"authors": [
+				{
+					"name": "The White House, Office of the Press Secretary"
+				}
+			],
+			"container": "National Human Genome Research Institute",
+			"published": "2000-06-26",
+			"url": "https://www.genome.gov/10001356/june-2000-white-house-event",
+			"accessed": "2026-10-06",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"title": "Human Genome Project Fact Sheet",
+			"authors": [
+				{
+					"name": "National Human Genome Research Institute"
+				}
+			],
+			"container": "genome.gov",
+			"url": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genome-project",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "The Cost of Sequencing a Human Genome",
+			"authors": [
+				{
+					"name": "National Human Genome Research Institute"
+				}
+			],
+			"container": "genome.gov",
+			"url": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "DNA Sequencing Costs: Data",
+			"authors": [
+				{
+					"name": "National Human Genome Research Institute"
+				}
+			],
+			"container": "genome.gov",
+			"url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data",
+			"accessed": "2026-10-06",
+			"key": true,
+			"note": "Cost per genome to May 2022, and the comparison with Moore’s law"
+		},
+		{
+			"kind": "media",
+			"title": "Cost of sequencing a human genome, 2001–2022",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Chart drawn for kloom from the National Human Genome Research Institute, DNA Sequencing Costs: Data (data to May 2022)",
+			"url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data",
+			"accessed": "2026-10-06",
+			"licence": "MIT",
+			"file": "cost-per-genome.svg"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Human Genome Project",
+			"url": "https://en.wikipedia.org/w/index.php?title=Human_Genome_Project&oldid=1376331013",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Celera Corporation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Celera_Corporation&oldid=1353537902",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "J. Craig Venter",
+			"url": "https://en.wikipedia.org/w/index.php?title=J._Craig_Venter&oldid=1377163657",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Francis Collins",
+			"url": "https://en.wikipedia.org/w/index.php?title=Francis_Collins&oldid=1369596529",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert L. Sinsheimer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_L._Sinsheimer&oldid=1352359732",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Shotgun sequencing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Shotgun_sequencing&oldid=1355136834",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bacterial artificial chromosome",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bacterial_artificial_chromosome&oldid=1301710739",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-07-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bermuda Principles",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bermuda_Principles&oldid=1189262067",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2023-12-10"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/dna",
+			"why": "Half a century after Watson and Crick’s letter on the double helix, the Human Genome Project read out the three billion letters of human DNA."
+		},
+		{
+			"to": "computing/moores-law",
+			"why": "The National Human Genome Research Institute measures the falling cost of sequencing a genome against Moore’s law, which it kept pace with until 2008 and then far outran."
+		},
+		{
+			"to": "biology/neanderthal-genome",
+			"why": "The machines that from 2008 read millions of short fragments at once read the Neanderthal draft of 2010, every fragment whole, each mapped to the human and chimpanzee genomes."
+		}
+	]
+}

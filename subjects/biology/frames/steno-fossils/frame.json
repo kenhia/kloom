@@ -1,0 +1,201 @@
+{
+	"id": "steno-fossils",
+	"topic": "Steno and the tongue stones",
+	"position": {
+		"label": "1667–69",
+		"sort": 1667
+	},
+	"scene": {
+		"headline": "The tongue stones were",
+		"accent": "TEETH.",
+		"palette": "strata",
+		"illustration": "scene.svg",
+		"metadata": ["FLORENCE · NICOLAS STENO", "THE SHARK'S HEAD, 1667 · THE PRODROMUS, 1669"],
+		"counter": {
+			"value": "600",
+			"label": "teeth and more to a shark, by Steno's count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Prodromus of Nicolaus Steno's Dissertation Concerning a Solid Body Enclosed by Process of Nature within a Solid",
+			"authors": [
+				{
+					"family": "Steno",
+					"given": "Nicolaus"
+				}
+			],
+			"translators": [
+				{
+					"family": "Winter",
+					"given": "John Garrett"
+				}
+			],
+			"place": "New York",
+			"publisher": "Macmillan",
+			"published": "1916",
+			"url": "https://archive.org/details/cu31924012131458",
+			"accessed": "2026-10-06",
+			"note": "Winter's introduction gives Steno's life and the 1671 English edition; his notes translate the shark treatise of 1667"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Nicolaus Steno on Solutes and Solvents in Time-Related Structural Changes of Muscles, Fossils, Landscapes and Crystals, His Galilean Heritage",
+			"authors": [
+				{
+					"family": "Kardel",
+					"given": "Troels"
+				}
+			],
+			"container": "Substantia",
+			"volume": "5",
+			"issue": "1 Suppl.",
+			"pages": "43–57",
+			"published": "2021-06-18",
+			"doi": "10.36253/substantia-1277",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nicolas Steno",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nicolas_Steno&oldid=1371926296",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29",
+			"key": true
+		},
+		{
+			"kind": "book",
+			"title": "Micrographia",
+			"authors": [
+				{
+					"family": "Hooke",
+					"given": "Robert"
+				}
+			],
+			"place": "London",
+			"publisher": "John Martyn and James Allestry",
+			"published": "1665",
+			"url": "https://www.gutenberg.org/ebooks/15491",
+			"accessed": "2026-10-06",
+			"note": "Observation XVII, of petrified wood and other petrified bodies"
+		},
+		{
+			"kind": "article",
+			"title": "A Comparison of the Geological Contributions of Nicolaus Steno and Robert Hooke",
+			"authors": [
+				{
+					"family": "Drake",
+					"given": "Ellen T."
+				},
+				{
+					"family": "Komar",
+					"given": "Paul D."
+				}
+			],
+			"container": "Journal of Geological Education",
+			"volume": "29",
+			"issue": "3",
+			"pages": "127–134",
+			"published": "1981-05",
+			"doi": "10.5408/0022-1368-29.3.127",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "chapter",
+			"title": "Hooke–Steno Relations Reconsidered: Reassessing the Roles of Ole Borch and Robert Boyle",
+			"authors": [
+				{
+					"family": "Yamada",
+					"given": "Toshihiro"
+				}
+			],
+			"container": "The Revolution in Geology from the Renaissance to the Enlightenment",
+			"editors": [
+				{
+					"family": "Rosenberg",
+					"given": "Gary D."
+				}
+			],
+			"pages": "107–126",
+			"place": "Boulder, CO",
+			"publisher": "Geological Society of America",
+			"published": "2009",
+			"doi": "10.1130/978-0-8137-1203-1-203.0.107",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Megalodon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Megalodon&oldid=1378706151",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of paleontology",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_paleontology&oldid=1378547849",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Law of superposition",
+			"url": "https://en.wikipedia.org/w/index.php?title=Law_of_superposition&oldid=1377409560",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "media",
+			"title": "The head of a white shark and two of its teeth, from Steno's Elementorum myologiae specimen (Florence, 1667)",
+			"url": "https://commons.wikimedia.org/wiki/File:Steno_Lamiae_Piscis.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "shark.jpg",
+			"published": "1667",
+			"container": "Wikimedia Commons, from a copy of the first edition sold at Bonhams"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/royal-society",
+			"why": "Henry Oldenburg, who founded the Philosophical Transactions as the Royal Society's secretary, put Steno's Prodromus into English in 1671."
+		},
+		{
+			"to": "biology/hooke-cells",
+			"why": "Micrographia, in 1665, already argued from petrified wood that fossil shells owed their shapes to shellfish, and historians still weigh whether Hooke went further than Steno or both drew on Boyle."
+		}
+	]
+}

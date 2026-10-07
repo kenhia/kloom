@@ -1,0 +1,51 @@
+{
+	"title": "Share of Pasteur's 1860 flasks of boiled yeast water that grew microbes after being opened in each place",
+	"description": "Bar chart, percent of flasks spoiled, by our arithmetic from Pasteur's counts. Paris Observatory courtyard, 11 of 11 (100 percent); its cellars, 1 of 10 (10); countryside at the foot of the Jura, 8 of 20 (40); a mountain of the Jura at 850 meters, 5 of 20 (25); the Montanvert by the Mer de Glace at 2,000 meters, 1 of 20 (5). Data: Pasteur, Annales de chimie et de physique, 1862.",
+	"heading": "FLASKS SPOILED AFTER OPENING · 1860 · %",
+	"unit": "%",
+	"axis": {
+		"max": 120,
+		"ticks": [
+			[0, "0"],
+			[25, "25"],
+			[50, "50"],
+			[75, "75"],
+			[100, "100"]
+		]
+	},
+	"bars": [
+		{
+			"label": "Courtyard",
+			"sublabel": "11 of 11",
+			"value": 100
+		},
+		{
+			"label": "Cellars",
+			"sublabel": "1 of 10",
+			"value": 10
+		},
+		{
+			"label": "Foothills",
+			"sublabel": "8 of 20",
+			"value": 40
+		},
+		{
+			"label": "Jura 850 m",
+			"sublabel": "5 of 20",
+			"value": 25
+		},
+		{
+			"label": "Alps 2000 m",
+			"sublabel": "1 of 20",
+			"value": 5,
+			"highlight": true
+		}
+	],
+	"barWidth": 52,
+	"width": 480,
+	"source": {
+		"container": "Louis Pasteur, \"Mémoire sur les corpuscules organisés qui existent dans l'atmosphère,\" Annales de chimie et de physique, 3rd series, vol. 64 (1862), pp. 83–86",
+		"url": "https://archive.org/details/s696id13664800/page/n89",
+		"accessed": "2026-10-06"
+	}
+}

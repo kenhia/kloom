@@ -1,0 +1,268 @@
+{
+	"id": "meselson-stahl",
+	"topic": "The Meselson–Stahl experiment",
+	"position": {
+		"label": "1957–58",
+		"sort": 1958
+	},
+	"scene": {
+		"headline": "DNA was copied by",
+		"accent": "HALVES.",
+		"palette": "helix",
+		"illustration": "scene.svg",
+		"metadata": ["CALTECH · ESCHERICHIA COLI · NITROGEN-15", "MESELSON · STAHL · PNAS, JULY 1958"],
+		"counter": {
+			"value": "0.014",
+			"label": "g/cm³ between heavy and light DNA"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Replication of DNA in Escherichia coli",
+			"authors": [
+				{
+					"family": "Meselson",
+					"given": "Matthew"
+				},
+				{
+					"family": "Stahl",
+					"given": "Franklin W."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "44",
+			"issue": "7",
+			"pages": "671–682",
+			"published": "1958-07",
+			"doi": "10.1073/pnas.44.7.671",
+			"accessed": "2026-10-06",
+			"note": "The method, Fig. 4's bands and the heat test"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Biologic Synthesis of Deoxyribonucleic Acid",
+			"authors": [
+				{
+					"family": "Kornberg",
+					"given": "Arthur"
+				}
+			],
+			"container": "Nobel Lecture, December 11, 1959",
+			"publisher": "NobelPrize.org",
+			"published": "1959-12-11",
+			"url": "https://www.nobelprize.org/uploads/2018/06/kornberg-lecture.pdf",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "Meselson, Stahl, and the Replication of DNA: A History of \"The Most Beautiful Experiment in Biology\"",
+			"authors": [
+				{
+					"family": "Holmes",
+					"given": "Frederic Lawrence"
+				}
+			],
+			"place": "New Haven",
+			"publisher": "Yale University Press",
+			"published": "2001",
+			"doi": "10.12987/yale/9780300085402.001.0001",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "AIBSnews",
+			"authors": [
+				{
+					"family": "Royston",
+					"given": "Donna"
+				}
+			],
+			"container": "BioScience",
+			"volume": "53",
+			"issue": "8",
+			"pages": "780",
+			"published": "2003-08",
+			"doi": "10.1641/0006-3568(2003)053[0780:a]2.0.co;2",
+			"accessed": "2026-10-06",
+			"read": "excerpt",
+			"note": "On Cairns's phrase and Judson's report of it; read in OpenAlex's text of the piece"
+		},
+		{
+			"kind": "article",
+			"title": "Genetical Implications of the Structure of Deoxyribonucleic Acid",
+			"authors": [
+				{
+					"family": "Watson",
+					"given": "J. D."
+				},
+				{
+					"family": "Crick",
+					"given": "F. H. C."
+				}
+			],
+			"container": "Nature",
+			"volume": "171",
+			"issue": "4361",
+			"pages": "964–967",
+			"published": "1953-05",
+			"doi": "10.1038/171964b0",
+			"accessed": "2026-10-06",
+			"read": "record"
+		},
+		{
+			"kind": "article",
+			"title": "On the Replication of Desoxyribonucleic Acid (DNA)",
+			"authors": [
+				{
+					"family": "Delbrück",
+					"given": "M."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "40",
+			"issue": "9",
+			"pages": "783–788",
+			"published": "1954",
+			"citedIn": "The Replication of DNA in Escherichia coli"
+		},
+		{
+			"kind": "article",
+			"title": "Equilibrium Sedimentation of Macromolecules in Density Gradients",
+			"authors": [
+				{
+					"family": "Meselson",
+					"given": "M."
+				},
+				{
+					"family": "Stahl",
+					"given": "F. W."
+				},
+				{
+					"family": "Vinograd",
+					"given": "J."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "43",
+			"pages": "581–588",
+			"published": "1957",
+			"citedIn": "The Replication of DNA in Escherichia coli"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Meselson–Stahl experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Meselson%E2%80%93Stahl_experiment&oldid=1365289226",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Matthew Meselson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Matthew_Meselson&oldid=1374479488",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Franklin Stahl",
+			"url": "https://en.wikipedia.org/w/index.php?title=Franklin_Stahl&oldid=1371995081",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Arthur Kornberg",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arthur_Kornberg&oldid=1371973363",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Semiconservative replication",
+			"url": "https://en.wikipedia.org/w/index.php?title=Semiconservative_replication&oldid=1376800475",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "media",
+			"title": "Beckman Model E Ultracentrifuge Rotor",
+			"url": "https://digital.sciencehistory.org/works/9wju96o",
+			"accessed": "2026-10-06",
+			"licence": "CC BY 4.0",
+			"file": "rotor.jpg",
+			"authors": [
+				{
+					"name": "Science History Institute"
+				}
+			],
+			"container": "Science History Institute, Philadelphia; also on Wikimedia Commons",
+			"published": "2021"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/dna",
+			"why": "Watson and Crick's pairing suggested that each strand of the double helix is the template for a new partner; Meselson and Stahl's heavy-nitrogen bands showed in 1958 that every copy does keep one old strand."
+		},
+		{
+			"to": "physics/nucleus",
+			"why": "The experiment rests on what the neutron explained: nitrogen-15 carries one more neutron than nitrogen-14, behaves the same in the cell's chemistry, and so marks DNA by weight alone."
+		},
+		{
+			"to": "chemistry/pcr",
+			"why": "PCR copies DNA by the scheme Meselson and Stahl demonstrated: heat parts the two strands and DNA polymerase builds a new partner on each."
+		},
+		{
+			"to": "feynman/caltech",
+			"why": "The experiment was done at Caltech, where Feynman sat on Meselson's dissertation committee, the kind of conversation across biology and physics that drew him there."
+		},
+		{
+			"to": "biology/lac-operon",
+			"why": "In June 1960 Brenner and Jacob used Meselson's ultracentrifuge at Caltech to show that a phage's new RNA ran on the cell's old ribosomes, part of the finding of messenger RNA."
+		},
+		{
+			"to": "biology/genetic-code",
+			"why": "Meselson heard Nirenberg read the poly-U result to about two dozen people in Moscow in August 1961 and fetched Crick, who gave Nirenberg the stage of his symposium before an audience of about a thousand."
+		}
+	]
+}

@@ -1,0 +1,211 @@
+{
+	"id": "fracastoro",
+	"topic": "Fracastoro's seeds of contagion",
+	"position": {
+		"label": "1546",
+		"sort": 1546
+	},
+	"scene": {
+		"headline": "We imagined the seeds of",
+		"accent": "CONTAGION.",
+		"palette": "stain",
+		"illustration": "scene.svg",
+		"metadata": ["VERONA · VENICE", "GIROLAMO FRACASTORO · DE CONTAGIONE"],
+		"counter": {
+			"value": "3",
+			"label": "ways a contagion travels"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/black-death",
+			"why": "The quarantines of Ragusa and Venice, which the Black Death frame ends on, were already the practice when Fracastoro explained contagion by seeds carried on clothes and through the air."
+		},
+		{
+			"to": "biology/snow-pump",
+			"why": "Fracastoro's seeds of contagion stayed a hypothesis for three centuries, while physicians blamed miasma; the next contagion traced was cholera, followed by counting rather than seeing to the Broad Street pump in 1854."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "De sympathia et antipathia rerum liber unus; De contagione et contagiosis morbis et curatione libri III",
+			"authors": [
+				{
+					"family": "Fracastoro",
+					"given": "Girolamo"
+				}
+			],
+			"place": "Venice",
+			"publisher": "Heirs of Lucantonio Giunta",
+			"published": "1546",
+			"language": "la",
+			"url": "https://archive.org/details/bub_gb_B580FxRJwQUC",
+			"accessed": "2026-10-06",
+			"note": "Book I, chapters 1–2 (fol. 29), and the chapters on fomites and on consumption, quoted in our translation"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Seeds of Disease: An Explanation of Contagion and Infection from the Greeks to the Renaissance",
+			"authors": [
+				{
+					"family": "Nutton",
+					"given": "Vivian"
+				}
+			],
+			"container": "Medical History",
+			"volume": "27",
+			"issue": "1",
+			"pages": "1–34",
+			"published": "1983-01",
+			"doi": "10.1017/s0025727300042241",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "The Scientific Position of Girolamo Fracastoro [1478?–1553] with Especial Reference to the Source, Character and Influence of His Theory of Infection",
+			"authors": [
+				{
+					"family": "Singer",
+					"given": "Charles"
+				},
+				{
+					"family": "Singer",
+					"given": "Dorothea"
+				}
+			],
+			"container": "Annals of Medical History",
+			"volume": "1",
+			"issue": "1",
+			"pages": "1–34",
+			"published": "1917",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7927678/",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "Contagion, Contagious Diseases and Their Treatment",
+			"authors": [
+				{
+					"family": "Fracastoro",
+					"given": "Girolamo"
+				}
+			],
+			"translators": [
+				{
+					"family": "Wright",
+					"given": "Wilmer Cave"
+				}
+			],
+			"place": "New York",
+			"publisher": "G. P. Putnam's Sons",
+			"published": "1930",
+			"citedIn": "Fomite"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Girolamo Fracastoro",
+			"url": "https://en.wikipedia.org/w/index.php?title=Girolamo_Fracastoro&oldid=1360678484",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fomite",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fomite&oldid=1344836001",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Syphilis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Syphilis&oldid=1377189574",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Council of Trent",
+			"url": "https://en.wikipedia.org/w/index.php?title=Council_of_Trent&oldid=1366881838",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lazzaretto Vecchio",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lazzaretto_Vecchio&oldid=1364044142",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-14"
+		},
+		{
+			"kind": "media",
+			"title": "De prima contagionum differentia, book I, chapter 2",
+			"url": "https://archive.org/details/bub_gb_B580FxRJwQUC/page/n66",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "page.jpg",
+			"authors": [
+				{
+					"family": "Fracastoro",
+					"given": "Girolamo"
+				}
+			],
+			"container": "Girolamo Fracastoro, De contagione (Venice: Heirs of Lucantonio Giunta, 1546), fol. 29; Internet Archive scan",
+			"published": "1546"
+		},
+		{
+			"kind": "media",
+			"title": "Portrait of a Man (Girolamo Fracastoro?)",
+			"url": "https://commons.wikimedia.org/wiki/File:Titian_Girolamo_Fracastoro.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "titian.jpg",
+			"authors": [
+				{
+					"name": "Attributed to Titian"
+				}
+			],
+			"container": "National Gallery, London",
+			"published": "1528",
+			"circa": true
+		}
+	]
+}

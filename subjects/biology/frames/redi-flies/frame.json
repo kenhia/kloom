@@ -1,0 +1,196 @@
+{
+	"id": "redi-flies",
+	"topic": "Redi's flies and spontaneous generation",
+	"position": {
+		"label": "1668",
+		"sort": 1668
+	},
+	"scene": {
+		"headline": "Maggots came from",
+		"accent": "FLIES.",
+		"palette": "stain",
+		"illustration": "scene.svg",
+		"metadata": ["FLORENCE · FRANCESCO REDI", "ESPERIENZE INTORNO ALLA GENERAZIONE DEGL'INSETTI"],
+		"counter": {
+			"value": "0",
+			"label": "worms in the sealed flasks"
+		}
+	},
+	"connections": [
+		{
+			"to": "biology/aristotle-animals",
+			"why": "Aristotle's History of Animals, that frame's book, taught that flies grow from dung and lice from flesh, and Redi's flasks and his lice answered it."
+		},
+		{
+			"to": "biology/swan-neck-flask",
+			"why": "Redi's flasks settled spontaneous generation for flies but not for creatures too small to see; by 1859 the argument had shrunk to microbes, and Pasteur's swan-neck flask, open to the air, settled it there."
+		},
+		{
+			"to": "biology/leeuwenhoek-animalcules",
+			"why": "Eight years after Redi's flasks, Leeuwenhoek found creatures in a drop of pepper-water too small for any veil to stop, and the argument over spontaneous generation moved to them."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Experiments on the Generation of Insects",
+			"authors": [
+				{
+					"family": "Redi",
+					"given": "Francesco"
+				}
+			],
+			"translators": [
+				{
+					"family": "Bigelow",
+					"given": "Mab"
+				}
+			],
+			"place": "Chicago",
+			"publisher": "Open Court",
+			"published": "1909",
+			"url": "https://archive.org/details/experimentsongen00redi",
+			"accessed": "2026-10-06",
+			"note": "Translated from the Italian edition of 1688; quoted from pp. 27–37, 92–95 and 119–120, and from the translator's introduction"
+		},
+		{
+			"kind": "book",
+			"title": "The History of Animals",
+			"authors": [
+				{
+					"name": "Aristotle"
+				}
+			],
+			"translators": [
+				{
+					"family": "Thompson",
+					"given": "D'Arcy Wentworth"
+				}
+			],
+			"place": "Oxford",
+			"publisher": "Clarendon Press",
+			"published": "1910",
+			"url": "https://en.wikisource.org/wiki/History_of_Animals_(Thompson)/Book_V",
+			"accessed": "2026-10-06",
+			"note": "Quoted from V.1, V.19 and V.31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Francesco Redi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Francesco_Redi&oldid=1370250594",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-20",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Spontaneous generation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Spontaneous_generation&oldid=1377173490",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Antonio Vallisneri",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antonio_Vallisneri&oldid=1378162243",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Athanasius Kircher",
+			"url": "https://en.wikipedia.org/w/index.php?title=Athanasius_Kircher&oldid=1378173458",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ferdinando II de' Medici",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ferdinando_II_de'_Medici&oldid=1376557633",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gall",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gall&oldid=1373923818",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "media",
+			"title": "Esperienze intorno alla generazione degl'insetti, title page",
+			"url": "https://commons.wikimedia.org/wiki/File:Esperienze_intorno_alla_generazione_degl%27insetti_-_Frontespizio.gif",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "title-page.jpg",
+			"authors": [
+				{
+					"family": "Redi",
+					"given": "Francesco"
+				}
+			],
+			"container": "Francesco Redi, Esperienze intorno alla generazione degl'insetti (Florence, 1668)",
+			"published": "1668"
+		},
+		{
+			"kind": "media",
+			"title": "Esperienze intorno alla generazione degl'insetti, plate 2",
+			"url": "https://commons.wikimedia.org/wiki/File:Esperienze_intorno_alla_generazione_degl%27insetti_-_Tavola_-_02.gif",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "lice.jpg",
+			"authors": [
+				{
+					"family": "Redi",
+					"given": "Francesco"
+				}
+			],
+			"container": "Francesco Redi, Esperienze intorno alla generazione degl'insetti (Florence, 1668)",
+			"published": "1668"
+		}
+	]
+}

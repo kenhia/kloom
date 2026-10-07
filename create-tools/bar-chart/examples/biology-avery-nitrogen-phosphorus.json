@@ -1,0 +1,37 @@
+{
+	"title": "Nitrogen-to-phosphorus ratios of the purified transforming substance, Avery, MacLeod and McCarty 1944",
+	"description": "Bar chart of the ratio of nitrogen to phosphorus, by weight, in four purified preparations of the pneumococcal transforming substance, from Table I of Avery, MacLeod and McCarty (1944): preparation 37, 1.66; 38B, 1.75; 42, 1.69; 44, 1.58; against 1.69 calculated for sodium deoxyribonucleate.",
+	"heading": "NITROGEN TO PHOSPHORUS · BY WEIGHT · TABLE I",
+	"unit": "",
+	"width": 480,
+	"height": 300,
+	"barWidth": 56,
+	"axis": {
+		"max": 2,
+		"ticks": [
+			[0, "0"],
+			[0.5, "0.5"],
+			[1, "1.0"],
+			[1.5, "1.5"],
+			[2, "2.0"]
+		]
+	},
+	"bars": [
+		{ "label": "No. 37", "value": 1.66, "display": "1.66" },
+		{ "label": "No. 38B", "value": 1.75, "display": "1.75" },
+		{ "label": "No. 42", "value": 1.69, "display": "1.69" },
+		{ "label": "No. 44", "value": 1.58, "display": "1.58" },
+		{
+			"label": "DNA",
+			"sublabel": "calculated",
+			"value": 1.69,
+			"display": "1.69",
+			"highlight": true
+		}
+	],
+	"source": {
+		"container": "Avery, MacLeod and McCarty, Journal of Experimental Medicine 79 (1944), Table I",
+		"doi": "10.1084/jem.79.2.137",
+		"accessed": "2026-10-06"
+	}
+}

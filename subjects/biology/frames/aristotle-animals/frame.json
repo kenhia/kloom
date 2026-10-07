@@ -1,0 +1,235 @@
+{
+	"id": "aristotle-animals",
+	"topic": "Aristotle's History of Animals",
+	"position": {
+		"label": "c. 345–343 BC",
+		"sort": -345
+	},
+	"scene": {
+		"headline": "We started with the",
+		"accent": "LAGOON.",
+		"palette": "herbarium",
+		"illustration": "scene.svg",
+		"metadata": ["LESBOS · THE LAGOON OF PYRRHA", "ARISTOTLE · HISTORY OF ANIMALS · NINE BOOKS"],
+		"counter": {
+			"value": "500",
+			"label": "kinds of animal named"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The History of Animals",
+			"authors": [
+				{
+					"name": "Aristotle"
+				}
+			],
+			"translators": [
+				{
+					"family": "Thompson",
+					"given": "D'Arcy Wentworth"
+				}
+			],
+			"place": "Oxford",
+			"publisher": "Clarendon Press",
+			"published": "1910",
+			"url": "https://en.wikisource.org/wiki/History_of_Animals_(Thompson)",
+			"accessed": "2026-10-06",
+			"note": "Quoted from I.6, V.12, VI.10 and IX.37"
+		},
+		{
+			"kind": "encyclopedia",
+			"key": true,
+			"title": "Aristotle's Biology",
+			"authors": [
+				{
+					"family": "Lennox",
+					"given": "James"
+				}
+			],
+			"container": "Stanford Encyclopedia of Philosophy",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2026-04-19",
+			"url": "https://plato.stanford.edu/entries/aristotle-biology/",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "History of Animals",
+			"url": "https://en.wikipedia.org/w/index.php?title=History_of_Animals&oldid=1367865418",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aristotle's biology",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aristotle's_biology&oldid=1372255025",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hectocotylus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hectocotylus&oldid=1323973522",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aristotle's catfish",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aristotle's_catfish&oldid=1330515430",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-31"
+		},
+		{
+			"kind": "article",
+			"title": "Phylogenetic Signal in Characters from Aristotle's History of Animals",
+			"authors": [
+				{
+					"family": "Laurin",
+					"given": "Michel"
+				},
+				{
+					"family": "Humar",
+					"given": "Marcel"
+				}
+			],
+			"container": "Comptes Rendus Palevol",
+			"volume": "21",
+			"issue": "1",
+			"pages": "1–16",
+			"published": "2022-01-10",
+			"doi": "10.5852/cr-palevol2022v21a1",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Hold It Close: Male Octopus Hold Their Hectocotylus Closer to Their Body",
+			"authors": [
+				{
+					"family": "Weertman",
+					"given": "Willem Lee"
+				},
+				{
+					"family": "Scheel",
+					"given": "David"
+				}
+			],
+			"container": "Marine Biology",
+			"volume": "171",
+			"issue": "4",
+			"pages": "95",
+			"published": "2024-03-14",
+			"doi": "10.1007/s00227-024-04398-2",
+			"accessed": "2026-10-06",
+			"read": "excerpt",
+			"note": "Its introduction gives the history of the name, from Cuvier (1829) and Kölliker (1846) to Vérany and Vogt (1852)"
+		},
+		{
+			"kind": "article",
+			"title": "Habits of the Glanis of Aristotle",
+			"authors": [
+				{
+					"family": "Agassiz",
+					"given": "Louis"
+				}
+			],
+			"container": "Proceedings of the American Academy of Arts and Sciences",
+			"volume": "3",
+			"pages": "325–333",
+			"published": "1857",
+			"citedIn": "Eschmeyer's Catalog of Fishes: References"
+		},
+		{
+			"kind": "web",
+			"title": "Eschmeyer's Catalog of Fishes: References",
+			"container": "California Academy of Sciences",
+			"url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/getref.asp?id=72",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter to William Ogle",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Ogle",
+					"given": "William"
+				}
+			],
+			"written": "1882-02-22",
+			"container": "Darwin Correspondence Project",
+			"number": "DCP-LETT-13697",
+			"publisher": "University of Cambridge",
+			"url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-13697.xml",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "media",
+			"title": "Dusk in Kalloni gulf, Mytilene, Greece",
+			"url": "https://commons.wikimedia.org/wiki/File:Dusk_in_Kalloni_gulf,_Mytilene,_Greece.jpg",
+			"accessed": "2026-10-06",
+			"licence": "CC BY-SA 4.0",
+			"file": "kalloni.jpg",
+			"authors": [
+				{
+					"name": "RITOS80"
+				}
+			],
+			"published": "2018-01-29",
+			"container": "Wikimedia Commons"
+		},
+		{
+			"kind": "media",
+			"title": "Historia animalium and other works, Constantinople, 12th century (Biblioteca Medicea Laurenziana, Plut. 87.4)",
+			"url": "https://commons.wikimedia.org/wiki/File:Costantinopoli,_aristotele,_historia_animalium_e_altri_scritti,_xii_sec.,_pluteo_87,4.JPG",
+			"accessed": "2026-10-06",
+			"licence": "CC BY 3.0",
+			"file": "ms.jpg",
+			"authors": [
+				{
+					"name": "Sailko"
+				}
+			],
+			"published": "2013",
+			"container": "Biblioteca Medicea Laurenziana, Florence"
+		}
+	]
+}

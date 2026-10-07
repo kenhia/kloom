@@ -1,0 +1,360 @@
+{
+	"id": "mcclintock",
+	"topic": "McClintock's jumping genes",
+	"position": {
+		"label": "1950",
+		"sort": 1950
+	},
+	"scene": {
+		"headline": "Pieces of chromosome",
+		"accent": "JUMPED.",
+		"palette": "garden",
+		"illustration": "scene.svg",
+		"metadata": ["COLD SPRING HARBOR · BARBARA MCCLINTOCK", "ZEA MAYS · CHROMOSOME 9 · AC AND DS"],
+		"counter": {
+			"value": "45%",
+			"label": "of the human genome recognized as transposon-derived, 2001"
+		}
+	},
+	"connections": [
+		{
+			"to": "food/maize",
+			"why": "The maize McClintock bred carries transposable elements in its domestication genes too: an element called Hopscotch beside teosinte branched1 helps turn the teosinte bush into maize's single stalk."
+		},
+		{
+			"to": "biology/lac-operon",
+			"why": "McClintock thought her moving elements Ac and Ds were the cell's means of switching genes on and off; that larger theory of control lost out to Jacob and Monod's operon."
+		},
+		{
+			"to": "biology/human-genome",
+			"why": "The first analysis of the human genome, in 2001, recognized about half of it as descended from transposable elements, the moving pieces of chromosome McClintock found in maize."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Origin and Behavior of Mutable Loci in Maize",
+			"authors": [
+				{
+					"family": "McClintock",
+					"given": "Barbara"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "36",
+			"issue": "6",
+			"pages": "344–355",
+			"published": "1950-06",
+			"doi": "10.1073/pnas.36.6.344",
+			"accessed": "2026-10-06",
+			"note": "Ds at the C locus (c-m1) is on pp. 349–350; Ac's dosage on p. 351"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Correlation of Cytological and Genetical Crossing-Over in Zea Mays",
+			"authors": [
+				{
+					"family": "Creighton",
+					"given": "Harriet B."
+				},
+				{
+					"family": "McClintock",
+					"given": "Barbara"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "17",
+			"issue": "8",
+			"pages": "492–497",
+			"published": "1931-08",
+			"doi": "10.1073/pnas.17.8.492",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Controlling Elements: Cold Spring Harbor, 1942-1967",
+			"url": "https://profiles.nlm.nih.gov/spotlight/ll/feature/harbor",
+			"authors": [
+				{
+					"name": "National Library of Medicine"
+				}
+			],
+			"container": "The Barbara McClintock Papers, Profiles in Science",
+			"publisher": "National Library of Medicine",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "The McClintock Renaissance and the Nobel Prize, 1978-1992",
+			"url": "https://profiles.nlm.nih.gov/spotlight/ll/feature/nobel",
+			"authors": [
+				{
+					"name": "National Library of Medicine"
+				}
+			],
+			"container": "The Barbara McClintock Papers, Profiles in Science",
+			"publisher": "National Library of Medicine",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "Education and Research at Cornell, 1925-1931",
+			"url": "https://profiles.nlm.nih.gov/spotlight/ll/feature/cornell",
+			"authors": [
+				{
+					"name": "National Library of Medicine"
+				}
+			],
+			"container": "The Barbara McClintock Papers, Profiles in Science",
+			"publisher": "National Library of Medicine",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "The Significance of Responses of the Genome to Challenge",
+			"authors": [
+				{
+					"family": "McClintock",
+					"given": "Barbara"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "The Nobel Foundation",
+			"published": "1983-12-08",
+			"url": "https://www.nobelprize.org/uploads/2018/06/mcclintock-lecture.pdf",
+			"accessed": "2026-10-06",
+			"note": "Nobel lecture; the 1944 experiment is in section II"
+		},
+		{
+			"kind": "chapter",
+			"title": "Chromosome Organization and Genic Expression",
+			"authors": [
+				{
+					"family": "McClintock",
+					"given": "Barbara"
+				}
+			],
+			"container": "Cold Spring Harbor Symposia on Quantitative Biology",
+			"volume": "16",
+			"pages": "13–47",
+			"published": "1951",
+			"doi": "10.1101/SQB.1951.016.01.004",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "\"The Real Point Is Control\": The Reception of Barbara McClintock's Controlling Elements",
+			"authors": [
+				{
+					"family": "Comfort",
+					"given": "Nathaniel C."
+				}
+			],
+			"container": "Journal of the History of Biology",
+			"volume": "32",
+			"issue": "1",
+			"pages": "133–162",
+			"published": "1999-03",
+			"doi": "10.1023/A:1004468625863",
+			"url": "https://pubmed.ncbi.nlm.nih.gov/11623812/",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "book",
+			"title": "A Feeling for the Organism: The Life and Work of Barbara McClintock",
+			"authors": [
+				{
+					"family": "Keller",
+					"given": "Evelyn Fox"
+				}
+			],
+			"place": "San Francisco",
+			"publisher": "W. H. Freeman",
+			"published": "1983",
+			"citedIn": "Controlling Elements: Cold Spring Harbor, 1942-1967"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Physiology or Medicine 1983: Press Release",
+			"authors": [
+				{
+					"name": "The Nobel Assembly at the Karolinska Institute"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "The Nobel Foundation",
+			"published": "1983-10",
+			"url": "https://www.nobelprize.org/prizes/medicine/1983/press-release/",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Initial Sequencing and Analysis of the Human Genome",
+			"authors": [
+				{
+					"name": "International Human Genome Sequencing Consortium"
+				}
+			],
+			"container": "Nature",
+			"volume": "409",
+			"issue": "6822",
+			"pages": "860–921",
+			"published": "2001-02-15",
+			"doi": "10.1038/35057062",
+			"accessed": "2026-10-06",
+			"note": "Transposon-derived repeats: about 45 percent"
+		},
+		{
+			"kind": "article",
+			"title": "Identification of a Functional Transposon Insertion in the Maize Domestication Gene tb1",
+			"authors": [
+				{
+					"family": "Studer",
+					"given": "Anthony"
+				},
+				{
+					"family": "Zhao",
+					"given": "Qiong"
+				},
+				{
+					"family": "Ross-Ibarra",
+					"given": "Jeffrey"
+				},
+				{
+					"family": "Doebley",
+					"given": "John"
+				}
+			],
+			"container": "Nature Genetics",
+			"volume": "43",
+			"issue": "11",
+			"pages": "1160–1163",
+			"published": "2011-09-25",
+			"doi": "10.1038/ng.942",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Barbara McClintock",
+			"url": "https://en.wikipedia.org/w/index.php?title=Barbara_McClintock&oldid=1376798581",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Transposable element",
+			"url": "https://en.wikipedia.org/w/index.php?title=Transposable_element&oldid=1373400406",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Harriet Creighton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Harriet_Creighton&oldid=1348550548",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cold Spring Harbor Laboratory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cold_Spring_Harbor_Laboratory&oldid=1375865684",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carnegie Institution for Science",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carnegie_Institution_for_Science&oldid=1373604630",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Evelyn Fox Keller",
+			"url": "https://en.wikipedia.org/w/index.php?title=Evelyn_Fox_Keller&oldid=1372424913",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "media",
+			"title": "Barbara McClintock (1902-1992) shown in her laboratory in 1947",
+			"url": "https://commons.wikimedia.org/wiki/File:Barbara_McClintock_(1902-1992)_shown_in_her_laboratory_in_1947.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"note": "A Science Service press photograph distributed in the United States in 1947; the Smithsonian Institution Archives, which holds Science Service's records (Acc. 90-105), lists no known copyright restrictions",
+			"file": "lab.jpg",
+			"authors": [
+				{
+					"name": "Science Service"
+				}
+			],
+			"container": "Smithsonian Institution Archives",
+			"published": "1947"
+		},
+		{
+			"kind": "media",
+			"title": "PLoS Mu transposon in maize",
+			"url": "https://commons.wikimedia.org/wiki/File:PLoS_Mu_transposon_in_maize.jpg",
+			"accessed": "2026-10-06",
+			"licence": "CC BY 2.5",
+			"file": "kernels.jpg",
+			"authors": [
+				{
+					"family": "Lisch",
+					"given": "Damon"
+				}
+			],
+			"container": "Liza Gross, \"Transposon Silencing Keeps Jumping Genes in Their Place,\" PLoS Biology 4, no. 10 (2006): e353",
+			"published": "2006"
+		}
+	]
+}

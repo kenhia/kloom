@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M40 60 L296 60"/>
+		<path pathLength="1" d="M40 90 L296 90"/>
+		<path pathLength="1" d="M40 120 L296 120"/>
+		<path pathLength="1" d="M40 150 L296 150"/>
+		<path pathLength="1" d="M40 180 L296 180"/>
+		<path pathLength="1" d="M40 210 L296 210"/>
+		<path pathLength="1" d="M40 240 L296 240"/>
+		<path pathLength="1" d="M40 270 L296 270"/>
+		<path pathLength="1" d="M300 40 L300 280"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M128 250 L140 202"/>
+		<path pathLength="1" d="M140 202 L138 128"/>
+		<path pathLength="1" d="M140 202 L198 188"/>
+		<path pathLength="1" d="M198 188 L226 206"/>
+		<path pathLength="1" d="M226 206 L244 230"/>
+		<path pathLength="1" d="M138 128 L134 92"/>
+		<path pathLength="1" d="M138 128 L102 136"/>
+		<path pathLength="1" d="M138 128 L186 148"/>
+		<path pathLength="1" d="M134 92 L176 108"/>
+		<path pathLength="1" d="M244 230 L232 262"/>
+		<path pathLength="1" d="M244 230 L252 260"/>
+		<path pathLength="1" d="M244 230 L276 248"/>
+		<path pathLength="1" d="M226 206 L262 196"/>
+		<path pathLength="1" d="M198 188 L214 168"/>
+		<path pathLength="1" d="M198 188 L238 176"/>
+		<path pathLength="1" d="M226 206 L230 226"/>
+		<path pathLength="1" d="M102 136 L70 140"/>
+		<path pathLength="1" d="M102 136 L80 160"/>
+		<path pathLength="1" d="M102 136 L76 120"/>
+		<path pathLength="1" d="M138 128 L98 108"/>
+		<path pathLength="1" d="M186 148 L208 132"/>
+		<path pathLength="1" d="M186 148 L200 160"/>
+		<path pathLength="1" d="M134 92 L112 76"/>
+		<path pathLength="1" d="M134 92 L134 66"/>
+		<path pathLength="1" d="M176 108 L156 80"/>
+		<path pathLength="1" d="M176 108 L182 84"/>
+		<path pathLength="1" d="M176 108 L190 104"/>
+		<path pathLength="1" d="M176 108 L196 116"/>
+		<path pathLength="1" d="M140 202 L116 186"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M235.7 263.4 L228.3 260.6"/>
+		<path pathLength="1" d="M255.9 259 L248.1 261"/>
+		<path pathLength="1" d="M278 244.5 L274 251.5"/>
+		<path pathLength="1" d="M70.5 144 L69.5 136"/>
+		<path pathLength="1" d="M82.9 162.7 L77.1 157.3"/>
+		<path pathLength="1" d="M73.9 123.4 L78.1 116.6"/>
+		<path pathLength="1" d="M109.6 79.2 L114.4 72.8"/>
+		<path pathLength="1" d="M130 66 L138 66"/>
+		<path pathLength="1" d="M152.7 82.3 L159.3 77.7"/>
+		<path pathLength="1" d="M178.1 83 L185.9 85"/>
+		<path pathLength="1" d="M188.9 100.2 L191.1 107.8"/>
+		<path pathLength="1" d="M197.5 112.3 L194.5 119.7"/>
+		<path pathLength="1" d="M121 250 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0"/>
+		<path pathLength="1" d="M138.4 202 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M136.4 128 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M196.4 188 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M224.4 206 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M242.4 230 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M132.4 92 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M100.4 136 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M184.4 148 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+		<path pathLength="1" d="M174.4 108 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="128" y="252.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="286" y="252" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="166" y="64" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="204" y="104" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C</text>
+		<text x="58" y="150" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">D</text>
+		<text x="60" y="46" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">I THINK</text>
+		<path pathLength="1" d="M312 104 L326 104"/>
+		<path pathLength="1" d="M326 100 L326 108"/>
+		<text x="332" y="106.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LIVING</text>
+		<path pathLength="1" d="M312 124 L326 124"/>
+		<text x="332" y="126.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EXTINCT</text>
+		<path pathLength="1" d="M314 146 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<text x="332" y="148.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ANCESTOR</text>
+		<text x="312" y="176" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A–B: IMMENSE GAP</text>
+		<text x="312" y="190" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B–C: FINEST</text>
+		<text x="312" y="204" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B–D: GREATER</text>
+		<text x="200" y="290" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NOTEBOOK B, P. 36, JULY 1837 · REDRAWN, SCHEMATIC</text>
+	</g>
+</svg>

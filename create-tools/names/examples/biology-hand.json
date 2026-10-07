@@ -1,0 +1,50 @@
+{
+	"biology/aristotle-animals": [
+		["Aristotle", "aristotle"],
+		["Plato's Academy", "platonic-academy"],
+		["Lesbos", "lesbos"],
+		["Theophrastus", "theophrastus"],
+		["_History of Animals_", "history-of-animals"],
+		["Michel Laurin", "michel-laurin"],
+		["octopus", "octopus"],
+		["hectocotylus", "hectocotylus"],
+		["Georges Cuvier", "georges-cuvier"],
+		["common smooth-hound", "common-smooth-hound"],
+		["Johannes Peter Müller", "johannes-peter-muller"],
+		["Louis Agassiz", "louis-agassiz"],
+		["Aristotle's catfish", "aristotles-catfish"],
+		["Charles Darwin", "charles-darwin"],
+		["William Ogle", "william-ogle-physician"]
+	],
+	"biology/theophrastus": [
+		["Theophrastus", "theophrastus"],
+		["Lesbos", "lesbos"],
+		["Aristotle", "aristotle"],
+		["Lyceum", "lyceum-classical"],
+		["_Enquiry into Plants_", "historia-plantarum-theophrastus"],
+		["Carl Linnaeus", "carl-linnaeus"],
+		["Arthur Hort", "arthur-hort"],
+		["Rudolf Jakob Camerarius", "rudolf-jakob-camerarius"],
+		["maize", "maize"],
+		["Alexander the Great", "alexander-the-great"],
+		["William Thiselton-Dyer", "william-turner-thiselton-dyer"]
+	],
+	"biology/herbals": [
+		["herbal", "herbal"],
+		["Dioscorides", "dioscorides"],
+		["_De materia medica_", "de-materia-medica"],
+		["Vienna Dioscurides", "vienna-dioscurides"],
+		["Agnes Arber", "agnes-arber"],
+		["Otto Brunfels", "otto-brunfels"],
+		["Hans Weiditz", "hans-weiditz"],
+		["Theophrastus", "theophrastus"],
+		["Leonhart Fuchs", "leonhart-fuchs"],
+		["_De historia stirpium_", "de-historia-stirpium-commentarii-insignes"],
+		["Basel", "basel"],
+		["maize", "maize"],
+		["chili pepper", "chili-pepper"],
+		["Columbus", "christopher-columbus"],
+		["Luca Ghini", "luca-ghini"],
+		["Conrad Gessner", "conrad-gessner"]
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"id": "wrong",
+	"title": "What we got wrong",
+	"anchor": "mendel-peas",
+	"spine": {
+		"segments": [
+			{
+				"id": "wrong-seg",
+				"title": "Ideas that failed",
+				"labelKind": "date",
+				"palette": "garden",
+				"frames": ["preformation", "pangenesis", "piltdown", "eugenics", "lysenko"]
+			}
+		]
+	}
+}

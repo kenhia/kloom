@@ -1,0 +1,35 @@
+{
+	"biology/beadle-tatum": [
+		["genes", "gene"],
+		["Stanford University", "stanford-university"],
+		["George Beadle", "george-beadle"],
+		["Edward Tatum", "edward-tatum"],
+		["mutations", "mutation"],
+		["Archibald Garrod", "archibald-garrod"],
+		["alkaptonuria", "alkaptonuria"],
+		["William Bateson", "william-bateson"],
+		["enzyme", "enzyme"],
+		["_Neurospora crassa_", "neurospora-crassa"],
+		["Norman Horowitz", "norman-horowitz"],
+		["_one gene–one enzyme hypothesis_", "one-gene-one-enzyme-hypothesis"],
+		["protein", "protein"],
+		["Vernon Ingram", "vernon-ingram"],
+		["Joshua Lederberg", "joshua-lederberg"]
+	],
+	"biology/mcclintock": [
+		["maize", "maize"],
+		["Barbara McClintock", "barbara-mcclintock"],
+		["chromosomes", "chromosome"],
+		["Cornell University", "cornell-university"],
+		["crossing-over", "chromosomal-crossover"],
+		["Harriet Creighton", "harriet-creighton"],
+		["Carnegie Institution", "carnegie-institution-for-science"],
+		["Cold Spring Harbor", "cold-spring-harbor-laboratory"],
+		["Evelyn Fox Keller", "evelyn-fox-keller"],
+		["Joshua Lederberg", "joshua-lederberg"],
+		["Nathaniel Comfort", "nathaniel-c-comfort"],
+		["Nobel Prize in Physiology or Medicine", "nobel-prize-in-physiology-or-medicine"],
+		["transposable elements", "transposable-element"],
+		["John Doebley", "john-doebley"]
+	]
+}

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M80 36 L80 262"/>
+		<path pathLength="1" d="M128 36 L128 262"/>
+		<path pathLength="1" d="M176 36 L176 262"/>
+		<path pathLength="1" d="M224 36 L224 262"/>
+		<path pathLength="1" d="M272 36 L272 262"/>
+		<path pathLength="1" d="M80 262 L272 262"/>
+		<path pathLength="1" d="M80 36 L272 36"/>
+		<path pathLength="1" d="M72 252 L80 252"/>
+		<path pathLength="1" d="M72 231.1 L80 231.1"/>
+		<path pathLength="1" d="M72 216.1 L80 216.1"/>
+		<path pathLength="1" d="M72 202.7 L80 202.7"/>
+		<path pathLength="1" d="M72 190.3 L80 190.3"/>
+		<path pathLength="1" d="M72 178.6 L80 178.6"/>
+		<path pathLength="1" d="M72 167.4 L80 167.4"/>
+		<path pathLength="1" d="M72 156.5 L80 156.5"/>
+		<path pathLength="1" d="M72 146.1 L80 146.1"/>
+		<path pathLength="1" d="M72 135.9 L80 135.9"/>
+		<path pathLength="1" d="M72 125.9 L80 125.9"/>
+		<path pathLength="1" d="M72 116.2 L80 116.2"/>
+		<path pathLength="1" d="M72 106.7 L80 106.7"/>
+		<path pathLength="1" d="M72 97.3 L80 97.3"/>
+		<path pathLength="1" d="M72 88.1 L80 88.1"/>
+		<path pathLength="1" d="M72 79 L80 79"/>
+		<path pathLength="1" d="M72 70.1 L80 70.1"/>
+		<path pathLength="1" d="M72 61.3 L80 61.3"/>
+		<path pathLength="1" d="M72 52.6 L80 52.6"/>
+		<path pathLength="1" d="M72 44 L80 44"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M89 252 L119 252"/>
+		<path pathLength="1" d="M137 231.1 L167 231.1"/>
+		<path pathLength="1" d="M185 216.1 L215 216.1"/>
+		<path pathLength="1" d="M185 202.7 L215 202.7"/>
+		<path pathLength="1" d="M137 190.3 L167 190.3"/>
+		<path pathLength="1" d="M233 178.6 L263 178.6"/>
+		<path pathLength="1" d="M137 167.4 L167 167.4"/>
+		<path pathLength="1" d="M89 156.5 L119 156.5"/>
+		<path pathLength="1" d="M185 146.1 L215 146.1"/>
+		<path pathLength="1" d="M233 135.9 L263 135.9"/>
+		<path pathLength="1" d="M233 125.9 L263 125.9"/>
+		<path pathLength="1" d="M137 116.2 L167 116.2"/>
+		<path pathLength="1" d="M89 106.7 L119 106.7"/>
+		<path pathLength="1" d="M137 97.3 L167 97.3"/>
+		<path pathLength="1" d="M185 88.1 L215 88.1"/>
+		<path pathLength="1" d="M185 79 L215 79"/>
+		<path pathLength="1" d="M137 70.1 L167 70.1"/>
+		<path pathLength="1" d="M233 61.3 L263 61.3"/>
+		<path pathLength="1" d="M137 52.6 L167 52.6"/>
+		<path pathLength="1" d="M89 44 L119 44"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M294 252 L294 40"/>
+		<path pathLength="1" d="M296.2 44.5 L294 40 L291.8 44.5"/>
+		<text x="308" y="255" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">G</text>
+		<text x="308" y="234.1" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="308" y="219.1" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">T</text>
+		<text x="308" y="205.7" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">T</text>
+		<text x="308" y="193.3" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="308" y="181.6" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C</text>
+		<text x="308" y="170.4" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="308" y="159.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">G</text>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="104" y="30" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ddG</text>
+		<text x="152" y="30" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ddA</text>
+		<text x="200" y="30" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ddT</text>
+		<text x="248" y="30" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ddC</text>
+		<text x="68" y="256" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SHORT</text>
+		<text x="68" y="44" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LONG</text>
+		<text x="308" y="34" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">READ UP</text>
+		<text x="200" y="274" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FOUR REACTIONS, ONE LANE EACH · SANGER 1977</text>
+		<text x="200" y="290" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EACH BAND A CHAIN STOPPED AT THAT BASE</text>
+	</g>
+</svg>

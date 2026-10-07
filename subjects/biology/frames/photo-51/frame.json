@@ -1,0 +1,346 @@
+{
+	"id": "photo-51",
+	"topic": "Franklin, Gosling and Photo 51",
+	"position": {
+		"label": "1952",
+		"sort": 1952
+	},
+	"scene": {
+		"headline": "An X meant a",
+		"accent": "HELIX.",
+		"palette": "helix",
+		"illustration": "scene.svg",
+		"metadata": [
+			"KING'S COLLEGE LONDON · MAY 1952",
+			"ROSALIND FRANKLIN · RAYMOND GOSLING · STRUCTURE B"
+		],
+		"counter": {
+			"value": "62",
+			"label": "hours of X-rays for one photograph"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Molecular Configuration in Sodium Thymonucleate",
+			"authors": [
+				{
+					"family": "Franklin",
+					"given": "Rosalind E."
+				},
+				{
+					"family": "Gosling",
+					"given": "R. G."
+				}
+			],
+			"container": "Nature",
+			"volume": "171",
+			"issue": "4356",
+			"pages": "740–741",
+			"published": "1953-04-25",
+			"doi": "10.1038/171740a0",
+			"accessed": "2026-10-06",
+			"note": "Read in the facsimile Nature reprinted in 2003 (vol. 421, pp. 400–401); Photo 51 is its figure"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "What Rosalind Franklin truly contributed to the discovery of DNA's structure",
+			"authors": [
+				{
+					"family": "Cobb",
+					"given": "Matthew"
+				},
+				{
+					"family": "Comfort",
+					"given": "Nathaniel"
+				}
+			],
+			"container": "Nature",
+			"volume": "616",
+			"pages": "657–660",
+			"published": "2023-04-25",
+			"doi": "10.1038/d41586-023-01313-5",
+			"url": "https://www.nature.com/articles/d41586-023-01313-5",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The story behind Photograph 51",
+			"authors": [
+				{
+					"family": "Sutton",
+					"given": "Brian"
+				}
+			],
+			"container": "King's College London",
+			"published": "2023-04-14",
+			"url": "https://www.kcl.ac.uk/the-story-behind-photograph-51",
+			"accessed": "2026-10-06",
+			"note": "The dates and exposure from Franklin's notebook"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Raymond Gosling: the man who crystallized genes",
+			"authors": [
+				{
+					"family": "Attar",
+					"given": "Naomi"
+				}
+			],
+			"container": "Genome Biology",
+			"volume": "14",
+			"issue": "4",
+			"pages": "402",
+			"published": "2013-04-25",
+			"doi": "10.1186/gb-2013-14-4-402",
+			"accessed": "2026-10-06",
+			"note": "Gosling's own telling, in interview"
+		},
+		{
+			"kind": "article",
+			"title": "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+			"authors": [
+				{
+					"family": "Watson",
+					"given": "J. D."
+				},
+				{
+					"family": "Crick",
+					"given": "F. H. C."
+				}
+			],
+			"container": "Nature",
+			"volume": "171",
+			"issue": "4356",
+			"pages": "737–738",
+			"published": "1953-04-25",
+			"doi": "10.1038/171737a0",
+			"accessed": "2026-10-06",
+			"note": "Read in the facsimile Nature reprinted in 2003"
+		},
+		{
+			"kind": "article",
+			"title": "Molecular Structure of Deoxypentose Nucleic Acids",
+			"authors": [
+				{
+					"family": "Wilkins",
+					"given": "M. H. F."
+				},
+				{
+					"family": "Stokes",
+					"given": "A. R."
+				},
+				{
+					"family": "Wilson",
+					"given": "H. R."
+				}
+			],
+			"container": "Nature",
+			"volume": "171",
+			"issue": "4356",
+			"pages": "738–740",
+			"published": "1953-04-25",
+			"doi": "10.1038/171738a0",
+			"accessed": "2026-10-06",
+			"read": "excerpt"
+		},
+		{
+			"kind": "article",
+			"title": "DNA Helix",
+			"authors": [
+				{
+					"family": "Perutz",
+					"given": "M. F."
+				},
+				{
+					"family": "Randall",
+					"given": "J. T."
+				},
+				{
+					"family": "Thomson",
+					"given": "L."
+				},
+				{
+					"family": "Wilkins",
+					"given": "M. H. F."
+				},
+				{
+					"family": "Watson",
+					"given": "J. D."
+				}
+			],
+			"container": "Science",
+			"volume": "164",
+			"pages": "1537–1539",
+			"published": "1969",
+			"citedIn": "What Rosalind Franklin truly contributed to the discovery of DNA's structure"
+		},
+		{
+			"kind": "book",
+			"title": "The Double Helix: A Personal Account of the Discovery of the Structure of DNA",
+			"authors": [
+				{
+					"family": "Watson",
+					"given": "James D."
+				}
+			],
+			"place": "New York",
+			"publisher": "Atheneum",
+			"published": "1968",
+			"citedIn": "What Rosalind Franklin truly contributed to the discovery of DNA's structure"
+		},
+		{
+			"kind": "article",
+			"title": "After the Double Helix: Rosalind Franklin's Research on Tobacco Mosaic Virus",
+			"authors": [
+				{
+					"family": "Creager",
+					"given": "Angela N. H."
+				},
+				{
+					"family": "Morgan",
+					"given": "Gregory J."
+				}
+			],
+			"container": "Isis",
+			"volume": "99",
+			"issue": "2",
+			"pages": "239–272",
+			"published": "2008",
+			"doi": "10.1086/588626",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Physiology or Medicine 1962",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"url": "https://www.nobelprize.org/prizes/medicine/1962/summary/",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Rosalind Franklin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rosalind_Franklin&oldid=1378796970",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Photo 51",
+			"url": "https://en.wikipedia.org/w/index.php?title=Photo_51&oldid=1377651620",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Raymond Gosling",
+			"url": "https://en.wikipedia.org/w/index.php?title=Raymond_Gosling&oldid=1378219730",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Maurice Wilkins",
+			"url": "https://en.wikipedia.org/w/index.php?title=Maurice_Wilkins&oldid=1377828778",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Randall (physicist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Randall_(physicist)&oldid=1377979708",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aaron Klug",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aaron_Klug&oldid=1378768417",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-06"
+		},
+		{
+			"kind": "media",
+			"title": "Letter from Wilkins to Crick regarding their work on DNA",
+			"url": "https://commons.wikimedia.org/wiki/File:Letter_from_Wilkins_to_Crick_regarding_their_work_on_DNA_Wellcome_L0073504.jpg",
+			"accessed": "2026-10-06",
+			"licence": "CC BY 4.0",
+			"file": "wilkins-letter.jpg",
+			"authors": [
+				{
+					"family": "Wilkins",
+					"given": "Maurice"
+				}
+			],
+			"container": "Francis Crick papers, Wellcome Collection, PP/CRI/H/1/42/4",
+			"number": "L0073504"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/dna",
+			"why": "Photo 51 and the King's measurements of a 34 Å turn with ten bases to it are the experimental side of the double helix that Watson and Crick's model of April 1953 explained."
+		},
+		{
+			"to": "chemistry/crystallography",
+			"why": "Photo 51 is X-ray diffraction applied to a fiber: the method the Braggs turned into a way of reading spacings, here reading a 3.4 Å stack and a 34 Å turn from the spacing of spots."
+		},
+		{
+			"to": "chemistry/protein-structure",
+			"why": "Pauling's triple-helix structure for DNA, early in 1953, was the manuscript Watson carried to King's on the day Wilkins showed him Photo 51."
+		},
+		{
+			"to": "biology/virus",
+			"why": "After Photo 51, Franklin turned at Birkbeck to tobacco mosaic virus, the agent that passed Ivanovsky's and Beijerinck's porcelain filters, showing that its particles share one length and that its RNA winds inside the hollow rod."
+		}
+	]
+}

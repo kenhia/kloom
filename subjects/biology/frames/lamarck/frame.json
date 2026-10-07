@@ -1,0 +1,201 @@
+{
+	"id": "lamarck",
+	"topic": "Lamarck's transformism",
+	"position": {
+		"label": "1809",
+		"sort": 1809
+	},
+	"scene": {
+		"headline": "Lamarck traced forms to their",
+		"accent": "HABITS.",
+		"palette": "strata",
+		"illustration": "scene.svg",
+		"metadata": ["PARIS · THE MUSÉUM · JEAN-BAPTISTE LAMARCK", "PHILOSOPHIE ZOOLOGIQUE · 1809"],
+		"counter": {
+			"value": "2",
+			"label": "laws: use and disuse, and their inheritance"
+		}
+	},
+	"connections": [
+		{
+			"to": "biology/aristotle-animals",
+			"why": "Lamarck's division of 1794 into animals with and without vertebrae redrew Aristotle's line between blooded and bloodless animals, which matches it closely."
+		},
+		{
+			"to": "western-civ/french-revolution",
+			"why": "The revolutionary Convention turned the king's garden into the Paris Muséum in 1793 and gave Lamarck its new chair of insects and worms, where he founded the study of invertebrates."
+		},
+		{
+			"to": "biology/pangenesis",
+			"why": "Darwin's pangenesis of 1868 gave Lamarck's inheritance of use and disuse a mechanism, changed gemmules thrown off by changed parts; Weismann's mice, their tails cut for five generations, were the reply."
+		},
+		{
+			"to": "biology/lysenko",
+			"why": "Lysenko held, like Lamarck, that what a plant acquires from its conditions of life is inherited, and promised that chilled winter wheat would become spring wheat in two or three generations."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Zoological Philosophy: An Exposition with Regard to the Natural History of Animals",
+			"authors": [
+				{
+					"family": "Lamarck",
+					"given": "Jean-Baptiste"
+				}
+			],
+			"translators": [
+				{
+					"family": "Elliot",
+					"given": "Hugh"
+				}
+			],
+			"place": "London",
+			"publisher": "Macmillan",
+			"published": "1914",
+			"url": "https://archive.org/details/cu31924024760799",
+			"accessed": "2026-10-06",
+			"note": "The two laws are on p. 113 and the giraffe on p. 122; Elliot's introduction gives Lamarck's life"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Biographical Memoir of M. de Lamarck",
+			"authors": [
+				{
+					"family": "Cuvier",
+					"given": "Georges"
+				}
+			],
+			"container": "Edinburgh New Philosophical Journal",
+			"volume": "20",
+			"issue": "39",
+			"pages": "1–21",
+			"published": "1836-01",
+			"url": "https://archive.org/details/edinburghnewphil20edin",
+			"accessed": "2026-10-06",
+			"note": "Cuvier's eulogy, read to the Academy of Sciences on November 26, 1832"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jean-Baptiste Lamarck",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jean-Baptiste_Lamarck&oldid=1377371472",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lamarckism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lamarckism&oldid=1375677163",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "book",
+			"title": "Lamarck, the Founder of Evolution: His Life and Work",
+			"authors": [
+				{
+					"family": "Packard",
+					"given": "Alpheus Spring"
+				}
+			],
+			"place": "New York",
+			"publisher": "Longmans, Green",
+			"published": "1901",
+			"url": "https://www.gutenberg.org/ebooks/20556",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "On the Origin of Species by Means of Natural Selection",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"place": "London",
+			"publisher": "John Murray",
+			"published": "1859",
+			"url": "https://www.gutenberg.org/ebooks/1228",
+			"accessed": "2026-10-06",
+			"note": "Chapter 5, on the effects of use and disuse"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter to J. D. Hooker",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Hooker",
+					"given": "Joseph Dalton"
+				}
+			],
+			"written": "1844-01-11",
+			"container": "Darwin Correspondence Project",
+			"number": "DCP-LETT-729",
+			"publisher": "University of Cambridge",
+			"url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-729.xml",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Transgenerational Epigenetic Inheritance: Myths and Mechanisms",
+			"authors": [
+				{
+					"family": "Heard",
+					"given": "Edith"
+				},
+				{
+					"family": "Martienssen",
+					"given": "Robert A."
+				}
+			],
+			"container": "Cell",
+			"volume": "157",
+			"issue": "1",
+			"pages": "95–109",
+			"published": "2014-03",
+			"doi": "10.1016/j.cell.2014.02.045",
+			"accessed": "2026-10-06",
+			"note": "Read in the author manuscript, PMC4020004"
+		},
+		{
+			"kind": "media",
+			"title": "Tableau servant à montrer l'origine des différens animaux, from Lamarck's Philosophie zoologique",
+			"url": "https://commons.wikimedia.org/wiki/File:Lamarck_Tree_1809.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "tableau.jpg",
+			"authors": [
+				{
+					"family": "Lamarck",
+					"given": "Jean-Baptiste"
+				}
+			],
+			"published": "1809",
+			"container": "Philosophie zoologique (Paris, 1809), p. 463"
+		}
+	]
+}

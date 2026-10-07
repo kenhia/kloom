@@ -1,0 +1,391 @@
+{
+	"id": "preformation",
+	"topic": "Preformation and the homunculus",
+	"position": {
+		"label": "1694",
+		"sort": 1694
+	},
+	"scene": {
+		"headline": "We looked for the man",
+		"accent": "INSIDE.",
+		"palette": "garden",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · NICOLAAS HARTSOEKER · ESSAY DE DIOPTRIQUE",
+			"OVISTS · SPERMISTS · EPIGENESIS"
+		],
+		"counter": {
+			"value": "95",
+			"label": "young from one aphid reared alone"
+		}
+	},
+	"connections": [
+		{
+			"to": "blood/malpighi",
+			"why": "Malpighi turned the microscope that found the capillaries in a frog's lung in 1661 on the hen's egg in 1672, and saw a chick he took to be already formed."
+		},
+		{
+			"to": "blood/red-cells",
+			"why": "Leeuwenhoek measured the animalcules he found in semen in 1677 against the red globules of blood he had described three years before."
+		},
+		{
+			"to": "biology/leeuwenhoek-animalcules",
+			"why": "Leeuwenhoek's letter of November 1677 on the living animalcules in semen, with tails, gave the spermists their germ: he came to see them as the new animal, and the egg as only its food."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Essay de dioptrique",
+			"authors": [
+				{
+					"family": "Hartsoeker",
+					"given": "Nicolaas"
+				}
+			],
+			"place": "Paris",
+			"publisher": "Jean Anisson",
+			"published": "1694",
+			"language": "fr",
+			"url": "https://archive.org/details/BIUSante_07012",
+			"accessed": "2026-10-06",
+			"note": "The animalcules of semen and the curled figure, pp. 227–231, in our translation"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Observationes D. Anthonii Lewenhoeck, de natis e semine genitali animalculis",
+			"authors": [
+				{
+					"family": "Leeuwenhoek",
+					"given": "Antonie van"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "12",
+			"issue": "142",
+			"pages": "1040–1046",
+			"published": "1678",
+			"language": "la",
+			"doi": "10.1098/rstl.1677.0068",
+			"url": "https://archive.org/details/jstor-101823",
+			"accessed": "2026-10-06",
+			"note": "His letter to Viscount Brouncker of November 1677, in our translation"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "An Abstract of Some New Observations upon Insects",
+			"authors": [
+				{
+					"family": "Bonnet",
+					"given": "Charles"
+				}
+			],
+			"translators": [
+				{
+					"name": "P. H. Z."
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "42",
+			"issue": "470",
+			"pages": "458–488",
+			"published": "1743",
+			"doi": "10.1098/rstl.1742.0075",
+			"url": "https://archive.org/details/jstor-104202",
+			"accessed": "2026-10-06",
+			"note": "The aphid reared in solitude, pp. 465–467"
+		},
+		{
+			"kind": "book",
+			"title": "The Works of William Harvey",
+			"authors": [
+				{
+					"family": "Harvey",
+					"given": "William"
+				}
+			],
+			"translators": [
+				{
+					"family": "Willis",
+					"given": "Robert"
+				}
+			],
+			"place": "London",
+			"publisher": "Sydenham Society",
+			"published": "1847",
+			"url": "https://archive.org/details/b2928613x_0002",
+			"accessed": "2026-10-06",
+			"note": "On generation, exercise 45, p. 336"
+		},
+		{
+			"kind": "book",
+			"title": "Dissertatio epistolica de formatione pulli in ovo",
+			"authors": [
+				{
+					"family": "Malpighi",
+					"given": "Marcello"
+				}
+			],
+			"place": "London",
+			"publisher": "John Martyn",
+			"published": "1673",
+			"language": "la",
+			"url": "https://archive.org/details/b30338505_0001",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Von Baer and the Rise of Embryology",
+			"authors": [
+				{
+					"family": "Locy",
+					"given": "William A."
+				}
+			],
+			"container": "Popular Science Monthly",
+			"volume": "67",
+			"published": "1905-06",
+			"url": "https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_67/June_1905/Von_Baer_and_the_Rise_of_Embryology",
+			"accessed": "2026-10-06",
+			"note": "Malpighi's eggs, Swammerdam, emboîtement, Wolff and Haller, pp. 106–110"
+		},
+		{
+			"kind": "encyclopedia",
+			"key": true,
+			"title": "Theories of Biological Development",
+			"authors": [
+				{
+					"family": "Fagan",
+					"given": "Melinda Bonnie"
+				},
+				{
+					"family": "Maienschein",
+					"given": "Jane"
+				}
+			],
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"editors": [
+				{
+					"family": "Zalta",
+					"given": "Edward N."
+				},
+				{
+					"family": "Nodelman",
+					"given": "Uri"
+				}
+			],
+			"edition": "Fall 2026 ed.",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2026-08-29",
+			"url": "https://plato.stanford.edu/archives/fall2026/entries/theories-biological-development/",
+			"accessed": "2026-10-06",
+			"note": "Sections 3 and 4, on Aristotle and the eighteenth-century debates"
+		},
+		{
+			"kind": "encyclopedia",
+			"title": "Nicolaas Hartsoeker (1656-1725)",
+			"authors": [
+				{
+					"family": "Lawrence",
+					"given": "Cera R."
+				}
+			],
+			"container": "Embryo Project Encyclopedia",
+			"publisher": "Arizona State University",
+			"published": "2008-09-26",
+			"url": "https://hdl.handle.net/10776/1923",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "encyclopedia",
+			"title": "Charles Bonnet (1720-1793)",
+			"authors": [
+				{
+					"family": "Lawrence",
+					"given": "Cera R."
+				}
+			],
+			"container": "Embryo Project Encyclopedia",
+			"publisher": "Arizona State University",
+			"published": "2009-06-10",
+			"url": "https://hdl.handle.net/10776/1745",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "encyclopedia",
+			"title": "Caspar Friedrich Wolff (1734-1794)",
+			"authors": [
+				{
+					"family": "Ruffenach",
+					"given": "Stephen"
+				}
+			],
+			"container": "Embryo Project Encyclopedia",
+			"publisher": "Arizona State University",
+			"published": "2009-07-07",
+			"url": "https://hdl.handle.net/10776/1925",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Chip Off the Old Block: Generation, Development, and Ancestral Concepts of Heredity",
+			"authors": [
+				{
+					"family": "Poczai",
+					"given": "Péter"
+				},
+				{
+					"family": "Santiago-Blay",
+					"given": "Jorge A."
+				}
+			],
+			"container": "Frontiers in Genetics",
+			"volume": "13",
+			"pages": "814436",
+			"published": "2022",
+			"doi": "10.3389/fgene.2022.814436",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "The Variation of Animals and Plants under Domestication",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"volume": "2",
+			"place": "London",
+			"publisher": "John Murray",
+			"published": "1868",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=F877.2&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"note": "Bonnet's emboîtement, p. 375n"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Preformationism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Preformationism&oldid=1378326868",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nicolaas Hartsoeker",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nicolaas_Hartsoeker&oldid=1356679383",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jan Swammerdam",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jan_Swammerdam&oldid=1372017538",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lazzaro Spallanzani",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lazzaro_Spallanzani&oldid=1378631363",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Camille Dareste",
+			"url": "https://en.wikipedia.org/w/index.php?title=Camille_Dareste&oldid=1362026908",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sperm",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sperm&oldid=1369644263",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Atom",
+			"url": "https://en.wikipedia.org/w/index.php?title=Atom&oldid=1377869405",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "media",
+			"title": "N. Hartsoeker, Essay de dioptrique",
+			"url": "https://commons.wikimedia.org/wiki/File:N._Hartsoeker,_Essay_de_dioptrique_Wellcome_M0016638.jpg",
+			"accessed": "2026-10-06",
+			"licence": "CC BY 4.0",
+			"file": "homunculus.jpg",
+			"container": "Wellcome Collection",
+			"number": "M0016638",
+			"published": "1694"
+		},
+		{
+			"kind": "media",
+			"title": "W. Harvey, Exercitationes de generatione animalium, frontispiece",
+			"url": "https://commons.wikimedia.org/wiki/File:W._Harvey,_Exercitationes_de_generatione...,_frontispiece._Wellcome_L0006634.jpg",
+			"accessed": "2026-10-06",
+			"licence": "CC BY 4.0",
+			"file": "ex-ovo.jpg",
+			"container": "Wellcome Collection",
+			"number": "L0006634",
+			"published": "1651"
+		}
+	]
+}

@@ -1,0 +1,336 @@
+{
+	"id": "beadle-tatum",
+	"topic": "One gene, one enzyme",
+	"position": {
+		"label": "1941",
+		"sort": 1941
+	},
+	"scene": {
+		"headline": "A bread mold matched gene to",
+		"accent": "ENZYME.",
+		"palette": "garden",
+		"illustration": "scene.svg",
+		"metadata": [
+			"STANFORD UNIVERSITY · GEORGE BEADLE · EDWARD TATUM",
+			"NEUROSPORA · X-RAYS · MINIMAL MEDIUM"
+		],
+		"counter": {
+			"value": "3",
+			"label": "mutants among about 2,000 x-rayed strains"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/enzymes",
+			"why": "Garrod, Beadle and Tatum said genes act through enzymes, which Sumner and Northrop showed from 1926 to 1946 to be proteins."
+		},
+		{
+			"to": "blood/sickle-cell",
+			"why": "One gene, one enzyme became one gene, one polypeptide through sickle-cell hemoglobin, which Pauling's group in 1949 and Ingram by 1957 traced to a change in one protein chain."
+		},
+		{
+			"to": "biology/mcclintock",
+			"why": "Beadle and McClintock were fellow students in Cornell's small maize group in the 1920s, and in 1944 she came to Stanford to describe the chromosomes of Neurospora, his bread mold."
+		},
+		{
+			"to": "biology/rediscovery",
+			"why": "In 1902, two years after Mendel's rule was rediscovered, Bateson read Garrod's alkaptonuria families, in which first cousins were so often the parents, as a recessive character in Mendel's sense."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Genetic Control of Biochemical Reactions in Neurospora",
+			"authors": [
+				{
+					"family": "Beadle",
+					"given": "G. W."
+				},
+				{
+					"family": "Tatum",
+					"given": "E. L."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "27",
+			"issue": "11",
+			"pages": "499–506",
+			"published": "1941-11",
+			"doi": "10.1073/pnas.27.11.499",
+			"accessed": "2026-10-06",
+			"note": "The procedure is on p. 502, the three mutants on pp. 502–503"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Genes and Chemical Reactions in Neurospora",
+			"authors": [
+				{
+					"family": "Beadle",
+					"given": "George W."
+				}
+			],
+			"container": "Nobel Lectures, Physiology or Medicine 1942–1962",
+			"pages": "587–599",
+			"publisher": "Elsevier",
+			"place": "Amsterdam",
+			"published": "1964",
+			"url": "https://www.nobelprize.org/uploads/2018/06/beadle-lecture.pdf",
+			"accessed": "2026-10-06",
+			"note": "Nobel lecture of 11 December 1958: Garrod, the 299th spore, and where the hypothesis came from"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Incidence of Alkaptonuria: A Study in Chemical Individuality",
+			"authors": [
+				{
+					"family": "Garrod",
+					"given": "Archibald E."
+				}
+			],
+			"container": "The Lancet",
+			"volume": "160",
+			"issue": "4137",
+			"pages": "1616–1620",
+			"published": "1902-12",
+			"doi": "10.1016/S0140-6736(01)41972-6",
+			"url": "http://www.esp.org/foundations/genetics/classical/ag-02.pdf",
+			"accessed": "2026-10-06",
+			"note": "Read in the Electronic Scholarly Publishing Project's transcription; Table III and Bateson's comment"
+		},
+		{
+			"kind": "book",
+			"title": "Inborn Errors of Metabolism",
+			"authors": [
+				{
+					"family": "Garrod",
+					"given": "Archibald E."
+				}
+			],
+			"edition": "2nd ed.",
+			"place": "London",
+			"publisher": "Oxford University Press",
+			"published": "1923",
+			"citedIn": "Genes and Chemical Reactions in Neurospora"
+		},
+		{
+			"kind": "article",
+			"title": "The Ornithine Cycle in Neurospora and Its Genetic Control",
+			"authors": [
+				{
+					"family": "Srb",
+					"given": "Adrian M."
+				},
+				{
+					"family": "Horowitz",
+					"given": "N. H."
+				}
+			],
+			"container": "Journal of Biological Chemistry",
+			"volume": "154",
+			"pages": "129–139",
+			"published": "1944",
+			"doi": "10.1016/S0021-9258(18)71951-0",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "A Centennial: George W. Beadle, 1903–1989",
+			"authors": [
+				{
+					"family": "Horowitz",
+					"given": "Norman H."
+				},
+				{
+					"family": "Berg",
+					"given": "Paul"
+				},
+				{
+					"family": "Singer",
+					"given": "Maxine"
+				},
+				{
+					"family": "Lederberg",
+					"given": "Joshua"
+				},
+				{
+					"family": "Susman",
+					"given": "Millard"
+				},
+				{
+					"family": "Doebley",
+					"given": "John"
+				},
+				{
+					"family": "Crow",
+					"given": "James F."
+				}
+			],
+			"container": "Genetics",
+			"volume": "166",
+			"issue": "1",
+			"pages": "1–10",
+			"published": "2004-01",
+			"doi": "10.1534/genetics.166.1.1",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Beadle's Progeny: Innocence Rewarded, Innocence Lost",
+			"authors": [
+				{
+					"family": "Davis",
+					"given": "Rowland H."
+				}
+			],
+			"container": "Journal of Biosciences",
+			"volume": "32",
+			"issue": "2",
+			"pages": "197–205",
+			"published": "2007",
+			"doi": "10.1007/s12038-007-0020-5",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "chapter",
+			"title": "Biochemical Genetics: Some Recollections",
+			"authors": [
+				{
+					"family": "Beadle",
+					"given": "G. W."
+				}
+			],
+			"container": "Phage and the Origins of Molecular Biology",
+			"editors": [
+				{
+					"family": "Cairns",
+					"given": "John"
+				},
+				{
+					"family": "Stent",
+					"given": "Gunther S."
+				},
+				{
+					"family": "Watson",
+					"given": "James D."
+				}
+			],
+			"pages": "23–32",
+			"place": "Cold Spring Harbor, NY",
+			"publisher": "Cold Spring Harbor Laboratory of Quantitative Biology",
+			"published": "1966",
+			"citedIn": "One gene–one enzyme hypothesis"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Physiology or Medicine 1958",
+			"url": "https://www.nobelprize.org/prizes/medicine/1958/summary/",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "One gene–one enzyme hypothesis",
+			"url": "https://en.wikipedia.org/w/index.php?title=One_gene%E2%80%93one_enzyme_hypothesis&oldid=1315233997",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-05",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George Beadle",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_Beadle&oldid=1371997934",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Edward Tatum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Edward_Tatum&oldid=1371989519",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Archibald Garrod",
+			"url": "https://en.wikipedia.org/w/index.php?title=Archibald_Garrod&oldid=1371972538",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alkaptonuria",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alkaptonuria&oldid=1378652418",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Neurospora crassa",
+			"url": "https://en.wikipedia.org/w/index.php?title=Neurospora_crassa&oldid=1364305510",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-15"
+		},
+		{
+			"kind": "media",
+			"title": "Neurospora crassa hyphae",
+			"url": "https://commons.wikimedia.org/wiki/File:Neurospora_crassahyphae.jpg",
+			"accessed": "2026-10-06",
+			"licence": "CC BY-SA 3.0",
+			"file": "hyphae.jpg",
+			"authors": [
+				{
+					"family": "Gromes",
+					"given": "Roland"
+				}
+			],
+			"published": "2011-12-01",
+			"container": "Wikimedia Commons"
+		}
+	]
+}

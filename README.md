@@ -11,7 +11,7 @@ holds the narrative, charts, images and sources for the frame you are on; and
 an AI pane lets you ask for more detail or _grow_ the story — new frames on
 the main spine, or a side trail to explore.
 
-There are eleven subjects so far, all served by one app:
+There are twelve subjects so far, all served by one app:
 
 - **the History of Western Civilization**, 58 main-spine frames from
   myth to cosmos, through law, faith, philosophy, art, politics and
@@ -61,7 +61,11 @@ There are eleven subjects so far, all served by one app:
   itself, from fire and foraging through the first farmers, grain and
   empire, spice and trade, the agricultural revolutions, keeping food and
   the modern harvest to the table, with four trails (the first drinks,
-  bread, the potato, famine).
+  bread, the potato, famine);
+- **The Story of Life**, 52 main-spine frames on the history of biology,
+  from Aristotle's animals through the microscope, deep time, inheritance
+  and the molecule to reading and writing genomes and ecology, with three
+  trails (germ theory, the Beagle, what we got wrong).
 
 The longer aim is a framework (starter code, agent skills and instructions)
 for generating a kloom on any subject.

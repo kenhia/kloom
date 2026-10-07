@@ -1,0 +1,470 @@
+{
+	"id": "dolly",
+	"topic": "Dolly the sheep",
+	"position": {
+		"label": "1996",
+		"sort": 1996
+	},
+	"scene": {
+		"headline": "We cloned a",
+		"accent": "SHEEP.",
+		"palette": "gel",
+		"illustration": "scene.svg",
+		"metadata": ["ROSLIN INSTITUTE · IAN WILMUT · KEITH CAMPBELL", "NATURE · FEBRUARY 1997"],
+		"counter": {
+			"value": "1 of 277",
+			"label": "nuclear transfers that became a lamb"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Viable Offspring Derived from Fetal and Adult Mammalian Cells",
+			"authors": [
+				{
+					"family": "Wilmut",
+					"given": "I."
+				},
+				{
+					"family": "Schnieke",
+					"given": "A. E."
+				},
+				{
+					"family": "McWhir",
+					"given": "J."
+				},
+				{
+					"family": "Kind",
+					"given": "A. J."
+				},
+				{
+					"family": "Campbell",
+					"given": "K. H. S."
+				}
+			],
+			"container": "Nature",
+			"volume": "385",
+			"issue": "6619",
+			"pages": "810–813",
+			"published": "1997-02",
+			"doi": "10.1038/385810a0",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Somatic Cell Nuclear Transfer: Origins, the Present Position and Future Opportunities",
+			"authors": [
+				{
+					"family": "Wilmut",
+					"given": "Ian"
+				},
+				{
+					"family": "Bai",
+					"given": "Yu"
+				},
+				{
+					"family": "Taylor",
+					"given": "Jane"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+			"volume": "370",
+			"issue": "1680",
+			"pages": "20140366",
+			"published": "2015-10-19",
+			"doi": "10.1098/rstb.2014.0366",
+			"accessed": "2026-10-06",
+			"key": true,
+			"note": "Wilmut’s own account of Megan, Morag and Dolly, her telomeres and her arthritis"
+		},
+		{
+			"kind": "article",
+			"title": "25th Anniversary of Cloning by Somatic-Cell Nuclear Transfer: Nuclear Transfer and the Development of Genetically Modified/Gene Edited Livestock",
+			"authors": [
+				{
+					"family": "Alberio",
+					"given": "Ramiro"
+				},
+				{
+					"family": "Wolf",
+					"given": "Eckhard"
+				}
+			],
+			"container": "Reproduction",
+			"volume": "162",
+			"issue": "1",
+			"pages": "F59–F68",
+			"published": "2021-06-11",
+			"doi": "10.1530/REP-21-0078",
+			"accessed": "2026-10-06",
+			"note": "277 nuclear transfers for one lamb"
+		},
+		{
+			"kind": "article",
+			"title": "Transplantation of Living Nuclei from Blastula Cells into Enucleated Frogs’ Eggs",
+			"authors": [
+				{
+					"family": "Briggs",
+					"given": "Robert"
+				},
+				{
+					"family": "King",
+					"given": "Thomas J."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences of the United States of America",
+			"volume": "38",
+			"issue": "5",
+			"pages": "455–463",
+			"published": "1952-05",
+			"doi": "10.1073/pnas.38.5.455",
+			"accessed": "2026-10-06",
+			"key": true,
+			"note": "Tables 1 and 2"
+		},
+		{
+			"kind": "article",
+			"title": "Sheep Cloned by Nuclear Transfer from a Cultured Cell Line",
+			"authors": [
+				{
+					"family": "Campbell",
+					"given": "K. H. S."
+				},
+				{
+					"family": "McWhir",
+					"given": "J."
+				},
+				{
+					"family": "Ritchie",
+					"given": "W. A."
+				},
+				{
+					"family": "Wilmut",
+					"given": "I."
+				}
+			],
+			"container": "Nature",
+			"volume": "380",
+			"issue": "6569",
+			"pages": "64–66",
+			"published": "1996-03",
+			"doi": "10.1038/380064a0",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Human Factor IX Transgenic Sheep Produced by Transfer of Nuclei from Transfected Fetal Fibroblasts",
+			"authors": [
+				{
+					"family": "Schnieke",
+					"given": "Angelika E."
+				},
+				{
+					"family": "Kind",
+					"given": "Alexander J."
+				},
+				{
+					"family": "Ritchie",
+					"given": "William A."
+				}
+			],
+			"container": "Science",
+			"volume": "278",
+			"issue": "5346",
+			"pages": "2130–2133",
+			"published": "1997-12-19",
+			"doi": "10.1126/science.278.5346.2130",
+			"accessed": "2026-10-06",
+			"etAl": true,
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Radiographic Assessment of the Skeletons of Dolly and Other Clones Finds No Abnormal Osteoarthritis",
+			"authors": [
+				{
+					"family": "Corr",
+					"given": "S. A."
+				},
+				{
+					"family": "Gardner",
+					"given": "D. S."
+				},
+				{
+					"family": "Langley-Hobbs",
+					"given": "S."
+				},
+				{
+					"family": "Ness",
+					"given": "M. G."
+				},
+				{
+					"family": "Kitchener",
+					"given": "A. C."
+				},
+				{
+					"family": "Sinclair",
+					"given": "K. D."
+				}
+			],
+			"container": "Scientific Reports",
+			"volume": "7",
+			"pages": "15685",
+			"published": "2017-11-23",
+			"doi": "10.1038/s41598-017-15902-8",
+			"accessed": "2026-10-06",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "Healthy Ageing of Cloned Sheep",
+			"authors": [
+				{
+					"family": "Sinclair",
+					"given": "K. D."
+				},
+				{
+					"family": "Corr",
+					"given": "S. A."
+				},
+				{
+					"family": "Gutierrez",
+					"given": "C. G."
+				}
+			],
+			"container": "Nature Communications",
+			"volume": "7",
+			"pages": "12359",
+			"published": "2016-07-26",
+			"doi": "10.1038/ncomms12359",
+			"accessed": "2026-10-06",
+			"etAl": true,
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Induction of Pluripotent Stem Cells from Mouse Embryonic and Adult Fibroblast Cultures by Defined Factors",
+			"authors": [
+				{
+					"family": "Takahashi",
+					"given": "Kazutoshi"
+				},
+				{
+					"family": "Yamanaka",
+					"given": "Shinya"
+				}
+			],
+			"container": "Cell",
+			"volume": "126",
+			"issue": "4",
+			"pages": "663–676",
+			"published": "2006-08",
+			"doi": "10.1016/j.cell.2006.07.024",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "Keith Campbell Obituary",
+			"authors": [
+				{
+					"family": "Wilmut",
+					"given": "Ian"
+				}
+			],
+			"container": "The Guardian",
+			"published": "2012-10-16",
+			"url": "https://www.theguardian.com/science/2012/oct/16/keith-campbell",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Physiology or Medicine 2012: Press Release",
+			"authors": [
+				{
+					"name": "Nobel Assembly at Karolinska Institutet"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "2012-10-08",
+			"url": "https://www.nobelprize.org/prizes/medicine/2012/press-release/",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "statute",
+			"title": "Human Reproductive Cloning Act 2001",
+			"code": {
+				"name": "c. 23"
+			},
+			"published": "2001-12-04",
+			"container": "legislation.gov.uk",
+			"publisher": "The National Archives",
+			"url": "https://www.legislation.gov.uk/ukpga/2001/23/enacted",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "I Didn’t Clone Dolly the Sheep, Says Prof",
+			"authors": [
+				{
+					"family": "Cramb",
+					"given": "Auslan"
+				}
+			],
+			"container": "The Telegraph",
+			"published": "2006-03-08",
+			"citedIn": "Ian Wilmut"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dolly (sheep)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dolly_(sheep)&oldid=1373207102",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ian Wilmut",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ian_Wilmut&oldid=1372012041",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Keith Campbell (biologist)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Keith_Campbell_(biologist)&oldid=1372253047",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Gurdon",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Gurdon&oldid=1374460306",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Induced pluripotent stem cell",
+			"url": "https://en.wikipedia.org/w/index.php?title=Induced_pluripotent_stem_cell&oldid=1375666877",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cloning",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cloning&oldid=1375293387",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Somatic cell nuclear transfer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Somatic_cell_nuclear_transfer&oldid=1371947911",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Human Reproductive Cloning Act 2001",
+			"url": "https://en.wikipedia.org/w/index.php?title=Human_Reproductive_Cloning_Act_2001&oldid=1367906098",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "United Nations Declaration on Human Cloning",
+			"url": "https://en.wikipedia.org/w/index.php?title=United_Nations_Declaration_on_Human_Cloning&oldid=1263389664",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-12-16"
+		},
+		{
+			"kind": "media",
+			"title": "Dolly the Sheep National Museum of Scotland",
+			"url": "https://commons.wikimedia.org/wiki/File:Dolly_the_Sheep_National_Museum_of_Scotland.jpg",
+			"accessed": "2026-10-06",
+			"licence": "CC BY-SA 4.0",
+			"file": "dolly.jpg",
+			"authors": [
+				{
+					"name": "Sgerbic"
+				}
+			],
+			"container": "National Museum of Scotland, Edinburgh",
+			"published": "2019-04-25"
+		}
+	],
+	"connections": [
+		{
+			"to": "blood/royal-hemophilia",
+			"why": "Polly, cloned at Roslin by the same method in 1997, carried the human gene for factor IX, the clotting protein whose lack is hemophilia B, the disease of Queen Victoria’s descendants."
+		}
+	]
+}

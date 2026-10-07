@@ -1,0 +1,182 @@
+{
+	"id": "cabinet",
+	"topic": "The cabinet of curiosities",
+	"position": {
+		"label": "1655",
+		"sort": 1655
+	},
+	"scene": {
+		"headline": "We put the world in a",
+		"accent": "CABINET.",
+		"palette": "herbarium",
+		"illustration": "scene.svg",
+		"metadata": ["COPENHAGEN · OLE WORM · MUSEUM WORMIANUM", "LEIDEN · ELZEVIER · 1655"],
+		"counter": {
+			"value": "8 ft",
+			"label": "the Royal Society's narwhal tusk, 1681"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/royal-society",
+			"why": "The Royal Society kept its own cabinet of rarities at Gresham College, cataloged in 1681 by Nehemiah Grew, Oldenburg's successor as secretary, who asked of Worm's unicorn-horn trials whether the dogs might have lived without the horn."
+		},
+		{
+			"to": "biology/gesner",
+			"why": "Gessner reported the pigeon test of unicorn horn and left it \"to the rich\"; Worm and an apothecary ran it on pigeons and kittens in 1636, with scrapings of a narwhal's tusk."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Museum Wormianum, seu Historia rerum rariorum, tam naturalium, quam artificialium, tam domesticarum, quam exoticarum",
+			"authors": [
+				{
+					"family": "Worm",
+					"given": "Ole"
+				}
+			],
+			"place": "Leiden",
+			"publisher": "Elzevier",
+			"published": "1655",
+			"language": "la",
+			"url": "https://archive.org/details/MuseumWormianum00Worm",
+			"accessed": "2026-10-06",
+			"note": "The narwhal is book III, chapter 14. Read in the Smithsonian Libraries' copy"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Musaeum Regalis Societatis, or A Catalogue & Description of the Natural and Artificial Rarities Belonging to the Royal Society and Preserved at Gresham Colledge",
+			"authors": [
+				{
+					"family": "Grew",
+					"given": "Nehemiah"
+				}
+			],
+			"place": "London",
+			"publisher": "W. Rawlins",
+			"published": "1681",
+			"url": "https://archive.org/details/musaeumregaliss00roya",
+			"accessed": "2026-10-06",
+			"note": "The sea-unicorn's horn is in part I, pp. 53–54"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cabinet of curiosities",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cabinet_of_curiosities&oldid=1369796678",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-17",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ole Worm",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ole_Worm&oldid=1372846030",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ferrante Imperato",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ferrante_Imperato&oldid=1355911000",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Narwhal",
+			"url": "https://en.wikipedia.org/w/index.php?title=Narwhal&oldid=1378639615",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nehemiah Grew",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nehemiah_Grew&oldid=1374797237",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hans Sloane",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hans_Sloane&oldid=1375534155",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Curiosity Cabinet of Ole Worm",
+			"url": "https://en.wikipedia.org/w/index.php?title=Curiosity_Cabinet_of_Ole_Worm&oldid=1373374994",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "media",
+			"title": "Musei Wormiani Historia",
+			"url": "https://archive.org/details/MuseumWormianum00Worm/page/n10",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "worm.jpg",
+			"note": "An engraving published in Leiden in 1655",
+			"engravers": [
+				{
+					"family": "Wingendorp",
+					"given": "G."
+				}
+			],
+			"container": "Frontispiece to Ole Worm, Museum Wormianum (Leiden: Elzevier, 1655); Smithsonian Libraries, via the Biodiversity Heritage Library",
+			"published": "1655"
+		}
+	]
+}

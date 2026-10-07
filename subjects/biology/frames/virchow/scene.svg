@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M20 212 L380 212"/>
+		<path pathLength="1" d="M200 26 L200 98"/>
+		<path pathLength="1" d="M44 172 L44 252"/>
+		<path pathLength="1" d="M122 172 L122 252"/>
+		<path pathLength="1" d="M200 172 L200 252"/>
+		<path pathLength="1" d="M278 172 L278 252"/>
+		<path pathLength="1" d="M356 172 L356 252"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M200 49 L150 67"/>
+		<path pathLength="1" d="M200 49 L250 67"/>
+		<path pathLength="1" d="M150 85 L122 107"/>
+		<path pathLength="1" d="M150 85 L178 107"/>
+		<path pathLength="1" d="M250 85 L222 107"/>
+		<path pathLength="1" d="M250 85 L278 107"/>
+		<path pathLength="1" d="M191 40 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M141 76 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M241 76 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M113 116 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M169 116 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M213 116 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M269 116 a9 9 0 1 0 18 0 a9 9 0 1 0 -18 0"/>
+		<path pathLength="1" d="M14 212 a30 30 0 1 0 60 0 a30 30 0 1 0 -60 0"/>
+		<path pathLength="1" d="M89.6 212 a32.4 30 0 1 0 64.8 0 a32.4 30 0 1 0 -64.8 0"/>
+		<path pathLength="1" d="M165.2 212 a34.8 30 0 1 0 69.6 0 a34.8 30 0 1 0 -69.6 0"/>
+		<path pathLength="1" d="M240.8 212 a37.2 30 0 1 0 74.4 0 a37.2 30 0 1 0 -74.4 0"/>
+		<path pathLength="1" d="M354,182 C316,180 316,244 354,242 C350,220 350,204 354,182"/>
+		<path pathLength="1" d="M358,182 C396,180 396,244 358,242 C362,220 362,204 358,182"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M197 40 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M147 76 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M247 76 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M119 116 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M175 116 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M219 116 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M275 116 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M29 212 a15 15 0 1 0 30 0 a15 15 0 1 0 -30 0"/>
+		<path pathLength="1" d="M43 219.4 L40.3 215.3 L38.7 210.5 L33.7 209.8 L38.7 209.6 L42.3 213.1"/>
+		<path pathLength="1" d="M39.7 205.9 L39.6 200.9 L43.7 203.8 L42.9 208.7 L44.2 213.6 L48.6 215.9"/>
+		<path pathLength="1" d="M51.3 213.6 L47.1 216.2 L42.2 217.2 L40.9 222.1 L40.9 217.1 L44.7 213.8"/>
+		<path pathLength="1" d="M37.5 215.8 L32.6 215.1 L35.7 211.2 L40.6 212.3 L45.6 211.7 L48.2 207.5"/>
+		<path pathLength="1" d="M46.2 204.8 L48.7 209.2 L49.2 214.1 L53.8 216 L48.8 215.9 L45.9 211.8"/>
+		<path pathLength="1" d="M47.2 218.8 L45.9 223.6 L42.2 220.2 L43.4 215.4 L43.6 210.4 L39.7 207.3"/>
+		<path pathLength="1" d="M105 212 a17 17 0 1 0 34 0 a17 17 0 1 0 -34 0"/>
+		<path pathLength="1" d="M113.8 209.8 L118.4 208 L120.5 203.4 L120.1 198.4 L118.3 203.1 L117.3 208 L120.8 211.6 L120.6 216.6 L118.4 221 L121.3 225.1 L117.1 222.3"/>
+		<path pathLength="1" d="M129.5 208 L134.5 208 L129.5 207.6 L125.5 204.6 L121 206.7 L116.2 208.1 L112.4 204.9 L116.1 201.6 L117.4 206.5 L113.7 209.8 L110.8 213.9"/>
+		<path pathLength="1" d="M119.1 220 L117.8 215.2 L113.8 212.3 L108.8 212.1 L113.2 214.4 L117.9 216.2 L121.9 213.2 L126.9 213.8 L130.9 216.8 L135.4 214.6 L132.3 218.5"/>
+		<path pathLength="1" d="M118.7 204.2 L119 199.2 L118.6 204.2 L115.4 208 L117.1 212.7 L118.6 217.4 L115.3 221.2 L112.3 217.1 L117.2 215.9 L120.5 219.7 L124.4 222.9"/>
+		<path pathLength="1" d="M129.7 215.5 L124.8 216.3 L121.2 219.7 L120.5 224.7 L123.1 220.5 L125.7 216.2 L123.4 211.8 L124.3 206.9 L127.9 203.3 L126.5 198.5 L130.1 202"/>
+		<path pathLength="1" d="M113.9 214.6 L108.9 214 L113.9 214.4 L117.6 217.8 L122.4 216.5 L127.1 215 L130.8 218.4 L126.5 220.9 L124.5 225.5 L119.5 226 L123.1 222.5"/>
+		<path pathLength="1" d="M126.2 204.6 L126.4 209.6 L129.1 213.8 L134 215 L130 212.1 L126.2 208.8 L121.5 210.5 L116.7 209.2 L113.7 205.1 L117.4 201.8 L121.1 198.4"/>
+		<path pathLength="1" d="M194 192 L200 194 L194 196"/>
+		<path pathLength="1" d="M206 192 L200 194 L206 196"/>
+		<path pathLength="1" d="M194 196.5 L200 198.5 L194 200.5"/>
+		<path pathLength="1" d="M206 196.5 L200 198.5 L206 200.5"/>
+		<path pathLength="1" d="M194 201 L200 203 L194 205"/>
+		<path pathLength="1" d="M206 201 L200 203 L206 205"/>
+		<path pathLength="1" d="M194 205.5 L200 207.5 L194 209.5"/>
+		<path pathLength="1" d="M206 205.5 L200 207.5 L206 209.5"/>
+		<path pathLength="1" d="M194 210 L200 212 L194 214"/>
+		<path pathLength="1" d="M206 210 L200 212 L206 214"/>
+		<path pathLength="1" d="M194 214.5 L200 216.5 L194 218.5"/>
+		<path pathLength="1" d="M206 214.5 L200 216.5 L206 218.5"/>
+		<path pathLength="1" d="M194 219 L200 221 L194 223"/>
+		<path pathLength="1" d="M206 219 L200 221 L206 223"/>
+		<path pathLength="1" d="M194 223.5 L200 225.5 L194 227.5"/>
+		<path pathLength="1" d="M206 223.5 L200 225.5 L206 227.5"/>
+		<path pathLength="1" d="M194 228 L200 230 L194 232"/>
+		<path pathLength="1" d="M206 228 L200 230 L206 232"/>
+		<path pathLength="1" d="M174.2 212 a1.8 1.8 0 1 0 3.6 0 a1.8 1.8 0 1 0 -3.6 0"/>
+		<path pathLength="1" d="M246.2 212 a1.8 1.8 0 1 0 3.6 0 a1.8 1.8 0 1 0 -3.6 0"/>
+		<path pathLength="1" d="M176 212 L196 196"/>
+		<path pathLength="1" d="M176 212 L196 204"/>
+		<path pathLength="1" d="M176 212 L196 212"/>
+		<path pathLength="1" d="M176 212 L196 220"/>
+		<path pathLength="1" d="M176 212 L196 228"/>
+		<path pathLength="1" d="M222.2 212 a1.8 1.8 0 1 0 3.6 0 a1.8 1.8 0 1 0 -3.6 0"/>
+		<path pathLength="1" d="M306.2 212 a1.8 1.8 0 1 0 3.6 0 a1.8 1.8 0 1 0 -3.6 0"/>
+		<path pathLength="1" d="M224 212 L204 196"/>
+		<path pathLength="1" d="M224 212 L204 204"/>
+		<path pathLength="1" d="M224 212 L204 212"/>
+		<path pathLength="1" d="M224 212 L204 220"/>
+		<path pathLength="1" d="M224 212 L204 228"/>
+		<path pathLength="1" d="M262 200 L254 207.2"/>
+		<path pathLength="1" d="M262 204.8 L254 209.1"/>
+		<path pathLength="1" d="M262 209.6 L254 211"/>
+		<path pathLength="1" d="M262 214.4 L254 213"/>
+		<path pathLength="1" d="M262 219.2 L254 214.9"/>
+		<path pathLength="1" d="M262 224 L254 216.8"/>
+		<path pathLength="1" d="M294 200 L302 207.2"/>
+		<path pathLength="1" d="M294 204.8 L302 209.1"/>
+		<path pathLength="1" d="M294 209.6 L302 211"/>
+		<path pathLength="1" d="M294 214.4 L302 213"/>
+		<path pathLength="1" d="M294 219.2 L302 214.9"/>
+		<path pathLength="1" d="M294 224 L302 216.8"/>
+		<path pathLength="1" d="M328 212 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0"/>
+		<path pathLength="1" d="M342.3 214.5 L338.1 211.8 L333.2 211.1 L337.2 214 L342 215.5 L346.1 212.8"/>
+		<path pathLength="1" d="M333.1 213.1 L335.5 208.7 L339.6 205.9 L343.1 209.5 L345.5 213.8 L343.5 218.4"/>
+		<path pathLength="1" d="M340.8 207.9 L337.6 211.7 L336.6 216.6 L339.7 212.7 L341.9 208.2 L339.5 203.8"/>
+		<path pathLength="1" d="M338.7 217 L334.4 214.4 L331.9 210.1 L335.9 207.1 L340.3 204.7 L344.7 207.1"/>
+		<path pathLength="1" d="M364 212 a10 10 0 1 0 20 0 a10 10 0 1 0 -20 0"/>
+		<path pathLength="1" d="M370.4 208.5 L372.4 203.9 L368.5 207.1 L366.3 211.6 L368.1 216.2 L367.8 211.3"/>
+		<path pathLength="1" d="M379 212.2 L377.5 216.9 L372.5 216.1 L368.2 213.7 L367.2 208.8 L372.2 207.9"/>
+		<path pathLength="1" d="M370.2 215.3 L375.1 214.1 L378.3 217.9 L373.3 218.3 L373.2 213.3 L377 210.1"/>
+		<path pathLength="1" d="M374.6 207 L379 209.4 L377.4 214.1 L374.6 218.2 L369.6 218.5 L369.7 213.5"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="44" y="264" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RESTING</text>
+		<text x="122" y="264" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SKEIN</text>
+		<text x="200" y="264" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EQUATOR</text>
+		<text x="278" y="264" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">APART</text>
+		<text x="356" y="264" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TWO CELLS</text>
+		<text x="318" y="44" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ONE</text>
+		<text x="318" y="80" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TWO</text>
+		<text x="318" y="120" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FOUR</text>
+		<text x="200" y="290" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OMNIS CELLULA E CELLULA · DIVISION AS FLEMMING DREW IT, 1882</text>
+	</g>
+</svg>

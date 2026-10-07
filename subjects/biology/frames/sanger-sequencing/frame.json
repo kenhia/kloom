@@ -1,0 +1,259 @@
+{
+	"id": "sanger-sequencing",
+	"topic": "Sanger sequencing",
+	"position": {
+		"label": "1977",
+		"sort": 1977
+	},
+	"scene": {
+		"headline": "We read the",
+		"accent": "LADDER.",
+		"palette": "gel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAMBRIDGE · MRC LABORATORY OF MOLECULAR BIOLOGY",
+			"SANGER · NICKLEN · COULSON · PNAS, DECEMBER 1977"
+		],
+		"counter": {
+			"value": "5,386",
+			"label": "bases in the first genome read"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/protein-structure",
+			"why": "Sanger read insulin's 51 amino acids by breaking the chains into overlapping pieces; twenty years later he asked the same question of DNA and answered it by stopping copies instead of breaking chains."
+		},
+		{
+			"to": "chemistry/alphafold",
+			"why": "AlphaFold reads a protein's shape from an alignment of related sequences across many species; the library it learns from was built gene by gene with this method, which read most of the DNA sequenced anywhere for thirty years."
+		},
+		{
+			"to": "biology/human-genome",
+			"why": "Sanger's chain-terminating method, automated with four colored dyes, ran the sequencing machines of the 1990s and read all of the first human genome; the Sanger Centre near Cambridge was one of the project's largest."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "DNA sequencing with chain-terminating inhibitors",
+			"authors": [
+				{
+					"family": "Sanger",
+					"given": "F."
+				},
+				{
+					"family": "Nicklen",
+					"given": "S."
+				},
+				{
+					"family": "Coulson",
+					"given": "A. R."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "74",
+			"issue": "12",
+			"pages": "5463–5467",
+			"published": "1977-12",
+			"doi": "10.1073/pnas.74.12.5463",
+			"accessed": "2026-10-06",
+			"note": "Its read lengths and its warning against a single result are in the discussion"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Determination of Nucleotide Sequences in DNA",
+			"authors": [
+				{
+					"family": "Sanger",
+					"given": "Frederick"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1980-12-08",
+			"url": "https://www.nobelprize.org/uploads/2018/06/sanger-lecture-1.pdf",
+			"accessed": "2026-10-06",
+			"note": "His Nobel lecture: the method's principle, and the overlapping genes of ΦX174"
+		},
+		{
+			"kind": "article",
+			"title": "Nucleotide sequence of bacteriophage φX174 DNA",
+			"authors": [
+				{
+					"family": "Sanger",
+					"given": "F."
+				},
+				{
+					"family": "Air",
+					"given": "G. M."
+				},
+				{
+					"family": "Barrell",
+					"given": "B. G."
+				},
+				{
+					"family": "Brown",
+					"given": "N. L."
+				},
+				{
+					"family": "Coulson",
+					"given": "A. R."
+				},
+				{
+					"family": "Fiddes",
+					"given": "J. C."
+				},
+				{
+					"family": "Hutchison",
+					"given": "C. A., III"
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "265",
+			"pages": "687–695",
+			"published": "1977-02",
+			"doi": "10.1038/265687a0",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A new method for sequencing DNA",
+			"authors": [
+				{
+					"family": "Maxam",
+					"given": "Allan M."
+				},
+				{
+					"family": "Gilbert",
+					"given": "Walter"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "74",
+			"issue": "2",
+			"pages": "560–564",
+			"published": "1977-02",
+			"doi": "10.1073/pnas.74.2.560",
+			"accessed": "2026-10-06",
+			"read": "abstract",
+			"note": "The chemical method, published ten months before the dideoxy one"
+		},
+		{
+			"kind": "article",
+			"title": "Fluorescence detection in automated DNA sequence analysis",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Lloyd M."
+				},
+				{
+					"family": "Sanders",
+					"given": "Jane Z."
+				},
+				{
+					"family": "Kaiser",
+					"given": "Robert J."
+				},
+				{
+					"family": "Hughes",
+					"given": "Peter"
+				},
+				{
+					"family": "Dodd",
+					"given": "Chris"
+				},
+				{
+					"family": "Connell",
+					"given": "Charles R."
+				},
+				{
+					"family": "Heiner",
+					"given": "Cheryl"
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "321",
+			"issue": "6071",
+			"pages": "674–679",
+			"published": "1986-06",
+			"doi": "10.1038/321674a0",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "The Chemistry of Insulin",
+			"authors": [
+				{
+					"family": "Sanger",
+					"given": "Frederick"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1958-12-11",
+			"url": "https://www.nobelprize.org/uploads/2018/06/sanger-lecture.pdf",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "The Nobel Prize in Chemistry 1980: Press release",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1980-10-21",
+			"url": "https://www.nobelprize.org/prizes/chemistry/1980/press-release/",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Sanger sequencing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sanger_sequencing&oldid=1369117485",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-13",
+			"note": "The dye-terminator and capillary machines that followed"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frederick Sanger",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frederick_Sanger&oldid=1373608640",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phi X 174",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phi_X_174&oldid=1374402859",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		}
+	]
+}

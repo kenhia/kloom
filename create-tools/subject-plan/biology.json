@@ -1,0 +1,674 @@
+{
+	"spine": {
+		"segments": [
+			{
+				"id": "naming",
+				"title": "Naming and ordering life",
+				"labelKind": "date",
+				"palette": "herbarium",
+				"frames": [
+					"aristotle-animals",
+					"theophrastus",
+					"herbals",
+					"gesner",
+					"cabinet",
+					"ray-species",
+					"linnaeus"
+				]
+			},
+			{
+				"id": "seeing-small",
+				"title": "Seeing small",
+				"labelKind": "date",
+				"palette": "stain",
+				"frames": [
+					"hooke-cells",
+					"redi-flies",
+					"leeuwenhoek-animalcules",
+					"achromatic-microscope",
+					"cell-theory",
+					"virchow",
+					"swan-neck-flask",
+					"neuron-doctrine"
+				]
+			},
+			{
+				"id": "deep-time",
+				"title": "Deep time and change",
+				"labelKind": "date",
+				"palette": "strata",
+				"frames": [
+					"steno-fossils",
+					"cuvier-extinction",
+					"lamarck",
+					"mary-anning",
+					"lyell",
+					"darwin-wallace",
+					"origin-of-species",
+					"oxford-1860"
+				]
+			},
+			{
+				"id": "inheritance",
+				"title": "Inheritance",
+				"labelKind": "date",
+				"palette": "garden",
+				"frames": [
+					"mendel-peas",
+					"rediscovery",
+					"hardy-weinberg",
+					"fly-room",
+					"modern-synthesis",
+					"beadle-tatum",
+					"mcclintock"
+				]
+			},
+			{
+				"id": "molecule",
+				"title": "The molecule",
+				"labelKind": "date",
+				"palette": "helix",
+				"frames": [
+					"griffith",
+					"avery",
+					"hershey-chase",
+					"photo-51",
+					"meselson-stahl",
+					"genetic-code",
+					"lac-operon"
+				]
+			},
+			{
+				"id": "reading-writing",
+				"title": "Reading and writing life",
+				"labelKind": "date",
+				"palette": "gel",
+				"frames": [
+					"recombinant-dna",
+					"asilomar",
+					"sanger-sequencing",
+					"woese-archaea",
+					"dolly",
+					"human-genome",
+					"neanderthal-genome",
+					"crispr"
+				]
+			},
+			{
+				"id": "ecology",
+				"title": "Ecology and the whole",
+				"labelKind": "date",
+				"palette": "canopy",
+				"frames": [
+					"humboldt",
+					"haeckel-ecology",
+					"predator-prey",
+					"food-chain",
+					"silent-spring",
+					"island-biogeography",
+					"biodiversity-now"
+				]
+			}
+		]
+	},
+	"trails": [
+		{
+			"id": "germ-theory",
+			"title": "Germ theory",
+			"anchor": "swan-neck-flask",
+			"spine": {
+				"segments": [
+					{
+						"id": "germ-seg",
+						"title": "Seeds of disease",
+						"labelKind": "date",
+						"palette": "stain",
+						"frames": ["fracastoro", "snow-pump", "koch-postulates", "ross-malaria", "virus"]
+					}
+				]
+			}
+		},
+		{
+			"id": "beagle",
+			"title": "The Beagle",
+			"anchor": "origin-of-species",
+			"spine": {
+				"segments": [
+					{
+						"id": "beagle-seg",
+						"title": "Port by port",
+						"labelKind": "date",
+						"palette": "ocean",
+						"frames": [
+							"beagle-voyage",
+							"patagonia-fossils",
+							"galapagos",
+							"coral-reefs",
+							"notebook-b"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "wrong",
+			"title": "What we got wrong",
+			"anchor": "mendel-peas",
+			"spine": {
+				"segments": [
+					{
+						"id": "wrong-seg",
+						"title": "Ideas that failed",
+						"labelKind": "date",
+						"palette": "garden",
+						"frames": ["preformation", "pangenesis", "piltdown", "eugenics", "lysenko"]
+					}
+				]
+			}
+		}
+	],
+	"owners": {
+		"historia-animalium-gessner-book": "name1",
+		"species": "name2",
+		"taxonomy-biology": "name2",
+		"binomial-nomenclature": "name2",
+		"systema-naturae": "name2",
+		"john-ray": "name2",
+		"linnean-society-of-london": "name2",
+		"uppsala-university": "name2",
+		"microscope": "small1",
+		"cell-biology": "small1",
+		"bacteria": "small1",
+		"spontaneous-generation": "small1",
+		"francesco-redi": "small1",
+		"micrographia": "small1",
+		"lazzaro-spallanzani": "small3",
+		"cell-theory": "small2",
+		"theodor-schwann": "small2",
+		"matthias-jakob-schleiden": "small2",
+		"rudolf-virchow": "small2",
+		"cell-nucleus": "small2",
+		"joseph-jackson-lister": "small2",
+		"staining": "small3",
+		"pasteur-institute": "small3",
+		"anthrax": "germ1",
+		"mycobacterium-tuberculosis": "germ1",
+		"john-snow": "germ1",
+		"virus": "germ2",
+		"bacteriophage": "germ2",
+		"martinus-beijerinck": "germ2",
+		"tobacco-mosaic-virus": "germ2",
+		"fossil": "time1",
+		"extinction": "time1",
+		"nicolas-steno": "time1",
+		"jean-baptiste-lamarck": "time1",
+		"lamarckism": "time1",
+		"national-museum-of-natural-history-france": "time1",
+		"charles-lyell": "time2",
+		"mary-anning": "time2",
+		"natural-selection": "time3",
+		"evolution": "time3",
+		"on-the-origin-of-species": "time3",
+		"thomas-henry-huxley": "time3",
+		"joseph-dalton-hooker": "time3",
+		"richard-owen": "time3",
+		"hms-beagle": "time3",
+		"galapagos-islands": "time3",
+		"asa-gray": "time3",
+		"alexander-von-humboldt": "beagle1",
+		"robert-fitzroy": "beagle1",
+		"john-stevens-henslow": "beagle1",
+		"tree-of-life-biology": "beagle2",
+		"gregor-mendel": "herit1",
+		"gene": "herit1",
+		"chromosome": "herit1",
+		"mutation": "herit1",
+		"hugo-de-vries": "herit1",
+		"william-bateson": "herit1",
+		"population-genetics": "herit1",
+		"thomas-hunt-morgan": "herit2",
+		"drosophila-melanogaster": "herit2",
+		"modern-synthesis-20th-century": "herit2",
+		"theodosius-dobzhansky": "herit2",
+		"protein": "herit3",
+		"cold-spring-harbor-laboratory": "herit3",
+		"barbara-mcclintock": "herit3",
+		"eugenics": "wrong2",
+		"nikolai-vavilov": "wrong2",
+		"escherichia-coli": "mol1",
+		"streptococcus-pneumoniae": "mol1",
+		"alfred-hershey": "mol1",
+		"max-delbruck": "mol1",
+		"maurice-wilkins": "mol2",
+		"rna": "mol3",
+		"messenger-rna": "mol3",
+		"genetic-code": "mol3",
+		"jacques-monod": "mol3",
+		"francois-jacob": "mol3",
+		"plasmid": "read1",
+		"restriction-enzyme": "read1",
+		"paul-berg": "read1",
+		"ribosomal-rna": "read2",
+		"archaea": "read2",
+		"human-genome-project": "read2",
+		"cloning": "read2",
+		"ancient-dna": "read3",
+		"svante-paabo": "read3",
+		"crispr": "read3",
+		"jennifer-doudna": "read3",
+		"ernst-haeckel": "eco1",
+		"ecology": "eco1",
+		"vito-volterra": "eco1",
+		"alfred-j-lotka": "eco1",
+		"ecosystem": "eco2",
+		"food-chain": "eco2",
+		"rachel-carson": "eco2",
+		"ddt": "eco2",
+		"biodiversity": "eco3",
+		"e-o-wilson": "eco3"
+	},
+	"frames": {
+		"aristotle-animals": {
+			"topic": "Aristotle's History of Animals",
+			"palette": "herbarium",
+			"sort": -345,
+			"part": "hand"
+		},
+		"theophrastus": {
+			"topic": "Theophrastus's Enquiry into Plants",
+			"palette": "herbarium",
+			"sort": -300,
+			"part": "hand"
+		},
+		"herbals": {
+			"topic": "The printed herbals",
+			"palette": "herbarium",
+			"sort": 1542,
+			"part": "hand"
+		},
+		"gesner": {
+			"topic": "Gessner's History of Animals",
+			"palette": "herbarium",
+			"sort": 1551,
+			"part": "name1"
+		},
+		"cabinet": {
+			"topic": "The cabinet of curiosities",
+			"palette": "herbarium",
+			"sort": 1655,
+			"part": "name1"
+		},
+		"ray-species": {
+			"topic": "John Ray and the species",
+			"palette": "herbarium",
+			"sort": 1686,
+			"part": "name2"
+		},
+		"linnaeus": {
+			"topic": "Linnaeus and two-part names",
+			"palette": "herbarium",
+			"sort": 1753,
+			"part": "name2"
+		},
+		"hooke-cells": {
+			"topic": "Hooke's Micrographia and the cell",
+			"palette": "stain",
+			"sort": 1665,
+			"part": "small1"
+		},
+		"redi-flies": {
+			"topic": "Redi's flies and spontaneous generation",
+			"palette": "stain",
+			"sort": 1668,
+			"part": "small1"
+		},
+		"leeuwenhoek-animalcules": {
+			"topic": "Leeuwenhoek's animalcules",
+			"palette": "stain",
+			"sort": 1676,
+			"part": "small1"
+		},
+		"achromatic-microscope": {
+			"topic": "The achromatic microscope",
+			"palette": "stain",
+			"sort": 1830,
+			"part": "small2"
+		},
+		"cell-theory": {
+			"topic": "Schleiden, Schwann and cell theory",
+			"palette": "stain",
+			"sort": 1839,
+			"part": "small2"
+		},
+		"virchow": {
+			"topic": "Virchow: every cell from a cell",
+			"palette": "stain",
+			"sort": 1858,
+			"part": "small2"
+		},
+		"swan-neck-flask": {
+			"topic": "Pasteur's swan-neck flasks",
+			"palette": "stain",
+			"sort": 1862,
+			"part": "small3"
+		},
+		"neuron-doctrine": {
+			"topic": "Cajal and the neuron",
+			"palette": "stain",
+			"sort": 1888,
+			"part": "small3"
+		},
+		"steno-fossils": {
+			"topic": "Steno and the tongue stones",
+			"palette": "strata",
+			"sort": 1667,
+			"part": "time1"
+		},
+		"cuvier-extinction": {
+			"topic": "Cuvier and extinction",
+			"palette": "strata",
+			"sort": 1796,
+			"part": "time1"
+		},
+		"lamarck": {
+			"topic": "Lamarck's transformism",
+			"palette": "strata",
+			"sort": 1809,
+			"part": "time1"
+		},
+		"mary-anning": {
+			"topic": "Mary Anning's sea dragons",
+			"palette": "strata",
+			"sort": 1823,
+			"part": "time2"
+		},
+		"lyell": {
+			"topic": "Lyell's Principles of Geology",
+			"palette": "strata",
+			"sort": 1830,
+			"part": "time2"
+		},
+		"darwin-wallace": {
+			"topic": "Darwin, Wallace and the 1858 papers",
+			"palette": "strata",
+			"sort": 1858,
+			"part": "time3"
+		},
+		"origin-of-species": {
+			"topic": "On the Origin of Species",
+			"palette": "strata",
+			"sort": 1859,
+			"part": "time3"
+		},
+		"oxford-1860": {
+			"topic": "The Oxford debate and Darwin's critics",
+			"palette": "strata",
+			"sort": 1860,
+			"part": "time3"
+		},
+		"mendel-peas": {
+			"topic": "Mendel's peas",
+			"palette": "garden",
+			"sort": 1866,
+			"part": "herit1"
+		},
+		"rediscovery": {
+			"topic": "Mendel rediscovered",
+			"palette": "garden",
+			"sort": 1900,
+			"part": "herit1"
+		},
+		"hardy-weinberg": {
+			"topic": "The Hardy–Weinberg principle",
+			"palette": "garden",
+			"sort": 1908,
+			"part": "herit1"
+		},
+		"fly-room": {
+			"topic": "Morgan's fly room and the first map",
+			"palette": "garden",
+			"sort": 1910,
+			"part": "herit2"
+		},
+		"modern-synthesis": {
+			"topic": "The modern synthesis",
+			"palette": "garden",
+			"sort": 1937,
+			"part": "herit2"
+		},
+		"beadle-tatum": {
+			"topic": "One gene, one enzyme",
+			"palette": "garden",
+			"sort": 1941,
+			"part": "herit3"
+		},
+		"mcclintock": {
+			"topic": "McClintock's jumping genes",
+			"palette": "garden",
+			"sort": 1950,
+			"part": "herit3"
+		},
+		"griffith": {
+			"topic": "Griffith's transforming principle",
+			"palette": "helix",
+			"sort": 1928,
+			"part": "mol1"
+		},
+		"avery": {
+			"topic": "Avery: genes are DNA",
+			"palette": "helix",
+			"sort": 1944,
+			"part": "mol1"
+		},
+		"hershey-chase": {
+			"topic": "The Hershey–Chase experiment",
+			"palette": "helix",
+			"sort": 1952,
+			"part": "mol1"
+		},
+		"photo-51": {
+			"topic": "Franklin, Gosling and Photo 51",
+			"palette": "helix",
+			"sort": 1952,
+			"part": "mol2"
+		},
+		"meselson-stahl": {
+			"topic": "The Meselson–Stahl experiment",
+			"palette": "helix",
+			"sort": 1958,
+			"part": "mol2"
+		},
+		"genetic-code": {
+			"topic": "Cracking the genetic code",
+			"palette": "helix",
+			"sort": 1961,
+			"part": "mol3"
+		},
+		"lac-operon": {
+			"topic": "Jacob, Monod and the lac operon",
+			"palette": "helix",
+			"sort": 1961,
+			"part": "mol3"
+		},
+		"recombinant-dna": {
+			"topic": "Recombinant DNA",
+			"palette": "gel",
+			"sort": 1973,
+			"part": "read1"
+		},
+		"asilomar": {
+			"topic": "The Asilomar conference",
+			"palette": "gel",
+			"sort": 1975,
+			"part": "read1"
+		},
+		"sanger-sequencing": {
+			"topic": "Sanger sequencing",
+			"palette": "gel",
+			"sort": 1977,
+			"part": "read1"
+		},
+		"woese-archaea": {
+			"topic": "Woese and the three domains",
+			"palette": "gel",
+			"sort": 1977,
+			"part": "read2"
+		},
+		"dolly": {
+			"topic": "Dolly the sheep",
+			"palette": "gel",
+			"sort": 1996,
+			"part": "read2"
+		},
+		"human-genome": {
+			"topic": "The Human Genome Project",
+			"palette": "gel",
+			"sort": 2001,
+			"part": "read2"
+		},
+		"neanderthal-genome": {
+			"topic": "Ancient DNA and the Neanderthal genome",
+			"palette": "gel",
+			"sort": 2010,
+			"part": "read3"
+		},
+		"crispr": {
+			"topic": "CRISPR gene editing",
+			"palette": "gel",
+			"sort": 2012,
+			"part": "read3"
+		},
+		"humboldt": {
+			"topic": "Humboldt's web of nature",
+			"palette": "canopy",
+			"sort": 1807,
+			"part": "eco1"
+		},
+		"haeckel-ecology": {
+			"topic": "Haeckel names ecology",
+			"palette": "canopy",
+			"sort": 1866,
+			"part": "eco1"
+		},
+		"predator-prey": {
+			"topic": "Lotka, Volterra and predator and prey",
+			"palette": "canopy",
+			"sort": 1926,
+			"part": "eco1"
+		},
+		"food-chain": {
+			"topic": "Elton's food chains",
+			"palette": "canopy",
+			"sort": 1927,
+			"part": "eco2"
+		},
+		"silent-spring": {
+			"topic": "Silent Spring",
+			"palette": "canopy",
+			"sort": 1962,
+			"part": "eco2"
+		},
+		"island-biogeography": {
+			"topic": "The theory of island biogeography",
+			"palette": "canopy",
+			"sort": 1967,
+			"part": "eco3"
+		},
+		"biodiversity-now": {
+			"topic": "The biodiversity crisis",
+			"palette": "canopy",
+			"sort": 2026,
+			"part": "eco3"
+		},
+		"fracastoro": {
+			"topic": "Fracastoro's seeds of contagion",
+			"palette": "stain",
+			"sort": 1546,
+			"part": "germ1"
+		},
+		"snow-pump": {
+			"topic": "John Snow and the Broad Street pump",
+			"palette": "stain",
+			"sort": 1854,
+			"part": "germ1"
+		},
+		"koch-postulates": {
+			"topic": "Koch's postulates",
+			"palette": "stain",
+			"sort": 1882,
+			"part": "germ1"
+		},
+		"ross-malaria": {
+			"topic": "Ross and the malaria mosquito",
+			"palette": "stain",
+			"sort": 1897,
+			"part": "germ2"
+		},
+		"virus": {
+			"topic": "The discovery of viruses",
+			"palette": "stain",
+			"sort": 1898,
+			"part": "germ2"
+		},
+		"beagle-voyage": {
+			"topic": "The voyage of the Beagle",
+			"palette": "ocean",
+			"sort": 1831,
+			"part": "beagle1"
+		},
+		"patagonia-fossils": {
+			"topic": "Darwin's fossils at Punta Alta",
+			"palette": "ocean",
+			"sort": 1832,
+			"part": "beagle1"
+		},
+		"galapagos": {
+			"topic": "The Galápagos mockingbirds",
+			"palette": "ocean",
+			"sort": 1835,
+			"part": "beagle1"
+		},
+		"coral-reefs": {
+			"topic": "Darwin's theory of coral reefs",
+			"palette": "ocean",
+			"sort": 1836,
+			"part": "beagle2"
+		},
+		"notebook-b": {
+			"topic": "Notebook B and the tree of life",
+			"palette": "ocean",
+			"sort": 1837,
+			"part": "beagle2"
+		},
+		"preformation": {
+			"topic": "Preformation and the homunculus",
+			"palette": "garden",
+			"sort": 1694,
+			"part": "wrong1"
+		},
+		"pangenesis": {
+			"topic": "Darwin's pangenesis",
+			"palette": "garden",
+			"sort": 1868,
+			"part": "wrong1"
+		},
+		"piltdown": {
+			"topic": "The Piltdown forgery",
+			"palette": "garden",
+			"sort": 1912,
+			"part": "wrong1"
+		},
+		"eugenics": {
+			"topic": "Eugenics and forced sterilization",
+			"palette": "garden",
+			"sort": 1927,
+			"part": "wrong2"
+		},
+		"lysenko": {
+			"topic": "Lysenko and Soviet biology",
+			"palette": "garden",
+			"sort": 1948,
+			"part": "wrong2"
+		}
+	}
+}

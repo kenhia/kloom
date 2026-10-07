@@ -659,7 +659,12 @@ def mark_spec(args):
     # A mark on a name no file holds fails the gate; say so here, not at vitest (sprint 021).
     registry = {f.stem: f for f in Path(args.names).glob('*.json')} if Path(args.names).is_dir() else {}
     drafted = {f.stem: f for d in args.drafts if Path(d).is_dir() for f in Path(d).glob('*.json')}
-    known = set(registry) | set(drafted)
+    # A draft still without its kind or description, as `lookup --write-draft` leaves it, is not a
+    # name yet: the checking copy (`subject_plan.py --complete`) leaves it out, and the two tools
+    # disagreed for five of sprint 055's authors.
+    unfinished = {stem for stem, f in drafted.items() if stem not in registry and any(
+        k in d and not d[k] for d in [json.loads(f.read_text())] for k in ('kind', 'description'))}
+    known = set(registry) | (set(drafted) - unfinished)
     # Name the stale drafts these specs mark; count the rest. Passing other authors' drafts
     # printed dozens of their names, which buried this author's own (sprint 028, four authors).
     marked = {pair[1] for p in args.spec for pairs in json.loads(Path(p).read_text()).values() for pair in pairs}
@@ -673,17 +678,20 @@ def mark_spec(args):
         print(f'note: {others} other drafts passed with --drafts are already in the registry; '
               'they are not marked by these specs', file=sys.stderr)
     for spec_path in args.spec:
-        failed += mark_one(args, Path(spec_path), known)
+        failed += mark_one(args, Path(spec_path), known, unfinished)
     return 1 if failed else 0
 
 
-def mark_one(args, spec_path, known):
+def mark_one(args, spec_path, known, unfinished=frozenset()):
     """One spec's marks; returns how many problems it found."""
     failed = 0
     for ref, pairs in json.loads(spec_path.read_text()).items():
         unknown = [name for _, name in pairs if name not in known]
         for name in unknown:
-            print(f'{ref}: {name} is not in the registry or a draft', file=sys.stderr)
+            if name in unfinished:
+                print(f'{ref}: {name} is drafted but unfinished (no kind or description yet)', file=sys.stderr)
+            else:
+                print(f'{ref}: {name} is not in the registry or a draft', file=sys.stderr)
             failed += 1
         path = Path(args.root) / ref.split('/')[0] / 'frames' / ref.split('/')[1] / 'reading.md'
         if not path.exists():

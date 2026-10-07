@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 300" role="img" aria-labelledby="t d">
+<title id="t">People sterilized under the eugenic sterilization laws of the United States, by state</title>
+<desc id="d">Bar chart, people sterilized under state laws passed from 1907 to 1937. California 20,108; Virginia 8,300; North Carolina 6,851; Michigan 3,786; Georgia 3,284; Kansas 3,032; Indiana 2,424; Minnesota 2,350; the other 24 states with laws 15,235. Total 65,370. Data: Lombardo, Journal of Law, Medicine and Ethics, 2023, from Lombardo, Three Generations, No Imbeciles, 2008.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="520" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="520" y1="201.4" y2="201.4" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="205.4" text-anchor="end">5,000</text>
+<line x1="64" x2="520" y1="152.7" y2="152.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="156.7" text-anchor="end">10,000</text>
+<line x1="64" x2="520" y1="104.1" y2="104.1" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="108.1" text-anchor="end">15,000</text>
+<line x1="64" x2="520" y1="55.5" y2="55.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="59.5" text-anchor="end">20,000</text>
+</g>
+<rect x="69.3" y="54.4" width="40" height="195.6" class="accent" fill="currentColor"/>
+<text x="89.3" y="48.4" text-anchor="middle">20,108</text>
+<text x="89.3" y="266" text-anchor="middle">Calif.</text>
+<rect x="120.0" y="169.3" width="40" height="80.7" fill-opacity="0.85"/>
+<text x="140.0" y="163.3" text-anchor="middle">8,300</text>
+<text x="140.0" y="266" text-anchor="middle">Va.</text>
+<rect x="170.7" y="183.4" width="40" height="66.6" fill-opacity="0.85"/>
+<text x="190.7" y="177.4" text-anchor="middle">6,851</text>
+<text x="190.7" y="266" text-anchor="middle">N.C.</text>
+<rect x="221.3" y="213.2" width="40" height="36.8" fill-opacity="0.85"/>
+<text x="241.3" y="207.2" text-anchor="middle">3,786</text>
+<text x="241.3" y="266" text-anchor="middle">Mich.</text>
+<rect x="272.0" y="218.1" width="40" height="31.9" fill-opacity="0.85"/>
+<text x="292.0" y="212.1" text-anchor="middle">3,284</text>
+<text x="292.0" y="266" text-anchor="middle">Ga.</text>
+<rect x="322.7" y="220.5" width="40" height="29.5" fill-opacity="0.85"/>
+<text x="342.7" y="214.5" text-anchor="middle">3,032</text>
+<text x="342.7" y="266" text-anchor="middle">Kans.</text>
+<rect x="373.3" y="226.4" width="40" height="23.6" fill-opacity="0.85"/>
+<text x="393.3" y="220.4" text-anchor="middle">2,424</text>
+<text x="393.3" y="266" text-anchor="middle">Ind.</text>
+<rect x="424.0" y="227.1" width="40" height="22.9" fill-opacity="0.85"/>
+<text x="444.0" y="221.1" text-anchor="middle">2,350</text>
+<text x="444.0" y="266" text-anchor="middle">Minn.</text>
+<rect x="474.7" y="101.8" width="40" height="148.2" fill-opacity="0.85"/>
+<text x="494.7" y="95.8" text-anchor="middle">15,235</text>
+<text x="494.7" y="266" text-anchor="middle">Others</text>
+<text x="494.7" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">24 states</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">STERILIZED UNDER STATE EUGENIC LAWS</text>
+</g></svg>

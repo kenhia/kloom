@@ -1,0 +1,78 @@
+{
+	"title": "The Story of Life",
+	"subtitle": "a history of biology, from Aristotle's animals to CRISPR",
+	"palettes": {
+		"herbarium": {
+			"scheme": "light",
+			"background": "#f3efe2",
+			"ink": "#1f2218",
+			"muted": "#575b48",
+			"accent": "#3d6a26",
+			"line": "#2a2d22",
+			"counterpart": "stain"
+		},
+		"stain": {
+			"scheme": "dark",
+			"background": "#140f1a",
+			"ink": "#ece4f2",
+			"muted": "#ad9fba",
+			"accent": "#e48bd9",
+			"line": "#cfc3da",
+			"counterpart": "herbarium"
+		},
+		"strata": {
+			"scheme": "light",
+			"background": "#f4efe6",
+			"ink": "#241c14",
+			"muted": "#5f5243",
+			"accent": "#9a4519",
+			"line": "#30261c",
+			"counterpart": "ocean"
+		},
+		"ocean": {
+			"scheme": "dark",
+			"background": "#0d1418",
+			"ink": "#e2edf2",
+			"muted": "#9cb1bb",
+			"accent": "#6fd0d6",
+			"line": "#c0d3da",
+			"counterpart": "strata"
+		},
+		"garden": {
+			"scheme": "light",
+			"background": "#f2f2e6",
+			"ink": "#1c2016",
+			"muted": "#545a46",
+			"accent": "#68469a",
+			"line": "#282c20",
+			"counterpart": "canopy"
+		},
+		"canopy": {
+			"scheme": "dark",
+			"background": "#0f1611",
+			"ink": "#e3eee2",
+			"muted": "#a0b39e",
+			"accent": "#a6d77f",
+			"line": "#c3d6c0",
+			"counterpart": "garden"
+		},
+		"gel": {
+			"scheme": "light",
+			"background": "#f2f4f7",
+			"ink": "#161c24",
+			"muted": "#4f5866",
+			"accent": "#1b5aa8",
+			"line": "#232a33",
+			"counterpart": "helix"
+		},
+		"helix": {
+			"scheme": "dark",
+			"background": "#0e1220",
+			"ink": "#e4e8f5",
+			"muted": "#a2a9c2",
+			"accent": "#f2b84b",
+			"line": "#c8cde0",
+			"counterpart": "gel"
+		}
+	}
+}

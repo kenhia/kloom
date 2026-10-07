@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M182 53 L392 53"/>
+		<path pathLength="1" d="M182 74 L392 74"/>
+		<path pathLength="1" d="M182 95 L392 95"/>
+		<path pathLength="1" d="M182 116 L392 116"/>
+		<path pathLength="1" d="M182 137 L392 137"/>
+		<path pathLength="1" d="M182 158 L392 158"/>
+		<path pathLength="1" d="M182 200 L392 200"/>
+		<path pathLength="1" d="M182 221 L392 221"/>
+		<path pathLength="1" d="M182 242 L392 242"/>
+		<path pathLength="1" d="M182 263 L392 263"/>
+		<path pathLength="1" d="M162 38 L162 268"/>
+		<path pathLength="1" d="M40 30 L40 270"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M40 153 L76 153 L76 100.5 L112 100.5"/>
+		<path pathLength="1" d="M40 153 L76 153 L76 226.5 L112 226.5"/>
+		<path pathLength="1" d="M35 153 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M108 100.5 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M112 100.5 L162 100.5"/>
+		<path pathLength="1" d="M162 48 L162 153"/>
+		<path pathLength="1" d="M162 48 L176 48"/>
+		<path pathLength="1" d="M162 69 L176 69"/>
+		<path pathLength="1" d="M162 90 L176 90"/>
+		<path pathLength="1" d="M162 111 L176 111"/>
+		<path pathLength="1" d="M162 132 L176 132"/>
+		<path pathLength="1" d="M162 153 L176 153"/>
+		<path pathLength="1" d="M108 226.5 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M112 226.5 L162 226.5"/>
+		<path pathLength="1" d="M162 195 L162 258"/>
+		<path pathLength="1" d="M162 195 L176 195"/>
+		<path pathLength="1" d="M162 216 L176 216"/>
+		<path pathLength="1" d="M162 237 L176 237"/>
+		<path pathLength="1" d="M162 258 L176 258"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M176.5 48 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M176.5 69 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M176.5 90 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M176.5 111 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M176.5 132 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M176.5 153 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M176.5 195 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M176.5 216 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M176.5 237 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M176.5 258 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="40" y="171" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ANIMALS</text>
+		<text x="112" y="91.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BLOODED</text>
+		<text x="112" y="217.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BLOODLESS</text>
+		<text x="186" y="30" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ARISTOTLE</text>
+		<text x="392" y="30" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TODAY, ROUGHLY</text>
+		<text x="186" y="50.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FOUR-FOOTED, LIVE YOUNG</text>
+		<text x="392" y="50.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MAMMALS</text>
+		<text x="186" y="71.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FOUR-FOOTED, EGGS</text>
+		<text x="392" y="71.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">REPTILES</text>
+		<text x="186" y="92.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SNAKES</text>
+		<text x="392" y="92.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SNAKES</text>
+		<text x="186" y="113.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BIRDS</text>
+		<text x="392" y="113.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BIRDS</text>
+		<text x="186" y="134.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FISHES</text>
+		<text x="392" y="134.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FISHES</text>
+		<text x="186" y="155.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CETACEANS</text>
+		<text x="392" y="155.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WHALES</text>
+		<text x="186" y="197.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SOFT-BODIED</text>
+		<text x="392" y="197.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CEPHALOPODS</text>
+		<text x="186" y="218.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SOFT-SHELLED</text>
+		<text x="392" y="218.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CRUSTACEANS</text>
+		<text x="186" y="239.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SHELL-SKINNED</text>
+		<text x="392" y="239.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SNAILS, CLAMS</text>
+		<text x="186" y="260.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">INSECTS</text>
+		<text x="392" y="260.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ARTHROPODS</text>
+		<text x="200" y="288" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE GREAT GENERA · HISTORY OF ANIMALS I.6</text>
+	</g>
+</svg>

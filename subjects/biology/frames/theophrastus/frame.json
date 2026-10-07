@@ -1,0 +1,142 @@
+{
+	"id": "theophrastus",
+	"topic": "Theophrastus's Enquiry into Plants",
+	"position": {
+		"label": "c. 300 BC",
+		"sort": -300
+	},
+	"scene": {
+		"headline": "Plants got their own",
+		"accent": "INQUIRY.",
+		"palette": "herbarium",
+		"illustration": "scene.svg",
+		"metadata": ["THE LYCEUM · ATHENS", "THEOPHRASTUS OF ERESOS · ENQUIRY INTO PLANTS"],
+		"counter": {
+			"value": "9",
+			"label": "books of the Enquiry survive"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Enquiry into Plants",
+			"authors": [
+				{
+					"name": "Theophrastus"
+				}
+			],
+			"translators": [
+				{
+					"family": "Hort",
+					"given": "Arthur"
+				}
+			],
+			"edition": "Loeb Classical Library ed.",
+			"volume": "1",
+			"place": "London",
+			"publisher": "William Heinemann",
+			"published": "1916",
+			"url": "https://en.wikisource.org/wiki/Enquiry_into_Plants/Volume_1",
+			"accessed": "2026-10-06",
+			"note": "Quoted from I.3 and II.8, and from Hort's preface and introduction"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Theophrastus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Theophrastus&oldid=1373544004",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Historia Plantarum (Theophrastus)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Historia_Plantarum_(Theophrastus)&oldid=1360800425",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Arthur Hort",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arthur_Hort&oldid=1372620609",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fig wasp",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fig_wasp&oldid=1375990547",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rudolf Jakob Camerarius",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rudolf_Jakob_Camerarius&oldid=1375058752",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "media",
+			"title": "Bust of Theophrastus from Villa Albani",
+			"url": "https://commons.wikimedia.org/wiki/File:Bust_of_Theophrastus_from_Villa_Albani_(cropped).png",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"note": "Published in the United States in 1916",
+			"file": "bust.jpg",
+			"container": "Theophrastus, Enquiry into Plants, translated by Arthur Hort, vol. 1, frontispiece",
+			"published": "1916"
+		},
+		{
+			"kind": "media",
+			"title": "A pollinated date palm female inflorescence (close-up)",
+			"url": "https://commons.wikimedia.org/wiki/File:A_pollinated_date_palm_female_inflorescence_(close-up).jpg",
+			"accessed": "2026-10-06",
+			"licence": "CC BY-SA 4.0",
+			"file": "palm.jpg",
+			"authors": [
+				{
+					"name": "Ahmed1251985"
+				}
+			],
+			"published": "2016-02-27",
+			"container": "Wikimedia Commons"
+		}
+	]
+}

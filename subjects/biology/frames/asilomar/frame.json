@@ -1,0 +1,322 @@
+{
+	"id": "asilomar",
+	"topic": "The Asilomar conference",
+	"position": {
+		"label": "1975",
+		"sort": 1975
+	},
+	"scene": {
+		"headline": "We stopped ourselves and",
+		"accent": "ARGUED.",
+		"palette": "gel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PACIFIC GROVE, CALIFORNIA · 24–27 FEBRUARY 1975",
+			"BERG · BALTIMORE · BRENNER · ROBLIN · SINGER"
+		],
+		"counter": {
+			"value": "155",
+			"label": "took part, 21 of them press"
+		}
+	},
+	"connections": [
+		{
+			"to": "ai/safety-frameworks",
+			"why": "The AI laboratories' safety levels are modeled, they say, on the biosafety levels that this argument produced: a stated capability, then a required level of containment before the work goes on."
+		},
+		{
+			"to": "biology/crispr",
+			"why": "Scientists meeting at Napa in 2015 over editing the human germ line invoked Asilomar; the summits that followed called He Jiankui's edited twins irresponsible, and in 2023 heritable editing unacceptable."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Summary Statement of the Asilomar Conference on Recombinant DNA Molecules",
+			"authors": [
+				{
+					"family": "Berg",
+					"given": "Paul"
+				},
+				{
+					"family": "Baltimore",
+					"given": "David"
+				},
+				{
+					"family": "Brenner",
+					"given": "Sydney"
+				},
+				{
+					"family": "Roblin",
+					"given": "Richard O., III"
+				},
+				{
+					"family": "Singer",
+					"given": "Maxine F."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "72",
+			"issue": "6",
+			"pages": "1981–1984",
+			"published": "1975-06",
+			"doi": "10.1073/pnas.72.6.1981",
+			"accessed": "2026-10-06",
+			"note": "The bands of containment are its section III"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Potential Biohazards of Recombinant DNA Molecules",
+			"authors": [
+				{
+					"name": "Committee on Recombinant DNA Molecules, National Research Council"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "71",
+			"issue": "7",
+			"pages": "2593–2594",
+			"published": "1974-07",
+			"doi": "10.1073/pnas.71.7.2593",
+			"accessed": "2026-10-06",
+			"note": "The letter calling for the pause, with its eleven signatures"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report of the Organizing Committee of the Asilomar Conference on Recombinant DNA Molecules",
+			"authors": [
+				{
+					"family": "Berg",
+					"given": "Paul"
+				},
+				{
+					"family": "Baltimore",
+					"given": "David"
+				},
+				{
+					"family": "Brenner",
+					"given": "Sydney"
+				},
+				{
+					"family": "Roblin",
+					"given": "Richard O., III"
+				},
+				{
+					"family": "Singer",
+					"given": "Maxine F."
+				}
+			],
+			"publisher": "National Academy of Sciences",
+			"place": "Washington, DC",
+			"published": "1975",
+			"url": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101584644X138-doc",
+			"accessed": "2026-10-06",
+			"note": "The count of participants is on its first page; read in the Maxine Singer papers at the National Library of Medicine"
+		},
+		{
+			"kind": "web",
+			"title": "Program: International Conference on Recombinant DNA Molecules, Asilomar Conference Center, February 24–27, 1975",
+			"container": "Profiles in Science, The Maxine Singer Papers",
+			"publisher": "US National Library of Medicine",
+			"published": "1975",
+			"url": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101584644X97-doc",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Asilomar and recombinant DNA",
+			"authors": [
+				{
+					"family": "Berg",
+					"given": "Paul"
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "2004-08-26",
+			"url": "https://www.nobelprize.org/prizes/chemistry/1980/berg/article/",
+			"accessed": "2026-10-06",
+			"note": "His defense of the conference's narrow agenda, thirty years on"
+		},
+		{
+			"kind": "report",
+			"title": "Recombinant DNA Research: Guidelines",
+			"authors": [
+				{
+					"name": "National Institutes of Health"
+				}
+			],
+			"container": "Federal Register, vol. 41, no. 131",
+			"publisher": "US Government Printing Office",
+			"published": "1976-07-07",
+			"url": "https://www.govinfo.gov/content/pkg/FR-1976-07-07/pdf/FR-1976-07-07.pdf",
+			"accessed": "2026-10-06",
+			"note": "The P1–P4 and EK1–EK3 levels, with the director's decision of 23 June 1976"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Ordinance No. 874: Ordinance for the Use of Recombinant DNA Molecule Technology in the City of Cambridge",
+			"authors": [
+				{
+					"name": "City Council of the City of Cambridge, Massachusetts"
+				}
+			],
+			"container": "Profiles in Science, The Maxine Singer Papers",
+			"publisher": "US National Library of Medicine",
+			"published": "1977-02-07",
+			"url": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101584644X124-doc",
+			"accessed": "2026-10-06",
+			"note": "Its terms and the vote, nine to none"
+		},
+		{
+			"kind": "letter",
+			"title": "To the Honorable, the City Council: the Cambridge Experimentation Review Board",
+			"authors": [
+				{
+					"family": "Sullivan",
+					"given": "James L."
+				}
+			],
+			"recipients": [
+				{
+					"name": "Cambridge City Council"
+				}
+			],
+			"written": "1976-08-06",
+			"container": "Profiles in Science, The Maxine Singer Papers",
+			"publisher": "US National Library of Medicine",
+			"url": "https://collections.nlm.nih.gov/ocr/nlm:nlmuid-101584644X110-doc",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "report",
+			"title": "Biosafety in Microbiological and Biomedical Laboratories",
+			"authors": [
+				{
+					"name": "Centers for Disease Control and Prevention and National Institutes of Health"
+				}
+			],
+			"edition": "6th ed.",
+			"publisher": "US Department of Health and Human Services",
+			"place": "Atlanta",
+			"published": "2020",
+			"url": "https://www.cdc.gov/labs/pdf/SF__19_308133-A_BMBL6_00-BOOK-WEB-final-3.pdf",
+			"accessed": "2026-10-06",
+			"note": "Its first section traces the four levels to the 1976 NIH guidelines"
+		},
+		{
+			"kind": "article",
+			"title": "CRISPR Democracy: Gene Editing and the Need for Inclusive Deliberation",
+			"authors": [
+				{
+					"family": "Jasanoff",
+					"given": "Sheila"
+				},
+				{
+					"family": "Hurlbut",
+					"given": "J. Benjamin"
+				},
+				{
+					"family": "Saha",
+					"given": "Krishanu"
+				}
+			],
+			"container": "Issues in Science and Technology",
+			"volume": "32",
+			"issue": "1",
+			"published": "2015",
+			"url": "https://issues.org/crispr-democracy-gene-editing-and-the-need-for-inclusive-deliberation/",
+			"accessed": "2026-10-06",
+			"note": "The source of Senator Kennedy's words, quoted there"
+		},
+		{
+			"kind": "article",
+			"title": "A prudent path forward for genomic engineering and germline gene modification",
+			"authors": [
+				{
+					"family": "Baltimore",
+					"given": "David"
+				},
+				{
+					"family": "Berg",
+					"given": "Paul"
+				},
+				{
+					"family": "Botchan",
+					"given": "Michael"
+				},
+				{
+					"family": "Carroll",
+					"given": "Dana"
+				},
+				{
+					"family": "Charo",
+					"given": "R. Alta"
+				},
+				{
+					"family": "Church",
+					"given": "George"
+				},
+				{
+					"family": "Corn",
+					"given": "Jacob E."
+				}
+			],
+			"etAl": true,
+			"container": "Science",
+			"volume": "348",
+			"issue": "6230",
+			"pages": "36–38",
+			"published": "2015-04-03",
+			"doi": "10.1126/science.aab1028",
+			"accessed": "2026-10-06",
+			"note": "The Napa meeting of January 2015, named in its first page"
+		},
+		{
+			"kind": "web",
+			"title": "Anthropic's Responsible Scaling Policy",
+			"authors": [
+				{
+					"name": "Anthropic"
+				}
+			],
+			"container": "anthropic.com",
+			"published": "2023-09-19",
+			"url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Asilomar Conference on Recombinant DNA",
+			"url": "https://en.wikipedia.org/w/index.php?title=Asilomar_Conference_on_Recombinant_DNA&oldid=1366600362",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alfred Vellucci",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alfred_Vellucci&oldid=1346828214",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-03"
+		}
+	]
+}

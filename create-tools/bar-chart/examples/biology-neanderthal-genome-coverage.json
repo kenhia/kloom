@@ -1,0 +1,30 @@
+{
+	"title": "How many times each letter of an archaic genome was read, 2010 to 2017 (log scale)",
+	"description": "Bar chart on a logarithmic scale of the average fold coverage of archaic human genomes from the Leipzig group. The Vindija Neanderthal draft of 2010: 1.3. The Denisovan finger bone, 2010: 1.9. The same bone again, 2012: about 30. The Altai Neanderthal, 2014: 52. A Vindija Neanderthal, 2017: about 30.",
+	"heading": "FOLD COVERAGE · LOG SCALE",
+	"unit": "×",
+	"scale": "log",
+	"axis": {
+		"min": 1,
+		"max": 100,
+		"ticks": [
+			[1, "1×"],
+			[10, "10×"],
+			[100, "100×"]
+		]
+	},
+	"width": 520,
+	"barWidth": 56,
+	"bars": [
+		{ "label": "Vindija", "sublabel": "2010", "value": 1.3, "display": "1.3×", "highlight": true },
+		{ "label": "Denisova", "sublabel": "2010", "value": 1.9, "display": "1.9×" },
+		{ "label": "Denisova", "sublabel": "2012", "value": 30, "display": "~30×" },
+		{ "label": "Altai", "sublabel": "2014", "value": 52, "display": "52×" },
+		{ "label": "Vindija", "sublabel": "2017", "value": 30, "display": "~30×" }
+	],
+	"source": {
+		"container": "Green et al. 2010; Reich et al. 2010; Prüfer et al. 2014; Nobel Assembly, Scientific Background 2022",
+		"url": "https://www.nobelprize.org/prizes/medicine/2022/advanced-information/",
+		"accessed": "2026-10-06"
+	}
+}

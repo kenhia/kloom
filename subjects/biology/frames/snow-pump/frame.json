@@ -1,0 +1,205 @@
+{
+	"id": "snow-pump",
+	"topic": "John Snow and the Broad Street pump",
+	"position": {
+		"label": "1854",
+		"sort": 1854
+	},
+	"scene": {
+		"headline": "We took the handle off the",
+		"accent": "PUMP.",
+		"palette": "stain",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SOHO, LONDON · BROAD STREET",
+			"JOHN SNOW · ON THE MODE OF COMMUNICATION OF CHOLERA"
+		],
+		"counter": {
+			"value": "315 : 37",
+			"label": "deaths per 10,000 houses, by water company"
+		}
+	},
+	"connections": [
+		{
+			"to": "nursing/farr",
+			"why": "William Farr's General Register Office gave Snow his lists of the dead, and at Farr's suggestion its registrars recorded the water company of every cholera death in 1854."
+		},
+		{
+			"to": "nursing/ether",
+			"why": "John Snow, who traced cholera to the Broad Street pump, was London's leading anesthetist, whose writing on chloroform the ether frame quotes."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "On the Mode of Communication of Cholera",
+			"authors": [
+				{
+					"family": "Snow",
+					"given": "John"
+				}
+			],
+			"edition": "2nd ed.",
+			"place": "London",
+			"publisher": "John Churchill",
+			"published": "1855",
+			"url": "https://archive.org/details/b28985266",
+			"accessed": "2026-10-06",
+			"note": "Broad Street on pp. 38–54, the water companies on pp. 63–90, Table IX on p. 86"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report on the Cholera Outbreak in the Parish of St. James, Westminster, during the Autumn of 1854",
+			"authors": [
+				{
+					"name": "Cholera Inquiry Committee"
+				}
+			],
+			"place": "London",
+			"publisher": "J. Churchill",
+			"published": "1855",
+			"url": "https://archive.org/details/b21780778",
+			"accessed": "2026-10-06",
+			"note": "Henry Whitehead's report and the infant at 40 Broad Street, pp. 159–166"
+		},
+		{
+			"kind": "report",
+			"title": "Report of the Committee for Scientific Inquiries in Relation to the Cholera-Epidemic of 1854",
+			"authors": [
+				{
+					"name": "General Board of Health"
+				}
+			],
+			"place": "London",
+			"publisher": "Her Majesty's Stationery Office",
+			"published": "1855",
+			"url": "https://archive.org/details/b21687043",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "A Rivalry of Foulness: Official and Unofficial Investigations of the London Cholera Epidemic of 1854",
+			"authors": [
+				{
+					"family": "Paneth",
+					"given": "Nigel"
+				},
+				{
+					"family": "Vinten-Johansen",
+					"given": "Peter"
+				},
+				{
+					"family": "Brody",
+					"given": "Howard"
+				},
+				{
+					"family": "Rip",
+					"given": "Michael"
+				}
+			],
+			"container": "American Journal of Public Health",
+			"volume": "88",
+			"issue": "10",
+			"pages": "1545–1553",
+			"published": "1998-10",
+			"doi": "10.2105/ajph.88.10.1545",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "1854 Broad Street cholera outbreak",
+			"url": "https://en.wikipedia.org/w/index.php?title=1854_Broad_Street_cholera_outbreak&oldid=1376157956",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Snow",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Snow&oldid=1373187202",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henry Whitehead (priest)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_Whitehead_(priest)&oldid=1356191176",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-26"
+		},
+		{
+			"kind": "web",
+			"title": "HistData: Data Sets from the History of Statistics and Data Visualization (Snow.deaths, Snow.pumps, Snow.streets, Snow.dates)",
+			"authors": [
+				{
+					"family": "Friendly",
+					"given": "Michael"
+				}
+			],
+			"container": "Comprehensive R Archive Network",
+			"url": "https://cran.r-project.org/package=HistData",
+			"accessed": "2026-10-06",
+			"note": "Snow's map digitized by Rusty Dodson and Waldo Tobler (NCGIA, 1992); the plate is drawn from it"
+		},
+		{
+			"kind": "media",
+			"title": "Map 1: deaths from cholera in Broad Street, Golden Square and the adjoining localities",
+			"url": "https://commons.wikimedia.org/wiki/File:Snow-cholera-map-1.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "map.jpg",
+			"authors": [
+				{
+					"family": "Snow",
+					"given": "John"
+				}
+			],
+			"engravers": [
+				{
+					"name": "C. F. Cheffins"
+				}
+			],
+			"container": "John Snow, On the Mode of Communication of Cholera, 2nd ed. (London: John Churchill, 1855)",
+			"published": "1855"
+		},
+		{
+			"kind": "media",
+			"title": "Fatal attacks of cholera each day near Broad Street, 29 August to 14 September 1854",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "John Snow, On the Mode of Communication of Cholera, 2nd ed. (London: John Churchill, 1855), p. 49",
+			"url": "https://archive.org/details/b28985266",
+			"accessed": "2026-10-06",
+			"licence": "MIT",
+			"file": "attacks.svg"
+		}
+	]
+}

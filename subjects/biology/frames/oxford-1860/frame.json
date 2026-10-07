@@ -1,0 +1,461 @@
+{
+	"id": "oxford-1860",
+	"topic": "The Oxford debate and Darwin's critics",
+	"position": {
+		"label": "1860",
+		"sort": 1860
+	},
+	"scene": {
+		"headline": "The famous words were never",
+		"accent": "RECORDED.",
+		"palette": "strata",
+		"illustration": "scene.svg",
+		"metadata": [
+			"OXFORD UNIVERSITY MUSEUM · BRITISH ASSOCIATION, SECTION D",
+			"WILBERFORCE · HUXLEY · HOOKER · 30 JUNE 1860"
+		],
+		"counter": {
+			"value": "7",
+			"label": "accounts of the exchange, no two alike"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/entropy",
+			"why": "Thomson's limit of 1862 on the age of the earth, \"one of my sorest troubles\" to Darwin, rested on the dissipation of heat that Thomson had argued for in 1852."
+		},
+		{
+			"to": "biology/pangenesis",
+			"why": "Jenkin's objection of 1867, that a single favorable variation would be \"swamped by numbers\" under blending inheritance, was among the hardest Darwin faced; pangenesis, his own theory of heredity, came the next year."
+		},
+		{
+			"to": "biology/beagle-voyage",
+			"why": "At Oxford Henslow, who had recommended Darwin for the Beagle, took the chair, and Robert FitzRoy, Darwin's old captain, rose to regret the Origin and was shouted down."
+		},
+		{
+			"to": "biology/lyell",
+			"why": "William Thomson's age for the earth's crust in 1862, most probably 98 million years, was aimed at Lyell's endless cycle by name, and Darwin called it \"one of my sorest troubles.\""
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Censoring Huxley and Wilberforce: A New Source for the Meeting that the Athenaeum 'Wisely Softened Down'",
+			"authors": [
+				{
+					"family": "England",
+					"given": "Richard"
+				}
+			],
+			"container": "Notes and Records: The Royal Society Journal of the History of Science",
+			"volume": "71",
+			"issue": "4",
+			"pages": "371–384",
+			"published": "2017",
+			"doi": "10.1098/rsnr.2016.0058",
+			"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5906432/",
+			"accessed": "2026-10-06",
+			"note": "Sets the Athenaeum and Oxford Chronicle reports side by side"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter to Charles Darwin",
+			"authors": [
+				{
+					"family": "Hooker",
+					"given": "Joseph Dalton"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"written": "1860-07-02",
+			"container": "Darwin Correspondence Project",
+			"number": "DCP-LETT-2852",
+			"publisher": "University of Cambridge",
+			"url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-2852.xml",
+			"accessed": "2026-10-06",
+			"key": true
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Life and Letters of Thomas Henry Huxley",
+			"authors": [
+				{
+					"family": "Huxley",
+					"given": "Leonard"
+				}
+			],
+			"volume": "1",
+			"place": "London",
+			"publisher": "Macmillan",
+			"published": "1900",
+			"url": "https://www.gutenberg.org/ebooks/5084",
+			"accessed": "2026-10-06",
+			"note": "The witnesses, the room and Huxley's letter of 1891, in chapter 1.14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "1860 Oxford evolution debate",
+			"url": "https://en.wikipedia.org/w/index.php?title=1860_Oxford_evolution_debate&oldid=1359893209",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-17",
+			"key": true
+		},
+		{
+			"kind": "letter",
+			"title": "Letter to Frederick Daniel Dyster",
+			"authors": [
+				{
+					"family": "Huxley",
+					"given": "Thomas Henry"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Dyster",
+					"given": "Frederick Daniel"
+				}
+			],
+			"written": "1860-09-09",
+			"citedIn": "Hooker, Letter to Charles Darwin, 2 July 1860, Darwin Correspondence Project, note 9"
+		},
+		{
+			"kind": "article",
+			"title": "Reminiscences of a Grandmother",
+			"container": "Macmillan's Magazine",
+			"published": "1898-10",
+			"citedIn": "Leonard Huxley, Life and Letters of Thomas Henry Huxley, vol. 1"
+		},
+		{
+			"kind": "article",
+			"title": "British Association report, Section D",
+			"container": "Athenaeum",
+			"published": "1860-07-14",
+			"pages": "64–65",
+			"citedIn": "England, \"Censoring Huxley and Wilberforce: A New Source for the Meeting that the Athenaeum 'Wisely Softened Down'\""
+		},
+		{
+			"kind": "article",
+			"title": "British Association report, Section D",
+			"container": "Oxford Chronicle and Berks and Bucks Gazette",
+			"published": "1860-07-21",
+			"pages": "3",
+			"citedIn": "England, \"Censoring Huxley and Wilberforce: A New Source for the Meeting that the Athenaeum 'Wisely Softened Down'\""
+		},
+		{
+			"kind": "article",
+			"title": "Our Ancestors",
+			"container": "Reading Mercury",
+			"published": "1860-07-07",
+			"pages": "10",
+			"citedIn": "England, \"Censoring Huxley and Wilberforce: A New Source for the Meeting that the Athenaeum 'Wisely Softened Down'\""
+		},
+		{
+			"kind": "letter",
+			"title": "Letter to Edward Newton",
+			"authors": [
+				{
+					"family": "Newton",
+					"given": "Alfred"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Newton",
+					"given": "Edward"
+				}
+			],
+			"published": "1860",
+			"circa": true,
+			"citedIn": "Wikipedia, 1860 Oxford evolution debate"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter to Sir Charles Anderson",
+			"authors": [
+				{
+					"family": "Wilberforce",
+					"given": "Samuel"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Anderson",
+					"given": "Charles"
+				}
+			],
+			"written": "1860-07-03",
+			"citedIn": "Wikipedia, 1860 Oxford evolution debate"
+		},
+		{
+			"kind": "article",
+			"title": "Review of Origin and Other Works",
+			"authors": [
+				{
+					"family": "Owen",
+					"given": "Richard"
+				}
+			],
+			"container": "Edinburgh Review",
+			"volume": "111",
+			"pages": "487–532",
+			"published": "1860-04",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=A30&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"note": "Published anonymously"
+		},
+		{
+			"kind": "article",
+			"title": "Review of The Origin of Species",
+			"authors": [
+				{
+					"family": "Jenkin",
+					"given": "Fleeming"
+				}
+			],
+			"container": "North British Review",
+			"volume": "46",
+			"pages": "277–318",
+			"published": "1867-06",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=A24&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"note": "Published anonymously; read with Darwin Online's editorial note"
+		},
+		{
+			"kind": "article",
+			"title": "Darwin and the White Shipwrecked Sailor: Beyond Blending Inheritance and the Jenkin Myth",
+			"authors": [
+				{
+					"family": "Hoquet",
+					"given": "Thierry"
+				}
+			],
+			"container": "Journal of the History of Biology",
+			"volume": "57",
+			"issue": "1",
+			"pages": "17–49",
+			"published": "2024",
+			"citedIn": "Darwin Online's editorial note to Jenkin, Review of The Origin of Species"
+		},
+		{
+			"kind": "article",
+			"title": "On the Secular Cooling of the Earth",
+			"authors": [
+				{
+					"family": "Thomson",
+					"given": "William"
+				}
+			],
+			"container": "Transactions of the Royal Society of Edinburgh",
+			"volume": "23",
+			"pages": "157–169",
+			"published": "1862",
+			"url": "https://archive.org/details/per_transactions-of-the-royal-society-of-edinburgh_transactions-of-the-royal-socie_1861-1862_23",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter to Alfred Russel Wallace",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Wallace",
+					"given": "Alfred Russel"
+				}
+			],
+			"written": "1869-04-14",
+			"container": "Darwin Correspondence Project",
+			"number": "DCP-LETT-6706",
+			"publisher": "University of Cambridge",
+			"url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-6706.xml",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Wilberforce and Huxley: A Legendary Encounter",
+			"authors": [
+				{
+					"family": "Lucas",
+					"given": "J. R."
+				}
+			],
+			"container": "The Historical Journal",
+			"volume": "22",
+			"issue": "2",
+			"pages": "313–330",
+			"published": "1979",
+			"doi": "10.1017/S0018246X00016848",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "chapter",
+			"title": "An 'Open Clash between Science and the Church'? Wilberforce, Huxley and Hooker on Darwin at the British Association, Oxford, 1860",
+			"authors": [
+				{
+					"family": "James",
+					"given": "Frank A. J. L."
+				}
+			],
+			"container": "Science and Beliefs: From Natural Philosophy to Natural Selection, 1700–1900",
+			"editors": [
+				{
+					"family": "Knight",
+					"given": "David M."
+				},
+				{
+					"family": "Eddy",
+					"given": "Matthew D."
+				}
+			],
+			"place": "Aldershot",
+			"publisher": "Ashgate",
+			"published": "2005",
+			"pages": "171–193",
+			"doi": "10.4324/9781315243733-15",
+			"accessed": "2026-10-06",
+			"read": "abstract",
+			"note": "Read in the abstract of Routledge's reissue"
+		},
+		{
+			"kind": "chapter",
+			"title": "Myth 17. That Huxley Defeated Wilberforce in Their Debate over Evolution and Religion",
+			"authors": [
+				{
+					"family": "Livingstone",
+					"given": "David N."
+				}
+			],
+			"container": "Galileo Goes to Jail and Other Myths about Science and Religion",
+			"editors": [
+				{
+					"family": "Numbers",
+					"given": "Ronald L."
+				}
+			],
+			"place": "Cambridge, MA",
+			"publisher": "Harvard University Press",
+			"published": "2009",
+			"doi": "10.4159/9780674054394-019",
+			"accessed": "2026-10-06",
+			"read": "record"
+		},
+		{
+			"kind": "web",
+			"title": "On the Origin of Species: An Introduction",
+			"authors": [
+				{
+					"family": "Freeman",
+					"given": "R. B."
+				}
+			],
+			"container": "The Complete Work of Charles Darwin Online",
+			"editors": [
+				{
+					"family": "van Wyhe",
+					"given": "John"
+				}
+			],
+			"url": "https://darwin-online.org.uk/EditorialIntroductions/Freeman_OntheOriginofSpecies.html",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Asa Gray",
+			"url": "https://en.wikipedia.org/w/index.php?title=Asa_Gray&oldid=1378468975",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Dalton Hooker",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Dalton_Hooker&oldid=1372029856",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thomas Henry Huxley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thomas_Henry_Huxley&oldid=1378444053",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "media",
+			"title": "Not a brawler",
+			"authors": [
+				{
+					"family": "Pellegrini",
+					"given": "Carlo"
+				}
+			],
+			"container": "Vanity Fair, 24 July 1869, Statesmen no. 25",
+			"published": "1869-07-24",
+			"url": "https://commons.wikimedia.org/wiki/File:Samuel_Wilberforce,_Vanity_Fair,_1869-07-24.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "wilberforce.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Skeletons of the gibbon, orang, chimpanzee, gorilla and man",
+			"authors": [
+				{
+					"family": "Hawkins",
+					"given": "Benjamin Waterhouse"
+				}
+			],
+			"engravers": [
+				{
+					"family": "Wesley",
+					"given": "W. H."
+				}
+			],
+			"container": "Frontispiece to Thomas Henry Huxley, Evidence as to Man's Place in Nature (London: Williams & Norgate, 1863)",
+			"published": "1863",
+			"url": "https://commons.wikimedia.org/wiki/File:Huxley_-_Mans_Place_in_Nature.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "skeletons.jpg"
+		}
+	]
+}

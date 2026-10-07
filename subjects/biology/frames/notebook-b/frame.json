@@ -1,0 +1,218 @@
+{
+	"id": "notebook-b",
+	"topic": "Notebook B and the tree of life",
+	"position": {
+		"label": "1837",
+		"sort": 1837
+	},
+	"scene": {
+		"headline": "Over his first tree he wrote, I",
+		"accent": "THINK.",
+		"palette": "ocean",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · NOTEBOOK B · JULY 1837",
+			"CHARLES DARWIN · PAGE 36 · MALTHUS, SEPTEMBER 1838"
+		],
+		"counter": {
+			"value": "£400",
+			"label": "left to publish his 1844 essay"
+		}
+	},
+	"connections": [
+		{
+			"to": "food/malthus",
+			"why": "Darwin's reading of Malthus's Essay in the autumn of 1838, dated 28 September in his notebook and October in his autobiography, gave him natural selection."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Notebook B: [Transmutation of Species (1837–1838)]",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"published": "1837",
+			"container": "The Complete Work of Charles Darwin Online",
+			"editors": [
+				{
+					"family": "van Wyhe",
+					"given": "John"
+				}
+			],
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=CUL-DAR121.-&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"note": "The tree is on p. 36, its arithmetic on p. 37"
+		},
+		{
+			"kind": "web",
+			"title": "Notebook D: [Transmutation of Species]",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"published": "1838",
+			"container": "The Complete Work of Charles Darwin Online",
+			"editors": [
+				{
+					"family": "van Wyhe",
+					"given": "John"
+				}
+			],
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=CUL-DAR123.-&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"note": "The entry of 28 September 1838, pp. 134e–135e"
+		},
+		{
+			"kind": "book",
+			"title": "The Autobiography of Charles Darwin",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"editors": [
+				{
+					"family": "Darwin",
+					"given": "Francis"
+				}
+			],
+			"place": "London",
+			"publisher": "John Murray",
+			"published": "1887",
+			"url": "https://www.gutenberg.org/ebooks/2010",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter to Emma Darwin",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Darwin",
+					"given": "Emma"
+				}
+			],
+			"written": "1844-07-05",
+			"container": "Darwin Correspondence Project",
+			"number": "DCP-LETT-761",
+			"publisher": "University of Cambridge",
+			"url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-761.xml",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter to J. D. Hooker",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Hooker",
+					"given": "Joseph Dalton"
+				}
+			],
+			"written": "1844-01-11",
+			"container": "Darwin Correspondence Project",
+			"number": "DCP-LETT-729",
+			"publisher": "University of Cambridge",
+			"url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-729.xml",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Mind the Gap: Did Darwin Avoid Publishing His Theory for Many Years?",
+			"authors": [
+				{
+					"family": "van Wyhe",
+					"given": "John"
+				}
+			],
+			"container": "Notes and Records of the Royal Society",
+			"volume": "61",
+			"issue": "2",
+			"pages": "177–205",
+			"published": "2007",
+			"doi": "10.1098/rsnr.2006.0171",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=A544&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"note": "Read in Darwin Online's copy; it surveys the fear thesis of Gruber, Desmond and Moore"
+		},
+		{
+			"kind": "web",
+			"title": "Missing Darwin Notebooks Returned to Cambridge University Library",
+			"authors": [
+				{
+					"family": "Roberts",
+					"given": "Stuart"
+				}
+			],
+			"container": "Cambridge University Libraries",
+			"publisher": "University of Cambridge",
+			"published": "2022-04-05",
+			"url": "https://www.lib.cam.ac.uk/news/missing-darwin-notebooks-returned-cambridge-university-library",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Inception of Darwin's theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Inception_of_Darwin's_theory&oldid=1373891158",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tree of life (biology)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tree_of_life_(biology)&oldid=1375178316",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "media",
+			"title": "A Monograph on the Sub-class Cirripedia, Plate V: Balanus",
+			"url": "https://commons.wikimedia.org/wiki/File:A_monograph_on_the_sub-class_Cirripedia_(Plate_V)_(7509346182).jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "barnacles.jpg",
+			"authors": [
+				{
+					"family": "Sowerby",
+					"given": "George"
+				}
+			],
+			"published": "1854",
+			"container": "Charles Darwin, A Monograph on the Sub-class Cirripedia, vol. 2 (London: Ray Society); Biodiversity Heritage Library"
+		}
+	]
+}

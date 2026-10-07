@@ -1,0 +1,316 @@
+{
+	"id": "lyell",
+	"topic": "Lyell's Principles of Geology",
+	"position": {
+		"label": "1830–33",
+		"sort": 1830
+	},
+	"scene": {
+		"headline": "We read deep time in the",
+		"accent": "COLUMNS.",
+		"palette": "strata",
+		"illustration": "scene.svg",
+		"metadata": ["LONDON · JOHN MURRAY · CHARLES LYELL", "PRINCIPLES OF GEOLOGY · POZZUOLI, 1828"],
+		"counter": {
+			"value": "23",
+			"label": "feet the drowned columns rose, by Lyell's reckoning"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/entropy",
+			"why": "In 1862 William Thomson turned the dissipation of energy he had argued for in 1852 against Lyell's endlessly cycling earth, which he likened to a self-winding clock, and gave the crust 20 to 400 million years."
+		},
+		{
+			"to": "chemistry/leaded-petrol",
+			"why": "Clair Patterson's age of the earth from meteorite lead, 4.55 billion years in 1956, the measurement that led him to leaded petrol, finally put a number on the deep time Lyell's geology assumed."
+		},
+		{
+			"to": "biology/darwin-wallace",
+			"why": "Lyell read Wallace's Sarawak law of 1855 and urged Darwin to publish, and in 1858 he and Hooker arranged the joint reading of Darwin's and Wallace's papers at the Linnean Society."
+		},
+		{
+			"to": "biology/beagle-voyage",
+			"why": "FitzRoy gave Darwin the first volume of the Principles for the Beagle, Henslow advised him not to accept its views, and the first rocks he examined, on St. Jago, convinced him of Lyell's slow changes."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Principles of Geology, Being an Attempt to Explain the Former Changes of the Earth's Surface, by Reference to Causes Now in Operation",
+			"authors": [
+				{
+					"family": "Lyell",
+					"given": "Charles"
+				}
+			],
+			"edition": "Vol. 1",
+			"place": "London",
+			"publisher": "John Murray",
+			"published": "1830",
+			"url": "https://archive.org/details/b29328123_0001",
+			"accessed": "2026-10-06",
+			"note": "The Temple of Serapis is on pp. 449–459; the \"great year\" on p. 123"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Theory of the Earth; or an Investigation of the Laws Observable in the Composition, Dissolution, and Restoration of Land upon the Globe",
+			"authors": [
+				{
+					"family": "Hutton",
+					"given": "James"
+				}
+			],
+			"container": "Transactions of the Royal Society of Edinburgh",
+			"volume": "1",
+			"pages": "209–304",
+			"published": "1788",
+			"doi": "10.1017/S0080456800029227",
+			"url": "https://archive.org/details/transactionsofro01roya",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Secular Cooling of the Earth",
+			"authors": [
+				{
+					"family": "Thomson",
+					"given": "William"
+				}
+			],
+			"container": "Transactions of the Royal Society of Edinburgh",
+			"volume": "23",
+			"pages": "157–169",
+			"published": "1862",
+			"doi": "10.1017/S0080456800018512",
+			"accessed": "2026-10-06",
+			"note": "Read in its reprint in Kelvin's Mathematical and Physical Papers, vol. 3 (1890), pp. 295–311"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Lyell",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Lyell&oldid=1375437067",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-17",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"title": "Charles Lyell's Principles of Geology: Lyell, Darwin and the principle of reasoning in geology",
+			"authors": [
+				{
+					"family": "Chancellor",
+					"given": "Gordon"
+				}
+			],
+			"container": "The Complete Work of Charles Darwin Online",
+			"url": "https://darwin-online.org.uk/EditorialIntroductions/Chancellor_LyellsPrinciplesOfGeology.html",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "The Autobiography of Charles Darwin",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"editors": [
+				{
+					"family": "Darwin",
+					"given": "Francis"
+				}
+			],
+			"place": "London",
+			"publisher": "John Murray",
+			"published": "1887",
+			"url": "https://www.gutenberg.org/ebooks/2010",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "On the Origin of Species by Means of Natural Selection",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"place": "London",
+			"publisher": "John Murray",
+			"published": "1859",
+			"url": "https://www.gutenberg.org/ebooks/1228",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter on Lyell's Antiquity of Man",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Hooker",
+					"given": "Joseph Dalton"
+				}
+			],
+			"written": "1863-02-24",
+			"container": "The Life and Letters of Charles Darwin",
+			"volume": "2",
+			"editors": [
+				{
+					"family": "Darwin",
+					"given": "Francis"
+				}
+			],
+			"published": "1887",
+			"url": "https://www.gutenberg.org/ebooks/2088",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "Charles Lyell and Modern Geology",
+			"authors": [
+				{
+					"family": "Bonney",
+					"given": "T. G."
+				}
+			],
+			"place": "London",
+			"publisher": "Cassell",
+			"published": "1895",
+			"url": "https://www.gutenberg.org/ebooks/34502",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Principles of Geology",
+			"url": "https://en.wikipedia.org/w/index.php?title=Principles_of_Geology&oldid=1377011169",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Macellum of Pozzuoli",
+			"url": "https://en.wikipedia.org/w/index.php?title=Macellum_of_Pozzuoli&oldid=1341504647",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Uniformitarianism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Uniformitarianism&oldid=1369398159",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "James Hutton",
+			"url": "https://en.wikipedia.org/w/index.php?title=James_Hutton&oldid=1375951175",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Age of Earth",
+			"url": "https://en.wikipedia.org/w/index.php?title=Age_of_Earth&oldid=1378668941",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henry De la Beche",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_De_la_Beche&oldid=1378526914",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "media",
+			"title": "Present state of the Temple of Serapis at Puzzuoli",
+			"url": "https://commons.wikimedia.org/wiki/File:Charles_Lyell,_Principles_of_Geology._Wellcome_L0027470.jpg",
+			"accessed": "2026-10-06",
+			"licence": "CC BY 4.0",
+			"file": "serapis.jpg",
+			"engravers": [
+				{
+					"family": "Bradley",
+					"given": "T."
+				}
+			],
+			"container": "Frontispiece to Charles Lyell, Principles of Geology, vol. 1 (London: John Murray, 1830); Wellcome Collection",
+			"number": "L0027470",
+			"published": "1830"
+		},
+		{
+			"kind": "media",
+			"title": "Estimates of the time geology had to work with, in years",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Drawn for kloom from Darwin's On the Origin of Species (1859), Thomson's \"On the Secular Cooling of the Earth\" (1862) and Wikipedia's Age of Earth for Buffon and Patterson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Age_of_Earth&oldid=1378668941",
+			"accessed": "2026-10-06",
+			"licence": "MIT",
+			"file": "age-estimates.svg"
+		}
+	]
+}

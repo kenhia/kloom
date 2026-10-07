@@ -1,0 +1,221 @@
+{
+	"id": "hooke-cells",
+	"topic": "Hooke's Micrographia and the cell",
+	"position": {
+		"label": "1665",
+		"sort": 1665
+	},
+	"scene": {
+		"headline": "Cork was made of little",
+		"accent": "BOXES.",
+		"palette": "stain",
+		"illustration": "scene.svg",
+		"metadata": ["LONDON · ROBERT HOOKE · MICROGRAPHIA", "THE ROYAL SOCIETY · SIXTY OBSERVATIONS"],
+		"counter": {
+			"value": "1,259,712,000",
+			"label": "cells in a cubic inch of cork, by Hooke's count"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/royal-society",
+			"why": "Hooke wrote Micrographia as the Royal Society's Curator of Experiments, and the Society licensed and printed it two months before the first Philosophical Transactions."
+		},
+		{
+			"to": "chemistry/boyle",
+			"why": "Before he made Micrographia, Hooke was Robert Boyle's assistant at Oxford and built the air pump that frame describes."
+		},
+		{
+			"to": "biology/cell-theory",
+			"why": "Hooke named the empty boxes in cork cells in 1665 but said nothing of their being alive; the claim that every living thing is built of cells came from Schleiden and Schwann in 1838 and 1839."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Micrographia: or Some Physiological Descriptions of Minute Bodies Made by Magnifying Glasses, with Observations and Inquiries Thereupon",
+			"authors": [
+				{
+					"family": "Hooke",
+					"given": "Robert"
+				}
+			],
+			"place": "London",
+			"publisher": "Jo. Martyn and Ja. Allestry, Printers to the Royal Society",
+			"published": "1665",
+			"url": "https://www.gutenberg.org/ebooks/15491",
+			"accessed": "2026-10-06",
+			"note": "Quoted from the preface and observations XVIII, LIII and LIV"
+		},
+		{
+			"kind": "diary",
+			"title": "The Diary of Samuel Pepys",
+			"authors": [
+				{
+					"family": "Pepys",
+					"given": "Samuel"
+				}
+			],
+			"written": "1665-01-20",
+			"editors": [
+				{
+					"family": "Wheatley",
+					"given": "Henry B."
+				}
+			],
+			"place": "London",
+			"publisher": "George Bell & Sons",
+			"published": "1893",
+			"container": "pepysdiary.com",
+			"url": "https://www.pepysdiary.com/diary/1665/01/20/",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "diary",
+			"title": "The Diary of Samuel Pepys",
+			"authors": [
+				{
+					"family": "Pepys",
+					"given": "Samuel"
+				}
+			],
+			"written": "1665-01-21",
+			"editors": [
+				{
+					"family": "Wheatley",
+					"given": "Henry B."
+				}
+			],
+			"place": "London",
+			"publisher": "George Bell & Sons",
+			"published": "1893",
+			"container": "pepysdiary.com",
+			"url": "https://www.pepysdiary.com/diary/1665/01/21/",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Hooke",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Hooke&oldid=1374888483",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Micrographia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Micrographia&oldid=1373988798",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Christopher Cock",
+			"url": "https://en.wikipedia.org/w/index.php?title=Christopher_Cock&oldid=1273800175",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-02-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cell biology",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cell_biology&oldid=1377571002",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "article",
+			"title": "The Unseen World: Reflections on Leeuwenhoek (1677) 'Concerning Little Animals'",
+			"authors": [
+				{
+					"family": "Lane",
+					"given": "Nick"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+			"volume": "370",
+			"issue": "1666",
+			"pages": "20140344",
+			"published": "2015",
+			"doi": "10.1098/rstb.2014.0344",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "media",
+			"title": "Hooke's microscope and lamp (Micrographia, Scheme I, figures 5 and 6)",
+			"url": "https://commons.wikimedia.org/wiki/File:Hooke-microscope.png",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "microscope.jpg",
+			"authors": [
+				{
+					"family": "Hooke",
+					"given": "Robert"
+				}
+			],
+			"container": "Robert Hooke, Micrographia (London, 1665), Scheme I",
+			"published": "1665"
+		},
+		{
+			"kind": "media",
+			"title": "Cork (Micrographia, Scheme XI)",
+			"url": "https://commons.wikimedia.org/wiki/File:Micrographia_Schem_11.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "cork.jpg",
+			"authors": [
+				{
+					"family": "Hooke",
+					"given": "Robert"
+				}
+			],
+			"container": "Robert Hooke, Micrographia (London, 1665), Scheme XI; National Library of Wales",
+			"published": "1665"
+		},
+		{
+			"kind": "media",
+			"title": "A flea (Micrographia, Scheme XXXIV)",
+			"url": "https://commons.wikimedia.org/wiki/File:Micrographia_Scheme_34.png",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "flea.jpg",
+			"authors": [
+				{
+					"family": "Hooke",
+					"given": "Robert"
+				}
+			],
+			"container": "Robert Hooke, Micrographia (London, 1665), Scheme XXXIV",
+			"published": "1665"
+		}
+	]
+}

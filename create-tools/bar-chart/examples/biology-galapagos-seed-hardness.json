@@ -1,0 +1,31 @@
+{
+	"title": "The seeds left to Daphne Major's finches, 1973–1977",
+	"description": "Bar chart of the average size-and-hardness index of the seeds available to finches on Daphne Major, the square root of a seed's depth in millimeters times its hardness in kilograms-force, averaged over seed numbers. April 1973, 0.84; December 1973, 1.19; July 1975, 1.01; March 1976, 1.03; in the drought, June 1977, 6.53, and December 1977, 5.19. From Boag and Grant (1984), table 2.",
+	"heading": "AVERAGE SEED SIZE AND HARDNESS · DAPHNE MAJOR",
+	"unit": "",
+	"width": 480,
+	"height": 300,
+	"barWidth": 48,
+	"axis": {
+		"max": 8,
+		"ticks": [
+			[0, "0"],
+			[2, "2"],
+			[4, "4"],
+			[6, "6"],
+			[8, "8"]
+		]
+	},
+	"bars": [
+		{ "label": "Apr", "sublabel": "1973", "value": 0.84, "display": "0.84" },
+		{ "label": "Dec", "sublabel": "1973", "value": 1.19, "display": "1.19" },
+		{ "label": "Jul", "sublabel": "1975", "value": 1.01, "display": "1.01" },
+		{ "label": "Mar", "sublabel": "1976", "value": 1.03, "display": "1.03" },
+		{ "label": "Jun", "sublabel": "1977", "value": 6.53, "display": "6.53", "highlight": true },
+		{ "label": "Dec", "sublabel": "1977", "value": 5.19, "display": "5.19", "highlight": true }
+	],
+	"source": {
+		"container": "Boag and Grant, Biological Journal of the Linnean Society 22 (1984), table 2",
+		"doi": "10.1111/j.1095-8312.1984.tb01679.x"
+	}
+}

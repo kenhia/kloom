@@ -1,0 +1,9 @@
+{
+	"id": "lotka-volterra-equations",
+	"wikidata": "Q150052",
+	"name": "Lotka–Volterra equations",
+	"aliases": ["Lotka–Volterra model", "predator–prey equations"],
+	"kind": "idea",
+	"description": "A pair of differential equations, found independently by Alfred Lotka and Vito Volterra in 1925–26, in which predator and prey populations rise and fall in endless cycles.",
+	"home": "biology/predator-prey"
+}

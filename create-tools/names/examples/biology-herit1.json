@@ -1,0 +1,49 @@
+{
+	"biology/mendel-peas": [
+		["St Thomas's Abbey", "st-thomass-abbey-brno"],
+		["Brno", "brno"],
+		["Gregor Mendel", "gregor-mendel"],
+		["University of Vienna", "university-of-vienna"],
+		["Christian Doppler", "christian-doppler"],
+		["_Versuche über Pflanzen-Hybriden_", "experiments-on-plant-hybridization"],
+		["pea", "pea"],
+		["dominant", "dominance-genetics"],
+		["gene", "gene"],
+		["Ronald Fisher", "ronald-fisher"],
+		["Pearson's chi-squared test", "pearsons-chi-squared-test"],
+		["Carl Nägeli", "carl-nageli"],
+		["_Hieracium_", "hieracium"]
+	],
+	"biology/rediscovery": [
+		["Hugo de Vries", "hugo-de-vries"],
+		["Gregor Mendel", "gregor-mendel"],
+		["Carl Correns", "carl-correns"],
+		["Erich von Tschermak", "erich-von-tschermak"],
+		["Mendelian inheritance", "mendelian-inheritance"],
+		["Punnett square", "punnett-square"],
+		["William Bateson", "william-bateson"],
+		["Raphael Weldon", "raphael-weldon"],
+		["Karl Pearson", "karl-pearson"],
+		["Francis Galton", "francis-galton"],
+		["genetics", "genetics"],
+		["mutation", "mutation"],
+		["Walter Sutton", "walter-sutton"],
+		["Theodor Boveri", "theodor-boveri"],
+		["chromosome", "chromosome"]
+	],
+	"biology/hardy-weinberg": [
+		["Reginald Punnett", "reginald-punnett"],
+		["Royal Society of Medicine", "royal-society-of-medicine"],
+		["Udny Yule", "udny-yule"],
+		["brachydactyly", "brachydactyly"],
+		["G. H. Hardy", "g-h-hardy"],
+		["Trinity College", "trinity-college-cambridge"],
+		["gene", "gene"],
+		["alleles", "allele"],
+		["Wilhelm Weinberg", "wilhelm-weinberg"],
+		["Stuttgart", "stuttgart"],
+		["Hardy–Weinberg principle", "hardy-weinberg-principle"],
+		["population genetics", "population-genetics"],
+		["_A Mathematician's Apology_", "a-mathematicians-apology"]
+	]
+}

@@ -228,6 +228,21 @@ class MarkCheck(unittest.TestCase):
         self.assertNotIn('plato.json is already in the registry', r.stderr)
         self.assertIn('1 other drafts passed with --drafts are already in the registry', r.stderr)
 
+    def test_an_unfinished_draft_is_not_yet_known(self):
+        # `--check` passed a mark on a draft whose kind and description were still empty, which the
+        # checking copy (`subject_plan.py --complete`) leaves out, so the copy refused the whole
+        # frame; five of sprint 055's authors met the two disagreeing.
+        drafts = os.path.join(self.dir, 'drafts')
+        os.makedirs(drafts)
+        self.write(os.path.join(drafts, 'plato.json'), {'id': 'plato', 'wikidata': 'Q859', 'kind': '', 'description': ''})
+        self.write(self.spec, {'subj/f': [['Aristotle', 'aristotle'], ['Plato', 'plato']]})
+        r = self.mark('--check', '--drafts', drafts)
+        self.assertEqual(r.returncode, 1)
+        self.assertIn('plato is drafted but unfinished', r.stderr)
+        self.write(os.path.join(drafts, 'plato.json'),
+                   {'id': 'plato', 'wikidata': 'Q859', 'kind': 'person', 'description': 'Greek philosopher.'})
+        self.assertEqual(self.mark('--check', '--drafts', drafts).returncode, 0)
+
 
 
 class Drafts(unittest.TestCase):

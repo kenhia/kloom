@@ -1,0 +1,287 @@
+{
+	"id": "mary-anning",
+	"topic": "Mary Anning's sea dragons",
+	"position": {
+		"label": "1823",
+		"sort": 1823
+	},
+	"scene": {
+		"headline": "A carpenter's daughter found the sea",
+		"accent": "DRAGONS.",
+		"palette": "strata",
+		"illustration": "scene.svg",
+		"metadata": ["LYME REGIS · MARY ANNING", "PLESIOSAURUS · BLUE LIAS · 10 DECEMBER 1823"],
+		"counter": {
+			"value": "35",
+			"label": "neck vertebrae, by Conybeare's count"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/abolition",
+			"why": "Henry De la Beche, who sold Duria Antiquior for Mary Anning's benefit, owned a Jamaican sugar estate worked by enslaved people, and the compensation for it under the 1833 abolition act went to his mortgagees."
+		},
+		{
+			"to": "biology/cuvier-extinction",
+			"why": "Shown drawings of Anning's plesiosaur in Paris, Cuvier first thought it forged from more than one animal, then came round; her sea dragons were part of the case that whole kinds of animal had vanished."
+		},
+		{
+			"to": "biology/lyell",
+			"why": "Lyell's claim that \"the ichthyosaur in the sea\" might return with the climate drew a cartoon in reply from De la Beche, who knew Anning's ichthyosaurs well: Professor Ichthyosaurus lecturing on a fossil human skull."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Mary Anning (1799–1847) of Lyme; 'the greatest fossilist the world ever knew'",
+			"authors": [
+				{
+					"family": "Torrens",
+					"given": "Hugh"
+				}
+			],
+			"container": "The British Journal for the History of Science",
+			"volume": "28",
+			"issue": "3",
+			"pages": "257–284",
+			"published": "1995",
+			"doi": "10.1017/S0007087400033161",
+			"accessed": "2026-10-06",
+			"note": "The prices, the plesiosaur's sale and Lady Silvester's diary are on pp. 260–269"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Discovery of an Almost Perfect Skeleton of the Plesiosaurus",
+			"authors": [
+				{
+					"family": "Conybeare",
+					"given": "William D."
+				}
+			],
+			"container": "Transactions of the Geological Society of London",
+			"volume": "1 (2nd series)",
+			"pages": "381–389",
+			"published": "1824",
+			"url": "https://archive.org/details/per_geological-society-london-trans_transactions-of-the-geological-society_1824_1",
+			"accessed": "2026-10-06",
+			"note": "The vertebrae are counted on pp. 382–385"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mary Anning",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mary_Anning&oldid=1373466356",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "On the Discovery of Coprolites, or Fossil Fæces, in the Lias at Lyme Regis, and in Other Formations",
+			"authors": [
+				{
+					"family": "Buckland",
+					"given": "William"
+				}
+			],
+			"container": "Transactions of the Geological Society of London",
+			"volume": "3 (2nd series)",
+			"pages": "223–236",
+			"published": "1835",
+			"url": "https://archive.org/details/per_geological-society-london-trans_transactions-of-the-geological-society-of-london_1835_3",
+			"accessed": "2026-10-06",
+			"note": "Read to the Society in February 1829"
+		},
+		{
+			"kind": "book",
+			"title": "Geology and Mineralogy Considered with Reference to Natural Theology",
+			"authors": [
+				{
+					"family": "Buckland",
+					"given": "William"
+				}
+			],
+			"edition": "Vol. 1",
+			"place": "London",
+			"publisher": "William Pickering",
+			"published": "1836",
+			"url": "https://archive.org/details/geologymineralo1buck",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "letter",
+			"title": "Autograph letter concerning the discovery of plesiosaurus",
+			"authors": [
+				{
+					"family": "Anning",
+					"given": "Mary"
+				}
+			],
+			"recipients": [
+				{
+					"name": "an unnamed buyer"
+				}
+			],
+			"written": "1823-12-26",
+			"container": "Wellcome Collection",
+			"url": "https://wellcomecollection.org/works/cezbevj4",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "The first female Fellows and the status of women in the Geological Society of London",
+			"authors": [
+				{
+					"family": "Burek",
+					"given": "Cynthia V."
+				}
+			],
+			"container": "Geological Society, London, Special Publications",
+			"volume": "317",
+			"pages": "373–407",
+			"published": "2009",
+			"doi": "10.1144/SP317.21",
+			"read": "abstract",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "Mary Anning: The unsung hero of fossil discovery",
+			"authors": [
+				{
+					"family": "Eylott",
+					"given": "Marie-Claire"
+				}
+			],
+			"container": "Natural History Museum",
+			"url": "https://www.nhm.ac.uk/discover/mary-anning-unsung-hero.html",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "Sir Henry Thomas De la Beche",
+			"container": "Legacies of British Slavery database, University College London",
+			"url": "https://www.ucl.ac.uk/lbs/person/view/2146633718",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Plesiosaurus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Plesiosaurus&oldid=1374370901",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henry De la Beche",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_De_la_Beche&oldid=1378526914",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Duria Antiquior",
+			"url": "https://en.wikipedia.org/w/index.php?title=Duria_Antiquior&oldid=1373675930",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Coprolite",
+			"url": "https://en.wikipedia.org/w/index.php?title=Coprolite&oldid=1362236587",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Buckland",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Buckland&oldid=1368374051",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "media",
+			"title": "Letter and sketch announcing the discovery of Plesiosaurus",
+			"url": "https://commons.wikimedia.org/wiki/File:Mary_Anning_Plesiosaurus.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "letter.jpg",
+			"authors": [
+				{
+					"family": "Anning",
+					"given": "Mary"
+				}
+			],
+			"container": "Wellcome Collection",
+			"number": "L0022370",
+			"published": "1823-12-26"
+		},
+		{
+			"kind": "media",
+			"title": "Duria Antiquior: animals and plants of Dorset in the Liassic period",
+			"url": "https://commons.wikimedia.org/wiki/File:Animals_and_plants_of_Dorset_in_the_Liassic_period._Wellcome_V0001517.jpg",
+			"accessed": "2026-10-06",
+			"licence": "CC BY 4.0",
+			"file": "duria.jpg",
+			"authors": [
+				{
+					"family": "De la Beche",
+					"given": "Henry"
+				}
+			],
+			"engravers": [
+				{
+					"family": "Scharf",
+					"given": "George"
+				}
+			],
+			"container": "Wellcome Collection",
+			"number": "V0001517",
+			"published": "1830",
+			"circa": true
+		}
+	]
+}

@@ -1,0 +1,191 @@
+{
+	"id": "virchow",
+	"topic": "Virchow: every cell from a cell",
+	"position": {
+		"label": "1858",
+		"sort": 1858
+	},
+	"scene": {
+		"headline": "The cell came from a",
+		"accent": "CELL.",
+		"palette": "stain",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BERLIN · PATHOLOGICAL INSTITUTE OF THE CHARITÉ",
+			"RUDOLF VIRCHOW · DIE CELLULARPATHOLOGIE"
+		],
+		"counter": {
+			"value": "1 to 3",
+			"label": "white to red blood cells in leukemia"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/revolutions-of-1848",
+			"why": "Virchow came back from the Silesian typhus epidemic to fight on the Berlin barricades in March 1848, and his maxim that politics is medicine at a larger scale was written in the revolution's journal of medical reform."
+		},
+		{
+			"to": "biology/swan-neck-flask",
+			"why": "Remak thought cells forming in a formless fluid \"as improbable as the spontaneous generation of organisms,\" and Virchow's every cell from a cell, \"just as an animal can spring only from an animal,\" made for cells the claim Pasteur's flasks made for microbes."
+		},
+		{
+			"to": "biology/neanderthal-genome",
+			"why": "Virchow judged the first Neanderthal skull a diseased modern human; in 1997 mitochondrial DNA from Neanderthal 1, the bones found in the Neander valley in 1856, fell outside the variation of 2,051 present-day people."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Cellular Pathology as Based upon Physiological and Pathological Histology: Twenty Lectures Delivered in the Pathological Institute of Berlin during the Months of February, March, and April, 1858",
+			"authors": [
+				{
+					"family": "Virchow",
+					"given": "Rudolf"
+				}
+			],
+			"translators": [
+				{
+					"family": "Chance",
+					"given": "Frank"
+				}
+			],
+			"place": "London",
+			"publisher": "John Churchill",
+			"published": "1860",
+			"url": "https://archive.org/details/b20418310",
+			"accessed": "2026-10-06",
+			"note": "Omnis cellula e cellula is in lecture II; the leukemia counts in lecture VIII"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Decentering Rudolf Virchow: The Making of a Social Medicine Pioneer",
+			"authors": [
+				{
+					"family": "Timmermann",
+					"given": "Carsten"
+				}
+			],
+			"container": "Medicine on a Larger Scale",
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"pages": "20–39",
+			"published": "2025",
+			"doi": "10.1017/9781009428514.002",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Ueber extracellulare Entstehung thierischer Zellen und über Vermehrung derselben durch Theilung",
+			"authors": [
+				{
+					"family": "Remak",
+					"given": "Robert"
+				}
+			],
+			"container": "Archiv für Anatomie, Physiologie und wissenschaftliche Medicin",
+			"volume": "1852",
+			"pages": "47–57",
+			"published": "1852",
+			"language": "de",
+			"url": "https://archive.org/details/archivfuranatomi52berl",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Robert Remak (1815–1865)",
+			"authors": [
+				{
+					"family": "Grzybowski",
+					"given": "Andrzej"
+				},
+				{
+					"family": "Pietrzak",
+					"given": "Krzysztof"
+				}
+			],
+			"container": "Journal of Neurology",
+			"volume": "260",
+			"issue": "6",
+			"pages": "1696–1697",
+			"published": "2013",
+			"doi": "10.1007/s00415-012-6761-6",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rudolf Virchow",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rudolf_Virchow&oldid=1377441612",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Remak",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Remak&oldid=1377045317",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Walther Flemming",
+			"url": "https://en.wikipedia.org/w/index.php?title=Walther_Flemming&oldid=1372006933",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Leukemia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leukemia&oldid=1378524078",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "media",
+			"title": "Rudolf Ludwig Karl Virchow",
+			"url": "https://commons.wikimedia.org/wiki/File:Rudolf_Ludwig_Karl_Virchow_by_Carl_G%C3%BCnther_circa_1890.png",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "virchow.jpg",
+			"authors": [
+				{
+					"family": "Günther",
+					"given": "Carl"
+				}
+			],
+			"container": "National Portrait Gallery, London",
+			"published": "1890",
+			"circa": true
+		}
+	]
+}

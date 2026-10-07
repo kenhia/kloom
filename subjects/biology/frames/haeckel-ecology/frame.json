@@ -1,0 +1,297 @@
+{
+	"id": "haeckel-ecology",
+	"topic": "Haeckel names ecology",
+	"position": {
+		"label": "1866",
+		"sort": 1866
+	},
+	"scene": {
+		"headline": "Nature got a",
+		"accent": "HOUSEHOLD.",
+		"palette": "canopy",
+		"illustration": "scene.svg",
+		"metadata": ["JENA · ERNST HAECKEL", "GENERELLE MORPHOLOGIE DER ORGANISMEN · 1866"],
+		"counter": {
+			"value": "3,508",
+			"label": "new radiolarian species from the Challenger"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/holocaust",
+			"why": "Whether Haeckel's ranking of human races prepared the racial biology of the Nazis, who both praised him and banned him, is still argued between Gasman and Richards."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Generelle Morphologie der Organismen",
+			"authors": [
+				{
+					"family": "Haeckel",
+					"given": "Ernst"
+				}
+			],
+			"volume": "2",
+			"place": "Berlin",
+			"publisher": "Georg Reimer",
+			"published": "1866",
+			"language": "de",
+			"url": "https://archive.org/details/generellemorphol02haec",
+			"accessed": "2026-10-06",
+			"note": "The definition of Oecologie, p. 286; the clover and the cats, p. 235 n."
+		},
+		{
+			"kind": "encyclopedia",
+			"key": true,
+			"title": "Haeckel, Ernst (1834–1919)",
+			"authors": [
+				{
+					"family": "Richards",
+					"given": "Robert J."
+				}
+			],
+			"container": "Evolution: The First Four Billion Years",
+			"editors": [
+				{
+					"family": "Ruse",
+					"given": "Michael"
+				},
+				{
+					"family": "Travis",
+					"given": "Joseph"
+				}
+			],
+			"place": "Cambridge, MA",
+			"publisher": "Harvard University Press",
+			"published": "2009",
+			"pages": "622–626",
+			"url": "https://home.uchicago.edu/~rjr6/articles/Harvard%20Guide--Haeckel.pdf",
+			"accessed": "2026-10-06",
+			"note": "Read in the author's copy"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Ernst Haeckel's Alleged Anti-Semitism and Contributions to Nazi Biology",
+			"authors": [
+				{
+					"family": "Richards",
+					"given": "Robert J."
+				}
+			],
+			"container": "Biological Theory",
+			"volume": "2",
+			"issue": "1",
+			"pages": "97–103",
+			"published": "2007",
+			"doi": "10.1162/biot.2007.2.1.97",
+			"url": "https://home.uchicago.edu/~rjr6/articles/biot.2007.2.1.pdf",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "There Is No Highly Conserved Embryonic Stage in the Vertebrates: Implications for Current Theories of Evolution and Development",
+			"authors": [
+				{
+					"family": "Richardson",
+					"given": "Michael K."
+				},
+				{
+					"family": "Hanken",
+					"given": "James"
+				},
+				{
+					"family": "Gooneratne",
+					"given": "Mayoni L."
+				},
+				{
+					"family": "Pieau",
+					"given": "Claude"
+				},
+				{
+					"family": "Raynaud",
+					"given": "Albert"
+				},
+				{
+					"family": "Selwood",
+					"given": "Lynne"
+				},
+				{
+					"family": "Wright",
+					"given": "Glenda M."
+				}
+			],
+			"container": "Anatomy and Embryology",
+			"volume": "196",
+			"pages": "91–106",
+			"published": "1997",
+			"doi": "10.1007/s004290050082",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Haeckel's ABC of Evolution and Development",
+			"authors": [
+				{
+					"family": "Richardson",
+					"given": "Michael K."
+				},
+				{
+					"family": "Keuck",
+					"given": "Gerhard"
+				}
+			],
+			"container": "Biological Reviews",
+			"volume": "77",
+			"pages": "495–528",
+			"published": "2002",
+			"doi": "10.1017/s1464793102005948",
+			"accessed": "2026-10-06",
+			"read": "abstract",
+			"issue": "4"
+		},
+		{
+			"kind": "book",
+			"title": "Report on the Radiolaria Collected by H.M.S. Challenger During the Years 1873–1876",
+			"authors": [
+				{
+					"family": "Haeckel",
+					"given": "Ernst"
+				}
+			],
+			"place": "London",
+			"publisher": "Her Majesty's Stationery Office",
+			"published": "1887",
+			"url": "https://www.gutenberg.org/ebooks/44525",
+			"accessed": "2026-10-06",
+			"note": "The counts of genera and species in the preface; the icosahedral ground-form and Circogonia's twelve radial tubes in the introduction"
+		},
+		{
+			"kind": "book",
+			"title": "The Wonders of Life: A Popular Study of Biological Philosophy",
+			"authors": [
+				{
+					"family": "Haeckel",
+					"given": "Ernst"
+				}
+			],
+			"translators": [
+				{
+					"family": "McCabe",
+					"given": "Joseph"
+				}
+			],
+			"place": "New York",
+			"publisher": "Harper & Brothers",
+			"published": "1905",
+			"url": "https://www.gutenberg.org/ebooks/46652",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ernst Haeckel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ernst_Haeckel&oldid=1374021569",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ecology",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ecology&oldid=1375892844",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Recapitulation theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Recapitulation_theory&oldid=1378452536",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kunstformen der Natur",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kunstformen_der_Natur&oldid=1304724423",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-08-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Radiolaria",
+			"url": "https://en.wikipedia.org/w/index.php?title=Radiolaria&oldid=1374248164",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "media",
+			"title": "Phaeodaria (Kunstformen der Natur, plate 1)",
+			"authors": [
+				{
+					"family": "Haeckel",
+					"given": "Ernst"
+				}
+			],
+			"container": "Kunstformen der Natur",
+			"published": "1904",
+			"licence": "Public domain",
+			"file": "phaeodaria.jpg",
+			"url": "https://commons.wikimedia.org/wiki/File:Haeckel_Phaeodaria_1.jpg",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "media",
+			"title": "Stammbaum des Menschen (Anthropogenie, plate 12)",
+			"authors": [
+				{
+					"family": "Haeckel",
+					"given": "Ernst"
+				}
+			],
+			"container": "Anthropogenie oder Entwickelungsgeschichte des Menschen",
+			"published": "1874",
+			"licence": "Public domain",
+			"file": "pedigree.jpg",
+			"url": "https://commons.wikimedia.org/wiki/File:Pedigree_of_man_(Haeckel_1874).jpg",
+			"accessed": "2026-10-06"
+		}
+	]
+}

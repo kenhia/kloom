@@ -1,0 +1,395 @@
+{
+	"id": "galapagos",
+	"topic": "The Galápagos mockingbirds",
+	"position": {
+		"label": "1835",
+		"sort": 1835
+	},
+	"scene": {
+		"headline": "Every island had its own",
+		"accent": "MOCKINGBIRD.",
+		"palette": "ocean",
+		"illustration": "scene.svg",
+		"metadata": ["CHATHAM · CHARLES · ALBEMARLE · JAMES", "DARWIN · LAWSON · JOHN GOULD"],
+		"counter": {
+			"value": "5 weeks",
+			"label": "in the islands, September 15 to October 20, 1835"
+		}
+	},
+	"connections": [
+		{
+			"to": "biology/notebook-b",
+			"why": "Gould's verdict on the Galápagos mockingbirds, separate species from island to island, and on the finches is what led Darwin in July 1837 to open Notebook B, his first on the transmutation of species."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Darwin's Ornithological Notes",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"editors": [
+				{
+					"family": "Barlow",
+					"given": "Nora"
+				}
+			],
+			"container": "Bulletin of the British Museum (Natural History), Historical Series",
+			"volume": "2",
+			"issue": "7",
+			"pages": "201–278",
+			"published": "1963",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=F1577&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"key": true,
+			"note": "The mockingbird passage is on MS p. 74, printed p. 262"
+		},
+		{
+			"kind": "book",
+			"title": "Journal of Researches into the Natural History and Geology of the Countries Visited during the Voyage of H.M.S. Beagle round the World",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"edition": "2nd ed.",
+			"place": "London",
+			"publisher": "John Murray",
+			"published": "1845",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=F14&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"key": true,
+			"note": "The Galápagos are chapter 17: Lawson, the colony, Gould's species and the finches"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Darwin and His Finches: The Evolution of a Legend",
+			"authors": [
+				{
+					"family": "Sulloway",
+					"given": "Frank J."
+				}
+			],
+			"container": "Journal of the History of Biology",
+			"volume": "15",
+			"issue": "1",
+			"pages": "1–53",
+			"published": "1982",
+			"doi": "10.1007/bf00132004",
+			"url": "http://www.sulloway.org/Finches.pdf",
+			"accessed": "2026-10-06",
+			"note": "Read in the author's copy; the tortoises are on p. 19"
+		},
+		{
+			"kind": "article",
+			"title": "Darwin and the Galapagos",
+			"authors": [
+				{
+					"family": "Sulloway",
+					"given": "Frank J."
+				}
+			],
+			"container": "Biological Journal of the Linnean Society",
+			"volume": "21",
+			"issue": "1–2",
+			"pages": "29–59",
+			"published": "1984",
+			"doi": "10.1111/j.1095-8312.1984.tb02052.x",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Intense Natural Selection in a Population of Darwin's Finches (Geospizinae) in the Galápagos",
+			"authors": [
+				{
+					"family": "Boag",
+					"given": "Peter T."
+				},
+				{
+					"family": "Grant",
+					"given": "Peter R."
+				}
+			],
+			"container": "Science",
+			"volume": "214",
+			"issue": "4516",
+			"pages": "82–85",
+			"published": "1981",
+			"doi": "10.1126/science.214.4516.82",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Classical Case of Character Release: Darwin's Finches (Geospiza) on Isla Daphne Major, Galápagos",
+			"authors": [
+				{
+					"family": "Boag",
+					"given": "Peter T."
+				},
+				{
+					"family": "Grant",
+					"given": "Peter R."
+				}
+			],
+			"container": "Biological Journal of the Linnean Society",
+			"volume": "22",
+			"issue": "3",
+			"pages": "243–287",
+			"published": "1984",
+			"doi": "10.1111/j.1095-8312.1984.tb01679.x",
+			"accessed": "2026-10-06",
+			"note": "The 85 percent fall is on p. 256, the seeds in table 2, p. 258"
+		},
+		{
+			"kind": "article",
+			"title": "The Origin and Diversification of Galapagos Mockingbirds",
+			"authors": [
+				{
+					"family": "Arbogast",
+					"given": "Brian S."
+				},
+				{
+					"family": "Drovetski",
+					"given": "Sergei V."
+				},
+				{
+					"family": "Curry",
+					"given": "Robert L."
+				},
+				{
+					"family": "Boag",
+					"given": "Peter T."
+				},
+				{
+					"family": "Seutin",
+					"given": "Gilles"
+				},
+				{
+					"family": "Grant",
+					"given": "Peter R."
+				},
+				{
+					"family": "Grant",
+					"given": "B. Rosemary"
+				}
+			],
+			"etAl": true,
+			"container": "Evolution",
+			"volume": "60",
+			"issue": "2",
+			"pages": "370–382",
+			"published": "2006",
+			"doi": "10.1554/03-749.1",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "diary",
+			"title": "Journal",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"written": "1837",
+			"editors": [
+				{
+					"family": "van Wyhe",
+					"given": "John"
+				}
+			],
+			"container": "The Complete Work of Charles Darwin Online",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=CUL-DAR158.1-76&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"note": "Darwin's record of his own life, CUL-DAR158"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Darwin's finches",
+			"url": "https://en.wikipedia.org/w/index.php?title=Darwin's_finches&oldid=1358383571",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-08",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Second voyage of HMS Beagle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Second_voyage_of_HMS_Beagle&oldid=1377284053",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Gould",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Gould&oldid=1378668611",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nicholas Lawson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nicholas_Lawson&oldid=1353002849",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Galápagos Islands",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gal%C3%A1pagos_Islands&oldid=1376860184",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Floreana mockingbird",
+			"url": "https://en.wikipedia.org/w/index.php?title=Floreana_mockingbird&oldid=1377122242",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Galápagos mockingbird",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gal%C3%A1pagos_mockingbird&oldid=1325196520",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "San Cristóbal mockingbird",
+			"url": "https://en.wikipedia.org/w/index.php?title=San_Crist%C3%B3bal_mockingbird&oldid=1315350238",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Peter and Rosemary Grant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Peter_and_Rosemary_Grant&oldid=1372520945",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Daphne Major",
+			"url": "https://en.wikipedia.org/w/index.php?title=Daphne_Major&oldid=1305458080",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-08-12"
+		},
+		{
+			"kind": "media",
+			"title": "Mimus trifasciatus",
+			"url": "https://commons.wikimedia.org/wiki/File:Mimus_trifasciatus.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "trifasciatus.jpg",
+			"authors": [
+				{
+					"family": "Gould",
+					"given": "John"
+				}
+			],
+			"engravers": [
+				{
+					"family": "Gould",
+					"given": "Elizabeth"
+				}
+			],
+			"container": "John Gould, Birds, The Zoology of the Voyage of H.M.S. Beagle, part 3 (London, 1839), plate 16",
+			"published": "1839"
+		},
+		{
+			"kind": "media",
+			"title": "The seeds left to Daphne Major's finches, 1973–1977",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Boag and Grant, Biological Journal of the Linnean Society 22 (1984), table 2",
+			"doi": "10.1111/j.1095-8312.1984.tb01679.x",
+			"accessed": "2026-10-06",
+			"licence": "MIT",
+			"file": "seed-hardness.svg"
+		}
+	]
+}
