@@ -1,0 +1,320 @@
+{
+	"id": "beagle-voyage",
+	"topic": "The voyage of the Beagle",
+	"position": {
+		"label": "1831–36",
+		"sort": 1831
+	},
+	"scene": {
+		"headline": "A naturalist went around the",
+		"accent": "WORLD.",
+		"palette": "ocean",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HMS BEAGLE · ROBERT FITZROY · CHARLES DARWIN",
+			"PLYMOUTH TO FALMOUTH · 22 CHRONOMETERS"
+		],
+		"counter": {
+			"value": "22",
+			"label": "chronometers in the captain's cabin"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/harrison-chronometer",
+			"why": "The Beagle carried twenty-two marine chronometers to find longitude by Greenwich time, the method Harrison's H4 proved at sea in 1761."
+		},
+		{
+			"to": "food/lind-scurvy",
+			"why": "The Beagle sailed in 1831 with lemon juice among its antiscorbutics, the ration the Admiralty adopted in 1795 after the trials that began with Lind's."
+		},
+		{
+			"to": "food/appert-canning",
+			"why": "FitzRoy stowed a very large quantity of Kilner and Moorsom's preserved meat, vegetables and soup in tins, food sealed and heated as Appert and Durand had first done."
+		},
+		{
+			"to": "western-civ/abolition",
+			"why": "At Bahia in 1832 Darwin quarreled with FitzRoy over Brazilian slavery, the year before Parliament's Slavery Abolition Act; Brazil kept slavery until 1888."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Proceedings of the Second Expedition, 1831–1836, under the Command of Captain Robert Fitz-Roy",
+			"authors": [
+				{
+					"family": "FitzRoy",
+					"given": "Robert"
+				}
+			],
+			"container": "Narrative of the Surveying Voyages of His Majesty's Ships Adventure and Beagle",
+			"volume": "2",
+			"place": "London",
+			"publisher": "Henry Colburn",
+			"published": "1839",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=F10.2&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"note": "The outfit, the chronometers and the call for a naturalist are on pp. 17–20; the Fuegians in chapter 1"
+		},
+		{
+			"kind": "letter",
+			"key": true,
+			"title": "Letter to Charles Darwin",
+			"authors": [
+				{
+					"family": "Henslow",
+					"given": "John Stevens"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"written": "1831-08-24",
+			"container": "Darwin Correspondence Project",
+			"number": "DCP-LETT-105",
+			"publisher": "University of Cambridge",
+			"url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-105.xml",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Autobiography of Charles Darwin, 1809–1882",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"editors": [
+				{
+					"family": "Barlow",
+					"given": "Nora"
+				}
+			],
+			"place": "London",
+			"publisher": "Collins",
+			"published": "1958",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=F1497&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"note": "The voyage, FitzRoy and the quarrel at Bahia are on pp. 71–78"
+		},
+		{
+			"kind": "diary",
+			"title": "Charles Darwin's Beagle Diary",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"written": "1831-10-26",
+			"editors": [
+				{
+					"family": "Rookmaaker",
+					"given": "Kees"
+				},
+				{
+					"family": "van Wyhe",
+					"given": "John"
+				}
+			],
+			"container": "The Complete Work of Charles Darwin Online",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=EH88202366&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "diary",
+			"title": "Charles Darwin's Beagle Diary",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"written": "1834-03-05",
+			"editors": [
+				{
+					"family": "Rookmaaker",
+					"given": "Kees"
+				},
+				{
+					"family": "van Wyhe",
+					"given": "John"
+				}
+			],
+			"container": "The Complete Work of Charles Darwin Online",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=EH88202366&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Darwin's Ornithological Notes",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"editors": [
+				{
+					"family": "Barlow",
+					"given": "Nora"
+				}
+			],
+			"container": "Bulletin of the British Museum (Natural History), Historical Series",
+			"volume": "2",
+			"issue": "7",
+			"pages": "201–278",
+			"published": "1963",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=F1577&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"note": "Its itinerary of the voyage, with every port's dates, is on pp. 210–211"
+		},
+		{
+			"kind": "book",
+			"title": "Charles Darwin's Zoology Notes & Specimen Lists from H.M.S. Beagle",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"editors": [
+				{
+					"family": "Keynes",
+					"given": "Richard"
+				}
+			],
+			"place": "Cambridge",
+			"publisher": "Cambridge University Press",
+			"published": "2000",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=F1840&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "Journal and Remarks, 1832–1836",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"container": "Narrative of the Surveying Voyages of His Majesty's Ships Adventure and Beagle",
+			"volume": "3",
+			"place": "London",
+			"publisher": "Henry Colburn",
+			"published": "1839",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=F10.3&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Second voyage of HMS Beagle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Second_voyage_of_HMS_Beagle&oldid=1377284053",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "HMS Beagle",
+			"url": "https://en.wikipedia.org/w/index.php?title=HMS_Beagle&oldid=1378396515",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert FitzRoy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_FitzRoy&oldid=1376159160",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jemmy Button",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jemmy_Button&oldid=1374212988",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Yokcushlu",
+			"url": "https://en.wikipedia.org/w/index.php?title=Yokcushlu&oldid=1326346133",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-08"
+		},
+		{
+			"kind": "media",
+			"title": "HMS Beagle, longitudinal section, 1832",
+			"url": "https://commons.wikimedia.org/wiki/File:HMS_Beagle_1832_longitudinal_section_larger.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "section.jpg",
+			"authors": [
+				{
+					"family": "King",
+					"given": "F. G."
+				}
+			],
+			"container": "Reproduced in Darwin's collected works (Moscow, 1935); Wikimedia Commons",
+			"note": "Drawn by a shipmate long after the voyage; the file page credits F. G. King"
+		},
+		{
+			"kind": "media",
+			"title": "The Three Fuegians Brought to England by Captn. Fitz-Roy, 1831",
+			"url": "https://commons.wikimedia.org/wiki/File:The_Three_Fuegians_brought_to_England_by_Captn._Fitz-Roy,_1831.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "fuegians.jpg",
+			"authors": [
+				{
+					"family": "Hayter",
+					"given": "John"
+				}
+			],
+			"container": "State Library of New South Wales",
+			"published": "1831"
+		}
+	]
+}

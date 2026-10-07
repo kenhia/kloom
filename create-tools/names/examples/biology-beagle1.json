@@ -1,0 +1,52 @@
+{
+	"biology/beagle-voyage": [
+		["HMS _Beagle_", "hms-beagle"],
+		["Robert FitzRoy", "robert-fitzroy"],
+		["Strait of Magellan", "strait-of-magellan"],
+		["Francis Beaufort", "francis-beaufort"],
+		["Tierra del Fuego", "tierra-del-fuego"],
+		["marine chronometers", "marine-chronometer"],
+		["John Stevens Henslow", "john-stevens-henslow"],
+		["Charles Darwin", "charles-darwin"],
+		["Kawésqar", "kawesqar"],
+		["Yokcushlu", "yokcushlu"],
+		["Yahgan", "yahgan-people"],
+		["Jemmy Button", "jemmy-button"],
+		["Alexander von Humboldt", "alexander-von-humboldt"],
+		["Charles Lyell", "charles-lyell"],
+		["_The Voyage of the Beagle_", "the-voyage-of-the-beagle"]
+	],
+	"biology/patagonia-fossils": [
+		["Bahía Blanca", "bahia-blanca"],
+		["Darwin", "charles-darwin"],
+		["FitzRoy", "robert-fitzroy"],
+		["Richard Owen", "richard-owen"],
+		["Frank Sulloway", "frank-sulloway"],
+		["Georges Cuvier", "georges-cuvier"],
+		["_Megatherium_", "megatherium"],
+		["Henslow", "john-stevens-henslow"],
+		["glyptodonts", "glyptodont"],
+		["_Macrauchenia_", "macrauchenia"],
+		["_Toxodon_", "toxodon"],
+		["extinction", "extinction"],
+		["Hunterian Museum", "hunterian-museum-london"],
+		["Natural History Museum", "natural-history-museum-london"]
+	],
+	"biology/galapagos": [
+		["_Beagle_", "hms-beagle"],
+		["Galápagos Islands", "galapagos-islands"],
+		["Darwin", "charles-darwin"],
+		["Syms Covington", "syms-covington"],
+		["Nicholas Lawson", "nicholas-lawson"],
+		["giant tortoises", "galapagos-tortoise"],
+		["John Gould", "john-gould"],
+		["Zoological Society", "zoological-society-of-london"],
+		["Frank Sulloway", "frank-sulloway"],
+		["Darwin's finches", "darwins-finches"],
+		["David Lack", "david-lack"],
+		["Peter and Rosemary Grant", "peter-and-rosemary-grant"],
+		["Daphne Major", "daphne-major"],
+		["medium ground finches", "medium-ground-finch"],
+		["Floreana mockingbird", "floreana-mockingbird"]
+	]
+}

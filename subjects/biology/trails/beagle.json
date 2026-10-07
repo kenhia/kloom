@@ -1,0 +1,16 @@
+{
+	"id": "beagle",
+	"title": "The Beagle",
+	"anchor": "origin-of-species",
+	"spine": {
+		"segments": [
+			{
+				"id": "beagle-seg",
+				"title": "Port by port",
+				"labelKind": "date",
+				"palette": "ocean",
+				"frames": ["beagle-voyage", "patagonia-fossils", "galapagos"]
+			}
+		]
+	}
+}
