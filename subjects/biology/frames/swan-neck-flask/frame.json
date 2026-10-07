@@ -1,0 +1,287 @@
+{
+	"id": "swan-neck-flask",
+	"topic": "Pasteur's swan-neck flasks",
+	"position": {
+		"label": "1860–62",
+		"sort": 1862
+	},
+	"scene": {
+		"headline": "We left the neck",
+		"accent": "OPEN.",
+		"palette": "stain",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · ÉCOLE NORMALE SUPÉRIEURE · LOUIS PASTEUR",
+			"YEAST WATER · SWAN-NECK FLASKS · THE MER DE GLACE"
+		],
+		"counter": {
+			"value": "1 of 20",
+			"label": "flasks spoiled on the Mer de Glace"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/chirality",
+			"why": "Pasteur came to living ferments from his tartrate crystals: microbes that fermented racemic acid ate one hand and left the other, part of the work on fermentation that led him to the flasks."
+		},
+		{
+			"to": "food/pasteurization",
+			"why": "The flasks showed that microbes come from germs in the air, not from a spontaneous change in the liquid; the same reasoning told Pasteur that the diseases of wine were microscopic growths that heat could kill."
+		},
+		{
+			"to": "nursing/lister",
+			"why": "Lister built antiseptic surgery on what these flasks showed: that putrefaction comes not from the oxygen of the air but from living germs carried in it."
+		},
+		{
+			"to": "chemistry/enzymes",
+			"why": "Pasteur took up the flasks because he held that fermentation is the work of living cells; Buchner's cell-free yeast juice later showed the work is done by enzymes inside them."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Mémoire sur les corpuscules organisés qui existent dans l'atmosphère: examen de la doctrine des générations spontanées",
+			"authors": [
+				{
+					"family": "Pasteur",
+					"given": "Louis"
+				}
+			],
+			"container": "Annales de chimie et de physique, 3rd series",
+			"volume": "64",
+			"pages": "5–110",
+			"published": "1862",
+			"language": "fr",
+			"url": "https://archive.org/details/s696id13664800",
+			"accessed": "2026-10-06",
+			"note": "The swan-neck flasks are on pp. 66–69; the Observatory and Alpine flasks on pp. 83–87"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Sur les corpuscules organisés qui existent dans l'atmosphère: examen de la doctrine des générations spontanées. Leçon professée à la Société chimique de Paris le 19 mai 1861",
+			"authors": [
+				{
+					"family": "Pasteur",
+					"given": "Louis"
+				}
+			],
+			"place": "Paris",
+			"publisher": "Société chimique de Paris",
+			"published": "1861",
+			"language": "fr",
+			"url": "https://fr.wikisource.org/wiki/Sur_les_corpuscules_organis%C3%A9s_qui_existent_dans_l%E2%80%99atmosph%C3%A8re",
+			"accessed": "2026-10-06",
+			"note": "Needham's reply to Spallanzani and Pasteur's reason for taking up the question"
+		},
+		{
+			"kind": "article",
+			"title": "Prix Alhumbert pour les sciences naturelles: question proposée pour 1862",
+			"authors": [
+				{
+					"name": "Académie des sciences"
+				}
+			],
+			"container": "Comptes rendus hebdomadaires des séances de l'Académie des sciences",
+			"volume": "50",
+			"pages": "248–249",
+			"published": "1860-01-30",
+			"language": "fr",
+			"url": "https://archive.org/details/comptes-rendus-lacademie-des-sciences-vie-academique_1860-01-30_50_5",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Prix Alhumbert pour l'année 1862: rapport sur ce concours",
+			"authors": [
+				{
+					"family": "Bernard",
+					"given": "Claude"
+				}
+			],
+			"container": "Comptes rendus hebdomadaires des séances de l'Académie des sciences",
+			"volume": "55",
+			"pages": "977–979",
+			"published": "1862-12-29",
+			"language": "fr",
+			"url": "https://archive.org/details/comptes-rendus-hebdomadaires-academie-des-sciences_1862-12-29_55_26",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Rapport sur les expériences relatives à la génération spontanée",
+			"authors": [
+				{
+					"family": "Balard",
+					"given": "Antoine-Jérôme"
+				}
+			],
+			"container": "Comptes rendus hebdomadaires des séances de l'Académie des sciences",
+			"volume": "60",
+			"pages": "384–391",
+			"published": "1865-02-20",
+			"language": "fr",
+			"url": "https://archive.org/details/comptes-rendus-hebdomadaires-academie-des-sciences_1865-02-20_60_8",
+			"accessed": "2026-10-06",
+			"note": "The commission of 1864, Pouchet's withdrawal and the Montanvert flasks four years on"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Problem of Heat Resistance of Micro-Organisms in the British Spontaneous Generation Controversies of 1860–1880",
+			"authors": [
+				{
+					"family": "Crellin",
+					"given": "J. K."
+				}
+			],
+			"container": "Medical History",
+			"volume": "10",
+			"issue": "1",
+			"pages": "50–59",
+			"published": "1966",
+			"doi": "10.1017/S0025727300010644",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Gerald L Geison, The Private Science of Louis Pasteur (review)",
+			"authors": [
+				{
+					"family": "Sturdy",
+					"given": "Steve"
+				}
+			],
+			"container": "Medical History",
+			"volume": "40",
+			"issue": "3",
+			"pages": "380–382",
+			"published": "1996",
+			"doi": "10.1017/S0025727300061378",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Spontaneous generation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Spontaneous_generation&oldid=1378967637",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-07",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Félix Archimède Pouchet",
+			"url": "https://en.wikipedia.org/w/index.php?title=F%C3%A9lix_Archim%C3%A8de_Pouchet&oldid=1371996646",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lazzaro Spallanzani",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lazzaro_Spallanzani&oldid=1378631363",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Louis Pasteur",
+			"url": "https://en.wikipedia.org/w/index.php?title=Louis_Pasteur&oldid=1378036531",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tyndallization",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tyndallization&oldid=1317108986",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Swan neck flask",
+			"url": "https://en.wikipedia.org/w/index.php?title=Swan_neck_flask&oldid=1278110737",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-02-28"
+		},
+		{
+			"kind": "media",
+			"title": "Swan-necked flask used by Pasteur",
+			"url": "https://commons.wikimedia.org/wiki/File:Swan-necked_flask_used_by_Pasteur._Wellcome_M0012521.jpg",
+			"accessed": "2026-10-06",
+			"licence": "CC BY 4.0",
+			"file": "swan-neck.jpg",
+			"container": "Wellcome Collection",
+			"number": "M0012521"
+		},
+		{
+			"kind": "media",
+			"title": "Glass flask used by Louis Pasteur, France, 1860–1864",
+			"url": "https://commons.wikimedia.org/wiki/File:Glass_flask_used_by_Louis_Pasteur,_France,_1860-1864_Wellcome_L0057230.jpg",
+			"accessed": "2026-10-06",
+			"licence": "CC BY 4.0",
+			"file": "sealed-flask.jpg",
+			"container": "Wellcome Collection",
+			"number": "L0057230"
+		},
+		{
+			"kind": "media",
+			"title": "Share of Pasteur's 1860 flasks of boiled yeast water that grew microbes after being opened in each place",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Louis Pasteur, \"Mémoire sur les corpuscules organisés qui existent dans l'atmosphère,\" Annales de chimie et de physique, 3rd series, vol. 64 (1862), pp. 83–86",
+			"url": "https://archive.org/details/s696id13664800/page/n89",
+			"accessed": "2026-10-06",
+			"licence": "MIT",
+			"file": "flasks-spoiled.svg"
+		}
+	]
+}
