@@ -36,7 +36,15 @@
 			"title": "Inheritance",
 			"labelKind": "date",
 			"palette": "garden",
-			"frames": ["mendel-peas", "rediscovery", "hardy-weinberg", "fly-room", "modern-synthesis"]
+			"frames": [
+				"mendel-peas",
+				"rediscovery",
+				"hardy-weinberg",
+				"fly-room",
+				"modern-synthesis",
+				"beadle-tatum",
+				"mcclintock"
+			]
 		}
 	]
 }
