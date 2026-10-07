@@ -1,0 +1,481 @@
+{
+	"id": "island-biogeography",
+	"topic": "The theory of island biogeography",
+	"position": {
+		"label": "1963–67",
+		"sort": 1967
+	},
+	"scene": {
+		"headline": "Species came and went on",
+		"accent": "ISLANDS.",
+		"palette": "canopy",
+		"illustration": "scene.svg",
+		"metadata": [
+			"KRAKATAU · FLORIDA BAY · MELANESIA",
+			"MACARTHUR AND WILSON · EVOLUTION 1963 · PRINCETON 1967"
+		],
+		"counter": {
+			"value": "2×",
+			"label": "the species for ten times the area"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "An Equilibrium Theory of Insular Zoogeography",
+			"authors": [
+				{
+					"family": "MacArthur",
+					"given": "Robert H."
+				},
+				{
+					"family": "Wilson",
+					"given": "Edward O."
+				}
+			],
+			"container": "Evolution",
+			"volume": "17",
+			"issue": "4",
+			"pages": "373–387",
+			"published": "1963-12",
+			"doi": "10.1111/j.1558-5646.1963.tb03295.x",
+			"accessed": "2026-10-06",
+			"note": "The model, the faunal coefficients and the Krakatau birds (Table 1); read in a scan of the printed paper"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Experimental Zoogeography of Islands: The Colonization of Empty Islands",
+			"authors": [
+				{
+					"family": "Simberloff",
+					"given": "Daniel S."
+				},
+				{
+					"family": "Wilson",
+					"given": "Edward O."
+				}
+			],
+			"container": "Ecology",
+			"volume": "50",
+			"issue": "2",
+			"pages": "278–296",
+			"published": "1969-03",
+			"doi": "10.2307/1934856",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Experimental Zoogeography of Islands: Defaunation and Monitoring Techniques",
+			"authors": [
+				{
+					"family": "Wilson",
+					"given": "Edward O."
+				},
+				{
+					"family": "Simberloff",
+					"given": "Daniel S."
+				}
+			],
+			"container": "Ecology",
+			"volume": "50",
+			"issue": "2",
+			"pages": "267–278",
+			"published": "1969-03",
+			"doi": "10.2307/1934855",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Experimental Zoogeography of Islands. A Two-Year Record of Colonization",
+			"authors": [
+				{
+					"family": "Simberloff",
+					"given": "Daniel S."
+				},
+				{
+					"family": "Wilson",
+					"given": "Edward O."
+				}
+			],
+			"container": "Ecology",
+			"volume": "51",
+			"issue": "5",
+			"pages": "934–937",
+			"published": "1970-09",
+			"doi": "10.2307/1933995",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "island: Stochastic Island Biogeography Theory Made Easy, version 0.2.9 (data set \"simberloff\")",
+			"authors": [
+				{
+					"family": "Jiménez",
+					"given": "Vicente"
+				},
+				{
+					"family": "Alonso",
+					"given": "David"
+				}
+			],
+			"container": "Comprehensive R Archive Network",
+			"published": "2023-01-23",
+			"url": "https://CRAN.R-project.org/package=island",
+			"accessed": "2026-10-06",
+			"note": "Simberloff and Wilson's 1969 presence and absence tables, counting taxa inferred present; the counts in the table are ours, from it"
+		},
+		{
+			"kind": "book",
+			"title": "The New Flora of the Volcanic Island of Krakatau",
+			"authors": [
+				{
+					"family": "Ernst",
+					"given": "Alfred"
+				}
+			],
+			"translators": [
+				{
+					"family": "Seward",
+					"given": "A. C."
+				}
+			],
+			"place": "Cambridge",
+			"publisher": "Cambridge University Press",
+			"published": "1908",
+			"url": "https://archive.org/details/newfloraofvolcan00ernsuoft",
+			"accessed": "2026-10-06",
+			"note": "Treub's 1886 and 1897 surveys, pp. 5–8; the 1906 count"
+		},
+		{
+			"kind": "book",
+			"title": "Zoogeography: The Geographical Distribution of Animals",
+			"authors": [
+				{
+					"family": "Darlington",
+					"given": "Philip J., Jr."
+				}
+			],
+			"place": "New York",
+			"publisher": "Wiley",
+			"published": "1957",
+			"url": "https://archive.org/details/zoogeographygeog0000darl",
+			"accessed": "2026-10-06",
+			"read": "excerpt",
+			"note": "Read through the Internet Archive's full-text search snippets of the 1980 Krieger reprint"
+		},
+		{
+			"kind": "article",
+			"title": "Introduction: In Celebration of Eugene G. Munroe",
+			"authors": [
+				{
+					"family": "Solis",
+					"given": "M. Alma"
+				}
+			],
+			"container": "Tropical Lepidoptera",
+			"volume": "11",
+			"issue": "1–2",
+			"pages": "1–6",
+			"volumeYear": "2000",
+			"published": "2003",
+			"url": "https://journals.flvc.org/troplep/article/download/90170/86527/117191",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "chapter",
+			"title": "The Biology of Butterfly Communities",
+			"authors": [
+				{
+					"family": "Gilbert",
+					"given": "Lawrence E."
+				}
+			],
+			"container": "The Biology of Butterflies",
+			"editors": [
+				{
+					"family": "Vane-Wright",
+					"given": "R. I."
+				},
+				{
+					"family": "Ackery",
+					"given": "P. R."
+				}
+			],
+			"pages": "41–54",
+			"published": "1984",
+			"citedIn": "Introduction: In Celebration of Eugene G. Munroe"
+		},
+		{
+			"kind": "article",
+			"title": "The Island Dilemma: Lessons of Modern Biogeographic Studies for the Design of Natural Reserves",
+			"authors": [
+				{
+					"family": "Diamond",
+					"given": "Jared M."
+				}
+			],
+			"container": "Biological Conservation",
+			"volume": "7",
+			"issue": "2",
+			"pages": "129–146",
+			"published": "1975",
+			"citedIn": "SLOSS debate"
+		},
+		{
+			"kind": "article",
+			"title": "Island Biogeography Theory and Conservation Practice",
+			"authors": [
+				{
+					"family": "Simberloff",
+					"given": "Daniel S."
+				},
+				{
+					"family": "Abele",
+					"given": "Lawrence G."
+				}
+			],
+			"container": "Science",
+			"volume": "191",
+			"issue": "4224",
+			"pages": "285–286",
+			"published": "1976-01-23",
+			"doi": "10.1126/science.191.4224.285",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Habitat Fragmentation and Its Lasting Impact on Earth's Ecosystems",
+			"authors": [
+				{
+					"family": "Haddad",
+					"given": "Nick M."
+				},
+				{
+					"family": "Brudvig",
+					"given": "Lars A."
+				},
+				{
+					"family": "Clobert",
+					"given": "Jean"
+				},
+				{
+					"family": "Davies",
+					"given": "Kendi F."
+				},
+				{
+					"family": "Gonzalez",
+					"given": "Andrew"
+				},
+				{
+					"family": "Holt",
+					"given": "Robert D."
+				},
+				{
+					"family": "Lovejoy",
+					"given": "Thomas E."
+				}
+			],
+			"etAl": true,
+			"container": "Science Advances",
+			"volume": "1",
+			"issue": "2",
+			"pages": "e1500052",
+			"published": "2015-03-06",
+			"doi": "10.1126/sciadv.1500052",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Insular biogeography",
+			"url": "https://en.wikipedia.org/w/index.php?title=Insular_biogeography&oldid=1360691845",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-23",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Theory of Island Biogeography",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Theory_of_Island_Biogeography&oldid=1362158039",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Species–area relationship",
+			"url": "https://en.wikipedia.org/w/index.php?title=Species%E2%80%93area_relationship&oldid=1368820749",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Krakatoa",
+			"url": "https://en.wikipedia.org/w/index.php?title=Krakatoa&oldid=1375256291",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "SLOSS debate",
+			"url": "https://en.wikipedia.org/w/index.php?title=SLOSS_debate&oldid=1314612973",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Biological Dynamics of Forest Fragments Project",
+			"url": "https://en.wikipedia.org/w/index.php?title=Biological_Dynamics_of_Forest_Fragments_Project&oldid=1375192591",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert H. MacArthur",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_H._MacArthur&oldid=1372475545",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "E. O. Wilson",
+			"url": "https://en.wikipedia.org/w/index.php?title=E._O._Wilson&oldid=1371905110",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Daniel Simberloff",
+			"url": "https://en.wikipedia.org/w/index.php?title=Daniel_Simberloff&oldid=1372616491",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Eugene G. Munroe",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eugene_G._Munroe&oldid=1368231130",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "P. Jackson Darlington Jr.",
+			"url": "https://en.wikipedia.org/w/index.php?title=P._Jackson_Darlington_Jr.&oldid=1366960014",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Melchior Treub",
+			"url": "https://en.wikipedia.org/w/index.php?title=Melchior_Treub&oldid=1370194388",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19"
+		},
+		{
+			"kind": "media",
+			"title": "Vegetatie van tjemara's en Spomoea op de Krakatau, West Rakata",
+			"url": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Vegetatie_van_tjemara%27s_en_Spomoea_op_de_Krakatau_West_Rakata_TMnr_10027433.jpg",
+			"accessed": "2026-10-06",
+			"licence": "CC BY-SA 3.0",
+			"file": "krakatau-1929.jpg",
+			"authors": [
+				{
+					"family": "van der Sleen",
+					"given": "W. G. N."
+				}
+			],
+			"container": "Tropenmuseum (Wereldmuseum Amsterdam), object 10027433",
+			"published": "1929-05",
+			"note": "Taken on Rakata on 12 or 13 May 1929"
+		}
+	]
+}

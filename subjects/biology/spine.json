@@ -83,6 +83,13 @@
 			"labelKind": "date",
 			"palette": "gel",
 			"frames": ["neanderthal-genome", "crispr"]
+		},
+		{
+			"id": "ecology",
+			"title": "Ecology and the whole",
+			"labelKind": "date",
+			"palette": "canopy",
+			"frames": ["island-biogeography", "biodiversity-now"]
 		}
 	]
 }

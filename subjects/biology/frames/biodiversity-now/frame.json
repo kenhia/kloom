@@ -1,0 +1,606 @@
+{
+	"id": "biodiversity-now",
+	"topic": "The biodiversity crisis",
+	"asOf": "2026-10-06",
+	"position": {
+		"label": "2026",
+		"sort": 2026
+	},
+	"scene": {
+		"headline": "We are counting the",
+		"accent": "LOSSES.",
+		"palette": "canopy",
+		"illustration": "scene.svg",
+		"metadata": [
+			"IUCN RED LIST 2026-1 · IPBES 2019",
+			"KUNMING-MONTREAL 2022 · YEREVAN, OCTOBER 2026"
+		],
+		"counter": {
+			"value": "49,505",
+			"label": "species on the Red List threatened with extinction"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/keeling-curve",
+			"why": "Climate change, third of the five drivers of biodiversity loss in IPBES's 2019 ranking, is driven by the rising carbon dioxide that Keeling's Mauna Loa record measures."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Summary for Policymakers of the Global Assessment Report on Biodiversity and Ecosystem Services",
+			"authors": [
+				{
+					"name": "IPBES"
+				}
+			],
+			"publisher": "IPBES secretariat",
+			"place": "Bonn",
+			"published": "2019",
+			"url": "https://zenodo.org/records/3553579",
+			"accessed": "2026-10-06",
+			"note": "The drivers in order (B), the altered land (A4) and the species committed by lost habitat (A5)"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "From Desert Frog to Deep-Sea Molluscs, Remarkable Species at Risk – IUCN Red List",
+			"authors": [
+				{
+					"name": "International Union for Conservation of Nature"
+				}
+			],
+			"container": "IUCN",
+			"published": "2026-07-09",
+			"url": "https://iucn.org/press-release/202607/desert-frog-deep-sea-molluscs-remarkable-species-risk-iucn-red-list",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "report",
+			"title": "IUCN Red List Version 2026-1: Table 1a",
+			"authors": [
+				{
+					"name": "International Union for Conservation of Nature"
+				}
+			],
+			"publisher": "IUCN",
+			"place": "Gland",
+			"published": "2026-07-09",
+			"url": "https://nc.iucnredlist.org/redlist/content/attachment_files/2026-1_RL_Table1a.pdf",
+			"accessed": "2026-10-06",
+			"note": "Species described, assessed and threatened, by group"
+		},
+		{
+			"kind": "web",
+			"title": "Summary Statistics",
+			"authors": [
+				{
+					"name": "International Union for Conservation of Nature"
+				}
+			],
+			"container": "The IUCN Red List of Threatened Species, version 2026-1",
+			"published": "2026",
+			"url": "https://www.iucnredlist.org/resources/summary-statistics",
+			"accessed": "2026-10-06",
+			"note": "Read in the Wayback Machine's copy of September 16, 2026; the shares threatened by group, Figure 2"
+		},
+		{
+			"kind": "report",
+			"title": "IUCN Red List Categories and Criteria: Version 3.1",
+			"authors": [
+				{
+					"name": "IUCN Species Survival Commission"
+				}
+			],
+			"edition": "2nd ed.",
+			"publisher": "IUCN",
+			"place": "Gland and Cambridge",
+			"published": "2012",
+			"url": "https://portals.iucn.org/library/efiles/documents/RL-2001-001-2nd.pdf",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "How Many Species Are There on Earth and in the Ocean?",
+			"authors": [
+				{
+					"family": "Mora",
+					"given": "Camilo"
+				},
+				{
+					"family": "Tittensor",
+					"given": "Derek P."
+				},
+				{
+					"family": "Adl",
+					"given": "Sina"
+				},
+				{
+					"family": "Simpson",
+					"given": "Alastair G. B."
+				},
+				{
+					"family": "Worm",
+					"given": "Boris"
+				}
+			],
+			"container": "PLoS Biology",
+			"volume": "9",
+			"issue": "8",
+			"pages": "e1001127",
+			"published": "2011-08-23",
+			"doi": "10.1371/journal.pbio.1001127",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "Catalogue of Life Checklist, release COL26.9",
+			"authors": [
+				{
+					"name": "Catalogue of Life"
+				}
+			],
+			"container": "ChecklistBank",
+			"published": "2026-09-11",
+			"url": "https://www.checklistbank.org/dataset/316321/about",
+			"accessed": "2026-10-06",
+			"note": "Species counts read from ChecklistBank's import metrics for the release"
+		},
+		{
+			"kind": "book",
+			"title": "BioDiversity",
+			"editors": [
+				{
+					"family": "Wilson",
+					"given": "E. O."
+				},
+				{
+					"family": "Peter",
+					"given": "Frances M."
+				}
+			],
+			"place": "Washington, DC",
+			"publisher": "National Academy Press",
+			"published": "1988",
+			"url": "https://nap.nationalacademies.org/read/989/chapter/1",
+			"accessed": "2026-10-06",
+			"note": "The preface, on the forum and the word"
+		},
+		{
+			"kind": "article",
+			"title": "Scaling Laws Predict Global Microbial Diversity",
+			"authors": [
+				{
+					"family": "Locey",
+					"given": "Kenneth J."
+				},
+				{
+					"family": "Lennon",
+					"given": "Jay T."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "113",
+			"issue": "21",
+			"pages": "5970–5975",
+			"published": "2016-05-02",
+			"doi": "10.1073/pnas.1521291113",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Estimating the Normal Background Rate of Species Extinction",
+			"authors": [
+				{
+					"family": "de Vos",
+					"given": "Jurriaan M."
+				},
+				{
+					"family": "Joppa",
+					"given": "Lucas N."
+				},
+				{
+					"family": "Gittleman",
+					"given": "John L."
+				},
+				{
+					"family": "Stephens",
+					"given": "Patrick R."
+				},
+				{
+					"family": "Pimm",
+					"given": "Stuart L."
+				}
+			],
+			"container": "Conservation Biology",
+			"volume": "29",
+			"issue": "2",
+			"pages": "452–462",
+			"published": "2015",
+			"doi": "10.1111/cobi.12380",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Accelerated Modern Human-Induced Species Losses: Entering the Sixth Mass Extinction",
+			"authors": [
+				{
+					"family": "Ceballos",
+					"given": "Gerardo"
+				},
+				{
+					"family": "Ehrlich",
+					"given": "Paul R."
+				},
+				{
+					"family": "Barnosky",
+					"given": "Anthony D."
+				},
+				{
+					"family": "García",
+					"given": "Andrés"
+				},
+				{
+					"family": "Pringle",
+					"given": "Robert M."
+				},
+				{
+					"family": "Palmer",
+					"given": "Todd M."
+				}
+			],
+			"container": "Science Advances",
+			"volume": "1",
+			"issue": "5",
+			"pages": "e1400253",
+			"published": "2015-06-05",
+			"doi": "10.1126/sciadv.1400253",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "Living Planet Report 2024",
+			"authors": [
+				{
+					"name": "WWF"
+				}
+			],
+			"container": "WWF Living Planet Report",
+			"published": "2024-10",
+			"url": "https://livingplanet.panda.org/en-GB/",
+			"accessed": "2026-10-06",
+			"note": "The 73 percent decline, 1970–2020"
+		},
+		{
+			"kind": "article",
+			"title": "Clustered versus Catastrophic Global Vertebrate Declines",
+			"authors": [
+				{
+					"family": "Leung",
+					"given": "Brian"
+				},
+				{
+					"family": "Hargreaves",
+					"given": "Anna L."
+				},
+				{
+					"family": "Greenberg",
+					"given": "Dan A."
+				},
+				{
+					"family": "McGill",
+					"given": "Brian"
+				},
+				{
+					"family": "Dornelas",
+					"given": "Maria"
+				},
+				{
+					"family": "Freeman",
+					"given": "Robin"
+				}
+			],
+			"container": "Nature",
+			"volume": "588",
+			"issue": "7837",
+			"pages": "267–271",
+			"published": "2020-11-18",
+			"doi": "10.1038/s41586-020-2920-6",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Random Population Fluctuations Bias the Living Planet Index",
+			"authors": [
+				{
+					"family": "Buschke",
+					"given": "Falko T."
+				},
+				{
+					"family": "Hagan",
+					"given": "James G."
+				},
+				{
+					"family": "Santini",
+					"given": "Luca"
+				},
+				{
+					"family": "Coetzee",
+					"given": "Bernard W. T."
+				}
+			],
+			"container": "Nature Ecology & Evolution",
+			"volume": "5",
+			"issue": "8",
+			"pages": "1145–1152",
+			"published": "2021-06-24",
+			"doi": "10.1038/s41559-021-01494-0",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "Protected Planet: The World Database on Protected Areas and World Database on Other Effective Area-based Conservation Measures",
+			"authors": [
+				{
+					"name": "UNEP-WCMC"
+				},
+				{
+					"name": "IUCN"
+				}
+			],
+			"container": "Protected Planet",
+			"published": "2026-10",
+			"url": "https://www.protectedplanet.net/en",
+			"accessed": "2026-10-06",
+			"note": "Coverage of land and sea, October 2026"
+		},
+		{
+			"kind": "web",
+			"title": "125 Parties Submit Their 7th National Reports",
+			"authors": [
+				{
+					"name": "Secretariat of the Convention on Biological Diversity"
+				}
+			],
+			"container": "Convention on Biological Diversity",
+			"published": "2026-03-09",
+			"url": "https://www.cbd.int/doc/press/2026/pr-2026-03-09-nr7-en.pdf",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Has the Earth's Sixth Mass Extinction Already Arrived?",
+			"authors": [
+				{
+					"family": "Barnosky",
+					"given": "Anthony D."
+				},
+				{
+					"family": "Matzke",
+					"given": "Nicholas"
+				},
+				{
+					"family": "Tomiya",
+					"given": "Susumu"
+				},
+				{
+					"family": "Wogan",
+					"given": "Guinevere O. U."
+				},
+				{
+					"family": "Swartz",
+					"given": "Brian"
+				},
+				{
+					"family": "Quental",
+					"given": "Tiago B."
+				},
+				{
+					"family": "Marshall",
+					"given": "Charles"
+				}
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "471",
+			"issue": "7336",
+			"pages": "51–57",
+			"published": "2011-03-02",
+			"doi": "10.1038/nature09678",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The Sixth Mass Extinction: Fact, Fiction or Speculation?",
+			"authors": [
+				{
+					"family": "Cowie",
+					"given": "Robert H."
+				},
+				{
+					"family": "Bouchet",
+					"given": "Philippe"
+				},
+				{
+					"family": "Fontaine",
+					"given": "Benoît"
+				}
+			],
+			"container": "Biological Reviews",
+			"volume": "97",
+			"issue": "2",
+			"pages": "640–663",
+			"published": "2022-01-10",
+			"doi": "10.1111/brv.12816",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Questioning the Sixth Mass Extinction",
+			"authors": [
+				{
+					"family": "Wiens",
+					"given": "John J."
+				},
+				{
+					"family": "Saban",
+					"given": "Kristen E."
+				}
+			],
+			"container": "Trends in Ecology & Evolution",
+			"volume": "40",
+			"issue": "4",
+			"pages": "375–384",
+			"published": "2025-04",
+			"doi": "10.1016/j.tree.2025.01.002",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Unpacking the Extinction Crisis: Rates, Patterns and Causes of Recent Extinctions in Plants and Animals",
+			"authors": [
+				{
+					"family": "Saban",
+					"given": "Kristen E."
+				},
+				{
+					"family": "Wiens",
+					"given": "John J."
+				}
+			],
+			"container": "Proceedings of the Royal Society B",
+			"volume": "292",
+			"issue": "2057",
+			"pages": "20251717",
+			"published": "2025-10",
+			"doi": "10.1098/rspb.2025.1717",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Biodiversity",
+			"url": "https://en.wikipedia.org/w/index.php?title=Biodiversity&oldid=1373871050",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "IUCN Red List",
+			"url": "https://en.wikipedia.org/w/index.php?title=IUCN_Red_List&oldid=1376966814",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kunming-Montreal Global Biodiversity Framework",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kunming-Montreal_Global_Biodiversity_Framework&oldid=1366346663",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "2024 United Nations Biodiversity Conference",
+			"url": "https://en.wikipedia.org/w/index.php?title=2024_United_Nations_Biodiversity_Conference&oldid=1359254352",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Living Planet Index",
+			"url": "https://en.wikipedia.org/w/index.php?title=Living_Planet_Index&oldid=1370484483",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "30 by 30",
+			"url": "https://en.wikipedia.org/w/index.php?title=30_by_30&oldid=1369817739",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Holocene extinction",
+			"url": "https://en.wikipedia.org/w/index.php?title=Holocene_extinction&oldid=1376897281",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "media",
+			"title": "Share of species threatened with extinction, by group, IUCN Red List version 2026-1",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "IUCN Red List of Threatened Species, version 2026-1, Summary statistics, Figure 2",
+			"url": "https://www.iucnredlist.org/resources/summary-statistics",
+			"accessed": "2026-10-06",
+			"licence": "MIT",
+			"file": "threatened.svg"
+		}
+	]
+}
