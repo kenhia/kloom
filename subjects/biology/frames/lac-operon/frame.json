@@ -1,0 +1,361 @@
+{
+	"id": "lac-operon",
+	"topic": "Jacob, Monod and the lac operon",
+	"position": {
+		"label": "1940–61",
+		"sort": 1961
+	},
+	"scene": {
+		"headline": "Genes had a",
+		"accent": "SWITCH.",
+		"palette": "helix",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PASTEUR INSTITUTE · PARIS",
+			"JACOB · MONOD · PARDEE · LWOFF",
+			"E. COLI · LACTOSE · REPRESSOR · OPERATOR"
+		],
+		"counter": {
+			"value": "1,000×",
+			"label": "more enzyme with the repressor lifted"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/enzymes",
+			"why": "Monod showed that a bacterium's 'enzyme adaptation' to lactose was the cell building an enzyme new from amino acids, the protein that Sumner and Northrop had shown enzymes to be, and the lac operon is the switch that decides when."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "From Enzymatic Adaptation to Allosteric Transitions",
+			"authors": [
+				{
+					"family": "Monod",
+					"given": "Jacques"
+				}
+			],
+			"container": "Nobel Lecture, NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1965-12-11",
+			"url": "https://www.nobelprize.org/uploads/2018/06/monod-lecture.pdf",
+			"accessed": "2026-10-06",
+			"note": "Diauxie and Lwoff in 1940, induction as new synthesis, the PaJaMo results, Szilard, and the repressor's composite portrait"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Genetics of the Bacterial Cell",
+			"authors": [
+				{
+					"family": "Jacob",
+					"given": "François"
+				}
+			],
+			"container": "Nobel Lecture, NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1965-12-11",
+			"url": "https://www.nobelprize.org/uploads/2018/06/jacob-lecture.pdf",
+			"accessed": "2026-10-06",
+			"note": "The PaJaMo experiment, the messenger at Caltech, the operator mutants and the radio analogy"
+		},
+		{
+			"kind": "article",
+			"title": "Genetic Regulatory Mechanisms in the Synthesis of Proteins",
+			"authors": [
+				{
+					"family": "Jacob",
+					"given": "François"
+				},
+				{
+					"family": "Monod",
+					"given": "Jacques"
+				}
+			],
+			"container": "Journal of Molecular Biology",
+			"volume": "3",
+			"issue": "3",
+			"pages": "318–356",
+			"published": "1961-06",
+			"doi": "10.1016/S0022-2836(61)80072-7",
+			"accessed": "2026-10-06",
+			"read": "record"
+		},
+		{
+			"kind": "article",
+			"title": "The Genetic Control and Cytoplasmic Expression of “Inducibility” in the Synthesis of β-Galactosidase by E. coli",
+			"authors": [
+				{
+					"family": "Pardee",
+					"given": "Arthur B."
+				},
+				{
+					"family": "Jacob",
+					"given": "François"
+				},
+				{
+					"family": "Monod",
+					"given": "Jacques"
+				}
+			],
+			"container": "Journal of Molecular Biology",
+			"volume": "1",
+			"issue": "2",
+			"pages": "165–178",
+			"published": "1959-06",
+			"doi": "10.1016/S0022-2836(59)80045-0",
+			"accessed": "2026-10-06",
+			"read": "record"
+		},
+		{
+			"kind": "article",
+			"title": "An Unstable Intermediate Carrying Information from Genes to Ribosomes for Protein Synthesis",
+			"authors": [
+				{
+					"family": "Brenner",
+					"given": "S."
+				},
+				{
+					"family": "Jacob",
+					"given": "F."
+				},
+				{
+					"family": "Meselson",
+					"given": "M."
+				}
+			],
+			"container": "Nature",
+			"volume": "190",
+			"issue": "4776",
+			"pages": "576–581",
+			"published": "1961-05-13",
+			"doi": "10.1038/190576a0",
+			"accessed": "2026-10-06",
+			"read": "record"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Who Discovered Messenger RNA?",
+			"authors": [
+				{
+					"family": "Cobb",
+					"given": "Matthew"
+				}
+			],
+			"container": "Current Biology",
+			"volume": "25",
+			"issue": "13",
+			"pages": "R526–R532",
+			"published": "2015-06-29",
+			"doi": "10.1016/j.cub.2015.05.032",
+			"accessed": "2026-10-06",
+			"note": "The PaJaMo messenger, Good Friday 1960, and who discovered mRNA"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Isolation of the Lac Repressor",
+			"authors": [
+				{
+					"family": "Gilbert",
+					"given": "Walter"
+				},
+				{
+					"family": "Müller-Hill",
+					"given": "Benno"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "56",
+			"issue": "6",
+			"pages": "1891–1898",
+			"published": "1966-12",
+			"doi": "10.1073/pnas.56.6.1891",
+			"accessed": "2026-10-06",
+			"note": "The thousandfold induction, and about ten repressor molecules per gene"
+		},
+		{
+			"kind": "web",
+			"title": "Jacques Monod – Biographical",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1965",
+			"url": "https://www.nobelprize.org/prizes/medicine/1965/monod/biographical/",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "François Jacob – Biographical",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1965",
+			"url": "https://www.nobelprize.org/prizes/medicine/1965/jacob/biographical/",
+			"accessed": "2026-10-06",
+			"note": "The Free French, Africa and Normandy"
+		},
+		{
+			"kind": "web",
+			"title": "1EFA: Crystal Structure of the Lac Repressor Dimer Bound to Operator and the Anti-Inducer ONPF",
+			"authors": [
+				{
+					"family": "Bell",
+					"given": "C. E."
+				},
+				{
+					"family": "Lewis",
+					"given": "M."
+				}
+			],
+			"container": "RCSB Protein Data Bank",
+			"published": "2000-03-06",
+			"url": "https://www.rcsb.org/structure/1EFA",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jacques Monod",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jacques_Monod&oldid=1374161811",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "François Jacob",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fran%C3%A7ois_Jacob&oldid=1378725893",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Diauxic growth",
+			"url": "https://en.wikipedia.org/w/index.php?title=Diauxic_growth&oldid=1373856189",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lac operon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lac_operon&oldid=1362920271",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lac repressor",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lac_repressor&oldid=1378639523",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Operon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Operon&oldid=1371948663",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Messenger RNA",
+			"url": "https://en.wikipedia.org/w/index.php?title=Messenger_RNA&oldid=1376379298",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chance and Necessity",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chance_and_Necessity&oldid=1344535064",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Arthur Pardee",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arthur_Pardee&oldid=1372230573",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-30"
+		},
+		{
+			"kind": "media",
+			"title": "PDB 1efa EBI",
+			"url": "https://commons.wikimedia.org/wiki/File:PDB_1efa_EBI.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"note": "Released by the European Bioinformatics Institute without restriction (PD-link)",
+			"file": "repressor-operator.jpg",
+			"authors": [
+				{
+					"name": "Jawahar Swaminathan and MSD staff at the European Bioinformatics Institute"
+				}
+			],
+			"container": "Protein Data Bank in Europe, entry 1EFA"
+		}
+	]
+}

@@ -1,0 +1,340 @@
+{
+	"id": "genetic-code",
+	"topic": "Cracking the genetic code",
+	"position": {
+		"label": "1961–66",
+		"sort": 1961
+	},
+	"scene": {
+		"headline": "We cracked the",
+		"accent": "CODE.",
+		"palette": "helix",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NATIONAL INSTITUTES OF HEALTH · BETHESDA",
+			"NIRENBERG · MATTHAEI · POLY-U · PHENYLALANINE",
+			"CRICK · BRENNER · KHORANA · HOLLEY"
+		],
+		"counter": {
+			"value": "64",
+			"label": "three-letter codons, all read by 1966"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/dna",
+			"why": "The double helix showed genes as a sequence of four bases; the poly-U and triplet experiments showed how that sequence spells a protein, three bases to an amino acid."
+		},
+		{
+			"to": "chemistry/protein-structure",
+			"why": "Sanger's insulin, the first protein read in order, gave the code its other side, and Crick used its sequences to rule out Gamow's overlapping code."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Dependence of Cell-Free Protein Synthesis in E. coli upon Naturally Occurring or Synthetic Polyribonucleotides",
+			"authors": [
+				{
+					"family": "Nirenberg",
+					"given": "Marshall W."
+				},
+				{
+					"family": "Matthaei",
+					"given": "J. Heinrich"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "47",
+			"issue": "10",
+			"pages": "1588–1602",
+			"published": "1961-10",
+			"doi": "10.1073/pnas.47.10.1588",
+			"accessed": "2026-10-06",
+			"note": "Tables 6–9: the poly-U counts, the controls and the product"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "General Nature of the Genetic Code for Proteins",
+			"authors": [
+				{
+					"family": "Crick",
+					"given": "F. H. C."
+				},
+				{
+					"family": "Barnett",
+					"given": "Leslie"
+				},
+				{
+					"family": "Brenner",
+					"given": "S."
+				},
+				{
+					"family": "Watts-Tobin",
+					"given": "R. J."
+				}
+			],
+			"container": "Nature",
+			"volume": "192",
+			"issue": "4809",
+			"pages": "1227–1232",
+			"published": "1961-12-30",
+			"doi": "10.1038/1921227a0",
+			"accessed": "2026-10-06",
+			"note": "Read in the copy in the National Library of Medicine's Francis Crick Papers"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "On Protein Synthesis",
+			"authors": [
+				{
+					"family": "Crick",
+					"given": "F. H. C."
+				}
+			],
+			"container": "Symposia of the Society for Experimental Biology, Number XII: The Biological Replication of Macromolecules",
+			"editors": [
+				{
+					"family": "Sanders",
+					"given": "F. K."
+				}
+			],
+			"pages": "138–163",
+			"place": "Cambridge",
+			"publisher": "Cambridge University Press",
+			"published": "1958",
+			"url": "https://collections.nlm.nih.gov/catalog/nlm:nlmuid-101584582X404-doc",
+			"accessed": "2026-10-06",
+			"note": "The sequence hypothesis, the central dogma, the adaptor, and Gamow's code ruled out by insulin"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Genetic Code",
+			"authors": [
+				{
+					"family": "Nirenberg",
+					"given": "Marshall"
+				}
+			],
+			"container": "Nobel Lecture, NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1968-12-12",
+			"url": "https://www.nobelprize.org/uploads/2018/06/nirenberg-lecture.pdf",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "Nucleic Acid Synthesis in the Study of the Genetic Code",
+			"authors": [
+				{
+					"family": "Khorana",
+					"given": "H. Gobind"
+				}
+			],
+			"container": "Nobel Lecture, NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1968-12-12",
+			"url": "https://www.nobelprize.org/uploads/2018/06/khorana-lecture.pdf",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Breakthrough from 60 Years Ago: “General Nature of the Genetic Code for Proteins” (1961)",
+			"authors": [
+				{
+					"family": "Cobb",
+					"given": "Matthew"
+				}
+			],
+			"container": "Natural Sciences",
+			"volume": "1",
+			"issue": "1",
+			"pages": "e10018",
+			"published": "2021-06",
+			"doi": "10.1002/ntls.10018",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Who Discovered Messenger RNA?",
+			"authors": [
+				{
+					"family": "Cobb",
+					"given": "Matthew"
+				}
+			],
+			"container": "Current Biology",
+			"volume": "25",
+			"issue": "13",
+			"pages": "R526–R532",
+			"published": "2015-06-29",
+			"doi": "10.1016/j.cub.2015.05.032",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "Deciphering the Genetic Code: Marshall Nirenberg. The Poly-U Experiment",
+			"authors": [
+				{
+					"family": "Leavitt",
+					"given": "Sarah A."
+				}
+			],
+			"container": "Office of NIH History and Stetten Museum",
+			"publisher": "National Institutes of Health",
+			"published": "2004",
+			"url": "https://history.nih.gov/exhibits/nirenberg/HS4_polyU.htm",
+			"accessed": "2026-10-06",
+			"note": "Read in the Wayback Machine's copy of February 2020"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nirenberg and Matthaei experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nirenberg_and_Matthaei_experiment&oldid=1347902173",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "J. Heinrich Matthaei",
+			"url": "https://en.wikipedia.org/w/index.php?title=J._Heinrich_Matthaei&oldid=1372488964",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Genetic code",
+			"url": "https://en.wikipedia.org/w/index.php?title=Genetic_code&oldid=1376335613",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "RNA Tie Club",
+			"url": "https://en.wikipedia.org/w/index.php?title=RNA_Tie_Club&oldid=1351508856",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Central dogma of molecular biology",
+			"url": "https://en.wikipedia.org/w/index.php?title=Central_dogma_of_molecular_biology&oldid=1368164013",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frameshift mutation experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frameshift_mutation_experiment&oldid=1371676726",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nirenberg and Leder experiment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nirenberg_and_Leder_experiment&oldid=1347645029",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Marshall Warren Nirenberg",
+			"url": "https://en.wikipedia.org/w/index.php?title=Marshall_Warren_Nirenberg&oldid=1371971246",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert W. Holley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_W._Holley&oldid=1371991270",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "media",
+			"title": "J. Heinrich Matthaei and Marshall Nirenberg",
+			"url": "https://commons.wikimedia.org/wiki/File:J._Heinreich_Matthaei_and_Marshall_Nirenberg_(29819142523).jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"note": "A work of the US government: taken by Norman MacVicar, NIH photographer",
+			"file": "matthaei-nirenberg.jpg",
+			"authors": [
+				{
+					"family": "MacVicar",
+					"given": "Norman"
+				}
+			],
+			"container": "Office of NIH History; Marshall W. Nirenberg Papers, National Library of Medicine",
+			"published": "1962",
+			"circa": true
+		}
+	]
+}
