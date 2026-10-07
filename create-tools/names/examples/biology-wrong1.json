@@ -1,0 +1,53 @@
+{
+	"biology/preformation": [
+		["Aristotle", "aristotle"],
+		["William Harvey", "william-harvey"],
+		["Epigenesis", "epigenesis-biology"],
+		["Marcello Malpighi", "marcello-malpighi"],
+		["Jan Swammerdam", "jan-swammerdam"],
+		["preformationism", "preformationism"],
+		["Nicolas Malebranche", "nicolas-malebranche"],
+		["Antonie van Leeuwenhoek", "antonie-van-leeuwenhoek"],
+		["Nicolaas Hartsoeker", "nicolaas-hartsoeker"],
+		["Charles Bonnet", "charles-bonnet"],
+		["aphid", "aphid"],
+		["Lazzaro Spallanzani", "lazzaro-spallanzani"],
+		["Caspar Friedrich Wolff", "caspar-friedrich-wolff"],
+		["Albrecht von Haller", "albrecht-von-haller"]
+	],
+	"biology/pangenesis": [
+		["Charles Darwin", "charles-darwin"],
+		[
+			"_The Variation of Animals and Plants under Domestication_",
+			"the-variation-of-animals-and-plants-under-domestication"
+		],
+		["pangenesis", "pangenesis"],
+		["Thomas Henry Huxley", "thomas-henry-huxley"],
+		["Fleeming Jenkin", "fleeming-jenkin"],
+		["blending inheritance", "blending-inheritance"],
+		["Gregor Mendel", "gregor-mendel"],
+		["Jean-Baptiste Lamarck", "jean-baptiste-lamarck"],
+		["Francis Galton", "francis-galton"],
+		["Zoological Society of London", "zoological-society-of-london"],
+		["August Weismann", "august-weismann"],
+		["germ plasm", "germ-plasm"],
+		["Hugo de Vries", "hugo-de-vries"],
+		["gene", "gene"]
+	],
+	"biology/piltdown": [
+		["Geological Society of London", "geological-society-of-london"],
+		["Charles Dawson", "charles-dawson"],
+		["Arthur Smith Woodward", "arthur-smith-woodward"],
+		["British Museum (Natural History)", "natural-history-museum-london"],
+		["Piltdown Man", "piltdown-man"],
+		["Grafton Elliot Smith", "grafton-elliot-smith"],
+		["Arthur Keith", "arthur-keith"],
+		["Pierre Teilhard de Chardin", "pierre-teilhard-de-chardin"],
+		["Raymond Dart", "raymond-dart"],
+		["Taung Child", "taung-child"],
+		["Kenneth Oakley", "kenneth-oakley"],
+		["Joseph Weiner", "joseph-weiner"],
+		["Wilfrid Le Gros Clark", "wilfrid-le-gros-clark"],
+		["orangutan", "orangutan"]
+	]
+}

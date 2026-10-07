@@ -1,0 +1,238 @@
+{
+	"id": "pangenesis",
+	"topic": "Darwin's pangenesis",
+	"position": {
+		"label": "1868",
+		"sort": 1868
+	},
+	"scene": {
+		"headline": "Darwin guessed at",
+		"accent": "GEMMULES.",
+		"palette": "garden",
+		"illustration": "scene.svg",
+		"metadata": [
+			"DOWN HOUSE · CHARLES DARWIN · VARIATION UNDER DOMESTICATION",
+			"GALTON'S RABBITS · WEISMANN'S MICE"
+		],
+		"counter": {
+			"value": "901",
+			"label": "mice born to tailless parents, all with tails"
+		}
+	},
+	"connections": [
+		{
+			"to": "blood/blundell",
+			"why": "Galton chose transfusion to test pangenesis in rabbits because, he wrote, it had been used with success in midwifery, the use Blundell had begun with women bleeding after childbirth."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Variation of Animals and Plants under Domestication",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"volume": "2",
+			"place": "London",
+			"publisher": "John Murray",
+			"published": "1868",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=F877.2&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"note": "Chapter 27, Provisional hypothesis of pangenesis, pp. 357–404"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Experiments in Pangenesis, by Breeding from Rabbits of a Pure Variety, into Whose Circulation Blood Taken from Other Varieties Had Previously Been Largely Transfused",
+			"authors": [
+				{
+					"family": "Galton",
+					"given": "Francis"
+				}
+			],
+			"container": "Proceedings of the Royal Society of London",
+			"volume": "19",
+			"pages": "393–410",
+			"published": "1871",
+			"doi": "10.1098/rspl.1870.0061",
+			"url": "https://archive.org/details/philtrans07121165",
+			"accessed": "2026-10-06",
+			"note": "The operations, pp. 395–397; the litters, Table III, pp. 401–402"
+		},
+		{
+			"kind": "article",
+			"title": "Pangenesis",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"container": "Nature",
+			"volume": "3",
+			"pages": "502–503",
+			"published": "1871-04-27",
+			"doi": "10.1038/003502a0",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=F1751&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "[Review of] The Origin of Species",
+			"authors": [
+				{
+					"family": "Jenkin",
+					"given": "Fleeming"
+				}
+			],
+			"container": "The North British Review",
+			"volume": "46",
+			"pages": "277–318",
+			"published": "1867-06",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=A24&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"note": "Published anonymously; the swamping argument and the castaway, pp. 288–290"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter 4875",
+			"authors": [
+				{
+					"family": "Huxley",
+					"given": "Thomas Henry"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"written": "1865-07-16",
+			"container": "Darwin Correspondence Project",
+			"url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-4875.xml",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Essays upon Heredity and Kindred Biological Problems",
+			"authors": [
+				{
+					"family": "Weismann",
+					"given": "August"
+				}
+			],
+			"editors": [
+				{
+					"family": "Poulton",
+					"given": "Edward B."
+				},
+				{
+					"family": "Schönland",
+					"given": "Selmar"
+				},
+				{
+					"family": "Shipley",
+					"given": "Arthur E."
+				}
+			],
+			"place": "Oxford",
+			"publisher": "Clarendon Press",
+			"published": "1889",
+			"url": "https://www.gutenberg.org/ebooks/48132",
+			"accessed": "2026-10-06",
+			"note": "On Heredity (1883), and The Supposed Transmission of Mutilations (1888), with the mice"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pangenesis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pangenesis&oldid=1368819976",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fleeming Jenkin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fleeming_Jenkin&oldid=1371993835",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "August Weismann",
+			"url": "https://en.wikipedia.org/w/index.php?title=August_Weismann&oldid=1370696963",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Germ plasm",
+			"url": "https://en.wikipedia.org/w/index.php?title=Germ_plasm&oldid=1253671775",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-10-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hugo de Vries",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hugo_de_Vries&oldid=1367186782",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wilhelm Johannsen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wilhelm_Johannsen&oldid=1372010908",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		}
+	]
+}

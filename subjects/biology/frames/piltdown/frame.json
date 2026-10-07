@@ -1,0 +1,256 @@
+{
+	"id": "piltdown",
+	"topic": "The Piltdown forgery",
+	"position": {
+		"label": "1912",
+		"sort": 1912
+	},
+	"scene": {
+		"headline": "The missing link was",
+		"accent": "FORGED.",
+		"palette": "garden",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PILTDOWN · SUSSEX · GEOLOGICAL SOCIETY OF LONDON",
+			"CHARLES DAWSON · ARTHUR SMITH WOODWARD"
+		],
+		"counter": {
+			"value": "41",
+			"label": "years from announcement to exposure"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Discovery of a Palæolithic Human Skull and Mandible in a Flint-bearing Gravel overlying the Wealden (Hastings Beds) at Piltdown, Fletching (Sussex)",
+			"authors": [
+				{
+					"family": "Dawson",
+					"given": "Charles"
+				},
+				{
+					"family": "Woodward",
+					"given": "Arthur Smith"
+				}
+			],
+			"container": "Quarterly Journal of the Geological Society of London",
+			"volume": "69",
+			"pages": "117–151",
+			"published": "1913-03",
+			"doi": "10.1144/GSL.JGS.1913.069.01-04.10",
+			"url": "https://archive.org/details/quarterlyjourna691913geol",
+			"accessed": "2026-10-06",
+			"note": "Read 18 December 1912; Dawson's account p. 117, Elliot Smith's appendix pp. 145–147, Waterston in the discussion p. 150"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Solution of the Piltdown Problem",
+			"authors": [
+				{
+					"family": "Weiner",
+					"given": "J. S."
+				},
+				{
+					"family": "Oakley",
+					"given": "K. P."
+				},
+				{
+					"family": "Le Gros Clark",
+					"given": "W. E."
+				}
+			],
+			"container": "Bulletin of the British Museum (Natural History), Geology",
+			"volume": "2",
+			"issue": "3",
+			"pages": "139–146",
+			"published": "1953-11-21",
+			"url": "https://archive.org/details/biostor-265698",
+			"accessed": "2026-10-06",
+			"note": "The fluorine, nitrogen, iron and chromate tables, pp. 143–145"
+		},
+		{
+			"kind": "article",
+			"title": "New Evidence on the Antiquity of Piltdown Man",
+			"authors": [
+				{
+					"family": "Oakley",
+					"given": "Kenneth P."
+				},
+				{
+					"family": "Hoskins",
+					"given": "C. Randall"
+				}
+			],
+			"container": "Nature",
+			"volume": "165",
+			"pages": "379–382",
+			"published": "1950-03-11",
+			"doi": "10.1038/165379a0",
+			"read": "record",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "New Genetic and Morphological Evidence Suggests a Single Hoaxer Created 'Piltdown Man'",
+			"authors": [
+				{
+					"family": "De Groote",
+					"given": "Isabelle"
+				},
+				{
+					"family": "Flink",
+					"given": "Linus Girdland"
+				},
+				{
+					"family": "Abbas",
+					"given": "Rizwaan"
+				},
+				{
+					"family": "Bello",
+					"given": "Silvia M."
+				},
+				{
+					"family": "Burgia",
+					"given": "Lucia"
+				},
+				{
+					"family": "Buck",
+					"given": "Laura Tabitha"
+				},
+				{
+					"family": "Dean",
+					"given": "Christopher"
+				}
+			],
+			"etAl": true,
+			"container": "Royal Society Open Science",
+			"volume": "3",
+			"issue": "8",
+			"pages": "160328",
+			"published": "2016-08",
+			"doi": "10.1098/rsos.160328",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Australopithecus africanus: The Man-Ape of South Africa",
+			"authors": [
+				{
+					"family": "Dart",
+					"given": "Raymond A."
+				}
+			],
+			"container": "Nature",
+			"volume": "115",
+			"pages": "195–199",
+			"published": "1925-02-07",
+			"doi": "10.1038/115195a0",
+			"read": "record",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Piltdown Man",
+			"url": "https://en.wikipedia.org/w/index.php?title=Piltdown_Man&oldid=1378058024",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Dawson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Dawson&oldid=1373873704",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Arthur Smith Woodward",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arthur_Smith_Woodward&oldid=1371973467",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Taung Child",
+			"url": "https://en.wikipedia.org/w/index.php?title=Taung_Child&oldid=1378969157",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kenneth Oakley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kenneth_Oakley&oldid=1372019361",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fluorine absorption dating",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fluorine_absorption_dating&oldid=1360659801",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22"
+		},
+		{
+			"kind": "media",
+			"title": "Piltdown gang (dark)",
+			"url": "https://commons.wikimedia.org/wiki/File:Piltdown_gang_(dark).jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "discussion.jpg",
+			"authors": [
+				{
+					"family": "Cooke",
+					"given": "John"
+				}
+			],
+			"published": "1915",
+			"note": "A faithful photograph of an oil painting by John Cooke, who died in 1932, from the Geological Society of London's blog"
+		}
+	]
+}
