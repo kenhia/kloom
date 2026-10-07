@@ -358,7 +358,8 @@ validation, Svelte UI; alias `$engine`), `subjects/<subject>/` (content),
 `create-tools/` (authoring scripts: plates, citations, charts, traced art),
 `skills/` (agent instructions: `grow/SKILL.md` writes content,
 `author-subject/SKILL.md` authors a whole subject, `review-notes/SKILL.md`
-works through flagged notes).
+works through flagged notes, `content-cleanup/SKILL.md` lands a small
+content fix as a mini-sprint logged in `sprints/content-cleanup.md`).
 
 **Before a sprint's own work, review grown content** (korg 3442): run
 `just grow-pending`. If it lists a pending grow branch (the service's

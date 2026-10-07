@@ -85,9 +85,9 @@
 		{
 			"kind": "media",
 			"title": "Whole Blood Supply and Distribution System, July 1969 (map 5)",
-			"url": "https://archive.org/details/CMHPub90-16",
-			"accessed": "2026-10-01",
-			"container": "Spurgeon Neel, Medical Support of the U.S. Army in Vietnam, 1965–1970 (Department of the Army, 1973), p. 120; scan of the 1991 reprint by the U.S. Army Center of Military History",
+			"url": "https://web.archive.org/web/20041019032607/http://history.amedd.army.mil/booksdocs/vietnam/medicalsupport/ch09map05.pdf",
+			"accessed": "2026-10-06",
+			"container": "Spurgeon Neel, Medical Support of the U.S. Army in Vietnam, 1965–1970 (Department of the Army, 1973), p. 120; the map as the Army Medical Department Office of Medical History published it with its web edition, archived 2004",
 			"licence": "Public domain",
 			"file": "map-5.jpg",
 			"authors": [
@@ -95,7 +95,8 @@
 					"name": "U.S. Army"
 				}
 			],
-			"published": "1973"
+			"published": "1973",
+			"note": "Levels adjusted to remove text showing through from the facing page"
 		},
 		{
 			"kind": "media",
@@ -111,6 +112,13 @@
 		{
 			"to": "blood/korea-blood",
 			"why": "Vietnam's insulated Collins box replaced Korea's Hollinger trunk."
+		}
+	],
+	"edits": [
+		{
+			"date": "2026-10-06",
+			"kind": "revision",
+			"summary": "Revised: the July 1969 distribution map is now a legible scan of map 5 from the Office of Medical History’s web edition, in place of a low-resolution copy whose labels could not be read."
 		}
 	]
 }
