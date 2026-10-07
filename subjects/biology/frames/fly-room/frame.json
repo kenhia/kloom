@@ -1,0 +1,344 @@
+{
+	"id": "fly-room",
+	"topic": "Morgan's fly room and the first map",
+	"position": {
+		"label": "1910–15",
+		"sort": 1910
+	},
+	"scene": {
+		"headline": "We put the genes on a",
+		"accent": "MAP.",
+		"palette": "garden",
+		"illustration": "scene.svg",
+		"metadata": [
+			"COLUMBIA UNIVERSITY · THE FLY ROOM, 16 × 23 FEET",
+			"MORGAN · STURTEVANT · BRIDGES · MULLER"
+		],
+		"counter": {
+			"value": "6",
+			"label": "factors on the first genetic map"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/x-rays",
+			"why": "Muller made the first mutations on purpose in 1927 by dosing fruit flies with the X-rays that Röntgen had found in 1895."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Sex Limited Inheritance in Drosophila",
+			"authors": [
+				{
+					"family": "Morgan",
+					"given": "Thomas Hunt"
+				}
+			],
+			"container": "Science",
+			"volume": "32",
+			"issue": "812",
+			"pages": "120–122",
+			"published": "1910-07-22",
+			"doi": "10.1126/science.32.812.120",
+			"url": "http://www.esp.org/foundations/genetics/classical/thm-10a.pdf",
+			"accessed": "2026-10-06",
+			"note": "Read in the Electronic Scholarly Publishing Project's reprint; the counts are on its first page"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Linear Arrangement of Six Sex-Linked Factors in Drosophila, as Shown by Their Mode of Association",
+			"authors": [
+				{
+					"family": "Sturtevant",
+					"given": "A. H."
+				}
+			],
+			"container": "Journal of Experimental Zoology",
+			"volume": "14",
+			"issue": "1",
+			"pages": "43–59",
+			"published": "1913",
+			"doi": "10.1002/jez.1400140104",
+			"url": "http://www.esp.org/foundations/genetics/classical/holdings/s/ahs-13.pdf",
+			"accessed": "2026-10-06",
+			"note": "Read in the Electronic Scholarly Publishing Project's reprint; Diagram 1 and Tables 1–3 give the map"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "A History of Genetics",
+			"authors": [
+				{
+					"family": "Sturtevant",
+					"given": "A. H."
+				}
+			],
+			"place": "Cold Spring Harbor, NY",
+			"publisher": "Cold Spring Harbor Laboratory Press and Electronic Scholarly Publishing Project",
+			"published": "2001",
+			"url": "http://www.esp.org/books/sturt/history/",
+			"accessed": "2026-10-06",
+			"note": "First published in 1965; chapter 7, “The ‘Fly Room’”"
+		},
+		{
+			"kind": "article",
+			"title": "What Are “Factors” in Mendelian Explanations?",
+			"authors": [
+				{
+					"family": "Morgan",
+					"given": "Thomas Hunt"
+				}
+			],
+			"container": "American Breeders Association Reports",
+			"volume": "5",
+			"pages": "365–368",
+			"published": "1909",
+			"url": "http://www.esp.org/foundations/genetics/classical/thm-09.pdf",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "Thomas Hunt Morgan and His Legacy",
+			"authors": [
+				{
+					"family": "Lewis",
+					"given": "Edward B."
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1998-04-20",
+			"url": "https://www.nobelprize.org/prizes/medicine/1933/morgan/article/",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Production of Mutations",
+			"authors": [
+				{
+					"family": "Muller",
+					"given": "Hermann J."
+				}
+			],
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Prize Outreach",
+			"published": "1946-12-12",
+			"url": "https://www.nobelprize.org/prizes/medicine/1946/muller/lecture/",
+			"accessed": "2026-10-06",
+			"note": "Muller's Nobel lecture"
+		},
+		{
+			"kind": "article",
+			"title": "The Mechanism of Mendelian Heredity, by T. H. Morgan, A. H. Sturtevant, H. J. Muller and C. B. Bridges",
+			"authors": [
+				{
+					"family": "Bateson",
+					"given": "W."
+				}
+			],
+			"container": "Science",
+			"volume": "44",
+			"issue": "1137",
+			"pages": "536–543",
+			"published": "1916",
+			"doi": "10.1126/science.44.1137.536",
+			"accessed": "2026-10-06",
+			"citedIn": "Sturtevant, A History of Genetics, p. 49"
+		},
+		{
+			"kind": "article",
+			"title": "The Scientific Work of Miss N. M. Stevens",
+			"authors": [
+				{
+					"family": "Morgan",
+					"given": "Thomas Hunt"
+				}
+			],
+			"container": "Science",
+			"volume": "36",
+			"issue": "928",
+			"pages": "468–470",
+			"published": "1912-10-11",
+			"doi": "10.1126/science.36.928.468",
+			"accessed": "2026-10-06",
+			"citedIn": "Nettie Stevens, Wikipedia"
+		},
+		{
+			"kind": "article",
+			"title": "Artificial Transmutation of the Gene",
+			"authors": [
+				{
+					"family": "Muller",
+					"given": "H. J."
+				}
+			],
+			"container": "Science",
+			"volume": "66",
+			"issue": "1699",
+			"pages": "84–87",
+			"published": "1927-07-22",
+			"doi": "10.1126/science.66.1699.84",
+			"accessed": "2026-10-06",
+			"read": "record"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thomas Hunt Morgan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thomas_Hunt_Morgan&oldid=1372001432",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Drosophila melanogaster",
+			"url": "https://en.wikipedia.org/w/index.php?title=Drosophila_melanogaster&oldid=1378960937",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alfred Sturtevant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alfred_Sturtevant&oldid=1371965561",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Calvin Bridges",
+			"url": "https://en.wikipedia.org/w/index.php?title=Calvin_Bridges&oldid=1371977546",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hermann Joseph Muller",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hermann_Joseph_Muller&oldid=1372525973",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nettie Stevens",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nettie_Stevens&oldid=1371978174",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sex linkage",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sex_linkage&oldid=1378648073",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chromosomal crossover",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chromosomal_crossover&oldid=1373675804",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Genetic linkage",
+			"url": "https://en.wikipedia.org/w/index.php?title=Genetic_linkage&oldid=1377987233",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "media",
+			"title": "Criss-cross inheritance",
+			"url": "https://commons.wikimedia.org/wiki/File:Criss-cross_inheritance.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "criss-cross.jpg",
+			"authors": [
+				{
+					"family": "Morgan",
+					"given": "T. H."
+				},
+				{
+					"family": "Sturtevant",
+					"given": "A. H."
+				},
+				{
+					"family": "Muller",
+					"given": "H. J."
+				},
+				{
+					"family": "Bridges",
+					"given": "C. B."
+				}
+			],
+			"container": "The Mechanism of Mendelian Heredity (New York: Henry Holt, 1915), p. 19",
+			"published": "1915"
+		}
+	]
+}

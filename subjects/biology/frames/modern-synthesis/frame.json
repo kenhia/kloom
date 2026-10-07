@@ -1,0 +1,460 @@
+{
+	"id": "modern-synthesis",
+	"topic": "The modern synthesis",
+	"position": {
+		"label": "1937",
+		"sort": 1937
+	},
+	"scene": {
+		"headline": "Darwin and Mendel were",
+		"accent": "RECONCILED.",
+		"palette": "garden",
+		"illustration": "scene.svg",
+		"metadata": [
+			"FISHER · HALDANE · WRIGHT · DOBZHANSKY",
+			"GENETICS AND THE ORIGIN OF SPECIES · 1937"
+		],
+		"counter": {
+			"value": "3 : 2",
+			"label": "black peppered moths surviving for every 2 pale, Haldane's minimum"
+		}
+	},
+	"connections": [
+		{
+			"to": "mathematics/normal-distribution",
+			"why": "Fisher showed in 1918 that many Mendelian genes, each adding a little, give the bell-shaped spread of a trait such as height that Quetelet had measured in people: the sum of many small effects that the central limit theorem makes normal."
+		},
+		{
+			"to": "blood/sickle-cell",
+			"why": "Haldane, one of the synthesis's mathematicians, suggested in 1949 that red-cell disorders persist where malaria is endemic because carriers resist the disease; Allison's work on the sickle-cell trait in East Africa confirmed it."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Modern synthesis (20th century)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Modern_synthesis_(20th_century)&oldid=1374379287",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11",
+			"key": true
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Genetical Theory of Natural Selection",
+			"authors": [
+				{
+					"family": "Fisher",
+					"given": "R. A."
+				}
+			],
+			"place": "Oxford",
+			"publisher": "Clarendon Press",
+			"published": "1930",
+			"url": "http://www.blackwellpublishing.com/ridley/classictexts/fisher1.pdf",
+			"accessed": "2026-10-06",
+			"read": "excerpt",
+			"note": "Read in the scan once posted with Mark Ridley's textbook Evolution (Blackwell), through the Wayback Machine; chapter 1, quoted from p. 4"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Mathematical Theory of Natural and Artificial Selection, Part I",
+			"authors": [
+				{
+					"family": "Haldane",
+					"given": "J. B. S."
+				}
+			],
+			"container": "Transactions of the Cambridge Philosophical Society",
+			"volume": "23",
+			"pages": "19–41",
+			"published": "1924",
+			"url": "http://www.blackwellpublishing.com/ridley/classictexts/haldane1.pdf",
+			"accessed": "2026-10-06",
+			"note": "Read in the scan once posted with Mark Ridley's textbook Evolution (Blackwell), through the Wayback Machine; quoted from pp. 19, 20 and 26"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Roles of Mutation, Inbreeding, Crossbreeding and Selection in Evolution",
+			"authors": [
+				{
+					"family": "Wright",
+					"given": "Sewall"
+				}
+			],
+			"container": "Proceedings of the Sixth International Congress of Genetics",
+			"volume": "1",
+			"pages": "356–366",
+			"published": "1932",
+			"url": "http://www.blackwellpublishing.com/ridley/classictexts/wright.pdf",
+			"accessed": "2026-10-06",
+			"note": "Read in the scan once posted with Mark Ridley's textbook Evolution (Blackwell), through the Wayback Machine"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Genetics of Natural Populations. XIV. A Response of Certain Gene Arrangements in the Third Chromosome of Drosophila pseudoobscura to Natural Selection",
+			"authors": [
+				{
+					"family": "Dobzhansky",
+					"given": "Theodosius"
+				}
+			],
+			"container": "Genetics",
+			"volume": "32",
+			"issue": "2",
+			"pages": "142–160",
+			"published": "1947-03",
+			"doi": "10.1093/genetics/32.2.142",
+			"accessed": "2026-10-06",
+			"note": "Table 1 and p. 144 give the cage counts"
+		},
+		{
+			"kind": "article",
+			"title": "Mendelian-Mutationism: The Forgotten Evolutionary Synthesis",
+			"authors": [
+				{
+					"family": "Stoltzfus",
+					"given": "Arlin"
+				},
+				{
+					"family": "Cable",
+					"given": "Kele"
+				}
+			],
+			"container": "Journal of the History of Biology",
+			"volume": "47",
+			"issue": "4",
+			"pages": "501–546",
+			"published": "2014",
+			"doi": "10.1007/s10739-014-9383-2",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The Extended Evolutionary Synthesis: Its Structure, Assumptions and Predictions",
+			"authors": [
+				{
+					"family": "Laland",
+					"given": "Kevin N."
+				},
+				{
+					"family": "Uller",
+					"given": "Tobias"
+				},
+				{
+					"family": "Feldman",
+					"given": "Marcus W."
+				},
+				{
+					"family": "Sterelny",
+					"given": "Kim"
+				},
+				{
+					"family": "Müller",
+					"given": "Gerd B."
+				},
+				{
+					"family": "Moczek",
+					"given": "Armin"
+				},
+				{
+					"family": "Jablonka",
+					"given": "Eva"
+				}
+			],
+			"etAl": true,
+			"container": "Proceedings of the Royal Society B",
+			"volume": "282",
+			"issue": "1813",
+			"pages": "20151019",
+			"published": "2015",
+			"doi": "10.1098/rspb.2015.1019",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Evolutionary Biology Today and the Call for an Extended Synthesis",
+			"authors": [
+				{
+					"family": "Futuyma",
+					"given": "Douglas J."
+				}
+			],
+			"container": "Interface Focus",
+			"volume": "7",
+			"issue": "5",
+			"pages": "20160145",
+			"published": "2017",
+			"doi": "10.1098/rsfs.2016.0145",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "book",
+			"title": "Systematics and the Origin of Species",
+			"authors": [
+				{
+					"family": "Mayr",
+					"given": "Ernst"
+				}
+			],
+			"place": "New York",
+			"publisher": "Columbia University Press",
+			"published": "1942",
+			"citedIn": "Species, Wikipedia"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Genetics and the Origin of Species",
+			"url": "https://en.wikipedia.org/w/index.php?title=Genetics_and_the_Origin_of_Species&oldid=1368795190",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The eclipse of Darwinism",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_eclipse_of_Darwinism&oldid=1348919416",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mutationism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mutationism&oldid=1325567809",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Genetical Theory of Natural Selection",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Genetical_Theory_of_Natural_Selection&oldid=1376000714",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Peppered moth evolution",
+			"url": "https://en.wikipedia.org/w/index.php?title=Peppered_moth_evolution&oldid=1375599440",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sewall Wright",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sewall_Wright&oldid=1371995526",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fitness landscape",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fitness_landscape&oldid=1358762109",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Genetic drift",
+			"url": "https://en.wikipedia.org/w/index.php?title=Genetic_drift&oldid=1364511177",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sergei Chetverikov",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sergei_Chetverikov&oldid=1376372187",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Theodosius Dobzhansky",
+			"url": "https://en.wikipedia.org/w/index.php?title=Theodosius_Dobzhansky&oldid=1376486362",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "J. B. S. Haldane",
+			"url": "https://en.wikipedia.org/w/index.php?title=J._B._S._Haldane&oldid=1378091750",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ernst Mayr",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ernst_Mayr&oldid=1378361707",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Species",
+			"url": "https://en.wikipedia.org/w/index.php?title=Species&oldid=1378036821",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George Gaylord Simpson",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_Gaylord_Simpson&oldid=1378804140",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Evolution: The Modern Synthesis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Evolution%3A_The_Modern_Synthesis&oldid=1350260183",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Extended evolutionary synthesis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Extended_evolutionary_synthesis&oldid=1377205626",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "media",
+			"title": "Lichte en zwarte versie berkenspanner",
+			"url": "https://commons.wikimedia.org/wiki/File:Lichte_en_zwarte_versie_berkenspanner.jpg",
+			"accessed": "2026-10-06",
+			"licence": "CC BY-SA 3.0",
+			"file": "moths.jpg",
+			"authors": [
+				{
+					"family": "Sanne",
+					"given": "Maarten"
+				}
+			],
+			"container": "Dutch Wikipedia, transferred to Wikimedia Commons",
+			"published": "2007"
+		}
+	]
+}
