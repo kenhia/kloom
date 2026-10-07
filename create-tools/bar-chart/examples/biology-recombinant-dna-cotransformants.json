@@ -1,0 +1,27 @@
+{
+	"title": "Bacteria carrying both resistance genes, for each microgram of plasmid DNA, Cohen and colleagues 1973",
+	"description": "Bar chart. Colonies resistant to both tetracycline and kanamycin, per microgram of each plasmid's DNA. Untreated plasmid DNA, 200; cut with the restriction enzyme EcoRI, 70; cut and then joined with DNA ligase, 570.",
+	"heading": "RESISTANT TO BOTH DRUGS, PER MICROGRAM OF DNA",
+	"unit": "",
+	"axis": {
+		"max": 700,
+		"ticks": [
+			[0, "0"],
+			[200, "200"],
+			[400, "400"],
+			[600, "600"]
+		]
+	},
+	"width": 480,
+	"barWidth": 72,
+	"bars": [
+		{ "label": "Untreated", "sublabel": "two plasmids", "value": 200, "display": "200" },
+		{ "label": "Cut", "sublabel": "EcoRI", "value": 70, "display": "70" },
+		{ "label": "Cut, joined", "sublabel": "and ligase", "value": 570, "display": "570", "highlight": true }
+	],
+	"source": {
+		"container": "Cohen, Chang, Boyer and Helling, \"Construction of Biologically Functional Bacterial Plasmids In Vitro,\" PNAS 70 (1973), Table 2",
+		"doi": "10.1073/pnas.70.11.3240",
+		"accessed": "2026-10-06"
+	}
+}

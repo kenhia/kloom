@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M24 258 L24 264"/>
+		<path pathLength="1" d="M48 258 L48 264"/>
+		<path pathLength="1" d="M72 258 L72 264"/>
+		<path pathLength="1" d="M96 258 L96 264"/>
+		<path pathLength="1" d="M120 258 L120 264"/>
+		<path pathLength="1" d="M24 261 L120 261"/>
+		<path pathLength="1" d="M200 184 L200 254"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M24 42 L376 42 L376 254 L24 254 Z"/>
+		<path pathLength="1" d="M48 66 L352 66 L352 230 L48 230 Z"/>
+		<path pathLength="1" d="M72 90 L328 90 L328 206 L72 206 Z"/>
+		<path pathLength="1" d="M96 114 L304 114 L304 182 L96 182 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M183 142 a17 10 0 1 0 34 0 a17 10 0 1 0 -34 0"/>
+		<path pathLength="1" d="M194 142 a6 4 0 1 0 12 0 a6 4 0 1 0 -12 0"/>
+		<path pathLength="1" d="M190 136 L186 140"/>
+		<path pathLength="1" d="M186 136 L190 140"/>
+		<path pathLength="1" d="M210 136 L214 140"/>
+		<path pathLength="1" d="M214 136 L210 140"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="30" y="38" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MINIMAL</text>
+		<text x="370" y="38" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CLINICAL PRACTICE</text>
+		<text x="54" y="62" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LOW</text>
+		<text x="346" y="62" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LIMITED ACCESS, CABINET</text>
+		<text x="78" y="86" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MODERATE</text>
+		<text x="322" y="86" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GLOVES, NEGATIVE PRESSURE</text>
+		<text x="102" y="110" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HIGH</text>
+		<text x="298" y="110" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AIR LOCK, SHOWER, TREATED AIR</text>
+		<text x="200" y="162" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ENFEEBLED HOST AND VECTOR</text>
+		<text x="200" y="174" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ESCAPE UNDER 1 IN 100,000,000</text>
+		<text x="72" y="274" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FOUR BANDS</text>
+		<text x="200" y="290" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DEFERRED: PATHOGENS, TOXIN GENES, OVER 10 LITERS</text>
+		<text x="200" y="18" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CONTAINMENT MATCHED TO RISK, ASILOMAR 1975</text>
+	</g>
+</svg>

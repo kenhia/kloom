@@ -1,0 +1,332 @@
+{
+	"id": "recombinant-dna",
+	"topic": "Recombinant DNA",
+	"position": {
+		"label": "1973",
+		"sort": 1973
+	},
+	"scene": {
+		"headline": "Genes could be",
+		"accent": "SPLICED.",
+		"palette": "gel",
+		"illustration": "scene.svg",
+		"metadata": ["STANFORD · UCSF · PNAS, NOVEMBER 1973", "COHEN · CHANG · BOYER · HELLING"],
+		"counter": {
+			"value": "468",
+			"label": "companies licensed the method"
+		}
+	},
+	"connections": [
+		{
+			"to": "blood/recombinant-factor",
+			"why": "The clotting factor missing in hemophilia A was made from a cloned human gene, the method of this frame applied to a protein too large and too scarce to get any other way."
+		},
+		{
+			"to": "food/gm-crops",
+			"why": "Engineered crops are made by borrowing another plasmid, the tumor-inducing ring of Agrobacterium, to carry a chosen gene into a plant as pSC101 carried one into a bacterium."
+		},
+		{
+			"to": "chemistry/pcr",
+			"why": "Cloning in bacteria was the only way to get many copies of one stretch of DNA until PCR copied it in a tube; Mullis's first working run in 1983 was on a piece of a plasmid."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Construction of Biologically Functional Bacterial Plasmids In Vitro",
+			"authors": [
+				{
+					"family": "Cohen",
+					"given": "Stanley N."
+				},
+				{
+					"family": "Chang",
+					"given": "Annie C. Y."
+				},
+				{
+					"family": "Boyer",
+					"given": "Herbert W."
+				},
+				{
+					"family": "Helling",
+					"given": "Robert B."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "70",
+			"issue": "11",
+			"pages": "3240–3244",
+			"published": "1973-11",
+			"doi": "10.1073/pnas.70.11.3240",
+			"accessed": "2026-10-06",
+			"note": "The transformation counts are in its Tables 1 and 2"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "DNA cloning: A personal view after 40 years",
+			"authors": [
+				{
+					"family": "Cohen",
+					"given": "Stanley N."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "110",
+			"issue": "39",
+			"pages": "15521–15529",
+			"published": "2013-09",
+			"doi": "10.1073/pnas.1313397110",
+			"accessed": "2026-10-06",
+			"note": "His account of the Honolulu meeting and of the patents"
+		},
+		{
+			"kind": "article",
+			"title": "Biochemical Method for Inserting New Genetic Information into DNA of Simian Virus 40: Circular SV40 DNA Molecules Containing Lambda Phage Genes and the Galactose Operon of Escherichia coli",
+			"authors": [
+				{
+					"family": "Jackson",
+					"given": "David A."
+				},
+				{
+					"family": "Symons",
+					"given": "Robert H."
+				},
+				{
+					"family": "Berg",
+					"given": "Paul"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "69",
+			"issue": "10",
+			"pages": "2904–2909",
+			"published": "1972-10",
+			"doi": "10.1073/pnas.69.10.2904",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "DNA Nucleotide Sequence Restricted by the RI Endonuclease",
+			"authors": [
+				{
+					"family": "Hedgpeth",
+					"given": "Joe"
+				},
+				{
+					"family": "Goodman",
+					"given": "Howard M."
+				},
+				{
+					"family": "Boyer",
+					"given": "Herbert W."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "69",
+			"issue": "11",
+			"pages": "3448–3452",
+			"published": "1972-11",
+			"doi": "10.1073/pnas.69.11.3448",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Replication and Transcription of Eukaryotic DNA in Escherichia coli",
+			"authors": [
+				{
+					"family": "Morrow",
+					"given": "John F."
+				},
+				{
+					"family": "Cohen",
+					"given": "Stanley N."
+				},
+				{
+					"family": "Chang",
+					"given": "Annie C. Y."
+				},
+				{
+					"family": "Boyer",
+					"given": "Herbert W."
+				},
+				{
+					"family": "Goodman",
+					"given": "Howard M."
+				},
+				{
+					"family": "Helling",
+					"given": "Robert B."
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "71",
+			"issue": "5",
+			"pages": "1743–1747",
+			"published": "1974-05",
+			"doi": "10.1073/pnas.71.5.1743",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Expression in Escherichia coli of chemically synthesized genes for human insulin",
+			"authors": [
+				{
+					"family": "Goeddel",
+					"given": "David V."
+				},
+				{
+					"family": "Kleid",
+					"given": "Dennis G."
+				},
+				{
+					"family": "Bolivar",
+					"given": "Francisco"
+				},
+				{
+					"family": "Heyneker",
+					"given": "Herbert L."
+				},
+				{
+					"family": "Yansura",
+					"given": "Daniel G."
+				},
+				{
+					"family": "Crea",
+					"given": "Roberto"
+				},
+				{
+					"family": "Hirose",
+					"given": "Tadaaki"
+				}
+			],
+			"etAl": true,
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "76",
+			"issue": "1",
+			"pages": "106–110",
+			"published": "1979-01",
+			"doi": "10.1073/pnas.76.1.106",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Lessons from the Commercialization of the Cohen-Boyer Patents: The Stanford University Licensing Program",
+			"authors": [
+				{
+					"family": "Feldman",
+					"given": "Maryann P."
+				},
+				{
+					"family": "Colaianni",
+					"given": "Alessandra"
+				},
+				{
+					"family": "Liu",
+					"given": "Connie"
+				}
+			],
+			"container": "Intellectual Property Management in Health and Agricultural Innovation: A Handbook of Best Practices",
+			"editors": [
+				{
+					"family": "Krattiger",
+					"given": "Anatole"
+				},
+				{
+					"family": "Mahoney",
+					"given": "Richard T."
+				},
+				{
+					"family": "Nelsen",
+					"given": "Lita"
+				}
+			],
+			"etAl": true,
+			"pages": "1797–1807",
+			"place": "Oxford",
+			"publisher": "MIHR and PIPRA",
+			"published": "2007",
+			"url": "https://ipmall.info/sites/default/files/hosted_resources/IP_handbook/ch17/ipHandbook-Ch%2017%2022%20Feldman-Colaianni0Liu%20Cohen-Boyer%20Patents%20and%20Licenses.pdf",
+			"accessed": "2026-10-06",
+			"note": "The licence terms and the revenue are in its Table 1 and abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Recombinant DNA",
+			"url": "https://en.wikipedia.org/w/index.php?title=Recombinant_DNA&oldid=1362468230",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Genentech",
+			"url": "https://en.wikipedia.org/w/index.php?title=Genentech&oldid=1375823098",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Restriction enzyme",
+			"url": "https://en.wikipedia.org/w/index.php?title=Restriction_enzyme&oldid=1375781495",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "media",
+			"title": "E. coli Bacteria",
+			"url": "https://commons.wikimedia.org/wiki/File:E._coli_Bacteria_(7316101966).jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "ecoli.jpg",
+			"authors": [
+				{
+					"name": "National Institute of Allergy and Infectious Diseases"
+				}
+			],
+			"container": "NIAID, National Institutes of Health",
+			"published": "2002-11-14"
+		},
+		{
+			"kind": "media",
+			"title": "Bacteria carrying both resistance genes, for each microgram of plasmid DNA, Cohen and colleagues 1973",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Cohen, Chang, Boyer and Helling, \"Construction of Biologically Functional Bacterial Plasmids In Vitro,\" PNAS 70 (1973), Table 2",
+			"doi": "10.1073/pnas.70.11.3240",
+			"accessed": "2026-10-06",
+			"licence": "MIT",
+			"file": "cotransformants.svg"
+		}
+	]
+}
