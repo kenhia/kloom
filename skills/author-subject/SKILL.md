@@ -201,11 +201,18 @@ that did not reach Washington, a "first" order that was the fifteenth).
 A frame about **the present state of something** gets a lead that says
 "the latest edition", not a year: sprint 051's said SOFI 2025, and SOFI
 2026 had been out for ten weeks.
+The brief's **"today"** is the UTC date, which `wiki_cite.py` stamps as
+`accessed` (sprint 049, so that a revision is never published after it
+was read): sprint 055's said the local date, and eight authors rewrote
+dates by hand once UTC passed midnight.
 **List the widely shared names in `owners` too**, not only the subject's
 own crops or devices: the places, institutions and scholars several
 parts will name (sprint 051's `chicago`, `kolkata`, `dorian-fuller`,
 `anatolia`, Churchill and the vitamin names were drafted at the same
-moment by two parts each, because nothing listed them). **Build each
+moment by two parts each, because nothing listed them). Sprint 055 listed
+98 and still had three such pairs (a patron, a funder, a bacteriologist's
+assistant), so tell authors to look for the file in every part's drafts
+directory just before drafting a name the plan does not list. **Build each
 part's checking command from what it will borrow**, every owner
 directory its marks need, and say that `names.py drafts <subject> --part
 <part>` finds the rest; sprint 051's commands named the wrong directories

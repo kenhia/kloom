@@ -397,7 +397,10 @@ knowledge is not a source.
   Philosophy_'s "Summer 2020 ed."). A chapter of a numbered report is a
   `chapter` with the report as `container` and its `number`.
 - **A journal volume dated before it came out** ("for 2016, published
-  2017") carries `"volumeYear": "2016"` beside `"published": "2017"`.
+  2017") carries `"volumeYear": "2016"` beside `"published": "2017"`. A
+  paper published online early, in an issue of a later year, takes the
+  issue's year as `published` (validation refuses `volumeYear` for it;
+  sprint 055).
 - **A page you could only read through an archive** (the site blocks
   fetches) is still cited by its own URL. The page is the source; the
   archive was only how you read it.
@@ -519,7 +522,7 @@ the web rather than by a grow job. What changes:
   mark. To test the marks themselves, place them in your checking copy
   with `--root DIR --names DIR/.names`; without `--root`, `mark` writes
   into the live subject.
-- **A frame about a person, a thing or a work marks that name** (with
+- **A frame about a person, a thing, a work or an experiment marks that name** (with
   `home` on the frame), **so its reading must say that name in prose**:
   sprints 024 and 025 each had a frame whose subject was never named where
   a mark could go (the Ishango bone, whose reading named only the place
@@ -588,7 +591,8 @@ DIR` writes its text. When a site refuses a script, or a paper is closed,
 - **The subject's voice holds for arithmetic too**: "by our arithmetic",
   not "by my".
 - **Readings run 550–900 words of prose, and every one scrolls.** Tables,
-  headings and alt text are not counted, and list items are
+  headings and alt text are not counted, and list items and block
+  quotes are
   (`create-tools/subject-plan/prose_words.py` counts them this way, for a
   subject, a frame or a draft): a numbered list of steps costs words that
   the same steps in a table do not (sprint 051). They use images, charts and tables where

@@ -339,6 +339,69 @@ never a person, and wait when a site tells you to.
   copyright in the United States by the URAA: leave them out unless the
   file page shows why they are free here.
 
+## Natural history and the life sciences (sprint 055)
+
+- **Darwin Online** (`darwin-online.org.uk`) holds the whole text of every
+  Darwin book, notebook and many letters: its `frameset` pages are frames,
+  and `contentblock?itemID=<id>` (or `?basepage=<path>`) serves the text.
+  The **Darwin Correspondence Project** serves a letter at
+  `darwinproject.ac.uk/letter/DCP-LETT-<n>.xml` to a `Mozilla/5.0`
+  User-Agent only (a plain one gets an empty page); parse its `div.letter`
+  block, since its plain text loses the transcript, and cite the letter as
+  `letter` with the DCP number in `number`. Its search is JavaScript.
+- **Wikisource's parse API** serves a public-domain translation whole,
+  one book or chapter a page: `en.wikisource.org/w/api.php?action=parse&
+page=<Title>/<Book>&prop=text&format=json`, with `list=allpages&apprefix=`
+  to list the pages. D'Arcy Thompson's Aristotle and Hort's Theophrastus
+  came this way while the Internet Archive was down. **Project Gutenberg**'s
+  `cache/epub/<n>/pg<n>.txt` gives plain text (Arber's _Herbals_).
+- **The Biodiversity Heritage Library** answered every page, its OCR text
+  and its API with a Cloudflare challenge or a key request in October 2026.
+  Its scans are mirrored on the Internet Archive under the same items:
+  search there instead.
+- **Internet Archive page images**: `page/n<N>_w1600.jpg` is small. The
+  IIIF endpoint `iiif.archive.org/iiif/<item>$<N>/full/full/0/default.jpg`
+  gives the full page, but its `$N` is one less than `page/n<N>`: check
+  the leaves either side. `page_numbers.json` skips plate leaves, so a
+  plate is found by fetching neighboring leaves (a grid of thumbnails is
+  quickest), and `inside.php` full-text search finds the leaf a phrase is
+  on. The `per_…`, `s696id…` and `comptes-rendus-*` items hold the old
+  _Transactions_, the _Annales de chimie_ and the _Comptes rendus_ issue
+  by issue.
+- **PNAS** refuses a script. The Wayback `id_` form of
+  `pnas.org/doi/pdf/<doi>` works for most papers, and for older ones the
+  old path `pnas.org/content/<vol>/<issue>/<page>.full.pdf`; ask the CDX
+  API (`web.archive.org/cdx/search/cdx?url=…`) for a real timestamp, since
+  the availability API answered 429 as HTML for minutes at a time.
+  **_Genetics_** papers older than PMC's open subset come the same way,
+  from `genetics.org/content/<vol>/<issue>/<page>.full.pdf`.
+- **The NLM's Profiles in Science** holds Avery's, Crick's, McClintock's,
+  Nirenberg's and Maxine Singer's papers (the Asilomar program, the NIH
+  committee's reports, Cambridge's 1977 ordinance); their OCR text is at
+  `collections.nlm.nih.gov/ocr/nlm:nlmuid-<id>-doc`. Prefer the items
+  marked "partial transcription": OCR of handwriting is unusable.
+- **Nobel lectures** are PDFs at
+  `nobelprize.org/uploads/2018/06/<surname>-lecture.pdf` (see above for
+  laureates who share a surname); the lecture page itself may show only a
+  link. Cite a lecture as `web` (there is no `lecture` kind).
+- **Cambridge Core**'s open articles (_Medical History_'s, for the history
+  of medicine) download from
+  `cambridge.org/core/services/aop-cambridge-core/content/view/<PII>`.
+- **The IUCN Red List** site refuses a script. The Wayback `id_` copy of
+  `iucnredlist.org/resources/summary-statistics` links its tables, which
+  download directly from `nc.iucnredlist.org/…/<version>_RL_Table1a.pdf`.
+- **Datasets bundled with R packages** carry classic tables: Snow's 578
+  deaths and pumps (`HistData`), Simberloff and Wilson's islets (`island`).
+  Read their `.RData` with `uv run --with pyreadr --with pandas` (or
+  `--with rdata`), and cite the package and the original paper.
+- **Wikipedia's reference list** often points to an open copy: the
+  `prop=extlinks` API lists an article's external links, archive copies
+  among them (Lindeman 1942 was found that way).
+- **Blackwell's companion site to Ridley's _Evolution_**
+  (`blackwellpublishing.com/ridley/classictexts/*.pdf`, through the Wayback
+  Machine) holds scans of Haldane 1924, Wright 1932 and Fisher 1930's first
+  chapter. Cite the work, with a `note` naming the copy.
+
 ## Broken certificates
 
 - **Oracc**'s cuneiform editions serve an incomplete certificate chain:
@@ -402,6 +465,15 @@ what you read. Refused at least once in sprints 021–030:
   an email address in the User-Agent that kloom's rules forbid sending.
   The Wayback Machine itself answered 429 for minutes at a time with 24
   authors at once; space requests about 20 seconds apart.
+- **Sprint 055**: the Biodiversity Heritage Library (above), Gallica
+  (a security check; its `texteBrut` gives an empty reply), PhilPapers,
+  Furman's repository, the Telegraph (a TollBit token page),
+  `symposium.cshlp.org` (403), `deepblue.lib.umich.edu` (Cloudflare;
+  Wayback `id_` works), `cell.com` (Wayback too), Wiley's 1969 _Ecology_
+  PDFs (a login, Wayback included), Art UK, and Harvard University Press's
+  book pages (a JavaScript app). The Embryo Project's
+  `embryo.asu.edu/pages/<name>` addresses mostly answer 404; follow the
+  links from Wikipedia's references instead.
 - **arXiv** answered `read_source` with 406 once (sprint 024) but served
   it in sprint 027; if it refuses, fetch the PDF with `curl` and read the
   file.
