@@ -340,5 +340,12 @@ clone is at the same commit.
   trails, 63,493 words (231 pages, by the stats' own count, which includes
   tables and captions), 78 images, 16 charts, 99 tables, 994 citations and
   172 connections.
-- **The public reader site** is unchanged: biology is not in
-  `publish.json`.
+- **The public reader site** was published the same day at Ken's word,
+  with biology added to `publish.json` (PR #64), by `just publish-public`
+  from `3bad1741`: Fly release v18, image
+  `kloom-reader:3bad17412-202610070456`, staged with 12 subjects and 1,806
+  media files. Every `verify-public` check passed (TLS, HSTS, robots, the
+  sign-in wall, the 404s for grow and for ask and keep without ask,
+  compression, the library's build `03772d`, the Fly-Client-IP
+  overwrite). The site has five notes, none detached; ask has spent $0.12
+  of $15 this month.
