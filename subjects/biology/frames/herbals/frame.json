@@ -1,0 +1,156 @@
+{
+	"id": "herbals",
+	"topic": "The printed herbals",
+	"position": {
+		"label": "1542",
+		"sort": 1542
+	},
+	"scene": {
+		"headline": "We drew plants from",
+		"accent": "LIFE.",
+		"palette": "herbarium",
+		"illustration": "scene.svg",
+		"metadata": ["BASEL · LEONHART FUCHS · DE HISTORIA STIRPIUM", "FÜLLMAURER · MEYER · SPECKLE"],
+		"counter": {
+			"value": "512",
+			"label": "woodcuts of living plants"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Herbals, Their Origin and Evolution: A Chapter in the History of Botany, 1470–1670",
+			"authors": [
+				{
+					"family": "Arber",
+					"given": "Agnes"
+				}
+			],
+			"place": "Cambridge",
+			"publisher": "Cambridge University Press",
+			"published": "1912",
+			"url": "https://www.gutenberg.org/ebooks/46889",
+			"accessed": "2026-10-06",
+			"note": "Her translation of Fuchs's preface is in chapter 6"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "De historia stirpium commentarii insignes",
+			"url": "https://en.wikipedia.org/w/index.php?title=De_historia_stirpium_commentarii_insignes&oldid=1365670761",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-23",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Leonhart Fuchs",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leonhart_Fuchs&oldid=1374859189",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Herbal",
+			"url": "https://en.wikipedia.org/w/index.php?title=Herbal&oldid=1352238787",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "De materia medica",
+			"url": "https://en.wikipedia.org/w/index.php?title=De_materia_medica&oldid=1378831572",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Otto Brunfels",
+			"url": "https://en.wikipedia.org/w/index.php?title=Otto_Brunfels&oldid=1355939588",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Herbarium",
+			"url": "https://en.wikipedia.org/w/index.php?title=Herbarium&oldid=1365850310",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-24"
+		},
+		{
+			"kind": "media",
+			"title": "Pictores operis, Heinricus Fullmaurer, Albertus Meyer; sculptor Vitus Rodolph Speckle",
+			"url": "https://commons.wikimedia.org/wiki/File:Pictores_operis,_Heinricus_Fullmaurer,_Albertus_Meyer,_sculptor_Vitus_Rodolph_Speckle_LCCN92516565.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "artists.jpg",
+			"engravers": [
+				{
+					"family": "Speckle",
+					"given": "Veit Rudolph"
+				}
+			],
+			"container": "Leonhart Fuchs, De historia stirpium (Basel, 1542); Library of Congress Prints and Photographs Division",
+			"number": "LCCN 92516565",
+			"published": "1542"
+		},
+		{
+			"kind": "media",
+			"title": "Langer Indianischer Pfeffer",
+			"url": "https://commons.wikimedia.org/wiki/File:Langer_Indianischer_Pfeffer_Leonhart_Fuchs_1543.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "chili.jpg",
+			"authors": [
+				{
+					"family": "Fuchs",
+					"given": "Leonhart"
+				}
+			],
+			"container": "Leonhart Fuchs, New Kreüterbuch (Basel, 1543), plate 419",
+			"published": "1543"
+		}
+	]
+}
