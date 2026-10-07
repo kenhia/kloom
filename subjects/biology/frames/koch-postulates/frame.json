@@ -1,0 +1,248 @@
+{
+	"id": "koch-postulates",
+	"topic": "Koch's postulates",
+	"position": {
+		"label": "1882",
+		"sort": 1882
+	},
+	"scene": {
+		"headline": "We stained the tubercle",
+		"accent": "BACILLUS.",
+		"palette": "stain",
+		"illustration": "scene.svg",
+		"metadata": ["WOLLSTEIN · BERLIN", "ROBERT KOCH · DIE ÄTIOLOGIE DER TUBERKULOSE"],
+		"counter": {
+			"value": "1 in 7",
+			"label": "of all deaths, said Koch, from tuberculosis"
+		}
+	},
+	"connections": [
+		{
+			"to": "blood/stained-film",
+			"why": "Paul Ehrlich, who sorted blood cells by the aniline dyes they took, sat in the audience when Koch showed the tubercle bacillus made visible by an aniline stain in 1882."
+		},
+		{
+			"to": "food/pasteurization",
+			"why": "In 1901 Koch said the cattle tubercle bacillus so seldom infected people that nothing need be done about milk; the evidence that it did was the strongest argument for pasteurizing it."
+		},
+		{
+			"to": "food/potato-blight",
+			"why": "De Bary proved by infection experiments that a fungus caused potato blight decades before Koch set out how to prove that a microbe causes a disease."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Gesammelte Werke",
+			"authors": [
+				{
+					"family": "Koch",
+					"given": "Robert"
+				}
+			],
+			"editors": [
+				{
+					"family": "Schwalbe",
+					"given": "Julius"
+				}
+			],
+			"volume": "1",
+			"place": "Leipzig",
+			"publisher": "Georg Thieme",
+			"published": "1912",
+			"language": "de",
+			"url": "https://archive.org/details/b21353207_0001_0",
+			"accessed": "2026-10-06",
+			"note": "The anthrax paper of 1876 (pp. 5–25), the tuberculosis lecture of 1882 (pp. 428–445), 'Über bakteriologische Forschung' (1890, pp. 650–660) and the London address of 1901, quoted in our translation"
+		},
+		{
+			"kind": "article",
+			"title": "Die Aetiologie der Tuberculose",
+			"authors": [
+				{
+					"family": "Koch",
+					"given": "Robert"
+				}
+			],
+			"container": "Berliner klinische Wochenschrift",
+			"volume": "19",
+			"issue": "15",
+			"pages": "221–230",
+			"published": "1882-04-10",
+			"language": "de",
+			"url": "https://archive.org/details/b21353207_0001_0",
+			"accessed": "2026-10-06",
+			"note": "Read as reprinted in Koch's Gesammelte Werke, vol. 1 (1912)"
+		},
+		{
+			"kind": "article",
+			"title": "Untersuchungen über die Bedeutung der Mikroorganismen für die Entstehung der Diphtherie beim Menschen, bei der Taube und beim Kalbe",
+			"authors": [
+				{
+					"family": "Loeffler",
+					"given": "Friedrich"
+				}
+			],
+			"container": "Mittheilungen aus dem Kaiserlichen Gesundheitsamte",
+			"volume": "2",
+			"pages": "421–499",
+			"published": "1884",
+			"language": "de",
+			"url": "https://archive.org/details/s3728id1397087",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Robert Koch and the Pressures of Scientific Research: Tuberculosis and Tuberculin",
+			"authors": [
+				{
+					"family": "Gradmann",
+					"given": "Christoph"
+				}
+			],
+			"container": "Medical History",
+			"volume": "45",
+			"issue": "1",
+			"pages": "1–32",
+			"published": "2001-01",
+			"doi": "10.1017/s0025727300000028",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "The Introduction of Agar-agar into Bacteriology",
+			"authors": [
+				{
+					"family": "Hitchens",
+					"given": "Arthur Parker"
+				},
+				{
+					"family": "Leikind",
+					"given": "Morris C."
+				}
+			],
+			"container": "Journal of Bacteriology",
+			"volume": "37",
+			"issue": "5",
+			"pages": "485–493",
+			"published": "1939-05",
+			"doi": "10.1128/jb.37.5.485-493.1939",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Viruses and Koch's Postulates",
+			"authors": [
+				{
+					"family": "Rivers",
+					"given": "Thomas M."
+				}
+			],
+			"container": "Journal of Bacteriology",
+			"volume": "33",
+			"issue": "1",
+			"pages": "1–12",
+			"published": "1937-01",
+			"doi": "10.1128/jb.33.1.1-12.1937",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Sequence-Based Identification of Microbial Pathogens: A Reconsideration of Koch's Postulates",
+			"authors": [
+				{
+					"family": "Fredricks",
+					"given": "David N."
+				},
+				{
+					"family": "Relman",
+					"given": "David A."
+				}
+			],
+			"container": "Clinical Microbiology Reviews",
+			"volume": "9",
+			"issue": "1",
+			"pages": "18–33",
+			"published": "1996-01",
+			"doi": "10.1128/cmr.9.1.18",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Koch's postulates",
+			"url": "https://en.wikipedia.org/w/index.php?title=Koch's_postulates&oldid=1378543488",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Koch",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Koch&oldid=1377810391",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fanny Hesse",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fanny_Hesse&oldid=1338564457",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tuberculin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tuberculin&oldid=1368407135",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "media",
+			"title": "Colonies of bacteria and molds grown from air in gelatin-lined tubes",
+			"url": "https://commons.wikimedia.org/wiki/File:An_illustration_by_Hesse_that_was_previously_published_in_one_of_her_husband%27s_articles_about_microbes_in_the_air.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "hesse.jpg",
+			"authors": [
+				{
+					"family": "Hesse",
+					"given": "Fanny"
+				}
+			],
+			"container": "Walther Hesse, \"Ueber quantitative Bestimmung der in der Luft enthaltenen Mikroorganismen,\" Mittheilungen aus dem Kaiserlichen Gesundheitsamte 2 (1884), plates XI–XIII",
+			"published": "1884"
+		}
+	]
+}
