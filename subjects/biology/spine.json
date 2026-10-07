@@ -36,7 +36,16 @@
 			"title": "Deep time and change",
 			"labelKind": "date",
 			"palette": "strata",
-			"frames": ["steno-fossils", "cuvier-extinction", "lamarck", "mary-anning", "lyell"]
+			"frames": [
+				"steno-fossils",
+				"cuvier-extinction",
+				"lamarck",
+				"mary-anning",
+				"lyell",
+				"darwin-wallace",
+				"origin-of-species",
+				"oxford-1860"
+			]
 		},
 		{
 			"id": "inheritance",

@@ -1,0 +1,210 @@
+{
+	"id": "origin-of-species",
+	"topic": "On the Origin of Species",
+	"position": {
+		"label": "1859",
+		"sort": 1859
+	},
+	"scene": {
+		"headline": "The book was one long",
+		"accent": "ARGUMENT.",
+		"palette": "strata",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · JOHN MURRAY · 24 NOVEMBER 1859",
+			"CHARLES DARWIN · FOURTEEN CHAPTERS · ONE DIAGRAM"
+		],
+		"counter": {
+			"value": "1,250",
+			"label": "copies in the first printing"
+		}
+	},
+	"connections": [
+		{
+			"to": "food/malthus",
+			"why": "The Origin calls the struggle for existence \"the doctrine of Malthus applied with manifold force to the whole animal and vegetable kingdoms\": Malthus's essay of 1798 is the third step of Darwin's argument."
+		},
+		{
+			"to": "biology/aristotle-animals",
+			"why": "By 1866 the Origin's historical sketch opened with a footnote on Aristotle, in whose Physics Darwin read natural selection \"shadowed forth\"; Aristotle's zoology is where this subject begins."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"place": "London",
+			"publisher": "John Murray",
+			"published": "1859-11-24",
+			"edition": "1st ed.",
+			"url": "https://www.gutenberg.org/ebooks/1228",
+			"accessed": "2026-10-06",
+			"note": "Read in Project Gutenberg's text of the first edition; the diagram is in chapter IV"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "On the Origin of Species: An Introduction",
+			"authors": [
+				{
+					"family": "Freeman",
+					"given": "R. B."
+				}
+			],
+			"container": "The Complete Work of Charles Darwin Online",
+			"editors": [
+				{
+					"family": "van Wyhe",
+					"given": "John"
+				}
+			],
+			"url": "https://darwin-online.org.uk/EditorialIntroductions/Freeman_OntheOriginofSpecies.html",
+			"accessed": "2026-10-06",
+			"note": "Print runs and dates of every edition, from Murray's accounts"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "On the Origin of Species",
+			"url": "https://en.wikipedia.org/w/index.php?title=On_the_Origin_of_Species&oldid=1373644354",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07",
+			"key": true
+		},
+		{
+			"kind": "book",
+			"title": "The Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"place": "London",
+			"publisher": "John Murray",
+			"published": "1872",
+			"edition": "6th ed.",
+			"url": "https://www.gutenberg.org/ebooks/2009",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"place": "London",
+			"publisher": "John Murray",
+			"published": "1866",
+			"edition": "4th ed.",
+			"read": "excerpt",
+			"url": "https://darwin-online.org.uk/content/frameset?itemID=F385&viewtype=text&pageseq=1",
+			"accessed": "2026-10-06",
+			"note": "The Aristotle footnote, found through Darwin Online's search; the third edition of 1861 does not have it"
+		},
+		{
+			"kind": "book",
+			"title": "The Autobiography of Charles Darwin",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"editors": [
+				{
+					"family": "Darwin",
+					"given": "Francis"
+				}
+			],
+			"place": "London",
+			"publisher": "John Murray",
+			"published": "1887",
+			"url": "https://www.gutenberg.org/ebooks/2010",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter to Charles Lyell",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Lyell",
+					"given": "Charles"
+				}
+			],
+			"written": "1859-03-28",
+			"container": "Darwin Correspondence Project",
+			"number": "DCP-LETT-2437",
+			"publisher": "University of Cambridge",
+			"url": "https://www.darwinproject.ac.uk/letter/DCP-LETT-2437.xml",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thomas Henry Huxley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thomas_Henry_Huxley&oldid=1378444053",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "media",
+			"title": "Title page of On the Origin of Species, first edition",
+			"authors": [
+				{
+					"family": "Darwin",
+					"given": "Charles"
+				}
+			],
+			"container": "Charles Darwin, On the Origin of Species (London: John Murray, 1859)",
+			"published": "1859",
+			"url": "https://commons.wikimedia.org/wiki/File:Origin_of_Species_title_page.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "title-page.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Copies printed of the six editions of On the Origin of Species, 1859–1872",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Drawn for kloom from R. B. Freeman, \"On the Origin of Species: An Introduction,\" The Complete Work of Charles Darwin Online",
+			"url": "https://darwin-online.org.uk/EditorialIntroductions/Freeman_OntheOriginofSpecies.html",
+			"accessed": "2026-10-06",
+			"licence": "MIT",
+			"file": "print-runs.svg"
+		}
+	]
+}

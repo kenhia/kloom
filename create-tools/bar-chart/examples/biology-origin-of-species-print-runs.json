@@ -1,0 +1,29 @@
+{
+	"title": "Copies printed of the six editions of On the Origin of Species, 1859–1872",
+	"description": "Bar chart. First edition, 1859: 1,250 copies. Second, 1860: 3,000. Third, 1861: 2,000. Fourth, 1866: 1,500. Fifth, 1869: 2,000. Sixth, 1872: 3,000. Data: R. B. Freeman's introduction to the Origin on Darwin Online, from John Murray's accounts.",
+	"heading": "ON THE ORIGIN OF SPECIES · COPIES PRINTED PER EDITION",
+	"unit": "",
+	"width": 520,
+	"barWidth": 52,
+	"axis": {
+		"max": 3500,
+		"ticks": [
+			[0, "0"],
+			[1000, "1,000"],
+			[2000, "2,000"],
+			[3000, "3,000"]
+		]
+	},
+	"bars": [
+		{ "label": "1st", "sublabel": "1859", "value": 1250, "display": "1,250", "highlight": true },
+		{ "label": "2nd", "sublabel": "1860", "value": 3000, "display": "3,000" },
+		{ "label": "3rd", "sublabel": "1861", "value": 2000, "display": "2,000" },
+		{ "label": "4th", "sublabel": "1866", "value": 1500, "display": "1,500" },
+		{ "label": "5th", "sublabel": "1869", "value": 2000, "display": "2,000" },
+		{ "label": "6th", "sublabel": "1872", "value": 3000, "display": "3,000" }
+	],
+	"source": {
+		"container": "Drawn for kloom from R. B. Freeman, \"On the Origin of Species: An Introduction,\" The Complete Work of Charles Darwin Online",
+		"url": "https://darwin-online.org.uk/EditorialIntroductions/Freeman_OntheOriginofSpecies.html"
+	}
+}
