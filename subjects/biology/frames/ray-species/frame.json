@@ -1,0 +1,309 @@
+{
+	"id": "ray-species",
+	"topic": "John Ray and the species",
+	"position": {
+		"label": "1686",
+		"sort": 1686
+	},
+	"scene": {
+		"headline": "Every species came from its own",
+		"accent": "SEED.",
+		"palette": "herbarium",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CAMBRIDGE · BLACK NOTLEY · THE ROYAL SOCIETY",
+			"JOHN RAY · FRANCIS WILLUGHBY · HISTORIA PLANTARUM"
+		],
+		"counter": {
+			"value": "18,000+",
+			"label": "kinds of plant Ray reckoned the world held"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/principia",
+			"why": "The Royal Society spent its money printing Willughby and Ray's book of fishes in 1686, which left it unable to pay for Newton's Principia, so Halley printed it at his own cost."
+		},
+		{
+			"to": "western-civ/royal-society",
+			"why": "Ray's discourses on seeds and on species were read to the Society in 1674 and \"ordered to be registered\", the dated record of who found what that Oldenburg's Transactions began."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Historia plantarum",
+			"volume": "1",
+			"authors": [
+				{
+					"family": "Ray",
+					"given": "John"
+				}
+			],
+			"place": "London",
+			"publisher": "Mary Clark for Henry Faithorne",
+			"published": "1686",
+			"language": "la",
+			"url": "https://archive.org/details/bub_gb_fCCbsb0ySy0C",
+			"accessed": "2026-10-06",
+			"note": "The species definition is in book I, chapter 20, p. 40; quoted in our translation"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "A Discourse on the Seeds of Plants",
+			"authors": [
+				{
+					"family": "Ray",
+					"given": "John"
+				}
+			],
+			"container": "The History of the Royal Society of London for Improving of Natural Knowledge",
+			"editors": [
+				{
+					"family": "Birch",
+					"given": "Thomas"
+				}
+			],
+			"volume": "3",
+			"pages": "161–169",
+			"place": "London",
+			"publisher": "A. Millar",
+			"published": "1757",
+			"url": "https://archive.org/details/historyofroyalso0003birc",
+			"accessed": "2026-10-06",
+			"note": "Read to the Society on 17 December 1674"
+		},
+		{
+			"kind": "chapter",
+			"title": "A Discourse on the Specific Differences of Plants",
+			"authors": [
+				{
+					"family": "Ray",
+					"given": "John"
+				}
+			],
+			"container": "The History of the Royal Society of London for Improving of Natural Knowledge",
+			"editors": [
+				{
+					"family": "Birch",
+					"given": "Thomas"
+				}
+			],
+			"volume": "3",
+			"pages": "169–174",
+			"place": "London",
+			"publisher": "A. Millar",
+			"published": "1757",
+			"url": "https://archive.org/details/historyofroyalso0003birc",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Wisdom of God Manifested in the Works of the Creation",
+			"edition": "2nd ed.",
+			"authors": [
+				{
+					"family": "Ray",
+					"given": "John"
+				}
+			],
+			"place": "London",
+			"publisher": "Samuel Smith",
+			"published": "1692",
+			"url": "https://archive.org/details/b30322091",
+			"accessed": "2026-10-06",
+			"note": "The count of species is on pp. 6–10"
+		},
+		{
+			"kind": "book",
+			"title": "Three Physico-Theological Discourses",
+			"authors": [
+				{
+					"family": "Ray",
+					"given": "John"
+				}
+			],
+			"place": "London",
+			"publisher": "Samuel Smith",
+			"published": "1693",
+			"url": "https://archive.org/details/b30338244",
+			"accessed": "2026-10-06",
+			"note": "Discourse II, chapter 4, on shells and bones found in the earth"
+		},
+		{
+			"kind": "article",
+			"title": "The Historia Piscium (1686)",
+			"authors": [
+				{
+					"family": "Kusukawa",
+					"given": "Sachiko"
+				}
+			],
+			"container": "Notes and Records of the Royal Society of London",
+			"volume": "54",
+			"issue": "2",
+			"pages": "179–197",
+			"published": "2000",
+			"doi": "10.1098/rsnr.2000.0106",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "encyclopedia",
+			"title": "Species",
+			"authors": [
+				{
+					"family": "Ereshefsky",
+					"given": "Marc"
+				}
+			],
+			"container": "Stanford Encyclopedia of Philosophy",
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2022-04-01",
+			"url": "https://plato.stanford.edu/entries/species/",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "report",
+			"title": "IUCN Red List Version 2026-1: Table 1a",
+			"publisher": "International Union for Conservation of Nature",
+			"published": "2026-07-09",
+			"url": "https://nc.iucnredlist.org/redlist/content/attachment_files/2026-1_RL_Table1a.pdf",
+			"accessed": "2026-10-06",
+			"note": "Numbers of described species by group"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Ray",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Ray&oldid=1367864232",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Francis Willughby",
+			"url": "https://en.wikipedia.org/w/index.php?title=Francis_Willughby&oldid=1370892059",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "De Historia piscium",
+			"url": "https://en.wikipedia.org/w/index.php?title=De_Historia_piscium&oldid=1357689078",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Historia Plantarum (Ray book)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Historia_Plantarum_(Ray_book)&oldid=1255006321",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-11-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Monocotyledon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Monocotyledon&oldid=1372318088",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dicotyledon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dicotyledon&oldid=1378037974",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gaspard Bauhin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gaspard_Bauhin&oldid=1371767021",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "media",
+			"title": "Ray-Malpighi cotyledon",
+			"url": "https://commons.wikimedia.org/wiki/File:Ray-Malpighi_cotyledon.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "cotyledons.jpg",
+			"authors": [
+				{
+					"family": "Ray",
+					"given": "John"
+				}
+			],
+			"container": "John Ray, Methodus plantarum nova (London, 1682), p. 11, after Marcello Malpighi's Anatome plantarum (1679)",
+			"published": "1682"
+		},
+		{
+			"kind": "media",
+			"title": "Species known in 1692, by John Ray's count, and described species in 2026 (log scale)",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "John Ray, The Wisdom of God Manifested in the Works of the Creation, 2nd ed. (London, 1692), pp. 6–10; IUCN Red List version 2026-1, Table 1a",
+			"url": "https://nc.iucnredlist.org/redlist/content/attachment_files/2026-1_RL_Table1a.pdf",
+			"accessed": "2026-10-06",
+			"licence": "MIT",
+			"file": "census.svg"
+		}
+	]
+}

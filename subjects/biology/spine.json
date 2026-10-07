@@ -5,7 +5,15 @@
 			"title": "Naming and ordering life",
 			"labelKind": "date",
 			"palette": "herbarium",
-			"frames": ["aristotle-animals", "theophrastus", "herbals", "gesner", "cabinet"]
+			"frames": [
+				"aristotle-animals",
+				"theophrastus",
+				"herbals",
+				"gesner",
+				"cabinet",
+				"ray-species",
+				"linnaeus"
+			]
 		}
 	]
 }

@@ -1,0 +1,292 @@
+{
+	"id": "linnaeus",
+	"topic": "Linnaeus and two-part names",
+	"position": {
+		"label": "1753",
+		"sort": 1753
+	},
+	"scene": {
+		"headline": "We gave every species two",
+		"accent": "NAMES.",
+		"palette": "herbarium",
+		"illustration": "scene.svg",
+		"metadata": [
+			"UPPSALA · LEIDEN · STOCKHOLM",
+			"CARL LINNAEUS · SYSTEMA NATURAE · SPECIES PLANTARUM"
+		],
+		"counter": {
+			"value": "24",
+			"label": "classes of plants, counted by stamens"
+		}
+	},
+	"connections": [
+		{
+			"to": "biology/theophrastus",
+			"why": "Linnaeus headed his list of the principal botanists with Theophrastus and named a genus for him, and it is after Linnaeus that Theophrastus is called the father of botany."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Species plantarum",
+			"volume": "1",
+			"authors": [
+				{
+					"family": "Linnaeus",
+					"given": "Carl"
+				}
+			],
+			"place": "Stockholm",
+			"publisher": "Laurentius Salvius",
+			"published": "1753",
+			"language": "la",
+			"url": "https://archive.org/details/b30534914_0001",
+			"accessed": "2026-10-06",
+			"note": "Physalis angulata is on p. 183"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Systema naturae",
+			"edition": "10th ed.",
+			"volume": "1",
+			"authors": [
+				{
+					"family": "Linnaeus",
+					"given": "Carl"
+				}
+			],
+			"place": "Stockholm",
+			"publisher": "Laurentius Salvius",
+			"published": "1758",
+			"language": "la",
+			"url": "https://archive.org/details/mobot31753000798865",
+			"accessed": "2026-10-06",
+			"note": "Homo sapiens and its varieties are on pp. 20–22; quoted in our translation"
+		},
+		{
+			"kind": "book",
+			"title": "Systema naturae, sive regna tria naturae systematice proposita per classes, ordines, genera, & species",
+			"authors": [
+				{
+					"family": "Linnaeus",
+					"given": "Carl"
+				}
+			],
+			"place": "Leiden",
+			"publisher": "Theodor Haak",
+			"published": "1735",
+			"language": "la",
+			"url": "https://archive.org/details/mobot31753002972252",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"title": "Philosophia botanica",
+			"authors": [
+				{
+					"family": "Linnaeus",
+					"given": "Carl"
+				}
+			],
+			"place": "Stockholm",
+			"publisher": "Godofr. Kiesewetter",
+			"published": "1751",
+			"language": "la",
+			"url": "https://archive.org/details/philosophiabota00linn",
+			"accessed": "2026-10-06",
+			"note": "§77 on the natural method, quoted in our translation; §6 on the principal botanists"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Linnaeus and Race",
+			"authors": [
+				{
+					"family": "Charmantier",
+					"given": "Isabelle"
+				}
+			],
+			"container": "The Linnean Society of London",
+			"published": "2020-09-03",
+			"url": "https://www.linnean.org/learning/who-was-linnaeus/linnaeus-and-race",
+			"accessed": "2026-10-06",
+			"note": "Updated 13 March 2026"
+		},
+		{
+			"kind": "chapter",
+			"title": "Linnaeus and the Four Corners of the World",
+			"authors": [
+				{
+					"family": "Müller-Wille",
+					"given": "Staffan"
+				}
+			],
+			"container": "The Cultural Politics of Blood, 1500–1900",
+			"place": "Basingstoke",
+			"published": "2015",
+			"citedIn": "Linnaeus and Race"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carl Linnaeus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carl_Linnaeus&oldid=1368872335",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Systema Naturae",
+			"url": "https://en.wikipedia.org/w/index.php?title=Systema_Naturae&oldid=1375251500",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Species Plantarum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Species_Plantarum&oldid=1336045202",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Binomial nomenclature",
+			"url": "https://en.wikipedia.org/w/index.php?title=Binomial_nomenclature&oldid=1377966566",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Linnaean taxonomy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Linnaean_taxonomy&oldid=1376543705",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Apostles of Linnaeus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Apostles_of_Linnaeus&oldid=1281171287",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-03-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Linnean Society of London",
+			"url": "https://en.wikipedia.org/w/index.php?title=Linnean_Society_of_London&oldid=1376575217",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Physalis angulata",
+			"url": "https://en.wikipedia.org/w/index.php?title=Physalis_angulata&oldid=1341807996",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Theophrastus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Theophrastus&oldid=1373544004",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "media",
+			"title": "Methodus plantarum sexualis in sistemate naturae descripta",
+			"url": "https://commons.wikimedia.org/wiki/File:Ehret-Methodus_Plantarum_Sexualis-original.jpg",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "ehret.jpg",
+			"authors": [
+				{
+					"family": "Ehret",
+					"given": "Georg Dionysius"
+				}
+			],
+			"container": "Engraving, Leiden, 1736",
+			"published": "1736"
+		},
+		{
+			"kind": "media",
+			"title": "Species plantarum, vol. 1, p. 183: Physalis",
+			"url": "https://archive.org/details/b30534914_0001/page/n228",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"note": "Published in Stockholm in 1753; Wellcome Collection's copy",
+			"file": "physalis.jpg",
+			"authors": [
+				{
+					"family": "Linnaeus",
+					"given": "Carl"
+				}
+			],
+			"container": "Wellcome Collection, via the Internet Archive",
+			"published": "1753"
+		}
+	]
+}

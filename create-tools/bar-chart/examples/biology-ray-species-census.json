@@ -1,0 +1,38 @@
+{
+	"title": "Species known in 1692, by John Ray's count, and described species in 2026 (log scale)",
+	"description": "Bar chart on a logarithmic scale, in pairs. Beasts and serpents: Ray, about 150; 2026, 28,497 mammals, reptiles and amphibians. Birds: Ray, about 500; 2026, 11,185. Fishes, without shellfish: Ray, about 500; 2026, 37,630. Insects and other bloodless animals: Ray, about 20,000 on the whole earth; 2026, 1,008,355 insects. Plants: Ray, more than 18,000; 2026, 401,452 land plants. Ray's figures are from The Wisdom of God, second edition, 1692; the 2026 figures are the IUCN Red List's Table 1a, version 2026-1, summed by kloom.",
+	"heading": "SPECIES · RAY'S COUNT, 1692, AND DESCRIBED BY 2026 · LOG SCALE",
+	"unit": "",
+	"scale": "log",
+	"axis": {
+		"min": 100,
+		"max": 1e7,
+		"ticks": [
+			[100, "100"],
+			[1000, "1K"],
+			[1e4, "10K"],
+			[1e5, "100K"],
+			[1e6, "1M"],
+			[1e7, "10M"]
+		]
+	},
+	"width": 680,
+	"barWidth": 42,
+	"bars": [
+		{ "label": "Beasts", "sublabel": "Ray", "value": 150, "display": "150", "highlight": true },
+		{ "label": "Beasts", "sublabel": "2026", "value": 28497, "display": "28K" },
+		{ "label": "Birds", "sublabel": "Ray", "value": 500, "display": "500", "highlight": true },
+		{ "label": "Birds", "sublabel": "2026", "value": 11185, "display": "11K" },
+		{ "label": "Fishes", "sublabel": "Ray", "value": 500, "display": "500", "highlight": true },
+		{ "label": "Fishes", "sublabel": "2026", "value": 37630, "display": "38K" },
+		{ "label": "Insects", "sublabel": "Ray", "value": 20000, "display": "20K", "highlight": true },
+		{ "label": "Insects", "sublabel": "2026", "value": 1008355, "display": "1M" },
+		{ "label": "Plants", "sublabel": "Ray", "value": 18000, "display": "18K+", "highlight": true },
+		{ "label": "Plants", "sublabel": "2026", "value": 401452, "display": "401K" }
+	],
+	"source": {
+		"container": "John Ray, The Wisdom of God Manifested in the Works of the Creation, 2nd ed. (London, 1692), pp. 6–10; IUCN Red List version 2026-1, Table 1a",
+		"url": "https://nc.iucnredlist.org/redlist/content/attachment_files/2026-1_RL_Table1a.pdf",
+		"accessed": "2026-10-06"
+	}
+}

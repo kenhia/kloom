@@ -10,7 +10,10 @@
 		"accent": "CABINET.",
 		"palette": "herbarium",
 		"illustration": "scene.svg",
-		"metadata": ["COPENHAGEN · OLE WORM · MUSEUM WORMIANUM", "LEIDEN · ELZEVIER · 1655"],
+		"metadata": [
+			"COPENHAGEN · OLE WORM · MUSEUM WORMIANUM",
+			"LEIDEN · ELZEVIER · 1655"
+		],
 		"counter": {
 			"value": "8 ft",
 			"label": "the Royal Society's narwhal tusk, 1681"
@@ -20,6 +23,10 @@
 		{
 			"to": "western-civ/royal-society",
 			"why": "The Royal Society kept its own cabinet of rarities at Gresham College, cataloged in 1681 by Nehemiah Grew, Oldenburg's successor as secretary, who asked of Worm's unicorn-horn trials whether the dogs might have lived without the horn."
+		},
+		{
+			"to": "biology/gesner",
+			"why": "Gessner reported the pigeon test of unicorn horn and left it \"to the rich\"; Worm and an apothecary ran it on pigeons and kittens in 1636, with scrapings of a narwhal's tusk."
 		}
 	],
 	"citations": [
