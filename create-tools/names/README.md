@@ -102,6 +102,11 @@ python3 create-tools/names/names.py strip blood/abo blood/harvey --out .scratch/
   would refuse (sprint 021; until sprint 030 it named the name and placed
   the frame's marks anyway). An
   author checks with `--check --drafts .scratch/names/<subject>-<segment>`.
+  A draft still without its `kind` or `description` (as `lookup
+--write-draft` leaves it) is not known yet: `mark` says it is "drafted but
+  unfinished" and exits 1, as the checking copy (`subject_plan.py
+--complete`) leaves it out (sprint 055, where five authors met `--check`
+  passing a mark the copy then refused).
   A draft whose id or Wikidata item the registry already holds is named
   in a warning: another author's name reached the registry meanwhile, so
   drop the draft or mark the registry's id (sprint 025). Only drafts the
