@@ -320,3 +320,25 @@ tools-test`, `just reader-gate`, every mark spec with `--check
 - korg 3576: the tool and rule changes above that need a decision.
 - **Publishing**: biology is not in `publish.json`, so the public reader
   site will not carry it until Ken adds it; that is his call.
+
+## Deployed
+
+2026-10-07, to the service on kai, by `just deploy` (`.sprint-deploy`'s
+`recipe: deploy`) from merged `main` at `d2c7d853` (PR #63). The content
+clone is at the same commit.
+
+- **The deploy's own verify:** all ten checks `ok` (both doors, write
+  gating, reader-data and notes gating, a frame's body from the library,
+  compression), library `e2e09d`; it reports `deployed d2c7d8533`.
+- **This sprint's work, live, each 200:** `/biology`,
+  `/biology/aristotle-animals` (its page carries LAGOON.),
+  `/biology/snow-pump` and `/biology/eugenics` (trail frames) and
+  `/media/biology/herbals/chili.jpg` on the ssh door (:4891), and `/biology`
+  and `/biology/swan-neck-flask` on the tailnet door (:4890).
+- **`/api/stats`** counts biology as _The Story of Life_, "a history of
+  biology, from Aristotle's animals to CRISPR": 67 frames, 15 of them in 3
+  trails, 63,493 words (231 pages, by the stats' own count, which includes
+  tables and captions), 78 images, 16 charts, 99 tables, 994 citations and
+  172 connections.
+- **The public reader site** is unchanged: biology is not in
+  `publish.json`.
