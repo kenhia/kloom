@@ -20,7 +20,14 @@
 			"title": "Seeing small",
 			"labelKind": "date",
 			"palette": "stain",
-			"frames": ["hooke-cells", "redi-flies", "leeuwenhoek-animalcules"]
+			"frames": [
+				"hooke-cells",
+				"redi-flies",
+				"leeuwenhoek-animalcules",
+				"achromatic-microscope",
+				"cell-theory",
+				"virchow"
+			]
 		},
 		{
 			"id": "inheritance",

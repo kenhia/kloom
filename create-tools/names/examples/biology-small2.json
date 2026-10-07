@@ -1,0 +1,48 @@
+{
+	"biology/achromatic-microscope": [
+		["compound microscope", "microscope"],
+		["chromatic aberration", "chromatic-aberration"],
+		["Isaac Newton", "isaac-newton"],
+		["achromatic lens", "achromatic-lens"],
+		["Chester Moore Hall", "chester-moore-hall"],
+		["John Dollond", "john-dollond"],
+		["Joseph Jackson Lister", "joseph-jackson-lister"],
+		["Royal Society", "royal-society"],
+		["Philosophical Transactions", "philosophical-transactions-of-the-royal-society"],
+		["Royal Microscopical Society", "royal-microscopical-society"],
+		["Robert Brown", "robert-brown-botanist-born-1773"],
+		["cell nucleus", "cell-nucleus"],
+		["Brownian motion", "brownian-motion"],
+		["Joseph Lister", "joseph-lister"]
+	],
+	"biology/cell-theory": [
+		["Matthias Jakob Schleiden", "matthias-jakob-schleiden"],
+		["Johannes Peter Müller", "johannes-peter-muller"],
+		["Theodor Schwann", "theodor-schwann"],
+		["nucleus", "cell-nucleus"],
+		["notochord", "notochord"],
+		["cell theory", "cell-theory"],
+		["Robert Remak", "robert-remak"],
+		["pepsin", "pepsin"],
+		["yeast", "yeast"],
+		["Justus von Liebig", "justus-von-liebig"],
+		["Friedrich Wöhler", "friedrich-wohler"]
+	],
+	"biology/virchow": [
+		["Upper Silesia", "upper-silesia"],
+		["typhus", "epidemic-typhus"],
+		["Rudolf Virchow", "rudolf-virchow"],
+		["Johannes Müller", "johannes-peter-muller"],
+		["Revolutions of 1848", "revolutions-of-1848"],
+		["social medicine", "social-medicine"],
+		["Schwann", "theodor-schwann"],
+		["leukemia", "leukemia"],
+		["Robert Remak", "robert-remak"],
+		["cell theory", "cell-theory"],
+		["Bismarck", "otto-von-bismarck"],
+		["Darwin", "charles-darwin"],
+		["Neanderthal", "neanderthal"],
+		["Walther Flemming", "walther-flemming"],
+		["mitosis", "mitosis"]
+	]
+}

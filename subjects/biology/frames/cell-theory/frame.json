@@ -1,0 +1,132 @@
+{
+	"id": "cell-theory",
+	"topic": "Schleiden, Schwann and cell theory",
+	"position": {
+		"label": "1838–39",
+		"sort": 1839
+	},
+	"scene": {
+		"headline": "Plants and animals were built",
+		"accent": "ALIKE.",
+		"palette": "stain",
+		"illustration": "scene.svg",
+		"metadata": ["BERLIN · JOHANNES MÜLLER'S LABORATORY", "SCHLEIDEN 1838 · SCHWANN 1839"],
+		"counter": {
+			"value": "450×",
+			"label": "magnification of Schwann's drawings"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/enzymes",
+			"why": "Schwann's proof in 1837 that fermentation needs living yeast is the claim Liebig and Wöhler mocked in their satire of 1839, a dispute Buchner's cell-free yeast juice reopened in 1897."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Microscopical Researches into the Accordance in the Structure and Growth of Animals and Plants",
+			"authors": [
+				{
+					"family": "Schwann",
+					"given": "Theodor"
+				}
+			],
+			"translators": [
+				{
+					"family": "Smith",
+					"given": "Henry"
+				}
+			],
+			"place": "London",
+			"publisher": "Sydenham Society",
+			"published": "1847",
+			"url": "https://archive.org/details/microscopicalres00schw",
+			"accessed": "2026-10-06",
+			"note": "Translation of Mikroskopische Untersuchungen (Berlin, 1839), with Schleiden's Contributions to Phytogenesis (1838) appended"
+		},
+		{
+			"kind": "web",
+			"title": "Matthias Jacob Schleiden (1804–1881)",
+			"authors": [
+				{
+					"family": "Parker",
+					"given": "Sara"
+				}
+			],
+			"container": "Embryo Project Encyclopedia",
+			"publisher": "Arizona State University",
+			"published": "2017-05-29",
+			"url": "https://embryo.asu.edu/pages/matthias-jacob-schleiden-1804-1881",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cell theory",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cell_theory&oldid=1375980424",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-21",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Theodor Schwann",
+			"url": "https://en.wikipedia.org/w/index.php?title=Theodor_Schwann&oldid=1374643925",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Matthias Jakob Schleiden",
+			"url": "https://en.wikipedia.org/w/index.php?title=Matthias_Jakob_Schleiden&oldid=1378517292",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "media",
+			"title": "Plate I: onion parenchyma, notochord and cartilage cells",
+			"url": "https://archive.org/details/microscopicalres00schw/page/n253",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "schwann-plate.jpg",
+			"authors": [
+				{
+					"family": "Schwann",
+					"given": "Theodor"
+				}
+			],
+			"engravers": [
+				{
+					"family": "Adlard",
+					"given": "H."
+				}
+			],
+			"container": "Theodor Schwann, Microscopical Researches (London: Sydenham Society, 1847); NCSU Libraries scan",
+			"published": "1847",
+			"note": "Published in London in 1847, and drawn by Schwann, who died in 1882"
+		}
+	]
+}
