@@ -1,0 +1,32 @@
+{
+	"title": "Estimates of the time geology had to work with, in years",
+	"description": "Bar chart on a logarithmic scale. Buffon's age of the earth from cooling globes, 1779: 74,832 years. Darwin's time for the erosion of the Weald alone, 1859: about 306 million years. William Thomson's age of the earth's crust from its cooling, 1862: 98 million years, within limits of 20 and 400 million. Clair Patterson's age of the earth from meteorite lead, 1956: 4.55 billion years.",
+	"heading": "TIME FOR GEOLOGY · YEARS (LOG SCALE)",
+	"scale": "log",
+	"axis": {
+		"min": 10000,
+		"max": 100000000000,
+		"ticks": [
+			[10000, "10⁴"],
+			[1000000, "10⁶"],
+			[100000000, "10⁸"],
+			[10000000000, "10¹⁰"]
+		]
+	},
+	"bars": [
+		{ "label": "Buffon", "sublabel": "1779", "value": 74832, "display": "74,832" },
+		{ "label": "Darwin", "sublabel": "Weald only", "value": 306662400, "display": "306 M" },
+		{ "label": "Thomson", "sublabel": "1862", "value": 98000000, "display": "98 M" },
+		{
+			"label": "Patterson",
+			"sublabel": "1956",
+			"value": 4550000000,
+			"display": "4.55 B",
+			"highlight": true
+		}
+	],
+	"source": {
+		"container": "Drawn for kloom from Darwin's On the Origin of Species (1859), Thomson's \"On the Secular Cooling of the Earth\" (1862) and Wikipedia's Age of Earth for Buffon and Patterson",
+		"url": "https://en.wikipedia.org/w/index.php?title=Age_of_Earth&oldid=1378668941"
+	}
+}
