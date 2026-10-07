@@ -1,0 +1,364 @@
+{
+	"id": "predator-prey",
+	"topic": "Lotka, Volterra and predator and prey",
+	"position": {
+		"label": "1925–26",
+		"sort": 1926
+	},
+	"scene": {
+		"headline": "Predator and prey went in",
+		"accent": "CYCLES.",
+		"palette": "canopy",
+		"illustration": "scene.svg",
+		"metadata": [
+			"THE ADRIATIC · FIUME FISH MARKET, 1914–1923",
+			"LOTKA, 1925 · VOLTERRA, NATURE, 1926"
+		],
+		"counter": {
+			"value": "18.7%",
+			"label": "of the fish landed at Fiume in 1918 were sharks and rays"
+		}
+	},
+	"connections": [
+		{
+			"to": "food/malthus",
+			"why": "The prey's term in the Lotka–Volterra equations is Malthus's geometrical increase, and the predators are one of the checks that hold it back."
+		},
+		{
+			"to": "mathematics/chaos",
+			"why": "Robert May's logistic map of 1976 asked of one species, generation by generation, what Lotka and Volterra had asked of two: how a population's numbers move."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Fluctuations in the Abundance of a Species Considered Mathematically",
+			"authors": [
+				{
+					"family": "Volterra",
+					"given": "Vito"
+				}
+			],
+			"container": "Nature",
+			"volume": "118",
+			"issue": "2972",
+			"pages": "558–560",
+			"published": "1926-10-16",
+			"doi": "10.1038/118558a0",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Elements of Physical Biology",
+			"authors": [
+				{
+					"family": "Lotka",
+					"given": "Alfred J."
+				}
+			],
+			"place": "Baltimore",
+			"publisher": "Williams and Wilkins",
+			"published": "1925",
+			"url": "https://archive.org/details/elementsofphysic017171mbp",
+			"accessed": "2026-10-06",
+			"note": "The host and its insect parasite, and the closed curves, pp. 88–91"
+		},
+		{
+			"kind": "article",
+			"title": "Fluctuations in the Abundance of a Species Considered Mathematically",
+			"authors": [
+				{
+					"family": "Lotka",
+					"given": "Alfred J."
+				}
+			],
+			"container": "Nature",
+			"volume": "119",
+			"issue": "2983",
+			"pages": "12",
+			"published": "1927-01-01",
+			"doi": "10.1038/119012a0",
+			"accessed": "2026-10-06",
+			"note": "Lotka's letter on his priority"
+		},
+		{
+			"kind": "article",
+			"title": "Fluctuations in the Abundance of a Species Considered Mathematically",
+			"authors": [
+				{
+					"family": "Volterra",
+					"given": "Vito"
+				}
+			],
+			"container": "Nature",
+			"volume": "119",
+			"issue": "2983",
+			"pages": "12–13",
+			"published": "1927-01-01",
+			"doi": "10.1038/119012b0",
+			"accessed": "2026-10-06",
+			"note": "Volterra's reply"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "What Drives the 10-Year Cycle of Snowshoe Hares?",
+			"authors": [
+				{
+					"family": "Krebs",
+					"given": "Charles J."
+				},
+				{
+					"family": "Boonstra",
+					"given": "Rudy"
+				},
+				{
+					"family": "Boutin",
+					"given": "Stan"
+				},
+				{
+					"family": "Sinclair",
+					"given": "A. R. E."
+				}
+			],
+			"container": "BioScience",
+			"volume": "51",
+			"issue": "1",
+			"pages": "25–35",
+			"published": "2001",
+			"doi": "10.1641/0006-3568(2001)051[0025:WDTYCO]2.0.CO;2",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Impact of Food and Predation on the Snowshoe Hare Cycle",
+			"authors": [
+				{
+					"family": "Krebs",
+					"given": "Charles J."
+				},
+				{
+					"family": "Boutin",
+					"given": "Stan"
+				},
+				{
+					"family": "Boonstra",
+					"given": "Rudy"
+				},
+				{
+					"family": "Sinclair",
+					"given": "A. R. E."
+				},
+				{
+					"family": "Smith",
+					"given": "J. N. M."
+				},
+				{
+					"family": "Dale",
+					"given": "Mark R. T."
+				},
+				{
+					"family": "Martin",
+					"given": "K."
+				},
+				{
+					"family": "Turkington",
+					"given": "R."
+				}
+			],
+			"container": "Science",
+			"volume": "269",
+			"issue": "5227",
+			"pages": "1112–1115",
+			"published": "1995-08-25",
+			"doi": "10.1126/science.269.5227.1112",
+			"accessed": "2026-10-06",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The Ten-Year Cycle in Numbers of the Lynx in Canada",
+			"authors": [
+				{
+					"family": "Elton",
+					"given": "Charles"
+				},
+				{
+					"family": "Nicholson",
+					"given": "Mary"
+				}
+			],
+			"container": "Journal of Animal Ecology",
+			"volume": "11",
+			"issue": "2",
+			"pages": "215",
+			"published": "1942",
+			"citedIn": "What Drives the 10-Year Cycle of Snowshoe Hares?"
+		},
+		{
+			"kind": "article",
+			"title": "Experimental Studies on the Struggle for Existence: I. Mixed Population of Two Species of Yeast",
+			"authors": [
+				{
+					"family": "Gause",
+					"given": "G. F."
+				}
+			],
+			"container": "Journal of Experimental Biology",
+			"volume": "9",
+			"issue": "4",
+			"pages": "389–402",
+			"published": "1932",
+			"doi": "10.1242/jeb.9.4.389",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Simple Mathematical Models with Very Complicated Dynamics",
+			"authors": [
+				{
+					"family": "May",
+					"given": "Robert M."
+				}
+			],
+			"container": "Nature",
+			"volume": "261",
+			"pages": "459–467",
+			"published": "1976",
+			"doi": "10.1038/261459a0",
+			"accessed": "2026-10-06",
+			"read": "abstract",
+			"issue": "5560"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lotka–Volterra equations",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lotka%E2%80%93Volterra_equations&oldid=1378353800",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vito Volterra",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vito_Volterra&oldid=1372005134",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Umberto D'Ancona",
+			"url": "https://en.wikipedia.org/w/index.php?title=Umberto_D'Ancona&oldid=1372003325",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alfred J. Lotka",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alfred_J._Lotka&oldid=1339314397",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Georgy Gause",
+			"url": "https://en.wikipedia.org/w/index.php?title=Georgy_Gause&oldid=1374371020",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Competitive exclusion principle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Competitive_exclusion_principle&oldid=1368757544",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Snowshoe hare",
+			"url": "https://en.wikipedia.org/w/index.php?title=Snowshoe_hare&oldid=1363219302",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles Sutherland Elton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_Sutherland_Elton&oldid=1376844912",
+			"accessed": "2026-10-06",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "media",
+			"title": "Sharks and rays as a share of the fish landed at Fiume, 1914–1923",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Historical landings from the Rijeka (Croatia) fish market between 1914 and 1932, OGS and ISPRA, after D'Ancona 1926",
+			"doi": "10.14284/290",
+			"accessed": "2026-10-06",
+			"licence": "MIT",
+			"file": "fiume-sharks.svg"
+		}
+	]
+}

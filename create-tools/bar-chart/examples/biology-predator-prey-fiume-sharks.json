@@ -1,0 +1,35 @@
+{
+	"title": "Sharks and rays as a share of the fish landed at Fiume, 1914–1923",
+	"description": "Bar chart. Sharks and rays as a percentage, by weight, of all fish landed at the Fiume (Rijeka) market: 7.4 in 1914, 5.8 in 1915, 10.5 in 1916, 13.8 in 1917, 18.7 in 1918, 8.2 in 1919, 6.9 in 1920, 5.8 in 1921, 7.5 in 1922, 6.3 in 1923. Computed from D'Ancona's 1926 market figures as digitized by OGS and ISPRA (2017).",
+	"heading": "SHARKS AND RAYS · % OF FISH LANDED AT FIUME, BY WEIGHT",
+	"unit": "%",
+	"width": 560,
+	"barWidth": 40,
+	"axis": {
+		"max": 20,
+		"ticks": [
+			[0, "0"],
+			[5, "5%"],
+			[10, "10%"],
+			[15, "15%"],
+			[20, "20%"]
+		]
+	},
+	"bars": [
+		{ "label": "1914", "value": 7.4 },
+		{ "label": "1915", "value": 5.8, "highlight": true },
+		{ "label": "1916", "value": 10.5, "highlight": true },
+		{ "label": "1917", "value": 13.8, "highlight": true },
+		{ "label": "1918", "value": 18.7, "highlight": true },
+		{ "label": "1919", "value": 8.2 },
+		{ "label": "1920", "value": 6.9 },
+		{ "label": "1921", "value": 5.8 },
+		{ "label": "1922", "value": 7.5 },
+		{ "label": "1923", "value": 6.3 }
+	],
+	"source": {
+		"container": "Historical landings from the Rijeka (Croatia) fish market between 1914 and 1932, OGS and ISPRA, after D'Ancona 1926",
+		"doi": "10.14284/290",
+		"accessed": "2026-10-06"
+	}
+}

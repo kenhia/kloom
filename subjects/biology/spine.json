@@ -98,7 +98,13 @@
 			"title": "Ecology and the whole",
 			"labelKind": "date",
 			"palette": "canopy",
-			"frames": ["island-biogeography", "biodiversity-now"]
+			"frames": [
+				"humboldt",
+				"haeckel-ecology",
+				"predator-prey",
+				"island-biogeography",
+				"biodiversity-now"
+			]
 		}
 	]
 }
