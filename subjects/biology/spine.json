@@ -16,6 +16,13 @@
 			]
 		},
 		{
+			"id": "seeing-small",
+			"title": "Seeing small",
+			"labelKind": "date",
+			"palette": "stain",
+			"frames": ["hooke-cells", "redi-flies", "leeuwenhoek-animalcules"]
+		},
+		{
 			"id": "inheritance",
 			"title": "Inheritance",
 			"labelKind": "date",

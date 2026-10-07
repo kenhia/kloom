@@ -1,0 +1,45 @@
+{
+	"biology/hooke-cells": [
+		["Samuel Pepys", "samuel-pepys"],
+		["_Micrographia_", "micrographia"],
+		["Robert Hooke", "robert-hooke"],
+		["Robert Boyle", "robert-boyle"],
+		["Royal Society", "royal-society"],
+		["microscope", "microscope"],
+		["Christopher Cock", "christopher-cock"],
+		["cork", "cork-material"],
+		["cells", "cell-biology"],
+		["flea", "flea"],
+		["Matthias Schleiden", "matthias-jakob-schleiden"],
+		["Theodor Schwann", "theodor-schwann"]
+	],
+	"biology/redi-flies": [
+		["spontaneous generation", "spontaneous-generation"],
+		["Aristotle", "aristotle"],
+		["_History of Animals_", "history-of-animals"],
+		["Athanasius Kircher", "athanasius-kircher"],
+		["Francesco Redi", "francesco-redi"],
+		["Ferdinando II de' Medici", "ferdinando-ii-de-medici"],
+		["Carlo Roberto Dati", "carlo-roberto-dati"],
+		["galls", "gall"],
+		["Antonio Vallisneri", "antonio-vallisneri"],
+		["Marcello Malpighi", "marcello-malpighi"],
+		["Accademia della Crusca", "accademia-della-crusca"],
+		["Antonie van Leeuwenhoek", "antonie-van-leeuwenhoek"]
+	],
+	"biology/leeuwenhoek-animalcules": [
+		["Antonie van Leeuwenhoek", "antonie-van-leeuwenhoek"],
+		["Delft", "delft"],
+		["microscopes", "microscope"],
+		["Henry Oldenburg", "henry-oldenburg"],
+		["Royal Society", "royal-society"],
+		["_Philosophical Transactions_", "philosophical-transactions-of-the-royal-society"],
+		["bacteria", "bacteria"],
+		["pepper", "black-pepper"],
+		["Robert Hooke", "robert-hooke"],
+		["_Micrographia_", "micrographia"],
+		["Nehemiah Grew", "nehemiah-grew"],
+		["Christopher Wren", "christopher-wren"],
+		["sperm", "sperm"]
+	]
+}

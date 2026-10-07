@@ -1,0 +1,231 @@
+{
+	"id": "leeuwenhoek-animalcules",
+	"topic": "Leeuwenhoek's animalcules",
+	"position": {
+		"label": "1676",
+		"sort": 1676
+	},
+	"scene": {
+		"headline": "Water was alive with",
+		"accent": "ANIMALCULES.",
+		"palette": "stain",
+		"illustration": "scene.svg",
+		"metadata": ["DELFT · ANTONI VAN LEEUWENHOEK", "LETTER TO HENRY OLDENBURG · 9 OCTOBER 1676"],
+		"counter": {
+			"value": "1,000,000",
+			"label": "little animals in a drop of pepper-water, by his count"
+		}
+	},
+	"connections": [
+		{
+			"to": "blood/red-cells",
+			"why": "That frame tells Leeuwenhoek's red blood cells of 1674 and how his single-lens microscopes were built; this one, the little animals he found with them two years later."
+		},
+		{
+			"to": "western-civ/royal-society",
+			"why": "Oldenburg printed Leeuwenhoek's pepper-water letter in the Philosophical Transactions, the journal that frame describes, and the Society's fellows saw his animals for themselves in November 1677."
+		}
+	],
+	"citations": [
+		{
+			"kind": "letter",
+			"key": true,
+			"title": "Observations, Communicated to the Publisher by Mr. Antony van Leewenhoeck, in a Dutch Letter of the 9th of Octob. 1676. Here English'd: Concerning Little Animals by Him Observed in Rain-Well-Sea- and Snow Water; as Also in Water Wherein Pepper Had Lain Infused",
+			"authors": [
+				{
+					"family": "Leeuwenhoek",
+					"given": "Antoni van"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Oldenburg",
+					"given": "Henry"
+				}
+			],
+			"written": "1676-10-09",
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "12",
+			"issue": "133",
+			"pages": "821–831",
+			"published": "1677-03-25",
+			"doi": "10.1098/rstl.1677.0003",
+			"url": "https://archive.org/details/jstor-101758",
+			"accessed": "2026-10-06",
+			"note": "Oldenburg's English, about half the letter"
+		},
+		{
+			"kind": "letter",
+			"title": "An Abstract of a Letter from Mr. Anthony Leevvenhoeck at Delft, Dated Sep. 17. 1683. Containing Some Microscopical Observations, about Animals in the Scurf of the Teeth",
+			"authors": [
+				{
+					"family": "Leeuwenhoek",
+					"given": "Antoni van"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Aston",
+					"given": "Francis"
+				}
+			],
+			"written": "1683-09-17",
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "14",
+			"pages": "568–574",
+			"published": "1684",
+			"doi": "10.1098/rstl.1684.0030",
+			"url": "https://archive.org/details/jstor-102057",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Alle de brieven van Antoni van Leeuwenhoek / The Collected Letters of Antoni van Leeuwenhoek, vol. 2, 1676–1679",
+			"authors": [
+				{
+					"family": "Leeuwenhoek",
+					"given": "Antoni van"
+				}
+			],
+			"place": "Amsterdam",
+			"publisher": "Swets & Zeitlinger",
+			"published": "1941",
+			"url": "https://www.dbnl.org/tekst/leeu027alle02_01/",
+			"accessed": "2026-10-06",
+			"note": "Letters 26, 31, 33 (with the eight testimonies) and 35, and the editors' notes"
+		},
+		{
+			"kind": "book",
+			"title": "The History of the Royal Society of London for Improving of Natural Knowledge",
+			"volume": "3",
+			"authors": [
+				{
+					"family": "Birch",
+					"given": "Thomas"
+				}
+			],
+			"place": "London",
+			"publisher": "A. Millar",
+			"published": "1757",
+			"url": "https://archive.org/details/historyofroyalso0003birc",
+			"accessed": "2026-10-06",
+			"note": "The meetings of 1 November to 6 December 1677, pp. 346–352; read in the 1968 Brussels facsimile"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Unseen World: Reflections on Leeuwenhoek (1677) 'Concerning Little Animals'",
+			"authors": [
+				{
+					"family": "Lane",
+					"given": "Nick"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+			"volume": "370",
+			"issue": "1666",
+			"pages": "20140344",
+			"published": "2015",
+			"doi": "10.1098/rstb.2014.0344",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "article",
+			"title": "Neutron Tomography of Van Leeuwenhoek's Microscopes",
+			"authors": [
+				{
+					"family": "Cocquyt",
+					"given": "Tiemen"
+				},
+				{
+					"family": "Zhou",
+					"given": "Zhou"
+				},
+				{
+					"family": "Plomp",
+					"given": "Jeroen"
+				},
+				{
+					"family": "van Eijck",
+					"given": "Lambert"
+				}
+			],
+			"container": "Science Advances",
+			"volume": "7",
+			"issue": "20",
+			"pages": "eabf2402",
+			"published": "2021",
+			"doi": "10.1126/sciadv.abf2402",
+			"accessed": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Antonie van Leeuwenhoek",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antonie_van_Leeuwenhoek&oldid=1370415256",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-21",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bacteria",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bacteria&oldid=1376800995",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ball lens",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ball_lens&oldid=1307216125",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Magnifying glass",
+			"url": "https://en.wikipedia.org/w/index.php?title=Magnifying_glass&oldid=1367772106",
+			"accessed": "2026-10-07",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05"
+		},
+		{
+			"kind": "media",
+			"title": "Animals in the scurf of the teeth, Fig. 3 of Leeuwenhoek's letter of 17 September 1683",
+			"url": "https://archive.org/details/jstor-102057",
+			"accessed": "2026-10-06",
+			"licence": "Public domain",
+			"file": "teeth.jpg",
+			"container": "Philosophical Transactions of the Royal Society of London, vol. 14 (1684)",
+			"published": "1684",
+			"note": "Published in London in 1684"
+		}
+	]
+}

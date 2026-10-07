@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M20 196 L242 196"/>
+		<path pathLength="1" d="M236 30 L236 252"/>
+		<path pathLength="1" d="M20 252 L390 252"/>
+		<path pathLength="1" d="M96 152 L96 252"/>
+		<path pathLength="1" d="M166 152 L166 252"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M20 210 L40 210 L40 240 L20 240 Z"/>
+		<path pathLength="1" d="M30 210 L30 204"/>
+		<path pathLength="1" d="M30,204 Q24,196 34,186 Q38,196 30,204"/>
+		<path pathLength="1" d="M66 196 a30 30 0 1 0 60 0 a30 30 0 1 0 -60 0"/>
+		<path pathLength="1" d="M96 226 L96 252"/>
+		<path pathLength="1" d="M80 252 L112 252"/>
+		<path pathLength="1" d="M163 174 L163 218 L163 218 L165.8 214.3 L168 210.7 L169.8 207 L171 203.3 L171.8 199.7 L172 196 L171.8 192.3 L171 188.7 L169.8 185 L168 181.3 L165.8 177.7 L163 174 Z"/>
+		<path pathLength="1" d="M166 218 L176 230 L176 252"/>
+		<path pathLength="1" d="M206 252 L296 252"/>
+		<path pathLength="1" d="M234 252 L234 199 L238 199 L238 252"/>
+		<path pathLength="1" d="M233.5 196 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M230 174 L224 154 L218 40"/>
+		<path pathLength="1" d="M242 174 L248 154 L254 40"/>
+		<path pathLength="1" d="M214 40 L258 40"/>
+		<path pathLength="1" d="M214 34 L258 34"/>
+		<path pathLength="1" d="M231 170 L231.8 170.8 L232.7 171.4 L233.5 171.9 L234.3 172.2 L235.2 172.4 L236 172.5 L236.8 172.4 L237.7 172.2 L238.5 171.9 L239.3 171.4 L240.2 170.8 L241 170 L241 170 L240.2 169.2 L239.3 168.6 L238.5 168.1 L237.7 167.8 L236.8 167.6 L236 167.5 L235.2 167.6 L234.3 167.8 L233.5 168.1 L232.7 168.6 L231.8 169.2 L231 170 Z"/>
+		<path pathLength="1" d="M221 52 L223.5 53.1 L226 53.9 L228.5 54.6 L231 55.1 L233.5 55.4 L236 55.5 L238.5 55.4 L241 55.1 L243.5 54.6 L246 53.9 L248.5 53.1 L251 52 L251 52 L248.5 50.9 L246 50.1 L243.5 49.4 L241 48.9 L238.5 48.6 L236 48.5 L233.5 48.6 L231 48.9 L228.5 49.4 L226 50.1 L223.5 50.9 L221 52 Z"/>
+		<path pathLength="1" d="M254 140 L276 140 L276 252"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M34 196 L71.6 178.6 L117.1 174.6 L166 187.8 L233 211.3"/>
+		<path pathLength="1" d="M34 196 L68.6 183.8 L119.7 177.6 L166 182.3 L233 198.2"/>
+		<path pathLength="1" d="M34 196 L66.7 189.5 L123.7 184.5 L166 185.4 L233 194"/>
+		<path pathLength="1" d="M34 196 L66.7 202.5 L123.7 207.5 L166 206.6 L233 198"/>
+		<path pathLength="1" d="M34 196 L68.6 208.2 L119.7 214.4 L166 209.7 L233 193.8"/>
+		<path pathLength="1" d="M34 196 L71.6 213.4 L117.1 217.4 L166 204.2 L233 180.7"/>
+		<path pathLength="1" d="M236 193 L232 170 L242.4 90"/>
+		<path pathLength="1" d="M242.4 90 L248.8 52"/>
+		<path pathLength="1" d="M248.8 52 L248.8 24"/>
+		<path pathLength="1" d="M236 193 L240 170 L229.6 90"/>
+		<path pathLength="1" d="M229.6 90 L223.2 52"/>
+		<path pathLength="1" d="M223.2 52 L223.2 24"/>
+		<path pathLength="1" d="M222 112 L225 112 M227 112 L230 112 M232 112 L235 112 M237 112 L240 112 M242 112 L245 112 M247 112 L250 112"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="32" y="174" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LAMP K</text>
+		<text x="96" y="158" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GLOBE G · BRINE</text>
+		<text x="170" y="166" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GLASS I</text>
+		<text x="228" y="230" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PIN M</text>
+		<text x="282" y="173" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">OBJECT GLASS</text>
+		<text x="282" y="115" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MIDDLE GLASS</text>
+		<text x="282" y="55" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EYE GLASS</text>
+		<text x="282" y="125" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">(TAKEN OUT)</text>
+		<text x="130" y="30" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HOOKE'S LAMP AND MICROSCOPE</text>
+		<text x="130" y="41" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MICROGRAPHIA · SCHEME I</text>
+		<text x="200" y="272" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A CONSTANT LIGHT, AT ANY HOUR</text>
+	</g>
+</svg>
