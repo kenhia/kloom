@@ -454,6 +454,14 @@
 		{/each}
 	</ul>
 
+	<h2 id="print">Printing a frame</h2>
+	<p>
+		Print from the browser (Ctrl+P, or ⌘P on a Mac). The frame prints on white paper: its picture
+		and headline at the top, then the whole reading, the sources and the citations. The buttons, the
+		timeline and the AI pane are left off, and so are your notes and annotations. Photographs and
+		charts keep their colors; everything else prints in black.
+	</p>
+
 	<h2 id="touch">Phones and tablets</h2>
 	<ul>
 		<li>

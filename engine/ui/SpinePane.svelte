@@ -591,4 +591,47 @@
 			transition: none;
 		}
 	}
+
+	/*
+	 * Printing (docs/design.md §Printing): the scene as it stands once it has
+	 * entered, sized for the top of a page, with the chapter, place and
+	 * counter; the reader's tools, the index and the timeline are left off.
+	 */
+	@media print {
+		.spine {
+			display: block;
+			overflow: visible;
+			padding: 0 0 1rem;
+			margin-bottom: 1.25rem;
+			border-bottom: 1px solid var(--muted);
+			break-inside: avoid;
+		}
+		.bracket,
+		.corner,
+		.timeline {
+			display: none;
+		}
+		.scene {
+			padding-block: 1rem;
+		}
+		.illustration :global(svg) {
+			height: 3in;
+			max-width: 100%;
+		}
+		.illustration :global(svg *),
+		.illustration :global(svg text),
+		.headline .words,
+		.headline .accent,
+		.dedication {
+			animation: none;
+			stroke-dashoffset: 0;
+			opacity: 1;
+		}
+		.headline {
+			font-size: calc(2.5rem * var(--fit, 1));
+		}
+		.counter .value {
+			font-size: 1.75rem;
+		}
+	}
 </style>
