@@ -107,3 +107,17 @@ Nothing.
 
 - None filed. "Print with my notes" is named in 3497 as a later idea, not
   a defect, and stays in Ken's hands.
+
+## Deployed
+
+2026-10-28 19:20 PDT, from merged `main` (`940db247`, PR #66) by
+`just deploy` (the `.sprint-deploy` recipe) to the kai service. `just
+verify` passed all ten of its checks (both doors read, writes and reader
+data gated, the library served, compressed pages); `DEPLOYED` reads
+`940db247`. Then `print_check.mjs --url http://127.0.0.1:4891`, run against
+the live service rather than a dev server, passed 46/46 over the same four
+cases.
+
+**Not published to the public reader site** (kloom.kenhiatt.us). `just
+publish-public` waits for Ken's word, as the overseer's clearance said.
+3497 stays `resolved` until Ken prints a frame on his inkjet.
