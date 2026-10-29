@@ -340,6 +340,11 @@ crisis, three trails: germ theory, the Beagle, what we got wrong), written
 by 26 parallel authors, with 97 connections out to ten subjects and Daily
 Bread's pending links made; `mark --check` now refuses a mark on an
 unfinished draft, as the checking copy does.
+Sprint 056 printing a frame: a print stylesheet (no print button) that
+prints the scene and then the whole reading on a white page in dark ink,
+with colour kept in images and charts (a chart's accent from the light
+palette), the citations opened, the app's controls and the reader's layer
+left off, and `just print-check`.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

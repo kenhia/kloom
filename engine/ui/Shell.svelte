@@ -35,6 +35,7 @@
 		followSpine,
 		framePalettes,
 		layout,
+		paletteFor,
 		sectionPalette,
 		type Layout
 	} from '../settings';
@@ -277,6 +278,14 @@
 		)
 	);
 	const palette = $derived(palettes.reading);
+	/**
+	 * Printing (docs/design.md §Printing): a white page in dark ink whatever
+	 * the palette mode, with colour kept for charts, which take their accent
+	 * from the frame's light palette so it reads on white.
+	 */
+	const printAccent = $derived(paletteFor(subject, frame.scene.palette, 'light').accent);
+	let origin = $state('');
+	onMount(() => (origin = location.origin));
 	const narrativeId = $derived(
 		sync === 'follow' || !pinned || !subject.frames[pinned] ? stop.frameId : pinned
 	);
@@ -883,8 +892,14 @@
 	style:--accent={palette.accent}
 	style:--line={palette.line}
 	style:color-scheme={palette.scheme}
+	style:--print-accent={printAccent}
 >
 	<h1 class="visually-hidden">{subject.title}</h1>
+	<!-- Printed only, above the scene (§Printing). -->
+	<p class="print-head">
+		<span>{subject.title} · {titleOf(narrativeFrame)}</span>
+		<span>{origin}{hrefOf?.(narrativeFrame.id) ?? ''}</span>
+	</p>
 	<p class="visually-hidden" aria-live="polite" aria-atomic="true">{announcement}</p>
 	<p class="visually-hidden" role="status">{markNote}</p>
 
@@ -1413,6 +1428,60 @@
 	@media (prefers-reduced-motion: reduce) {
 		.shell {
 			transition: none;
+		}
+	}
+
+	/*
+	 * §Printing: the scene, then the whole reading flowing across pages, on a
+	 * white page in dark ink. The panes stack, nothing scrolls or has a fixed
+	 * height, and the app's controls are left off. !important on the colours
+	 * because each pane sets its palette inline.
+	 */
+	.print-head {
+		display: none;
+	}
+	@media print {
+		.shell,
+		.shell :global(.spine) {
+			--background: #fff !important;
+			--ink: #111 !important;
+			--muted: #555 !important;
+			--accent: #111 !important;
+			--line: #111 !important;
+			color-scheme: light !important;
+			transition: none !important;
+		}
+		.shell {
+			display: block;
+			height: auto;
+			min-height: 0;
+			color: var(--ink);
+			background: #fff;
+		}
+		.print-head {
+			display: flex;
+			justify-content: space-between;
+			gap: 1rem;
+			margin: 0 0 0.75rem;
+			font: 0.7rem/1.3 var(--mono);
+			color: var(--muted);
+			overflow-wrap: anywhere;
+		}
+		.panes {
+			display: block;
+		}
+		/* Over the one-column layout, which a page's width can fall into. */
+		.panes > :global(.spine),
+		.panes > :global(.narrative) {
+			height: auto;
+			border-top: 0;
+		}
+		.tab-row,
+		.hint,
+		.panes > :global(.notes),
+		.panes > :global(.ai),
+		.panes > :global([role='separator']) {
+			display: none !important;
 		}
 	}
 </style>

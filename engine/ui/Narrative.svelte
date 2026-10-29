@@ -228,6 +228,30 @@
 		links.onfollow(c.subject, c.frame);
 	}
 
+	/**
+	 * Printing (§Printing) shows the citations and edits whole. Chrome opens
+	 * them from the stylesheet; for other browsers they are opened for the
+	 * print and closed again after.
+	 */
+	$effect(() => {
+		let opened: HTMLDetailsElement[] = [];
+		const before = () => {
+			opened = [...(element?.querySelectorAll<HTMLDetailsElement>('details.citations') ?? [])];
+			opened = opened.filter((d) => !d.open);
+			for (const d of opened) d.open = true;
+		};
+		const after = () => {
+			for (const d of opened) d.open = false;
+			opened = [];
+		};
+		addEventListener('beforeprint', before);
+		addEventListener('afterprint', after);
+		return () => {
+			removeEventListener('beforeprint', before);
+			removeEventListener('afterprint', after);
+		};
+	});
+
 	/** Move focus to an annotation's button in the reading; false when it is detached. */
 	export function show(id: string): boolean {
 		const ref = body?.querySelector<HTMLElement>(`.annotation-ref[data-note="${CSS.escape(id)}"]`);
@@ -410,7 +434,7 @@
 		{/if}
 
 		{#if trails.length}
-			<h3>Trails from here</h3>
+			<h3 class="trails-head">Trails from here</h3>
 			<ul class="trails">
 				{#each trails as trail (trail.id)}
 					<li>
@@ -837,5 +861,82 @@
 		border: 1px solid var(--muted);
 		border-radius: 0.2rem;
 		color: var(--muted);
+	}
+
+	/*
+	 * Printing (docs/design.md §Printing): the whole reading, flowing across
+	 * pages from under the scene, then its connections, Sources, and the
+	 * citations and edits opened. Left off: the controls above the reading,
+	 * the trail buttons, and the reader's own layer (annotations, kept
+	 * answers, a name's card). Colour stays only in images and charts.
+	 */
+	@media print {
+		.narrative,
+		.narrative[hidden] {
+			display: block;
+			border: 0;
+		}
+		.controls,
+		.detached,
+		.trails-head,
+		.trails,
+		.reading :global(.qa),
+		.reading :global(.card),
+		.body :global(.annotation-ref) {
+			display: none !important;
+		}
+		.reading {
+			overflow: visible;
+			padding: 0;
+			line-height: 1.5;
+		}
+		.body :global(mark.annotation) {
+			background: none;
+			border: 0;
+		}
+		.body :global(button.name) {
+			border: 0;
+		}
+		.citations::details-content {
+			content-visibility: visible;
+		}
+		.citations summary {
+			list-style: none;
+		}
+		/* A photograph takes no more than half a page. */
+		.body :global(img) {
+			width: auto;
+			max-height: 4.5in;
+		}
+		/* Room for a two-figure number, with no padding around the reading. */
+		.sources {
+			padding-left: 2rem;
+		}
+		.body :global(img),
+		.body :global(.chart svg) {
+			print-color-adjust: exact;
+			-webkit-print-color-adjust: exact;
+		}
+		.body :global(.chart .accent) {
+			color: var(--print-accent, var(--ink));
+		}
+		.body :global(.figure),
+		.body :global(img),
+		.body :global(table),
+		.body :global(pre),
+		.body :global(blockquote),
+		.citations li,
+		.connections li {
+			break-inside: avoid;
+		}
+		h2,
+		h3,
+		.body :global(h3) {
+			break-after: avoid;
+		}
+		.body :global(pre) {
+			overflow: visible;
+			white-space: pre-wrap;
+		}
 	}
 </style>

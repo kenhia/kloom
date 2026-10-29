@@ -26,3 +26,17 @@ body {
 	white-space: nowrap;
 	border: 0;
 }
+
+/* Printing (docs/design.md §Printing): a white page, and no overlay prints. */
+@media print {
+	:root {
+		color-scheme: light;
+	}
+	html,
+	body {
+		background: #fff;
+	}
+	dialog {
+		display: none !important;
+	}
+}

@@ -313,6 +313,22 @@ hud-check:
     fi
     node create-tools/hud-check/hud_check.mjs --url "$url"
 
+# Printing a frame (korg 3497): no app controls, the scene then the whole
+# reading on a white page in dark ink, colour kept on images and charts,
+# citations opened, in a dark and a light palette; PDFs in
+# .scratch/print-check/ (same Playwright and dev server as scene-fit)
+print-check:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    url="${KLOOM_URL:-http://localhost:5415}"
+    if ! curl -sf -o /dev/null "$url/"; then
+        node_modules/.bin/vite dev --host 127.0.0.1 --port 5415 --strictPort >/dev/null 2>&1 &
+        server=$!
+        trap 'kill $server' EXIT
+        for _ in $(seq 60); do curl -sf -o /dev/null "$url/" && break; sleep 0.5; done
+    fi
+    node create-tools/print-check/print_check.mjs --url "$url"
+
 # Traffic (korg 3570): a visit counted after 5 s on a frame and not after
 # 1 s, the grid's levels against readers seeded 0/1/2/3/5, trails after
 # their anchors, 390px in dark and light, and the page a 404 once the reader

@@ -947,6 +947,42 @@ full-screen.
   Playwright and Chromium (`create-tools/hud-check/hud_check.mjs`), so like
   keys-check it is not part of `just check`.
 
+## Printing
+
+Sprint 056 (korg 3497). Printing a frame from the browser gives the frame,
+not the app: a print stylesheet (`@media print` in `Shell`, `SpinePane`,
+`Narrative` and `src/app.css`), with no print button or print view.
+
+- **What prints:** a small header (the subject, the frame's title and its
+  URL; on screen it is not there), the scene as it stands once it has
+  entered (the chapter, drawing, headline and accent, metadata, place and
+  counter), then **the whole reading flowing across pages** from under the
+  scene: the panes stack, and nothing scrolls or keeps a fixed height. After
+  it, the connections, Sources, and the citations and edits **opened**
+  (`::details-content` in Chrome; other browsers have them opened on
+  `beforeprint` and closed again on `afterprint`).
+- **Left off:** the HUD's tools and index, the timeline, the tab row, the
+  controls above the reading, the trail buttons, the AI pane, the notes,
+  the dividers, the hint line and any open dialog. The reader's own layer
+  does not print in this pass (annotation highlights, kept answers, a name's
+  card); a "print with my notes" may come later.
+- **A white page in dark ink** whatever the palette mode: the palette
+  variables are overridden for print (`!important`, since each pane sets
+  its own inline), so the drawing prints in dark ink and an accent word in
+  ink. **Colour stays only in images and charts**: they carry
+  `print-color-adjust: exact`, and a chart's accent comes from the frame's
+  light palette (`--print-accent`; every dark palette has a light
+  counterpart), so it reads on white.
+- **Page breaks:** none inside a figure, table, program, quotation,
+  citation or connection; none straight after a heading. The scene is sized
+  (a three-inch drawing) so the reading starts on page 1. A photograph takes
+  no more than 4.5 inches.
+- `just print-check` emulates print media in the machine's Playwright and
+  Chromium for a dark and a light frame, a frame with a chart and images and
+  the longest reading, and saves each as a PDF in `.scratch/print-check/`
+  (`create-tools/print-check/print_check.mjs`; not part of `just check`,
+  like hud-check).
+
 ## Contents
 
 Random access for long subjects (sprint 016, korg 3433). Stepping the spine,
