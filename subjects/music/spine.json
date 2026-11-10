@@ -20,6 +20,13 @@
 			"labelKind": "date",
 			"palette": "woodcut",
 			"frames": ["luther-chorale", "palestrina"]
+		},
+		{
+			"id": "machines",
+			"title": "Machines that remember",
+			"labelKind": "date",
+			"palette": "shellac",
+			"frames": ["phonautograph", "edison-phonograph"]
 		}
 	]
 }
