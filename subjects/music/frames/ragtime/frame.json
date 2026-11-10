@@ -1,0 +1,210 @@
+{
+	"id": "ragtime",
+	"topic": "Scott Joplin and ragtime",
+	"position": {
+		"label": "1899",
+		"sort": 1899
+	},
+	"scene": {
+		"headline": "Scott Joplin made the piano",
+		"accent": "RAG.",
+		"palette": "sheet",
+		"illustration": "scene.svg",
+		"metadata": ["SEDALIA, MISSOURI · JOHN STARK & SON", "MAPLE LEAF RAG · TEMPO DI MARCIA · 2/4"],
+		"counter": {
+			"value": "1¢",
+			"label": "Joplin's royalty on each copy"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Big Item for Festival: Joplin Contract on Display",
+			"container": "Sedalia Democrat",
+			"published": "1974-06-25",
+			"url": "https://archive.org/details/sedalia-democrat-1974-06-25",
+			"accessed": "2026-11-10",
+			"note": "Prints the agreement of 10 August 1899 between John Stark & Son and Scott Joplin in full; read in the Internet Archive's text of the page"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "School of Ragtime",
+			"authors": [
+				{
+					"family": "Joplin",
+					"given": "Scott"
+				}
+			],
+			"published": "1908",
+			"url": "https://archive.org/details/imslp-of-ragtime-joplin-scott",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Maple Leaf Rag",
+			"authors": [
+				{
+					"family": "Joplin",
+					"given": "Scott"
+				}
+			],
+			"place": "Sedalia, MO",
+			"publisher": "John Stark & Son",
+			"published": "1899",
+			"url": "https://commons.wikimedia.org/wiki/File:Maple_Leaf_Rag_1st_ed_2.jpg",
+			"accessed": "2026-11-10",
+			"note": "The first edition's first page of music, from which the plate's bar is read"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Scott Joplin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Scott_Joplin&oldid=1384710031",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09",
+			"key": true,
+			"note": "His life, the sales, Treemonisha, the rolls and the revival"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Maple Leaf Rag",
+			"url": "https://en.wikipedia.org/w/index.php?title=Maple_Leaf_Rag&oldid=1380960357",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-19",
+			"key": true
+		},
+		{
+			"kind": "recording",
+			"title": "Maple Leaf Rag",
+			"authors": [
+				{
+					"family": "Joplin",
+					"given": "Scott"
+				}
+			],
+			"recorded": "1916-06",
+			"publisher": "Aeolian Company (Uni-Record)",
+			"number": "202705",
+			"published": "1916",
+			"url": "https://commons.wikimedia.org/wiki/File:Maple_Leaf_Rag_-_played_by_Scott_Joplin_1916_sample.ogg",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "A piano roll; the Commons file is a MIDI scan of the roll played back"
+		},
+		{
+			"kind": "book",
+			"title": "King of Ragtime: Scott Joplin and His Era",
+			"authors": [
+				{
+					"family": "Berlin",
+					"given": "Edward A."
+				}
+			],
+			"place": "New York",
+			"publisher": "Oxford University Press",
+			"published": "1994",
+			"citedIn": "Maple Leaf Rag"
+		},
+		{
+			"kind": "book",
+			"title": "They All Played Ragtime",
+			"authors": [
+				{
+					"family": "Blesh",
+					"given": "Rudi"
+				},
+				{
+					"family": "Janis",
+					"given": "Harriet"
+				}
+			],
+			"place": "New York",
+			"publisher": "Oak Publications",
+			"published": "1971",
+			"citedIn": "Maple Leaf Rag"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ragtime",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ragtime&oldid=1382383497",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tin Pan Alley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tin_Pan_Alley&oldid=1384400131",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Treemonisha",
+			"url": "https://en.wikipedia.org/w/index.php?title=Treemonisha&oldid=1381171786",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Sting",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Sting&oldid=1381223913",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-20"
+		},
+		{
+			"kind": "media",
+			"title": "Maple Leaf Rag, first edition, cover",
+			"url": "https://commons.wikimedia.org/wiki/File:Maple_Leaf_Rag_1st_ed.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "cover.jpg",
+			"published": "1899",
+			"container": "Library of Congress, Music Division",
+			"note": "Published in Sedalia, Missouri, in 1899"
+		}
+	]
+}

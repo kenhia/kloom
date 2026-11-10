@@ -64,6 +64,13 @@
 			]
 		},
 		{
+			"id": "new-world-song",
+			"title": "Songs of the New World",
+			"labelKind": "date",
+			"palette": "sheet",
+			"frames": ["fisk-jubilee", "ragtime"]
+		},
+		{
 			"id": "modern-electric",
 			"title": "Modern and electric",
 			"labelKind": "date",
