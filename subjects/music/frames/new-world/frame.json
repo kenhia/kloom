@@ -19,6 +19,12 @@
 			"label": "a year to direct the National Conservatory"
 		}
 	},
+	"connections": [
+		{
+			"to": "music/fisk-jubilee",
+			"why": "The Fisk Jubilee Singers had carried the spirituals Dvořák heard across the Atlantic twenty years before."
+		}
+	],
 	"citations": [
 		{
 			"kind": "article",

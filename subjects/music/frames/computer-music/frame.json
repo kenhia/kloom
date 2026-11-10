@@ -31,6 +31,10 @@
 		{
 			"to": "computing/transistor",
 			"why": "John R. Pierce, who named the transistor at Bell Labs, was the boss who dared Mathews to make a computer play music."
+		},
+		{
+			"to": "music/fm-synthesis",
+			"why": "Chowning read Mathews's 1963 paper in Science and set up at Stanford with his help."
 		}
 	],
 	"citations": [

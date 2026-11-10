@@ -10,12 +10,21 @@
 		"accent": "RAG.",
 		"palette": "sheet",
 		"illustration": "scene.svg",
-		"metadata": ["SEDALIA, MISSOURI · JOHN STARK & SON", "MAPLE LEAF RAG · TEMPO DI MARCIA · 2/4"],
+		"metadata": [
+			"SEDALIA, MISSOURI · JOHN STARK & SON",
+			"MAPLE LEAF RAG · TEMPO DI MARCIA · 2/4"
+		],
 		"counter": {
 			"value": "1¢",
 			"label": "Joplin's royalty on each copy"
 		}
 	},
+	"connections": [
+		{
+			"to": "music/player-piano",
+			"why": "Joplin cut his own Maple Leaf Rag on a piano roll in 1916."
+		}
+	],
 	"citations": [
 		{
 			"kind": "article",

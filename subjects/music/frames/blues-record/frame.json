@@ -1,0 +1,383 @@
+{
+	"id": "blues-record",
+	"topic": "The blues on record",
+	"position": {
+		"label": "1920",
+		"sort": 1920
+	},
+	"scene": {
+		"headline": "Mamie Smith sang the",
+		"accent": "BLUES.",
+		"palette": "sheet",
+		"illustration": "scene.svg",
+		"metadata": [
+			"OKEH STUDIO · NEW YORK · AUGUST 10, 1920",
+			"MAMIE SMITH · PERRY BRADFORD · W. C. HANDY"
+		],
+		"counter": {
+			"value": "$1.00",
+			"label": "for Mamie Smith's records, when Okeh's others cost 75¢"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/abolition",
+			"why": "The blues grew among the first generations of Black Southerners born after the Thirteenth Amendment of December 1865 ended slavery in the United States, as that frame describes."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "“Crazy Blues”—Mamie Smith (1920)",
+			"authors": [
+				{
+					"family": "Komara",
+					"given": "Edward"
+				}
+			],
+			"container": "National Recording Registry essays",
+			"publisher": "Library of Congress",
+			"url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/CrazyBlues.pdf",
+			"accessed": "2026-11-10",
+			"note": "The song's history, its sixteen- and twelve-bar choruses, the reported sales"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Facts Concerning Mamie Smith and “Crazy Blues”",
+			"authors": [
+				{
+					"family": "Sutton",
+					"given": "Allan"
+				}
+			],
+			"container": "78 rpm Records, Cylinders, and Recording Industry History",
+			"publisher": "Mainspring Press",
+			"published": "2026-08-05",
+			"url": "https://mainspringpress.org/2026/08/05/the-facts-concerning-mamie-smith-and-crazy-blues/",
+			"accessed": "2026-11-10",
+			"note": "The sessions from primary sources; the sales claims doubted; the price"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Father of the Blues: An Autobiography",
+			"authors": [
+				{
+					"family": "Handy",
+					"given": "W. C."
+				}
+			],
+			"editors": [
+				{
+					"family": "Bontemps",
+					"given": "Arna"
+				}
+			],
+			"place": "New York",
+			"publisher": "Macmillan",
+			"published": "1941",
+			"url": "https://archive.org/details/fatherofbluesaut00wcha_1",
+			"accessed": "2026-11-10",
+			"note": "Read in the 1947 printing: Tutwiler, pp. 73–74; the blues form and blue notes, pp. 99–100 and 120; the AAB verse, p. 143; Bradford's royalties, pp. 200–201"
+		},
+		{
+			"kind": "recording",
+			"title": "Crazy Blues",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Mamie"
+				},
+				{
+					"name": "Her Jazz Hounds"
+				}
+			],
+			"recorded": "1920-08-10",
+			"publisher": "Okeh",
+			"number": "4169",
+			"published": "1920",
+			"url": "https://commons.wikimedia.org/wiki/File:Mamie_Smith,_Crazy_Blues.ogg",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Matrix S-7529, take C, in the Discography of American Historical Recordings; the Commons file is a transfer from the Internet Archive"
+		},
+		{
+			"kind": "web",
+			"title": "OKeh 4169 (10-in. double-faced)",
+			"container": "Discography of American Historical Recordings",
+			"publisher": "University of California, Santa Barbara",
+			"url": "https://adp.library.ucsb.edu/index.php/objects/detail/252157/OKeh_4169",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "“Pony Blues”—Charley Patton (1929)",
+			"authors": [
+				{
+					"family": "Komara",
+					"given": "Edward"
+				},
+				{
+					"family": "Wardlow",
+					"given": "Gayle Dean"
+				}
+			],
+			"container": "National Recording Registry essays",
+			"publisher": "Library of Congress",
+			"url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/PonyBlues.pdf",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Recruiting Talent",
+			"authors": [
+				{
+					"family": "González",
+					"given": "Sergio M."
+				}
+			],
+			"container": "Wisconsin 101",
+			"publisher": "University of Wisconsin–Madison Department of History",
+			"url": "https://wi101.wisc.edu/recruiting-talent/",
+			"accessed": "2026-11-10",
+			"note": "Read through the Wayback Machine"
+		},
+		{
+			"kind": "web",
+			"title": "The Forgotten Voices of Race Records: Pullman Porters, the Rev TT Rose, and the ‘Man with a Clarinet’",
+			"authors": [
+				{
+					"family": "Zolten",
+					"given": "Jerry"
+				}
+			],
+			"container": "The Conversation",
+			"published": "2015-02-27",
+			"url": "https://theconversation.com/the-forgotten-voices-of-race-records-pullman-porters-the-rev-tt-rose-and-the-man-with-a-clarinet-37907",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Crazy Blues",
+			"url": "https://en.wikipedia.org/w/index.php?title=Crazy_Blues&oldid=1371250324",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mamie Smith",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mamie_Smith&oldid=1371016376",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Perry Bradford",
+			"url": "https://en.wikipedia.org/w/index.php?title=Perry_Bradford&oldid=1368680101",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Race record",
+			"url": "https://en.wikipedia.org/w/index.php?title=Race_record&oldid=1368985625",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Okeh Records",
+			"url": "https://en.wikipedia.org/w/index.php?title=Okeh_Records&oldid=1382198134",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Black Swan Records",
+			"url": "https://en.wikipedia.org/w/index.php?title=Black_Swan_Records&oldid=1370541198",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Twelve-bar blues",
+			"url": "https://en.wikipedia.org/w/index.php?title=Twelve-bar_blues&oldid=1354844877",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "W. C. Handy",
+			"url": "https://en.wikipedia.org/w/index.php?title=W._C._Handy&oldid=1382352049",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Saint Louis Blues (song)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Saint_Louis_Blues_(song)&oldid=1384021818",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bessie Smith",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bessie_Smith&oldid=1380816667",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Downhearted Blues",
+			"url": "https://en.wikipedia.org/w/index.php?title=Downhearted_Blues&oldid=1337169541",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ma Rainey",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ma_Rainey&oldid=1371015628",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Blind Lemon Jefferson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Blind_Lemon_Jefferson&oldid=1383178806",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paramount Records",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paramount_Records&oldid=1382012326",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Blues",
+			"url": "https://en.wikipedia.org/w/index.php?title=Blues&oldid=1384399128",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "media",
+			"title": "Crazy Blues (sheet music cover)",
+			"container": "Perry Bradford Music Publishing Company, New York",
+			"published": "1920",
+			"url": "https://commons.wikimedia.org/wiki/File:Crazy_blues.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "crazy-blues-cover.jpg",
+			"note": "Published in the United States in 1920"
+		}
+	]
+}

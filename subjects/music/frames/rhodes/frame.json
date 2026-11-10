@@ -10,7 +10,10 @@
 		"accent": "TINES.",
 		"palette": "salon",
 		"illustration": "scene.svg",
-		"metadata": ["PASADENA · FULLERTON · NEW YORK", "HAROLD RHODES · LEO FENDER · CBS"],
+		"metadata": [
+			"PASADENA · FULLERTON · NEW YORK",
+			"HAROLD RHODES · LEO FENDER · CBS"
+		],
 		"counter": {
 			"value": "$13,000,000",
 			"label": "CBS's price for Fender, 1965"
@@ -20,6 +23,14 @@
 		{
 			"to": "western-civ/faraday-induction",
 			"why": "A Rhodes pickup is a coil around a magnet in which the swinging steel tine drives a voltage, by the law of induction Faraday announced in 1831."
+		},
+		{
+			"to": "music/electric-guitar",
+			"why": "The Rhodes's pickup works as the electric guitar's does, a magnet and coil under vibrating steel."
+		},
+		{
+			"to": "music/fm-synthesis",
+			"why": "The Yamaha DX7's electric-piano sound took many players away from the Rhodes."
 		}
 	],
 	"citations": [
