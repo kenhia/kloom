@@ -1,0 +1,34 @@
+{
+	"title": "Upright pianos and player pianos made in the United States, 1899–1931",
+	"description": "Grouped bar chart, thousands made in each census year. Ordinary uprights: 167 in 1899, 252 in 1904, 321 in 1909, 228 in 1914, 138 in 1919, 88.7 in 1921, 106 in 1923, 87.3 in 1925, 69.9 in 1927, 49.0 in 1929, 18.3 in 1931. Player uprights, reproducing ones included: 0.2, 1.9, 34.5, 84.5, 177.5, 107.3, 183.7, 149.5, 80.5, 18.7 and 1.8. Grands are left out. Data: Census of Manufactures, in Fabricant 1940, appendix B.",
+	"heading": "UPRIGHTS MADE IN THE US · THOUSANDS A YEAR",
+	"unit": "",
+	"width": 600,
+	"axis": {
+		"max": 340,
+		"ticks": [
+			[0, "0"],
+			[100, "100"],
+			[200, "200"],
+			[300, "300"]
+		]
+	},
+	"series": [{ "label": "ORDINARY" }, { "label": "PLAYER" }],
+	"bars": [
+		{ "label": "1899", "values": [167, 0.2], "displays": ["167", ""] },
+		{ "label": "1904", "values": [252, 1.9], "displays": ["252", ""] },
+		{ "label": "1909", "values": [321, 34.5], "displays": ["321", "35"] },
+		{ "label": "1914", "values": [228, 84.5], "displays": ["228", "85"] },
+		{ "label": "1919", "values": [138, 177.5], "displays": ["138", "178"] },
+		{ "label": "1921", "values": [88.7, 107.3], "displays": ["89", "107"] },
+		{ "label": "1923", "values": [106, 183.7], "displays": ["106", "184"] },
+		{ "label": "1925", "values": [87.3, 149.5], "displays": ["87", "150"] },
+		{ "label": "1927", "values": [69.9, 80.5], "displays": ["70", "81"] },
+		{ "label": "1929", "values": [49.0, 18.7], "displays": ["49", "19"] },
+		{ "label": "1931", "values": [18.3, 1.8], "displays": ["18", "2"] }
+	],
+	"source": {
+		"container": "Census of Manufactures, in Solomon Fabricant, The Output of Manufacturing Industries, 1899–1937 (NBER, 1940), appendix B",
+		"url": "https://www.nber.org/system/files/chapters/c6432/c6432.pdf"
+	}
+}

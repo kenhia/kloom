@@ -1,0 +1,254 @@
+{
+	"id": "player-piano",
+	"topic": "The player piano",
+	"position": {
+		"label": "1904",
+		"sort": 1904
+	},
+	"scene": {
+		"headline": "The piano played",
+		"accent": "ITSELF.",
+		"palette": "salon",
+		"illustration": "scene.svg",
+		"metadata": ["DETROIT · NEW YORK · FREIBURG", "VOTEY'S PIANOLA · THE WELTE-MIGNON"],
+		"counter": {
+			"value": "184,000",
+			"label": "player pianos made in the US in 1923"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/jacquard-loom",
+			"why": "A piano roll stores music as holes read in order by a row of sensors, as Bouchon's punched paper roll and Jacquard's cards stored a weave; in 1881 Carpentier punched harmonium music onto Jacquard cards."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Player-Piano Up-to-Date: A Comprehensive Treatise on the Principles, Construction, Adjustment, Regulation and Use of Pneumatic Mechanisms for Piano-Playing",
+			"authors": [
+				{
+					"family": "White",
+					"given": "William Braid"
+				}
+			],
+			"place": "New York",
+			"publisher": "Edward Lyman Bill",
+			"published": "1914",
+			"url": "https://archive.org/details/in.ernet.dli.2015.87205",
+			"accessed": "2026-11-10",
+			"note": "The single- and double-valve actions, pp. 41–48"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Edwin Votey, Inventor of the Pianola",
+			"container": "The Pianola Institute",
+			"url": "https://pianola.org/factsheets/votey.cfm",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Welte-Mignon Reproducing Piano",
+			"container": "The Pianola Institute",
+			"url": "https://www.pianola.org/reproducing/reproducing_welte.cfm",
+			"accessed": "2026-11-10",
+			"note": "How the rolls were recorded, and how faithful they are"
+		},
+		{
+			"kind": "web",
+			"title": "What Is Welte-Mignon?",
+			"authors": [
+				{
+					"family": "Schmitz",
+					"given": "Hans-W."
+				}
+			],
+			"container": "Tacet",
+			"url": "https://www.tacet.de/en_us/was-ist-welte-mignon/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "chapter",
+			"title": "Appendix B: Indexes of Physical Output, with Basic Data on Quantity, Value and Price of Products",
+			"authors": [
+				{
+					"family": "Fabricant",
+					"given": "Solomon"
+				}
+			],
+			"container": "The Output of Manufacturing Industries, 1899–1937",
+			"place": "New York",
+			"publisher": "National Bureau of Economic Research",
+			"published": "1940",
+			"url": "https://www.nber.org/system/files/chapters/c6432/c6432.pdf",
+			"accessed": "2026-11-10",
+			"key": true,
+			"note": "Uprights, players and reproducing players by census year, p. 597"
+		},
+		{
+			"kind": "chapter",
+			"title": "The Output of Individual Manufacturing Industries: Miscellaneous Products",
+			"authors": [
+				{
+					"family": "Fabricant",
+					"given": "Solomon"
+				}
+			],
+			"container": "The Output of Manufacturing Industries, 1899–1937",
+			"place": "New York",
+			"publisher": "National Bureau of Economic Research",
+			"published": "1940",
+			"pages": "317–21",
+			"url": "https://www.nber.org/system/files/chapters/c6430/c6430.pdf",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "book",
+			"title": "Pianos and Their Makers: A Comprehensive History of the Development of the Piano from the Monochord to the Concert Grand Player Piano",
+			"authors": [
+				{
+					"family": "Dolge",
+					"given": "Alfred"
+				}
+			],
+			"place": "Covina, Calif.",
+			"publisher": "Covina Publishing Company",
+			"published": "1911",
+			"url": "https://archive.org/details/cu31924022448793",
+			"accessed": "2026-11-10",
+			"note": "Votey's patent, p. 150; the Welte-Mignon, p. 158"
+		},
+		{
+			"kind": "recording",
+			"title": "Studies for Player Piano",
+			"authors": [
+				{
+					"family": "Nancarrow",
+					"given": "Conlon"
+				}
+			],
+			"publisher": "Columbia Masterworks",
+			"number": "MS 7222",
+			"published": "1969",
+			"url": "https://musicbrainz.org/release/394fd5a0-dae5-462b-b9f0-d5a716ba52e6",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Player piano",
+			"url": "https://en.wikipedia.org/w/index.php?title=Player_piano&oldid=1379437637",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Edwin S. Votey",
+			"url": "https://en.wikipedia.org/w/index.php?title=Edwin_S._Votey&oldid=1324355631",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aeolian Company",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aeolian_Company&oldid=1384199308",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Welte-Mignon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Welte-Mignon&oldid=1360432262",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Piano roll",
+			"url": "https://en.wikipedia.org/w/index.php?title=Piano_roll&oldid=1379182403",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Conlon Nancarrow",
+			"url": "https://en.wikipedia.org/w/index.php?title=Conlon_Nancarrow&oldid=1368857222",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "media",
+			"title": "Tracker bar of a Welte-Mignon T-98 piano",
+			"authors": [
+				{
+					"name": "Gerhard51 (uploader)"
+				}
+			],
+			"published": "2005",
+			"url": "https://commons.wikimedia.org/wiki/File:Trackerbar.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "tracker-bar.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Upright pianos and player pianos made in the United States, 1899–1931",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Census of Manufactures, in Solomon Fabricant, The Output of Manufacturing Industries, 1899–1937 (NBER, 1940), appendix B",
+			"url": "https://www.nber.org/system/files/chapters/c6432/c6432.pdf",
+			"accessed": "2026-11-10",
+			"licence": "MIT",
+			"file": "output.svg"
+		}
+	]
+}

@@ -1,0 +1,210 @@
+{
+	"id": "rhodes",
+	"topic": "The Rhodes electric piano",
+	"position": {
+		"label": "1965",
+		"sort": 1965
+	},
+	"scene": {
+		"headline": "The piano rang on steel",
+		"accent": "TINES.",
+		"palette": "salon",
+		"illustration": "scene.svg",
+		"metadata": ["PASADENA · FULLERTON · NEW YORK", "HAROLD RHODES · LEO FENDER · CBS"],
+		"counter": {
+			"value": "$13,000,000",
+			"label": "CBS's price for Fender, 1965"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/faraday-induction",
+			"why": "A Rhodes pickup is a coil around a magnet in which the swinging steel tine drives a voltage, by the law of induction Faraday announced in 1831."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "US Patent 2,972,922: Electrical Musical Instrument in the Nature of a Piano",
+			"authors": [
+				{
+					"family": "Rhodes",
+					"given": "Harold B."
+				}
+			],
+			"container": "Google Patents",
+			"publisher": "United States Patent Office",
+			"published": "1961-02-28",
+			"url": "https://patents.google.com/patent/US2972922A/en",
+			"accessed": "2026-11-10",
+			"note": "The tine, the tone bar, the tuning spring and the pickup"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Harold Rhodes, 89, Inventor of an Electronic Piano",
+			"authors": [
+				{
+					"family": "Pareles",
+					"given": "Jon"
+				}
+			],
+			"container": "The New York Times",
+			"published": "2001-01-04",
+			"url": "https://www.nytimes.com/2001/01/04/arts/harold-rhodes-89-inventor-of-an-electronic-piano.html",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rhodes piano",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rhodes_piano&oldid=1368566280",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09",
+			"key": true
+		},
+		{
+			"kind": "article",
+			"title": "Wounded Men Amused by 'Lap-Model' Piano",
+			"container": "Los Angeles Times",
+			"published": "1945-03-19",
+			"pages": "6",
+			"citedIn": "Rhodes piano"
+		},
+		{
+			"kind": "recording",
+			"title": "In a Silent Way",
+			"authors": [
+				{
+					"family": "Davis",
+					"given": "Miles"
+				}
+			],
+			"recorded": "1969-02-18",
+			"publisher": "Columbia",
+			"number": "CS 9875",
+			"published": "1969",
+			"url": "https://musicbrainz.org/release/47873c43-4337-4d3b-9bf2-959f85a7cec1",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "book",
+			"title": "Running the Voodoo Down: The Electric Music of Miles Davis",
+			"authors": [
+				{
+					"family": "Freeman",
+					"given": "Phil"
+				}
+			],
+			"published": "2005",
+			"citedIn": "In a Silent Way"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "In a Silent Way",
+			"url": "https://en.wikipedia.org/w/index.php?title=In_a_Silent_Way&oldid=1376348609",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Harold Rhodes (inventor)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Harold_Rhodes_(inventor)&oldid=1362486873",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Leo Fender",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leo_Fender&oldid=1379316598",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fender (company)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fender_(company)&oldid=1383962060",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wurlitzer electronic piano",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wurlitzer_electronic_piano&oldid=1376667103",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Clavinet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Clavinet&oldid=1369721311",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "media",
+			"title": "1975 Rhodes Mark I Stage Piano 73-key with Dyna Rhodes modification: hammers, pickups, tines",
+			"authors": [
+				{
+					"family": "Spils",
+					"given": "Daniel"
+				}
+			],
+			"published": "2005-01-07",
+			"url": "https://commons.wikimedia.org/wiki/File:1975_Rhodes_Mark_I_Stage_Piano_73-key_(serial_no.300%3F%3F%3F)_with_Dyna_Rhodes_modification_-_hammers,_pickups,_tines_(2005-01-07_20.49.02_by_Daniel_Spils).jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC BY 2.0",
+			"file": "tines.jpg"
+		}
+	]
+}

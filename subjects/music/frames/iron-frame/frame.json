@@ -1,0 +1,236 @@
+{
+	"id": "iron-frame",
+	"topic": "Steinway's iron frame",
+	"position": {
+		"label": "1859",
+		"sort": 1859
+	},
+	"scene": {
+		"headline": "We cast the piano in",
+		"accent": "IRON.",
+		"palette": "salon",
+		"illustration": "scene.svg",
+		"metadata": ["BOSTON · NEW YORK · PARIS", "BABCOCK · CHICKERING · STEINWAY & SONS"],
+		"counter": {
+			"value": "21 t",
+			"label": "pull of a concert grand's strings"
+		}
+	},
+	"connections": [
+		{
+			"to": "making/coalbrookdale",
+			"why": "Both put gray cast iron where it is squeezed, its strongest way: the strings pull a piano's one-piece plate together end to end, as the Iron Bridge's arch presses its cast ribs."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "US Patent 26,532: Grand Piano",
+			"authors": [
+				{
+					"family": "Steinway",
+					"given": "Henry, Jr."
+				}
+			],
+			"container": "Google Patents",
+			"publisher": "United States Patent Office",
+			"published": "1859-12-20",
+			"url": "https://patents.google.com/patent/US26532A/en",
+			"accessed": "2026-11-10",
+			"note": "The overstrung grand, its claim and its drawing"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Report upon Musical Instruments",
+			"authors": [
+				{
+					"family": "Stevens",
+					"given": "Paran"
+				}
+			],
+			"container": "Reports of the United States Commissioners to the Paris Universal Exposition, 1867, vol. 5",
+			"editors": [
+				{
+					"family": "Blake",
+					"given": "William P."
+				}
+			],
+			"place": "Washington",
+			"publisher": "Government Printing Office",
+			"published": "1870",
+			"pages": "8–14",
+			"url": "https://archive.org/details/reportsofuniteds05unit_2",
+			"accessed": "2026-11-10",
+			"note": "Quotes Fétis's jury report in translation; the medals of 1867"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "History of the American Pianoforte: Its Technical Development, and the Trade",
+			"authors": [
+				{
+					"family": "Spillane",
+					"given": "Daniel"
+				}
+			],
+			"place": "New York",
+			"publisher": "D. Spillane",
+			"published": "1890",
+			"url": "https://archive.org/details/historyofamerica00spil",
+			"accessed": "2026-11-10",
+			"note": "Babcock's patent, pp. 43, 121–22; Chickering's of 1843; Steinway's of 1859, pp. 216–18"
+		},
+		{
+			"kind": "book",
+			"title": "Pianos and Their Makers: A Comprehensive History of the Development of the Piano from the Monochord to the Concert Grand Player Piano",
+			"authors": [
+				{
+					"family": "Dolge",
+					"given": "Alfred"
+				}
+			],
+			"place": "Covina, Calif.",
+			"publisher": "Covina Publishing Company",
+			"published": "1911",
+			"url": "https://archive.org/details/cu31924022448793",
+			"accessed": "2026-11-10",
+			"key": true,
+			"note": "The iron frame and the pull of the strings, pp. 69–71; output, p. 181"
+		},
+		{
+			"kind": "chapter",
+			"title": "The Cast-Iron Plate",
+			"authors": [
+				{
+					"family": "Conklin",
+					"given": "Harold A., Jr."
+				}
+			],
+			"container": "Five Lectures on the Acoustics of the Piano",
+			"editors": [
+				{
+					"family": "Askenfelt",
+					"given": "Anders"
+				}
+			],
+			"place": "Stockholm",
+			"publisher": "Royal Swedish Academy of Music",
+			"published": "1990",
+			"url": "https://www.speech.kth.se/music/5_lectures/conklin/thecastiron.html",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "chapter",
+			"title": "Appendix B: Indexes of Physical Output, with Basic Data on Quantity, Value and Price of Products",
+			"authors": [
+				{
+					"family": "Fabricant",
+					"given": "Solomon"
+				}
+			],
+			"container": "The Output of Manufacturing Industries, 1899–1937",
+			"place": "New York",
+			"publisher": "National Bureau of Economic Research",
+			"published": "1940",
+			"url": "https://www.nber.org/system/files/chapters/c6432/c6432.pdf",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Steinway & Sons",
+			"url": "https://en.wikipedia.org/w/index.php?title=Steinway_%26_Sons&oldid=1383549037",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henry E. Steinway",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_E._Steinway&oldid=1376121182",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alpheus Babcock",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alpheus_Babcock&oldid=1342973304",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chickering & Sons",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chickering_%26_Sons&oldid=1379961958",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cross-stringing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cross-stringing&oldid=1331548265",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Piano",
+			"url": "https://en.wikipedia.org/w/index.php?title=Piano&oldid=1384680767",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "media",
+			"title": "H. Steinway, Jr., Piano, patent no. 26,532, drawing",
+			"container": "United States Patent Office",
+			"published": "1859-12-20",
+			"url": "https://patentimages.storage.googleapis.com/pdfs/US26532.pdf",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "patent-1859.jpg",
+			"note": "A United States patent drawing published in 1859"
+		}
+	]
+}

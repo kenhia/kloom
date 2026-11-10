@@ -9,7 +9,14 @@
 				"title": "Hammers and strings",
 				"labelKind": "date",
 				"palette": "salon",
-				"frames": ["cristofori", "stein-piano", "double-escapement"]
+				"frames": [
+					"cristofori",
+					"stein-piano",
+					"double-escapement",
+					"iron-frame",
+					"player-piano",
+					"rhodes"
+				]
 			}
 		]
 	}
