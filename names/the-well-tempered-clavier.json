@@ -4,5 +4,6 @@
 	"name": "The Well-Tempered Clavier",
 	"aliases": ["Well-Tempered Clavier", "Das Wohltemperirte Clavier"],
 	"kind": "artifact",
-	"description": "Johann Sebastian Bach's two books of preludes and fugues in all 24 major and minor keys (1722 and about 1742), long a central text for learning keyboard playing and counterpoint."
+	"description": "Johann Sebastian Bach's two books of preludes and fugues in all 24 major and minor keys (1722 and about 1742), long a central text for learning keyboard playing and counterpoint.",
+	"home": "music/well-tempered-clavier"
 }

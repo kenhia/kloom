@@ -1,0 +1,220 @@
+{
+	"id": "handel-messiah",
+	"topic": "Handel's Messiah",
+	"position": {
+		"label": "1742",
+		"sort": 1742
+	},
+	"scene": {
+		"headline": "Dublin heard",
+		"accent": "HALLELUJAH.",
+		"palette": "gilt",
+		"illustration": "scene.svg",
+		"metadata": [
+			"DUBLIN · LONDON · GEORGE FRIDERIC HANDEL",
+			"WORDS FROM THE KING JAMES BIBLE · CHARLES JENNENS"
+		],
+		"counter": {
+			"value": "24",
+			"label": "days to write it, 1741"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/erasmus-greek-nt",
+			"why": "Jennens took Messiah's words from the King James Bible, whose New Testament that frame traces to the Greek text Erasmus printed in 1516."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Messiah (Handel)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Messiah_(Handel)&oldid=1383942369",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-05",
+			"note": "Its background, composition, Dublin and London premieres, and later performances"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "An Account of the Visit of Handel to Dublin",
+			"authors": [
+				{
+					"family": "Townsend",
+					"given": "Horatio"
+				}
+			],
+			"place": "Dublin",
+			"publisher": "James McGlashan",
+			"published": "1852",
+			"url": "https://archive.org/details/anaccountvisith00towngoog",
+			"accessed": "2026-11-10",
+			"note": "The Dublin newspapers' notices and reports of April 1742, pp. 86–89, and the society's account of 1742, p. 116"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "An Account of the Musical Performances in Westminster-Abbey, and the Pantheon, May 26th, 27th, 29th; and June the 3d, and 5th, 1784, in Commemoration of Handel",
+			"authors": [
+				{
+					"family": "Burney",
+					"given": "Charles"
+				}
+			],
+			"place": "London",
+			"publisher": "Printed for the benefit of the Musical Fund",
+			"published": "1785",
+			"url": "https://archive.org/details/accountofmusical00burn",
+			"accessed": "2026-11-10",
+			"note": "The Foundling Hospital's receipts from Messiah, and the Commemoration's occasion and receipts"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Messiah Part II",
+			"url": "https://en.wikipedia.org/w/index.php?title=Messiah_Part_II&oldid=1383942595",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Structure of Handel's Messiah",
+			"url": "https://en.wikipedia.org/w/index.php?title=Structure_of_Handel's_Messiah&oldid=1290441698",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-05-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George Frideric Handel",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_Frideric_Handel&oldid=1383802505",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Foundling Hospital",
+			"url": "https://en.wikipedia.org/w/index.php?title=Foundling_Hospital&oldid=1376190261",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Handel Commemoration",
+			"url": "https://en.wikipedia.org/w/index.php?title=Handel_Commemoration&oldid=1302286185",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-07-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Israel in Egypt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Israel_in_Egypt&oldid=1361182907",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-26"
+		},
+		{
+			"kind": "recording",
+			"title": "Hallelujah Chorus",
+			"authors": [
+				{
+					"name": "Victor Oratorio Chorus"
+				},
+				{
+					"family": "Pasternack",
+					"given": "Josef"
+				}
+			],
+			"container": "Messiah",
+			"recorded": "1918-07-24",
+			"publisher": "Victor",
+			"number": "35678",
+			"url": "https://www.loc.gov/item/jukebox-306153/",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "In the Library of Congress's National Jukebox"
+		},
+		{
+			"kind": "recording",
+			"title": "Handel Festival: \"Israel in Egypt\" (excerpt)",
+			"authors": [
+				{
+					"family": "Manns",
+					"given": "August"
+				}
+			],
+			"recorded": "1888-06-29",
+			"number": "E-2440-20",
+			"container": "Very Early Recorded Sound, Thomas Edison National Historical Park",
+			"publisher": "National Park Service",
+			"url": "https://www.nps.gov/edis/learn/photosmultimedia/very-early-recorded-sound.htm",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Recorded by George Gouraud on an Edison paraffin cylinder at the Crystal Palace"
+		},
+		{
+			"kind": "media",
+			"title": "Interior View of Westminster Abbey on the Commemoration of Handel, Taken from the Manager's Box",
+			"authors": [
+				{
+					"family": "Edwards",
+					"given": "Edward"
+				}
+			],
+			"published": "1790",
+			"circa": true,
+			"container": "Yale Center for British Art",
+			"url": "https://commons.wikimedia.org/wiki/File:Edward_Edwards_-_Interior_View_of_Westminster_Abbey_on_the_Commemoration_of_Handel,_Taken_from_the_Manager%27s_Box_-_Google_Art_Project.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "commemoration.jpg"
+		}
+	]
+}

@@ -29,6 +29,13 @@
 			"frames": ["petrucci", "josquin", "luther-chorale", "palestrina"]
 		},
 		{
+			"id": "baroque",
+			"title": "The Baroque",
+			"labelKind": "date",
+			"palette": "gilt",
+			"frames": ["well-tempered-clavier", "vivaldi-seasons", "handel-messiah"]
+		},
+		{
 			"id": "concert",
 			"title": "Classical and Romantic",
 			"labelKind": "date",
