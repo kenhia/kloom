@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M28 148 a100 100 0 1 0 200 0 a100 100 0 1 0 -200 0"/>
+		<path pathLength="1" d="M125 148 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+		<path pathLength="1" d="M128 148 L128 48"/>
+		<path pathLength="1" d="M128 148 L178 61.4"/>
+		<path pathLength="1" d="M128 148 L214.6 98"/>
+		<path pathLength="1" d="M128 148 L228 148"/>
+		<path pathLength="1" d="M128 148 L214.6 198"/>
+		<path pathLength="1" d="M128 148 L178 234.6"/>
+		<path pathLength="1" d="M128 148 L128 248"/>
+		<path pathLength="1" d="M128 148 L78 234.6"/>
+		<path pathLength="1" d="M128 148 L41.4 198"/>
+		<path pathLength="1" d="M128 148 L28 148"/>
+		<path pathLength="1" d="M128 148 L41.4 98"/>
+		<path pathLength="1" d="M128 148 L78 61.4"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M128 48 L178 61.4"/>
+		<path pathLength="1" d="M178 61.4 L214.6 98"/>
+		<path pathLength="1" d="M214.6 98 L228 148"/>
+		<path pathLength="1" d="M228 148 L214.6 198"/>
+		<path pathLength="1" d="M214.6 198 L178 234.6"/>
+		<path pathLength="1" d="M178 234.6 L128 248"/>
+		<path pathLength="1" d="M128 248 L78 234.6"/>
+		<path pathLength="1" d="M78 234.6 L41.4 198"/>
+		<path pathLength="1" d="M28 148 L41.4 98"/>
+		<path pathLength="1" d="M41.4 98 L78 61.4"/>
+		<path pathLength="1" d="M78 61.4 L128 48"/>
+		<path pathLength="1" d="M124.8 48 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M174.8 61.4 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M211.4 98 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M224.8 148 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M211.4 198 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M174.8 234.6 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M124.8 248 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M74.8 234.6 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M38.2 198 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M24.8 148 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M38.2 98 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+		<path pathLength="1" d="M74.8 61.4 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M41.4 198 L45.7 190.9 L32.6 188.4 L42.7 179.8 L29.6 177.3 L39.7 168.7 L26.7 166.2 L36.8 157.6 L23.7 155.1 L28 148"/>
+		<path pathLength="1" d="M128 48 L130 51.5 M131.5 54.1 L133.5 57.5 M135 60.1 L137 63.6 M138.5 66.2 L140.5 69.7 M142 72.2 L144 75.7 M145.5 78.3 L147.5 81.8 M149 84.4 L151 87.8 M152.5 90.4 L154.5 93.9 M156 96.5 L158 100 M159.5 102.6 L161.5 106 M163 108.6 L165 112.1 M166.5 114.7 L168.5 118.1 M170 120.7 L172 124.2 M173.5 126.8 L175.5 130.3 M177 132.9 L179 136.3 M180.5 138.9 L182.5 142.4 M184 145 L186 148.5 M187.5 151.1 L189.5 154.5 M191 157.1 L193 160.6 M194.5 163.2 L196.5 166.6 M198 169.2 L200 172.7 M201.5 175.3 L203.5 178.8 M205 181.4 L207 184.8 M208.5 187.4 L210.5 190.9 M212 193.5 L214 197"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="128" y="36" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C</text>
+		<text x="185.5" y="51.4" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">G</text>
+		<text x="227.6" y="93.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">D</text>
+		<text x="243" y="151" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">A</text>
+		<text x="227.6" y="208.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">E</text>
+		<text x="185.5" y="250.6" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B</text>
+		<text x="128" y="266" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">F♯</text>
+		<text x="70.5" y="250.6" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C♯</text>
+		<text x="28.4" y="208.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">G♯</text>
+		<text x="13" y="151" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">E♭</text>
+		<text x="28.4" y="93.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">B♭</text>
+		<text x="70.5" y="51.4" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">F</text>
+		<text x="122" y="104" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">C:E = 5:4</text>
+		<text x="48.7" y="177" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WOLF</text>
+		<text x="318" y="66" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PURE FIFTH</text>
+		<text x="318" y="78" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3:2 = 1.5000</text>
+		<text x="318" y="100" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MEANTONE FIFTH</text>
+		<text x="318" y="112" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1.4953</text>
+		<text x="318" y="134" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FOUR FIFTHS</text>
+		<text x="318" y="146" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1.4953^4 = 5</text>
+		<text x="318" y="168" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TWO OCTAVES DOWN</text>
+		<text x="318" y="180" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">5:4, PURE</text>
+		<text x="318" y="202" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WOLF G♯-E♭</text>
+		<text x="318" y="214" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1.5312</text>
+		<text x="200" y="290" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">QUARTER-COMMA MEANTONE · ELEVEN NARROW FIFTHS AND A WOLF</text>
+	</g>
+</svg>

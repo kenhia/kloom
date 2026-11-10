@@ -1,0 +1,214 @@
+{
+	"id": "meantone",
+	"topic": "Meantone temperament",
+	"position": {
+		"label": "1523",
+		"sort": 1523
+	},
+	"scene": {
+		"headline": "We bought sweet thirds with a",
+		"accent": "WOLF.",
+		"palette": "monochord",
+		"illustration": "scene.svg",
+		"metadata": [
+			"VENICE · SALAMANCA · ARON · ZARLINO · SALINAS",
+			"EVERY FIFTH A QUARTER-COMMA NARROW · THIRDS 5:4"
+		],
+		"counter": {
+			"value": "1/4",
+			"label": "of a syntonic comma off every fifth"
+		}
+	},
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Meantone temperament",
+			"url": "https://en.wikipedia.org/w/index.php?title=Meantone_temperament&oldid=1379554735",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-10",
+			"key": true,
+			"note": "Aron, Zarlino, Salinas and the quarter-comma arithmetic"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "On the Sensations of Tone as a Physiological Basis for the Theory of Music",
+			"authors": [
+				{
+					"family": "Helmholtz",
+					"given": "Hermann von"
+				}
+			],
+			"translators": [
+				{
+					"family": "Ellis",
+					"given": "Alexander J."
+				}
+			],
+			"edition": "3rd ed.",
+			"publisher": "Longmans, Green, and Co.",
+			"place": "London",
+			"published": "1895",
+			"url": "https://archive.org/details/onsensationsofto00helmrich",
+			"accessed": "2026-11-10",
+			"note": "Ellis's additions of 1885: the meantone temperament, p. 434; its history and the history of equal temperament in England, pp. 546–549"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wolf interval",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wolf_interval&oldid=1368205806",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Syntonic comma",
+			"url": "https://en.wikipedia.org/w/index.php?title=Syntonic_comma&oldid=1357686939",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pietro Aron",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pietro_Aron&oldid=1375081678",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gioseffo Zarlino",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gioseffo_Zarlino&oldid=1369333028",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Francisco de Salinas",
+			"url": "https://en.wikipedia.org/w/index.php?title=Francisco_de_Salinas&oldid=1298429926",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-07-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Archicembalo",
+			"url": "https://en.wikipedia.org/w/index.php?title=Archicembalo&oldid=1362391385",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Split sharp",
+			"url": "https://en.wikipedia.org/w/index.php?title=Split_sharp&oldid=1242518509",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-08-27"
+		},
+		{
+			"kind": "book",
+			"title": "Toscanello in musica",
+			"authors": [
+				{
+					"family": "Aron",
+					"given": "Pietro"
+				}
+			],
+			"place": "Venice",
+			"published": "1523",
+			"language": "it",
+			"citedIn": "Meantone temperament"
+		},
+		{
+			"kind": "book",
+			"title": "Le istitutioni harmoniche",
+			"authors": [
+				{
+					"family": "Zarlino",
+					"given": "Gioseffo"
+				}
+			],
+			"place": "Venice",
+			"published": "1558",
+			"language": "it",
+			"citedIn": "Gioseffo Zarlino"
+		},
+		{
+			"kind": "book",
+			"title": "De musica libri septem",
+			"authors": [
+				{
+					"family": "Salinas",
+					"given": "Francisco de"
+				}
+			],
+			"place": "Salamanca",
+			"published": "1577",
+			"language": "la",
+			"citedIn": "On the Sensations of Tone as a Physiological Basis for the Theory of Music"
+		},
+		{
+			"kind": "media",
+			"title": "Zarlino's numero senario",
+			"container": "Gioseffo Zarlino, Le istitutioni harmoniche (Venice, 1589)",
+			"published": "1589",
+			"url": "https://commons.wikimedia.org/wiki/File:Zarlino_numero_senario.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC0",
+			"file": "senario.jpg"
+		}
+	]
+}

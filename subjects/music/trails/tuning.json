@@ -1,0 +1,16 @@
+{
+	"id": "tuning",
+	"title": "Tuning",
+	"anchor": "pythagoras-ratios",
+	"spine": {
+		"segments": [
+			{
+				"id": "tuning-seg",
+				"title": "Tempering the scale",
+				"labelKind": "date",
+				"palette": "monochord",
+				"frames": ["ptolemy-harmonics", "meantone", "equal-temperament"]
+			}
+		]
+	}
+}
