@@ -82,7 +82,15 @@
 			"title": "Digital",
 			"labelKind": "date",
 			"palette": "pixel",
-			"frames": ["computer-music", "fm-synthesis", "compact-disc", "midi"]
+			"frames": [
+				"computer-music",
+				"fm-synthesis",
+				"compact-disc",
+				"midi",
+				"mp3",
+				"streaming",
+				"ai-music"
+			]
 		}
 	]
 }

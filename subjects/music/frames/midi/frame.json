@@ -19,6 +19,12 @@
 			"label": "bytes to play one note"
 		}
 	},
+	"connections": [
+		{
+			"to": "music/moog",
+			"why": "Robert Moog announced MIDI to keyboard players in Keyboard magazine."
+		}
+	],
 	"citations": [
 		{
 			"kind": "web",

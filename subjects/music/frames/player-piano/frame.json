@@ -10,7 +10,10 @@
 		"accent": "ITSELF.",
 		"palette": "salon",
 		"illustration": "scene.svg",
-		"metadata": ["DETROIT · NEW YORK · FREIBURG", "VOTEY'S PIANOLA · THE WELTE-MIGNON"],
+		"metadata": [
+			"DETROIT · NEW YORK · FREIBURG",
+			"VOTEY'S PIANOLA · THE WELTE-MIGNON"
+		],
 		"counter": {
 			"value": "184,000",
 			"label": "player pianos made in the US in 1923"
@@ -24,6 +27,10 @@
 		{
 			"to": "music/radio-music",
 			"why": "Radio and the Depression ended the player piano's boom."
+		},
+		{
+			"to": "music/midi",
+			"why": "MIDI software shows notes as a piano roll."
 		}
 	],
 	"citations": [

@@ -1,0 +1,8 @@
+{
+	"id": "modified-discrete-cosine-transform",
+	"wikidata": "Q1268231",
+	"name": "Modified discrete cosine transform",
+	"aliases": ["MDCT"],
+	"kind": "idea",
+	"description": "A lapped transform, based on the discrete cosine transform, that turns overlapping blocks of a signal into frequency components; MP3, AAC and other audio codecs use it."
+}

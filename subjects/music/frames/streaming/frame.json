@@ -1,0 +1,244 @@
+{
+	"id": "streaming",
+	"topic": "Streaming",
+	"position": {
+		"label": "2008",
+		"sort": 2008
+	},
+	"asOf": "2026-11-10",
+	"scene": {
+		"headline": "We traded ownership for",
+		"accent": "ACCESS.",
+		"palette": "pixel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"STOCKHOLM · DANIEL EK · MARTIN LORENTZON",
+			"ITUNES · SPOTIFY · ONE POOL, SPLIT BY STREAMSHARE"
+		],
+		"counter": {
+			"value": "306 million",
+			"label": "paying Spotify subscribers, September 2026"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/smartphone",
+			"why": "Apple announced the iPhone in 2007 as, in part, \"a widescreen iPod\": the pocket music player that carried the iTunes era became one function of the phone."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Apple Launches the iTunes Music Store",
+			"container": "Apple Newsroom",
+			"publisher": "Apple",
+			"published": "2003-04-28",
+			"url": "https://www.apple.com/newsroom/2003/04/28Apple-Launches-the-iTunes-Music-Store/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Apple Presents iPod",
+			"container": "Apple Newsroom",
+			"publisher": "Apple",
+			"published": "2001-10-23",
+			"url": "https://www.apple.com/newsroom/2001/10/23Apple-Presents-iPod/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Spotify Reports Third Quarter 2026 Earnings",
+			"container": "Spotify Newsroom",
+			"publisher": "Spotify",
+			"published": "2026-10-22",
+			"url": "https://newsroom.spotify.com/2026-10-22/spotify-q3-2026-earnings/",
+			"accessed": "2026-11-10",
+			"note": "306 million Premium subscribers and 788 million monthly active users"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Loud & Clear: FAQ",
+			"container": "Loud & Clear",
+			"publisher": "Spotify",
+			"published": "2026",
+			"url": "https://loudandclear.byspotify.com/faq/",
+			"accessed": "2026-11-10",
+			"note": "Streamshare, the two-thirds paid out, and the per-stream rate as Spotify explains it"
+		},
+		{
+			"kind": "web",
+			"title": "Loud & Clear: The Takeaways",
+			"container": "Loud & Clear",
+			"publisher": "Spotify",
+			"published": "2026",
+			"url": "https://loudandclear.byspotify.com/takeaways/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Loud & Clear: The Process",
+			"container": "Loud & Clear",
+			"publisher": "Spotify",
+			"published": "2026",
+			"url": "https://loudandclear.byspotify.com/process/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Economics of Music Streaming",
+			"publisher": "House of Commons, Digital, Culture, Media and Sport Committee",
+			"place": "London",
+			"number": "HC 50, Second Report of Session 2021–22",
+			"published": "2021-07-15",
+			"url": "https://publications.parliament.uk/pa/cm5802/cmselect/cmcumeds/50/5002.htm",
+			"accessed": "2026-11-10",
+			"note": "Where a subscription goes (§26) and performers' royalty rates (§44)"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Year-End 2025 RIAA Recorded Music Revenue Report",
+			"publisher": "Recording Industry Association of America",
+			"published": "2026-03",
+			"url": "https://www.riaa.com/wp-content/uploads/2026/03/RIAA-Year-End-Revenue-2025.pdf",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "U.S. Sales Database",
+			"container": "RIAA",
+			"publisher": "Recording Industry Association of America",
+			"url": "https://www.riaa.com/u-s-sales-database/",
+			"accessed": "2026-11-10",
+			"note": "Revenue by format, 1973–2025, wholesale and adjusted for inflation; values read from its chart's data labels"
+		},
+		{
+			"kind": "web",
+			"title": "Spotify Says Its Payouts Are Getting Better, but Artists Still Disagree",
+			"authors": [
+				{
+					"family": "Malik",
+					"given": "Aisha"
+				}
+			],
+			"container": "TechCrunch",
+			"published": "2025-03-11",
+			"url": "https://techcrunch.com/2025/03/11/spotify-says-its-payouts-are-getting-better-but-artists-still-disagree",
+			"accessed": "2026-11-10",
+			"note": "Duetti's per-stream figures and Spotify's reply"
+		},
+		{
+			"kind": "web",
+			"title": "Modernizing Our Royalty System to Drive an Additional $1 Billion toward Emerging and Professional Artists",
+			"container": "Spotify for Artists",
+			"publisher": "Spotify",
+			"published": "2023-11-21",
+			"url": "https://artists.spotify.com/en/blog/modernizing-our-royalty-system",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "article",
+			"title": "Drawing Listener Attention in Popular Music: Testing Five Musical Features Arising from the Theory of Attention Economy",
+			"authors": [
+				{
+					"family": "Léveillé Gauvin",
+					"given": "Hubert"
+				}
+			],
+			"container": "Musicae Scientiae",
+			"volume": "22",
+			"issue": "3",
+			"pages": "291–304",
+			"published": "2018-09",
+			"doi": "10.1177/1029864917698010",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "Has Music Streaming Killed the Instrumental Intro?",
+			"container": "EurekAlert!",
+			"publisher": "Ohio State University",
+			"published": "2017-04-04",
+			"url": "https://www.eurekalert.org/news-releases/856169",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Spotify",
+			"url": "https://en.wikipedia.org/w/index.php?title=Spotify&oldid=1384652058",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09",
+			"key": true,
+			"note": "Founding, launch dates and royalty model"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Daniel Ek",
+			"url": "https://en.wikipedia.org/w/index.php?title=Daniel_Ek&oldid=1374367866",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "ITunes Store",
+			"url": "https://en.wikipedia.org/w/index.php?title=ITunes_Store&oldid=1384560160",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "IPod",
+			"url": "https://en.wikipedia.org/w/index.php?title=IPod&oldid=1384601929",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "media",
+			"title": "US recorded-music revenue by format, 1999–2025, in 2025 dollars",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "RIAA U.S. Sales Database, US Recorded Music Revenues 1973–2025, adjusted for inflation",
+			"url": "https://www.riaa.com/u-s-sales-database/",
+			"accessed": "2026-11-10",
+			"licence": "MIT",
+			"file": "us-revenue.svg"
+		}
+	]
+}

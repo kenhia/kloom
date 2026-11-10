@@ -1,0 +1,63 @@
+{
+	"title": "US recorded-music revenue by format, 1999–2025, in 2025 dollars",
+	"description": "Grouped bar chart of wholesale revenue in billions of 2025 dollars, as the RIAA's sales database adjusts it for inflation. Physical: 16.01 in 1999, 10.55 in 2005, 3.10 in 2010, 1.49 in 2015, 0.90 in 2020, 1.38 in 2025. Downloads: none in 1999, 0.95, 2.74, 2.24, 0.60, 0.27. Streaming: none in 1999 and 2005, then 0.52, 2.46, 8.19 and 9.47. Synchronization, 0.41 in 2025, is left out. Data: RIAA U.S. Sales Database.",
+	"heading": "US · $ BILLIONS, 2025 DOLLARS",
+	"unit": "",
+	"width": 600,
+	"axis": {
+		"max": 18,
+		"ticks": [
+			[0, "0"],
+			[5, "5"],
+			[10, "10"],
+			[15, "15"]
+		]
+	},
+	"series": [
+		{
+			"label": "PHYSICAL"
+		},
+		{
+			"label": "STREAMING"
+		},
+		{
+			"label": "DOWNLOADS"
+		}
+	],
+	"bars": [
+		{
+			"label": "1999",
+			"values": [16.01, 0, 0],
+			"displays": ["16.0", "", ""]
+		},
+		{
+			"label": "2005",
+			"values": [10.55, 0, 0.95],
+			"displays": ["10.6", "", "0.9"]
+		},
+		{
+			"label": "2010",
+			"values": [3.1, 0.52, 2.74],
+			"displays": ["3.1", "0.5", "2.7"]
+		},
+		{
+			"label": "2015",
+			"values": [1.49, 2.46, 2.24],
+			"displays": ["1.5", "2.5", "2.2"]
+		},
+		{
+			"label": "2020",
+			"values": [0.9, 8.19, 0.6],
+			"displays": ["0.9", "8.2", "0.6"]
+		},
+		{
+			"label": "2025",
+			"values": [1.38, 9.47, 0.27],
+			"displays": ["1.4", "9.5", "0.3"]
+		}
+	],
+	"source": {
+		"container": "RIAA U.S. Sales Database, US Recorded Music Revenues 1973–2025, adjusted for inflation",
+		"url": "https://www.riaa.com/u-s-sales-database/"
+	}
+}

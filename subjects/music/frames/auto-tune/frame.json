@@ -27,6 +27,10 @@
 		{
 			"to": "music/equal-temperament",
 			"why": "Auto-Tune pulls a sung pitch to the nearest semitone of equal temperament."
+		},
+		{
+			"to": "music/midi",
+			"why": "The Auto-Tune patent can take its target note from a keyboard by MIDI."
 		}
 	],
 	"citations": [
