@@ -1,0 +1,222 @@
+{
+	"id": "josquin",
+	"topic": "Josquin des Prez",
+	"position": {
+		"label": "1502",
+		"sort": 1502
+	},
+	"scene": {
+		"headline": "Print made Josquin",
+		"accent": "FAMOUS.",
+		"palette": "woodcut",
+		"illustration": "scene.svg",
+		"metadata": ["MILAN · ROME · FERRARA · CONDÉ", "MISSE JOSQUIN · PETRUCCI · VENICE 1502"],
+		"counter": {
+			"value": "370",
+			"label": "works once called his; fewer than 200 now"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/renaissance-painting",
+			"why": "Josquin sang in the papal choir in the 1490s and may have scratched his name in the Sistine Chapel's singers' gallery, whose ceiling Michelangelo began in 1508; the humanist Cosimo Bartoli called Josquin Michelangelo's equal in music."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Josquin des Prez",
+			"url": "https://en.wikipedia.org/w/index.php?title=Josquin_des_Prez&oldid=1382141427",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-26",
+			"key": true,
+			"note": "His career, the letters from Ferrara, Luther's and Glarean's praise, and the attributions"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ave Maria ... virgo serena",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ave_Maria_..._virgo_serena&oldid=1370220818",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-19",
+			"key": true,
+			"note": "Its place at the head of Petrucci's Motetti A, its dating and its form"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Ave Maria … virgo serena (Jos2306)",
+			"container": "Josquin Research Project",
+			"publisher": "Stanford University",
+			"url": "https://github.com/josquin-research-project/jrp-scores/blob/master/Jos/Jos2306-Ave_Maria_..._virgo_serena.krn",
+			"accessed": "2026-11-10",
+			"note": "Encoded by Jesse Rodin and Victoria Chang from the New Josquin Edition, 23.6; the entries, the duets and the triple meter read from it"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Ausgewählte Werke, vol. 3: Luthers Leben in Predigten",
+			"authors": [
+				{
+					"family": "Mathesius",
+					"given": "Johannes"
+				}
+			],
+			"editors": [
+				{
+					"family": "Loesche",
+					"given": "Georg"
+				}
+			],
+			"edition": "2nd ed.",
+			"place": "Prague",
+			"publisher": "J. G. Calve",
+			"published": "1906",
+			"url": "https://archive.org/details/ausgewhltewerke00loesgoog",
+			"accessed": "2026-11-10",
+			"language": "de",
+			"note": "The eleventh sermon, under 1540, p. 300: Luther on Josquin, quoted in our translation"
+		},
+		{
+			"kind": "article",
+			"title": "Casting the Bigger Shadow: The Methods and Business of Petrucci vs. Attaingnant",
+			"authors": [
+				{
+					"family": "Kisch",
+					"given": "Sean A."
+				}
+			],
+			"container": "Musical Offerings",
+			"volume": "7",
+			"issue": "2",
+			"pages": "67–81",
+			"published": "2016",
+			"doi": "10.15385/jmo.2016.7.2.2",
+			"url": "https://digitalcommons.cedarville.edu/musicalofferings/vol7/iss2/2",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "article",
+			"title": "Petrucci and His Shadow: A Case Study of Reception History",
+			"authors": [
+				{
+					"family": "Mouser",
+					"given": "Marilee J."
+				}
+			],
+			"container": "Fontes Artis Musicae",
+			"volume": "51",
+			"issue": "1",
+			"published": "2004",
+			"citedIn": "Casting the Bigger Shadow: The Methods and Business of Petrucci vs. Attaingnant"
+		},
+		{
+			"kind": "article",
+			"title": "Iudochus de Picardia and Jossequin Lebloitte dit Desprez: The Names of the Singer(s)",
+			"authors": [
+				{
+					"family": "Matthews",
+					"given": "Lora"
+				},
+				{
+					"family": "Merkley",
+					"given": "Paul"
+				}
+			],
+			"container": "The Journal of Musicology",
+			"volume": "16",
+			"issue": "2",
+			"pages": "200–226",
+			"published": "1998",
+			"doi": "10.2307/764140",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "recording",
+			"title": "Ave Maria",
+			"authors": [
+				{
+					"name": "The Primavera Singers of the New York Pro Musica Antiqua"
+				},
+				{
+					"family": "Greenberg",
+					"given": "Noah"
+				}
+			],
+			"container": "Anthology of Renaissance Music",
+			"publisher": "Dover Publications",
+			"number": "HCR-5248",
+			"published": "1965",
+			"url": "https://archive.org/details/lp_anthology-of-renaissance-music_guillaume-dufay-josquin-des-pres-roland",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Josquin's Ave Maria … virgo serena; its liner notes, by Edward R. Lerner, were read"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Johannes Mathesius",
+			"url": "https://en.wikipedia.org/w/index.php?title=Johannes_Mathesius&oldid=1346591860",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Heinrich Glarean",
+			"url": "https://en.wikipedia.org/w/index.php?title=Heinrich_Glarean&oldid=1301886552",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-07-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "List of publications by Ottaviano Petrucci",
+			"url": "https://en.wikipedia.org/w/index.php?title=List_of_publications_by_Ottaviano_Petrucci&oldid=1286872172",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-04-22"
+		},
+		{
+			"kind": "media",
+			"title": "Josquin des Prez",
+			"container": "Petrus Opmeer, Opus chronographicum orbis universi (Antwerp, 1611)",
+			"published": "1611",
+			"url": "https://commons.wikimedia.org/wiki/File:Josquin_woodcut.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "josquin-woodcut.jpg"
+		}
+	]
+}

@@ -1,0 +1,233 @@
+{
+	"id": "petrucci",
+	"topic": "Petrucci's printed music",
+	"position": {
+		"label": "1501",
+		"sort": 1501
+	},
+	"scene": {
+		"headline": "Music went to",
+		"accent": "PRESS.",
+		"palette": "woodcut",
+		"illustration": "scene.svg",
+		"metadata": ["VENICE · OTTAVIANO PETRUCCI", "HARMONICE MUSICES ODHECATON A · 15 MAY 1501"],
+		"counter": {
+			"value": "96",
+			"label": "songs in the book of a hundred songs"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/printing-press",
+			"why": "Petrucci brought to polyphonic music, in Venice in 1501, the printing from movable metal type that Gutenberg's press had brought to words half a century before."
+		},
+		{
+			"to": "western-civ/gutenberg-bible",
+			"why": "Fust and Schöffer, who took over Gutenberg's equipment after the Bible, printed the Mainz Psalter of 1457 with its chant left to be written in by hand, as the Bible's red headings were."
+		},
+		{
+			"to": "chemistry/type-metal",
+			"why": "Petrucci's note type was cast, by Stanley Boorman's reading, from metal hardened with \"fused marcasite of antimony\", the ingredient of Biringuccio's 1540 recipe for type metal."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Harmonice Musices Odhecaton A",
+			"place": "Venice",
+			"publisher": "Ottaviano Petrucci",
+			"published": "1504-05-25",
+			"url": "https://gallica.bnf.fr/ark:/12148/btv1b55007217d",
+			"accessed": "2026-11-10",
+			"language": "la",
+			"note": "The third edition, in the Bibliothèque nationale de France's copy: Petrucci's dedication of 15 May 1501 and Budrio's letter, ff. 1v–2r, read in our translation; the blank staves of f. 3r"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Casting the Bigger Shadow: The Methods and Business of Petrucci vs. Attaingnant",
+			"authors": [
+				{
+					"family": "Kisch",
+					"given": "Sean A."
+				}
+			],
+			"container": "Musical Offerings",
+			"volume": "7",
+			"issue": "2",
+			"pages": "67–81",
+			"published": "2016",
+			"doi": "10.15385/jmo.2016.7.2.2",
+			"url": "https://digitalcommons.cedarville.edu/musicalofferings/vol7/iss2/2",
+			"accessed": "2026-11-10",
+			"note": "The three impressions and the setting of notes, after Boorman, pp. 68–71; Attaingnant's single impression, pp. 71–74"
+		},
+		{
+			"kind": "book",
+			"title": "Ottaviano Petrucci: Catalogue Raisonné",
+			"authors": [
+				{
+					"family": "Boorman",
+					"given": "Stanley"
+				}
+			],
+			"place": "New York",
+			"publisher": "Oxford University Press",
+			"published": "2006",
+			"citedIn": "Casting the Bigger Shadow: The Methods and Business of Petrucci vs. Attaingnant"
+		},
+		{
+			"kind": "encyclopedia",
+			"title": "Petrucci, Ottaviano dei",
+			"authors": [
+				{
+					"family": "Grove",
+					"given": "George"
+				}
+			],
+			"container": "A Dictionary of Music and Musicians",
+			"editors": [
+				{
+					"family": "Grove",
+					"given": "George"
+				}
+			],
+			"volume": "2",
+			"place": "London",
+			"publisher": "Macmillan",
+			"published": "1880",
+			"url": "https://en.wikisource.org/wiki/A_Dictionary_of_Music_and_Musicians/Petrucci,_Ottaviano_dei",
+			"accessed": "2026-11-10",
+			"note": "The privilege of 1498 and the move to Fossombrone"
+		},
+		{
+			"kind": "web",
+			"title": "Brumel, Misse (Venice: Petrucci, 1503)",
+			"container": "PRoMs: The Production and Reading of Music Sources",
+			"url": "https://proms.ac.uk/mspart/370",
+			"accessed": "2026-11-10",
+			"note": "Petrucci changing from triple to double impression during the printing, after Boorman"
+		},
+		{
+			"kind": "recording",
+			"title": "Songs from Odhecaton A (1501) and Canti B (1502)",
+			"authors": [
+				{
+					"name": "New York Pro Musica"
+				},
+				{
+					"family": "White",
+					"given": "John Reeves"
+				}
+			],
+			"container": "Petrucci, First Printer of Music",
+			"publisher": "Decca",
+			"number": "DL 79435",
+			"published": "1969",
+			"url": "https://archive.org/details/lp_petrucci-first-printer-of-music_new-york-pro-musica-john-reeves-white",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ottaviano Petrucci",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ottaviano_Petrucci&oldid=1368360845",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Harmonice Musices Odhecaton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Harmonice_Musices_Odhecaton&oldid=1371672358",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pierre Attaingnant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pierre_Attaingnant&oldid=1337618927",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sheet music",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sheet_music&oldid=1382305504",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mainz Psalter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mainz_Psalter&oldid=1384745429",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ulrich Han",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ulrich_Han&oldid=1383488203",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-02"
+		},
+		{
+			"kind": "media",
+			"title": "Harmonice Musices Odhecaton A: Marbrianus de Orto, Ave Maria, superius and tenor",
+			"authors": [
+				{
+					"family": "Petrucci",
+					"given": "Ottaviano"
+				}
+			],
+			"container": "Harmonice Musices Odhecaton A (Venice, 1504), Bibliothèque nationale de France",
+			"published": "1504",
+			"url": "https://commons.wikimedia.org/wiki/File:Harmonice_musices_-_Odhecaton_-_A_-_Au_colophon_-_Impssum_Venetiis_per_octavianum_Petrutium_forosemp(ro)nien_-_sem_1504_die_25_maij_-_Marque_de_Petrucci_-_btv1b55007217d_(006_of_208).jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "odhecaton-page.jpg"
+		}
+	]
+}
