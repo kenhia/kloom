@@ -9,7 +9,14 @@
 				"title": "Tempering the scale",
 				"labelKind": "date",
 				"palette": "monochord",
-				"frames": ["ptolemy-harmonics", "meantone", "equal-temperament"]
+				"frames": [
+					"ptolemy-harmonics",
+					"meantone",
+					"equal-temperament",
+					"well-temperament",
+					"helmholtz-tone",
+					"ellis-cents"
+				]
 			}
 		]
 	}

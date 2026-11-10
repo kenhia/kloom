@@ -1,0 +1,190 @@
+{
+	"id": "helmholtz-tone",
+	"topic": "Helmholtz's Sensations of Tone",
+	"position": {
+		"label": "1863",
+		"sort": 1863
+	},
+	"scene": {
+		"headline": "We heard the",
+		"accent": "OVERTONES.",
+		"palette": "monochord",
+		"illustration": "scene.svg",
+		"metadata": ["HEIDELBERG · HERMANN VON HELMHOLTZ", "DIE LEHRE VON DEN TONEMPFINDUNGEN · 1863"],
+		"counter": {
+			"value": "33",
+			"label": "beats a second, the roughest"
+		}
+	},
+	"connections": [
+		{
+			"to": "mathematics/fourier",
+			"why": "Helmholtz built his account of tone on Fourier's theorem, which he quotes: any periodic vibration is a sum of simple ones at whole-number multiples of its frequency, and the ear hears those partials."
+		},
+		{
+			"to": "physics/energy",
+			"why": "The author of Sensations of Tone is the young physiologist whose 1847 memoir on the conservation of force that frame describes, and this reading names it."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "On the Sensations of Tone as a Physiological Basis for the Theory of Music",
+			"authors": [
+				{
+					"family": "Helmholtz",
+					"given": "Hermann L. F."
+				}
+			],
+			"translators": [
+				{
+					"family": "Ellis",
+					"given": "Alexander J."
+				}
+			],
+			"edition": "2nd English ed.",
+			"place": "London",
+			"publisher": "Longmans, Green",
+			"published": "1885",
+			"url": "https://archive.org/details/onsensationston00unkngoog",
+			"accessed": "2026-11-10",
+			"note": "Resonators, pp. 43–44; Fourier, p. 34; vowels, pp. 122–123; the ear and the piano, p. 129; roughness, pp. 170, 192–194 and app. XV"
+		},
+		{
+			"kind": "book",
+			"title": "Die Lehre von den Tonempfindungen als physiologische Grundlage für die Theorie der Musik",
+			"authors": [
+				{
+					"family": "Helmholtz",
+					"given": "Hermann"
+				}
+			],
+			"place": "Braunschweig",
+			"publisher": "Friedrich Vieweg und Sohn",
+			"published": "1863",
+			"language": "de",
+			"url": "https://archive.org/details/b2811677x",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "book",
+			"title": "On the Sensations of Tone as a Physiological Basis for the Theory of Music",
+			"authors": [
+				{
+					"family": "Helmholtz",
+					"given": "Hermann L. F."
+				}
+			],
+			"translators": [
+				{
+					"family": "Ellis",
+					"given": "Alexander J."
+				}
+			],
+			"place": "London",
+			"publisher": "Longmans, Green",
+			"published": "1875",
+			"url": "https://archive.org/details/onsensationston00helmgoog",
+			"accessed": "2026-11-10",
+			"note": "The first English edition, from the third German edition"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sensations of Tone",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sensations_of_Tone&oldid=1336525272",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-04",
+			"key": true,
+			"note": "Its editions, German and English"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hermann von Helmholtz",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hermann_von_Helmholtz&oldid=1378778432",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Helmholtz resonance",
+			"url": "https://en.wikipedia.org/w/index.php?title=Helmholtz_resonance&oldid=1374256008",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ohm's acoustic law",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ohm's_acoustic_law&oldid=1238424039",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-08-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Georg von Békésy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Georg_von_B%C3%A9k%C3%A9sy&oldid=1381481078",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-22"
+		},
+		{
+			"kind": "media",
+			"title": "A selection of Helmholtz resonators from 1870, Hunterian Museum, Glasgow",
+			"authors": [
+				{
+					"name": "Stephencdickson"
+				}
+			],
+			"container": "Hunterian Museum, University of Glasgow",
+			"published": "2018-03-16",
+			"url": "https://commons.wikimedia.org/wiki/File:A_selection_of_Helmholtz_resonators_from_1870,_Hunterian_Museum,_Glasgow.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC BY-SA 4.0",
+			"file": "resonators.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Roughness of two tones across an octave, computed from Helmholtz's rule (chart)",
+			"container": "Computed for kloom from Helmholtz, On the Sensations of Tone (1885), pp. 192–193 and app. XV",
+			"url": "https://archive.org/details/onsensationston00unkngoog",
+			"accessed": "2026-11-10",
+			"licence": "MIT",
+			"file": "roughness.svg"
+		}
+	]
+}

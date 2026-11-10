@@ -1,0 +1,331 @@
+{
+	"id": "well-temperament",
+	"topic": "Werckmeister and well temperament",
+	"position": {
+		"label": "1691",
+		"sort": 1691
+	},
+	"scene": {
+		"headline": "We gave each key a",
+		"accent": "CHARACTER.",
+		"palette": "monochord",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ANDREAS WERCKMEISTER · MUSICALISCHE TEMPERATUR",
+			"FOUR FIFTHS NARROWED · EIGHT PURE"
+		],
+		"counter": {
+			"value": "¼",
+			"label": "of a comma off each of four fifths"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Tuning and Temperament: A Historical Survey",
+			"authors": [
+				{
+					"family": "Barbour",
+					"given": "J. Murray"
+				}
+			],
+			"place": "East Lansing",
+			"publisher": "Michigan State College Press",
+			"published": "1951",
+			"url": "https://archive.org/details/tuningtemperamen00barb",
+			"accessed": "2026-11-10",
+			"note": "Werckmeister's temperaments, pp. 159–162; Werckmeister and Bach on well tuning, pp. 194–196"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Werckmeister temperament",
+			"url": "https://en.wikipedia.org/w/index.php?title=Werckmeister_temperament&oldid=1367007621",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-31",
+			"key": true,
+			"note": "The fifths and thirds of Werckmeister III and the monochord's rows"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Well temperament",
+			"url": "https://en.wikipedia.org/w/index.php?title=Well_temperament&oldid=1382018529",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Well-Tempered Clavier",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Well-Tempered_Clavier&oldid=1377523452",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29",
+			"key": true,
+			"note": "The title-page readings of Lehman and others, and their critics"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kirnberger temperament",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kirnberger_temperament&oldid=1374212157",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vallotti temperament",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vallotti_temperament&oldid=1367020608",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Andreas Werckmeister",
+			"url": "https://en.wikipedia.org/w/index.php?title=Andreas_Werckmeister&oldid=1338833104",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Christian Friedrich Daniel Schubart",
+			"url": "https://en.wikipedia.org/w/index.php?title=Christian_Friedrich_Daniel_Schubart&oldid=1372013378",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "book",
+			"title": "Musicalische Temperatur",
+			"authors": [
+				{
+					"family": "Werckmeister",
+					"given": "Andreas"
+				}
+			],
+			"place": "Frankfurt and Leipzig",
+			"publisher": "Theodor Philipp Calvisius",
+			"published": "1691",
+			"language": "de",
+			"citedIn": "Tuning and Temperament: A Historical Survey"
+		},
+		{
+			"kind": "article",
+			"title": "Outlines of Experiments and Inquiries Respecting Sound and Light",
+			"authors": [
+				{
+					"family": "Young",
+					"given": "Thomas"
+				}
+			],
+			"container": "Philosophical Transactions of the Royal Society of London",
+			"volume": "90",
+			"published": "1800",
+			"citedIn": "Tuning and Temperament: A Historical Survey"
+		},
+		{
+			"kind": "book",
+			"title": "C. F. D. Schubart's Ideen zu einer Aesthetik der Tonkunst",
+			"authors": [
+				{
+					"family": "Schubart",
+					"given": "Christian Friedrich Daniel"
+				}
+			],
+			"editors": [
+				{
+					"family": "Schubart",
+					"given": "Ludwig"
+				}
+			],
+			"place": "Stuttgart",
+			"publisher": "Scheible",
+			"published": "1839",
+			"language": "de",
+			"url": "https://archive.org/details/bub_gb_uDg9AAAAcAAJ",
+			"accessed": "2026-11-10",
+			"key": true,
+			"note": "The characters of the keys, pp. 381–383; first printed in Vienna in 1806"
+		},
+		{
+			"kind": "article",
+			"title": "Bach's Extraordinary Temperament: Our Rosetta Stone—1",
+			"authors": [
+				{
+					"family": "Lehman",
+					"given": "Bradley"
+				}
+			],
+			"container": "Early Music",
+			"volume": "33",
+			"issue": "1",
+			"pages": "3–23",
+			"published": "2005-02",
+			"doi": "10.1093/em/cah037",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "article",
+			"title": "Bach's Extraordinary Temperament: Our Rosetta Stone—2",
+			"authors": [
+				{
+					"family": "Lehman",
+					"given": "Bradley"
+				}
+			],
+			"container": "Early Music",
+			"volume": "33",
+			"issue": "2",
+			"pages": "211–231",
+			"published": "2005-05",
+			"doi": "10.1093/em/cah067",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "web",
+			"title": "Johann Sebastian Bach's Tuning",
+			"authors": [
+				{
+					"family": "Lehman",
+					"given": "Bradley"
+				}
+			],
+			"container": "LaripS.com",
+			"published": "2005",
+			"url": "http://www-personal.umich.edu/~bpl/larips/index.html",
+			"accessed": "2026-11-10",
+			"note": "Read in the Wayback Machine's copy of December 20, 2005; the tuning sequence, 1/6, 1/6, 1/6, 1/6, 1/6, 0, 0, 0, 1/12, 1/12, 1/12"
+		},
+		{
+			"kind": "article",
+			"title": "Tempering Bach's Temperament",
+			"authors": [
+				{
+					"family": "Lindley",
+					"given": "Mark"
+				}
+			],
+			"container": "Early Music",
+			"volume": "33",
+			"issue": "3",
+			"pages": "546",
+			"published": "2005-08",
+			"doi": "10.1093/em/cah137",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Bach-Style Keyboard Tuning",
+			"authors": [
+				{
+					"family": "Lindley",
+					"given": "Mark"
+				},
+				{
+					"family": "Ortgies",
+					"given": "Ibo"
+				}
+			],
+			"container": "Early Music",
+			"volume": "34",
+			"issue": "4",
+			"pages": "613–624",
+			"published": "2006-11",
+			"doi": "10.1093/em/cal065",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Bach's 'Rosetta Stone' Revisited",
+			"authors": [
+				{
+					"family": "Catch",
+					"given": "J. R."
+				}
+			],
+			"container": "Early Music",
+			"volume": "34",
+			"issue": "2",
+			"pages": "350",
+			"published": "2006-05",
+			"doi": "10.1093/em/cal024",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "New Organ, Opus 41, Features Recently Discovered Tuning Method",
+			"container": "Goshen College News",
+			"publisher": "Goshen College",
+			"published": "2005-04-20",
+			"url": "https://archive.goshen.edu/news/new-organ-opus-41-features-recently-discovered-tuning-method/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "media",
+			"title": "Monochord, plate from Werckmeister's Musicalische Temperatur",
+			"authors": [
+				{
+					"family": "Werckmeister",
+					"given": "Andreas"
+				}
+			],
+			"container": "Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden, MB.8.414, via Deutsche Fotothek",
+			"number": "df_tg_0008309",
+			"published": "1691",
+			"url": "https://commons.wikimedia.org/wiki/File:Fotothek_df_tg_0008309_Musik_%5E_Musikinstrument_%5E_Physik_%5E_Kanon.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "monochord.jpg"
+		}
+	]
+}
