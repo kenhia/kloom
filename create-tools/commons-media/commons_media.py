@@ -653,7 +653,7 @@ def fetch(title, frame_dir, name=None, width=None, accessed=None, page=None, jpe
         'kind': 'media',
         'title': clean_title(meta.get('ObjectName')) or os.path.splitext(title[5:])[0],
         'url': i['descriptionurl'] + (f'?page={page}' if paged else ''),
-        'accessed': accessed or datetime.date.today().isoformat(),
+        'accessed': accessed or datetime.datetime.now(datetime.timezone.utc).date().isoformat(),  # UTC, as wiki_cite (sprint 058)
         'licence': licence,
         'file': file,
     }

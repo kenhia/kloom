@@ -236,7 +236,7 @@ def stand_in(plan, subject_dir, anchor, today=None):
         'scene': {'headline': 'Not yet written', 'accent': f'STANDIN-{anchor.upper()}.',
                   'palette': entry.get('palette') or seg.get('palette') or palettes[0], 'illustration': 'scene.svg', 'metadata': []},
         'citations': [{'kind': 'web', 'key': True, 'title': 'A stand-in for a frame not yet written',
-                       'url': 'https://github.com/kenhia/kloom', 'accessed': (today or datetime.date.today()).isoformat()}],
+                       'url': 'https://github.com/kenhia/kloom', 'accessed': (today or datetime.datetime.now(datetime.timezone.utc).date()).isoformat()}],
     }
     os.makedirs(where, exist_ok=True)
     write(os.path.join(where, 'frame.json'), frame)

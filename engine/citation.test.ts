@@ -411,7 +411,7 @@ describe('citationProblems', () => {
 				authors: ['NASA']
 			})
 		).toEqual([
-			'kind must be one of web, wikipedia, book, article, chapter, report, media, letter, encyclopedia, diary, case, statute, treaty, lecture',
+			'kind must be one of web, wikipedia, book, article, chapter, report, media, letter, encyclopedia, diary, case, statute, treaty, lecture, recording',
 			'url must be http(s)',
 			'accessed date is required, as YYYY-MM-DD',
 			'published must be YYYY, YYYY-MM or YYYY-MM-DD, a shorter year (888), or a year BC (1550 BC)',
@@ -1039,6 +1039,44 @@ describe('the forms from The Story of Life (sprint 057)', () => {
 		expect(citationProblems({ ...web, occasion: 'Nobel Lecture' })).toContain(
 			'occasion is for a lecture'
 		);
+	});
+
+	it('sets a recording: performer, title, when recorded, label and number', () => {
+		const crazy: Citation = {
+			kind: 'recording',
+			title: 'Crazy Blues',
+			authors: [{ family: 'Smith', given: 'Mamie' }],
+			recorded: '1920-08-10',
+			publisher: 'Okeh',
+			number: '4169',
+			published: '1920',
+			url: 'https://example.org/crazy-blues',
+			accessed: '2026-11-10',
+			key: true
+		};
+		expect(citationProblems(crazy)).toEqual([]);
+		expect(chicago(crazy).filter((p) => p.italic)).toEqual([{ text: 'Crazy Blues', italic: true }]);
+		expect(chicagoText(crazy)).toBe(
+			'Smith, Mamie. Crazy Blues. Recorded August 10, 1920. Okeh 4169, 1920. ' +
+				'Accessed November 10, 2026. https://example.org/crazy-blues.'
+		);
+		expect(keySource(crazy)).toEqual({
+			title: 'Mamie Smith, Crazy Blues',
+			url: 'https://example.org/crazy-blues',
+			note: 'Okeh 4169, 1920'
+		});
+		// A track on an album is quoted, and the album is italic: "On _Album_".
+		const track = { ...crazy, container: 'Crazy Blues: The Best of Mamie Smith' };
+		expect(chicagoText(track)).toContain(
+			'“Crazy Blues.” Recorded August 10, 1920. On Crazy Blues: The Best of Mamie Smith. Okeh'
+		);
+		expect(chicago(track).filter((p) => p.italic)).toEqual([
+			{ text: 'Crazy Blues: The Best of Mamie Smith', italic: true }
+		]);
+		expect(citationProblems({ ...crazy, recorded: 'summer 1920' })).toEqual([
+			'recorded must be YYYY, YYYY-MM or YYYY-MM-DD, a shorter year (888), or a year BC (1550 BC)'
+		]);
+		expect(citationProblems({ ...web, recorded: '1920' })).toContain('recorded is for a recording');
 	});
 
 	it('sets a modern UK act by its year and chapter, the year said once', () => {
