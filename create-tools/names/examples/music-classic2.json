@@ -1,0 +1,30 @@
+{
+	"music/eroica": [
+		["Ludwig van Beethoven", "ludwig-van-beethoven"],
+		["Vienna", "vienna"],
+		["Ferdinand Ries", "ferdinand-ries"],
+		["Napoleon", "napoleon"],
+		["Symphony No. 3", "symphony-no-3-beethoven"],
+		["Gesellschaft der Musikfreunde", "gesellschaft-der-musikfreunde"],
+		["Joseph Franz von Lobkowitz", "joseph-franz-von-lobkowitz"],
+		["George Grove", "george-grove"],
+		["sonata form", "sonata-form"],
+		["Heiligenstadt Testament", "heiligenstadt-testament"],
+		["Theater an der Wien", "theater-an-der-wien"]
+	],
+	"music/virtuoso": [
+		["Niccolò Paganini", "niccolo-paganini"],
+		["Vienna", "vienna"],
+		["François-Joseph Fétis", "francois-joseph-fetis"],
+		["24 Caprices", "24-caprices-for-solo-violin-paganini"],
+		["Franz Liszt", "franz-liszt"],
+		["Paris", "paris"],
+		["Grandes études de Paganini", "grandes-etudes-de-paganini"],
+		["Hanover Square Rooms", "hanover-square-rooms"],
+		["Heinrich Heine", "heinrich-heine"],
+		["Lisztomania", "lisztomania"],
+		["Beethoven Monument", "beethoven-monument"],
+		["Clara Schumann", "clara-schumann"],
+		["Robert Schumann", "robert-schumann"]
+	]
+}

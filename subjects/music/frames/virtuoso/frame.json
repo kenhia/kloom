@@ -1,0 +1,276 @@
+{
+	"id": "virtuoso",
+	"topic": "Paganini, Liszt and the virtuoso",
+	"position": {
+		"label": "1839",
+		"sort": 1839
+	},
+	"scene": {
+		"headline": "The virtuoso started a",
+		"accent": "MANIA.",
+		"palette": "salon",
+		"illustration": "scene.svg",
+		"metadata": [
+			"VIENNA · PARIS · ROME · BERLIN",
+			"NICCOLÒ PAGANINI · FRANZ LISZT · CLARA SCHUMANN"
+		],
+		"counter": {
+			"value": "66",
+			"label": "concerts a year, Liszt in Germany, 1841–44"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/revolutions-of-1848",
+			"why": "Heinrich Heine took the Lisztomania of Berlin's crowds in 1841–42 for a sign of the want of political liberty in the German states, the liberty that Berlin's crowds rose to demand in March 1848."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Biographical Notice of Nicolo Paganini, with an Analysis of His Compositions and a Sketch of the History of the Violin",
+			"authors": [
+				{
+					"family": "Fétis",
+					"given": "François-Joseph"
+				}
+			],
+			"edition": "2nd ed.",
+			"place": "London",
+			"publisher": "Schott & Co.",
+			"published": "1876",
+			"url": "https://archive.org/details/biographicalnoti00ftuoft",
+			"accessed": "2026-11-10",
+			"note": "Vienna in 1828, Paganini's letter to the Revue musicale, his technique and his fortune"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Letters of Franz Liszt",
+			"volume": "1",
+			"authors": [
+				{
+					"family": "Liszt",
+					"given": "Franz"
+				}
+			],
+			"editors": [
+				{
+					"name": "La Mara"
+				}
+			],
+			"translators": [
+				{
+					"family": "Bache",
+					"given": "Constance"
+				}
+			],
+			"place": "London",
+			"publisher": "H. Grevel",
+			"published": "1894",
+			"url": "https://www.gutenberg.org/ebooks/3689",
+			"accessed": "2026-11-10",
+			"note": "To Pierre Wolff, 2 May 1832; to Princess Belgiojoso, 4 June 1839"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Musical Season of 1844",
+			"authors": [
+				{
+					"family": "Heine",
+					"given": "Heinrich"
+				}
+			],
+			"container": "The Salon; or, Letters on Art, Music, Popular Life and Politics",
+			"translators": [
+				{
+					"family": "Leland",
+					"given": "Charles Godfrey"
+				}
+			],
+			"pages": "416–19",
+			"place": "London",
+			"publisher": "William Heinemann",
+			"published": "1893",
+			"url": "https://archive.org/details/worksofheinrichh04heinuoft",
+			"accessed": "2026-11-10",
+			"note": "Volume 4 of The Works of Heinrich Heine; Lisztomania named, pp. 416–19"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Clara Schumann's Collection of Playbills: A Historiometric Analysis of Life-Span Development, Mobility, and Repertoire Canonization",
+			"authors": [
+				{
+					"family": "Kopiez",
+					"given": "Reinhard"
+				},
+				{
+					"family": "Lehmann",
+					"given": "Andreas C."
+				},
+				{
+					"family": "Klassen",
+					"given": "Janina"
+				}
+			],
+			"container": "Poetics",
+			"volume": "37",
+			"issue": "1",
+			"pages": "50–73",
+			"published": "2009",
+			"doi": "10.1016/j.poetic.2008.09.001",
+			"url": "http://musicweb.hmt-hannover.de/kopiez/Kopiez-Lehmann-Klassen(2009)CS-Programs.pdf",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Niccolò Paganini",
+			"url": "https://en.wikipedia.org/w/index.php?title=Niccol%C3%B2_Paganini&oldid=1383723038",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "24 Caprices for Solo Violin (Paganini)",
+			"url": "https://en.wikipedia.org/w/index.php?title=24_Caprices_for_Solo_Violin_(Paganini)&oldid=1379451002",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Franz Liszt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Franz_Liszt&oldid=1381449605",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-22",
+			"key": true,
+			"note": "Paganini as his model, the recitals of 1840, playing from memory"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Grandes Études de Paganini",
+			"url": "https://en.wikipedia.org/w/index.php?title=Grandes_%C3%89tudes_de_Paganini&oldid=1378182712",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "La campanella",
+			"url": "https://en.wikipedia.org/w/index.php?title=La_campanella&oldid=1367281163",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lisztomania",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lisztomania&oldid=1374472685",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Beethoven Monument",
+			"url": "https://en.wikipedia.org/w/index.php?title=Beethoven_Monument&oldid=1317570160",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Clara Schumann",
+			"url": "https://en.wikipedia.org/w/index.php?title=Clara_Schumann&oldid=1384661710",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "recording",
+			"title": "Campanella",
+			"authors": [
+				{
+					"family": "Godowsky",
+					"given": "Leopold"
+				}
+			],
+			"recorded": "1913-04-10",
+			"publisher": "Columbia",
+			"number": "A5484",
+			"url": "https://www.loc.gov/item/jukebox-750792/",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "media",
+			"title": "24 Capricci per violino solo, Op. 1, title page of the first edition",
+			"authors": [
+				{
+					"family": "Paganini",
+					"given": "Niccolò"
+				}
+			],
+			"place": "Milan",
+			"publisher": "Giovanni Ricordi",
+			"published": "1820",
+			"url": "https://commons.wikimedia.org/wiki/File:Paganini,_24_Capricci,_prima_edizione,_Ricordi_1820.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "capricci-1820.jpg"
+		}
+	]
+}
