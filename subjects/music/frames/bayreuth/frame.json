@@ -1,0 +1,384 @@
+{
+	"id": "bayreuth",
+	"topic": "Wagner's Bayreuth",
+	"asOf": "2026-11-10",
+	"position": {
+		"label": "1876",
+		"sort": 1876
+	},
+	"scene": {
+		"headline": "Wagner hid the",
+		"accent": "ORCHESTRA.",
+		"palette": "salon",
+		"illustration": "scene.svg",
+		"metadata": ["BAYREUTH · THE FESTSPIELHAUS", "RICHARD WAGNER · LUDWIG II · THE RING"],
+		"counter": {
+			"value": "136",
+			"label": "bars of one chord open the Ring"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/beethoven-ninth",
+			"why": "Wagner conducted Beethoven's Ninth to lay Bayreuth's foundation stone in 1872, and the festival reopened in 1951 with Furtwängler's Ninth, the recording that frame names in the story of the compact disc."
+		},
+		{
+			"to": "western-civ/unification",
+			"why": "Wagner asked the German Empire proclaimed in 1871 to pay for his theater and was refused, though its emperor, Wilhelm I, came to the Ring's first night in 1876."
+		},
+		{
+			"to": "western-civ/holocaust",
+			"why": "Of the Bayreuth Festival's Jewish artists persecuted after 1933, twelve were murdered in the Holocaust, among them its Erda, Ottilie Metzger, at Auschwitz."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Bayreuth Music Festival",
+			"authors": [
+				{
+					"family": "Tchaikovsky",
+					"given": "Pyotr Ilyich"
+				}
+			],
+			"translators": [
+				{
+					"family": "Sundkvist",
+					"given": "Luis"
+				}
+			],
+			"container": "Russkiye Vedomosti",
+			"published": "1876",
+			"url": "https://en.tchaikovsky-research.net/pages/The_Bayreuth_Music_Festival",
+			"accessed": "2026-11-10",
+			"note": "Five reports from Bayreuth, August 1876; read in Sundkvist's English on Tchaikovsky Research"
+		},
+		{
+			"kind": "encyclopedia",
+			"key": true,
+			"title": "Bayreuth",
+			"container": "Encyclopædia Britannica",
+			"edition": "11th ed.",
+			"volume": "3",
+			"place": "Cambridge",
+			"publisher": "Cambridge University Press",
+			"published": "1910",
+			"url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Bayreuth",
+			"accessed": "2026-11-10",
+			"note": "The Wagner Theatre: the foundation stone, the wedge of seats and the two hoods"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Seating Area: The Fan-shaped Auditorium",
+			"container": "THEATRON: Bayreuth Festspielhaus",
+			"publisher": "King's College London",
+			"url": "https://kvl.cch.kcl.ac.uk/THEATRON/theatres/bayreuth/assets/text/baytxt12.html",
+			"accessed": "2026-11-10",
+			"note": "The auditorium's plan, seats and darkness"
+		},
+		{
+			"kind": "web",
+			"title": "King Ludwig II and Wagner",
+			"container": "THEATRON: Bayreuth Festspielhaus",
+			"publisher": "King's College London",
+			"url": "https://kvl.cch.kcl.ac.uk/THEATRON/theatres/bayreuth/assets/text/baytxt27.html",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "The Construction of the Bayreuth Festspielhaus",
+			"container": "THEATRON: Bayreuth Festspielhaus",
+			"publisher": "King's College London",
+			"url": "https://kvl.cch.kcl.ac.uk/THEATRON/theatres/bayreuth/assets/text/baytxt29.html",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "chapter",
+			"title": "Acoustic Aspects of Stage and Orchestra Pit in Opera Houses",
+			"authors": [
+				{
+					"family": "Lautenbach",
+					"given": "Margriet"
+				},
+				{
+					"family": "Vercammen",
+					"given": "Martijn"
+				}
+			],
+			"etAl": true,
+			"container": "Fortschritte der Akustik: DAGA 2012",
+			"place": "Darmstadt",
+			"publisher": "Deutsche Gesellschaft für Akustik",
+			"pages": "615–616",
+			"published": "2012",
+			"url": "https://pub.dega-akustik.de/DAGA_2012/data/articles/000442.pdf",
+			"accessed": "2026-11-10",
+			"note": "The hall's volume and reverberation times"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Bayreuther Festspiele Magazin 2025",
+			"publisher": "Bayreuther Festspiele",
+			"place": "Bayreuth",
+			"published": "2025",
+			"url": "https://www.bayreuther-festspiele.de/wp-content/uploads/2025/07/bayreuther-festspiele-magazin-2025-eng-small.pdf",
+			"accessed": "2026-11-10",
+			"note": "The pit's six steps and hoods; the interview with Matthias Davids"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Judaism in Music",
+			"authors": [
+				{
+					"family": "Wagner",
+					"given": "Richard"
+				}
+			],
+			"translators": [
+				{
+					"family": "Ellis",
+					"given": "William Ashton"
+				}
+			],
+			"container": "Richard Wagner's Prose Works, Vol. 3: The Theatre",
+			"place": "London",
+			"publisher": "Kegan Paul, Trench, Trübner",
+			"published": "1894",
+			"url": "https://archive.org/details/richardwagnerspr011371mbp",
+			"accessed": "2026-11-10",
+			"note": "Quoted from pp. 79 and 87; read in the 1907 impression"
+		},
+		{
+			"kind": "book",
+			"title": "Guide to the Music of Richard Wagner's Tetralogy, The Ring of the Nibelung: A Thematic Key",
+			"authors": [
+				{
+					"family": "Wolzogen",
+					"given": "Hans von"
+				}
+			],
+			"translators": [
+				{
+					"family": "Dole",
+					"given": "Nathan Haskell"
+				}
+			],
+			"place": "New York",
+			"publisher": "G. Schirmer",
+			"published": "1905",
+			"url": "https://archive.org/details/guidetomusicofri00wolz",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "recording",
+			"title": "Wallalala (Das Rheingold)",
+			"authors": [
+				{
+					"family": "Artner",
+					"given": "Josefine von"
+				},
+				{
+					"family": "Knüpfer-Egli",
+					"given": "Marie"
+				},
+				{
+					"family": "Metzger",
+					"given": "Ottilie"
+				}
+			],
+			"recorded": "1904-07",
+			"publisher": "Gramophone and Typewriter",
+			"number": "G&T 44406",
+			"published": "1904",
+			"container": "100 Jahre Bayreuth auf Schallplatte",
+			"url": "https://archive.org/details/100-jahre-bayreuth-auf-schallplatte-CD06",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "web",
+			"title": "Bayreuth Festival 2026",
+			"container": "Wagneropera.net",
+			"url": "https://www.wagneropera.net/bayreuth/bayreuth-festival-2026.htm",
+			"accessed": "2026-11-10",
+			"note": "The 150th-anniversary Ring"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Bayreuth Festival",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bayreuth_Festival&oldid=1383676809",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-04",
+			"note": "The founding, the Wagner family's festival and the Nazi years"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Das Rheingold",
+			"url": "https://en.wikipedia.org/w/index.php?title=Das_Rheingold&oldid=1382136519",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-26",
+			"note": "The prelude and its motifs"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bayreuth Festspielhaus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bayreuth_Festspielhaus&oldid=1380714298",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Richard Wagner",
+			"url": "https://en.wikipedia.org/w/index.php?title=Richard_Wagner&oldid=1382703381",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Der Ring des Nibelungen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Der_Ring_des_Nibelungen&oldid=1377640426",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Leitmotif",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leitmotif&oldid=1383805122",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Das Judenthum in der Musik",
+			"url": "https://en.wikipedia.org/w/index.php?title=Das_Judenthum_in_der_Musik&oldid=1382634340",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ludwig II of Bavaria",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ludwig_II_of_Bavaria&oldid=1384309848",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Winifred Wagner",
+			"url": "https://en.wikipedia.org/w/index.php?title=Winifred_Wagner&oldid=1369818241",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hannes Heer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hannes_Heer&oldid=1358699710",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ottilie Metzger",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ottilie_Metzger&oldid=1318817550",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-26"
+		},
+		{
+			"kind": "media",
+			"title": "Bayreuth Festspielhaus orchestra pit",
+			"authors": [
+				{
+					"name": "Friera"
+				}
+			],
+			"published": "2011-08-16",
+			"container": "Bayreuth Festspielhaus",
+			"url": "https://commons.wikimedia.org/wiki/File:Bayreuth_Festspielhaus_orchestra_pit.JPG",
+			"accessed": "2026-11-10",
+			"licence": "CC BY-SA 3.0",
+			"file": "pit.jpg"
+		}
+	]
+}
