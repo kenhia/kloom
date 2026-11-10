@@ -217,3 +217,35 @@ None filed. Two questions go to Ken through the overseer:
   The new collision warning will name it if an author looks up the
   discipline. Renaming a published id changes marks in every subject.
 - A reviewed share has no "unseen" count, as answered notes do in My notes.
+
+## Deployed
+
+2026-11-09 (PST), to the service on kai, by `just deploy`
+(`.sprint-deploy`'s `recipe: deploy`) from merged `main` at `3bb476a0`
+(PR #68). Every one of the recipe's own checks passed: both doors read,
+the tailnet door refuses an anonymous write and keeps reader data and
+notes from an anonymous read, the ssh door reads and writes, a frame's
+body comes from the library, and pages go compressed. Library `affcfb`.
+Verified live at `https://kai.encke-wahoo.ts.net:4890`:
+
+- `biology/notebook-b`'s barnacle plate carries its CC BY 2.0 credit to
+  the Biodiversity Heritage Library's scan;
+- `food/annona`'s plate reads "EARLY 2ND CENTURY AD";
+- physics' Nobel lectures are cited as `lecture`;
+- `/api/reader/shared` refuses an anonymous read (401).
+
+Published to the public reader site, kloom.kenhiatt.us (Fly app
+`kloom-reader`), by `just publish-public` from the same commit: release
+v20, image `kloom-reader:3bb476a0d-202611100321`, library `d2e8dc`.
+`verify-public` passed every check (sign-in gating and deep links, HSTS,
+http to https, grow, ask and keep 404 for a reader without ask, kept
+answers 404 without ask, compressed pages, the library's build named,
+Fly's client address). Ask spend was $0.00 of $15 this month; there are
+5 notes, none detached.
+
+- **Migration 11 ran on the live store.** `review-notes.mjs --public
+shares` read `kept_share` and reported nothing waiting.
+- **A frame with no shared answers renders as before.** Signed in as the
+  check reader (no ask), `western-civ/prometheus` answered 200 with no
+  Readers' Q&A and no share box, and `/api/reader/shared` answered `[]`.
+  The check reader was disabled again afterwards.
