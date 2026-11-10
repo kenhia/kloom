@@ -1,0 +1,14 @@
+# kloc content categories for this repo — format: kenhia/kloc, docs/kloc-file.md.
+#
+# kloom's subjects and its shared name registry are authored content, not
+# code. kloc still captures every line of them and charts them under their
+# own categories; it just never counts them as code. Everything else falls
+# through to kloc's kproject-layout defaults.
+version: 0
+categories:
+  - name: subjects
+    code: false
+    paths: ["subjects/**"]
+  - name: names
+    code: false
+    paths: ["names/**"]
