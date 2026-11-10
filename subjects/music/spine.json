@@ -15,6 +15,13 @@
 			"frames": ["pythagoras-ratios", "aristoxenus", "seikilos", "boethius"]
 		},
 		{
+			"id": "writing-it-down",
+			"title": "Writing it down",
+			"labelKind": "date",
+			"palette": "vespers",
+			"frames": ["hildegard", "notre-dame", "ars-nova"]
+		},
+		{
 			"id": "print",
 			"title": "Print and the Renaissance",
 			"labelKind": "date",

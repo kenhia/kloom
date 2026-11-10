@@ -1,0 +1,343 @@
+{
+	"id": "hildegard",
+	"topic": "Hildegard of Bingen's songs",
+	"position": {
+		"label": "c. 1151",
+		"sort": 1151
+	},
+	"scene": {
+		"headline": "Hildegard sang her",
+		"accent": "VISIONS.",
+		"palette": "vespers",
+		"illustration": "scene.svg",
+		"metadata": ["RUPERTSBERG · BINGEN ON THE RHINE", "SYMPHONIA · ORDO VIRTUTUM · RIESENCODEX"],
+		"counter": {
+			"value": "19",
+			"label": "steps spanned by her widest song"
+		}
+	},
+	"connections": [
+		{
+			"to": "food/reinheitsgebot",
+			"why": "Hildegard, whose songs are this frame, also wrote natural history, and that frame quotes her Physica on the hop, whose bitterness, she wrote, keeps drinks from spoiling."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Hildegard of Bingen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hildegard_of_Bingen&oldid=1384659736",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09",
+			"key": true,
+			"note": "Her life, visions, letters and music"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Symphonia and Ordo Virtutum of Hildegard von Bingen",
+			"authors": [
+				{
+					"family": "Campbell",
+					"given": "Nathaniel M."
+				},
+				{
+					"family": "Lomer",
+					"given": "Beverly R."
+				},
+				{
+					"family": "Sandstrom-McGuire",
+					"given": "Xenia"
+				}
+			],
+			"container": "International Society of Hildegard von Bingen Studies",
+			"url": "https://www.hildegard-society.org/p/music.html",
+			"accessed": "2026-11-10",
+			"note": "The songs, their manuscripts and their melismatic style"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "An Exploration of Range, Mode and Performance Practice in Hildegard von Bingen's \"O tu illustrata\"",
+			"authors": [
+				{
+					"family": "Weston",
+					"given": "Karin"
+				}
+			],
+			"publisher": "Schola Cantorum Basiliensis, Hochschule für Musik, Fachhochschule Nordwestschweiz",
+			"place": "Basel",
+			"published": "2022-04",
+			"url": "https://irf.fhnw.ch/bitstreams/a5efeabe-1567-4e17-8c60-646c199d0f34/download",
+			"accessed": "2026-11-10",
+			"note": "The ranges of all her chants, the Riesencodex's colored lines, and the editions that changed them"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Vita Sanctae Hildegardis",
+			"authors": [
+				{
+					"name": "Godfrey of Disibodenberg"
+				},
+				{
+					"name": "Theoderic of Echternach"
+				}
+			],
+			"pages": "103–104",
+			"note": "Book 2, §17: her claim to have sung without having learned neumes",
+			"container": "Patrologia Latina",
+			"volume": "197",
+			"editors": [
+				{
+					"family": "Migne",
+					"given": "Jacques-Paul"
+				}
+			],
+			"place": "Paris",
+			"publisher": "J.-P. Migne",
+			"published": "1855",
+			"url": "https://archive.org/details/patrologiaecursu0197mign",
+			"accessed": "2026-11-10",
+			"language": "la"
+		},
+		{
+			"kind": "letter",
+			"title": "Ad praelatos Moguntinenses",
+			"authors": [
+				{
+					"name": "Hildegard of Bingen"
+				}
+			],
+			"recipients": [
+				{
+					"name": "The prelates of Mainz"
+				}
+			],
+			"written": "1178",
+			"circa": true,
+			"pages": "218–221",
+			"note": "Letter 47",
+			"container": "Patrologia Latina",
+			"volume": "197",
+			"editors": [
+				{
+					"family": "Migne",
+					"given": "Jacques-Paul"
+				}
+			],
+			"place": "Paris",
+			"publisher": "J.-P. Migne",
+			"published": "1855",
+			"url": "https://archive.org/details/patrologiaecursu0197mign",
+			"accessed": "2026-11-10",
+			"language": "la"
+		},
+		{
+			"kind": "letter",
+			"title": "Bernardi Claraevallis abbatis ad Hildegardem",
+			"authors": [
+				{
+					"name": "Bernard of Clairvaux"
+				}
+			],
+			"recipients": [
+				{
+					"name": "Hildegard of Bingen"
+				}
+			],
+			"written": "1147",
+			"circa": true,
+			"pages": "189–190",
+			"note": "Letter 29, printed with her letter to him",
+			"container": "Patrologia Latina",
+			"volume": "197",
+			"editors": [
+				{
+					"family": "Migne",
+					"given": "Jacques-Paul"
+				}
+			],
+			"place": "Paris",
+			"publisher": "J.-P. Migne",
+			"published": "1855",
+			"url": "https://archive.org/details/patrologiaecursu0197mign",
+			"accessed": "2026-11-10",
+			"language": "la"
+		},
+		{
+			"kind": "recording",
+			"title": "A Feather on the Breath of God: Sequences and Hymns by Abbess Hildegard of Bingen",
+			"authors": [
+				{
+					"name": "Gothic Voices"
+				},
+				{
+					"family": "Kirkby",
+					"given": "Emma"
+				},
+				{
+					"family": "Page",
+					"given": "Christopher"
+				}
+			],
+			"recorded": "1981-09",
+			"publisher": "Hyperion",
+			"number": "A66039",
+			"published": "1982",
+			"url": "https://www.hyperion-records.co.uk/dc.asp?dc=D_CDA66039",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Hyperion's page, with Christopher Page's notes; the CD is CDA66039, released in April 1985"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "A Feather on the Breath of God",
+			"url": "https://en.wikipedia.org/w/index.php?title=A_Feather_on_the_Breath_of_God&oldid=1334409014",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-23"
+		},
+		{
+			"kind": "web",
+			"title": "Complete National Recording Registry Listing",
+			"authors": [
+				{
+					"name": "National Recording Preservation Board"
+				}
+			],
+			"container": "Library of Congress",
+			"url": "https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/complete-national-recording-registry-listing/",
+			"accessed": "2026-11-10",
+			"note": "Read through the Wayback Machine; the album is in the registry's list for 2019"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ordo Virtutum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ordo_Virtutum&oldid=1384743839",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wiesbaden Codex",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wiesbaden_Codex&oldid=1340736949",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dendermonde Codex",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dendermonde_Codex&oldid=1379286484",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Scivias",
+			"url": "https://en.wikipedia.org/w/index.php?title=Scivias&oldid=1336167738",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-02"
+		},
+		{
+			"kind": "book",
+			"title": "The Summa musice: A Thirteenth-Century Manual for Singers",
+			"authors": [
+				{
+					"family": "Page",
+					"given": "Christopher"
+				}
+			],
+			"place": "Cambridge",
+			"publisher": "Cambridge University Press",
+			"published": "2007",
+			"citedIn": "An Exploration of Range, Mode and Performance Practice in Hildegard von Bingen's \"O tu illustrata\""
+		},
+		{
+			"kind": "book",
+			"title": "Symphonia: A Comparative Edition",
+			"authors": [
+				{
+					"name": "Hildegard of Bingen"
+				}
+			],
+			"editors": [
+				{
+					"family": "Corrigan",
+					"given": "Vincent"
+				}
+			],
+			"place": "Lions Bay, BC",
+			"publisher": "Institute of Mediaeval Music",
+			"published": "2016",
+			"citedIn": "An Exploration of Range, Mode and Performance Practice in Hildegard von Bingen's \"O tu illustrata\""
+		},
+		{
+			"kind": "media",
+			"title": "Riesencodex, fol. 478v: the beginning of the Ordo Virtutum",
+			"container": "Hochschul- und Landesbibliothek RheinMain, Wiesbaden, Hs. 2",
+			"published": "1180",
+			"circa": true,
+			"url": "https://commons.wikimedia.org/wiki/File:Riesencodex_-_fl.0478v.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "riesencodex.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "The ranges of Hildegard of Bingen's chants",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Karin Weston, \"An Exploration of Range, Mode and Performance Practice in Hildegard von Bingen's 'O tu illustrata'\" (master's thesis, Schola Cantorum Basiliensis, 2022), appendix 1",
+			"url": "https://irf.fhnw.ch/bitstreams/a5efeabe-1567-4e17-8c60-646c199d0f34/download",
+			"accessed": "2026-11-10",
+			"licence": "MIT",
+			"file": "ranges.svg"
+		}
+	]
+}

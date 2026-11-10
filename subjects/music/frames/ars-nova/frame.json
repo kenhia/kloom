@@ -1,0 +1,261 @@
+{
+	"id": "ars-nova",
+	"topic": "Ars nova and measured rhythm",
+	"position": {
+		"label": "c. 1322",
+		"sort": 1322
+	},
+	"scene": {
+		"headline": "We learned to measure",
+		"accent": "TIME.",
+		"palette": "vespers",
+		"illustration": "scene.svg",
+		"metadata": ["PARIS · AVIGNON · REIMS", "VITRY · JOHN XXII · MACHAUT"],
+		"counter": {
+			"value": "8",
+			"label": "days' suspension for singers who defied the pope"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/black-death",
+			"why": "Machaut sat out the plague of 1348–49 shut in his house, as his Jugement dou roy de Navarre tells, until he heard the survivors' wedding music: the epidemic that frame describes."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Ars nova",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ars_nova&oldid=1366497134",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-28",
+			"key": true,
+			"note": "The name, its treatises and its composers"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mensural notation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mensural_notation&oldid=1351526940",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-28",
+			"key": true,
+			"note": "Note values, tempus and prolation, and the mensuration signs"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Docta sanctorum patrum",
+			"authors": [
+				{
+					"name": "John XXII"
+				}
+			],
+			"container": "Corpus iuris canonici, pars secunda: Decretalium collectiones",
+			"editors": [
+				{
+					"family": "Friedberg",
+					"given": "Emil"
+				}
+			],
+			"place": "Leipzig",
+			"publisher": "Tauchnitz",
+			"published": "1881",
+			"pages": "1255–1257",
+			"url": "https://archive.org/details/BD1141952",
+			"accessed": "2026-11-10",
+			"language": "la",
+			"note": "Extravagantes communes, book 3, title 1; read in the Graz reprint of 1955"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Le Jugement dou roy de Navarre",
+			"authors": [
+				{
+					"name": "Guillaume de Machaut"
+				}
+			],
+			"container": "Œuvres de Guillaume de Machaut",
+			"volume": "1",
+			"editors": [
+				{
+					"family": "Hoepffner",
+					"given": "Ernest"
+				}
+			],
+			"place": "Paris",
+			"publisher": "Firmin-Didot, for the Société des anciens textes français",
+			"published": "1908",
+			"pages": "150–154",
+			"url": "https://archive.org/details/oeuvresdeguillau01guiluoft",
+			"accessed": "2026-11-10",
+			"language": "fro",
+			"note": "Lines 367–486, the plague of 1348–49; and the editor's introduction, pp. xxx–xxxi"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Guillaume de Machaut",
+			"url": "https://en.wikipedia.org/w/index.php?title=Guillaume_de_Machaut&oldid=1370802593",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23",
+			"key": true,
+			"note": "His life, works and manuscripts"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Messe de Nostre Dame",
+			"url": "https://en.wikipedia.org/w/index.php?title=Messe_de_Nostre_Dame&oldid=1361219300",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-26",
+			"key": true,
+			"note": "The Mass, its date and purpose, and its first recordings"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Philippe de Vitry",
+			"url": "https://en.wikipedia.org/w/index.php?title=Philippe_de_Vitry&oldid=1328472245",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Johannes de Muris",
+			"url": "https://en.wikipedia.org/w/index.php?title=Johannes_de_Muris&oldid=1344675996",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Roman de Fauvel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Roman_de_Fauvel&oldid=1356339051",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Isorhythm",
+			"url": "https://en.wikipedia.org/w/index.php?title=Isorhythm&oldid=1322163626",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Time signature",
+			"url": "https://en.wikipedia.org/w/index.php?title=Time_signature&oldid=1384650471",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "article",
+			"title": "A Phantom Treatise of the Fourteenth Century? The Ars Nova",
+			"authors": [
+				{
+					"family": "Fuller",
+					"given": "Sarah"
+				}
+			],
+			"container": "Journal of Musicology",
+			"volume": "4",
+			"issue": "1",
+			"pages": "23–50",
+			"published": "1985",
+			"doi": "10.2307/763721",
+			"accessed": "2026-11-10",
+			"citedIn": "Ars nova"
+		},
+		{
+			"kind": "recording",
+			"title": "Messe dite du sacre de Charles V, 1364: Agnus Dei; Ite missa est",
+			"authors": [
+				{
+					"name": "Les Paraphonistes de Saint-Jean-des-Matines"
+				},
+				{
+					"family": "de Van",
+					"given": "Guillaume"
+				}
+			],
+			"publisher": "L'Anthologie Sonore",
+			"number": "32",
+			"published": "1936",
+			"url": "https://archive.org/details/78_messe-dite-du-sacre-de-charles-v-1364_les-paraphonistes-de-st-jean-des-matines-g_gbia7028259b",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "A 78 rpm side in the Internet Archive's Great 78 Project; its label gives choir and brass"
+		},
+		{
+			"kind": "media",
+			"title": "Roman de Fauvel, fol. 8v",
+			"container": "Bibliothèque nationale de France, MS fr. 146",
+			"published": "1317",
+			"circa": true,
+			"url": "https://commons.wikimedia.org/wiki/File:Desolata_mater_ecclesia.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "fauvel.jpg"
+		}
+	]
+}
