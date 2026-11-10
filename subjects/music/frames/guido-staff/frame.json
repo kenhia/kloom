@@ -1,0 +1,313 @@
+{
+	"id": "guido-staff",
+	"topic": "Guido of Arezzo and the staff",
+	"position": {
+		"label": "c. 1026",
+		"sort": 1026
+	},
+	"scene": {
+		"headline": "We sang at",
+		"accent": "SIGHT.",
+		"palette": "vespers",
+		"illustration": "scene.svg",
+		"metadata": [
+			"POMPOSA · AREZZO · ROME",
+			"GUIDO OF AREZZO · MICROLOGUS · UT, RE, MI, FA, SOL, LA"
+		],
+		"counter": {
+			"value": "10",
+			"label": "years, Guido said, to make a singer before him"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/scriptorium",
+			"why": "Guido blamed the disagreeing chant books of his day, \"as many antiphoners as there are masters,\" on those who copied and neumed them, the hand copyist's hazard that frame describes, and his lines and letters were meant to make every copy sing alike."
+		}
+	],
+	"citations": [
+		{
+			"kind": "letter",
+			"key": true,
+			"title": "Epistola Guidonis Michaeli monacho de ignoto cantu directa",
+			"authors": [
+				{
+					"name": "Guido of Arezzo"
+				}
+			],
+			"recipients": [
+				{
+					"name": "Michael of Pomposa"
+				}
+			],
+			"published": "1030",
+			"circa": true,
+			"container": "Thesaurus Musicarum Latinarum",
+			"publisher": "Center for the History of Music Theory and Literature, Indiana University",
+			"language": "la",
+			"url": "https://chmtl.indiana.edu/tml/9th-11th/GUIEPI_TEXT.html",
+			"accessed": "2026-11-10",
+			"note": "From Gerbert's Scriptores (1784), 2:43–50; the visit to Pope John, the ten years and Ut queant laxis; read through the Wayback Machine, the site being down; quoted in our translation"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Prologus in antiphonarium",
+			"authors": [
+				{
+					"name": "Guido of Arezzo"
+				}
+			],
+			"container": "Thesaurus Musicarum Latinarum",
+			"publisher": "Center for the History of Music Theory and Literature, Indiana University",
+			"language": "la",
+			"url": "https://chmtl.indiana.edu/tml/9th-11th/GUIPRO_TEXT.html",
+			"accessed": "2026-11-10",
+			"note": "Ed. Smits van Waesberghe (1975); the foolish singers, the lines and the yellow and red; read through the Wayback Machine; quoted in our translation"
+		},
+		{
+			"kind": "book",
+			"title": "Micrologus",
+			"authors": [
+				{
+					"name": "Guido of Arezzo"
+				}
+			],
+			"editors": [
+				{
+					"family": "Amelli",
+					"given": "Ambrogio Maria"
+				}
+			],
+			"place": "Rome",
+			"publisher": "Desclée, Lefebvre",
+			"published": "1904",
+			"language": "la",
+			"url": "https://la.wikisource.org/w/index.php?title=Micrologus&oldid=272953",
+			"accessed": "2026-11-10",
+			"note": "The prologue and the monochord's letters"
+		},
+		{
+			"kind": "book",
+			"title": "De scriptoribus ecclesiasticis",
+			"authors": [
+				{
+					"name": "Sigebert of Gembloux"
+				}
+			],
+			"language": "la",
+			"url": "https://la.wikisource.org/w/index.php?title=De_scriptoribus_ecclesiasticis_(Sigebertus)&oldid=181671",
+			"accessed": "2026-11-10",
+			"note": "Chapter 144, on Guido; quoted in our translation"
+		},
+		{
+			"kind": "book",
+			"title": "A General History of the Science and Practice of Music",
+			"authors": [
+				{
+					"family": "Hawkins",
+					"given": "John"
+				}
+			],
+			"volume": "1",
+			"edition": "New ed.",
+			"place": "London",
+			"publisher": "Novello, Ewer & Co.",
+			"published": "1875",
+			"url": "https://archive.org/details/generalhistoryof0001sirj",
+			"accessed": "2026-11-10",
+			"note": "First published 1776; Guido, pp. 155–162"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Guido of Arezzo",
+			"url": "https://en.wikipedia.org/w/index.php?title=Guido_of_Arezzo&oldid=1369748442",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16",
+			"key": true,
+			"note": "Guido's life, the dating of the Micrologus and the hand"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Guidonian hand",
+			"url": "https://en.wikipedia.org/w/index.php?title=Guidonian_hand&oldid=1369747834",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ut queant laxis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ut_queant_laxis&oldid=1379321889",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Staff (music)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Staff_(music)&oldid=1383137631",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Solmization",
+			"url": "https://en.wikipedia.org/w/index.php?title=Solmization&oldid=1375801382",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hexachord",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hexachord&oldid=1371148380",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Micrologus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Micrologus&oldid=1356579292",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pomposa Abbey",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pomposa_Abbey&oldid=1360009006",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pope John XIX",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pope_John_XIX&oldid=1359688994",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sigebert of Gembloux",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sigebert_of_Gembloux&oldid=1359712495",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paul the Deacon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paul_the_Deacon&oldid=1382999607",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-31"
+		},
+		{
+			"kind": "recording",
+			"title": "Ut queant laxis",
+			"authors": [
+				{
+					"name": "Membeth"
+				}
+			],
+			"published": "2010",
+			"url": "https://commons.wikimedia.org/wiki/File:Johannes.Hymnus.ogg",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "The hymn's first stanza, sung, 41 seconds; released into the public domain by its maker"
+		},
+		{
+			"kind": "media",
+			"title": "Guido and Bishop Theodald with a monochord",
+			"container": "Vienna, Österreichische Nationalbibliothek, Cod. 51, fol. 35v",
+			"published": "1180",
+			"circa": true,
+			"url": "https://commons.wikimedia.org/wiki/File:Guido_e_Teodaldo.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "tedald.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "The Hand of Guido",
+			"container": "Milan, Biblioteca Ambrosiana, MS D.75 inf., fol. 6r",
+			"published": "1274",
+			"url": "https://commons.wikimedia.org/wiki/File:The_Hand_of_Guido.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "hand.jpg"
+		}
+	]
+}
