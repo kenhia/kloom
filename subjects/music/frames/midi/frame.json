@@ -1,0 +1,265 @@
+{
+	"id": "midi",
+	"topic": "MIDI",
+	"position": {
+		"label": "1983",
+		"sort": 1983
+	},
+	"scene": {
+		"headline": "We taught synthesizers to",
+		"accent": "TALK.",
+		"palette": "pixel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SEQUENTIAL CIRCUITS · ROLAND · YAMAHA · KORG · KAWAI",
+			"FIVE PINS · 31,250 BITS A SECOND"
+		],
+		"counter": {
+			"value": "3",
+			"label": "bytes to play one note"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "MIDI History Chapter 6: MIDI Begins 1981–1983",
+			"authors": [
+				{
+					"family": "Billias",
+					"given": "Athan"
+				}
+			],
+			"container": "MIDI.org",
+			"publisher": "The MIDI Association",
+			"published": "2024-12-21",
+			"url": "https://midi.org/midi-history-chapter-6-midi-begins-1981-1983",
+			"accessed": "2026-11-10",
+			"note": "Kakehashi and Oberheim, the USI, the Japanese proposals, the name and the 1983 demonstration, with Stanley Jungleib's history of December 1982"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "MIDI 1.0 Detailed Specification",
+			"number": "Document version 4.2.1",
+			"publisher": "MIDI Manufacturers Association",
+			"place": "Los Angeles",
+			"published": "1996-02",
+			"url": "https://midi.org/midi-1-0-core-specifications",
+			"accessed": "2026-11-10",
+			"note": "The hardware, the message format and the example Note On, pp. 1–11"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "How MIDI Changed the World of Music",
+			"authors": [
+				{
+					"family": "Bateman",
+					"given": "Tom"
+				}
+			],
+			"container": "BBC News",
+			"publisher": "BBC",
+			"published": "2012-11-28",
+			"url": "https://www.bbc.co.uk/news/technology-20425376",
+			"accessed": "2026-11-10",
+			"note": "Dave Smith and Alex Paterson interviewed"
+		},
+		{
+			"kind": "report",
+			"title": "The \"USI,\" or Universal Synthesizer Interface",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Dave"
+				},
+				{
+					"family": "Wood",
+					"given": "Chet"
+				}
+			],
+			"number": "Convention Paper 1845, 70th Convention",
+			"publisher": "Audio Engineering Society",
+			"place": "New York",
+			"published": "1981-10",
+			"url": "https://aes2.org/publications/elibrary-page/?id=11909",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The MIDI 1.0 Specification",
+			"container": "Electronics & Music Maker",
+			"published": "1984-05",
+			"url": "https://www.muzines.co.uk/articles/the-midi-1-0-specification/7867",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "MIDI History Chapter 7: MIDI Associations (1983–1985)",
+			"container": "MIDI.org",
+			"publisher": "The MIDI Association",
+			"published": "2024-12-22",
+			"url": "https://midi.org/midi-history-chapter-7-midi-associations-1983-1985",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Summary of MIDI 1.0 Messages",
+			"container": "MIDI.org",
+			"publisher": "The MIDI Association",
+			"url": "https://midi.org/summary-of-midi-1-0-messages",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Details about MIDI 2.0, MIDI-CI, Profiles and Property Exchange (Updated June, 2023)",
+			"container": "MIDI.org",
+			"publisher": "The MIDI Association",
+			"published": "2023-06",
+			"url": "https://midi.org/details-about-midi-2-0-midi-ci-profiles-and-property-exchange-updated-june-2023",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Roland Founder Ikutaro Kakehashi & Dave Smith Honored with Technical GRAMMY Award",
+			"container": "Roland U.S. press releases",
+			"publisher": "Roland Corporation",
+			"place": "Los Angeles",
+			"published": "2013-02-15",
+			"url": "https://www.roland.com/us/company/press_releases/2013/1657/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "recording",
+			"title": "Little Fluffy Clouds",
+			"authors": [
+				{
+					"name": "The Orb"
+				}
+			],
+			"publisher": "Big Life",
+			"number": "BLR 33R",
+			"published": "1990-11",
+			"url": "https://musicbrainz.org/release/fad7f90c-35bf-4430-81f9-162efe80fef7",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "MIDI",
+			"url": "https://en.wikipedia.org/w/index.php?title=MIDI&oldid=1384418737",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08",
+			"key": true,
+			"note": "The history, the connectors, the uses and MIDI 2.0"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "General MIDI",
+			"url": "https://en.wikipedia.org/w/index.php?title=General_MIDI&oldid=1375073193",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Atari ST",
+			"url": "https://en.wikipedia.org/w/index.php?title=Atari_ST&oldid=1384556072",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dave Smith (engineer)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dave_Smith_(engineer)&oldid=1372622515",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ikutaro Kakehashi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ikutaro_Kakehashi&oldid=1339020625",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Roland Jupiter-6",
+			"url": "https://en.wikipedia.org/w/index.php?title=Roland_Jupiter-6&oldid=1383667289",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tom Oberheim",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tom_Oberheim&oldid=1382510768",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-29"
+		},
+		{
+			"kind": "media",
+			"title": "MIDI ports and cable",
+			"authors": [
+				{
+					"name": "Pretzelpaws"
+				}
+			],
+			"published": "2005-01-31",
+			"container": "English Wikipedia, moved to Wikimedia Commons",
+			"url": "https://commons.wikimedia.org/wiki/File:Midi_ports_and_cable.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC BY-SA 3.0",
+			"file": "midi-ports.jpg"
+		}
+	]
+}

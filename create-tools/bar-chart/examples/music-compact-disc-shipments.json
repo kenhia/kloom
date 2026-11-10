@@ -1,0 +1,61 @@
+{
+	"title": "Compact discs shipped in the United States, 1985–2025",
+	"description": "Bar chart, millions of CDs shipped (net after returns) in every fifth year: 22.6 in 1985, 286.5 in 1990, 722.9 in 1995, 942.5 in 2000 (the peak), 705.4 in 2005, 225.8 in 2010, 122.9 in 2015, 31.6 in 2020 and 29.5 in 2025. Data: RIAA, in the Statistical Abstract of the United States (1999, table 936; 2012, table 1140) and the RIAA's year-end reports for 2015, 2020 and 2025.",
+	"heading": "CDS SHIPPED IN THE US · MILLIONS",
+	"unit": "",
+	"width": 560,
+	"axis": {
+		"max": 1050,
+		"ticks": [
+			[0, "0"],
+			[250, "250"],
+			[500, "500"],
+			[750, "750"],
+			[1000, "1,000"]
+		]
+	},
+	"bars": [
+		{
+			"label": "1985",
+			"value": 22.6
+		},
+		{
+			"label": "1990",
+			"value": 286.5
+		},
+		{
+			"label": "1995",
+			"value": 722.9
+		},
+		{
+			"label": "2000",
+			"value": 942.5,
+			"highlight": true
+		},
+		{
+			"label": "2005",
+			"value": 705.4
+		},
+		{
+			"label": "2010",
+			"value": 225.8
+		},
+		{
+			"label": "2015",
+			"value": 122.9
+		},
+		{
+			"label": "2020",
+			"value": 31.6
+		},
+		{
+			"label": "2025",
+			"value": 29.5
+		}
+	],
+	"source": {
+		"container": "RIAA figures, in the Statistical Abstract of the United States, 1999, table 936, and 2012, table 1140; RIAA year-end reports for 2015, 2020 and 2025",
+		"url": "https://www2.census.gov/library/publications/1999/compendia/statab/119ed/tables/sec18.pdf"
+	},
+	"barWidth": 40
+}

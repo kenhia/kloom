@@ -1,0 +1,34 @@
+{
+	"music/compact-disc": [
+		["Sony", "sony"],
+		["Philips", "philips"],
+		["compact disc", "compact-disc"],
+		["Lou Ottens", "lou-ottens"],
+		["Toshitada Doi", "toshitada-doi"],
+		["Kees Schouhamer Immink", "kees-schouhamer-immink"],
+		["Compact Disc Digital Audio", "compact-disc-digital-audio"],
+		["cross-interleaved Reed–Solomon code", "cross-interleaved-reed-solomon-coding"],
+		["Claude Shannon", "claude-shannon"],
+		["Norio Ohga", "norio-ohga"],
+		["Beethoven", "ludwig-van-beethoven"],
+		["Ninth Symphony", "symphony-no-9-beethoven"],
+		["PolyGram", "polygram"],
+		["Wilhelm Furtwängler", "wilhelm-furtwangler"],
+		["Bayreuth Festival", "bayreuth-festival"]
+	],
+	"music/midi": [
+		["NAMM Show", "namm-show"],
+		["Dave Smith", "dave-smith-engineer"],
+		["Sequential Circuits", "sequential-company"],
+		["Roland Jupiter-6", "roland-jupiter-6"],
+		["MIDI", "midi"],
+		["Ikutaro Kakehashi", "ikutaro-kakehashi"],
+		["Roland Corporation", "roland-corporation"],
+		["Tom Oberheim", "tom-oberheim"],
+		["Audio Engineering Society", "audio-engineering-society"],
+		["Yamaha", "yamaha-corporation"],
+		["Robert Moog", "robert-moog"],
+		["Atari ST", "atari-st"],
+		["General MIDI", "general-midi"]
+	]
+}

@@ -1,0 +1,405 @@
+{
+	"id": "compact-disc",
+	"topic": "The compact disc",
+	"position": {
+		"label": "1982",
+		"sort": 1982
+	},
+	"scene": {
+		"headline": "We read music by",
+		"accent": "LIGHT.",
+		"palette": "pixel",
+		"illustration": "scene.svg",
+		"metadata": ["PHILIPS · SONY · EINDHOVEN AND TOKYO", "16 BITS · 44.1 KHZ · A 780 NM LASER"],
+		"counter": {
+			"value": "74:33",
+			"label": "the longest a disc was meant to play"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/beethoven-ninth",
+			"why": "The compact disc's 74-minute length was said to have been set so that one disc could hold the whole of Beethoven's Ninth, a story the CD's own engineer, Kees Schouhamer Immink, disputes."
+		},
+		{
+			"to": "physics/young-slits",
+			"why": "A CD player reads its pits by the interference of light that Young demonstrated: light from a pit's top returns half a wavelength out of step with light from the land around it, and the two cancel."
+		},
+		{
+			"to": "physics/shannon-entropy",
+			"why": "The CD was the first mass-market product to carry full error correction, the kind of code Shannon's 1948 theorem showed could make a noisy channel nearly error-free."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Shannon, Beethoven, and the Compact Disc",
+			"authors": [
+				{
+					"family": "Schouhamer Immink",
+					"given": "Kees A."
+				}
+			],
+			"container": "IEEE Information Theory Society Newsletter",
+			"volume": "57",
+			"issue": "4",
+			"pages": "42–46",
+			"published": "2007-12",
+			"url": "https://www.dmi.unict.it/~battiato/mm1213/beethoven.pdf",
+			"accessed": "2026-11-10",
+			"note": "The December 1979 table, the May 1980 minutes, the error correction and the 74 minutes; read in a copy hosted by the University of Catania"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The CD Story",
+			"authors": [
+				{
+					"family": "Schouhamer Immink",
+					"given": "Kees A."
+				}
+			],
+			"container": "Journal of the Audio Engineering Society",
+			"volume": "46",
+			"issue": "5",
+			"pages": "458–465",
+			"published": "1998-05",
+			"url": "https://aes2.org/publications/elibrary-page/?id=12144",
+			"accessed": "2026-11-10",
+			"note": "The sampling rate, 16 bits and the diameter; read in a reprint at hagenbeuk.nl"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Data Interchange on Read-Only 120 mm Optical Data Disks (CD-ROM)",
+			"number": "Standard ECMA-130",
+			"edition": "2nd ed.",
+			"publisher": "Ecma International",
+			"place": "Geneva",
+			"published": "1996-06",
+			"url": "https://ecma-international.org/wp-content/uploads/ECMA-130_2nd_edition_june_1996.pdf",
+			"accessed": "2026-11-10",
+			"note": "The CD's physical format: track pitch, scanning speed, laser, channel bits"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Passing of Norio Ohga, Senior Advisor and former President and Chairman, Sony Corporation",
+			"container": "Sony Group Portal, News Releases",
+			"publisher": "Sony Corporation",
+			"published": "2011-04-23",
+			"url": "https://www.sony.com/en/SonyInfo/News/Press/201104/11-0423E/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Beethoven's Ninth Symphony of Greater Importance than Technology",
+			"publisher": "Philips",
+			"citedIn": "Shannon, Beethoven, and the Compact Disc"
+		},
+		{
+			"kind": "web",
+			"title": "Philips Celebrates 25th Anniversary of the Compact Disc",
+			"publisher": "Philips",
+			"place": "Amsterdam",
+			"published": "2007-08-16",
+			"url": "https://dutchaudioclassics.nl/philips_press_cd_25_year_anniversary_2007/",
+			"mirror": true,
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "report",
+			"title": "2025 Year-End Music Industry Revenue Report",
+			"publisher": "Recording Industry Association of America",
+			"published": "2026-03",
+			"url": "https://www.riaa.com/wp-content/uploads/2026/08/RIAA-Year-End-Revenue-2025.pdf",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "recording",
+			"title": "52nd Street",
+			"authors": [
+				{
+					"family": "Joel",
+					"given": "Billy"
+				}
+			],
+			"recorded": "1978",
+			"publisher": "CBS/Sony",
+			"number": "35DP 1",
+			"published": "1982-10-01",
+			"url": "https://musicbrainz.org/release/e291db33-9400-3253-ba90-39769484823a",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "recording",
+			"title": "Wilhelm Furtwängler at the Bayreuth Festival 1951: Beethoven, Symphony No. 9 in D Minor (\"Choral\")",
+			"authors": [
+				{
+					"family": "Furtwängler",
+					"given": "Wilhelm"
+				},
+				{
+					"name": "Orchestra and Chorus of the Bayreuth Festival"
+				},
+				{
+					"family": "Schwarzkopf",
+					"given": "Elisabeth"
+				},
+				{
+					"family": "Höngen",
+					"given": "Elisabeth"
+				},
+				{
+					"family": "Hopf",
+					"given": "Hans"
+				},
+				{
+					"family": "Edelmann",
+					"given": "Otto"
+				}
+			],
+			"recorded": "1951",
+			"publisher": "Seraphim",
+			"number": "IB 6068",
+			"url": "https://archive.org/details/lp_wilhelm-furtwngler-at-the-bayreuth-festiva_ludvig-van-beethoven-elisabeth-schvarzkopf",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "The timings of the four sides are from the item's file list"
+		},
+		{
+			"kind": "recording",
+			"title": "Eine Alpensinfonie",
+			"authors": [
+				{
+					"family": "Karajan",
+					"given": "Herbert von"
+				},
+				{
+					"name": "Berlin Philharmonic"
+				}
+			],
+			"recorded": "1980-12",
+			"publisher": "Deutsche Grammophon",
+			"number": "400 039-2",
+			"url": "https://musicbrainz.org/release/c31f16ed-7542-4729-a1ac-9c26cef290b2",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Compact Disc Digital Audio",
+			"url": "https://en.wikipedia.org/w/index.php?title=Compact_Disc_Digital_Audio&oldid=1384810805",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-10",
+			"key": true,
+			"note": "The launch, the first pressings and the playing-time accounts"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Compact disc",
+			"url": "https://en.wikipedia.org/w/index.php?title=Compact_disc&oldid=1384075308",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sony CDP-101",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sony_CDP-101&oldid=1368342326",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "52nd Street (album)",
+			"url": "https://en.wikipedia.org/w/index.php?title=52nd_Street_(album)&oldid=1379667813",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Norio Ohga",
+			"url": "https://en.wikipedia.org/w/index.php?title=Norio_Ohga&oldid=1352610924",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lou Ottens",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lou_Ottens&oldid=1380277298",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Toshitada Doi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Toshitada_Doi&oldid=1372313325",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cross-interleaved Reed–Solomon coding",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cross-interleaved_Reed%E2%80%93Solomon_coding&oldid=1271870771",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-01-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "An Alpine Symphony",
+			"url": "https://en.wikipedia.org/w/index.php?title=An_Alpine_Symphony&oldid=1379068628",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "PolyGram",
+			"url": "https://en.wikipedia.org/w/index.php?title=PolyGram&oldid=1376226611",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "media",
+			"title": "Lettore CD Sony CDP-101",
+			"authors": [
+				{
+					"family": "Nassiri",
+					"given": "Alessandro"
+				}
+			],
+			"published": "2012-12-04",
+			"container": "Museo Nazionale della Scienza e della Tecnologia Leonardo da Vinci, Milan",
+			"url": "https://commons.wikimedia.org/wiki/File:Lettore_CD_Sony_CDP-101_-_Museo_della_Scienza_e_della_Tecnologia_Leonardo_da_Vinci.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC BY-SA 4.0",
+			"file": "cdp101.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "CD-ROM pressed pits",
+			"authors": [
+				{
+					"name": "Tycho (shansov.net)"
+				}
+			],
+			"published": "2023-01-03",
+			"url": "https://commons.wikimedia.org/wiki/File:CD-ROM_pressed_pits.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC0",
+			"file": "pits.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Compact discs shipped in the United States, 1985–2025",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "RIAA figures, in the Statistical Abstract of the United States, 1999, table 936, and 2012, table 1140; RIAA year-end reports for 2015, 2020 and 2025",
+			"url": "https://www2.census.gov/library/publications/1999/compendia/statab/119ed/tables/sec18.pdf",
+			"accessed": "2026-11-10",
+			"licence": "MIT",
+			"file": "shipments.svg"
+		},
+		{
+			"kind": "report",
+			"title": "Statistical Abstract of the United States: 2012",
+			"number": "Table 1140, Recording Media—Manufacturers' Shipments and Value: 2000 to 2010",
+			"publisher": "U.S. Census Bureau",
+			"place": "Washington, DC",
+			"published": "2011",
+			"url": "https://www2.census.gov/library/publications/2011/compendia/statab/131ed/tables/12s1140.pdf",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "report",
+			"title": "News and Notes on 2015 RIAA Shipment and Revenue Statistics",
+			"publisher": "Recording Industry Association of America",
+			"published": "2016-03",
+			"url": "https://www.riaa.com/wp-content/uploads/2016/03/RIAA-2015-Year-End-shipments-memo.pdf",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "report",
+			"title": "Year-End 2020 RIAA Revenue Statistics",
+			"publisher": "Recording Industry Association of America",
+			"published": "2021-02",
+			"url": "https://www.riaa.com/wp-content/uploads/2021/02/2020-Year-End-Music-Industry-Revenue-Report.pdf",
+			"accessed": "2026-11-10"
+		}
+	]
+}

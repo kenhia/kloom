@@ -4,5 +4,6 @@
 	"name": "Compact disc",
 	"aliases": ["CD"],
 	"kind": "artifact",
-	"description": "Digital optical disc for audio and data, developed by Philips and Sony and launched in 1982."
+	"description": "Digital optical disc for audio and data, developed by Philips and Sony and launched in 1982.",
+	"home": "music/compact-disc"
 }
