@@ -241,7 +241,10 @@ is a fact like the others, and cheaper to check than a date: sprint 028's
 brief, written from memory, named thirteen ids that were wrong (`de-motu-cordis`
 for a redirect, `wright-s-stain` for `wrights-stain`) or had no article
 at all (Leone Lattes, Leonard Skeggs, the Armed Services Blood Program),
-so those frames could not mark their own subjects. Point the brief at the
+so those frames could not mark their own subjects. A search for each id's
+words is not the lookup: sprint 058 checked its 246 ids that way, and six
+that redirect or have no article of their own went out (`pianola`, Andy
+Hildebrand's, `electrical-recording`), found only by the authors. Point the brief at the
 richest primary sources for the subject's kind of claim, too: sprint
 028's best for bench procedure were US military manuals and DTIC reports
 on the Internet Archive, which three authors found for themselves.
@@ -365,6 +368,12 @@ lookup "Title" … --write-draft .scratch/names/<subject>-<part>`** writes
   just before reporting. `--complete` ends by counting the copy, not the
   live tree ("the copy at DIR/<subject> holds N of M planned frames";
   three of sprint 049's authors read the old count as theirs).
+  An owner's names reach the registry as its part is committed, so a
+  checking command's `--drafts` for a committed owner only warns that its
+  drafts are already there, which is harmless; two parts that borrow from
+  each other (sprint 058 had three such pairs) are committed in either
+  order, the first bringing the other's draft in without `home` and the
+  second giving it back.
   They write contact sheets to their own `--png`, never run
   `subject_plan.py` on the live subject, and never commit. Name their
   Prettier and plate commands by frame (`npx prettier --write

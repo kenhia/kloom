@@ -419,7 +419,13 @@ Outreach"`): "Kornberg, Arthur. "The Biologic Synthesis of
   National Jukebox, Commons) as `url`: "Smith, Mamie. _Crazy Blues_.
   Recorded August 10, 1920. Okeh 4169, 1920." (a track on an album
   is quoted, the album in `container`). kloom plays no audio, so a
-  reading describes what is heard and cites the recording (sprint 058). A lecture read in
+  reading describes what is heard and cites the recording (sprint 058).
+  An author cannot listen either: what a recording sounds like comes from
+  a written description (a registry essay, a review, the score), said as
+  such, and the citation carries `read: "record"`. A recording still in
+  copyright that is online only as someone's upload is not used, not even
+  measured: sprint 058 dropped chorus times taken from one, as it would a
+  pirated book's text. A lecture read in
   a printed volume with its pages is a `chapter` in that volume, and one a
   journal printed (the Bakerian Lectures in the _Philosophical
   Transactions_) an `article`. **An encyclopedia entry** is
