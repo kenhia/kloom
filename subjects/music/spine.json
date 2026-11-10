@@ -40,7 +40,7 @@
 			"title": "Classical and Romantic",
 			"labelKind": "date",
 			"palette": "salon",
-			"frames": ["eroica", "virtuoso"]
+			"frames": ["mozart-vienna", "haydn-london", "eroica", "virtuoso"]
 		},
 		{
 			"id": "machines",

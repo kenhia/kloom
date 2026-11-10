@@ -1,0 +1,35 @@
+{
+	"music/mozart-vienna": [
+		["Wolfgang Amadeus Mozart", "wolfgang-amadeus-mozart"],
+		["Vienna", "vienna"],
+		["Hieronymus von Colloredo", "hieronymus-von-colloredo"],
+		["Salzburg", "salzburg"],
+		["Leopold Mozart", "leopold-mozart"],
+		["Muzio Clementi", "muzio-clementi"],
+		["Joseph II", "joseph-ii"],
+		["_Verzeichnüß aller meiner Werke_", "mozarts-personal-catalog-of-works"],
+		["fortepiano", "fortepiano"],
+		["Anton Walter", "anton-walter"],
+		["Lorenzo Da Ponte", "lorenzo-da-ponte"],
+		["_The Marriage of Figaro_", "the-marriage-of-figaro"],
+		["Burgtheater", "burgtheater"],
+		["_Don Giovanni_", "don-giovanni"],
+		["Antonio Salieri", "antonio-salieri"]
+	],
+	"music/haydn-london": [
+		["Joseph Haydn", "joseph-haydn"],
+		["Johann Peter Salomon", "johann-peter-salomon"],
+		["London", "london"],
+		["Esterházy", "esterhazy"],
+		["Georg August Griesinger", "georg-august-griesinger"],
+		["John Banister", "john-banister-composer"],
+		["Concert Spirituel", "concert-spirituel"],
+		["Hanover Square Rooms", "hanover-square-rooms"],
+		["Charles Burney", "charles-burney"],
+		["London symphonies", "london-symphonies"],
+		["Symphony No. 94", "symphony-no-94-haydn"],
+		["Ignaz Pleyel", "ignaz-pleyel"],
+		["University of Oxford", "university-of-oxford"],
+		["Ludwig van Beethoven", "ludwig-van-beethoven"]
+	]
+}

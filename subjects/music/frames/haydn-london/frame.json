@@ -1,0 +1,251 @@
+{
+	"id": "haydn-london",
+	"topic": "Haydn, Salomon and the public concert",
+	"position": {
+		"label": "1791–95",
+		"sort": 1791
+	},
+	"scene": {
+		"headline": "We bought",
+		"accent": "TICKETS.",
+		"palette": "salon",
+		"illustration": "scene.svg",
+		"metadata": ["HANOVER SQUARE ROOMS · LONDON", "JOSEPH HAYDN · JOHANN PETER SALOMON"],
+		"counter": {
+			"value": "24,000",
+			"label": "gulden Haydn earned in England"
+		}
+	},
+	"connections": [
+		{
+			"to": "music/eroica",
+			"why": "Beethoven came to Vienna in 1792 to study with Haydn, newly back from London, and in the Eroica wrote a symphony whose first movement alone is nearly as long as one of Haydn's."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Biographische Notizen über Joseph Haydn",
+			"authors": [
+				{
+					"family": "Griesinger",
+					"given": "Georg August"
+				}
+			],
+			"place": "Leipzig",
+			"publisher": "Breitkopf & Härtel",
+			"published": "1810",
+			"language": "de",
+			"url": "https://archive.org/details/bub_gb_sGhDAAAAcAAJ",
+			"accessed": "2026-11-10",
+			"note": "Salomon's arrival, the terms, the Surprise, Oxford and the receipts; quoted in our translation"
+		},
+		{
+			"kind": "book",
+			"title": "Biographische Nachrichten von Joseph Haydn",
+			"authors": [
+				{
+					"family": "Dies",
+					"given": "Albert Christoph"
+				}
+			],
+			"place": "Vienna",
+			"publisher": "Camesina",
+			"published": "1810",
+			"language": "de",
+			"url": "https://archive.org/details/10600111bsb",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Memoirs of Musick",
+			"authors": [
+				{
+					"family": "North",
+					"given": "Roger"
+				}
+			],
+			"editors": [
+				{
+					"family": "Rimbault",
+					"given": "Edward F."
+				}
+			],
+			"place": "London",
+			"publisher": "George Bell",
+			"published": "1846",
+			"url": "https://archive.org/details/memoirsofmusick1846nort",
+			"accessed": "2026-11-10",
+			"note": "Banister's room in Whitefriars, and the editor's notes quoting the London Gazette"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Haydn",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Haydn&oldid=1383473780",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-02",
+			"key": true,
+			"note": "The Esterházy years, the London journeys and Beethoven"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Symphony No. 94 (Haydn)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Symphony_No._94_(Haydn)&oldid=1374479919",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12",
+			"key": true,
+			"note": "The Andante's first sixteen bars and the premiere"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hanover Square Rooms",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hanover_Square_Rooms&oldid=1360472073",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Johann Peter Salomon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Johann_Peter_Salomon&oldid=1321721167",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "London symphonies",
+			"url": "https://en.wikipedia.org/w/index.php?title=London_symphonies&oldid=1368305556",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Symphony No. 96 (Haydn)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Symphony_No._96_(Haydn)&oldid=1367627545",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Concert Spirituel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Concert_Spirituel&oldid=1338436282",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Banister (composer)",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Banister_(composer)&oldid=1362075996",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Esterházy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Esterh%C3%A1zy&oldid=1384513764",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "recording",
+			"title": "Symphony No. 94 in G (\"Surprise\")",
+			"authors": [
+				{
+					"name": "New Queen's Hall Orchestra"
+				},
+				{
+					"family": "Wood",
+					"given": "Henry J."
+				}
+			],
+			"recorded": "1925-02-05",
+			"publisher": "Columbia",
+			"number": "L 1668–1670",
+			"published": "1925",
+			"url": "https://archive.org/details/l-1668-70-haydn-surprise-symphony",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Recorded acoustically in London on 5 February and 25 March 1925; the Andante without repeats"
+		},
+		{
+			"kind": "media",
+			"title": "Joseph Haydn (1732–1809)",
+			"authors": [
+				{
+					"family": "Hardy",
+					"given": "Thomas"
+				}
+			],
+			"published": "1791",
+			"container": "Royal College of Music, London",
+			"url": "https://commons.wikimedia.org/wiki/File:Thomas_Hardy_(1757-1804)_-_Joseph_Haydn_(1732%E2%80%931809)_-_PPHC000001_-_Royal_College_of_Music.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "haydn.jpg"
+		}
+	]
+}
