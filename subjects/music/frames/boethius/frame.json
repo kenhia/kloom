@@ -1,0 +1,259 @@
+{
+	"id": "boethius",
+	"topic": "Boethius's Fundamentals of Music",
+	"position": {
+		"label": "c. 510",
+		"sort": 510
+	},
+	"scene": {
+		"headline": "We learned Greek harmony in",
+		"accent": "LATIN.",
+		"palette": "monochord",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ROME · THE OSTROGOTHIC KINGDOM OF ITALY",
+			"BOETHIUS · DE INSTITUTIONE MUSICA · FIVE BOOKS"
+		],
+		"counter": {
+			"value": "140",
+			"label": "medieval copies surviving, about"
+		}
+	},
+	"connections": [
+		{
+			"to": "music/pythagoras-ratios",
+			"why": "Boethius's Book One retells, after Nicomachus, the story of Pythagoras and the smithy's hammers of 12, 9, 8 and 6 that frame tells, and so passed it to the Latin Middle Ages."
+		},
+		{
+			"to": "western-civ/fall-of-the-west",
+			"why": "Boethius was born about the time Odoacer deposed the last western emperor in 476, and served Theodoric, the Ostrogothic king who ruled Italy after him."
+		},
+		{
+			"to": "western-civ/scriptorium",
+			"why": "Cassiodorus, who founded the monastery of Vivarium that frame describes, drafted Theodoric's letters to Boethius and digested his handbooks; the music book reached the Middle Ages in some 140 copies made by hand."
+		},
+		{
+			"to": "mathematics/sieve-of-eratosthenes",
+			"why": "Boethius's Arithmetic, the companion to his music book, is a loose Latin version of Nicomachus's Introduction to Arithmetic, the source that frame follows for the sieve, which Boethius calls the cribrum."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Boethius",
+			"url": "https://en.wikipedia.org/w/index.php?title=Boethius&oldid=1384365213",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07",
+			"key": true,
+			"note": "His life, his fall and his works"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Anicii Manlii Torquati Severini Boetii De institutione arithmetica libri duo, De institutione musica libri quinque",
+			"editors": [
+				{
+					"family": "Friedlein",
+					"given": "Gottfried"
+				}
+			],
+			"place": "Leipzig",
+			"publisher": "B. G. Teubner",
+			"published": "1867",
+			"language": "la",
+			"url": "https://archive.org/details/aniciimanliitor00friegoog",
+			"accessed": "2026-11-10",
+			"note": "Translated here from Music I.1–2, I.8, I.10 (with the figure, p. 197), I.34, IV.1 and V.10; the sieve is Arithmetic I.17"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "De Institutione Musica: Boethius’ Ancient Sources and Reception History",
+			"authors": [
+				{
+					"family": "Popović",
+					"given": "Saša"
+				}
+			],
+			"container": "A Hidden Harmony: Mathematics and Music Through the Ages",
+			"publisher": "Matematički institut SANU",
+			"place": "Belgrade",
+			"published": "2024",
+			"pages": "125–154",
+			"doi": "10.18485/mi_sanu_zr.2024.29.21.ch9",
+			"url": "http://doi.fil.bg.ac.rs/pdf/eb_ser/mi_sanu_zr/2024-29-21/mi_sanu_zr-2024-29-21-ch9.pdf",
+			"accessed": "2026-11-10",
+			"note": "The sources of each book, Bower's and Pizzani's readings, and the treatise's later life"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Letters of Cassiodorus: Being a Condensed Translation of the Variae Epistolae of Magnus Aurelius Cassiodorus Senator",
+			"authors": [
+				{
+					"name": "Cassiodorus"
+				}
+			],
+			"translators": [
+				{
+					"family": "Hodgkin",
+					"given": "Thomas"
+				}
+			],
+			"place": "London",
+			"publisher": "Henry Frowde",
+			"published": "1886",
+			"url": "https://www.gutenberg.org/ebooks/18590",
+			"accessed": "2026-11-10",
+			"note": "Theodoric to Boethius, Variae I.45 and II.40"
+		},
+		{
+			"kind": "article",
+			"title": "Boethius and Nicomachus: An Essay Concerning the Sources of De institutione musica",
+			"authors": [
+				{
+					"family": "Bower",
+					"given": "Calvin M."
+				}
+			],
+			"container": "Vivarium",
+			"volume": "16",
+			"issue": "1",
+			"pages": "1–45",
+			"published": "1978",
+			"citedIn": "De Institutione Musica: Boethius’ Ancient Sources and Reception History"
+		},
+		{
+			"kind": "article",
+			"title": "Studi sulle fonti del De Institutione Musica di Boezio",
+			"authors": [
+				{
+					"family": "Pizzani",
+					"given": "Ubaldo"
+				}
+			],
+			"container": "Sacris Erudiri",
+			"volume": "16",
+			"pages": "5–164",
+			"published": "1965",
+			"language": "it",
+			"citedIn": "De Institutione Musica: Boethius’ Ancient Sources and Reception History"
+		},
+		{
+			"kind": "report",
+			"title": "Boethius' The Principles of Music: An Introduction, Translation, and Commentary",
+			"authors": [
+				{
+					"family": "Bower",
+					"given": "Calvin M."
+				}
+			],
+			"publisher": "George Peabody College for Teachers",
+			"published": "1966",
+			"note": "PhD dissertation",
+			"citedIn": "De Institutione Musica: Boethius’ Ancient Sources and Reception History"
+		},
+		{
+			"kind": "encyclopedia",
+			"title": "Anicius Manlius Severinus Boethius",
+			"authors": [
+				{
+					"family": "Marenbon",
+					"given": "John"
+				}
+			],
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"editors": [
+				{
+					"family": "Zalta",
+					"given": "Edward N."
+				},
+				{
+					"family": "Nodelman",
+					"given": "Uri"
+				}
+			],
+			"published": "2026-10-14",
+			"url": "https://plato.stanford.edu/entries/boethius/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "book",
+			"title": "A General History of the Science and Practice of Music",
+			"authors": [
+				{
+					"family": "Hawkins",
+					"given": "John"
+				}
+			],
+			"edition": "New ed.",
+			"volume": "1",
+			"place": "London",
+			"publisher": "Novello, Ewer and Co.",
+			"published": "1875",
+			"url": "https://archive.org/details/generalhistoryof0001sirj",
+			"accessed": "2026-11-10",
+			"note": "First published 1776; Anthony Wood on Oxford's bachelors of music, book 2, chapter 25"
+		},
+		{
+			"kind": "article",
+			"title": "Charting Boethius: Music and the Diagrammatic Tree in the Cambridge University Library’s De institutione arithmetica, MS Ii.3.12",
+			"authors": [
+				{
+					"family": "Walden",
+					"given": "Daniel K. S."
+				}
+			],
+			"container": "Early Music History",
+			"volume": "34",
+			"pages": "207–228",
+			"published": "2015",
+			"doi": "10.1017/s0261127915000017",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Jean des Murs and the Return to Boethius on Music",
+			"authors": [
+				{
+					"family": "Crossley",
+					"given": "John N."
+				},
+				{
+					"family": "Mews",
+					"given": "Constant J."
+				},
+				{
+					"family": "Williams",
+					"given": "Carol J."
+				}
+			],
+			"container": "Early Music History",
+			"volume": "40",
+			"pages": "1–36",
+			"published": "2021",
+			"doi": "10.1017/s0261127921000012",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "media",
+			"title": "Boethius, Pythagoras, Plato and Nicomachus",
+			"container": "Boethius, De institutione musica, Christ Church, Canterbury; Cambridge University Library, MS Ii.3.12, fol. 61v",
+			"published": "1130",
+			"circa": true,
+			"url": "https://commons.wikimedia.org/wiki/File:Boethius_%27s_Instutione_Musica,_Cambridge_University_Library_Ii_3.12_fol_61v.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "canterbury-miniature.jpg"
+		}
+	]
+}
