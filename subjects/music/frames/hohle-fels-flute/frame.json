@@ -1,0 +1,258 @@
+{
+	"id": "hohle-fels-flute",
+	"topic": "The Hohle Fels bone flute",
+	"position": {
+		"label": "c. 40,000 years ago",
+		"sort": -38000
+	},
+	"scene": {
+		"headline": "We made music from",
+		"accent": "BONE.",
+		"palette": "cave",
+		"illustration": "scene.svg",
+		"metadata": ["HOHLE FELS · SWABIAN JURA", "GRIFFON VULTURE RADIUS · FIVE FINGER HOLES"],
+		"counter": {
+			"value": "12",
+			"label": "pieces it was found in"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "New Flutes Document the Earliest Musical Tradition in Southwestern Germany",
+			"authors": [
+				{
+					"family": "Conard",
+					"given": "Nicholas J."
+				},
+				{
+					"family": "Malina",
+					"given": "Maria"
+				},
+				{
+					"family": "Münzel",
+					"given": "Susanne C."
+				}
+			],
+			"container": "Nature",
+			"volume": "460",
+			"issue": "7256",
+			"pages": "737–740",
+			"published": "2009-08-06",
+			"doi": "10.1038/nature08169",
+			"accessed": "2026-11-10",
+			"read": "abstract",
+			"note": "The flutes, their layers and their dates; read in its abstract and figure captions"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Flutes Offer Clues to Stone-Age Music",
+			"authors": [
+				{
+					"family": "Wilford",
+					"given": "John Noble"
+				}
+			],
+			"container": "The New York Times",
+			"published": "2009-06-25",
+			"url": "https://www.nytimes.com/2009/06/25/science/25flute.html",
+			"accessed": "2026-11-10",
+			"note": "The bone, its notches and the missing end, and the two laboratories' dates"
+		},
+		{
+			"kind": "web",
+			"title": "A Little Flute Music to Warm the Cave",
+			"authors": [
+				{
+					"family": "Harris",
+					"given": "Richard"
+				}
+			],
+			"container": "NPR",
+			"published": "2009-06-24",
+			"url": "https://www.npr.org/2009/06/24/105823127/a-little-flute-music-to-warm-the-cave",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "35,000-Year-Old German Flutes Display Excellent Kraftwerk",
+			"authors": [
+				{
+					"family": "Yong",
+					"given": "Ed"
+				}
+			],
+			"container": "National Geographic",
+			"published": "2009-06-24",
+			"url": "https://www.nationalgeographic.com/science/article/35000-year-old-german-flutes-display-excellent-kraftwerk",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Music of the Swabian Jura",
+			"container": "Ice Age Europe: Network of Heritage Sites",
+			"url": "https://ice-age-europe.eu/News/Magazine-detail/the-music-of-the-swabian-jura.html",
+			"accessed": "2026-11-10",
+			"note": "How the replicas are played, with and without a mouthpiece"
+		},
+		{
+			"kind": "article",
+			"title": "Τesting Models for the Beginnings of the Aurignacian and the Advent of Figurative Art and Music: The Radiocarbon Chronology of Geißenklösterle",
+			"authors": [
+				{
+					"family": "Higham",
+					"given": "Thomas"
+				},
+				{
+					"family": "Basell",
+					"given": "Laura"
+				},
+				{
+					"family": "Jacobi",
+					"given": "Roger"
+				},
+				{
+					"family": "Wood",
+					"given": "Rachel"
+				},
+				{
+					"family": "Bronk Ramsey",
+					"given": "Christopher"
+				},
+				{
+					"family": "Conard",
+					"given": "Nicholas J."
+				}
+			],
+			"container": "Journal of Human Evolution",
+			"volume": "62",
+			"issue": "6",
+			"pages": "664–676",
+			"published": "2012-06",
+			"doi": "10.1016/j.jhevol.2012.03.003",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "'Neanderthal Bone Flutes': Simply Products of Ice Age Spotted Hyena Scavenging Activities on Cave Bear Cubs in European Cave Bear Dens",
+			"authors": [
+				{
+					"family": "Diedrich",
+					"given": "C. G."
+				}
+			],
+			"container": "Royal Society Open Science",
+			"volume": "2",
+			"issue": "4",
+			"pages": "140022",
+			"published": "2015-04",
+			"doi": "10.1098/rsos.140022",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Paleolithic flute",
+			"url": "https://en.wikipedia.org/w/index.php?title=Paleolithic_flute&oldid=1365091409",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hohle Fels",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hohle_Fels&oldid=1374015367",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hohler Fels",
+			"url": "https://de.wikipedia.org/w/index.php?title=Hohler_Fels&oldid=271666264",
+			"language": "de",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Geissenklösterle",
+			"url": "https://en.wikipedia.org/w/index.php?title=Geissenkl%C3%B6sterle&oldid=1365844665",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Divje Babe flute",
+			"url": "https://en.wikipedia.org/w/index.php?title=Divje_Babe_flute&oldid=1375132088",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Caves and Ice Age Art in the Swabian Jura",
+			"url": "https://en.wikipedia.org/w/index.php?title=Caves_and_Ice_Age_Art_in_the_Swabian_Jura&oldid=1373862673",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "media",
+			"title": "Flöte aus Gänsegeierknochen vom Hohle Fels im urmu",
+			"authors": [
+				{
+					"name": "Tomatenpflanze"
+				}
+			],
+			"published": "2017-05-24",
+			"container": "Urgeschichtliches Museum Blaubeuren",
+			"url": "https://commons.wikimedia.org/wiki/File:Fl%C3%B6te_aus_G%C3%A4nsegeierknochen_vom_Hohle_Fels_im_urmu.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC BY-SA 4.0",
+			"file": "flute.jpg"
+		}
+	]
+}

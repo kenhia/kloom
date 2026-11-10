@@ -1,0 +1,611 @@
+{
+	"spine": {
+		"segments": [
+			{
+				"id": "first-sounds",
+				"title": "First sounds",
+				"labelKind": "date",
+				"palette": "cave",
+				"frames": [
+					"hohle-fels-flute",
+					"lyres-of-ur",
+					"hurrian-hymn"
+				]
+			},
+			{
+				"id": "number-and-harmony",
+				"title": "Number and harmony",
+				"labelKind": "date",
+				"palette": "monochord",
+				"frames": [
+					"pythagoras-ratios",
+					"aristoxenus",
+					"seikilos",
+					"boethius"
+				]
+			},
+			{
+				"id": "writing-it-down",
+				"title": "Writing it down",
+				"labelKind": "date",
+				"palette": "vespers",
+				"frames": [
+					"neumes",
+					"guido-staff",
+					"hildegard",
+					"notre-dame",
+					"ars-nova"
+				]
+			},
+			{
+				"id": "print",
+				"title": "Print and the Renaissance",
+				"labelKind": "date",
+				"palette": "woodcut",
+				"frames": [
+					"petrucci",
+					"josquin",
+					"luther-chorale",
+					"palestrina"
+				]
+			},
+			{
+				"id": "baroque",
+				"title": "The Baroque",
+				"labelKind": "date",
+				"palette": "gilt",
+				"frames": [
+					"monteverdi-orfeo",
+					"cremona-violins",
+					"well-tempered-clavier",
+					"vivaldi-seasons",
+					"handel-messiah"
+				]
+			},
+			{
+				"id": "concert",
+				"title": "Classical and Romantic",
+				"labelKind": "date",
+				"palette": "salon",
+				"frames": [
+					"mozart-vienna",
+					"haydn-london",
+					"eroica",
+					"virtuoso",
+					"bayreuth",
+					"new-world"
+				]
+			},
+			{
+				"id": "machines",
+				"title": "Machines that remember",
+				"labelKind": "date",
+				"palette": "shellac",
+				"frames": [
+					"phonautograph",
+					"edison-phonograph",
+					"gramophone",
+					"radio-music",
+					"electrical-recording",
+					"magnetic-tape",
+					"long-playing-record"
+				]
+			},
+			{
+				"id": "new-world-song",
+				"title": "Songs of the New World",
+				"labelKind": "date",
+				"palette": "sheet",
+				"frames": [
+					"fisk-jubilee",
+					"ragtime",
+					"blues-record",
+					"hot-five"
+				]
+			},
+			{
+				"id": "modern-electric",
+				"title": "Modern and electric",
+				"labelKind": "date",
+				"palette": "valve",
+				"frames": [
+					"twelve-tone",
+					"electric-guitar",
+					"cage-silence",
+					"rock-and-roll",
+					"moog"
+				]
+			},
+			{
+				"id": "digital",
+				"title": "Digital",
+				"labelKind": "date",
+				"palette": "pixel",
+				"frames": [
+					"computer-music",
+					"fm-synthesis",
+					"compact-disc",
+					"midi",
+					"mp3",
+					"streaming",
+					"ai-music"
+				]
+			}
+		]
+	},
+	"trails": [
+		{
+			"id": "tuning",
+			"title": "Tuning",
+			"anchor": "pythagoras-ratios",
+			"spine": {
+				"segments": [
+					{
+						"id": "tuning-seg",
+						"title": "Tempering the scale",
+						"labelKind": "date",
+						"palette": "monochord",
+						"frames": [
+							"ptolemy-harmonics",
+							"meantone",
+							"equal-temperament",
+							"well-temperament",
+							"helmholtz-tone",
+							"ellis-cents"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "voice",
+			"title": "The voice",
+			"anchor": "monteverdi-orfeo",
+			"spine": {
+				"segments": [
+					{
+						"id": "voice-seg",
+						"title": "Voices",
+						"labelKind": "date",
+						"palette": "gilt",
+						"frames": [
+							"castrati",
+							"jenny-lind",
+							"laryngoscope",
+							"crooner",
+							"auto-tune"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "piano",
+			"title": "The piano",
+			"anchor": "mozart-vienna",
+			"spine": {
+				"segments": [
+					{
+						"id": "piano-seg",
+						"title": "Hammers and strings",
+						"labelKind": "date",
+						"palette": "salon",
+						"frames": [
+							"cristofori",
+							"stein-piano",
+							"double-escapement",
+							"iron-frame",
+							"player-piano",
+							"rhodes"
+						]
+					}
+				]
+			}
+		}
+	],
+	"owners": {},
+	"frames": {
+		"hohle-fels-flute": {
+			"topic": "The Hohle Fels bone flute",
+			"palette": "cave",
+			"sort": -38000,
+			"part": "hand"
+		},
+		"lyres-of-ur": {
+			"topic": "The Lyres of Ur",
+			"palette": "cave",
+			"sort": -2500,
+			"part": "hand"
+		},
+		"hurrian-hymn": {
+			"topic": "Hurrian Hymn no. 6",
+			"palette": "cave",
+			"sort": -1400,
+			"part": "hand"
+		},
+		"pythagoras-ratios": {
+			"topic": "Pythagoras and the ratios",
+			"palette": "monochord",
+			"sort": -500,
+			"part": "harm1"
+		},
+		"aristoxenus": {
+			"topic": "Aristoxenus and the ear",
+			"palette": "monochord",
+			"sort": -330,
+			"part": "harm1"
+		},
+		"seikilos": {
+			"topic": "The Seikilos epitaph",
+			"palette": "monochord",
+			"sort": 100,
+			"part": "harm2"
+		},
+		"boethius": {
+			"topic": "Boethius's Fundamentals of Music",
+			"palette": "monochord",
+			"sort": 510,
+			"part": "harm2"
+		},
+		"neumes": {
+			"topic": "Neumes and Gregorian chant",
+			"palette": "vespers",
+			"sort": 900,
+			"part": "script1"
+		},
+		"guido-staff": {
+			"topic": "Guido of Arezzo and the staff",
+			"palette": "vespers",
+			"sort": 1026,
+			"part": "script1"
+		},
+		"hildegard": {
+			"topic": "Hildegard of Bingen's songs",
+			"palette": "vespers",
+			"sort": 1151,
+			"part": "script2"
+		},
+		"notre-dame": {
+			"topic": "Léonin, Pérotin and Notre-Dame",
+			"palette": "vespers",
+			"sort": 1198,
+			"part": "script2"
+		},
+		"ars-nova": {
+			"topic": "Ars nova and measured rhythm",
+			"palette": "vespers",
+			"sort": 1322,
+			"part": "script2"
+		},
+		"petrucci": {
+			"topic": "Petrucci's printed music",
+			"palette": "woodcut",
+			"sort": 1501,
+			"part": "print1"
+		},
+		"josquin": {
+			"topic": "Josquin des Prez",
+			"palette": "woodcut",
+			"sort": 1502,
+			"part": "print1"
+		},
+		"luther-chorale": {
+			"topic": "Luther and the chorale",
+			"palette": "woodcut",
+			"sort": 1524,
+			"part": "print2"
+		},
+		"palestrina": {
+			"topic": "Palestrina and the Council of Trent",
+			"palette": "woodcut",
+			"sort": 1567,
+			"part": "print2"
+		},
+		"monteverdi-orfeo": {
+			"topic": "Monteverdi's Orfeo and the first operas",
+			"palette": "gilt",
+			"sort": 1607,
+			"part": "baroque1"
+		},
+		"cremona-violins": {
+			"topic": "The violin makers of Cremona",
+			"palette": "gilt",
+			"sort": 1666,
+			"part": "baroque1"
+		},
+		"well-tempered-clavier": {
+			"topic": "Bach's Well-Tempered Clavier",
+			"palette": "gilt",
+			"sort": 1722,
+			"part": "baroque2"
+		},
+		"vivaldi-seasons": {
+			"topic": "Vivaldi's Four Seasons",
+			"palette": "gilt",
+			"sort": 1725,
+			"part": "baroque2"
+		},
+		"handel-messiah": {
+			"topic": "Handel's Messiah",
+			"palette": "gilt",
+			"sort": 1742,
+			"part": "baroque2"
+		},
+		"mozart-vienna": {
+			"topic": "Mozart in Vienna",
+			"palette": "salon",
+			"sort": 1781,
+			"part": "classic1"
+		},
+		"haydn-london": {
+			"topic": "Haydn, Salomon and the public concert",
+			"palette": "salon",
+			"sort": 1791,
+			"part": "classic1"
+		},
+		"eroica": {
+			"topic": "Beethoven's Eroica",
+			"palette": "salon",
+			"sort": 1804,
+			"part": "classic2"
+		},
+		"virtuoso": {
+			"topic": "Paganini, Liszt and the virtuoso",
+			"palette": "salon",
+			"sort": 1839,
+			"part": "classic2"
+		},
+		"bayreuth": {
+			"topic": "Wagner's Bayreuth",
+			"palette": "salon",
+			"sort": 1876,
+			"part": "classic3"
+		},
+		"new-world": {
+			"topic": "Dvořák's New World Symphony",
+			"palette": "salon",
+			"sort": 1893,
+			"part": "classic3"
+		},
+		"phonautograph": {
+			"topic": "Scott's phonautograph",
+			"palette": "shellac",
+			"sort": 1857,
+			"part": "machine1"
+		},
+		"edison-phonograph": {
+			"topic": "Edison's phonograph",
+			"palette": "shellac",
+			"sort": 1877,
+			"part": "machine1"
+		},
+		"gramophone": {
+			"topic": "Berliner's gramophone",
+			"palette": "shellac",
+			"sort": 1887,
+			"part": "machine2"
+		},
+		"radio-music": {
+			"topic": "Music on the radio",
+			"palette": "shellac",
+			"sort": 1920,
+			"part": "machine2"
+		},
+		"electrical-recording": {
+			"topic": "Electrical recording",
+			"palette": "shellac",
+			"sort": 1925,
+			"part": "machine3"
+		},
+		"magnetic-tape": {
+			"topic": "Magnetic tape",
+			"palette": "shellac",
+			"sort": 1935,
+			"part": "machine3"
+		},
+		"long-playing-record": {
+			"topic": "The long-playing record",
+			"palette": "shellac",
+			"sort": 1948,
+			"part": "machine3"
+		},
+		"fisk-jubilee": {
+			"topic": "The Fisk Jubilee Singers",
+			"palette": "sheet",
+			"sort": 1871,
+			"part": "roots1"
+		},
+		"ragtime": {
+			"topic": "Scott Joplin and ragtime",
+			"palette": "sheet",
+			"sort": 1899,
+			"part": "roots1"
+		},
+		"blues-record": {
+			"topic": "The blues on record",
+			"palette": "sheet",
+			"sort": 1920,
+			"part": "roots2"
+		},
+		"hot-five": {
+			"topic": "Armstrong's Hot Five and jazz",
+			"palette": "sheet",
+			"sort": 1925,
+			"part": "roots2"
+		},
+		"twelve-tone": {
+			"topic": "Schoenberg's twelve tones",
+			"palette": "valve",
+			"sort": 1921,
+			"part": "modern1"
+		},
+		"electric-guitar": {
+			"topic": "The electric guitar",
+			"palette": "valve",
+			"sort": 1932,
+			"part": "modern1"
+		},
+		"cage-silence": {
+			"topic": "Cage's 4′33″",
+			"palette": "valve",
+			"sort": 1952,
+			"part": "modern2"
+		},
+		"rock-and-roll": {
+			"topic": "Rock and roll",
+			"palette": "valve",
+			"sort": 1954,
+			"part": "modern2"
+		},
+		"moog": {
+			"topic": "The Moog synthesizer",
+			"palette": "valve",
+			"sort": 1964,
+			"part": "modern2"
+		},
+		"computer-music": {
+			"topic": "Mathews and computer music",
+			"palette": "pixel",
+			"sort": 1957,
+			"part": "digital1"
+		},
+		"fm-synthesis": {
+			"topic": "Chowning's FM synthesis",
+			"palette": "pixel",
+			"sort": 1973,
+			"part": "digital1"
+		},
+		"compact-disc": {
+			"topic": "The compact disc",
+			"palette": "pixel",
+			"sort": 1982,
+			"part": "digital2"
+		},
+		"midi": {
+			"topic": "MIDI",
+			"palette": "pixel",
+			"sort": 1983,
+			"part": "digital2"
+		},
+		"mp3": {
+			"topic": "The MP3",
+			"palette": "pixel",
+			"sort": 1995,
+			"part": "digital3"
+		},
+		"streaming": {
+			"topic": "Streaming",
+			"palette": "pixel",
+			"sort": 2008,
+			"part": "digital3"
+		},
+		"ai-music": {
+			"topic": "Music made by AI",
+			"palette": "pixel",
+			"sort": 2026,
+			"part": "digital3"
+		},
+		"ptolemy-harmonics": {
+			"topic": "Ptolemy's Harmonics",
+			"palette": "monochord",
+			"sort": 150,
+			"part": "tune1"
+		},
+		"meantone": {
+			"topic": "Meantone temperament",
+			"palette": "monochord",
+			"sort": 1523,
+			"part": "tune1"
+		},
+		"equal-temperament": {
+			"topic": "Zhu Zaiyu and equal temperament",
+			"palette": "monochord",
+			"sort": 1584,
+			"part": "tune1"
+		},
+		"well-temperament": {
+			"topic": "Werckmeister and well temperament",
+			"palette": "monochord",
+			"sort": 1691,
+			"part": "tune2"
+		},
+		"helmholtz-tone": {
+			"topic": "Helmholtz's Sensations of Tone",
+			"palette": "monochord",
+			"sort": 1863,
+			"part": "tune2"
+		},
+		"ellis-cents": {
+			"topic": "Ellis and the cent",
+			"palette": "monochord",
+			"sort": 1885,
+			"part": "tune2"
+		},
+		"castrati": {
+			"topic": "The castrati",
+			"palette": "gilt",
+			"sort": 1734,
+			"part": "voice1"
+		},
+		"jenny-lind": {
+			"topic": "Jenny Lind's American tour",
+			"palette": "gilt",
+			"sort": 1850,
+			"part": "voice1"
+		},
+		"laryngoscope": {
+			"topic": "García's laryngoscope",
+			"palette": "gilt",
+			"sort": 1855,
+			"part": "voice1"
+		},
+		"crooner": {
+			"topic": "The microphone and the crooner",
+			"palette": "gilt",
+			"sort": 1931,
+			"part": "voice2"
+		},
+		"auto-tune": {
+			"topic": "Auto-Tune",
+			"palette": "gilt",
+			"sort": 1998,
+			"part": "voice2"
+		},
+		"cristofori": {
+			"topic": "Cristofori's first piano",
+			"palette": "salon",
+			"sort": 1700,
+			"part": "piano1"
+		},
+		"stein-piano": {
+			"topic": "Stein and the Viennese piano",
+			"palette": "salon",
+			"sort": 1777,
+			"part": "piano1"
+		},
+		"double-escapement": {
+			"topic": "Érard's double escapement",
+			"palette": "salon",
+			"sort": 1821,
+			"part": "piano1"
+		},
+		"iron-frame": {
+			"topic": "Steinway's iron frame",
+			"palette": "salon",
+			"sort": 1859,
+			"part": "piano2"
+		},
+		"player-piano": {
+			"topic": "The player piano",
+			"palette": "salon",
+			"sort": 1904,
+			"part": "piano2"
+		},
+		"rhodes": {
+			"topic": "The Rhodes electric piano",
+			"palette": "salon",
+			"sort": 1965,
+			"part": "piano2"
+		}
+	}
+}

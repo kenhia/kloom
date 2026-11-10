@@ -1,0 +1,11 @@
+{
+	"segments": [
+		{
+			"id": "first-sounds",
+			"title": "First sounds",
+			"labelKind": "date",
+			"palette": "cave",
+			"frames": ["hohle-fels-flute", "lyres-of-ur", "hurrian-hymn"]
+		}
+	]
+}
