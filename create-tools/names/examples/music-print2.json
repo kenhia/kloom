@@ -1,0 +1,35 @@
+{
+	"music/luther-chorale": [
+		["Martin Luther", "martin-luther"],
+		["Ludwig Senfl", "ludwig-senfl"],
+		["Reformation", "reformation"],
+		["_Achtliederbuch_", "first-lutheran-hymnal"],
+		["Wittenberg", "wittenberg"],
+		["Erfurt Enchiridion", "erfurt-enchiridion"],
+		["chorale", "chorale"],
+		["_Ein feste Burg ist unser Gott_", "a-mighty-fortress-is-our-god"],
+		["Johann Walter", "johann-walter"],
+		["_Geystliche gesangk Buchleyn_", "eyn-geystlich-gesangk-buchleyn"],
+		["John Calvin", "john-calvin"],
+		["Geneva", "geneva"],
+		["Genevan Psalter", "genevan-psalter"],
+		["Johann Sebastian Bach", "johann-sebastian-bach"]
+	],
+	"music/palestrina": [
+		["_Missa Papae Marcelli_", "missa-papae-marcelli"],
+		["Council of Trent", "council-of-trent"],
+		["Giovanni Pierluigi da Palestrina", "giovanni-pierluigi-da-palestrina"],
+		["Julius III", "pope-julius-iii"],
+		["St Peter's Basilica", "st-peters-basilica"],
+		["Sistine Chapel Choir", "sistine-chapel-choir"],
+		["Marcellus II", "pope-marcellus-ii"],
+		["Santa Maria Maggiore", "santa-maria-maggiore"],
+		["Counter-Reformation", "counter-reformation"],
+		["Charles Borromeo", "charles-borromeo"],
+		["Philip II of Spain", "philip-ii-of-spain"],
+		["Agostino Agazzari", "agostino-agazzari"],
+		["Giuseppe Baini", "giuseppe-baini"],
+		["Johann Joseph Fux", "johann-joseph-fux"],
+		["counterpoint", "counterpoint"]
+	]
+}

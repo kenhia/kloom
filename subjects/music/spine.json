@@ -13,6 +13,13 @@
 			"labelKind": "date",
 			"palette": "monochord",
 			"frames": ["pythagoras-ratios", "aristoxenus"]
+		},
+		{
+			"id": "print",
+			"title": "Print and the Renaissance",
+			"labelKind": "date",
+			"palette": "woodcut",
+			"frames": ["luther-chorale", "palestrina"]
 		}
 	]
 }

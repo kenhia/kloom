@@ -1,0 +1,243 @@
+{
+	"id": "palestrina",
+	"topic": "Palestrina and the Council of Trent",
+	"position": {
+		"label": "1567",
+		"sort": 1567
+	},
+	"scene": {
+		"headline": "Rome wanted to hear the",
+		"accent": "WORDS.",
+		"palette": "woodcut",
+		"illustration": "scene.svg",
+		"metadata": ["ROME · THE COUNCIL OF TRENT, 1562–63", "MISSA PAPAE MARCELLI · PRINTED 1567"],
+		"counter": {
+			"value": "105",
+			"label": "masses by Palestrina"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/ninety-five-theses",
+			"why": "The Council of Trent, whose rulings on church music this frame weighs, was the Catholic Church's answer to the Reformation that Luther's theses of 1517 began."
+		},
+		{
+			"to": "western-civ/renaissance-painting",
+			"why": "The papal choir that Palestrina joined in 1555 sang the pope's services in the Sistine Chapel, under the ceiling Michelangelo painted from 1508."
+		}
+	],
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Session the Twenty-Second: Decree Concerning the Things to Be Observed, and to Be Avoided, in the Celebration of Mass",
+			"container": "The Canons and Decrees of the Sacred and Oecumenical Council of Trent",
+			"translators": [
+				{
+					"family": "Waterworth",
+					"given": "J."
+				}
+			],
+			"place": "London",
+			"publisher": "Dolman",
+			"published": "1848",
+			"pages": "160–61",
+			"url": "https://history.hanover.edu/texts/trent/ct22.html",
+			"accessed": "2026-11-10",
+			"note": "The decree of September 17, 1562, read on Hanover College's Historical Texts"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Council of Trent Revisited",
+			"authors": [
+				{
+					"family": "Monson",
+					"given": "Craig A."
+				}
+			],
+			"container": "Journal of the American Musicological Society",
+			"volume": "55",
+			"issue": "1",
+			"pages": "1–37",
+			"published": "2002",
+			"doi": "10.1525/jams.2002.55.1.1",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "encyclopedia",
+			"key": true,
+			"title": "Palestrina, Giovanni Pierluigi da",
+			"authors": [
+				{
+					"family": "Rockstro",
+					"given": "William Smyth"
+				},
+				{
+					"family": "Tovey",
+					"given": "Donald Francis"
+				}
+			],
+			"container": "Encyclopædia Britannica",
+			"edition": "11th ed.",
+			"volume": "20",
+			"published": "1911",
+			"url": "https://en.wikisource.org/w/index.php?title=1911_Encyclop%C3%A6dia_Britannica/Palestrina,_Giovanni_Pierluigi_da&oldid=11675801",
+			"accessed": "2026-11-10",
+			"note": "His posts and pay, and the legend as it was told in 1911"
+		},
+		{
+			"kind": "encyclopedia",
+			"title": "Giovanni Pierluigi da Palestrina",
+			"authors": [
+				{
+					"family": "Otten",
+					"given": "Joseph"
+				}
+			],
+			"container": "The Catholic Encyclopedia",
+			"volume": "11",
+			"place": "New York",
+			"publisher": "Robert Appleton",
+			"published": "1911",
+			"url": "https://en.wikisource.org/w/index.php?title=Catholic_Encyclopedia_(1913)/Giovanni_Pierluigi_da_Palestrina&oldid=4654445",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Gradus ad Parnassum, sive Manuductio ad compositionem musicae regularem",
+			"authors": [
+				{
+					"family": "Fux",
+					"given": "Johann Joseph"
+				}
+			],
+			"place": "Vienna",
+			"publisher": "Johann Peter van Ghelen",
+			"published": "1725",
+			"language": "la",
+			"url": "https://archive.org/details/gradusadparnassu00fuxj_0",
+			"accessed": "2026-11-10",
+			"note": "The preface on Aloysius; the first exercise in first species, pp. 45–48"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Missa Papae Marcelli",
+			"url": "https://en.wikipedia.org/w/index.php?title=Missa_Papae_Marcelli&oldid=1360069141",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-19",
+			"key": true,
+			"note": "The mass's style, date and the legend, with Agazzari's and Baini's words"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Giovanni Pierluigi da Palestrina",
+			"url": "https://en.wikipedia.org/w/index.php?title=Giovanni_Pierluigi_da_Palestrina&oldid=1382189586",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sistine Chapel Choir",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sistine_Chapel_Choir&oldid=1375825696",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gradus ad Parnassum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gradus_ad_Parnassum&oldid=1356225490",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Agostino Agazzari",
+			"url": "https://en.wikipedia.org/w/index.php?title=Agostino_Agazzari&oldid=1223288487",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-05-11"
+		},
+		{
+			"kind": "book",
+			"title": "Del sonare sopra'l basso con tutti li stromenti e dell'uso loro nel conserto",
+			"authors": [
+				{
+					"family": "Agazzari",
+					"given": "Agostino"
+				}
+			],
+			"place": "Siena",
+			"published": "1607",
+			"language": "it",
+			"citedIn": "Missa Papae Marcelli",
+			"publisher": "Domenico Falcini"
+		},
+		{
+			"kind": "recording",
+			"title": "Exultate Deo",
+			"authors": [
+				{
+					"name": "Sistine Chapel Choir"
+				},
+				{
+					"family": "Rella",
+					"given": "Antonio"
+				}
+			],
+			"publisher": "Victor",
+			"number": "1046-B",
+			"published": "1924",
+			"circa": true,
+			"url": "https://archive.org/details/78_exultate-deo-sing-unto-the-lord_choir-of-monsignor-rella-perpetual-maestro-of-the_gbia0183016b",
+			"container": "78 RPMs and Cylinder Recordings, Internet Archive",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "media",
+			"title": "Missa Papae Marcelli, Kyrie, Cantus part",
+			"url": "https://commons.wikimedia.org/wiki/File:Mensuralnotation-Missa_papae_marcelli.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "marcellus-cantus.jpg",
+			"note": "An early printed partbook page; Commons does not record which edition or library"
+		}
+	]
+}

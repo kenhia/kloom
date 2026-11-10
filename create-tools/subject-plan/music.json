@@ -203,7 +203,29 @@
 			}
 		}
 	],
-	"owners": {},
+	"owners": {
+		"monochord": "harm1",
+		"pythagorean-comma": "harm1",
+		"vincenzo-galilei": "harm1",
+		"tetrachord": "harm1",
+		"neume": "script1",
+		"gregorian-chant": "script1",
+		"venice": "print1",
+		"bing-crosby": "voice2",
+		"microphone": "voice2",
+		"wolfgang-amadeus-mozart": "classic1",
+		"fortepiano": "classic1",
+		"franz-liszt": "classic2",
+		"spirituals": "classic3",
+		"piano": "piano1",
+		"piano-roll": "piano2",
+		"leo-fender": "piano2",
+		"phonograph": "machine1",
+		"phonograph-record": "machine2",
+		"victor-talking-machine-company": "machine2",
+		"columbia-records": "machine3",
+		"les-paul": "machine3"
+	},
 	"frames": {
 		"hohle-fels-flute": {
 			"topic": "The Hohle Fels bone flute",
