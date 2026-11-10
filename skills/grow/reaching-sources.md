@@ -388,7 +388,8 @@ page=<Title>/<Book>&prop=text&format=json`, with `list=allpages&apprefix=`
 - **Nobel lectures** are PDFs at
   `nobelprize.org/uploads/2018/06/<surname>-lecture.pdf` (see above for
   laureates who share a surname); the lecture page itself may show only a
-  link. Cite a lecture as `web` (there is no `lecture` kind).
+  link. Cite a lecture as `lecture` (the grow skill's §Sources and
+  citations; sprint 057 moved the 53 cited as `web`).
 - **Cambridge Core**'s open articles (_Medical History_'s, for the history
   of medicine) download from
   `cambridge.org/core/services/aop-cambridge-core/content/view/<PII>`.
@@ -406,6 +407,75 @@ page=<Title>/<Book>&prop=text&format=json`, with `list=allpages&apprefix=`
   (`blackwellpublishing.com/ridley/classictexts/*.pdf`, through the Wayback
   Machine) holds scans of Haldane 1924, Wright 1932 and Fisher 1930's first
   chapter. Cite the work, with a `note` naming the copy.
+
+## Music and sound recordings (sprint 058)
+
+kloom plays no audio, and an author has no way to listen: a recording is
+cited with `read: "record"` and what it sounds like comes from a written
+description (a registry essay, a review, the score), said as such.
+
+- **The Library of Congress** (`loc.gov`): item and collection-essay
+  pages answer 403 to a fetch, but the same URL with `?fo=json` returns
+  the whole record (label, catalog number, matrix, recording date) and an
+  essay's text in `content.markup`. The National Jukebox's items are
+  `loc.gov/item/jukebox-<n>/`. The Wayback `id_` copy also works.
+- **Chronicling America** sits behind a challenge page. The loc.gov JSON
+  (`/collections/chronicling-america/?q=…&dates=…&fo=json`, then
+  `/resource/<lccn>/<date>/ed-1/?sp=N&fo=json`) names each page's ALTO
+  XML on `tile.loc.gov/storage-services/…`, clean text, and its IIIF
+  service crops a region of the page image to check a quotation (send a
+  browser-like User-Agent).
+- **The Discography of American Historical Recordings**
+  (`adp.library.ucsb.edu`) refuses a plain User-Agent; with `Mozilla/5.0`
+  it serves `/index.php/matrix/detail/<id>`, the best source for a 78's
+  date and matrix. Its search form does not script; web search finds the
+  matrix pages. **UCSB's cylinders** are durable at
+  `www.library.ucsb.edu/OBJID/Cylinder<N>`; the cylinder search works as
+  `search.php?nq=1&query=…&query_type=author|title`.
+- **The Internet Archive's 78s and LPs** (`78_*`, `lp_*`) carry track
+  lists, Discogs ids and liner-note OCR in `_djvu.txt`: enough to identify
+  a track without hearing it. Their dates can be a reissue's. A user's
+  upload of a commercial LP (`opensource_audio`) is treated like a pirated
+  book: not cited. MusicBrainz release pages are the record for a modern
+  album.
+- **Scores**: IMSLP refuses a script. The Internet Archive holds many
+  first editions (its full-text search does not find a printed score: lay
+  out the page thumbnails); the Mutopia Project's LilyPond and MIDI files
+  give bar numbers and pitches; the Josquin Research Project's encodings
+  are plain Humdrum on GitHub (`josquin-research-project/jrp-scores`);
+  a Wikipedia article's LilyPond (`action=raw`) gives a quoted theme's
+  notes. Reading pitches off a page image is fine: say it is your reading.
+- **Treatises and letters**: the Thesaurus Musicarum Latinarum is a
+  JavaScript app now, but Wayback `id_` copies of
+  `chmtl.indiana.edu/tml/9th-11th/*_TEXT.html` serve the texts; Latin
+  Wikisource's parse API serves Guido's _Micrologus_; Jan's _Musici
+  scriptores graeci_ (1895, 1899) is on the Internet Archive; the
+  Mozarteum's letters edition answers a script
+  (`dme.mozarteum.at/DME/objs/raradocs/transcr/htm/BD_<n>.htm`).
+- **Old journals and patents**: _Scientific American_'s
+  `sim_scientific-american_<date>` items have clean page images; the
+  _Bell System Technical Journal_ is whole (`bstj<vol>-<issue>-<page>`);
+  the _Journal of the Society of Arts_ is `journalofsociety<vol>soci_0`;
+  NBER chapters download whole
+  (`nber.org/system/files/chapters/cNNNN/cNNNN.pdf`); old patent drawings
+  come from `patentimages.storage.googleapis.com`, public domain, ready to
+  crop. CCRMA's archive (`ccrma.stanford.edu/~aj/archives/docs/all/`)
+  holds Chowning's and Mathews's papers and interviews, mostly scans.
+- **Museums**: the Met's object API moved its search to `/v1.1/search`
+  (`/v1/objects/<id>` still works) and its pages refuse a fetch; the
+  Wayback `id_` copy works. The British Museum's collection pages refuse
+  a script; the Wayback `id_` copy works. A Met CC0 image fetched outside
+  Commons is a `media` citation of the object page with its accession
+  number as `number`.
+- **Sites that refused**: Sound On Sound's old URLs answer 410 (only an
+  old Wayback copy holds the text), schoenberg.at and the Smithsonian's
+  exhibitions (Wayback works for the first), SLUB Dresden and the
+  Deutsche Fotothek, Project MUSE, gramophone.co.uk, pulitzer.org.
+- **Internet Archive page numbers**: the reader's `page/n<N>` skips
+  deleted leaves, while IIIF's `$N` is the scandata `leafNum`; a foldout
+  plate was leaf 191 but `page/n186`. Read `_scandata.xml` (`pageType`
+  "Foldout") to find a plate, and expect another scan of the same book
+  to have cleaner OCR.
 
 ## Broken certificates
 

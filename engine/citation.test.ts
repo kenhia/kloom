@@ -134,6 +134,14 @@ describe('chicago', () => {
 		]);
 	});
 
+	it("gives a book's volume after its title, as Chicago does for one volume of several", () => {
+		expect(chicagoText({ ...book, volume: '2' })).toBe(
+			'Eisenstein, Elizabeth L. The Printing Press as an Agent of Change. Vol. 2. ' +
+				'Cambridge: Cambridge University Press, 1979. Accessed September 26, 2026. ' +
+				'https://archive.org/details/printingpressasa0000eise.'
+		);
+	});
+
 	it("names an edited book's editors after its title", () => {
 		const edited: Citation = {
 			kind: 'book',

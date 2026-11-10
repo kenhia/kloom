@@ -392,8 +392,8 @@ function quoted(title: string): string {
  * - web: Author. "Title." Site. Publisher, Date. Accessed Date. URL.
  * - wikipedia: Wikipedia contributors. "Title." Wikipedia. Wikimedia
  *   Foundation. Last modified Date. Accessed Date. URL.
- * - book: Author. _Title_. Edited by Editor. Place: Publisher, Year.
- *   Accessed Date. URL.
+ * - book: Author. _Title_. Edited by Editor. Vol. N. Place: Publisher,
+ *   Year. Accessed Date. URL.
  * - article: Author. "Title." _Journal_ Volume, no. Issue (Date): Pages.
  *   Accessed Date. URL.
  * - chapter: Author. "Title." In _Volume_, edited by Editor, Pages. Place:
@@ -467,6 +467,8 @@ export function chicago(c: Citation): Part[] {
 	};
 	switch (c.kind) {
 		case 'book':
+			// One volume of several: "Vol. 4." after the title and edition (Chicago 14.119).
+			if (c.volume) add(`Vol. ${stop(c.volume)} `);
 			if (c.container) add(`${stop(c.container)} `);
 			imprint();
 			break;

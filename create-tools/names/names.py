@@ -633,6 +633,10 @@ def main():
             rows, problems, notes = for_part(rows, problems, notes, args.part)
         for r in rows:
             print(json.dumps(r) if args.json else f"{r['id']} | {r['wikidata']} | {r['home'] or '-'} | {r['part']}")
+        if not rows:
+            # Silence read as "did it run?" to four sprint 058 authors: say what was looked at.
+            who = f'part {args.part}' if args.part else args.subject
+            print(f'note: no drafts yet for {who} in {args.dir}/{args.subject}-*', file=sys.stderr)
         if plan is None:
             print(f'note: no plan at {plan_path}, so no owners to check', file=sys.stderr)
         elif not plan.get('owners'):

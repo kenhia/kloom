@@ -216,6 +216,14 @@ def main():
     with open(out, 'w') as fh:
         fh.write(page(cells))
     print(f'contact_sheet: {len(cells)} plates → {out}')
+    if a.png:
+        # PNGs this FILE named on an earlier run, of plates not drawn now, would be read as current
+        # (sprint 058: an author looked at stale per-plate sheets twice). The names are the tool's own.
+        stem, ext = os.path.splitext(a.png)
+        keep = set(named) if per_plate(len(cells), a.per_plate) else {a.png}
+        for old in glob.glob(f'{glob.escape(stem)}-*{ext or ".png"}') + [a.png]:
+            if old not in keep and os.path.exists(old):
+                os.remove(old)
     if a.png and per_plate(len(cells), a.per_plate):
         with tempfile.TemporaryDirectory() as tmp:
             for i, (cell, png) in enumerate(zip(cells, named)):
