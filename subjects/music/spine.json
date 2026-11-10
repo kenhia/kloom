@@ -33,7 +33,13 @@
 			"title": "The Baroque",
 			"labelKind": "date",
 			"palette": "gilt",
-			"frames": ["well-tempered-clavier", "vivaldi-seasons", "handel-messiah"]
+			"frames": [
+				"monteverdi-orfeo",
+				"cremona-violins",
+				"well-tempered-clavier",
+				"vivaldi-seasons",
+				"handel-messiah"
+			]
 		},
 		{
 			"id": "concert",

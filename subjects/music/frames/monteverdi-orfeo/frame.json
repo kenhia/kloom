@@ -1,0 +1,266 @@
+{
+	"id": "monteverdi-orfeo",
+	"topic": "Monteverdi's Orfeo and the first operas",
+	"position": {
+		"label": "1607",
+		"sort": 1607
+	},
+	"scene": {
+		"headline": "We sang the whole",
+		"accent": "DRAMA.",
+		"palette": "gilt",
+		"illustration": "scene.svg",
+		"metadata": ["MANTUA · 24 FEBRUARY 1607", "CLAUDIO MONTEVERDI · ALESSANDRO STRIGGIO"],
+		"counter": {
+			"value": "36",
+			"label": "instruments listed in the 1609 score"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/greek-tragedy",
+			"why": "Opera began as an attempt to revive Greek tragedy: Jacopo Peri's preface of 1600 says he believed the ancients sang whole tragedies on the stage, and set his Euridice to a speech-like song to match."
+		},
+		{
+			"to": "western-civ/humanism",
+			"why": "The Florentine Camerata that argued for sung drama was a circle of humanists, taking from the scholar Girolamo Mei's reading of Greek writers the belief that ancient tragedy was sung throughout."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "L'Orfeo",
+			"url": "https://en.wikipedia.org/w/index.php?title=L'Orfeo&oldid=1383042082",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-31",
+			"key": true,
+			"note": "The letters about the premiere, the instruments, the two endings and the score's editions"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Le musiche di Iacopo Peri nobil fiorentino sopra l'Euridice del Sig. Ottavio Rinuccini",
+			"authors": [
+				{
+					"family": "Peri",
+					"given": "Jacopo"
+				}
+			],
+			"place": "Florence",
+			"publisher": "Giorgio Marescotti",
+			"published": "1600",
+			"language": "it",
+			"url": "https://it.wikisource.org/w/index.php?title=Gazzetta_Musicale_di_Milano,_1843/N._52&oldid=3802633",
+			"accessed": "2026-11-10",
+			"note": "The preface, \"A' lettori\", read as reprinted in the Gazzetta Musicale di Milano, 1843, no. 52, on Italian Wikisource; quoted in our translation"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "L'Orfeo: Favola in musica",
+			"authors": [
+				{
+					"family": "Monteverdi",
+					"given": "Claudio"
+				}
+			],
+			"editors": [
+				{
+					"family": "Malipiero",
+					"given": "G. Francesco"
+				}
+			],
+			"container": "Tutte le opere di Claudio Monteverdi, vol. 11",
+			"place": "Vienna",
+			"publisher": "Universal Edition",
+			"published": "1930",
+			"url": "https://archive.org/details/IMSLP310353PMLP21363MonteverdiOrfeo2",
+			"accessed": "2026-11-10",
+			"note": "The 1609 score's list of instruments, the toccata's rubric and the two vocal lines of \"Possente spirto\""
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Florentine Camerata",
+			"url": "https://en.wikipedia.org/w/index.php?title=Florentine_Camerata&oldid=1367323702",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-02",
+			"key": true,
+			"note": "Bardi, Mei and Galilei, and the case against polyphony"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Euridice (Peri)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Euridice_(Peri)&oldid=1362489844",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Claudio Monteverdi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Claudio_Monteverdi&oldid=1384641528",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Figured bass",
+			"url": "https://en.wikipedia.org/w/index.php?title=Figured_bass&oldid=1383385217",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Possente spirto",
+			"url": "https://en.wikipedia.org/w/index.php?title=Possente_spirto&oldid=1171809877",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2023-08-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Teatro San Cassiano",
+			"url": "https://en.wikipedia.org/w/index.php?title=Teatro_San_Cassiano&oldid=1384669054",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jacopo Peri",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jacopo_Peri&oldid=1377334967",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Giulio Caccini",
+			"url": "https://en.wikipedia.org/w/index.php?title=Giulio_Caccini&oldid=1377339278",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Opera",
+			"url": "https://en.wikipedia.org/w/index.php?title=Opera&oldid=1384193187",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07"
+		},
+		{
+			"kind": "recording",
+			"title": "Tu se' morta",
+			"authors": [
+				{
+					"family": "Werrenrath",
+					"given": "Reinald"
+				}
+			],
+			"recorded": "1914-12-17",
+			"publisher": "Victor",
+			"number": "45083",
+			"url": "https://www.loc.gov/item/jukebox-11876/",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Matrix B-15524, take 2, with orchestra; in the National Jukebox"
+		},
+		{
+			"kind": "media",
+			"title": "Prologue, La Tragedia, from Le musiche sopra l'Euridice",
+			"authors": [
+				{
+					"family": "Peri",
+					"given": "Jacopo"
+				}
+			],
+			"published": "1600",
+			"container": "Le musiche di Iacopo Peri sopra l'Euridice (Florence: Giorgio Marescotti)",
+			"url": "https://commons.wikimedia.org/wiki/File:Jacopo_Peri%27s_Euridice.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "euridice-prologue.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Personaggi and Stromenti, from the score of L'Orfeo",
+			"authors": [
+				{
+					"family": "Monteverdi",
+					"given": "Claudio"
+				}
+			],
+			"published": "1609",
+			"container": "L'Orfeo: Favola in musica (Venice: Ricciardo Amadino)",
+			"url": "https://commons.wikimedia.org/wiki/File:Orfeo_libretto_instruments_characters.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "orfeo-instruments.jpg"
+		}
+	]
+}

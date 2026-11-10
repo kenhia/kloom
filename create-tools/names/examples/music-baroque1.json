@@ -1,0 +1,34 @@
+{
+	"music/monteverdi-orfeo": [
+		["Mantua", "mantua"],
+		["_L'Orfeo_", "lorfeo"],
+		["Claudio Monteverdi", "claudio-monteverdi"],
+		["Florence", "florence"],
+		["opera", "opera"],
+		["Florentine Camerata", "florentine-camerata"],
+		["Vincenzo Galilei", "vincenzo-galilei"],
+		["Jacopo Peri", "jacopo-peri"],
+		["_Euridice_", "euridice-peri"],
+		["Giulio Caccini", "giulio-caccini"],
+		["basso continuo", "basso-continuo"],
+		["Venice", "venice"],
+		["Possente spirto", "possente-spirto"],
+		["Teatro San Cassiano", "teatro-san-cassiano"]
+	],
+	"music/cremona-violins": [
+		["Antonio Stradivari", "antonio-stradivari"],
+		["Cremona", "cremona"],
+		["Amati family", "amati"],
+		["Andrea Amati", "andrea-amati"],
+		["Charles IX", "charles-ix-of-france"],
+		["violin", "violin"],
+		["Metropolitan Museum of Art", "metropolitan-museum-of-art"],
+		["Helmholtz", "hermann-von-helmholtz"],
+		["soundpost", "sound-post"],
+		["Giuseppe Guarneri", "giuseppe-guarneri"],
+		["Stradivarius", "stradivarius"],
+		["Maunder Minimum", "maunder-minimum"],
+		["Little Ice Age", "little-ice-age"],
+		["Museo del Violino", "museo-del-violino"]
+	]
+}

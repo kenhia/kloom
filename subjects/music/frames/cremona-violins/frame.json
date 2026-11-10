@@ -1,0 +1,468 @@
+{
+	"id": "cremona-violins",
+	"topic": "The violin makers of Cremona",
+	"position": {
+		"label": "1666",
+		"sort": 1666
+	},
+	"scene": {
+		"headline": "Cremona carved the",
+		"accent": "VIOLIN.",
+		"palette": "gilt",
+		"illustration": "scene.svg",
+		"metadata": ["CREMONA · LOMBARDY", "ANDREA AMATI · ANTONIO STRADIVARI · GUARNERI DEL GESÙ"],
+		"counter": {
+			"value": "8 of 21",
+			"label": "violinists in a blind test who chose an old violin"
+		}
+	},
+	"connections": [
+		{
+			"to": "making/thonet-chair",
+			"why": "A violin's maple ribs are bent to their curves with heat, the softening of wood by heat and moisture that frame explains and that the Thonets made into a factory process."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Antonio Stradivari",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antonio_Stradivari&oldid=1378031550",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02",
+			"key": true,
+			"note": "The 1666 label, the apprenticeship debate, his output, the golden period and the prices"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Player Preferences among New and Old Violins",
+			"authors": [
+				{
+					"family": "Fritz",
+					"given": "Claudia"
+				},
+				{
+					"family": "Curtin",
+					"given": "Joseph"
+				},
+				{
+					"family": "Poitevineau",
+					"given": "Jacques"
+				},
+				{
+					"family": "Morrel-Samuels",
+					"given": "Palmer"
+				},
+				{
+					"family": "Tao",
+					"given": "Fan-Chia"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "109",
+			"issue": "3",
+			"pages": "760–763",
+			"published": "2012",
+			"doi": "10.1073/pnas.1114999109",
+			"accessed": "2026-11-10",
+			"note": "The Indianapolis test of 2010"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Soloist Evaluations of Six Old Italian and Six New Violins",
+			"authors": [
+				{
+					"family": "Fritz",
+					"given": "Claudia"
+				},
+				{
+					"family": "Curtin",
+					"given": "Joseph"
+				},
+				{
+					"family": "Poitevineau",
+					"given": "Jacques"
+				},
+				{
+					"family": "Borsarello",
+					"given": "Hugues"
+				},
+				{
+					"family": "Wollman",
+					"given": "Indiana"
+				},
+				{
+					"family": "Tao",
+					"given": "Fan-Chia"
+				},
+				{
+					"family": "Ghasarossian",
+					"given": "Thierry"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "111",
+			"issue": "20",
+			"pages": "7224–7229",
+			"published": "2014",
+			"doi": "10.1073/pnas.1323367111",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "article",
+			"title": "Listener Evaluations of New and Old Italian Violins",
+			"authors": [
+				{
+					"family": "Fritz",
+					"given": "Claudia"
+				},
+				{
+					"family": "Curtin",
+					"given": "Joseph"
+				},
+				{
+					"family": "Poitevineau",
+					"given": "Jacques"
+				},
+				{
+					"family": "Tao",
+					"given": "Fan-Chia"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "114",
+			"issue": "21",
+			"pages": "5395–5400",
+			"published": "2017",
+			"doi": "10.1073/pnas.1619443114",
+			"accessed": "2026-11-10",
+			"note": "Read in the authors' version on HAL"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Tracing the Origins of Stradivari's Resonance Wood",
+			"authors": [
+				{
+					"family": "Bernabei",
+					"given": "Mauro"
+				},
+				{
+					"family": "Stefani",
+					"given": "Ilaria"
+				},
+				{
+					"family": "Büntgen",
+					"given": "Ulf"
+				},
+				{
+					"family": "Carrer",
+					"given": "Marco"
+				},
+				{
+					"family": "Cherubini",
+					"given": "Paolo"
+				},
+				{
+					"family": "Čufar",
+					"given": "Katarina"
+				},
+				{
+					"family": "Grabner",
+					"given": "Michael"
+				}
+			],
+			"etAl": true,
+			"container": "Dendrochronologia",
+			"volume": "95",
+			"pages": "126480",
+			"published": "2026",
+			"doi": "10.1016/j.dendro.2026.126480",
+			"accessed": "2026-11-10",
+			"note": "Read in the authors' version in WSL's repository"
+		},
+		{
+			"kind": "article",
+			"title": "Stradivari, Violins, Tree Rings, and the Maunder Minimum: A Hypothesis",
+			"authors": [
+				{
+					"family": "Burckle",
+					"given": "Lloyd H."
+				},
+				{
+					"family": "Grissino-Mayer",
+					"given": "Henri D."
+				}
+			],
+			"container": "Dendrochronologia",
+			"volume": "21",
+			"issue": "1",
+			"pages": "41–45",
+			"published": "2003",
+			"doi": "10.1078/1125-7865-00033",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "article",
+			"title": "Chemical Distinctions between Stradivari's Maple and Modern Tonewood",
+			"authors": [
+				{
+					"family": "Tai",
+					"given": "Hwan-Ching"
+				},
+				{
+					"family": "Li",
+					"given": "Guo-Chian"
+				},
+				{
+					"family": "Huang",
+					"given": "Shing-Jong"
+				},
+				{
+					"family": "Jhu",
+					"given": "Chang-Ruei"
+				},
+				{
+					"family": "Chung",
+					"given": "Jen-Hsuan"
+				},
+				{
+					"family": "Wang",
+					"given": "Bo Y."
+				},
+				{
+					"family": "Hsu",
+					"given": "Chia-Shuo"
+				}
+			],
+			"etAl": true,
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "114",
+			"issue": "1",
+			"pages": "27–32",
+			"published": "2017",
+			"doi": "10.1073/pnas.1611253114",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Ex \"Kurtz\" Violin, Andrea Amati, ca. 1560 (1999.26)",
+			"container": "The Met Collection",
+			"publisher": "Metropolitan Museum of Art",
+			"url": "https://www.metmuseum.org/art/collection/search/503517",
+			"accessed": "2026-11-10",
+			"note": "Amati's mold and standard form, and the violin's possible origin in 1559"
+		},
+		{
+			"kind": "web",
+			"title": "\"Antonius\" Violin, Antonio Stradivari, 1711 (34.86.1a)",
+			"container": "The Met Collection",
+			"publisher": "Metropolitan Museum of Art",
+			"url": "https://www.metmuseum.org/art/collection/search/503008",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "book",
+			"title": "Violin-Making, as It Was and Is",
+			"authors": [
+				{
+					"family": "Heron-Allen",
+					"given": "Edward"
+				}
+			],
+			"place": "London",
+			"publisher": "Ward, Lock & Co.",
+			"published": "1885",
+			"url": "https://archive.org/details/cu31924022320216",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Violin acoustics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Violin_acoustics&oldid=1363205823",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-08",
+			"key": true,
+			"note": "The bowed string, the bridge, the soundpost and the bass bar"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Andrea Amati",
+			"url": "https://en.wikipedia.org/w/index.php?title=Andrea_Amati&oldid=1356681083",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Amati",
+			"url": "https://en.wikipedia.org/w/index.php?title=Amati&oldid=1365286229",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Violin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Violin&oldid=1384524170",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stradivarius",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stradivarius&oldid=1377862249",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Violin construction and mechanics",
+			"url": "https://en.wikipedia.org/w/index.php?title=Violin_construction_and_mechanics&oldid=1373480656",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Violin making and maintenance",
+			"url": "https://en.wikipedia.org/w/index.php?title=Violin_making_and_maintenance&oldid=1384691260",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Giuseppe Guarneri",
+			"url": "https://en.wikipedia.org/w/index.php?title=Giuseppe_Guarneri&oldid=1379100224",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Museo del Violino",
+			"url": "https://en.wikipedia.org/w/index.php?title=Museo_del_Violino&oldid=1383408705",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charles IX of France",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charles_IX_of_France&oldid=1383098691",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-01"
+		},
+		{
+			"kind": "media",
+			"title": "Ex \"Kurtz\" Violin",
+			"authors": [
+				{
+					"family": "Amati",
+					"given": "Andrea"
+				}
+			],
+			"published": "1560",
+			"circa": true,
+			"container": "Metropolitan Museum of Art",
+			"number": "1999.26",
+			"url": "https://commons.wikimedia.org/wiki/File:Ex_%22Kurtz%22_Violin_MET_DP147091.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC0",
+			"file": "kurtz-amati-back.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "\"The Antonius\" Violin",
+			"authors": [
+				{
+					"family": "Stradivari",
+					"given": "Antonio"
+				}
+			],
+			"published": "1711",
+			"container": "Metropolitan Museum of Art",
+			"number": "34.86.1a",
+			"url": "https://commons.wikimedia.org/wiki/File:%22The_Antonius%22_Violin_MET_DP105130.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC0",
+			"file": "antonius-stradivari.jpg"
+		}
+	]
+}
