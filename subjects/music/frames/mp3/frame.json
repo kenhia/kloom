@@ -20,6 +20,10 @@
 		{
 			"to": "mathematics/fourier",
 			"why": "An MP3 encoder finds what the ear will miss with a 1,024-point fast Fourier transform and stores the sound as the weights of cosine waves (a modified discrete cosine transform), the series and the fast algorithm that frame describes."
+		},
+		{
+			"to": "music/compact-disc",
+			"why": "The MP3 is measured against the compact disc's 1,411.2 kilobits a second."
 		}
 	],
 	"citations": [

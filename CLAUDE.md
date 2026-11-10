@@ -356,6 +356,11 @@ label-overlap warnings, `commons_media` taking a photograph's licence over
 an artwork's, and the rights and laboratory-brief rules; and shared
 answers (korg 3560): a kept answer a reader shares becomes public, as
 Readers' Q&A, only after the review-notes skill passes it.
+Sprint 058 the thirteenth subject, `subjects/music`, _Sound and Score_
+(67 frames: ten dated sections from a bone flute to music made by AI,
+three trails: tuning, the voice, the piano), kloom's first arts subject,
+written by 27 parallel authors; a `recording` citation kind, since kloom
+plays no audio and every reading cites what it describes.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

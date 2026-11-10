@@ -5,7 +5,6 @@
 		"label": "2026",
 		"sort": 2026
 	},
-	"asOf": "2026-11-10",
 	"scene": {
 		"headline": "Songs came from a",
 		"accent": "PROMPT.",
@@ -17,6 +16,7 @@
 			"label": "AI-made tracks a day delivered to Deezer, June 2026"
 		}
 	},
+	"asOf": "2026-11-10",
 	"connections": [
 		{
 			"to": "ai/transformer",
@@ -29,6 +29,10 @@
 		{
 			"to": "ai/governance",
 			"why": "The record companies' suits against Suno and Udio, and the Copyright Office's reports, are among the copyright fights over training data that frame surveys, brought here by musicians and labels."
+		},
+		{
+			"to": "music/streaming",
+			"why": "AI-made tracks and the fraud they feed drain the streaming royalty pool."
 		}
 	],
 	"citations": [

@@ -5,7 +5,6 @@
 		"label": "2008",
 		"sort": 2008
 	},
-	"asOf": "2026-11-10",
 	"scene": {
 		"headline": "We traded ownership for",
 		"accent": "ACCESS.",
@@ -20,10 +19,15 @@
 			"label": "paying Spotify subscribers, September 2026"
 		}
 	},
+	"asOf": "2026-11-10",
 	"connections": [
 		{
 			"to": "computing/smartphone",
 			"why": "Apple announced the iPhone in 2007 as, in part, \"a widescreen iPod\": the pocket music player that carried the iTunes era became one function of the phone."
+		},
+		{
+			"to": "music/mp3",
+			"why": "Napster's MP3 trading and its closure open the story of streaming."
 		}
 	],
 	"citations": [
