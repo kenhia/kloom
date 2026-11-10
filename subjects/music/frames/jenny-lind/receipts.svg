@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Average receipts a concert in eight cities of Jenny Lind's tour under Barnum, 1850–51</title>
+<desc id="d">Bar chart. Average receipts a concert: Boston $10,055 (7 concerts); Cincinnati $8,848 (5); New York $8,178 (35); Baltimore $8,000 (4); New Orleans $7,304 (12); St. Louis $6,123 (5); Philadelphia $6,111 (8); Havana $3,479 (3). Data: Barnum, Struggles and Triumphs (1869), p. 354.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">$0</text>
+<line x1="64" x2="460" y1="178.7" y2="178.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="182.7" text-anchor="end">$4,000</text>
+<line x1="64" x2="460" y1="107.3" y2="107.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">$8,000</text>
+<line x1="64" x2="460" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">$12,000</text>
+</g>
+<rect x="66.8" y="70.7" width="44" height="179.3" fill-opacity="0.85"/>
+<text x="88.8" y="64.7" text-anchor="middle">$10,055</text>
+<text x="88.8" y="266" text-anchor="middle">Boston</text>
+<text x="88.8" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">7</text>
+<rect x="116.2" y="92.2" width="44" height="157.8" fill-opacity="0.85"/>
+<text x="138.2" y="86.2" text-anchor="middle">$8,848</text>
+<text x="138.2" y="266" text-anchor="middle">Cinc.</text>
+<text x="138.2" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">5</text>
+<rect x="165.8" y="104.2" width="44" height="145.8" fill-opacity="0.85"/>
+<text x="187.8" y="98.2" text-anchor="middle">$8,178</text>
+<text x="187.8" y="266" text-anchor="middle">N. York</text>
+<text x="187.8" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">35</text>
+<rect x="215.2" y="107.3" width="44" height="142.7" fill-opacity="0.85"/>
+<text x="237.2" y="101.3" text-anchor="middle">$8,000</text>
+<text x="237.2" y="266" text-anchor="middle">Balt.</text>
+<text x="237.2" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">4</text>
+<rect x="264.8" y="119.7" width="44" height="130.3" fill-opacity="0.85"/>
+<text x="286.8" y="113.7" text-anchor="middle">$7,304</text>
+<text x="286.8" y="266" text-anchor="middle">N. Orl.</text>
+<text x="286.8" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">12</text>
+<rect x="314.2" y="140.8" width="44" height="109.2" fill-opacity="0.85"/>
+<text x="336.2" y="134.8" text-anchor="middle">$6,123</text>
+<text x="336.2" y="266" text-anchor="middle">St. L.</text>
+<text x="336.2" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">5</text>
+<rect x="363.8" y="141.0" width="44" height="109.0" fill-opacity="0.85"/>
+<text x="385.8" y="135.0" text-anchor="middle">$6,111</text>
+<text x="385.8" y="266" text-anchor="middle">Phila.</text>
+<text x="385.8" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">8</text>
+<rect x="413.2" y="188.0" width="44" height="62.0" class="accent" fill="currentColor"/>
+<text x="435.2" y="182.0" text-anchor="middle">$3,479</text>
+<text x="435.2" y="266" text-anchor="middle">Havana</text>
+<text x="435.2" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">3</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">AVERAGE RECEIPTS A CONCERT · 1850-51</text>
+</g></svg>

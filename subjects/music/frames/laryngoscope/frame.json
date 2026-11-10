@@ -1,0 +1,166 @@
+{
+	"id": "laryngoscope",
+	"topic": "García's laryngoscope",
+	"position": {
+		"label": "1854–55",
+		"sort": 1855
+	},
+	"scene": {
+		"headline": "A singer watched his own voice in a",
+		"accent": "MIRROR.",
+		"palette": "gilt",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · SEPTEMBER 1854",
+			"MANUEL GARCÍA · PROCEEDINGS OF THE ROYAL SOCIETY, 1855"
+		],
+		"counter": {
+			"value": "6",
+			"label": "francs for the dentist's mirror"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/royal-society",
+			"why": "García's account of the laryngoscope was received by the Royal Society in March 1855 and printed in its Proceedings, a sister of the journal that frame describes."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Observations on the Human Voice",
+			"authors": [
+				{
+					"family": "Garcia",
+					"given": "Manuel"
+				}
+			],
+			"container": "Proceedings of the Royal Society of London",
+			"volume": "7",
+			"pages": "399–410",
+			"published": "1855",
+			"doi": "10.1098/rspl.1854.0094",
+			"url": "https://archive.org/details/jstor-111815",
+			"accessed": "2026-11-10",
+			"note": "Received March 22, 1855; quoted from it"
+		},
+		{
+			"kind": "book",
+			"title": "Garcia the Centenarian and His Times: Being a Memoir of Manuel Garcia's Life and Labours for the Advancement of Music and Science",
+			"authors": [
+				{
+					"family": "Mackinlay",
+					"given": "M. Sterling"
+				}
+			],
+			"place": "Edinburgh and London",
+			"publisher": "William Blackwood and Sons",
+			"published": "1908",
+			"url": "https://archive.org/details/garciacentenaria00mack",
+			"accessed": "2026-11-10",
+			"key": true,
+			"note": "The mirror of 1854, pp. 202–5; Türck and Czermak, pp. 206–8; Lind, pp. 143–45"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Manuel García (baritone)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Manuel_Garc%C3%ADa_(baritone)&oldid=1376889363",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26",
+			"key": true,
+			"note": "His life and pupils"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Laryngoscopy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Laryngoscopy&oldid=1378437017",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ludwig Türck",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ludwig_T%C3%BCrck&oldid=1341562726",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Johann Nepomuk Czermak",
+			"url": "https://en.wikipedia.org/w/index.php?title=Johann_Nepomuk_Czermak&oldid=1341015176",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vocal cords",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vocal_cords&oldid=1378026704",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "media",
+			"title": "Illustration of laryngoscope in use",
+			"container": "Johann N. Czermak, Der Kehlkopfspiegel und seine Verwerthung für Physiologie und Medizin, 2nd ed. (Leipzig: Wilhelm Engelmann, 1863), Wellcome Collection",
+			"number": "L0014524",
+			"published": "1863",
+			"url": "https://commons.wikimedia.org/wiki/File:Illustration_of_laryngoscope_in_use_Wellcome_L0014524.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC BY 4.0",
+			"file": "czermak-1863.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Portrait of Manuel García",
+			"authors": [
+				{
+					"family": "Sargent",
+					"given": "John Singer"
+				}
+			],
+			"published": "1905",
+			"container": "Rhode Island School of Design Museum",
+			"number": "19.141",
+			"url": "https://commons.wikimedia.org/wiki/File:John_Singer_Sargent_-_Portrait_of_Manuel_Garc%C3%ADa_-_19.141_-_Rhode_Island_School_of_Design_Museum.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "sargent-garcia.jpg"
+		}
+	]
+}

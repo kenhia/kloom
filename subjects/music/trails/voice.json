@@ -1,0 +1,16 @@
+{
+	"id": "voice",
+	"title": "The voice",
+	"anchor": "monteverdi-orfeo",
+	"spine": {
+		"segments": [
+			{
+				"id": "voice-seg",
+				"title": "Voices",
+				"labelKind": "date",
+				"palette": "gilt",
+				"frames": ["castrati", "jenny-lind", "laryngoscope"]
+			}
+		]
+	}
+}

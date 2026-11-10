@@ -1,0 +1,255 @@
+{
+	"id": "castrati",
+	"topic": "The castrati",
+	"position": {
+		"label": "1734",
+		"sort": 1734
+	},
+	"scene": {
+		"headline": "Poor boys were cut to sing",
+		"accent": "SOPRANO.",
+		"palette": "gilt",
+		"illustration": "scene.svg",
+		"metadata": ["NAPLES · ROME · LONDON · MADRID", "FARINELLI · ALESSANDRO MORESCHI"],
+		"counter": {
+			"value": "c. 100",
+			"label": "castrati in Rome alone in 1694"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/unification",
+			"why": "The new Kingdom of Italy of 1861 carried the Kingdom of Sardinia's penal code, which forbade castration, across the peninsula; Rome, where the papal choirs still kept castrati, joined it in 1870."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Present State of Music in France and Italy: Or, The Journal of a Tour through Those Countries, Undertaken to Collect Materials for a General History of Music",
+			"authors": [
+				{
+					"family": "Burney",
+					"given": "Charles"
+				}
+			],
+			"place": "London",
+			"publisher": "T. Becket and Co.",
+			"published": "1771",
+			"url": "https://archive.org/details/presentstateofmuburne",
+			"accessed": "2026-11-10",
+			"note": "Farinelli in his own words, pp. 204–12; where boys were castrated, pp. 301–3"
+		},
+		{
+			"kind": "book",
+			"title": "A General History of Music, from the Earliest Ages to the Present Period",
+			"volume": "4",
+			"authors": [
+				{
+					"family": "Burney",
+					"given": "Charles"
+				}
+			],
+			"place": "London",
+			"publisher": "Printed for the author",
+			"published": "1789",
+			"url": "https://archive.org/details/india.history.resource.93402",
+			"accessed": "2026-11-10",
+			"note": "Volume 4: Farinelli in London, pp. 378–81; in Spain, pp. 413–17"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Hyperostosis Frontalis Interna (HFI) and Castration: The Case of the Famous Singer Farinelli (1705–1782)",
+			"authors": [
+				{
+					"family": "Belcastro",
+					"given": "Maria Giovanna"
+				},
+				{
+					"family": "Todero",
+					"given": "Antonio"
+				},
+				{
+					"family": "Fornaciari",
+					"given": "Gino"
+				},
+				{
+					"family": "Mariotti",
+					"given": "Valentina"
+				}
+			],
+			"container": "Journal of Anatomy",
+			"volume": "219",
+			"issue": "5",
+			"pages": "632–37",
+			"published": "2011",
+			"doi": "10.1111/j.1469-7580.2011.01413.x",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Castrato",
+			"url": "https://en.wikipedia.org/w/index.php?title=Castrato&oldid=1381198836",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-20",
+			"key": true,
+			"note": "The operation, the numbers, the papal choir and the end"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Farinelli",
+			"url": "https://en.wikipedia.org/w/index.php?title=Farinelli&oldid=1381546844",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-23",
+			"key": true,
+			"note": "His life, salary and range"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alessandro Moreschi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alessandro_Moreschi&oldid=1383596276",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nicola Porpora",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nicola_Porpora&oldid=1381324482",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Opera of the Nobility",
+			"url": "https://en.wikipedia.org/w/index.php?title=Opera_of_the_Nobility&oldid=1302701361",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-07-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tra le sollecitudini",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tra_le_sollecitudini&oldid=1357448852",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vocal cords",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vocal_cords&oldid=1378026704",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02",
+			"note": "Vocal fold lengths, for the plate"
+		},
+		{
+			"kind": "article",
+			"title": "The Castrati as a Professional Group and a Social Phenomenon, 1550–1850",
+			"authors": [
+				{
+					"family": "Rosselli",
+					"given": "John"
+				}
+			],
+			"container": "Acta Musicologica",
+			"volume": "60",
+			"issue": "2",
+			"pages": "143–79",
+			"published": "1988",
+			"url": "https://www.jstor.org/stable/932789",
+			"accessed": "2026-11-10",
+			"citedIn": "Castrato"
+		},
+		{
+			"kind": "recording",
+			"title": "Ave Maria",
+			"authors": [
+				{
+					"family": "Moreschi",
+					"given": "Alessandro"
+				}
+			],
+			"recorded": "1904-04-11",
+			"publisher": "Gramophone Company",
+			"number": "54777",
+			"published": "1904",
+			"url": "https://archive.org/details/78_avemaria_320_07",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Bach–Gounod; matrix 2187h, Rome. The Internet Archive's record dates it 1902; the Dresden library's copy, 11 April 1904"
+		},
+		{
+			"kind": "web",
+			"title": "Ave Maria / di Gounod: Gramophone Concert Record GC-54777",
+			"container": "Deutsche Digitale Bibliothek",
+			"publisher": "Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden",
+			"url": "https://www.deutsche-digitale-bibliothek.de/item/GVDU7BGL66EUMZWIHVIPLDEXGEEVZBHM",
+			"accessed": "2026-11-10",
+			"language": "de"
+		},
+		{
+			"kind": "media",
+			"title": "Portrait of Farinelli, by Bartolomeo Nazari, 1734",
+			"authors": [
+				{
+					"family": "Descouens",
+					"given": "Didier"
+				}
+			],
+			"published": "2019-05-04",
+			"container": "Royal College of Music, London",
+			"url": "https://commons.wikimedia.org/wiki/File:Bartolomeo_Nazari_-_Portrait_of_Farinelli_1734_-_Royal_College_of_Music_London.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC BY-SA 4.0",
+			"file": "nazari.jpg"
+		}
+	]
+}

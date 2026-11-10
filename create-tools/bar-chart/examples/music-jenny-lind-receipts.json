@@ -1,0 +1,31 @@
+{
+	"title": "Average receipts a concert in eight cities of Jenny Lind's tour under Barnum, 1850–51",
+	"description": "Bar chart. Average receipts a concert: Boston $10,055 (7 concerts); Cincinnati $8,848 (5); New York $8,178 (35); Baltimore $8,000 (4); New Orleans $7,304 (12); St. Louis $6,123 (5); Philadelphia $6,111 (8); Havana $3,479 (3). Data: Barnum, Struggles and Triumphs (1869), p. 354.",
+	"heading": "AVERAGE RECEIPTS A CONCERT · 1850-51",
+	"unit": "",
+	"axis": {
+		"max": 12000,
+		"ticks": [
+			[0, "$0"],
+			[4000, "$4,000"],
+			[8000, "$8,000"],
+			[12000, "$12,000"]
+		]
+	},
+	"bars": [
+		{ "label": "Boston", "sublabel": "7", "value": 10055, "display": "$10,055" },
+		{ "label": "Cinc.", "sublabel": "5", "value": 8848, "display": "$8,848" },
+		{ "label": "N. York", "sublabel": "35", "value": 8178, "display": "$8,178" },
+		{ "label": "Balt.", "sublabel": "4", "value": 8000, "display": "$8,000" },
+		{ "label": "N. Orl.", "sublabel": "12", "value": 7304, "display": "$7,304" },
+		{ "label": "St. L.", "sublabel": "5", "value": 6123, "display": "$6,123" },
+		{ "label": "Phila.", "sublabel": "8", "value": 6111, "display": "$6,111" },
+		{ "label": "Havana", "sublabel": "3", "value": 3479, "display": "$3,479", "highlight": true }
+	],
+	"barWidth": 44,
+	"source": {
+		"container": "Barnum, Struggles and Triumphs (1869), p. 354",
+		"url": "https://archive.org/details/strugglestriumph00barn_0/page/n391",
+		"accessed": "2026-11-10"
+	}
+}
