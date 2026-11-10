@@ -1,0 +1,252 @@
+{
+	"id": "electrical-recording",
+	"topic": "Electrical recording",
+	"position": {
+		"label": "1925",
+		"sort": 1925
+	},
+	"scene": {
+		"headline": "Sound became a",
+		"accent": "CURRENT.",
+		"palette": "shellac",
+		"illustration": "scene.svg",
+		"metadata": [
+			"WESTERN ELECTRIC · VICTOR · COLUMBIA",
+			"CONDENSER MICROPHONE · VALVE AMPLIFIER · ELECTROMAGNETIC CUTTER"
+		],
+		"counter": {
+			"value": "60–6,000 Hz",
+			"label": "recorded by the Western Electric system"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/transistor",
+			"why": "Electrical recording ran on the vacuum-tube amplifiers Western Electric had built for the Bell telephone network; the transistor was Bell Labs' search for a replacement for those same valves."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Methods of High Quality Recording and Reproducing of Music and Speech Based on Telephone Research",
+			"authors": [
+				{
+					"family": "Maxfield",
+					"given": "J. P."
+				},
+				{
+					"family": "Harrison",
+					"given": "H. C."
+				}
+			],
+			"container": "Bell System Technical Journal",
+			"volume": "5",
+			"issue": "3",
+			"pages": "493–523",
+			"published": "1926-07",
+			"doi": "10.1002/j.1538-7305.1926.tb00118.x",
+			"url": "https://archive.org/details/bstj5-3-493",
+			"accessed": "2026-11-10",
+			"note": "The system, its range and the two sessions, pp. 496–500; quoted from it"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Acoustical Recording",
+			"container": "National Jukebox, Library of Congress",
+			"publisher": "Library of Congress",
+			"url": "https://www.loc.gov/collections/national-jukebox/articles-and-essays/acoustical-recording/",
+			"accessed": "2026-11-10",
+			"note": "The horn session and its frequency range"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sound recording and reproduction",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sound_recording_and_reproduction&oldid=1383491366",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-03",
+			"key": true,
+			"note": "The licenses of 1924–25, the secret agreement and the transition"
+		},
+		{
+			"kind": "recording",
+			"title": "Adeste Fideles",
+			"authors": [
+				{
+					"name": "Associated Glee Clubs of America"
+				}
+			],
+			"recorded": "1925-03-31",
+			"publisher": "Columbia",
+			"number": "50013-D",
+			"published": "1925",
+			"url": "https://archive.org/details/john-peel-adeste-fideles-col-9048_202505",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "The Internet Archive's copy of the British issue, Columbia 9048, with its matrix, date and contemporary reviews"
+		},
+		{
+			"kind": "article",
+			"title": "Review of Columbia 9048",
+			"container": "The Gramophone",
+			"published": "1925-09",
+			"pages": "192",
+			"citedIn": "Adeste Fideles"
+		},
+		{
+			"kind": "article",
+			"title": "Coming Gramophone Revolution: Wonderful Invention",
+			"container": "The Dundee Courier",
+			"published": "1925-09-23",
+			"pages": "7",
+			"citedIn": "Adeste Fideles"
+		},
+		{
+			"kind": "article",
+			"title": "New Music Machine Thrills All Hearers at First Test Here",
+			"container": "The New York Times",
+			"published": "1925-10-07",
+			"pages": "1",
+			"citedIn": "Victor Orthophonic Victrola"
+		},
+		{
+			"kind": "article",
+			"title": "Radio and the First Twenty Years of Electrical Sound Recording in Canada",
+			"authors": [
+				{
+					"family": "Dewalt",
+					"given": "Bryan"
+				}
+			],
+			"container": "Antique Phonograph News",
+			"publisher": "Canadian Antique Phonograph Society",
+			"published": "1997-03",
+			"url": "https://capsnews.org/apn1997-2.htm",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "A Breakthrough Technology Breaks Through to the Public Domain",
+			"authors": [
+				{
+					"family": "Ockerbloom",
+					"given": "John Mark"
+				}
+			],
+			"container": "Everybody's Libraries",
+			"published": "2025-11-19",
+			"url": "https://everybodyslibraries.com/?p=6389",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Victor Orthophonic Victrola",
+			"url": "https://en.wikipedia.org/w/index.php?title=Victor_Orthophonic_Victrola&oldid=1354792293",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Columbia Records",
+			"url": "https://en.wikipedia.org/w/index.php?title=Columbia_Records&oldid=1382057531",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phonograph record",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phonograph_record&oldid=1384224666",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Western Electric",
+			"url": "https://en.wikipedia.org/w/index.php?title=Western_Electric&oldid=1375177513",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stroh violin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stroh_violin&oldid=1383132209",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-01"
+		},
+		{
+			"kind": "media",
+			"title": "An orchestra recording by the acoustic process",
+			"authors": [
+				{
+					"name": "Victor Talking Machine Company"
+				}
+			],
+			"container": "Bell System Technical Journal 5, no. 3, fig. 1a, p. 498",
+			"published": "1926-07",
+			"url": "https://archive.org/details/bstj5-3-493/page/n5",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"note": "Published in the US in 1926",
+			"file": "acoustic-session.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "The same orchestra recording by the electric process",
+			"authors": [
+				{
+					"name": "Victor Talking Machine Company"
+				}
+			],
+			"container": "Bell System Technical Journal 5, no. 3, fig. 1b, p. 499",
+			"published": "1926-07",
+			"url": "https://archive.org/details/bstj5-3-493/page/n6",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"note": "Published in the US in 1926",
+			"file": "electric-session.jpg"
+		}
+	]
+}

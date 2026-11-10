@@ -40,7 +40,15 @@
 			"title": "Machines that remember",
 			"labelKind": "date",
 			"palette": "shellac",
-			"frames": ["phonautograph", "edison-phonograph", "gramophone", "radio-music"]
+			"frames": [
+				"phonautograph",
+				"edison-phonograph",
+				"gramophone",
+				"radio-music",
+				"electrical-recording",
+				"magnetic-tape",
+				"long-playing-record"
+			]
 		}
 	]
 }
