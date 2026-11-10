@@ -16,6 +16,16 @@
 			"label": "grooves to the inch, against about 90 on a 78"
 		}
 	},
+	"connections": [
+		{
+			"to": "music/electrical-recording",
+			"why": "The microgroove became possible once amplification let a fine groove be played loud enough."
+		},
+		{
+			"to": "music/magnetic-tape",
+			"why": "Many of the first LPs were transferred from tape."
+		}
+	],
 	"citations": [
 		{
 			"kind": "article",

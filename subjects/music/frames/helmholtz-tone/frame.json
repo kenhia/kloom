@@ -24,6 +24,14 @@
 		{
 			"to": "physics/energy",
 			"why": "The author of Sensations of Tone is the young physiologist whose 1847 memoir on the conservation of force that frame describes, and this reading names it."
+		},
+		{
+			"to": "music/pythagoras-ratios",
+			"why": "Coinciding partials explain why simple ratios sound consonant."
+		},
+		{
+			"to": "music/ellis-cents",
+			"why": "Ellis translated Helmholtz's book and measured in his own cents."
 		}
 	],
 	"citations": [

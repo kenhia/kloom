@@ -1,0 +1,355 @@
+{
+	"id": "twelve-tone",
+	"topic": "Schoenberg's twelve tones",
+	"position": {
+		"label": "1921–23",
+		"sort": 1921
+	},
+	"scene": {
+		"headline": "We set all twelve notes in a",
+		"accent": "ROW.",
+		"palette": "valve",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TRAUNKIRCHEN · MÖDLING · ARNOLD SCHOENBERG",
+			"SUITE FOR PIANO, OP. 25 · P · R · I · RI"
+		],
+		"counter": {
+			"value": "48",
+			"label": "forms of one row"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/rite-of-spring",
+			"why": "The Skandalkonzert of Schoenberg's circle in Vienna on 31 March 1913, which this frame tells, ended in a brawl two months before the Paris premiere of The Rite of Spring, and that frame names it among the year's upheavals."
+		},
+		{
+			"to": "mathematics/groups",
+			"why": "A twelve-tone row's four forms, prime, retrograde, inversion and retrograde inversion, combine by the rules of a group as that frame defines one, with a Cayley table of their own: the Klein four-group, named in 1884 by Felix Klein, whom that frame introduces."
+		},
+		{
+			"to": "western-civ/holocaust",
+			"why": "The Nazi civil-service law of 7 April 1933 that opens that frame's steps is the law under which the Prussian Academy of Arts dismissed Schoenberg, who went into exile in the United States."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Twelve-tone technique",
+			"url": "https://en.wikipedia.org/w/index.php?title=Twelve-tone_technique&oldid=1371005954",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24",
+			"key": true,
+			"note": "The row, its four forms and 48 transpositions, and Hauer's law of 1919"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Arnold Schoenberg",
+			"url": "https://en.wikipedia.org/w/index.php?title=Arnold_Schoenberg&oldid=1381098728",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-20",
+			"key": true,
+			"note": "The 1921 letter to Alma Mahler, Rufer's disputed recollection, Berlin, 1933 and Los Angeles"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Biography",
+			"authors": [
+				{
+					"name": "Arnold Schönberg Center"
+				}
+			],
+			"container": "Arnold Schönberg Center",
+			"publisher": "Arnold Schönberg Center",
+			"place": "Vienna",
+			"url": "http://www.schoenberg.at/index.php/en/schoenberg-2/biographie",
+			"accessed": "2026-11-10",
+			"note": "Traunkirchen, July 1921; the method introduced in 1923; excluded from the Academy in 1933. Read in the Wayback Machine's copy of August 2015"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Suite for Piano (Schoenberg)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Suite_for_Piano_(Schoenberg)&oldid=1357990373",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-05",
+			"key": true,
+			"note": "The row, the eight forms used, Whittall on the tritone, and the BACH tetrachord"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pierrot lunaire",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pierrot_lunaire&oldid=1368666967",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "String Quartets (Schoenberg)",
+			"url": "https://en.wikipedia.org/w/index.php?title=String_Quartets_(Schoenberg)&oldid=1381368622",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Skandalkonzert",
+			"url": "https://en.wikipedia.org/w/index.php?title=Skandalkonzert&oldid=1361448922",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-28"
+		},
+		{
+			"kind": "web",
+			"title": "Meisterschule für musikalische Komposition Franz Schreker",
+			"authors": [
+				{
+					"name": "Akademie der Künste, Archiv"
+				}
+			],
+			"container": "Archivportal-D",
+			"publisher": "Akademie der Künste",
+			"place": "Berlin",
+			"number": "PrAdK 1204",
+			"published": "1941",
+			"language": "de",
+			"url": "https://www.archivportal-d.de/item/LNROFW5QRHDNE2QC72UBXQ2SLTCQPP5F",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "The file's catalog entry lists Schoenberg's letter rejecting his dismissal (Bl. 74) and the correspondence of 1934 over his back pay (Bl. 63–70)"
+		},
+		{
+			"kind": "web",
+			"title": "The Law for the Restoration of the Professional Civil Service",
+			"authors": [
+				{
+					"name": "Deutsche Nationalbibliothek"
+				}
+			],
+			"container": "Kunst und Exil",
+			"publisher": "Deutsche Nationalbibliothek",
+			"url": "https://erster-weltkrieg.dnb.de/KIE/Content/EN/Topics/gesetz-zur-wiederherstellung-en.html",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Degenerate music",
+			"url": "https://en.wikipedia.org/w/index.php?title=Degenerate_music&oldid=1362351307",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Reich Music Days",
+			"url": "https://en.wikipedia.org/w/index.php?title=Reich_Music_Days&oldid=1236071323",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-07-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Second Viennese School",
+			"url": "https://en.wikipedia.org/w/index.php?title=Second_Viennese_School&oldid=1377338807",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Anton Webern",
+			"url": "https://en.wikipedia.org/w/index.php?title=Anton_Webern&oldid=1381670006",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Josef Matthias Hauer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Josef_Matthias_Hauer&oldid=1355324680",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Klein four-group",
+			"url": "https://en.wikipedia.org/w/index.php?title=Klein_four-group&oldid=1373989371",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "article",
+			"title": "Twelve-Tone Invariants as Compositional Determinants",
+			"authors": [
+				{
+					"family": "Babbitt",
+					"given": "Milton"
+				}
+			],
+			"container": "The Musical Quarterly",
+			"volume": "46",
+			"issue": "2",
+			"pages": "246–259",
+			"published": "1960-04",
+			"doi": "10.1093/mq/XLVI.2.246",
+			"accessed": "2026-11-10",
+			"citedIn": "Klein four-group"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Serialism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Serialism&oldid=1365617593",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-23"
+		},
+		{
+			"kind": "recording",
+			"title": "Pierrot lunaire, Op. 21",
+			"authors": [
+				{
+					"family": "Stiedry-Wagner",
+					"given": "Erika"
+				},
+				{
+					"family": "Schoenberg",
+					"given": "Arnold"
+				},
+				{
+					"family": "Kolisch",
+					"given": "Rudolf"
+				},
+				{
+					"family": "Steuermann",
+					"given": "Eduard"
+				}
+			],
+			"etAl": true,
+			"recorded": "1940",
+			"publisher": "Columbia Masterworks",
+			"number": "MM-461",
+			"url": "https://archive.org/details/SCHONBERGPierrotLunaire-NEWTRANSFER",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Schoenberg conducting; Erika Stiedry-Wagner, reciter"
+		},
+		{
+			"kind": "recording",
+			"title": "The Complete Music for Solo Piano",
+			"authors": [
+				{
+					"family": "Gould",
+					"given": "Glenn"
+				}
+			],
+			"publisher": "Columbia Masterworks",
+			"number": "MS 7098",
+			"published": "1968",
+			"url": "https://archive.org/details/lp_the-complete-music-for-solo-piano_glenn-gould-arnold-schoenberg",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Includes the Suite for Piano, Op. 25"
+		},
+		{
+			"kind": "media",
+			"title": "Portrait of Arnold Schönberg",
+			"authors": [
+				{
+					"family": "Schiele",
+					"given": "Egon"
+				}
+			],
+			"container": "Private collection",
+			"published": "1917",
+			"url": "https://commons.wikimedia.org/wiki/File:Schiele_-_Bildnis_des_Komponisten_Arnold_Sch%C3%B6nberg._1917.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "schiele-schoenberg.jpg"
+		}
+	]
+}

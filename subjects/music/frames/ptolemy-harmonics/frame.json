@@ -27,6 +27,14 @@
 		{
 			"to": "physics/kepler",
 			"why": "Kepler found his third law while writing the Harmonices Mundi of 1619, a book on music and the heavens whose subject, he knew, followed the third book of Ptolemy's Harmonics, and which compares the two in an appendix."
+		},
+		{
+			"to": "music/pythagoras-ratios",
+			"why": "Ptolemy set the 5:4 third against the Pythagorean 81:64 on the same kanon."
+		},
+		{
+			"to": "music/boethius",
+			"why": "Boethius drew on Ptolemy's Harmonics but passed on the Pythagorean scale."
 		}
 	],
 	"citations": [

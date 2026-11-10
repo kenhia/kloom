@@ -19,6 +19,16 @@
 			"label": "of a comma off each of four fifths"
 		}
 	},
+	"connections": [
+		{
+			"to": "music/meantone",
+			"why": "Well temperament removed the wolf fifth that meantone left."
+		},
+		{
+			"to": "music/well-tempered-clavier",
+			"why": "Bach's title and the dispute over his tuning."
+		}
+	],
 	"citations": [
 		{
 			"kind": "book",

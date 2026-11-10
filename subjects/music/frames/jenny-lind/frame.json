@@ -16,6 +16,12 @@
 			"label": "taken at 95 concerts, by Barnum's account"
 		}
 	},
+	"connections": [
+		{
+			"to": "music/laryngoscope",
+			"why": "García rebuilt Lind's voice in Paris in 1841."
+		}
+	],
 	"citations": [
 		{
 			"kind": "book",

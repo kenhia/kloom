@@ -35,6 +35,10 @@
 		{
 			"to": "mathematics/sieve-of-eratosthenes",
 			"why": "Boethius's Arithmetic, the companion to his music book, is a loose Latin version of Nicomachus's Introduction to Arithmetic, the source that frame follows for the sieve, which Boethius calls the cribrum."
+		},
+		{
+			"to": "music/seikilos",
+			"why": "Boethius gave the Greek note signs that the Seikilos stone uses."
 		}
 	],
 	"citations": [

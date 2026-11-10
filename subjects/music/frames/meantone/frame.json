@@ -19,6 +19,12 @@
 			"label": "of a syntonic comma off every fifth"
 		}
 	},
+	"connections": [
+		{
+			"to": "music/ellis-cents",
+			"why": "Ellis's history and measurements of the last meantone organs."
+		}
+	],
 	"citations": [
 		{
 			"kind": "wikipedia",

@@ -23,6 +23,10 @@
 		{
 			"to": "mathematics/fourier",
 			"why": "Hildebrand's Auto-Tune patent set aside pitch shifting by the fast Fourier transform, which worked on blocks of sound and could not bend pitch smoothly, for autocorrelation."
+		},
+		{
+			"to": "music/equal-temperament",
+			"why": "Auto-Tune pulls a sung pitch to the nearest semitone of equal temperament."
 		}
 	],
 	"citations": [

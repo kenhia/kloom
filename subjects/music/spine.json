@@ -62,6 +62,13 @@
 				"magnetic-tape",
 				"long-playing-record"
 			]
+		},
+		{
+			"id": "modern-electric",
+			"title": "Modern and electric",
+			"labelKind": "date",
+			"palette": "valve",
+			"frames": ["twelve-tone", "electric-guitar"]
 		}
 	]
 }

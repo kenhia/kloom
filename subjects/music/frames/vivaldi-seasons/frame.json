@@ -16,6 +16,12 @@
 			"label": "concertos the Pietà paid him for, 1723–33"
 		}
 	},
+	"connections": [
+		{
+			"to": "music/well-tempered-clavier",
+			"why": "Bach arranged Vivaldi's concertos for keyboard."
+		}
+	],
 	"citations": [
 		{
 			"kind": "wikipedia",

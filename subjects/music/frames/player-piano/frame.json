@@ -20,6 +20,10 @@
 		{
 			"to": "computing/jacquard-loom",
 			"why": "A piano roll stores music as holes read in order by a row of sensors, as Bouchon's punched paper roll and Jacquard's cards stored a weave; in 1881 Carpentier punched harmonium music onto Jacquard cards."
+		},
+		{
+			"to": "music/radio-music",
+			"why": "Radio and the Depression ended the player piano's boom."
 		}
 	],
 	"citations": [

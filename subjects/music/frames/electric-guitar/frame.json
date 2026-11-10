@@ -1,0 +1,403 @@
+{
+	"id": "electric-guitar",
+	"topic": "The electric guitar",
+	"position": {
+		"label": "1932",
+		"sort": 1932
+	},
+	"scene": {
+		"headline": "The guitar went",
+		"accent": "ELECTRIC.",
+		"palette": "valve",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LOS ANGELES · FULLERTON · KALAMAZOO",
+			"BEAUCHAMP · CHRISTIAN · LES PAUL · LEO FENDER"
+		],
+		"counter": {
+			"value": "$150",
+			"label": "a week for Charlie Christian with Goodman, 1939"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/faraday-induction",
+			"why": "A guitar pickup works by the law that frame tells, Faraday's law of induction: the vibrating steel string changes the magnetic flux through the pickup's coil, and the change drives a voltage around it."
+		},
+		{
+			"to": "physics/faraday-lines",
+			"why": "Beauchamp's 1937 patent for the first electric guitar draws its pickup's field as Faraday's lines of force, crowded between the magnets and the pins, which the vibrating strings disturb to make the signal."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Electric guitar",
+			"url": "https://en.wikipedia.org/w/index.php?title=Electric_guitar&oldid=1384620809",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09",
+			"key": true,
+			"note": "The Frying Pan, Ro-Pat-In, the ES-150 and the first solid bodies"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Electrical Stringed Musical Instrument, US Patent 2,089,171",
+			"authors": [
+				{
+					"family": "Beauchamp",
+					"given": "George D."
+				}
+			],
+			"container": "Google Patents",
+			"publisher": "United States Patent Office",
+			"published": "1937-08-10",
+			"url": "https://patents.google.com/patent/US2089171A/en",
+			"accessed": "2026-11-10",
+			"note": "Filed June 2, 1934; the pickup, its magnets, coil and pins, and the circuit"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George Beauchamp",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_Beauchamp&oldid=1371927037",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "article",
+			"title": "Modeling the Magnetic Pickup of an Electric Guitar",
+			"authors": [
+				{
+					"family": "Horton",
+					"given": "Nicholas G."
+				},
+				{
+					"family": "Moore",
+					"given": "Thomas R."
+				}
+			],
+			"container": "American Journal of Physics",
+			"volume": "77",
+			"issue": "2",
+			"pages": "144–150",
+			"published": "2009-02",
+			"doi": "10.1119/1.2990663",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Charlie Christian",
+			"url": "https://en.wikipedia.org/w/index.php?title=Charlie_Christian&oldid=1370991827",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24",
+			"key": true,
+			"note": "Goodman, the pay, the Sextet and his death"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Guitarmen, Wake Up and Pluck! Wire for Sound; Let 'Em Hear You Play",
+			"authors": [
+				{
+					"family": "Christian",
+					"given": "Charlie"
+				}
+			],
+			"container": "Down Beat",
+			"volume": "6",
+			"issue": "14",
+			"pages": "8",
+			"published": "1939-12-01",
+			"url": "https://archive.org/details/sim_down-beat_1939-12-01_6_14",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Charlie Christian — Charles Henry Christian",
+			"authors": [
+				{
+					"name": "Jazz.com"
+				}
+			],
+			"container": "Jazz.com Encyclopedia",
+			"publisher": "Jazz.com",
+			"url": "https://jazz.com/encyclopedia/christian-charlie-charles-henry",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Benny Goodman (featuring Charlie Christian): Solo Flight",
+			"authors": [
+				{
+					"family": "Kurtz",
+					"given": "Alan"
+				}
+			],
+			"container": "Jazz.com",
+			"publisher": "Jazz.com",
+			"url": "https://jazz.com/music/charlie-christian-solo-flight",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Solo Flight (composition)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Solo_Flight_(composition)&oldid=1379826178",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-12"
+		},
+		{
+			"kind": "recording",
+			"title": "Solo Flight",
+			"authors": [
+				{
+					"name": "Benny Goodman and His Orchestra"
+				},
+				{
+					"family": "Christian",
+					"given": "Charlie"
+				}
+			],
+			"recorded": "1941-03-04",
+			"publisher": "Columbia",
+			"number": "36684",
+			"published": "1943",
+			"url": "https://archive.org/details/benny-goodman-solo-flight",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Matrix CO 29865; Charlie Christian, guitar"
+		},
+		{
+			"kind": "web",
+			"title": "\"I Have a Problem. I've Got to Make My Guitar Louder\": Les Paul on His Eureka Moment",
+			"authors": [
+				{
+					"family": "Thompson",
+					"given": "Art"
+				}
+			],
+			"container": "Guitar Player",
+			"published": "2022-04-07",
+			"url": "https://guitarplayer.com/gear/i-have-a-problem-ive-got-to-make-my-guitar-louder-les-paul-on-his-eureka-moment",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Les Paul: The Innovative Thinker Who Changed Music",
+			"authors": [
+				{
+					"name": "National Inventors Hall of Fame"
+				}
+			],
+			"container": "National Inventors Hall of Fame",
+			"publisher": "National Inventors Hall of Fame",
+			"url": "https://invent.org/blog/inventors/les-paul-guitar",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Les Paul",
+			"url": "https://en.wikipedia.org/w/index.php?title=Les_Paul&oldid=1367773284",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Leo Fender",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leo_Fender&oldid=1379316598",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fender Telecaster",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fender_Telecaster&oldid=1380933636",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-18",
+			"key": true,
+			"note": "The Esquire, the Broadcaster and the renaming"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fender Stratocaster",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fender_Stratocaster&oldid=1384228837",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gibson Les Paul",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gibson_Les_Paul&oldid=1383703191",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Distortion (music)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Distortion_(music)&oldid=1381684285",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-24"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "You Really Got Me",
+			"url": "https://en.wikipedia.org/w/index.php?title=You_Really_Got_Me&oldid=1381917673",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-25"
+		},
+		{
+			"kind": "recording",
+			"title": "You Really Got Me",
+			"authors": [
+				{
+					"name": "The Kinks"
+				}
+			],
+			"recorded": "1964-07-13",
+			"publisher": "Pye",
+			"number": "7N 15673",
+			"published": "1964",
+			"url": "https://musicbrainz.org/release/38d56b2e-2890-4700-bd17-40a94e4adf70",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "I Feel Fine",
+			"url": "https://en.wikipedia.org/w/index.php?title=I_Feel_Fine&oldid=1378542200",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "recording",
+			"title": "I Feel Fine",
+			"authors": [
+				{
+					"name": "The Beatles"
+				}
+			],
+			"recorded": "1964-10-18",
+			"publisher": "Parlophone",
+			"number": "R 5200",
+			"published": "1964",
+			"url": "https://musicbrainz.org/release/d3e2a1d9-a093-480c-8cfb-26b49443d3d0",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Audio feedback",
+			"url": "https://en.wikipedia.org/w/index.php?title=Audio_feedback&oldid=1384527372",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "media",
+			"title": "Electrical Stringed Musical Instrument, US Patent 2,089,171, sheet 1",
+			"authors": [
+				{
+					"family": "Beauchamp",
+					"given": "George D."
+				}
+			],
+			"container": "United States Patent Office",
+			"published": "1937-08-10",
+			"url": "https://patentimages.storage.googleapis.com/pdfs/US2089171.pdf",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"note": "A United States patent drawing, published by the US government in 1937",
+			"file": "patent.jpg"
+		}
+	]
+}
