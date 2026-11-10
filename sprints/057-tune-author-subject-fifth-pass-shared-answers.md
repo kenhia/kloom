@@ -182,18 +182,38 @@ Media, charts and plates, the second agent:
   now skips it, with a test. The wiki-cite README said `accessed` is
   "today"; it now says it is today's UTC date.
 
+### After the overseer's review
+
+The overseer ruled that two of the findings follow from decisions already
+made, and asked for both to be repaired before the ship:
+
+- **`food/annona`'s plate** said "TRAJAN'S HARBOR, c. AD 112", while its
+  module and the reading both say "early 2nd century AD". Regenerating it
+  from the module changed only that title line, so the module had not
+  drifted. The plate is redrawn, and the frame has an `edits` correction.
+- **The BHL audit.** Under Ken's licence rule, the more restrictive
+  licence wins. Every published Commons media citation (763 citations,
+  761 files) was checked against its file page with `commons_media`'s own
+  `info` and `photo_licence` (`.scratch/057/bhl/audit.py`):
+  - one file carries both a public-domain tag and a Creative Commons
+    licence. It is BHL's: `notebook-b`'s Cirripedia plate, whose BHL
+    Flickr scan is CC BY 2.0. It is now cited as CC BY 2.0, credited to
+    "George Sowerby, Biodiversity Heritage Library (scan)", with a note
+    and an `edits` correction. The caption now shows that credit;
+  - five other media citations name BHL, and all stay public domain.
+    Two are Internet Archive scans (`cabinet`, `kummer-ideals`) whose
+    records say "Public domain. The BHL considers that this work is no
+    longer under copyright protection.", with no licence. Three are
+    Commons files with no Creative Commons tag (`coral-reefs`,
+    `neanderthal-genome`; `sugar-slavery`'s is a `book`, not media);
+  - nothing had to be listed for Ken. The one changed plate is a scaled
+    copy, which CC BY 2.0 allows with the credit given.
+
 ## Follow-ups
 
-None filed. The overseer routes these:
+None filed. Two questions go to Ken through the overseer:
 
-- `subjects/food/frames/annona/scene.svg` does not match its module. The
-  module draws "PORTUS · TRAJAN'S BASIN · EARLY 2ND CENTURY AD", which
-  matches the reading. The committed plate says "TRAJAN'S HARBOR, c. AD
-  112". Redrawing it changes a published date label, which needs an
-  `edits` entry and a call on which date is right, so it was left as it is.
 - `names/cell-biology.json` is Q7868, _Cell (biology)_, not cell biology.
   The new collision warning will name it if an author looks up the
   discipline. Renaming a published id changes marks in every subject.
-- BHL plates already published were cited as public domain. The new
-  licence rule would write CC BY 2.0 for them. Re-auditing published media
-  against the rule is a content pass, not done here.
+- A reviewed share has no "unseen" count, as answered notes do in My notes.
