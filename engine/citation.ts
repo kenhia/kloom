@@ -15,6 +15,8 @@
  * rendered in legal form (sprint 033); `treaty` an agreement between states,
  * in legal form too (sprint 050). `lecture` is a talk given on an `occasion`
  * (a Nobel Lecture), and a letter's recipients may be unknown (sprint 057).
+ * `recording` is a sound recording, a disc, a cylinder or a tape, by its
+ * performers, label and catalog number (sprint 058).
  */
 export const CITATION_KINDS = [
 	'web',
@@ -30,7 +32,8 @@ export const CITATION_KINDS = [
 	'case',
 	'statute',
 	'treaty',
-	'lecture'
+	'lecture',
+	'recording'
 ] as const;
 export type CitationKind = (typeof CITATION_KINDS)[number];
 
@@ -118,6 +121,12 @@ export interface Citation {
 	 * `place`, the day in `published`.
 	 */
 	occasion?: string;
+	/**
+	 * When a recording was made, as `published` is written: "Recorded …" (sprint 058). The label goes
+	 * in `publisher`, the catalog number in `number`, the release in `published`, and an album or a
+	 * collection that holds the track in `container` ("On _Album_").
+	 */
+	recorded?: string;
 	/**
 	 * When a letter was written, or a diary's entry; `published` is when it
 	 * was printed. Same forms as `published`. Required on a diary.
@@ -383,8 +392,8 @@ function quoted(title: string): string {
  * - web: Author. "Title." Site. Publisher, Date. Accessed Date. URL.
  * - wikipedia: Wikipedia contributors. "Title." Wikipedia. Wikimedia
  *   Foundation. Last modified Date. Accessed Date. URL.
- * - book: Author. _Title_. Edited by Editor. Place: Publisher, Year.
- *   Accessed Date. URL.
+ * - book: Author. _Title_. Edited by Editor. Vol. N. Place: Publisher,
+ *   Year. Accessed Date. URL.
  * - article: Author. "Title." _Journal_ Volume, no. Issue (Date): Pages.
  *   Accessed Date. URL.
  * - chapter: Author. "Title." In _Volume_, edited by Editor, Pages. Place:
@@ -399,6 +408,8 @@ function quoted(title: string): string {
  *   recipient: "Letter, Date."
  * - lecture: Speaker. "Title." Occasion, Place, Date. Container. Publisher.
  *   Accessed Date. URL.
+ * - recording: Performer. _Title_. Recorded Date. Label Number, Year.
+ *   Accessed Date. URL. A track on an album: "Title." … On _Album_. …
  *
  * With a `doi`, the URL is the DOI at doi.org. An approximate date reads
  * "ca. 1951". A mirror's URL is followed by "(copy at host)"; a source seen
@@ -410,7 +421,12 @@ export function chicago(c: Citation): Part[] {
 
 	if (c.authors?.length) add(`${stop(chicagoAuthors(c.authors, c.etAl))} `);
 
-	const italicTitle = c.kind === 'book' || c.kind === 'report' || c.kind === 'media';
+	// A recording on its own (an album, a disc) is italic; a track on an album is quoted (Chicago 14.263).
+	const italicTitle =
+		c.kind === 'book' ||
+		c.kind === 'report' ||
+		c.kind === 'media' ||
+		(c.kind === 'recording' && !c.container);
 	const legal = legalForm(c);
 	if (legal !== undefined) {
 		// A case's name is italic, a statute's is not; the cite follows either.
@@ -451,6 +467,8 @@ export function chicago(c: Citation): Part[] {
 	};
 	switch (c.kind) {
 		case 'book':
+			// One volume of several: "Vol. 4." after the title and edition (Chicago 14.119).
+			if (c.volume) add(`Vol. ${stop(c.volume)} `);
 			if (c.container) add(`${stop(c.container)} `);
 			imprint();
 			break;
@@ -473,6 +491,19 @@ export function chicago(c: Citation): Part[] {
 			if (given) add(`${stop(given)} `);
 			if (c.container) add(`${stop(c.container)} `);
 			if (c.publisher) add(`${stop(c.publisher)} `);
+			break;
+		}
+		case 'recording': {
+			// Chicago 14.263: when it was recorded, the album it is on, then label, number and year.
+			if (c.recorded) add(`Recorded ${chicagoDate(c.recorded)}. `);
+			if (c.container) {
+				add('On ');
+				add(c.container, true);
+				add('. ');
+			}
+			const label = [c.publisher, c.number].filter(Boolean).join(' ');
+			const facts = [label, date].filter(Boolean).join(', ');
+			if (facts) add(`${stop(facts)} `);
 			break;
 		}
 		case 'chapter':
@@ -629,8 +660,13 @@ export function keySource(c: Citation): Source {
 		const lang = c.language && c.language !== 'en' ? `${languageName(c.language)} ` : '';
 		return { title: `${c.title} — ${lang}Wikipedia`, url };
 	}
+	const label = [c.publisher, c.number].filter(Boolean).join(' ');
 	const where =
-		c.kind === 'book' || c.kind === 'report' ? c.publisher : (c.container ?? c.publisher);
+		c.kind === 'book' || c.kind === 'report'
+			? c.publisher
+			: c.kind === 'recording'
+				? label || c.container
+				: (c.container ?? c.publisher);
 	// An organisation that is also the site says so once: "Introducing X | Anthropic".
 	const who = where && shortAuthors(c) === where ? undefined : shortAuthors(c);
 	const date = c.published && chicagoDate(c.published, c.circa);
@@ -761,6 +797,11 @@ export function citationProblems(c: unknown, options: { legacy?: boolean } = {})
 			out.push('a lecture needs its occasion ("Nobel Lecture", "Lecture, Royal Institution")');
 		if (c.published === undefined) out.push('a lecture needs the date it was given, in published');
 	} else if (c.occasion !== undefined) out.push('occasion is for a lecture');
+	if (c.recorded !== undefined) {
+		if (c.kind !== 'recording') out.push('recorded is for a recording');
+		else if (!(isText(c.recorded) && isPublished(c.recorded)))
+			out.push(`recorded must be ${PUBLISHED}`);
+	}
 	if (c.kind === 'diary' && c.written === undefined)
 		out.push('a diary entry needs the date it was written');
 	if (c.kind === 'media') {

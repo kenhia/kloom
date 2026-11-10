@@ -1,0 +1,96 @@
+{
+	"title": "Sound and Score",
+	"subtitle": "a history of Western music, from bone flutes to streaming",
+	"palettes": {
+		"cave": {
+			"scheme": "dark",
+			"background": "#14100c",
+			"ink": "#efe6da",
+			"muted": "#b3a492",
+			"accent": "#e0a35a",
+			"line": "#d3c6b4",
+			"counterpart": "monochord"
+		},
+		"monochord": {
+			"scheme": "light",
+			"background": "#f3f0e6",
+			"ink": "#1d1c18",
+			"muted": "#57534a",
+			"accent": "#7a4a10",
+			"line": "#2a2822",
+			"counterpart": "cave"
+		},
+		"vespers": {
+			"scheme": "dark",
+			"background": "#110f1a",
+			"ink": "#ebe6f3",
+			"muted": "#aaa3bf",
+			"accent": "#d8b45a",
+			"line": "#cbc5da",
+			"counterpart": "woodcut"
+		},
+		"woodcut": {
+			"scheme": "light",
+			"background": "#f4f1e8",
+			"ink": "#1c1a16",
+			"muted": "#5a554a",
+			"accent": "#a3271f",
+			"line": "#2b2822",
+			"counterpart": "vespers"
+		},
+		"gilt": {
+			"scheme": "dark",
+			"background": "#170f10",
+			"ink": "#f1e5df",
+			"muted": "#bba49c",
+			"accent": "#e9b949",
+			"line": "#d8c6be",
+			"counterpart": "salon"
+		},
+		"salon": {
+			"scheme": "light",
+			"background": "#f5f0ee",
+			"ink": "#221a1c",
+			"muted": "#5e5154",
+			"accent": "#8c2f4f",
+			"line": "#2e2426",
+			"counterpart": "gilt"
+		},
+		"shellac": {
+			"scheme": "dark",
+			"background": "#120d0a",
+			"ink": "#f0e8de",
+			"muted": "#b7a898",
+			"accent": "#e58a3c",
+			"line": "#d6c9b8",
+			"counterpart": "sheet"
+		},
+		"sheet": {
+			"scheme": "light",
+			"background": "#f2efe4",
+			"ink": "#1a1c22",
+			"muted": "#535866",
+			"accent": "#1f5aa0",
+			"line": "#262a33",
+			"counterpart": "shellac"
+		},
+		"valve": {
+			"scheme": "dark",
+			"background": "#0e1114",
+			"ink": "#e6edf0",
+			"muted": "#a0adb5",
+			"accent": "#ff8a70",
+			"line": "#c6d0d6",
+			"counterpart": "pixel"
+		},
+		"pixel": {
+			"scheme": "light",
+			"background": "#f1f4f2",
+			"ink": "#141c19",
+			"muted": "#4c5853",
+			"accent": "#0f6e52",
+			"line": "#202a26",
+			"counterpart": "valve"
+		}
+	}
+}

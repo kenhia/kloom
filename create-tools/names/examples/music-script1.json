@@ -1,0 +1,33 @@
+{
+	"music/neumes": [
+		["Charlemagne", "charlemagne"],
+		["Admonitio generalis", "admonitio-generalis"],
+		["Pepin the Short", "pepin-the-short"],
+		["Pope Stephen II", "pope-stephen-ii"],
+		["Metz", "metz"],
+		["Notker the Stammerer", "notker-the-stammerer"],
+		["Old Roman chant", "old-roman-chant"],
+		["Gallican chant", "gallican-chant"],
+		["Gregorian chant", "gregorian-chant"],
+		["Gregory the Great", "pope-gregory-i"],
+		["neumes", "neume"],
+		["Abbey of Saint Gall", "abbey-of-saint-gall"],
+		["Hucbald", "hucbald"],
+		["Kenneth Levy", "kenneth-levy"],
+		["Leo Treitler", "leo-treitler"]
+	],
+	"music/guido-staff": [
+		["Pope John XIX", "pope-john-xix"],
+		["Guido of Arezzo", "guido-of-arezzo"],
+		["Pomposa Abbey", "pomposa-abbey"],
+		["_Micrologus_", "micrologus"],
+		["staff", "staff-music"],
+		["monochord", "monochord"],
+		["_Ut queant laxis_", "ut-queant-laxis"],
+		["Paul the Deacon", "paul-the-deacon"],
+		["hexachord", "hexachord"],
+		["solmization", "solmization"],
+		["Sigebert of Gembloux", "sigebert-of-gembloux"],
+		["Guidonian hand", "guidonian-hand"]
+	]
+}

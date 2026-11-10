@@ -1,0 +1,45 @@
+{
+	"music/castrati": [
+		["King's Theatre", "his-majestys-theatre-london"],
+		["Naples", "naples"],
+		["Charles Burney", "charles-burney"],
+		["Farinelli", "farinelli"],
+		["castrato", "castrato"],
+		["Nicola Porpora", "nicola-porpora"],
+		["Johann Joachim Quantz", "johann-joachim-quantz"],
+		["Opera of the Nobility", "opera-of-the-nobility"],
+		["George Frideric Handel", "george-frideric-handel"],
+		["Philip V of Spain", "philip-v-of-spain"],
+		["unification of Italy", "unification-of-italy"],
+		["_Tra le sollecitudini_", "tra-le-sollecitudini"],
+		["Sistine Chapel Choir", "sistine-chapel-choir"],
+		["Alessandro Moreschi", "alessandro-moreschi"],
+		["Gramophone Company", "gramophone-company"]
+	],
+	"music/jenny-lind": [
+		["P. T. Barnum", "p-t-barnum"],
+		["Jenny Lind", "jenny-lind"],
+		["Royal Swedish Opera", "royal-swedish-opera"],
+		["Manuel García", "manuel-garcia-baritone"],
+		["Her Majesty's Theatre", "his-majestys-theatre-london"],
+		["Queen Victoria", "queen-victoria"],
+		["Julius Benedict", "julius-benedict"],
+		["Castle Clinton", "castle-clinton"],
+		["New York City", "new-york-city"],
+		["New-York Tribune", "new-york-tribune"],
+		["Havana", "havana"],
+		["New Orleans", "new-orleans"]
+	],
+	"music/laryngoscope": [
+		["Manuel García", "manuel-garcia-baritone"],
+		["vocal folds", "vocal-cords"],
+		["Jenny Lind", "jenny-lind"],
+		["Mathilde Marchesi", "mathilde-marchesi"],
+		["Royal Society", "royal-society"],
+		["Johannes Peter Müller", "johannes-peter-muller"],
+		["Ludwig Türck", "ludwig-turck"],
+		["Johann Nepomuk Czermak", "johann-nepomuk-czermak"],
+		["laryngoscopy", "laryngoscopy"],
+		["John Singer Sargent", "john-singer-sargent"]
+	]
+}

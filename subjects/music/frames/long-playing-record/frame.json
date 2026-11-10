@@ -1,0 +1,273 @@
+{
+	"id": "long-playing-record",
+	"topic": "The long-playing record",
+	"position": {
+		"label": "1948",
+		"sort": 1948
+	},
+	"scene": {
+		"headline": "The record played",
+		"accent": "LONGER.",
+		"palette": "shellac",
+		"illustration": "scene.svg",
+		"metadata": ["COLUMBIA RECORDS · CBS · NEW YORK", "MICROGROOVE · 33⅓ RPM · VINYL"],
+		"counter": {
+			"value": "224–300",
+			"label": "grooves to the inch, against about 90 on a 78"
+		}
+	},
+	"connections": [
+		{
+			"to": "music/electrical-recording",
+			"why": "The microgroove became possible once amplification let a fine groove be played loud enough."
+		},
+		{
+			"to": "music/magnetic-tape",
+			"why": "Many of the first LPs were transferred from tape."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Creating the LP Record",
+			"authors": [
+				{
+					"family": "Wallerstein",
+					"given": "Edward"
+				}
+			],
+			"container": "High Fidelity",
+			"volume": "26",
+			"issue": "4",
+			"pages": "56–61",
+			"published": "1976-04",
+			"url": "https://www.worldradiohistory.com/Archive-All-Audio/Archive-High-Fidelity/70s/High-Fidelity-1976-04.pdf",
+			"accessed": "2026-11-10",
+			"note": "As told to Ward Botsford; the launch, the team, the cost and the war of the speeds"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Microgroove Phonograph Records",
+			"authors": [
+				{
+					"family": "Gernsback",
+					"given": "M. Harvey"
+				}
+			],
+			"container": "Radio-Electronics",
+			"volume": "20",
+			"issue": "1",
+			"pages": "30–31",
+			"published": "1948-10",
+			"url": "https://www.worldradiohistory.com/Archive-Radio-Electronics/40s/Radio-Electronics-1948-10.pdf",
+			"accessed": "2026-11-10",
+			"note": "The groove pitch, stylus and speed"
+		},
+		{
+			"kind": "article",
+			"title": "The Columbia Long-Playing Microgroove Recording System",
+			"authors": [
+				{
+					"family": "Goldmark",
+					"given": "P. C."
+				},
+				{
+					"family": "Snepvangers",
+					"given": "R."
+				},
+				{
+					"family": "Bachman",
+					"given": "W. S."
+				}
+			],
+			"container": "Proceedings of the IRE",
+			"volume": "37",
+			"issue": "8",
+			"pages": "923–927",
+			"published": "1949-08",
+			"doi": "10.1109/JRPROC.1949.229985",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "book",
+			"title": "Maverick Inventor",
+			"authors": [
+				{
+					"family": "Goldmark",
+					"given": "Peter C."
+				}
+			],
+			"place": "New York",
+			"publisher": "Saturday Review Press",
+			"published": "1973",
+			"citedIn": "Creating the LP Record"
+		},
+		{
+			"kind": "web",
+			"title": "Development of the Columbia Microgroove LP: William S. (Bill) Bachman, Interviewed by James A. Drake",
+			"authors": [
+				{
+					"family": "Drake",
+					"given": "James A."
+				}
+			],
+			"container": "Mainspring Press",
+			"published": "2024-02-01",
+			"url": "https://mainspringpress.org/2024/02/01/development-of-the-columbia-lp-william-s-bachman-interviewed-by-james-a-drake/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Improvements in and Relating to Sound-Transmission, Sound-Recording and Sound-Reproducing Systems, GB 394,325",
+			"authors": [
+				{
+					"family": "Blumlein",
+					"given": "Alan Dower"
+				}
+			],
+			"container": "Google Patents",
+			"published": "1933-06-14",
+			"url": "https://patents.google.com/patent/GB394325A/en",
+			"accessed": "2026-11-10",
+			"note": "Applied for December 14, 1931; the two channels at 45° in one groove"
+		},
+		{
+			"kind": "report",
+			"title": "2025 Year-End Music Industry Revenue Report",
+			"publisher": "Recording Industry Association of America",
+			"published": "2026-03",
+			"url": "https://www.riaa.com/wp-content/uploads/2026/03/RIAA-Year-End-Revenue-2025.pdf",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "recording",
+			"title": "Mendelssohn: Concerto in E Minor for Violin and Orchestra, Op. 64",
+			"authors": [
+				{
+					"family": "Milstein",
+					"given": "Nathan"
+				},
+				{
+					"name": "New York Philharmonic-Symphony Orchestra"
+				},
+				{
+					"family": "Walter",
+					"given": "Bruno"
+				}
+			],
+			"recorded": "1945-05-16",
+			"publisher": "Columbia Masterworks",
+			"number": "ML 4001",
+			"published": "1948",
+			"url": "https://archive.org/details/lp_mendelssohn-concerto-in-e-minor-for-violin_nathan-milstein-the-new-york-philharmonic",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "The first twelve-inch LP; the recording date from another Internet Archive copy's notes"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "LP record",
+			"url": "https://en.wikipedia.org/w/index.php?title=LP_record&oldid=1383928135",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-05",
+			"key": true,
+			"note": "The 78's limits, the launch, the first releases and the sales shares"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phonograph record",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phonograph_record&oldid=1384224666",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stereophonic sound",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stereophonic_sound&oldid=1384609784",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alan Blumlein",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alan_Blumlein&oldid=1379135838",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Peter Carl Goldmark",
+			"url": "https://en.wikipedia.org/w/index.php?title=Peter_Carl_Goldmark&oldid=1370964761",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Violin Concerto (Mendelssohn)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Violin_Concerto_(Mendelssohn)&oldid=1359810710",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-17"
+		},
+		{
+			"kind": "media",
+			"title": "Grooves of a 12-inch LP, close up",
+			"authors": [
+				{
+					"name": "Evan-Amos"
+				}
+			],
+			"published": "2016-11-12",
+			"url": "https://commons.wikimedia.org/wiki/File:12in-LP-Vinyl-Record-Macro-Grooves.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"note": "Released into the public domain by its photographer",
+			"file": "lp-grooves.jpg"
+		}
+	]
+}

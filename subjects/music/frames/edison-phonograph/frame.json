@@ -1,0 +1,302 @@
+{
+	"id": "edison-phonograph",
+	"topic": "Edison's phonograph",
+	"position": {
+		"label": "1877",
+		"sort": 1877
+	},
+	"scene": {
+		"headline": "We heard ourselves",
+		"accent": "AGAIN.",
+		"palette": "shellac",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MENLO PARK · THOMAS EDISON · JOHN KRUESI",
+			"TINFOIL · BRASS CYLINDER · TEN GROOVES TO THE INCH"
+		],
+		"counter": {
+			"value": "$10,000",
+			"label": "to Edison for the rights, 1878"
+		}
+	},
+	"connections": [
+		{
+			"to": "making/screw-cutting",
+			"why": "The tinfoil phonograph's cylinder rode on a shaft cut ten threads to the inch and turning in a nut, a lead screw that carried it one groove along for each turn, as a screw-cutting lathe's lead screw carries its tool one pitch for each turn of the work."
+		},
+		{
+			"to": "music/helmholtz-tone",
+			"why": "Edison wrote \"Untrue Record\" beside the phonautograph in his copy of Helmholtz's book."
+		},
+		{
+			"to": "music/gramophone",
+			"why": "Berliner cut sound sideways on a flat disc against Edison's vertical cut on a cylinder."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Talking Phonograph",
+			"container": "Scientific American",
+			"volume": "37",
+			"issue": "25",
+			"pages": "384",
+			"published": "1877-12-22",
+			"url": "https://archive.org/details/sim_scientific-american_1877-12-22_37_25/page/n1",
+			"accessed": "2026-11-10",
+			"note": "The demonstration in the magazine's office and how the machine works; quoted from it"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "US Patent 200,521: Improvement in Phonograph or Speaking Machines",
+			"authors": [
+				{
+					"family": "Edison",
+					"given": "Thomas A."
+				}
+			],
+			"publisher": "United States Patent Office",
+			"published": "1878-02-19",
+			"url": "https://patentimages.storage.googleapis.com/pdfs/US200521.pdf",
+			"accessed": "2026-11-10",
+			"note": "Ten grooves to the inch, the threaded shaft and the two diaphragms"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Phonograph and Its Future",
+			"authors": [
+				{
+					"family": "Edison",
+					"given": "Thomas A."
+				}
+			],
+			"container": "The North American Review",
+			"volume": "126",
+			"issue": "262",
+			"pages": "527–536",
+			"published": "1878-05",
+			"url": "https://www.jstor.org/stable/25110210",
+			"accessed": "2026-11-10",
+			"note": "Read in JSTOR's Early Journal Content on the Internet Archive; music, p. 533"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "August 12, 1877: Thomas Edison Invents the Phonograph",
+			"authors": [
+				{
+					"family": "Israel",
+					"given": "Paul"
+				}
+			],
+			"container": "Constituting America",
+			"published": "2020-05-19",
+			"url": "https://constitutingamerica.org/august-12-1877-thomas-edison-invents-the-phonograph-guest-essayist-paul-israel/",
+			"accessed": "2026-11-10",
+			"note": "The July 1877 note, the misdated drawing and Kruesi's December build, by the editor of Edison's papers"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Origins of Sound Recording: Edison's Path to the Phonograph",
+			"container": "Thomas Edison National Historical Park",
+			"publisher": "National Park Service",
+			"published": "2017-07-17",
+			"url": "https://www.nps.gov/edis/learn/historyculture/origins-of-sound-recording-edisons-path-to-the-phonograph.htm",
+			"accessed": "2026-11-10",
+			"note": "Edison's note of 18 July 1877, Batchelor's recollection and the Helmholtz margin"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "History of the Cylinder Phonograph",
+			"container": "Inventing Entertainment: The Early Motion Pictures and Sound Recordings of the Edison Companies",
+			"publisher": "Library of Congress",
+			"url": "https://www.loc.gov/collections/edison-company-motion-pictures-and-sound-recordings/articles-and-essays/history-of-edison-sound-recordings/history-of-the-cylinder-phonograph/",
+			"accessed": "2026-11-10",
+			"note": "The company of 1878, the ten uses, the graphophone and prices"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "George W. Johnson, the First Black Recording Star",
+			"authors": [
+				{
+					"family": "Brooks",
+					"given": "Tim"
+				}
+			],
+			"container": "timbrooks.net",
+			"url": "https://timbrooks.net/?page_id=19",
+			"accessed": "2026-11-10",
+			"note": "Abridged from Brooks's Lost Sounds (2004)"
+		},
+		{
+			"kind": "recording",
+			"title": "Laughing song",
+			"authors": [
+				{
+					"family": "Johnson",
+					"given": "George W."
+				}
+			],
+			"published": "1893",
+			"circa": true,
+			"url": "https://www.library.ucsb.edu/OBJID/Cylinder17216",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "UCSB Cylinder Audio Archive, Cylinder 17216: a brown wax cylinder of 1893 or 1894, company unknown, its title and singer from its spoken announcement"
+		},
+		{
+			"kind": "web",
+			"title": "Brown Wax Cylinders (1895–1901)",
+			"container": "UCSB Cylinder Audio Archive",
+			"publisher": "University of California, Santa Barbara Library",
+			"url": "https://cylinders.library.ucsb.edu/history-brownwax.php",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Tinfoil Recordings",
+			"container": "UCSB Cylinder Audio Archive",
+			"publisher": "University of California, Santa Barbara Library",
+			"url": "https://cylinders.library.ucsb.edu/history-tinfoil.php",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Digital Technology Helps Researchers Hear Earliest Recording",
+			"container": "PBS NewsHour",
+			"publisher": "NewsHour Productions",
+			"published": "2012-10-25",
+			"url": "https://www.pbs.org/newshour/show/digital-technology-helps-researchers-hear-earliest-recording",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "America's Oldest Voice Recording Restored",
+			"authors": [
+				{
+					"family": "Waldron",
+					"given": "Ben"
+				}
+			],
+			"container": "ABC News",
+			"published": "2012-10-25",
+			"url": "https://abcnews.com/blogs/technology/2012/10/americas-oldest-voice-recording-restored",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phonograph",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phonograph&oldid=1383460505",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Thomas Edison",
+			"url": "https://en.wikipedia.org/w/index.php?title=Thomas_Edison&oldid=1381361637",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phonograph cylinder",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phonograph_cylinder&oldid=1379089207",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Graphophone",
+			"url": "https://en.wikipedia.org/w/index.php?title=Graphophone&oldid=1377974996",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Volta Laboratory and Bureau",
+			"url": "https://en.wikipedia.org/w/index.php?title=Volta_Laboratory_and_Bureau&oldid=1384432307",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jukebox",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jukebox&oldid=1374452823",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "George W. Johnson (singer)",
+			"url": "https://en.wikipedia.org/w/index.php?title=George_W._Johnson_(singer)&oldid=1371563655",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-27"
+		},
+		{
+			"kind": "media",
+			"title": "The Talking Phonograph, with its Fig. 1",
+			"container": "Scientific American 37, no. 25, p. 384",
+			"published": "1877-12-22",
+			"url": "https://archive.org/details/sim_scientific-american_1877-12-22_37_25/page/n1",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"note": "Published in the US in 1877",
+			"file": "talking-phonograph.jpg"
+		}
+	]
+}

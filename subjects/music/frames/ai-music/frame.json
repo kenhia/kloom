@@ -1,0 +1,345 @@
+{
+	"id": "ai-music",
+	"topic": "Music made by AI",
+	"position": {
+		"label": "2026",
+		"sort": 2026
+	},
+	"scene": {
+		"headline": "Songs came from a",
+		"accent": "PROMPT.",
+		"palette": "pixel",
+		"illustration": "scene.svg",
+		"metadata": ["SUNO · UDIO · LYRIA · THE ILLIAC SUITE, 1957", "TEXT TO TOKENS TO SOUND"],
+		"counter": {
+			"value": "90,000",
+			"label": "AI-made tracks a day delivered to Deezer, June 2026"
+		}
+	},
+	"asOf": "2026-11-10",
+	"connections": [
+		{
+			"to": "ai/transformer",
+			"why": "MusicLM writes music as a language model writes text, its stages decoder-only transformers that predict each token of sound from those before it."
+		},
+		{
+			"to": "ai/diffusion",
+			"why": "Stability AI's Stable Audio makes music by latent diffusion, starting from noise and refining it step by step as the image generators that frame describes do."
+		},
+		{
+			"to": "ai/governance",
+			"why": "The record companies' suits against Suno and Udio, and the Copyright Office's reports, are among the copyright fights over training data that frame surveys, brought here by musicians and labels."
+		},
+		{
+			"to": "music/streaming",
+			"why": "AI-made tracks and the fraud they feed drain the streaming royalty pool."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Experimental Music: Composition with an Electronic Computer",
+			"authors": [
+				{
+					"family": "Hiller",
+					"given": "Lejaren A., Jr."
+				},
+				{
+					"family": "Isaacson",
+					"given": "Leonard M."
+				}
+			],
+			"place": "New York",
+			"publisher": "McGraw-Hill",
+			"published": "1959",
+			"url": "https://archive.org/details/experimentalmusi00hill",
+			"accessed": "2026-11-10",
+			"note": "The try-again method and the suite's four experiments (Table 4); the first performance, p. 6"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Illiac Suite",
+			"url": "https://en.wikipedia.org/w/index.php?title=Illiac_Suite&oldid=1352201161",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "David Cope",
+			"url": "https://en.wikipedia.org/w/index.php?title=David_Cope&oldid=1350822377",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-24",
+			"note": "EMI and Hofstadter's lectures"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "MusicLM: Generating Music From Text",
+			"authors": [
+				{
+					"family": "Agostinelli",
+					"given": "Andrea"
+				},
+				{
+					"family": "Denk",
+					"given": "Timo I."
+				},
+				{
+					"family": "Borsos",
+					"given": "Zalán"
+				},
+				{
+					"family": "Engel",
+					"given": "Jesse"
+				},
+				{
+					"family": "Verzetti",
+					"given": "Mauro"
+				},
+				{
+					"family": "Caillon",
+					"given": "Antoine"
+				},
+				{
+					"family": "Huang",
+					"given": "Qingqing"
+				}
+			],
+			"etAl": true,
+			"container": "arXiv preprint arXiv:2301.11325",
+			"published": "2023-01-26",
+			"doi": "10.48550/arXiv.2301.11325",
+			"url": "https://arxiv.org/pdf/2301.11325",
+			"accessed": "2026-11-10",
+			"note": "Its tokenizers, two transformer stages, training data and the memorization test"
+		},
+		{
+			"kind": "article",
+			"title": "Fast Timing-Conditioned Latent Audio Diffusion",
+			"authors": [
+				{
+					"family": "Evans",
+					"given": "Zach"
+				},
+				{
+					"family": "Carr",
+					"given": "CJ"
+				},
+				{
+					"family": "Taylor",
+					"given": "Josiah"
+				},
+				{
+					"family": "Hawley",
+					"given": "Scott H."
+				},
+				{
+					"family": "Pons",
+					"given": "Jordi"
+				}
+			],
+			"container": "arXiv preprint arXiv:2402.04825",
+			"published": "2024-02-07",
+			"doi": "10.48550/arXiv.2402.04825",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "Lyria 3.5",
+			"container": "Google DeepMind",
+			"publisher": "Google",
+			"url": "https://deepmind.google/models/lyria/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Deezer: AI Music Has Surpassed 50% of New Music Uploads for the First Time",
+			"container": "Deezer Newsroom",
+			"publisher": "Deezer",
+			"published": "2026-07-21",
+			"url": "https://newsroom-deezer.com/2026/07/ai-music-exceeds-50-percent-daily-uploads-deezer/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Deezer Will Let You Fully Exclude AI-Generated Music from Your Streaming Experience",
+			"container": "Deezer Newsroom",
+			"publisher": "Deezer",
+			"published": "2026-10-13",
+			"url": "https://newsroom-deezer.com/2026/10/deezer-ai-music-toggle/",
+			"accessed": "2026-11-10",
+			"note": "With the Deezer and Ipsos survey of November 2025"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Suno",
+			"url": "https://en.wikipedia.org/w/index.php?title=Suno&oldid=1384795978",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-10",
+			"key": true,
+			"note": "The suits, settlements and v6"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Udio",
+			"url": "https://en.wikipedia.org/w/index.php?title=Udio&oldid=1378809928",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-06"
+		},
+		{
+			"kind": "web",
+			"title": "Universal Music Settles Udio Lawsuit, Strikes Deal for Licensed AI Music Platform",
+			"authors": [
+				{
+					"family": "Dalugdug",
+					"given": "Mandy"
+				}
+			],
+			"container": "Music Business Worldwide",
+			"published": "2025-10-30",
+			"url": "https://www.musicbusinessworldwide.com/universal-music-settles-udio-lawsuit-strikes-deal-for-licensed-ai-music-platform/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Warner Music Moves From Litigation to Licensing With Udio",
+			"authors": [
+				{
+					"name": "Vismaya V"
+				}
+			],
+			"container": "Decrypt",
+			"published": "2025-11-20",
+			"url": "https://decrypt.co/349360/warner-music-moves-from-litigation-to-licensing-with-udio",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Udio Admits to Scraping YouTube Audio for AI Training in Answer to Sony Music Lawsuit",
+			"authors": [
+				{
+					"family": "Dalugdug",
+					"given": "Mandy"
+				}
+			],
+			"container": "Music Business Worldwide",
+			"published": "2026-05-04",
+			"url": "https://www.musicbusinessworldwide.com/udio-admits-to-scraping-youtube-audio-for-ai-training-in-answer-to-sony-music-lawsuit/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Sony Music Sues Udio for a Second Time, with the Extra 30,000 Recordings That Could Result in $4.5 Billion Damages",
+			"authors": [
+				{
+					"family": "Cooke",
+					"given": "Chris"
+				}
+			],
+			"container": "Complete Music Update",
+			"published": "2026-07-21",
+			"url": "https://completemusicupdate.com/sony-music-sues-udio-for-a-second-time-with-the-extra-30-000-recordings-that-could-result-in-4-5-billion-damages/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Universal and Sony Sue Suno for a Second Time, Claiming Platform's v6 Models Are 'the Fruit of the Same Poisoned Tree'",
+			"authors": [
+				{
+					"family": "Ingham",
+					"given": "Tim"
+				}
+			],
+			"container": "Music Business Worldwide",
+			"published": "2026-09-18",
+			"url": "https://www.musicbusinessworldwide.com/universal-and-sony-sue-suno-for-a-second-time-claiming-platforms-v6-models-are-the-fruit-of-the-same-poisoned-tree/",
+			"accessed": "2026-11-10",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"title": "Spotify Strengthens AI Protections for Artists, Songwriters, and Producers",
+			"container": "Spotify Newsroom",
+			"publisher": "Spotify",
+			"published": "2025-09-25",
+			"url": "https://newsroom.spotify.com/2025-09-25/spotify-strengthens-ai-protections/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Introducing a New Label for AI-Generated Artist Identities on Spotify",
+			"container": "Spotify Newsroom",
+			"publisher": "Spotify",
+			"published": "2026-08-11",
+			"url": "https://newsroom.spotify.com/2026-08-11/ai-persona-badges-transparency/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Copyright and Artificial Intelligence, Part 2: Copyrightability",
+			"publisher": "United States Copyright Office",
+			"place": "Washington, DC",
+			"published": "2025-01-29",
+			"url": "https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf",
+			"accessed": "2026-11-10",
+			"note": "Its conclusions (p. iii) and on prompts (pp. 17–18)"
+		},
+		{
+			"kind": "web",
+			"title": "Copyright and Artificial Intelligence",
+			"container": "U.S. Copyright Office",
+			"publisher": "United States Copyright Office",
+			"url": "https://www.copyright.gov/ai/",
+			"accessed": "2026-11-10",
+			"note": "Part 3, on training, released in a pre-publication version on 9 May 2025"
+		},
+		{
+			"kind": "recording",
+			"title": "String Quartet No. 4, \"Illiac Suite\"",
+			"authors": [
+				{
+					"name": "University of Illinois Composition String Quartet"
+				}
+			],
+			"container": "Computer Music Retrospective",
+			"publisher": "Wergo",
+			"number": "WER 60128",
+			"published": "1989",
+			"url": "https://musicbrainz.org/release/e1e54193-7e06-4206-8c62-608867299d5a",
+			"accessed": "2026-11-10",
+			"read": "record"
+		}
+	]
+}

@@ -1,0 +1,180 @@
+{
+	"id": "stein-piano",
+	"topic": "Stein and the Viennese piano",
+	"position": {
+		"label": "1777",
+		"sort": 1777
+	},
+	"scene": {
+		"headline": "Augsburg gave the piano a light",
+		"accent": "TOUCH.",
+		"palette": "salon",
+		"illustration": "scene.svg",
+		"metadata": [
+			"AUGSBURG · VIENNA · JOHANN ANDREAS STEIN",
+			"MOZART'S LETTER OF 17 OCTOBER 1777 · THE PRELLMECHANIK"
+		],
+		"counter": {
+			"value": "300",
+			"label": "florins at least for a Stein piano, Mozart wrote"
+		}
+	},
+	"connections": [
+		{
+			"to": "music/mozart-vienna",
+			"why": "Mozart praised Stein's pianos in Augsburg in 1777; in Vienna a few years later he played his own concertos on the fortepiano he bought from Anton Walter."
+		}
+	],
+	"citations": [
+		{
+			"kind": "letter",
+			"key": true,
+			"title": "Augsburg, Oct. 17, 1777",
+			"authors": [
+				{
+					"family": "Mozart",
+					"given": "Wolfgang Amadeus"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Mozart",
+					"given": "Leopold"
+				}
+			],
+			"written": "1777-10-17",
+			"container": "The Letters of Wolfgang Amadeus Mozart (1769–1791)",
+			"translators": [
+				{
+					"name": "Lady Wallace"
+				}
+			],
+			"volume": "1",
+			"pages": "93–102",
+			"place": "New York",
+			"publisher": "Hurd and Houghton",
+			"published": "1866",
+			"url": "https://archive.org/details/lettersofwolfgan01moza",
+			"accessed": "2026-11-10",
+			"note": "Translated from Ludwig Nohl's collection; Stein's pianos, pp. 93–96, his daughter, pp. 100–102"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Johann Andreas Stein",
+			"url": "https://en.wikipedia.org/w/index.php?title=Johann_Andreas_Stein&oldid=1367832214",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05",
+			"note": "The German action, the 1777 vis-à-vis and Latcham on the letter"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Fortepiano",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fortepiano&oldid=1382873348",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-30",
+			"note": "The Viennese and English actions, and Ripin's measurements"
+		},
+		{
+			"kind": "book",
+			"title": "The Pianoforte, Its Origin, Progress, and Construction",
+			"authors": [
+				{
+					"family": "Rimbault",
+					"given": "Edward F."
+				}
+			],
+			"place": "London",
+			"publisher": "Robert Cocks",
+			"published": "1860",
+			"url": "https://archive.org/details/pianoforteitsori00rimbuoft",
+			"accessed": "2026-11-10",
+			"note": "Thalberg's report on the Vienna and English actions, pp. 192–93"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nannette Streicher",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nannette_Streicher&oldid=1374349893",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Broadwood & Sons",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Broadwood_%26_Sons&oldid=1380027796",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Franz Liszt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Franz_Liszt&oldid=1381449605",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-22"
+		},
+		{
+			"kind": "web",
+			"title": "Pianoforte, Stein, Frère et Sœur, 1794–1802 (64.252)",
+			"container": "The Met Collection",
+			"publisher": "The Metropolitan Museum of Art",
+			"url": "https://www.metmuseum.org/art/collection/search/503049",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "media",
+			"title": "Pianoforte, Stein, Frère et Sœur, Vienna, 1794–1802",
+			"container": "The Metropolitan Museum of Art",
+			"number": "64.252",
+			"url": "https://www.metmuseum.org/art/collection/search/503049",
+			"accessed": "2026-11-10",
+			"licence": "CC0",
+			"file": "stein-vienna.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Pianoforte, Stein, Frère et Sœur: the nameplate",
+			"container": "The Metropolitan Museum of Art",
+			"number": "64.252",
+			"url": "https://www.metmuseum.org/art/collection/search/503049",
+			"accessed": "2026-11-10",
+			"licence": "CC0",
+			"file": "stein-nameplate.jpg"
+		}
+	]
+}

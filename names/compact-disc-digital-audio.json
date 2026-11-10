@@ -1,0 +1,9 @@
+{
+	"id": "compact-disc-digital-audio",
+	"wikidata": "Q1121020",
+	"name": "Compact Disc Digital Audio",
+	"aliases": ["CD-DA", "Red Book", "audio CD"],
+	"kind": "idea",
+	"description": "The audio CD's standard, the Red Book of Philips and Sony (1980): two channels of 16-bit samples at 44,100 a second, with Reed–Solomon error correction.",
+	"home": "music/compact-disc"
+}

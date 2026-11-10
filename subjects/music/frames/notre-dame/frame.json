@@ -1,0 +1,299 @@
+{
+	"id": "notre-dame",
+	"topic": "Léonin, Pérotin and Notre-Dame",
+	"position": {
+		"label": "1198",
+		"sort": 1198
+	},
+	"scene": {
+		"headline": "We sang the chant in four",
+		"accent": "PARTS.",
+		"palette": "vespers",
+		"illustration": "scene.svg",
+		"metadata": ["NOTRE-DAME DE PARIS · ÎLE DE LA CITÉ", "LÉONIN · PÉROTIN · MAGNUS LIBER ORGANI"],
+		"counter": {
+			"value": "6",
+			"label": "Paris pence a singer, for organum"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/gothic-cathedral",
+			"why": "Notre-Dame's singers sang in the choir of a cathedral begun in 1163 in the Gothic style whose first building, Saint-Denis's choir of 1144, that frame describes."
+		},
+		{
+			"to": "western-civ/aquinas",
+			"why": "Léonin and Pérotin were each a magister, a master licensed to teach in the Paris schools, and the writer who named them used the geometry of their arts course: the guild of masters that frame describes as the University of Paris."
+		},
+		{
+			"to": "music/ars-nova",
+			"why": "The rhythmic modes gave way to mensural notes that carry their own lengths."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Pérotin",
+			"url": "https://en.wikipedia.org/w/index.php?title=P%C3%A9rotin&oldid=1382744269",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-30",
+			"key": true,
+			"note": "His works, the bishop's decrees and the dating of Viderunt omnes"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Léonin",
+			"url": "https://en.wikipedia.org/w/index.php?title=L%C3%A9onin&oldid=1378470784",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04",
+			"key": true,
+			"note": "Anonymous IV's account, the Magnus liber and the arguments over its rhythm"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rhythmic mode",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rhythmic_mode&oldid=1371729998",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28",
+			"key": true,
+			"note": "The six modes and their ligature patterns"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Contra facientes festum fatuorum in ecclesia Parisiensi",
+			"authors": [
+				{
+					"name": "Eudes de Sully"
+				}
+			],
+			"pages": "72–75",
+			"note": "The decree of 1198 for the Feast of the Circumcision, quoting the legate's complaint",
+			"container": "Cartulaire de l'église Notre-Dame de Paris",
+			"volume": "1",
+			"editors": [
+				{
+					"family": "Guérard",
+					"given": "Benjamin"
+				}
+			],
+			"place": "Paris",
+			"publisher": "Imprimerie de Crapelet",
+			"published": "1850",
+			"url": "https://archive.org/details/cartulairedelegl01pariuoft",
+			"accessed": "2026-11-10",
+			"language": "la"
+		},
+		{
+			"kind": "chapter",
+			"title": "Confirmatio Petri episcopi de beneficiis collatis ecclesie nostre ab Odone episcopo",
+			"authors": [
+				{
+					"name": "Peter of Nemours"
+				}
+			],
+			"pages": "358–359",
+			"note": "The payments for singing in organum, confirmed in 1208",
+			"container": "Cartulaire de l'église Notre-Dame de Paris",
+			"volume": "1",
+			"editors": [
+				{
+					"family": "Guérard",
+					"given": "Benjamin"
+				}
+			],
+			"place": "Paris",
+			"publisher": "Imprimerie de Crapelet",
+			"published": "1850",
+			"url": "https://archive.org/details/cartulairedelegl01pariuoft",
+			"accessed": "2026-11-10",
+			"language": "la"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Notre-Dame school",
+			"url": "https://en.wikipedia.org/w/index.php?title=Notre-Dame_school&oldid=1328028192",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Organum",
+			"url": "https://en.wikipedia.org/w/index.php?title=Organum&oldid=1371730545",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Magnus Liber",
+			"url": "https://en.wikipedia.org/w/index.php?title=Magnus_Liber&oldid=1384744609",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Anonymous IV",
+			"url": "https://en.wikipedia.org/w/index.php?title=Anonymous_IV&oldid=1358513700",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Viderunt omnes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Viderunt_omnes&oldid=1266099101",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2024-12-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Motet",
+			"url": "https://en.wikipedia.org/w/index.php?title=Motet&oldid=1351027475",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-25"
+		},
+		{
+			"kind": "article",
+			"title": "Anonymous IV as an Informant on the Craft of Music Writing",
+			"authors": [
+				{
+					"family": "Haines",
+					"given": "John"
+				}
+			],
+			"container": "Journal of Musicology",
+			"volume": "23",
+			"issue": "3",
+			"pages": "375–425",
+			"published": "2006",
+			"doi": "10.1525/jm.2006.23.3.375",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Leoninus, Poet and Musician",
+			"authors": [
+				{
+					"family": "Wright",
+					"given": "Craig"
+				}
+			],
+			"container": "Journal of the American Musicological Society",
+			"volume": "39",
+			"issue": "1",
+			"pages": "1–35",
+			"published": "1986",
+			"url": "https://www.jstor.org/stable/831693",
+			"accessed": "2026-11-10",
+			"citedIn": "Léonin"
+		},
+		{
+			"kind": "book",
+			"title": "The Rhythm of Twelfth-Century Polyphony: Its Theory and Practice",
+			"authors": [
+				{
+					"family": "Waite",
+					"given": "William G."
+				}
+			],
+			"place": "New Haven",
+			"publisher": "Yale University Press",
+			"published": "1954",
+			"citedIn": "Léonin"
+		},
+		{
+			"kind": "recording",
+			"title": "Music at Notre Dame, 1200–1375",
+			"authors": [
+				{
+					"name": "Deller Consort"
+				},
+				{
+					"family": "Deller",
+					"given": "Alfred"
+				}
+			],
+			"publisher": "The Bach Guild",
+			"number": "BGS 5045",
+			"published": "1961",
+			"url": "https://archive.org/details/lp_music-at-notre-dame-1200-1375-notre-dame-m_guillaume-de-machaut-protin-alfred-deller",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "With Pérotin's Viderunt omnes and Sederunt principes, and Machaut's Mass"
+		},
+		{
+			"kind": "media",
+			"title": "Pérotin, Alleluia Nativitas",
+			"container": "Herzog August Bibliothek, Wolfenbüttel, Cod. Guelf. 1099 Helmst.",
+			"published": "1250",
+			"circa": true,
+			"url": "https://commons.wikimedia.org/wiki/File:Perotin_-_Alleluia_nativitas.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "alleluia-nativitas.jpg"
+		}
+	]
+}

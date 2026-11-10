@@ -1,0 +1,206 @@
+{
+	"id": "double-escapement",
+	"topic": "Érard's double escapement",
+	"position": {
+		"label": "1821",
+		"sort": 1821
+	},
+	"scene": {
+		"headline": "We struck the same note",
+		"accent": "TWICE.",
+		"palette": "salon",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · LONDON · SÉBASTIEN AND PIERRE ÉRARD",
+			"ENGLISH PATENT OF 22 DECEMBER 1821 · THE REPETITION ACTION"
+		],
+		"counter": {
+			"value": "4631",
+			"label": "the English patent, December 1821"
+		}
+	},
+	"connections": [
+		{
+			"to": "music/virtuoso",
+			"why": "Franz Liszt, whose concerts that frame describes, was given one of Érard's grands with the double escapement when he came to Paris in 1823, and played Érards for much of his life."
+		},
+		{
+			"to": "western-civ/french-revolution",
+			"why": "Sébastien Érard, whose pianos were made in Paris under a warrant from Louis XVI, opened his London house in 1792 as the Revolution turned on the court, to escape it in one account and to find new markets in another."
+		},
+		{
+			"to": "music/iron-frame",
+			"why": "The next step in the piano's making after Érard's action was Steinway's cast-iron frame."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"title": "The Pianoforte, Its Origin, Progress, and Construction",
+			"authors": [
+				{
+					"family": "Rimbault",
+					"given": "Edward F."
+				}
+			],
+			"place": "London",
+			"publisher": "Robert Cocks",
+			"published": "1860",
+			"url": "https://archive.org/details/pianoforteitsori00rimbuoft",
+			"accessed": "2026-11-10",
+			"key": true,
+			"note": "Érard's life, pp. 122–27; the patent of 1821, p. 153; his action and Thalberg's report, pp. 189–93"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Sébastien Érard",
+			"url": "https://en.wikipedia.org/w/index.php?title=S%C3%A9bastien_%C3%89rard&oldid=1359445897",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-15",
+			"note": "The patent number, the harp and Liszt"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Action (piano)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Action_(piano)&oldid=1350997312",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-25",
+			"note": "The modern grand action's parts and their motion"
+		},
+		{
+			"kind": "encyclopedia",
+			"title": "Érard, Sébastien",
+			"container": "Encyclopædia Britannica",
+			"edition": "11th ed.",
+			"volume": "9",
+			"editors": [
+				{
+					"family": "Chisholm",
+					"given": "Hugh"
+				}
+			],
+			"place": "Cambridge",
+			"publisher": "Cambridge University Press",
+			"published": "1911",
+			"url": "https://en.wikisource.org/w/index.php?title=1911_Encyclop%C3%A6dia_Britannica/%C3%89rard,_S%C3%A9bastien&oldid=12137944",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "book",
+			"title": "Life of Chopin",
+			"authors": [
+				{
+					"family": "Liszt",
+					"given": "Franz"
+				}
+			],
+			"translators": [
+				{
+					"family": "Cook",
+					"given": "Martha Walker"
+				}
+			],
+			"published": "1863",
+			"url": "https://www.gutenberg.org/ebooks/4386",
+			"accessed": "2026-11-10",
+			"note": "Read in Project Gutenberg's text"
+		},
+		{
+			"kind": "book",
+			"title": "Frédéric Chopin: sa vie et ses œuvres, 1810–1849",
+			"authors": [
+				{
+					"family": "Ganche",
+					"given": "Édouard"
+				}
+			],
+			"place": "Paris",
+			"publisher": "Mercure de France",
+			"published": "1921",
+			"language": "fr",
+			"url": "https://archive.org/details/frdriechopinsav00gancgoog",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henri Herz",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henri_Herz&oldid=1370776041",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Franz Liszt",
+			"url": "https://en.wikipedia.org/w/index.php?title=Franz_Liszt&oldid=1381449605",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pleyel et Cie",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pleyel_et_Cie&oldid=1380312710",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-15"
+		},
+		{
+			"kind": "media",
+			"title": "Erard's Patent Grand Action",
+			"container": "The Pianoforte, Its Origin, Progress, and Construction, p. 190",
+			"published": "1860",
+			"url": "https://archive.org/details/pianoforteitsori00rimbuoft/page/n215",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "erard-action-1860.jpg",
+			"note": "Published in London in 1860"
+		},
+		{
+			"kind": "media",
+			"title": "Grand Pianoforte, Érard, London, ca. 1840",
+			"container": "The Metropolitan Museum of Art",
+			"number": "59.76",
+			"published": "1840",
+			"circa": true,
+			"url": "https://www.metmuseum.org/art/collection/search/503046",
+			"accessed": "2026-11-10",
+			"licence": "CC0",
+			"file": "erard-1840.jpg"
+		}
+	]
+}

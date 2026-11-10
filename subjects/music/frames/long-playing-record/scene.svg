@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M24 112 L256 112"/>
+		<path pathLength="1" d="M24 204 L256 204"/>
+		<path pathLength="1" d="M141.1 72 L141.1 82"/>
+		<path pathLength="1" d="M185.6 72 L185.6 82"/>
+		<path pathLength="1" d="M130 164 L130 174"/>
+		<path pathLength="1" d="M145.4 164 L145.4 174"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 90 L34.2 90 L52.2 108 L70.2 90 L78.7 90 L96.7 108 L114.7 90 L123.1 90 L141.1 108 L159.1 90 L167.6 90 L185.6 108 L203.6 90 L212 90 L230 108 L248 90 L250 90"/>
+		<path pathLength="1" d="M30 182 L31.7 182 L37.7 188 L43.7 182 L47.1 182 L53.1 188 L59.1 182 L62.5 182 L68.5 188 L74.5 182 L77.8 182 L83.8 188 L89.8 182 L93.2 182 L99.2 188 L105.2 182 L108.6 182 L114.6 188 L120.6 182 L124 182 L130 188 L136 182 L139.4 182 L145.4 188 L151.4 182 L154.8 182 L160.8 188 L166.8 182 L170.2 182 L176.2 188 L182.2 182 L185.5 182 L191.5 188 L197.5 182 L200.9 182 L206.9 188 L212.9 182 L216.3 182 L222.3 188 L228.3 182 L231.7 182 L237.7 188 L243.7 182 L250 182"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M84.7 91 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M85.9 86.2 L79.9 60 L113.5 60 L107.5 86.2"/>
+		<path pathLength="1" d="M49.1 182.3 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M49.5 180.7 L47.5 152 L58.7 152 L56.7 180.7"/>
+		<path pathLength="1" d="M141.1 77 L185.6 77"/>
+		<path pathLength="1" d="M130 169 L145.4 169"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M330 96 L330 190"/>
+		<path pathLength="1" d="M282 140 L378 140"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M282 140 L290 140 L330 180 L370 140 L378 140"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M300.1 169.9 L319.9 150.1"/>
+		<path pathLength="1" d="M318.6 153.9 L319.9 150.1 L316.1 151.4"/>
+		<path pathLength="1" d="M301.4 166.1 L300.1 169.9 L303.9 168.6"/>
+		<path pathLength="1" d="M359.9 169.9 L340.1 150.1"/>
+		<path pathLength="1" d="M343.9 151.4 L340.1 150.1 L341.4 153.9"/>
+		<path pathLength="1" d="M356.1 168.6 L359.9 169.9 L358.6 166.1"/>
+		<path pathLength="1" d="M308 202 L352 202"/>
+		<path pathLength="1" d="M348.4 203.7 L352 202 L348.4 200.3"/>
+		<path pathLength="1" d="M311.6 200.3 L308 202 L311.6 203.7"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="30" y="56" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">78 RPM · ABOUT 90 GROOVES AN INCH · TIP 0.003 IN</text>
+		<text x="30" y="148" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LP · 224-300 GROOVES AN INCH · TIP 0.001 IN</text>
+		<text x="294" y="178" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">L</text>
+		<text x="366" y="178" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">R</text>
+		<text x="163.3" y="68" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PITCH</text>
+		<text x="330" y="88" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">STEREO, 45/45</text>
+		<text x="330" y="216" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">L+R SIDEWAYS</text>
+		<text x="330" y="226" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">L-R UP AND DOWN</text>
+		<text x="140" y="240" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ONE SCALE: 4 UNITS = 0.001 INCH</text>
+		<text x="200" y="292" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GROOVES IN SECTION · WIDTHS SCHEMATIC</text>
+	</g>
+</svg>

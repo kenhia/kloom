@@ -1,0 +1,29 @@
+{
+	"music/pythagoras-ratios": [
+		["Pythagoras", "pythagoras"],
+		["Philolaus", "philolaus"],
+		["Nicomachus", "nicomachus"],
+		["Iamblichus", "iamblichus"],
+		["Vincenzo Galilei", "vincenzo-galilei"],
+		["monochord", "monochord"],
+		["Aristotle", "aristotle"],
+		["_Timaeus_", "timaeus-dialogue"],
+		["Plato", "plato"],
+		["_Republic_", "republic-plato"],
+		["music of the spheres", "musica-universalis"],
+		["Pythagorean comma", "pythagorean-comma"]
+	],
+	"music/aristoxenus": [
+		["Aristoxenus", "aristoxenus"],
+		["_Elementa harmonica_", "elementa-harmonica"],
+		["Aristotle", "aristotle"],
+		["Lyceum", "lyceum-classical"],
+		["Theophrastus", "theophrastus"],
+		["Plato", "plato"],
+		["_Republic_", "republic-plato"],
+		["tetrachord", "tetrachord"],
+		["kithara", "kithara"],
+		["aulos", "aulos"],
+		["Ptolemy", "ptolemy"]
+	]
+}

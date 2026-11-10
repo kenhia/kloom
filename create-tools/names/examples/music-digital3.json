@@ -1,0 +1,48 @@
+{
+	"music/mp3": [
+		["Fraunhofer-Gesellschaft", "fraunhofer-gesellschaft"],
+		["Moving Picture Experts Group", "moving-picture-experts-group"],
+		["MP3", "mp3"],
+		["Karlheinz Brandenburg", "karlheinz-brandenburg"],
+		["compact disc", "compact-disc"],
+		["auditory masking", "auditory-masking"],
+		["modified discrete cosine transform", "modified-discrete-cosine-transform"],
+		["fast Fourier transform", "fast-fourier-transform"],
+		["Suzanne Vega", "suzanne-vega"],
+		["Tom's Diner", "toms-diner"],
+		["Winamp", "winamp"],
+		["Rio PMP300", "rio-pmp300"],
+		["Recording Industry Association of America", "recording-industry-association-of-america"],
+		["Shawn Fanning", "shawn-fanning"],
+		["Napster", "napster"]
+	],
+	"music/streaming": [
+		["Napster", "napster"],
+		["Apple", "apple-inc"],
+		["iPod", "ipod"],
+		["Steve Jobs", "steve-jobs"],
+		["iTunes Music Store", "itunes-store"],
+		["Daniel Ek", "daniel-ek"],
+		["Spotify", "spotify"],
+		["Martin Lorentzon", "martin-lorentzon"],
+		["Recording Industry Association of America", "recording-industry-association-of-america"],
+		["compact discs", "compact-disc"]
+	],
+	"music/ai-music": [
+		["Deezer", "deezer"],
+		["Lejaren Hiller", "lejaren-hiller"],
+		["Leonard Isaacson", "leonard-isaacson"],
+		["ILLIAC I", "illiac-i"],
+		["Illiac Suite", "illiac-suite"],
+		["David Cope", "david-cope"],
+		["transformer", "transformer-deep-learning"],
+		["Stability AI", "stability-ai"],
+		["Suno", "suno"],
+		["Udio", "udio"],
+		["Universal Music Group", "universal-music-group"],
+		["Warner Music Group", "warner-music-group"],
+		["Sony Music", "sony-music"],
+		["Spotify", "spotify"],
+		["United States Copyright Office", "united-states-copyright-office"]
+	]
+}

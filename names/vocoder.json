@@ -1,0 +1,8 @@
+{
+	"id": "vocoder",
+	"wikidata": "Q908562",
+	"name": "Vocoder",
+	"aliases": ["vocoders"],
+	"kind": "artifact",
+	"description": "A device that analyzes a voice into bands of frequency and uses them to shape another sound, invented by Homer Dudley at Bell Labs in 1937 for telephony and secret speech, and later used for robotic singing."
+}

@@ -1,0 +1,184 @@
+{
+	"id": "vivaldi-seasons",
+	"topic": "Vivaldi's Four Seasons",
+	"position": {
+		"label": "1725",
+		"sort": 1725
+	},
+	"scene": {
+		"headline": "Violins painted the",
+		"accent": "SEASONS.",
+		"palette": "gilt",
+		"illustration": "scene.svg",
+		"metadata": ["VENICE · AMSTERDAM · ANTONIO VIVALDI", "OP. 8 · FOUR CONCERTOS · FOUR SONNETS"],
+		"counter": {
+			"value": "140",
+			"label": "concertos the Pietà paid him for, 1723–33"
+		}
+	},
+	"connections": [
+		{
+			"to": "music/well-tempered-clavier",
+			"why": "Bach arranged Vivaldi's concertos for keyboard."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "The Four Seasons (Vivaldi)",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Four_Seasons_(Vivaldi)&oldid=1383733937",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-04",
+			"note": "The sonnets, the composition and publication, and the recordings"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Antonio Vivaldi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antonio_Vivaldi&oldid=1383911574",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-05",
+			"note": "His life, his pay at the Pietà, Bach's arrangements, his death and the Turin manuscripts"
+		},
+		{
+			"kind": "letter",
+			"key": true,
+			"title": "Suite du séjour à Venise",
+			"authors": [
+				{
+					"family": "Brosses",
+					"given": "Charles de"
+				}
+			],
+			"recipients": [
+				{
+					"name": "M. de Blancey"
+				}
+			],
+			"written": "1739-08-29",
+			"container": "Lettres familières écrites d'Italie en 1739 et 1740",
+			"volume": "1",
+			"pages": "193–95",
+			"editors": [
+				{
+					"family": "Colomb",
+					"given": "R."
+				}
+			],
+			"edition": "4th ed.",
+			"place": "Paris",
+			"publisher": "Didier, Perrin",
+			"published": "1885",
+			"language": "fr",
+			"url": "https://archive.org/details/lettresfamiliere01brosiala",
+			"accessed": "2026-11-10",
+			"note": "Vivaldi, the four ospedali and the Pietà's players; quoted in our translation"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Vivaldi - La Primavera (Spring) - I Allegro",
+			"authors": [
+				{
+					"family": "Rodríguez Alvira",
+					"given": "José"
+				}
+			],
+			"container": "teoria.com",
+			"url": "https://teoria.com/en/articles/2021/vivaldi-seasons/primavera/01.php",
+			"accessed": "2026-11-10",
+			"note": "The movement's sections by bar and key"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ospedale della Pietà",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ospedale_della_Piet%C3%A0&oldid=1378423638",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Anna Maria della Pietà",
+			"url": "https://en.wikipedia.org/w/index.php?title=Anna_Maria_della_Piet%C3%A0&oldid=1372029253",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Program music",
+			"url": "https://en.wikipedia.org/w/index.php?title=Program_music&oldid=1382652980",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-29"
+		},
+		{
+			"kind": "recording",
+			"title": "Concerti delle stagioni (The Four Seasons)",
+			"authors": [
+				{
+					"family": "Kaufman",
+					"given": "Louis"
+				},
+				{
+					"name": "Concert Hall String Ensemble"
+				},
+				{
+					"family": "Swoboda",
+					"given": "Henry"
+				}
+			],
+			"recorded": "1947-12",
+			"publisher": "Concert Hall Society",
+			"number": "CHC-1",
+			"published": "1949",
+			"url": "https://archive.org/details/lp_concerti-delle-stagioni-the-four-seasons_antonio-vivaldi-louis-kaufman-concert-hall",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "media",
+			"title": "Sonetto dimostrativo sopra il concerto intitolato La Primavera",
+			"published": "1725",
+			"container": "Antonio Vivaldi, Il cimento dell'armonia e dell'inventione, Op. 8 (Amsterdam: Michel-Charles Le Cène)",
+			"url": "https://commons.wikimedia.org/wiki/File:Soneto_di_La_primavera.png",
+			"accessed": "2026-11-10",
+			"licence": "CC0",
+			"file": "sonnet.jpg"
+		}
+	]
+}

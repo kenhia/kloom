@@ -1,0 +1,49 @@
+{
+	"music/well-tempered-clavier": [
+		["Johann Sebastian Bach", "johann-sebastian-bach"],
+		["Köthen", "kothen"],
+		["_Well-Tempered Clavier_", "the-well-tempered-clavier"],
+		["well temperament", "well-temperament"],
+		["fugue", "fugue"],
+		["Wolfgang Amadeus Mozart", "wolfgang-amadeus-mozart"],
+		["Gottfried van Swieten", "gottfried-van-swieten"],
+		["Christian Gottlob Neefe", "christian-gottlob-neefe"],
+		["Ludwig van Beethoven", "ludwig-van-beethoven"],
+		["harpsichord", "harpsichord"],
+		["clavichord", "clavichord"],
+		["Gottfried Silbermann", "gottfried-silbermann"],
+		["Frederick the Great", "frederick-the-great"]
+	],
+	"music/vivaldi-seasons": [
+		["Antonio Vivaldi", "antonio-vivaldi"],
+		["_Il cimento dell'armonia e dell'inventione_", "il-cimento-dellarmonia-e-dellinventione"],
+		["_The Four Seasons_", "the-four-seasons-vivaldi"],
+		["Venice", "venice"],
+		["Ospedale della Pietà", "ospedale-della-pieta"],
+		["Charles de Brosses", "charles-de-brosses"],
+		["Anna Maria", "anna-maria-della-pieta"],
+		["concerto", "concerto"],
+		["ritornello", "ritornello"],
+		["program music", "program-music"],
+		["Johann Sebastian Bach", "johann-sebastian-bach"],
+		["Vienna", "vienna"],
+		["Turin National University Library", "turin-national-university-library"],
+		["Louis Kaufman", "louis-kaufman"]
+	],
+	"music/handel-messiah": [
+		["George Frideric Handel", "george-frideric-handel"],
+		["_Messiah_", "messiah-handel"],
+		["London", "london"],
+		["oratorio", "oratorio"],
+		["Charles Jennens", "charles-jennens"],
+		["King James Version", "king-james-version"],
+		["Dublin", "dublin"],
+		["Susannah Cibber", "susannah-maria-cibber"],
+		["George II", "george-ii-of-great-britain"],
+		["Foundling Hospital", "foundling-hospital"],
+		["Charles Burney", "charles-burney"],
+		["Westminster Abbey", "westminster-abbey"],
+		["Wolfgang Amadeus Mozart", "wolfgang-amadeus-mozart"],
+		["the Crystal Palace", "the-crystal-palace"]
+	]
+}

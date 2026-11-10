@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M20 248 L390 248"/>
+		<path pathLength="1" d="M24 35 L24 248"/>
+		<path pathLength="1" d="M18 35 L30 35"/>
+		<path pathLength="1" d="M18 248 L30 248"/>
+		<path pathLength="1" d="M168 188 L128 49"/>
+		<path pathLength="1" d="M274.7 188 L318.7 35"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M150 248 L288.7 248 L288.7 188 L150 188 Z"/>
+		<path pathLength="1" d="M156 248 L156 254"/>
+		<path pathLength="1" d="M282.7 248 L282.7 254"/>
+		<path pathLength="1" d="M174.7 186.1 L131.8 47.9"/>
+		<path pathLength="1" d="M161.3 189.9 L124.2 50.1"/>
+		<path pathLength="1" d="M281.4 189.9 L322.5 36.1"/>
+		<path pathLength="1" d="M268 186.1 L314.9 33.9"/>
+		<path pathLength="1" d="M122 50.5 L326.7 33.5"/>
+		<path pathLength="1" d="M122 56.5 L326.7 39.5"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M158.5 50.8 L190 210"/>
+		<path pathLength="1" d="M170.3 49.9 L196.2 210"/>
+		<path pathLength="1" d="M182.2 49 L202.4 210"/>
+		<path pathLength="1" d="M194 48.2 L208.6 210"/>
+		<path pathLength="1" d="M205.8 47.3 L214.8 210"/>
+		<path pathLength="1" d="M217.6 46.4 L221 210"/>
+		<path pathLength="1" d="M229.5 45.6 L227.2 210"/>
+		<path pathLength="1" d="M241.3 44.7 L233.4 210"/>
+		<path pathLength="1" d="M253.1 43.8 L239.6 210"/>
+		<path pathLength="1" d="M264.9 42.9 L245.8 210"/>
+		<path pathLength="1" d="M276.7 42.1 L252 210"/>
+		<path pathLength="1" d="M186 213 L256 213"/>
+		<path pathLength="1" d="M158.5 43.8 L158.5 54.8"/>
+		<path pathLength="1" d="M170.3 42.9 L170.3 53.9"/>
+		<path pathLength="1" d="M182.2 42 L182.2 53"/>
+		<path pathLength="1" d="M194 41.2 L194 52.2"/>
+		<path pathLength="1" d="M205.8 40.3 L205.8 51.3"/>
+		<path pathLength="1" d="M217.6 39.4 L217.6 50.4"/>
+		<path pathLength="1" d="M229.5 38.6 L229.5 49.6"/>
+		<path pathLength="1" d="M241.3 37.7 L241.3 48.7"/>
+		<path pathLength="1" d="M253.1 36.8 L253.1 47.8"/>
+		<path pathLength="1" d="M264.9 35.9 L264.9 46.9"/>
+		<path pathLength="1" d="M276.7 35.1 L276.7 46.1"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M146 182 L120 190 L116 204 L128 212 L146 206"/>
+		<path pathLength="1" d="M140 184 L130 166 L120 170"/>
+		<path pathLength="1" d="M122 212 L124 234 L136 236 L140 212"/>
+		<path pathLength="1" d="M125 218 L137 218"/>
+		<path pathLength="1" d="M125 224 L137 224"/>
+		<path pathLength="1" d="M125 230 L137 230"/>
+		<path pathLength="1" d="M125.5 196 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="36" y="75" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">112.5 CM</text>
+		<text x="308.7" y="61" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BAR · ELEVEN PEGS</text>
+		<text x="284.7" y="221" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SOUND BOX</text>
+		<text x="110" y="202" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GOLD BULL</text>
+		<text x="110" y="212" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LAPIS BEARD</text>
+		<text x="200" y="290" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE QUEEN'S LYRE · PG 800 · AS REBUILT 1971-72</text>
+	</g>
+</svg>

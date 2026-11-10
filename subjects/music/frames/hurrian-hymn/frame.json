@@ -1,0 +1,263 @@
+{
+	"id": "hurrian-hymn",
+	"topic": "Hurrian Hymn no. 6",
+	"position": {
+		"label": "c. 1400 BC",
+		"sort": -1400
+	},
+	"scene": {
+		"headline": "We wrote a song in",
+		"accent": "CLAY.",
+		"palette": "cave",
+		"illustration": "scene.svg",
+		"metadata": ["UGARIT · RAS SHAMRA, SYRIA", "TABLET H.6 · A HYMN TO NIKKAL · NINE STRINGS"],
+		"counter": {
+			"value": "5",
+			"label": "rival decipherments, at least"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/writing",
+			"why": "The hymn is written in cuneiform, the script invented in Mesopotamia that frame describes, here used more than fifteen centuries later to write down music."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Hurrian songs",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hurrian_songs&oldid=1367722129",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04",
+			"key": true,
+			"note": "The tablet, its layout and colophon, the interval names and the rival readings"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Music of Mesopotamia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Music_of_Mesopotamia&oldid=1351299044",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-27",
+			"key": true,
+			"note": "The nine strings' names"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Was Mesopotamian Tuning Diatonic? A Parsimonious Answer",
+			"authors": [
+				{
+					"family": "Rahn",
+					"given": "Jay"
+				}
+			],
+			"container": "Music Theory Online",
+			"volume": "28",
+			"issue": "1",
+			"published": "2022-03",
+			"doi": "10.30535/mto.28.1.7",
+			"url": "https://mtosmt.org/issues/mto.22.28.1/mto.22.28.1.rahn.pdf",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "article",
+			"title": "Rethinking Ancient Music Interpretation through Hurrian Hymn H6: A Tablaturization",
+			"authors": [
+				{
+					"family": "Gibson",
+					"given": "Dylan Lawrence"
+				}
+			],
+			"container": "Early Music",
+			"volume": "53",
+			"issue": "3",
+			"pages": "284–313",
+			"published": "2025-08",
+			"doi": "10.1093/em/caaf042",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The Babylonian Musical Notation and the Hurrian Melodic Texts",
+			"authors": [
+				{
+					"family": "West",
+					"given": "M. L."
+				}
+			],
+			"container": "Music and Letters",
+			"volume": "75",
+			"issue": "2",
+			"pages": "161–179",
+			"published": "1994",
+			"doi": "10.1093/ml/75.2.161",
+			"accessed": "2026-11-10",
+			"citedIn": "Hurrian songs"
+		},
+		{
+			"kind": "article",
+			"title": "Tuning Procedures in Ancient Iraq",
+			"authors": [
+				{
+					"family": "Mirelman",
+					"given": "Sam"
+				}
+			],
+			"container": "Analytical Approaches to World Music Journal",
+			"volume": "2",
+			"issue": "2",
+			"pages": "43–56",
+			"published": "2013",
+			"url": "http://aawmjournal.com/articles/2013b/Mirelman_AAWM_Vol_2_2.html",
+			"accessed": "2026-11-10",
+			"citedIn": "Was Mesopotamian Tuning Diatonic? A Parsimonious Answer"
+		},
+		{
+			"kind": "article",
+			"title": "The Tuning of the Babylonian Harp",
+			"authors": [
+				{
+					"family": "Wulstan",
+					"given": "David"
+				}
+			],
+			"container": "Iraq",
+			"volume": "30",
+			"issue": "2",
+			"pages": "215–228",
+			"published": "1968",
+			"url": "https://www.jstor.org/stable/4199852",
+			"accessed": "2026-11-10",
+			"citedIn": "Was Mesopotamian Tuning Diatonic? A Parsimonious Answer"
+		},
+		{
+			"kind": "recording",
+			"title": "Sounds from Silence: Recent Discoveries in Ancient Near Eastern Music",
+			"authors": [
+				{
+					"family": "Kilmer",
+					"given": "Anne Draffkorn"
+				},
+				{
+					"family": "Crocker",
+					"given": "Richard L."
+				},
+				{
+					"family": "Brown",
+					"given": "Robert R."
+				}
+			],
+			"publisher": "Bit Enki Records",
+			"number": "BTNK 101",
+			"published": "1976",
+			"url": "https://archive.org/details/soundsfromsilenc0000kilm",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "recording",
+			"title": "Morning Concert: An Hurrian Cult Song from Ancient Ugarit",
+			"authors": [
+				{
+					"family": "Amirkhanian",
+					"given": "Charles"
+				},
+				{
+					"family": "Kilmer",
+					"given": "Anne Draffkorn"
+				}
+			],
+			"publisher": "KPFA",
+			"published": "1978-01-25",
+			"url": "https://archive.org/details/MC_1978_01_25",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "A radio interview about the record, in the Other Minds Archive"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ugarit",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ugarit&oldid=1374559696",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nikkal",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nikkal&oldid=1370350683",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hurrian language",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hurrian_language&oldid=1374741065",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Anne Draffkorn Kilmer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Anne_Draffkorn_Kilmer&oldid=1379881447",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-12"
+		},
+		{
+			"kind": "media",
+			"title": "Ugarit, Royal Palace, the archives",
+			"authors": [
+				{
+					"name": "Dosseman"
+				}
+			],
+			"published": "2008-09-18",
+			"url": "https://commons.wikimedia.org/wiki/File:Ugarit_Royal_Palace_archives_space_3912.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC BY-SA 4.0",
+			"file": "palace.jpg"
+		}
+	]
+}

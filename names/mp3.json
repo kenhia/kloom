@@ -1,0 +1,9 @@
+{
+	"id": "mp3",
+	"wikidata": "Q42591",
+	"name": "MP3",
+	"aliases": ["MPEG-1 Audio Layer III", ".mp3"],
+	"kind": "artifact",
+	"description": "Lossy audio coding format, formally MPEG-1 Audio Layer III, standardized in 1993, that shrinks recorded sound about tenfold by discarding what the ear cannot hear.",
+	"home": "music/mp3"
+}

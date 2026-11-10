@@ -1,0 +1,351 @@
+{
+	"id": "crooner",
+	"topic": "The microphone and the crooner",
+	"position": {
+		"label": "1931",
+		"sort": 1931
+	},
+	"scene": {
+		"headline": "We learned to sing",
+		"accent": "SOFTLY.",
+		"palette": "gilt",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NEW YORK · LOS ANGELES · RADIO AND RECORDS",
+			"RUDY VALLÉE · BING CROSBY · THE RIBBON MICROPHONE"
+		],
+		"counter": {
+			"value": "21 dB",
+			"label": "more bass at 5 cm from a ribbon, at 100 Hz"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/faraday-induction",
+			"why": "A ribbon microphone makes its voltage by the induction Faraday found in 1831: a strip of aluminum moved by the air between a magnet's poles."
+		},
+		{
+			"to": "music/electrical-recording",
+			"why": "The microphone that entered recording in 1925 let a singer sing softly and close."
+		},
+		{
+			"to": "music/magnetic-tape",
+			"why": "Bing Crosby's money paid for Ampex's tape recorders so his radio show could be prerecorded."
+		},
+		{
+			"to": "music/radio-music",
+			"why": "Vallée and Crosby made their names singing on network radio."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Vagabond Dreams Come True",
+			"authors": [
+				{
+					"family": "Vallée",
+					"given": "Rudy"
+				}
+			],
+			"place": "New York",
+			"publisher": "E. P. Dutton",
+			"published": "1930",
+			"url": "https://archive.org/details/vagabonddreamsco00vall",
+			"accessed": "2026-11-10",
+			"note": "His voice and the microphone, pp. 67–68; the first broadcasts, pp. 94–101; the megaphone, pp. 255–56; quoted from it"
+		},
+		{
+			"kind": "recording",
+			"title": "I'm Just a Vagabond Lover",
+			"authors": [
+				{
+					"family": "Vallée",
+					"given": "Rudy"
+				},
+				{
+					"name": "Connecticut Yankees"
+				}
+			],
+			"recorded": "1929-04-01",
+			"publisher": "Victor",
+			"number": "21967",
+			"published": "1929",
+			"url": "https://adp.library.ucsb.edu/index.php/matrix/refer/800024265",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Matrix BVE-51108, take 3, Liederkranz Hall, New York; the instrumentation is the Victor ledgers', in the Discography of American Historical Recordings"
+		},
+		{
+			"kind": "recording",
+			"title": "Out of Nowhere",
+			"authors": [
+				{
+					"family": "Crosby",
+					"given": "Bing"
+				}
+			],
+			"recorded": "1931-03-30",
+			"publisher": "Brunswick",
+			"number": "6090",
+			"published": "1931",
+			"url": "https://adp.library.ucsb.edu/index.php/matrix/refer/2000245277",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Matrix LA983, Los Angeles, in the Discography of American Historical Recordings"
+		},
+		{
+			"kind": "book",
+			"title": "Bing Crosby: A Pocketful of Dreams; The Early Years, 1903–1940",
+			"authors": [
+				{
+					"family": "Giddins",
+					"given": "Gary"
+				}
+			],
+			"place": "Boston",
+			"publisher": "Little, Brown",
+			"published": "2001",
+			"url": "https://archive.org/details/bingcrosbypocket00gidd",
+			"accessed": "2026-11-10",
+			"read": "excerpt",
+			"note": "Read through the Internet Archive's full-text search snippets: \"Out of Nowhere\" a top-selling record by April 1931"
+		},
+		{
+			"kind": "article",
+			"title": "Mass Controlled Electrodynamic Microphones: The Ribbon Microphone",
+			"authors": [
+				{
+					"family": "Olson",
+					"given": "Harry F."
+				}
+			],
+			"container": "The Journal of the Acoustical Society of America",
+			"volume": "3",
+			"issue": "1",
+			"pages": "56–68",
+			"published": "1931-07",
+			"doi": "10.1121/1.1915545",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Elements of Acoustical Engineering",
+			"authors": [
+				{
+					"family": "Olson",
+					"given": "Harry F."
+				}
+			],
+			"place": "New York",
+			"publisher": "D. Van Nostrand",
+			"published": "1940",
+			"url": "https://archive.org/details/elementsofacoust00olso",
+			"accessed": "2026-11-10",
+			"note": "Condenser and velocity (ribbon) microphones, §9; the rise in low-frequency output near a velocity microphone at 1, 2 and 5 feet, Fig. 9.26"
+		},
+		{
+			"kind": "article",
+			"title": "A Condenser Transmitter as a Uniformly Sensitive Instrument for the Absolute Measurement of Sound Intensity",
+			"authors": [
+				{
+					"family": "Wente",
+					"given": "E. C."
+				}
+			],
+			"container": "Physical Review",
+			"volume": "10",
+			"issue": "1",
+			"pages": "39–63",
+			"published": "1917-07",
+			"doi": "10.1103/PhysRev.10.39",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "article",
+			"title": "Cardinal Denounces Crooners as Whiners Defiling the Air",
+			"container": "The New York Times",
+			"published": "1932-01-11",
+			"pages": "21",
+			"citedIn": "Cardinal O'Connell and Crooning"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Cardinal O'Connell and Crooning",
+			"container": "Bibliolore",
+			"publisher": "RILM",
+			"published": "2013-01-07",
+			"url": "https://bibliolore.org/2013/01/07/cardinal-oconnor-and-crooning/",
+			"accessed": "2026-11-10",
+			"note": "Quotes the Times report of the cardinal's address of January 10, 1932"
+		},
+		{
+			"kind": "web",
+			"title": "The Gender Politics of the First Boy Bands",
+			"authors": [
+				{
+					"family": "Wills",
+					"given": "Matthew"
+				}
+			],
+			"container": "JSTOR Daily",
+			"published": "2017-10-19",
+			"url": "https://daily.jstor.org/the-gender-politics-of-the-first-boy-bands/",
+			"accessed": "2026-11-10",
+			"note": "On Allison McCracken's article of 1999 in American Music"
+		},
+		{
+			"kind": "article",
+			"title": "\"God's Gift to Us Girls\": Crooning, Gender, and the Re-Creation of American Popular Song, 1928–1933",
+			"authors": [
+				{
+					"family": "McCracken",
+					"given": "Allison"
+				}
+			],
+			"container": "American Music",
+			"volume": "17",
+			"issue": "4",
+			"pages": "365–95",
+			"published": "1999",
+			"url": "https://www.jstor.org/stable/3052656",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "web",
+			"title": "The Forgotten World War II Backlash against Vera Lynn",
+			"authors": [
+				{
+					"family": "Baade",
+					"given": "Christina"
+				}
+			],
+			"container": "The Conversation",
+			"published": "2014-06-03",
+			"url": "https://theconversation.com/the-forgotten-world-war-ii-backlash-against-vera-lynn-27305",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Crooner",
+			"url": "https://en.wikipedia.org/w/index.php?title=Crooner&oldid=1363318611",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-09",
+			"key": true,
+			"note": "The reaction of 1931–32 and the shift from tenor to baritone"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bing Crosby",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bing_Crosby&oldid=1384323561",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07",
+			"key": true,
+			"note": "Whiteman and the Rhythm Boys, 1931 on radio, and the microphone"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rudy Vallée",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rudy_Vall%C3%A9e&oldid=1383135433",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Microphone",
+			"url": "https://en.wikipedia.org/w/index.php?title=Microphone&oldid=1384686742",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ribbon microphone",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ribbon_microphone&oldid=1353702511",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Proximity effect (audio)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Proximity_effect_(audio)&oldid=1319191012",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-28"
+		},
+		{
+			"kind": "media",
+			"title": "Rudy Vallee Megaphone",
+			"authors": [
+				{
+					"name": "HumanisticRationale"
+				}
+			],
+			"published": "2008-09-10",
+			"container": "American Museum of Radio and Electricity",
+			"url": "https://commons.wikimedia.org/wiki/File:Rudy_Vallee_Megaphone.JPG",
+			"accessed": "2026-11-10",
+			"licence": "CC BY 3.0",
+			"file": "vallee-megaphone.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "RCA 44-A Velocity Microphone",
+			"authors": [
+				{
+					"name": "Roadside Guitars"
+				}
+			],
+			"published": "2008-08-06",
+			"url": "https://commons.wikimedia.org/wiki/File:RCA_44-A_Velocity_Microphone.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC BY-SA 2.0",
+			"file": "rca-44a.jpg"
+		}
+	]
+}

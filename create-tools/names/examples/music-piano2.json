@@ -1,0 +1,43 @@
+{
+	"music/iron-frame": [
+		["piano", "piano"],
+		["Alpheus Babcock", "alpheus-babcock"],
+		["François-Joseph Fétis", "francois-joseph-fetis"],
+		["Chickering & Sons", "chickering-and-sons"],
+		["Henry E. Steinway", "henry-e-steinway"],
+		["New York City", "new-york-city"],
+		["Steinway & Sons", "steinway-and-sons"],
+		["Exposition Universelle", "exposition-universelle-1867"],
+		["Astoria", "astoria-queens"],
+		["Anton Rubinstein", "anton-rubinstein"]
+	],
+	"music/player-piano": [
+		["Edwin S. Votey", "edwin-s-votey"],
+		["piano", "piano"],
+		["Aeolian Company", "aeolian-company"],
+		["player piano", "player-piano"],
+		["piano roll", "piano-roll"],
+		["Welte-Mignon", "welte-mignon"],
+		["Gustav Mahler", "gustav-mahler"],
+		["Edvard Grieg", "edvard-grieg"],
+		["Claude Debussy", "claude-debussy"],
+		["Great Depression", "great-depression"],
+		["Conlon Nancarrow", "conlon-nancarrow"],
+		["Henry Cowell", "henry-cowell"],
+		["Columbia", "columbia-records"],
+		["Jacquard loom", "jacquard-machine"]
+	],
+	"music/rhodes": [
+		["Harold Rhodes", "harold-rhodes"],
+		["Leo Fender", "leo-fender"],
+		["Rhodes piano", "rhodes-piano"],
+		["Faraday's law of induction", "faradays-law-of-induction"],
+		["Herbie Hancock", "herbie-hancock"],
+		["Miles Davis", "miles-davis"],
+		["_In a Silent Way_", "in-a-silent-way"],
+		["Columbia", "columbia-records"],
+		["Wurlitzer electronic piano", "wurlitzer-electronic-piano"],
+		["Clavinet", "clavinet"],
+		["Stevie Wonder", "stevie-wonder"]
+	]
+}

@@ -178,7 +178,7 @@ baked into the engine.
     links the URL that was read, so a Wikipedia source links its pinned
     revision, not the live article.
   - Fields: `kind` (`web`, `wikipedia`, `book`, `article`, `chapter`,
-    `report`, `media`, `letter`, `encyclopedia`, `diary`, `case`, `statute`, `treaty`, `lecture`), `title`, `url` and/or `doi`, `accessed`
+    `report`, `media`, `letter`, `encyclopedia`, `diary`, `case`, `statute`, `treaty`, `lecture`, `recording`), `title`, `url` and/or `doi`, `accessed`
     (`YYYY-MM-DD`), and optionally `key`, `note` (a key source's remark in
     the Sources list: a page, why it matters), `authors` (`{family,
 given?}` or `{name}`; for Wikipedia `{name: "Wikipedia contributors"}`),
@@ -328,6 +328,17 @@ page?}`: the session laws or the code it is in), the year left out
       of the titles and containers that carried it ("…: Nobel Lecture,
       December 11, 1962"); no place was added that the citation did not
       already say.
+    - **`recording`** (sprint 058): a sound recording (a cylinder, a
+      disc, a tape, a file), by its performers as `authors`, the date it
+      was made in `recorded` (optional, a `published` form), the label
+      in `publisher`, the catalog number in `number`, the release in
+      `published`, and an album or a collection that holds the track in
+      `container`: "Smith, Mamie. _Crazy Blues_. Recorded August 10, 1920. Okeh 4169, 1920." (Chicago 14.263); a track on an album is
+      quoted, with the album in `container` ("On _Album_"). Its Sources line notes
+      the label, number and year. kloom plays no audio: a frame cites
+      the recording it describes, by the page that holds it (the Library
+      of Congress's National Jukebox, Commons, the Internet Archive), and
+      `recorded` belongs to a recording only.
     - **A modern UK act**, numbered by calendar year as every act since
       1963 is, is `"citeAs": "year"` with its `chapter` and no `code`:
       "Human Reproductive Cloning Act 2001, c. 23", the year said once, by

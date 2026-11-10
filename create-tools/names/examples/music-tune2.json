@@ -1,0 +1,41 @@
+{
+	"music/well-temperament": [
+		["Pythagorean comma", "pythagorean-comma"],
+		["Andreas Werckmeister", "andreas-werckmeister"],
+		["well temperament", "well-temperament"],
+		["monochord", "monochord"],
+		["Johann Kirnberger", "johann-kirnberger"],
+		["Francesco Antonio Vallotti", "francesco-antonio-vallotti"],
+		["Thomas Young", "thomas-young-scientist"],
+		["Johann Sebastian Bach", "johann-sebastian-bach"],
+		["_Well-Tempered Clavier_", "the-well-tempered-clavier"],
+		["Christian Friedrich Daniel Schubart", "christian-friedrich-daniel-schubart"]
+	],
+	"music/helmholtz-tone": [
+		["Hermann von Helmholtz", "hermann-von-helmholtz"],
+		[
+			"_On the Sensations of Tone as a Physiological Basis for the Theory of Music_",
+			"sensations-of-tone"
+		],
+		["Helmholtz resonators", "helmholtz-resonance"],
+		["Alexander Ellis", "alexander-john-ellis"],
+		["Joseph Fourier", "joseph-fourier"],
+		["Ohm's acoustic law", "ohms-acoustic-law"],
+		["cochlea", "cochlea"],
+		["Georg von Békésy", "georg-von-bekesy"]
+	],
+	"music/ellis-cents": [
+		["Society of Arts", "royal-society-of-arts"],
+		["Alexander John Ellis", "alexander-john-ellis"],
+		["Helmholtz", "hermann-von-helmholtz"],
+		["_On the Sensations of Tone_", "sensations-of-tone"],
+		["cent", "cent-music"],
+		["Joseph Sauveur", "joseph-sauveur"],
+		["Alfred James Hipkins", "alfred-james-hipkins"],
+		["gamelan", "gamelan"],
+		["Java", "java"],
+		["sléndro", "slendro"],
+		["Pélog", "pelog"],
+		["ethnomusicology", "ethnomusicology"]
+	]
+}

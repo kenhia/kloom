@@ -1,0 +1,385 @@
+{
+	"id": "neumes",
+	"topic": "Neumes and Gregorian chant",
+	"position": {
+		"label": "c. 900",
+		"sort": 900
+	},
+	"scene": {
+		"headline": "We wrote down a tune's",
+		"accent": "SHAPE.",
+		"palette": "vespers",
+		"illustration": "scene.svg",
+		"metadata": [
+			"METZ · SAINT GALL · LAON",
+			"CHARLEMAGNE'S ROMAN CHANT · THE CANTATORIUM, C. 922–926"
+		],
+		"counter": {
+			"value": "8",
+			"label": "modes to sort every melody by"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/scriptorium",
+			"why": "Charlemagne's drive to correct the church's books, which that frame describes, reached its song too: his Admonitio generalis of 789 ordered all the clergy to learn the Roman chant, which monastic scribes later wrote down in neumes."
+		},
+		{
+			"to": "music/guido-staff",
+			"why": "Neumes kept a tune's shape but not its pitch; Guido's staff fixed the pitch."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Capitularia regum Francorum",
+			"editors": [
+				{
+					"family": "Boretius",
+					"given": "Alfred"
+				}
+			],
+			"volume": "1",
+			"container": "Monumenta Germaniae Historica, Legum sectio II",
+			"place": "Hanover",
+			"publisher": "Hahn",
+			"published": "1883",
+			"language": "la",
+			"url": "https://archive.org/details/capitulariaregum01bore",
+			"accessed": "2026-11-10",
+			"note": "The Admonitio generalis of 23 March 789, chapter 80, p. 61; quoted in our translation"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Gesta Karoli Magni",
+			"authors": [
+				{
+					"name": "Notker the Stammerer"
+				}
+			],
+			"container": "Early Lives of Charlemagne by Eginhard and the Monk of St Gall",
+			"translators": [
+				{
+					"family": "Grant",
+					"given": "A. J."
+				}
+			],
+			"pages": "71–75",
+			"place": "London",
+			"publisher": "Chatto & Windus",
+			"published": "1922",
+			"url": "https://archive.org/details/earlylivesofchar00einhiala",
+			"accessed": "2026-11-10",
+			"note": "Book I, chapter 10: the twelve Roman singers and the chant of Metz"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "St. Gallen, Stiftsbibliothek, Cod. Sang. 359: Cantatorium",
+			"container": "e-codices: Virtual Manuscript Library of Switzerland",
+			"publisher": "University of Fribourg",
+			"url": "https://www.e-codices.unifr.ch/en/list/one/csg/0359",
+			"accessed": "2026-11-10",
+			"note": "Dated 922–926; the solo chants of the Mass in staffless neumes"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gregorian chant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gregorian_chant&oldid=1380551594",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-16",
+			"key": true,
+			"note": "The Carolingian synthesis, the legend of Gregory and the dove, and the first notated sources"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Neume",
+			"url": "https://en.wikipedia.org/w/index.php?title=Neume&oldid=1384071429",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-06",
+			"key": true,
+			"note": "The neume shapes and the earliest Western notation"
+		},
+		{
+			"kind": "web",
+			"title": "Musica (De harmonica institutione)",
+			"authors": [
+				{
+					"name": "Hucbald"
+				}
+			],
+			"container": "Thesaurus Musicarum Latinarum",
+			"publisher": "Center for the History of Music Theory and Literature, Indiana University",
+			"language": "la",
+			"url": "https://chmtl.indiana.edu/tml/9th-11th/HUCHAR_TEXT.html",
+			"accessed": "2026-11-10",
+			"note": "From Gerbert's Scriptores ecclesiastici de musica sacra (1784), 1:103–25; read through the Wayback Machine, the site being down; quoted in our translation"
+		},
+		{
+			"kind": "article",
+			"title": "Die liturgischen Austauschbeziehungen zwischen der römischen und der fränkisch-deutschen Kirche vom achten bis zum elften Jahrhundert",
+			"authors": [
+				{
+					"family": "Klauser",
+					"given": "Theodor"
+				}
+			],
+			"container": "Historisches Jahrbuch",
+			"volume": "53",
+			"pages": "169–189",
+			"published": "1933",
+			"language": "de",
+			"url": "https://www.examenapium.it/cs/biblio/Klauser1933.pdf",
+			"mirror": true,
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "book",
+			"title": "De exordiis et incrementis quarundam in observationibus ecclesiasticis rerum",
+			"authors": [
+				{
+					"name": "Walafrid Strabo"
+				}
+			],
+			"published": "841",
+			"circa": true,
+			"language": "la",
+			"citedIn": "Die liturgischen Austauschbeziehungen zwischen der römischen und der fränkisch-deutschen Kirche vom achten bis zum elften Jahrhundert"
+		},
+		{
+			"kind": "article",
+			"title": "Charlemagne's Archetype of Gregorian Chant",
+			"authors": [
+				{
+					"family": "Levy",
+					"given": "Kenneth"
+				}
+			],
+			"container": "Journal of the American Musicological Society",
+			"volume": "40",
+			"issue": "1",
+			"pages": "1–30",
+			"published": "1987",
+			"url": "https://www.jstor.org/stable/831580",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "chapter",
+			"title": "Homer and Gregory: The Transmission of Epic Poetry and Plainchant",
+			"authors": [
+				{
+					"family": "Treitler",
+					"given": "Leo"
+				}
+			],
+			"container": "With Voice and Pen: Coming to Know Medieval Song and How It Was Made",
+			"pages": "131–185",
+			"place": "Oxford",
+			"publisher": "Oxford University Press",
+			"published": "2003",
+			"doi": "10.1093/acprof:oso/9780199214761.003.0006",
+			"accessed": "2026-11-10",
+			"read": "abstract",
+			"note": "First printed in The Musical Quarterly 60, no. 3 (1974): 333–372"
+		},
+		{
+			"kind": "recording",
+			"title": "Universi qui te expectant",
+			"authors": [
+				{
+					"name": "Schola Antiqua"
+				}
+			],
+			"recorded": "2004-07-12",
+			"url": "https://en.wikipedia.org/w/index.php?title=File:Gradual_chant_-_Universi_qui_te_expectant.ogg&oldid=554842172",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Recorded privately by members of the ensemble; 2 minutes 49 seconds"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Old Roman chant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Old_Roman_chant&oldid=1365949307",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gallican chant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gallican_chant&oldid=1320207839",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-11-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pope Gregory I",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pope_Gregory_I&oldid=1383116845",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pope Stephen II",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pope_Stephen_II&oldid=1359690195",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Chrodegang",
+			"url": "https://en.wikipedia.org/w/index.php?title=Chrodegang&oldid=1359523151",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Abbey of Saint Gall",
+			"url": "https://en.wikipedia.org/w/index.php?title=Abbey_of_Saint_Gall&oldid=1375528709",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hucbald",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hucbald&oldid=1354830140",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Notker the Stammerer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Notker_the_Stammerer&oldid=1382614221",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aurelian of Réôme",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aurelian_of_R%C3%A9%C3%B4me&oldid=1299228832",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-07-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Admonitio generalis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Admonitio_generalis&oldid=1384741966",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "media",
+			"title": "Gregory I dictating, Antiphonary of Hartker",
+			"authors": [
+				{
+					"name": "Hartker of Saint Gall"
+				}
+			],
+			"container": "St. Gallen, Stiftsbibliothek, Cod. Sang. 390, p. 13",
+			"published": "1000",
+			"circa": true,
+			"url": "https://commons.wikimedia.org/wiki/File:Gregory_I_-_Antiphonary_of_Hartker_of_Sankt_Gallen.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "gregory.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Cantatorium of Saint Gall, page 25: Ad te levavi and Universi qui te expectant",
+			"container": "St. Gallen, Stiftsbibliothek, Cod. Sang. 359, p. 25",
+			"published": "922",
+			"circa": true,
+			"url": "https://commons.wikimedia.org/wiki/File:Csg-0359_025.Ad.te.levavi.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "cantatorium.jpg",
+			"note": "The lower part of the page, cropped"
+		}
+	]
+}

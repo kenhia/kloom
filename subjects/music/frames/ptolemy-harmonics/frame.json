@@ -1,0 +1,240 @@
+{
+	"id": "ptolemy-harmonics",
+	"topic": "Ptolemy's Harmonics",
+	"position": {
+		"label": "c. 150",
+		"sort": 150
+	},
+	"scene": {
+		"headline": "Ptolemy made the ear a",
+		"accent": "JUDGE.",
+		"palette": "monochord",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ALEXANDRIA · CLAUDIUS PTOLEMY",
+			"HARMONICS · THE KANON · TENSE DIATONIC 16:15 · 9:8 · 10:9"
+		],
+		"counter": {
+			"value": "5:4",
+			"label": "the major third of his tense diatonic"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/ptolemy",
+			"why": "The Harmonics is by the same Claudius Ptolemy of Alexandria who wrote the Almagest, and it applies the same demand to music that his astronomy made of the sky: a numerical model checked against observation, here the ear and the kanon."
+		},
+		{
+			"to": "physics/kepler",
+			"why": "Kepler found his third law while writing the Harmonices Mundi of 1619, a book on music and the heavens whose subject, he knew, followed the third book of Ptolemy's Harmonics, and which compares the two in an appendix."
+		},
+		{
+			"to": "music/pythagoras-ratios",
+			"why": "Ptolemy set the 5:4 third against the Pythagorean 81:64 on the same kanon."
+		},
+		{
+			"to": "music/boethius",
+			"why": "Boethius drew on Ptolemy's Harmonics but passed on the Pythagorean scale."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Ptolemy",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ptolemy&oldid=1380852947",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-18",
+			"key": true,
+			"note": "The Harmonics: reason and perception, the monochord, book III and Kepler"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Divisions of the Tetrachord",
+			"authors": [
+				{
+					"family": "Chalmers",
+					"given": "John H."
+				}
+			],
+			"editors": [
+				{
+					"family": "Polansky",
+					"given": "Larry"
+				},
+				{
+					"family": "Scholz",
+					"given": "Carter"
+				}
+			],
+			"publisher": "Frog Peak Music",
+			"place": "Hanover, NH",
+			"published": "1993",
+			"url": "https://eamusic.dartmouth.edu/~larry/published_articles/divisions_of_the_tetrachord/chapter2.pdf",
+			"accessed": "2026-11-10",
+			"note": "Ptolemy's own tunings, table 2-2, p. 9"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Monochord in Ancient Greek Harmonic Science by David Creese",
+			"authors": [
+				{
+					"family": "Hagel",
+					"given": "Stefan"
+				}
+			],
+			"container": "Aestimatio",
+			"volume": "9",
+			"pages": "337–351",
+			"published": "2012",
+			"url": "https://ircps.org/wp-content/uploads/2021/04/2012-27_Hagel.pdf",
+			"accessed": "2026-11-10",
+			"note": "A review; Ptolemy's instruments, and whether the kanon could decide against Aristoxenus"
+		},
+		{
+			"kind": "chapter",
+			"title": "The Instruments",
+			"authors": [
+				{
+					"family": "Barker",
+					"given": "Andrew"
+				}
+			],
+			"container": "Scientific Method in Ptolemy's Harmonics",
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "2001",
+			"doi": "10.1017/CBO9780511481765.011",
+			"pages": "192–229",
+			"accessed": "2026-11-10",
+			"read": "excerpt",
+			"note": "Opens with Harmonics 5.3–15 in Barker's translation"
+		},
+		{
+			"kind": "chapter",
+			"title": "Critique of Aristoxenian Principles and Conclusions",
+			"authors": [
+				{
+					"family": "Barker",
+					"given": "Andrew"
+				}
+			],
+			"container": "Scientific Method in Ptolemy's Harmonics",
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "2001",
+			"url": "https://www.cambridge.org/core/books/scientific-method-in-ptolemys-harmonics/critique-of-aristoxenian-principles-and-conclusions/89B5E37FD87D11A29C213877FEB6B5D1",
+			"accessed": "2026-11-10",
+			"read": "excerpt"
+		},
+		{
+			"kind": "chapter",
+			"title": "Harmonics in a Wider Perspective",
+			"authors": [
+				{
+					"family": "Barker",
+					"given": "Andrew"
+				}
+			],
+			"container": "Scientific Method in Ptolemy's Harmonics",
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "2001",
+			"url": "https://www.cambridge.org/core/books/scientific-method-in-ptolemys-harmonics/harmonics-in-a-wider-perspective/64DE14089B1D1CA39BFCA25B27F6BDCC",
+			"accessed": "2026-11-10",
+			"read": "excerpt"
+		},
+		{
+			"kind": "book",
+			"title": "The Monochord in Ancient Greek Harmonic Science",
+			"authors": [
+				{
+					"family": "Creese",
+					"given": "David"
+				}
+			],
+			"publisher": "Cambridge University Press",
+			"place": "Cambridge",
+			"published": "2010",
+			"citedIn": "The Monochord in Ancient Greek Harmonic Science by David Creese"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ptolemy's intense diatonic scale",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ptolemy's_intense_diatonic_scale&oldid=1384440354",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tetrachord",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tetrachord&oldid=1368658115",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Boethius",
+			"url": "https://en.wikipedia.org/w/index.php?title=Boethius&oldid=1384365213",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Major third",
+			"url": "https://en.wikipedia.org/w/index.php?title=Major_third&oldid=1369350894",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Harmonice Mundi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Harmonice_Mundi&oldid=1384746492",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		}
+	]
+}

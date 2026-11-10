@@ -1,0 +1,323 @@
+{
+	"id": "new-world",
+	"topic": "Dvořák's New World Symphony",
+	"position": {
+		"label": "1893",
+		"sort": 1893
+	},
+	"scene": {
+		"headline": "Dvořák said America's music was already",
+		"accent": "HERE.",
+		"palette": "salon",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NEW YORK · CARNEGIE HALL · 16 DECEMBER 1893",
+			"ANTONÍN DVOŘÁK · HARRY T. BURLEIGH"
+		],
+		"counter": {
+			"value": "$15,000",
+			"label": "a year to direct the National Conservatory"
+		}
+	},
+	"connections": [
+		{
+			"to": "music/fisk-jubilee",
+			"why": "The Fisk Jubilee Singers had carried the spirituals Dvořák heard across the Atlantic twenty years before."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Negro Melodies! Must Be the Foundation of Any Serious and Original School of Composition to Be Developed in the United States, Says Dr. Antonin Dvorak",
+			"container": "The Cleveland Gazette",
+			"place": "Cleveland",
+			"published": "1893-06-03",
+			"pages": "1",
+			"url": "https://www.loc.gov/resource/sn83035387/1893-06-03/ed-1/?sp=1",
+			"accessed": "2026-11-10",
+			"note": "The New York Herald's interview of 21 May 1893, reprinted; read on the page image"
+		},
+		{
+			"kind": "article",
+			"title": "Dr. Dvorak on the Right Track",
+			"container": "The Cleveland Gazette",
+			"place": "Cleveland",
+			"published": "1893-06-03",
+			"pages": "2",
+			"url": "https://www.loc.gov/resource/sn83035387/1893-06-03/ed-1/?sp=2",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Dr. Dvorak's American Symphony",
+			"container": "New-York Daily Tribune",
+			"place": "New York",
+			"published": "1893-12-15",
+			"pages": "7",
+			"url": "https://www.loc.gov/resource/sn83030214/1893-12-15/ed-1/?sp=7",
+			"accessed": "2026-11-10",
+			"note": "The pentatonic theme and the Scotch snap"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Dr. Dvorak's Symphony",
+			"container": "New-York Daily Tribune",
+			"place": "New York",
+			"published": "1893-12-17",
+			"pages": "7",
+			"url": "https://www.loc.gov/resource/sn83030214/1893-12-17/ed-1/?sp=7",
+			"accessed": "2026-11-10",
+			"note": "The premiere and its reception"
+		},
+		{
+			"kind": "article",
+			"title": "Books, Authors and Art: Wayside of Arts and Letters",
+			"container": "Springfield Weekly Republican",
+			"place": "Springfield, Mass.",
+			"published": "1893-06-09",
+			"pages": "9",
+			"url": "https://www.loc.gov/resource/sn83020847/1893-06-09/ed-1/?sp=9",
+			"accessed": "2026-11-10",
+			"note": "Free tuition for Black students; Burleigh and Paul Bolin made teachers"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "African American Influences on Dvořák's Symphony \"From the New World\"",
+			"container": "Dvořák in America",
+			"publisher": "Dvořák American Heritage Association",
+			"url": "https://www.dvoraknyc.org/african-american-influences",
+			"accessed": "2026-11-10",
+			"note": "Burleigh's own accounts, adapted from Maurice Peress, Dvořák to Duke Ellington (2004)"
+		},
+		{
+			"kind": "web",
+			"title": "Transatlantic Debate about Dvořák's Ideas on the Future of American Music",
+			"container": "Dvořák in America",
+			"publisher": "Dvořák American Heritage Association",
+			"url": "https://www.dvoraknyc.org/transatlantic-debate",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "The Premiere of Dvořák's Symphony \"From the New World\"",
+			"container": "Dvořák in America",
+			"publisher": "Dvořák American Heritage Association",
+			"url": "https://www.dvoraknyc.org/the-premiere-of-dvoraks-symphony",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Timeline of Antonín Dvořák in America",
+			"container": "Dvořák in America",
+			"publisher": "Dvořák American Heritage Association",
+			"url": "https://www.dvoraknyc.org/dvorak",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Aus der neuen Welt: Symphonie No. 5 (E moll), Op. 95",
+			"authors": [
+				{
+					"family": "Dvořák",
+					"given": "Antonín"
+				}
+			],
+			"place": "Leipzig",
+			"publisher": "Ernst Eulenburg",
+			"published": "1903",
+			"url": "https://archive.org/details/ausderneuenwelts00dvok",
+			"accessed": "2026-11-10",
+			"note": "The Largo's opening, pp. 55–56; the symphony was then numbered fifth"
+		},
+		{
+			"kind": "recording",
+			"title": "New World Symphony: Largo",
+			"authors": [
+				{
+					"name": "Victor Concert Orchestra"
+				}
+			],
+			"recorded": "1912-12-18",
+			"publisher": "Victor",
+			"number": "35275",
+			"url": "https://www.loc.gov/item/jukebox-132509/",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Arranged by Charles J. Roberts; Alfred Doucet, oboe"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Symphony No. 9 (Dvořák)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Symphony_No._9_(Dvo%C5%99%C3%A1k)&oldid=1383764484",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-04",
+			"note": "The movements, the Largo's theme and the debate over borrowed tunes"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Antonín Dvořák",
+			"url": "https://en.wikipedia.org/w/index.php?title=Anton%C3%ADn_Dvo%C5%99%C3%A1k&oldid=1384524505",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08",
+			"note": "His salary and years in New York"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Harry Burleigh",
+			"url": "https://en.wikipedia.org/w/index.php?title=Harry_Burleigh&oldid=1382696550",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jeannette Thurber",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jeannette_Thurber&oldid=1366555625",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "National Conservatory of Music of America",
+			"url": "https://en.wikipedia.org/w/index.php?title=National_Conservatory_of_Music_of_America&oldid=1376621312",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Spirituals",
+			"url": "https://en.wikipedia.org/w/index.php?title=Spirituals&oldid=1384757965",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Carnegie Hall",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carnegie_Hall&oldid=1384748952",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pentatonic scale",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pentatonic_scale&oldid=1380412499",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Musical nationalism",
+			"url": "https://en.wikipedia.org/w/index.php?title=Musical_nationalism&oldid=1363976750",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Henry Edward Krehbiel",
+			"url": "https://en.wikipedia.org/w/index.php?title=Henry_Edward_Krehbiel&oldid=1340752380",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "William Arms Fisher",
+			"url": "https://en.wikipedia.org/w/index.php?title=William_Arms_Fisher&oldid=1372740490",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-02"
+		},
+		{
+			"kind": "media",
+			"title": "Harry T. Burleigh",
+			"container": "Benjamin Griffith Brawley, The Negro in Literature and Art in the United States (New York: Duffield, 1918)",
+			"published": "1918",
+			"url": "https://commons.wikimedia.org/wiki/File:The_Negro_in_literature_and_art_in_the_United_States_(1918)_(14760955494).jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"note": "Published in the United States in 1918, in Brawley's book, the plate credited to Mishkin Studio, New York",
+			"file": "burleigh.jpg"
+		}
+	]
+}

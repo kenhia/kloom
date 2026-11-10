@@ -223,7 +223,7 @@ def media_citation(spec, out, today=None):
     src = spec.get('source')
     if not src:
         return None
-    today = today or datetime.date.today()
+    today = today or datetime.datetime.now(datetime.timezone.utc).date()  # UTC, as wiki_cite (sprint 058)
     c = {'kind': 'media', 'title': spec['title'], 'authors': [{'name': 'kloom contributors'}],
          'published': str(today.year), 'container': src['container']}
     for k in ('url', 'doi'):

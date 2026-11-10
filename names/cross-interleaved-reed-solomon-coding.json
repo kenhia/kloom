@@ -1,0 +1,8 @@
+{
+	"id": "cross-interleaved-reed-solomon-coding",
+	"wikidata": "Q1141113",
+	"name": "Cross-interleaved Reed–Solomon coding",
+	"aliases": ["CIRC"],
+	"kind": "idea",
+	"description": "The compact disc's error correction: two Reed–Solomon codes with the data spread out between them, so a scratch's long burst of errors can be corrected."
+}

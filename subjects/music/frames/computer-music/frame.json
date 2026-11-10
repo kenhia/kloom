@@ -1,0 +1,308 @@
+{
+	"id": "computer-music",
+	"topic": "Mathews and computer music",
+	"position": {
+		"label": "1957",
+		"sort": 1957
+	},
+	"scene": {
+		"headline": "We made music out of",
+		"accent": "NUMBERS.",
+		"palette": "pixel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"BELL LABS · MURRAY HILL, NEW JERSEY",
+			"MAX MATHEWS · MUSIC I–V · IBM 704 AND 7090"
+		],
+		"counter": {
+			"value": "20,000",
+			"label": "samples a second, in 1961"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/fortran",
+			"why": "MUSIC I ran in 1957 on the IBM 704, the machine Fortran was written for that year, and Mathews's MUSIC III of 1961 took its wave shapes from Fortran subprograms."
+		},
+		{
+			"to": "physics/shannon-entropy",
+			"why": "Mathews cited Shannon's 1948 paper for why 20,000 samples a second can carry sound up to 10,000 cycles: the sampling theorem is its Theorem 13."
+		},
+		{
+			"to": "computing/transistor",
+			"why": "John R. Pierce, who named the transistor at Bell Labs, was the boss who dared Mathews to make a computer play music."
+		},
+		{
+			"to": "music/fm-synthesis",
+			"why": "Chowning read Mathews's 1963 paper in Science and set up at Stanford with his help."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "An Acoustic Compiler for Music and Psychological Stimuli",
+			"authors": [
+				{
+					"family": "Mathews",
+					"given": "Max V."
+				}
+			],
+			"container": "Bell System Technical Journal",
+			"volume": "40",
+			"issue": "3",
+			"pages": "677–694",
+			"published": "1961-05",
+			"doi": "10.1002/j.1538-7305.1961.tb03237.x",
+			"url": "https://archive.org/details/bstj40-3-677",
+			"accessed": "2026-11-10",
+			"note": "MUSIC III: the converter, the unit generators, the score cards and the cost"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "An Interview with Max Mathews",
+			"authors": [
+				{
+					"family": "Park",
+					"given": "Tae Hong"
+				}
+			],
+			"container": "Computer Music Journal",
+			"volume": "33",
+			"issue": "3",
+			"pages": "9–22",
+			"published": "2009",
+			"doi": "10.1162/comj.2009.33.3.9",
+			"url": "https://ccrma.stanford.edu/~aj/archives/docs/all/806.pdf",
+			"accessed": "2026-11-10",
+			"note": "The concert that provoked MUSIC I, and Risset and Chowning; read in the copy in CCRMA's archive"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Timeline of Early Computer Music at Bell Telephone Laboratories, Incorporated",
+			"authors": [
+				{
+					"family": "Noll",
+					"given": "A. Michael"
+				}
+			],
+			"container": "Engineering and Technology History Wiki",
+			"publisher": "IEEE History Center",
+			"published": "2014-09-25",
+			"url": "https://ethw.org/w/index.php?title=Timeline_of_Early_Computer_Music_at_Bell_Telephone_Laboratories,_Incorporated&oldid=108056",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "article",
+			"title": "A Mathematical Theory of Communication",
+			"authors": [
+				{
+					"family": "Shannon",
+					"given": "C. E."
+				}
+			],
+			"container": "Bell System Technical Journal",
+			"volume": "27",
+			"issue": "4",
+			"pages": "623–656",
+			"published": "1948-10",
+			"doi": "10.1002/j.1538-7305.1948.tb00917.x",
+			"url": "https://archive.org/details/bstj27-4-623",
+			"accessed": "2026-11-10",
+			"note": "Theorem 13, the sampling theorem, is on p. 627"
+		},
+		{
+			"kind": "web",
+			"title": "Newman Guttman: The Silver Scale / Pitch Variations",
+			"container": "San Francisco Tape Music Collective",
+			"url": "http://www.sfsound.org/tape/Guttman.html",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Background: Bell Labs Text-to-Speech Synthesis: Then and Now",
+			"publisher": "Lucent Technologies",
+			"container": "Bell Labs",
+			"published": "1997-03",
+			"url": "http://www.bell-labs.com/news/1997/march/5/2.html",
+			"accessed": "2026-11-10",
+			"note": "Read in the Wayback Machine's copy of April 7, 2000"
+		},
+		{
+			"kind": "web",
+			"title": "“Daisy Bell (Bicycle Built for Two)”—Max Mathews, John L. Kelly, Jr., and Carol Lochbaum (1961)",
+			"authors": [
+				{
+					"family": "O'Dell",
+					"given": "Cary"
+				}
+			],
+			"container": "National Recording Registry",
+			"publisher": "Library of Congress",
+			"url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/DaisyBell.pdf",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "recording",
+			"title": "Bicycle Built for Two",
+			"authors": [
+				{
+					"family": "Kelly",
+					"given": "John L., Jr."
+				},
+				{
+					"family": "Lochbaum",
+					"given": "Carol"
+				},
+				{
+					"family": "Mathews",
+					"given": "Max V."
+				}
+			],
+			"container": "Music from Mathematics",
+			"recorded": "1961",
+			"published": "1962",
+			"url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/DaisyBell.pdf",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Known here from the Library of Congress's registry essay and the album's sleeve notes as quoted in Wikipedia"
+		},
+		{
+			"kind": "web",
+			"title": "John Chowning: Pioneer of Electronic Music and Digital Synthesis",
+			"authors": [
+				{
+					"family": "Reid",
+					"given": "Gordon"
+				}
+			],
+			"container": "Sound on Sound",
+			"published": "2015-09",
+			"url": "https://www.soundonsound.com/people/john-chowning",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "article",
+			"title": "The Digital Computer as a Musical Instrument",
+			"authors": [
+				{
+					"family": "Mathews",
+					"given": "M. V."
+				}
+			],
+			"container": "Science",
+			"volume": "142",
+			"issue": "3592",
+			"pages": "553–557",
+			"published": "1963-11",
+			"doi": "10.1126/science.142.3592.553",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Max Mathews",
+			"url": "https://en.wikipedia.org/w/index.php?title=Max_Mathews&oldid=1373354596",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05",
+			"key": true,
+			"note": "Mathews's own account of 1997: the 704 in New York and the 17-second piece"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "MUSIC-N",
+			"url": "https://en.wikipedia.org/w/index.php?title=MUSIC-N&oldid=1356430301",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Daisy Bell",
+			"url": "https://en.wikipedia.org/w/index.php?title=Daisy_Bell&oldid=1379883086",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nyquist–Shannon sampling theorem",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nyquist%E2%80%93Shannon_sampling_theorem&oldid=1380977741",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "HAL 9000",
+			"url": "https://en.wikipedia.org/w/index.php?title=HAL_9000&oldid=1384779350",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "IRCAM",
+			"url": "https://en.wikipedia.org/w/index.php?title=IRCAM&oldid=1380231220",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-14"
+		},
+		{
+			"kind": "media",
+			"title": "IBM 7090 computer, with IBM and NASA Ames staff discussing its installation",
+			"authors": [
+				{
+					"family": "Shaw",
+					"given": "Emerson"
+				}
+			],
+			"container": "NASA Ames Research Center",
+			"number": "ARC-1961-A-28284",
+			"published": "1961-09-06",
+			"url": "https://commons.wikimedia.org/wiki/File:IBM_7090_computer.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "ibm7090.jpg"
+		}
+	]
+}

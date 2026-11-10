@@ -1,0 +1,40 @@
+{
+	"music/ptolemy-harmonics": [
+		["Alexandria", "alexandria"],
+		["Claudius Ptolemy", "ptolemy"],
+		["Almagest", "almagest"],
+		["monochord", "monochord"],
+		["Pythagoras", "pythagoras"],
+		["Aristoxenus", "aristoxenus"],
+		["tetrachord", "tetrachord"],
+		["tense diatonic", "ptolemys-intense-diatonic-scale"],
+		["just intonation", "just-intonation"],
+		["Boethius", "boethius"],
+		["Johannes Kepler", "johannes-kepler"],
+		["_Harmonices Mundi_", "harmonice-mundi"]
+	],
+	"music/meantone": [
+		["Pietro Aron", "pietro-aron"],
+		["Venice", "venice"],
+		["meantone temperament", "meantone-temperament"],
+		["syntonic comma", "syntonic-comma"],
+		["just intonation", "just-intonation"],
+		["wolf fifth", "wolf-interval"],
+		["Nicola Vicentino", "nicola-vicentino"],
+		["archicembalo", "archicembalo"],
+		["Gioseffo Zarlino", "gioseffo-zarlino"],
+		["Francisco de Salinas", "francisco-de-salinas"],
+		["Great Exhibition", "great-exhibition"]
+	],
+	"music/equal-temperament": [
+		["Ming dynasty", "ming-dynasty"],
+		["Zhu Zaiyu", "zhu-zaiyu"],
+		["equal temperament", "equal-temperament"],
+		["suanpan", "suanpan"],
+		["Simon Stevin", "simon-stevin"],
+		["Marin Mersenne", "marin-mersenne"],
+		["_Harmonie universelle_", "harmonie-universelle"],
+		["Vincenzo Galilei", "vincenzo-galilei"],
+		["lute", "lute"]
+	]
+}

@@ -1,0 +1,302 @@
+{
+	"id": "magnetic-tape",
+	"topic": "Magnetic tape",
+	"position": {
+		"label": "1935–48",
+		"sort": 1935
+	},
+	"scene": {
+		"headline": "We cut music with",
+		"accent": "SCISSORS.",
+		"palette": "shellac",
+		"illustration": "scene.svg",
+		"metadata": [
+			"AEG · BASF · BERLIN RADIO EXHIBITION, 1935",
+			"HIGH-FREQUENCY BIAS · JACK MULLIN · BING CROSBY · AMPEX"
+		],
+		"counter": {
+			"value": "50",
+			"label": "reels of German tape Mullin mailed home"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/faraday-induction",
+			"why": "A tape recorder plays back by Faraday's induction: the magnetized tape moving past the playback head induces a current in its coil."
+		},
+		{
+			"to": "computing/univac",
+			"why": "UNIVAC's UNISERVO of 1951 recorded data on tape of nickel-plated bronze, where the Magnetophon's tape for sound was plastic film coated with iron powder and then iron oxide."
+		},
+		{
+			"to": "music/electric-guitar",
+			"why": "Les Paul built his multitrack recordings on Ampex tape machines."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "A Selected History of Magnetic Recording",
+			"authors": [
+				{
+					"family": "Engel",
+					"given": "Friedrich"
+				},
+				{
+					"family": "Hammar",
+					"given": "Peter"
+				}
+			],
+			"editors": [
+				{
+					"family": "Hess",
+					"given": "Richard L."
+				}
+			],
+			"container": "Richard L. Hess, Audio Tape Restoration",
+			"published": "2006-08-27",
+			"url": "https://richardhess.com/tape/history/Engel_Hammar--Magnetic_Tape_History.pdf",
+			"accessed": "2026-11-10",
+			"note": "Poulsen to Ampex: the Magnetophon, BASF's tapes and the bias"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Walter Weber's Technical Innovation at the Reichs-Rundfunk-Gesellschaft",
+			"authors": [
+				{
+					"family": "Engel",
+					"given": "Friedrich"
+				}
+			],
+			"container": "Richard L. Hess, Audio Tape Restoration",
+			"published": "2006",
+			"url": "https://richardhess.com/tape/history/Engel--Walter_Weber_2006.pdf",
+			"accessed": "2026-11-10",
+			"note": "Weber's discovery of 1940, its demonstration in 1941 and its predecessors"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Creating the Craft of Tape Recording",
+			"authors": [
+				{
+					"family": "Mullin",
+					"given": "John T."
+				}
+			],
+			"container": "High Fidelity",
+			"volume": "26",
+			"issue": "4",
+			"pages": "62–67",
+			"published": "1976-04",
+			"url": "https://www.worldradiohistory.com/Archive-All-Audio/Archive-High-Fidelity/70s/High-Fidelity-1976-04.pdf",
+			"accessed": "2026-11-10",
+			"note": "His own account of Bad Nauheim and the Crosby shows"
+		},
+		{
+			"kind": "recording",
+			"title": "Philco Radio Time, October 1, 1947",
+			"authors": [
+				{
+					"family": "Crosby",
+					"given": "Bing"
+				},
+				{
+					"family": "Cooper",
+					"given": "Gary"
+				}
+			],
+			"publisher": "ABC",
+			"published": "1947-10-01",
+			"url": "https://archive.org/details/philco-radio-time-oct-1-1947",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "The season premiere, the first show Mullin taped"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Magnetophon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Magnetophon&oldid=1379945595",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tape bias",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tape_bias&oldid=1353708837",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tape recorder",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tape_recorder&oldid=1384240678",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jack Mullin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jack_Mullin&oldid=1372526178",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ampex",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ampex&oldid=1381958505",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Les Paul",
+			"url": "https://en.wikipedia.org/w/index.php?title=Les_Paul&oldid=1367773284",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Multitrack recording",
+			"url": "https://en.wikipedia.org/w/index.php?title=Multitrack_recording&oldid=1379424192",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pierre Schaeffer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pierre_Schaeffer&oldid=1362345879",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cassette tape",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cassette_tape&oldid=1384070695",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Valdemar Poulsen",
+			"url": "https://en.wikipedia.org/w/index.php?title=Valdemar_Poulsen&oldid=1381061417",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Reichs-Rundfunk-Gesellschaft",
+			"url": "https://en.wikipedia.org/w/index.php?title=Reichs-Rundfunk-Gesellschaft&oldid=1384300899",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tape head",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tape_head&oldid=1383673470",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-04"
+		},
+		{
+			"kind": "media",
+			"title": "AEG Magnetophon K4, 1939",
+			"authors": [
+				{
+					"family": "Engel",
+					"given": "Friedrich"
+				}
+			],
+			"published": "2007-11-15",
+			"url": "https://commons.wikimedia.org/wiki/File:AEG_Magnetophon_K4_1939.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC BY-SA 3.0",
+			"file": "magnetophon-k4.jpg"
+		}
+	]
+}

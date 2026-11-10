@@ -1,0 +1,252 @@
+{
+	"id": "moog",
+	"topic": "The Moog synthesizer",
+	"position": {
+		"label": "1964",
+		"sort": 1964
+	},
+	"scene": {
+		"headline": "We played music on",
+		"accent": "VOLTAGE.",
+		"palette": "valve",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TRUMANSBURG, NEW YORK · ROBERT MOOG · WENDY CARLOS",
+			"OSCILLATOR · LADDER FILTER · AMPLIFIER · PATCH CORDS"
+		],
+		"counter": {
+			"value": "1 volt",
+			"label": "for each octave of pitch"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/transistor",
+			"why": "Moog built his oscillators and his ladder filter on the exponential current of the silicon junction transistor, the device whose invention at Bell Labs that frame tells."
+		},
+		{
+			"to": "mathematics/fourier",
+			"why": "A Moog’s sawtooth is a Fourier series of every harmonic, and its filter shapes a sound by taking upper terms away: subtractive synthesis rests on the decomposition that frame describes."
+		},
+		{
+			"to": "music/well-tempered-clavier",
+			"why": "Switched-On Bach, the album that made the Moog famous, includes two preludes and fugues from Book I of The Well-Tempered Clavier."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Moog synthesizer",
+			"url": "https://en.wikipedia.org/w/index.php?title=Moog_synthesizer&oldid=1383315686",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-02",
+			"note": "The modules, voltage control, the ladder filter and the first customers"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Wendy Carlos",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wendy_Carlos&oldid=1383791016",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-04",
+			"note": "Her work with Moog, the recording of Switched-On Bach and her transition"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Switched-On Bach",
+			"url": "https://en.wikipedia.org/w/index.php?title=Switched-On_Bach&oldid=1360521108",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-22",
+			"note": "The tracks, the sales and the Grammys"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "US Patent 3,475,623: Electronic High-Pass and Low-Pass Filters Employing the Base to Emitter Diode Resistance of Bipolar Transistors",
+			"authors": [
+				{
+					"family": "Moog",
+					"given": "Robert A."
+				}
+			],
+			"container": "Google Patents",
+			"published": "1969-10-28",
+			"url": "https://patents.google.com/patent/US3475623A/en",
+			"accessed": "2026-11-10",
+			"note": "The ladder filter; filed October 10, 1966"
+		},
+		{
+			"kind": "article",
+			"title": "Voltage-Controlled Electronic Music Modules",
+			"authors": [
+				{
+					"family": "Moog",
+					"given": "Robert A."
+				}
+			],
+			"container": "Journal of the Audio Engineering Society",
+			"volume": "13",
+			"issue": "3",
+			"pages": "200–206",
+			"published": "1965-07",
+			"url": "https://aes2.org/publications/elibrary-page/?id=1204",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Robert Moog",
+			"url": "https://en.wikipedia.org/w/index.php?title=Robert_Moog&oldid=1383245219",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Theremin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Theremin&oldid=1383120228",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "RCA Mark II Sound Synthesizer",
+			"url": "https://en.wikipedia.org/w/index.php?title=RCA_Mark_II_Sound_Synthesizer&oldid=1366500784",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Minimoog",
+			"url": "https://en.wikipedia.org/w/index.php?title=Minimoog&oldid=1384549197",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Don Buchla",
+			"url": "https://en.wikipedia.org/w/index.php?title=Don_Buchla&oldid=1379613690",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-11"
+		},
+		{
+			"kind": "web",
+			"title": "Wendy Carlos: Biography",
+			"authors": [
+				{
+					"family": "Carlos",
+					"given": "Wendy"
+				}
+			],
+			"container": "wendycarlos.com",
+			"url": "https://www.wendycarlos.com/biog.html",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Disc Notes",
+			"authors": [
+				{
+					"family": "Carlos",
+					"given": "Wendy"
+				}
+			],
+			"container": "wendycarlos.com",
+			"url": "https://www.wendycarlos.com/discnotes.html",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "recording",
+			"title": "Switched-On Bach",
+			"authors": [
+				{
+					"family": "Carlos",
+					"given": "Wendy"
+				},
+				{
+					"family": "Folkman",
+					"given": "Benjamin"
+				}
+			],
+			"publisher": "Columbia Masterworks",
+			"number": "MS 7194",
+			"published": "1968",
+			"url": "https://musicbrainz.org/release/0ccc0b2a-6e9f-467d-8bb5-ff0d329f52fb",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Produced by Rachel Elkind"
+		},
+		{
+			"kind": "media",
+			"title": "First commercial Moog synthesizer (1964, commissioned by the Alwin Nikolais Dance Theater of New York)",
+			"authors": [
+				{
+					"name": "Chad"
+				}
+			],
+			"container": "Stearns Collection of Musical Instruments, University of Michigan",
+			"published": "2010-01-29",
+			"url": "https://commons.wikimedia.org/wiki/File:1st_commercial_Moog_synthesizer_(1964,_commissioned_by_the_Alwin_Nikolai_Dance_Theater_of_NY)_@_Stearns_Collection_(Stearns_2035),_University_of_Michigan.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC BY-SA 2.0",
+			"file": "nikolais-moog.jpg"
+		}
+	]
+}

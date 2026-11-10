@@ -1,0 +1,281 @@
+{
+	"id": "auto-tune",
+	"topic": "Auto-Tune",
+	"position": {
+		"label": "1998",
+		"sort": 1998
+	},
+	"scene": {
+		"headline": "We put the voice on a",
+		"accent": "GRID.",
+		"palette": "gilt",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ANTARES · ANDY HILDEBRAND · US PATENT 5,973,252",
+			"CHER · \"BELIEVE\" · RETUNE SPEED ZERO"
+		],
+		"counter": {
+			"value": "0",
+			"label": "retune speed of the Cher effect"
+		}
+	},
+	"connections": [
+		{
+			"to": "mathematics/fourier",
+			"why": "Hildebrand's Auto-Tune patent set aside pitch shifting by the fast Fourier transform, which worked on blocks of sound and could not bend pitch smoothly, for autocorrelation."
+		},
+		{
+			"to": "music/equal-temperament",
+			"why": "Auto-Tune pulls a sung pitch to the nearest semitone of equal temperament."
+		},
+		{
+			"to": "music/midi",
+			"why": "The Auto-Tune patent can take its target note from a keyboard by MIDI."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "US Patent 5,973,252: Pitch Detection and Intonation Correction Apparatus and Method",
+			"authors": [
+				{
+					"family": "Hildebrand",
+					"given": "Harold A."
+				}
+			],
+			"publisher": "United States Patent and Trademark Office",
+			"container": "Google Patents",
+			"published": "1999-10-26",
+			"url": "https://patents.google.com/patent/US5973252A/en",
+			"accessed": "2026-11-10",
+			"note": "Filed October 15, 1998, on a provisional application of October 27, 1997; quoted from it"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Auto-Tune: Why Pop Music Sounds Perfect",
+			"authors": [
+				{
+					"family": "Tyrangiel",
+					"given": "Josh"
+				}
+			],
+			"container": "Time",
+			"published": "2009-02-05",
+			"url": "https://content.time.com/time/subscriber/article/0,33009,1877372,00.html",
+			"accessed": "2026-11-10",
+			"note": "Hildebrand on the retune speed, T-Pain and the engineers; quoted from it"
+		},
+		{
+			"kind": "web",
+			"title": "The Mathematical Genius of Auto-Tune",
+			"authors": [
+				{
+					"family": "Crockett",
+					"given": "Zachary"
+				}
+			],
+			"container": "Priceonomics",
+			"published": "2016-09-26",
+			"url": "https://priceonomics.com/the-inventor-of-auto-tune/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "How Auto-Tune Revolutionized the Sound of Popular Music",
+			"authors": [
+				{
+					"family": "Reynolds",
+					"given": "Simon"
+				}
+			],
+			"container": "Pitchfork",
+			"published": "2018-09-17",
+			"url": "https://pitchfork.com/features/article/how-auto-tune-revolutionized-the-sound-of-popular-music/",
+			"accessed": "2026-11-10",
+			"note": "\"Believe\" heard, the cover story, the backlash and Melodyne"
+		},
+		{
+			"kind": "article",
+			"title": "Recording Cher's 'Believe'",
+			"authors": [
+				{
+					"family": "Sillitoe",
+					"given": "Sue"
+				},
+				{
+					"family": "Bell",
+					"given": "Matt"
+				}
+			],
+			"container": "Sound On Sound",
+			"published": "1999-02",
+			"url": "https://www.soundonsound.com/sos/feb99/articles/tracks661.htm",
+			"accessed": "2026-11-10",
+			"note": "Read in the Wayback Machine's copy of December 2005"
+		},
+		{
+			"kind": "recording",
+			"title": "Believe",
+			"authors": [
+				{
+					"name": "Cher"
+				}
+			],
+			"recorded": "1998",
+			"container": "Believe",
+			"publisher": "WEA",
+			"number": "3984 25319 2",
+			"published": "1998",
+			"url": "https://musicbrainz.org/release/b89efb32-1c23-3f36-b9e8-a26de463002a",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Produced by Mark Taylor and Brian Rawling; MusicBrainz's record of the UK album"
+		},
+		{
+			"kind": "recording",
+			"title": "808s & Heartbreak",
+			"authors": [
+				{
+					"family": "West",
+					"given": "Kanye"
+				}
+			],
+			"recorded": "2008",
+			"publisher": "Roc-A-Fella Records",
+			"number": "B0012198-02",
+			"published": "2008",
+			"url": "https://musicbrainz.org/release/6cf64bc8-c7c8-34fe-ad15-b8b92f1a197d",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "MusicBrainz's record of the US CD"
+		},
+		{
+			"kind": "web",
+			"title": "The Company",
+			"container": "Celemony",
+			"publisher": "Celemony Software",
+			"url": "https://services.celemony.com/en/service1/about-celemony",
+			"accessed": "2026-11-10",
+			"note": "Melodyne first shown at the Winter NAMM Show, 2001"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "AutoTune",
+			"url": "https://en.wikipedia.org/w/index.php?title=AutoTune&oldid=1384121057",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-06",
+			"key": true,
+			"note": "Its release, its use and its reception"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Believe (Cher song)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Believe_(Cher_song)&oldid=1384100547",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-06",
+			"note": "The Cher effect in Antares's manual"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "808s & Heartbreak",
+			"url": "https://en.wikipedia.org/w/index.php?title=808s_%26_Heartbreak&oldid=1384077279",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "D.O.A. (Death of Auto-Tune)",
+			"url": "https://en.wikipedia.org/w/index.php?title=D.O.A._(Death_of_Auto-Tune)&oldid=1369854885",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "T-Pain",
+			"url": "https://en.wikipedia.org/w/index.php?title=T-Pain&oldid=1378392697",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Celemony Software",
+			"url": "https://en.wikipedia.org/w/index.php?title=Celemony_Software&oldid=1382162214",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Autocorrelation",
+			"url": "https://en.wikipedia.org/w/index.php?title=Autocorrelation&oldid=1380364624",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-15"
+		},
+		{
+			"kind": "media",
+			"title": "WKTU-FM's Miracle on 34th Street Show, New York, 1998 (cropped)",
+			"authors": [
+				{
+					"family": "Abancourt",
+					"given": "M"
+				}
+			],
+			"published": "1998",
+			"url": "https://commons.wikimedia.org/wiki/File:WKTU-FM%27s_Miracle_on_34th_Street_show_-_New_York_-_seen_on_December_11,_1998_Cropped.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC BY 2.0",
+			"file": "cher-1998.jpg"
+		}
+	]
+}

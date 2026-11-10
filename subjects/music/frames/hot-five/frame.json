@@ -1,0 +1,332 @@
+{
+	"id": "hot-five",
+	"topic": "Armstrong's Hot Five and jazz",
+	"position": {
+		"label": "1925–28",
+		"sort": 1925
+	},
+	"scene": {
+		"headline": "Jazz turned to the",
+		"accent": "SOLO.",
+		"palette": "sheet",
+		"illustration": "scene.svg",
+		"metadata": [
+			"OKEH STUDIO · CHICAGO · 1925–28",
+			"LOUIS ARMSTRONG · LIL HARDIN ARMSTRONG · EARL HINES"
+		],
+		"counter": {
+			"value": "$50",
+			"label": "for Louis's and Lil's first tunes, outright"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "48. Louis Armstrong: West End Blues (for Unit 6: Further Musical Understanding)",
+			"container": "A Level Music, Teaching and Learning Materials",
+			"publisher": "Pearson Education",
+			"url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Music/2013/Teaching%20and%20learning%20materials/Unit%206%20-%2048.%20Louis%20Armstrong%20and%20his%20Hot%20Five%20-%20West%20End%20Blues.pdf",
+			"accessed": "2026-11-10",
+			"note": "The recording bar by bar: its form, key, cadenza and solos"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Hot Five Centennial Celebration Part 1: Birth of the Hot",
+			"authors": [
+				{
+					"family": "Riccardi",
+					"given": "Ricky"
+				}
+			],
+			"container": "That's My Home: Louis Armstrong House Museum Virtual Exhibits",
+			"publisher": "Louis Armstrong House Museum",
+			"published": "2025-11-12",
+			"url": "https://virtualexhibits.louisarmstronghouse.org/2025/11/12/hot-five-centennial-celebration-part-1-birth-of-the-hot/",
+			"accessed": "2026-11-10",
+			"note": "Lil Hardin's part, the first session and the $50 sale"
+		},
+		{
+			"kind": "web",
+			"title": "Hot Five Centennial Celebration Part 4: Contemporary Coverage of the Hot Five, 1926–1940",
+			"authors": [
+				{
+					"family": "Riccardi",
+					"given": "Ricky"
+				}
+			],
+			"container": "That's My Home: Louis Armstrong House Museum Virtual Exhibits",
+			"publisher": "Louis Armstrong House Museum",
+			"published": "2025-12-04",
+			"url": "https://virtualexhibits.louisarmstronghouse.org/2025/12/04/hot-five-centennial-celebration-part-4-contemporary-coverage-of-the-hot-five-1926-1940/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Hot Five Centennial Celebration Part 10: Later Reissues in the LP and CD Eras",
+			"authors": [
+				{
+					"family": "Riccardi",
+					"given": "Ricky"
+				}
+			],
+			"container": "That's My Home: Louis Armstrong House Museum Virtual Exhibits",
+			"publisher": "Louis Armstrong House Museum",
+			"published": "2026-01-07",
+			"url": "https://virtualexhibits.louisarmstronghouse.org/2026/01/07/hot-five-centennial-celebration-part-10-later-reissues-in-the-lp-and-cd-era/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "recording",
+			"title": "West End Blues",
+			"authors": [
+				{
+					"family": "Armstrong",
+					"given": "Louis"
+				},
+				{
+					"name": "His Hot Five"
+				}
+			],
+			"recorded": "1928-06-28",
+			"publisher": "Okeh",
+			"number": "8597",
+			"published": "1928",
+			"url": "https://adp.library.ucsb.edu/index.php/matrix/refer/2000209787",
+			"accessed": "2026-11-10",
+			"note": "Matrix W400967, take B, Chicago, in the Discography of American Historical Recordings",
+			"read": "record"
+		},
+		{
+			"kind": "recording",
+			"title": "Livery Stable Blues",
+			"authors": [
+				{
+					"name": "Original Dixieland Jass Band"
+				}
+			],
+			"recorded": "1917-02-26",
+			"publisher": "Victor",
+			"number": "18255",
+			"published": "1917",
+			"url": "https://www.loc.gov/item/jukebox-186254/",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Matrix B-19331, take 1, in the Library of Congress's National Jukebox"
+		},
+		{
+			"kind": "book",
+			"title": "The Negro in Chicago: A Study of Race Relations and a Race Riot",
+			"authors": [
+				{
+					"name": "Chicago Commission on Race Relations"
+				}
+			],
+			"place": "Chicago",
+			"publisher": "University of Chicago Press",
+			"published": "1922",
+			"url": "https://archive.org/details/negroinchicagost00chic",
+			"accessed": "2026-11-10",
+			"note": "Chicago's Black population, 1910 and 1920"
+		},
+		{
+			"kind": "book",
+			"title": "Early Jazz: Its Roots and Musical Development",
+			"authors": [
+				{
+					"family": "Schuller",
+					"given": "Gunther"
+				}
+			],
+			"place": "New York",
+			"publisher": "Oxford University Press",
+			"published": "1968",
+			"citedIn": "48. Louis Armstrong: West End Blues (for Unit 6: Further Musical Understanding)"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Louis Armstrong",
+			"url": "https://en.wikipedia.org/w/index.php?title=Louis_Armstrong&oldid=1384444787",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Louis Armstrong and His Hot Five",
+			"url": "https://en.wikipedia.org/w/index.php?title=Louis_Armstrong_and_His_Hot_Five&oldid=1371348130",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "West End Blues",
+			"url": "https://en.wikipedia.org/w/index.php?title=West_End_Blues&oldid=1362211639",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lil Hardin Armstrong",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lil_Hardin_Armstrong&oldid=1384097874",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "King Oliver",
+			"url": "https://en.wikipedia.org/w/index.php?title=King_Oliver&oldid=1384573090",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Original Dixieland Jass Band",
+			"url": "https://en.wikipedia.org/w/index.php?title=Original_Dixieland_Jass_Band&oldid=1380425863",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Livery Stable Blues",
+			"url": "https://en.wikipedia.org/w/index.php?title=Livery_Stable_Blues&oldid=1370560515",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gennett Records",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gennett_Records&oldid=1370757830",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Great Migration (African American)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Great_Migration_(African_American)&oldid=1384592849",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Scat singing",
+			"url": "https://en.wikipedia.org/w/index.php?title=Scat_singing&oldid=1368890950",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Okeh Records",
+			"url": "https://en.wikipedia.org/w/index.php?title=Okeh_Records&oldid=1382198134",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Earl Hines",
+			"url": "https://en.wikipedia.org/w/index.php?title=Earl_Hines&oldid=1375616928",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-18"
+		},
+		{
+			"kind": "media",
+			"title": "West End Blues: Here Is the Marvel! (advertisement)",
+			"authors": [
+				{
+					"name": "Okeh Phonograph Corporation"
+				}
+			],
+			"container": "The Pittsburgh Courier, August 18, 1928, p. 3",
+			"published": "1928-08-18",
+			"url": "https://commons.wikimedia.org/wiki/File:West_End_Blues_Louis_Armstrong_Okeh_Ad_1928.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "okeh-ad.jpg",
+			"note": "Published in the United States in 1928"
+		}
+	]
+}

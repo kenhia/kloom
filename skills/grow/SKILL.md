@@ -362,8 +362,8 @@ knowledge is not a source.
   `YYYY-MM` or `YYYY-MM-DD`; a shorter year for a work before AD 1000
   (`"888"`, no leading zero); or a year BC (`"1550 BC"`). The kinds are
   `web`, `wikipedia`, `book`, `article`, `chapter`, `report`, `media`,
-  `letter`, `encyclopedia`, `diary`, `case`, `statute`, `treaty` and
-  `lecture`. A **`diary`** entry is the diary
+  `letter`, `encyclopedia`, `diary`, `case`, `statute`, `treaty`,
+  `lecture` and `recording`. A **`diary`** entry is the diary
   as `title`, the entry's date as `written` (required), and the edition's
   `editors`, `place`, `publisher` and `published`: "Pepys, Samuel. Diary
   entry, November 14, 1666, in _The Diary of Samuel Pepys_, edited by
@@ -411,7 +411,21 @@ knowledge is not a source.
   `container` and `publisher` (`"NobelPrize.org"`, `"Nobel Prize
 Outreach"`): "Kornberg, Arthur. "The Biologic Synthesis of
   Deoxyribonucleic Acid." Nobel Lecture, Stockholm, December 11, 1959.
-  NobelPrize.org." Keep the occasion out of the `title`. A lecture read in
+  NobelPrize.org." Keep the occasion out of the `title`. **A
+  recording** (a cylinder, a disc, a tape) is `recording`: its performers
+  as `authors`, the day it was made in `recorded`, the label as
+  `publisher` and the catalog number as `number`, the release year in
+  `published`, an album in `container`, and the page that holds it (the
+  National Jukebox, Commons) as `url`: "Smith, Mamie. _Crazy Blues_.
+  Recorded August 10, 1920. Okeh 4169, 1920." (a track on an album
+  is quoted, the album in `container`). kloom plays no audio, so a
+  reading describes what is heard and cites the recording (sprint 058).
+  An author cannot listen either: what a recording sounds like comes from
+  a written description (a registry essay, a review, the score), said as
+  such, and the citation carries `read: "record"`. A recording still in
+  copyright that is online only as someone's upload is not used, not even
+  measured: sprint 058 dropped chorus times taken from one, as it would a
+  pirated book's text. A lecture read in
   a printed volume with its pages is a `chapter` in that volume, and one a
   journal printed (the Bakerian Lectures in the _Philosophical
   Transactions_) an `article`. **An encyclopedia entry** is

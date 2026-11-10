@@ -1,0 +1,242 @@
+{
+	"id": "luther-chorale",
+	"topic": "Luther and the chorale",
+	"position": {
+		"label": "1524",
+		"sort": 1524
+	},
+	"scene": {
+		"headline": "We sang in our own",
+		"accent": "TONGUE.",
+		"palette": "woodcut",
+		"illustration": "scene.svg",
+		"metadata": ["WITTENBERG · NUREMBERG · ERFURT", "MARTIN LUTHER · JOHANN WALTER"],
+		"counter": {
+			"value": "24 of 32",
+			"label": "songs by Luther in Walter's choir book"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/ninety-five-theses",
+			"why": "Luther's hymns of 1524 went out first as cheap printed broadsheets, the same trade in small, quick print that had carried his Ninety-five Theses across Germany from 1517."
+		},
+		{
+			"to": "music/palestrina",
+			"why": "Protestant and Catholic answers to one question: whether the words of church music should be heard."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Life and Letters of Martin Luther",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Preserved"
+				}
+			],
+			"edition": "2nd ed.",
+			"place": "Boston and New York",
+			"publisher": "Houghton Mifflin",
+			"published": "1914",
+			"url": "https://archive.org/details/lifelettersofmar00smituoft",
+			"accessed": "2026-11-10",
+			"note": "Luther's letter to Senfl of October 4, 1530, and his table talk on music, pp. 346–47"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Hymns of Martin Luther, Set to Their Original Melodies, with an English Version",
+			"editors": [
+				{
+					"family": "Bacon",
+					"given": "Leonard Woolsey"
+				},
+				{
+					"family": "Allen",
+					"given": "Nathan H."
+				}
+			],
+			"place": "New York",
+			"publisher": "Charles Scribner's Sons",
+			"published": "1883",
+			"url": "https://www.gutenberg.org/ebooks/417",
+			"accessed": "2026-11-10",
+			"note": "Luther's preface to Walter's choir book and Walter's memoir of Luther, in the introduction"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Die Melodien der deutschen evangelischen Kirchenlieder",
+			"authors": [
+				{
+					"family": "Zahn",
+					"given": "Johannes"
+				}
+			],
+			"volume": "4",
+			"place": "Gütersloh",
+			"publisher": "C. Bertelsmann",
+			"published": "1891",
+			"language": "de",
+			"url": "https://archive.org/details/1508286757bsb11304502/page/n401/mode/2up",
+			"accessed": "2026-11-10",
+			"note": "Ein feste Burg in its oldest form, no. 7377a, from Klug's hymnal of 1535, p. 396"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "First Lutheran hymnal",
+			"url": "https://en.wikipedia.org/w/index.php?title=First_Lutheran_hymnal&oldid=1384368001",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07",
+			"key": true,
+			"note": "The Achtliederbuch, its printer and its songs"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Erfurt Enchiridion",
+			"url": "https://en.wikipedia.org/w/index.php?title=Erfurt_Enchiridion&oldid=1277562869",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-02-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Eyn geystlich Gesangk Buchleyn",
+			"url": "https://en.wikipedia.org/w/index.php?title=Eyn_geystlich_Gesangk_Buchleyn&oldid=1384406301",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08",
+			"key": true,
+			"note": "Walter's choir book of 1524"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Johann Walter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Johann_Walter&oldid=1330672061",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-01-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "A Mighty Fortress Is Our God",
+			"url": "https://en.wikipedia.org/w/index.php?title=A_Mighty_Fortress_Is_Our_God&oldid=1379150228",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-08",
+			"key": true,
+			"note": "The hymn's date, first prints and tune"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lutheran chorale",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lutheran_chorale&oldid=1348202965",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Genevan Psalter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Genevan_Psalter&oldid=1378633889",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05",
+			"key": true,
+			"note": "Calvin's psalter and unison singing"
+		},
+		{
+			"kind": "recording",
+			"title": "A Mighty Fortress",
+			"authors": [
+				{
+					"name": "Trinity Choir"
+				}
+			],
+			"recorded": "1908-02-05",
+			"publisher": "Victor",
+			"number": "16159",
+			"url": "https://www.loc.gov/item/jukebox-125998/",
+			"container": "National Jukebox, Library of Congress",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "media",
+			"title": "Etlich Cristlich lider Lobgesang, und Psalm (the Achtliederbuch), title page",
+			"authors": [
+				{
+					"name": "Jobst Gutknecht (printer)"
+				}
+			],
+			"published": "1524",
+			"container": "Bayerische Staatsbibliothek",
+			"url": "https://commons.wikimedia.org/wiki/File:Achtliederbuchgruber136.3.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "achtliederbuch.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Wir glauben all an einen Gott, from Johann Walter's Geystliche gesangk Buchleyn",
+			"authors": [
+				{
+					"family": "Walter",
+					"given": "Johann"
+				}
+			],
+			"published": "1524",
+			"container": "Bayerische Staatsbibliothek",
+			"url": "https://commons.wikimedia.org/wiki/File:Luther-Walter-Wir-glauben-1524.png",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "walter-wir-glauben.jpg"
+		}
+	]
+}

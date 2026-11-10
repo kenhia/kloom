@@ -1,0 +1,35 @@
+{
+	"music/gramophone": [
+		["Emile Berliner", "emile-berliner"],
+		["disc record", "phonograph-record"],
+		["phonograph", "phonograph"],
+		["Thomas Edison", "thomas-edison"],
+		["phonautograph", "phonautograph"],
+		["shellac", "shellac"],
+		["Leo Baekeland", "leo-baekeland"],
+		["Deutsche Grammophon", "deutsche-grammophon"],
+		["Eldridge R. Johnson", "eldridge-r-johnson"],
+		["Victor Talking Machine Company", "victor-talking-machine-company"],
+		["Francis Barraud", "francis-barraud"],
+		["His Master's Voice", "his-masters-voice"],
+		["Enrico Caruso", "enrico-caruso"],
+		["Vesti la giubba", "vesti-la-giubba"]
+	],
+	"music/radio-music": [
+		["KDKA", "kdka-am"],
+		["Frank Conrad", "frank-conrad"],
+		["Lee de Forest", "lee-de-forest"],
+		["Nellie Melba", "nellie-melba"],
+		["Guglielmo Marconi", "guglielmo-marconi"],
+		["Heinrich Hertz", "heinrich-hertz"],
+		["amplitude modulation", "amplitude-modulation"],
+		["crystal set", "crystal-radio"],
+		["Reginald Fessenden", "reginald-fessenden"],
+		["John Reith", "john-reith-1st-baron-reith"],
+		["BBC", "bbc"],
+		["the Proms", "bbc-proms"],
+		["Radio Corporation of America", "rca-corporation"],
+		["ASCAP", "american-society-of-composers-authors-and-publishers"],
+		["BMI", "broadcast-music-inc"]
+	]
+}

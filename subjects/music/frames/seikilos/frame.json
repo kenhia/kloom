@@ -1,0 +1,217 @@
+{
+	"id": "seikilos",
+	"topic": "The Seikilos epitaph",
+	"position": {
+		"label": "c. 100",
+		"sort": 100
+	},
+	"scene": {
+		"headline": "A singing stone told us to",
+		"accent": "SHINE.",
+		"palette": "monochord",
+		"illustration": "scene.svg",
+		"metadata": ["TRALLES (AYDIN) · ASIA MINOR", "A MARBLE COLUMN · GREEK VOCAL NOTATION"],
+		"counter": {
+			"value": "12",
+			"label": "beats in every line of the song"
+		}
+	},
+	"connections": [
+		{
+			"to": "music/hurrian-hymn",
+			"why": "The Hurrian hymn from Ugarit is some fifteen centuries older and nearly whole, but scholars read its notation at least five ways; the Seikilos song is the oldest complete piece whose tune can be read with confidence."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Seikilos epitaph",
+			"url": "https://en.wikipedia.org/w/index.php?title=Seikilos_epitaph&oldid=1379206837",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-08",
+			"key": true,
+			"note": "The stone's discovery, travels and dating, the text and the word accents"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Song of Seikilos: A Musically Notated Ancient Greek Poem",
+			"authors": [
+				{
+					"family": "D'Angour",
+					"given": "Armand"
+				}
+			],
+			"container": "Antigone",
+			"published": "2021-12-07",
+			"url": "https://antigonejournal.com/2021/12/song-of-seikilos/",
+			"accessed": "2026-11-10",
+			"note": "The find, the flowerpot stand, the couplet's translation and the case against an epitaph"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Musici scriptores graeci: Supplementum, melodiarum reliquiae",
+			"editors": [
+				{
+					"family": "Jan",
+					"given": "Karl von"
+				}
+			],
+			"place": "Leipzig",
+			"publisher": "B. G. Teubner",
+			"published": "1899",
+			"language": "la",
+			"url": "https://archive.org/details/musiciscriptores00jank",
+			"accessed": "2026-11-10",
+			"note": "The song with its signs, p. 38, and its history, pp. 35–37"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Musici scriptores graeci",
+			"editors": [
+				{
+					"family": "Jan",
+					"given": "Karl von"
+				}
+			],
+			"place": "Leipzig",
+			"publisher": "B. G. Teubner",
+			"published": "1895",
+			"language": "la",
+			"url": "https://archive.org/details/musiciscriptoresjank",
+			"accessed": "2026-11-10",
+			"note": "Alypius's table of the Iastian key, diatonic, p. 378"
+		},
+		{
+			"kind": "book",
+			"title": "The Modes of Ancient Greek Music",
+			"authors": [
+				{
+					"family": "Monro",
+					"given": "D. B."
+				}
+			],
+			"place": "Oxford",
+			"publisher": "Clarendon Press",
+			"published": "1894",
+			"url": "https://www.gutenberg.org/ebooks/40288",
+			"accessed": "2026-11-10",
+			"note": "The melody and the word accents, and the note on Munro's reading of the last sign"
+		},
+		{
+			"kind": "recording",
+			"title": "(a) Hymn to the Sun; (b) Epitaph of Seikilos",
+			"authors": [
+				{
+					"family": "Mandikian",
+					"given": "Arda"
+				}
+			],
+			"publisher": "His Master's Voice",
+			"number": "DA 2006",
+			"published": "1952",
+			"url": "https://archive.org/details/78_a-hymn-to-the-sun-b-epitaph-of-sikilos_arda-mandikian_gbia0076965a",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alypius of Alexandria",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alypius_of_Alexandria&oldid=1348695977",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Delphic Hymns",
+			"url": "https://en.wikipedia.org/w/index.php?title=Delphic_Hymns&oldid=1384646735",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mesomedes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mesomedes&oldid=1364841328",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Oxyrhynchus hymn",
+			"url": "https://en.wikipedia.org/w/index.php?title=Oxyrhynchus_hymn&oldid=1368167056",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-07"
+		},
+		{
+			"kind": "media",
+			"title": "The Seikilos column in the National Museum of Denmark",
+			"authors": [
+				{
+					"name": "Artem.G"
+				}
+			],
+			"published": "2023-09-30",
+			"url": "https://commons.wikimedia.org/wiki/File:Seikilos_epitaph_04.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC BY-SA 4.0",
+			"file": "stele.jpg",
+			"container": "National Museum of Denmark, Copenhagen"
+		},
+		{
+			"kind": "media",
+			"title": "The Seikilos song with its notation, in Jan's edition",
+			"editors": [
+				{
+					"family": "Jan",
+					"given": "Karl von"
+				}
+			],
+			"container": "Musici scriptores graeci: Supplementum, melodiarum reliquiae, p. 38",
+			"place": "Leipzig",
+			"publisher": "B. G. Teubner",
+			"published": "1899",
+			"url": "https://archive.org/details/musiciscriptores00jank/page/n41",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "jan-1899.jpg",
+			"note": "Published in Leipzig in 1899"
+		}
+	]
+}

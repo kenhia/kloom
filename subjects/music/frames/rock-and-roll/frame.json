@@ -1,0 +1,339 @@
+{
+	"id": "rock-and-roll",
+	"topic": "Rock and roll",
+	"position": {
+		"label": "1954",
+		"sort": 1954
+	},
+	"scene": {
+		"headline": "We learned to rock and",
+		"accent": "ROLL.",
+		"palette": "valve",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SUN STUDIO · 706 UNION AVENUE, MEMPHIS",
+			"SAM PHILLIPS · ELVIS PRESLEY · SCOTTY MOORE · BILL BLACK"
+		],
+		"counter": {
+			"value": "$20",
+			"label": "paid each player on \"Rocket 88\""
+		}
+	},
+	"connections": [
+		{
+			"to": "music/magnetic-tape",
+			"why": "Sun’s slapback echo came from Ampex tape recorders, the machines whose arrival in American studios that frame tells."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Rock and roll",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rock_and_roll&oldid=1384695344",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09",
+			"note": "The contenders for the first record, the covers, the backbeat"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Rocket 88",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rocket_88&oldid=1383486990",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-02",
+			"note": "The session, the broken amplifier, the pay and the debate"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "That's All Right",
+			"url": "https://en.wikipedia.org/w/index.php?title=That's_All_Right&oldid=1382029145",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-26",
+			"note": "The session of 5 July 1954 and the release"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sam Phillips (record producer)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sam_Phillips_(record_producer)&oldid=1378836836",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Sun Records",
+			"url": "https://en.wikipedia.org/w/index.php?title=Sun_Records&oldid=1376841445",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alan Freed",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alan_Freed&oldid=1383832088",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Maybellene",
+			"url": "https://en.wikipedia.org/w/index.php?title=Maybellene&oldid=1382955040",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-31"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tutti Frutti (song)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tutti_Frutti_(song)&oldid=1384348450",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Delay (audio effect)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Delay_(audio_effect)&oldid=1384660916",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Payola",
+			"url": "https://en.wikipedia.org/w/index.php?title=Payola&oldid=1383837182",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Asa Earl Carter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Asa_Earl_Carter&oldid=1382393693",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rock Around the Clock",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rock_Around_the_Clock&oldid=1377539739",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "web",
+			"title": "Tor Halmrast: Sam Phillips: Slap Back Echo, Luckily in Mono",
+			"authors": [
+				{
+					"family": "Bennett",
+					"given": "Joe"
+				}
+			],
+			"container": "joebennett.net",
+			"published": "2017-12-02",
+			"url": "https://joebennett.net/?p=25083",
+			"accessed": "2026-11-10",
+			"note": "A report of Halmrast’s talk and its measured delays"
+		},
+		{
+			"kind": "statute",
+			"title": "Communications Act Amendments, 1960",
+			"publicLaw": "86-752",
+			"code": {
+				"volume": "74",
+				"name": "Stat.",
+				"page": "889"
+			},
+			"published": "1960-09-13",
+			"container": "United States Statutes at Large",
+			"publisher": "govinfo, US Government Publishing Office",
+			"url": "https://www.govinfo.gov/content/pkg/STATUTE-74/pdf/STATUTE-74-Pg889.pdf",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "recording",
+			"title": "That's All Right",
+			"authors": [
+				{
+					"family": "Presley",
+					"given": "Elvis"
+				},
+				{
+					"family": "Moore",
+					"given": "Scotty"
+				},
+				{
+					"family": "Black",
+					"given": "Bill"
+				}
+			],
+			"recorded": "1954-07-05",
+			"publisher": "Sun",
+			"number": "209",
+			"published": "1954",
+			"url": "https://musicbrainz.org/release/d92d24c0-26e2-4f03-9043-b61947103b82",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "With \"Blue Moon of Kentucky\" on the other side"
+		},
+		{
+			"kind": "recording",
+			"title": "That's All Right",
+			"authors": [
+				{
+					"family": "Crudup",
+					"given": "Arthur"
+				}
+			],
+			"recorded": "1946-09",
+			"publisher": "RCA Victor",
+			"number": "20-2205",
+			"published": "1947",
+			"url": "https://musicbrainz.org/release/396b3a6d-f2ef-478d-9e1e-51dcf7602728",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "recording",
+			"title": "Rocket \"88\"",
+			"authors": [
+				{
+					"name": "Jackie Brenston and His Delta Cats"
+				}
+			],
+			"recorded": "1951-03",
+			"publisher": "Chess",
+			"number": "1458",
+			"published": "1951",
+			"url": "https://musicbrainz.org/release/d7e74952-35c8-4ec6-ba62-8a30a63c1f89",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Ike Turner and his Kings of Rhythm"
+		},
+		{
+			"kind": "recording",
+			"title": "Tutti Frutti",
+			"authors": [
+				{
+					"name": "Little Richard and His Band"
+				}
+			],
+			"recorded": "1955-09-14",
+			"publisher": "Specialty",
+			"number": "561",
+			"published": "1955",
+			"url": "https://musicbrainz.org/release/fbf53f6d-4bb1-4171-a86c-2748cbfc9e76",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "recording",
+			"title": "Maybellene",
+			"authors": [
+				{
+					"name": "Chuck Berry and His Combo"
+				}
+			],
+			"publisher": "Chess",
+			"number": "1604",
+			"published": "1955",
+			"url": "https://musicbrainz.org/release/dbf6220e-702a-44ff-b8fc-2ad1f8cd6577",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "media",
+			"title": "Sun Studio, Memphis Recording Service",
+			"authors": [
+				{
+					"name": "jglazer75"
+				}
+			],
+			"published": "2006-09-04",
+			"url": "https://commons.wikimedia.org/wiki/File:Sun_Studio,_Memphis_Recording_Service.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC BY 2.0",
+			"file": "sun-studio.jpg"
+		}
+	]
+}

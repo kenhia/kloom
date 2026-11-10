@@ -1,0 +1,9 @@
+{
+	"id": "frequency-modulation-synthesis",
+	"wikidata": "Q1141651",
+	"name": "Frequency modulation synthesis",
+	"aliases": ["FM synthesis", "frequency modulation synthesis"],
+	"kind": "idea",
+	"description": "A way of making sound in which one oscillator varies another's frequency at an audible rate, producing rich spectra from two sine waves; John Chowning's discovery, licensed to Yamaha.",
+	"home": "music/fm-synthesis"
+}

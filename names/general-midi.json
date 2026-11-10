@@ -1,0 +1,8 @@
+{
+	"id": "general-midi",
+	"wikidata": "Q1195931",
+	"name": "General MIDI",
+	"aliases": ["GM", "GM 1"],
+	"kind": "idea",
+	"description": "Standard of 1991 that fixes what MIDI's program numbers mean (1 a grand piano, 41 a violin) and the least a compliant instrument must do."
+}

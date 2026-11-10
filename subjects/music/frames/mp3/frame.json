@@ -1,0 +1,266 @@
+{
+	"id": "mp3",
+	"topic": "The MP3",
+	"position": {
+		"label": "1995",
+		"sort": 1995
+	},
+	"scene": {
+		"headline": "We threw away the",
+		"accent": "INAUDIBLE.",
+		"palette": "pixel",
+		"illustration": "scene.svg",
+		"metadata": ["FRAUNHOFER IIS · ERLANGEN", "MPEG-1 AUDIO LAYER III · KARLHEINZ BRANDENBURG"],
+		"counter": {
+			"value": "11 ×",
+			"label": "smaller than a CD, at 128 kbit/s"
+		}
+	},
+	"connections": [
+		{
+			"to": "mathematics/fourier",
+			"why": "An MP3 encoder finds what the ear will miss with a 1,024-point fast Fourier transform and stores the sound as the weights of cosine waves (a modified discrete cosine transform), the series and the fast algorithm that frame describes."
+		},
+		{
+			"to": "music/compact-disc",
+			"why": "The MP3 is measured against the compact disc's 1,411.2 kilobits a second."
+		}
+	],
+	"citations": [
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "MP3 and AAC Explained",
+			"authors": [
+				{
+					"family": "Brandenburg",
+					"given": "Karlheinz"
+				}
+			],
+			"container": "Proceedings of the AES 17th International Conference: High-Quality Audio Coding",
+			"place": "Florence",
+			"publisher": "Audio Engineering Society",
+			"published": "1999-09",
+			"url": "https://www.ee.columbia.edu/~dpwe/papers/Brand99-mp3.pdf",
+			"accessed": "2026-11-10",
+			"note": "The perceptual coder's four parts, the Layer III encoder and its artifacts; read in a copy on a Columbia University course page"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "30 Years of .mp3: Three Letters That Changed the World",
+			"container": "Fraunhofer IIS",
+			"publisher": "Fraunhofer Institute for Integrated Circuits IIS",
+			"published": "2025",
+			"url": "https://www.iis.fraunhofer.de/en/magazin/panorama/2025/30-years-of-mp3.html",
+			"accessed": "2026-11-10",
+			"note": "The email poll of 14 July 1995, the team, and the licensing revenue"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Tom's Essay",
+			"authors": [
+				{
+					"family": "Vega",
+					"given": "Suzanne"
+				}
+			],
+			"container": "The New York Times, Measure for Measure",
+			"published": "2008-09-23",
+			"url": "https://opinionator.blogs.nytimes.com/2008/09/23/toms-essay/",
+			"accessed": "2026-11-10",
+			"note": "Quotes Brandenburg from Business 2.0 and tells of her 2007 visit to Erlangen"
+		},
+		{
+			"kind": "case",
+			"key": true,
+			"title": "Recording Industry Ass'n of America v. Diamond Multimedia Systems, Inc.",
+			"reporter": {
+				"volume": "180",
+				"name": "F.3d",
+				"page": "1072"
+			},
+			"court": "9th Cir.",
+			"published": "1999-06-15",
+			"url": "https://static.case.law/f3d/180/html/1072-01.html",
+			"container": "Caselaw Access Project",
+			"publisher": "Harvard Law School Library",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "case",
+			"title": "A&M Records, Inc. v. Napster, Inc.",
+			"reporter": {
+				"volume": "239",
+				"name": "F.3d",
+				"page": "1004"
+			},
+			"court": "9th Cir.",
+			"published": "2001-02-12",
+			"url": "https://static.case.law/f3d/239/html/1004-01.html",
+			"container": "Caselaw Access Project",
+			"publisher": "Harvard Law School Library",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "MP3",
+			"url": "https://en.wikipedia.org/w/index.php?title=MP3&oldid=1384659880",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09",
+			"key": true,
+			"note": "The history, the standard, the bit rates and the patents' expiry"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tom's Diner",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tom's_Diner&oldid=1381375490",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-22",
+			"note": "Brandenburg's account in the 2009 SVT documentary"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Auditory masking",
+			"url": "https://en.wikipedia.org/w/index.php?title=Auditory_masking&oldid=1307696617",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-08-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Napster",
+			"url": "https://en.wikipedia.org/w/index.php?title=Napster&oldid=1382156297",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Rio PMP300",
+			"url": "https://en.wikipedia.org/w/index.php?title=Rio_PMP300&oldid=1383319739",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Winamp",
+			"url": "https://en.wikipedia.org/w/index.php?title=Winamp&oldid=1384566063",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "article",
+			"title": "Transform Coding of Audio Signals Using Perceptual Noise Criteria",
+			"authors": [
+				{
+					"family": "Johnston",
+					"given": "James D."
+				}
+			],
+			"container": "IEEE Journal on Selected Areas in Communications",
+			"volume": "6",
+			"issue": "2",
+			"pages": "314–323",
+			"published": "1988-02",
+			"doi": "10.1109/49.608",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "On the 20th Birthday of the MP3, an Interview with the 'Father' of the MP3, Karlheinz Brandenburg",
+			"authors": [
+				{
+					"family": "McCullough",
+					"given": "Brian"
+				}
+			],
+			"container": "Internet History Podcast",
+			"published": "2015-07-13",
+			"url": "https://www.internethistorypodcast.com/2015/07/on-the-20th-birthday-of-the-mp3-an-interview-with-the-father-of-the-mp3-karlheinz-brandenburg",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "mp3",
+			"container": "Fraunhofer IIS",
+			"publisher": "Fraunhofer Institute for Integrated Circuits IIS",
+			"url": "https://www.iis.fraunhofer.de/en/ff/amm/consumer-electronics/mp3.html",
+			"accessed": "2026-11-10",
+			"note": "The end of the licensing program on 23 April 2017"
+		},
+		{
+			"kind": "recording",
+			"title": "Tom's Diner",
+			"authors": [
+				{
+					"family": "Vega",
+					"given": "Suzanne"
+				}
+			],
+			"container": "Solitude Standing",
+			"publisher": "A&M Records",
+			"number": "CD 5136",
+			"published": "1987-04",
+			"url": "https://musicbrainz.org/release/beee86e3-f5d4-4d5a-b985-0aa652360514",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "media",
+			"title": "Diamond Rio PMP300 MP3 player",
+			"authors": [
+				{
+					"name": "Targaryen"
+				}
+			],
+			"url": "https://commons.wikimedia.org/wiki/File:Diamond_Rio_PMP300.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC0",
+			"file": "rio.jpg",
+			"container": "Wikimedia Commons"
+		}
+	]
+}

@@ -1,0 +1,159 @@
+{
+	"id": "jenny-lind",
+	"topic": "Jenny Lind's American tour",
+	"position": {
+		"label": "1850–52",
+		"sort": 1850
+	},
+	"scene": {
+		"headline": "America caught Lind",
+		"accent": "FEVER.",
+		"palette": "gilt",
+		"illustration": "scene.svg",
+		"metadata": ["NEW YORK · CASTLE GARDEN · 11 SEPTEMBER 1850", "JENNY LIND · P. T. BARNUM"],
+		"counter": {
+			"value": "$712,161",
+			"label": "taken at 95 concerts, by Barnum's account"
+		}
+	},
+	"connections": [
+		{
+			"to": "music/laryngoscope",
+			"why": "García rebuilt Lind's voice in Paris in 1841."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Struggles and Triumphs: Or, Forty Years' Recollections of P. T. Barnum",
+			"authors": [
+				{
+					"family": "Barnum",
+					"given": "P. T."
+				}
+			],
+			"place": "Hartford",
+			"publisher": "J. B. Burr and Company",
+			"published": "1869",
+			"url": "https://archive.org/details/strugglestriumph00barn_0",
+			"accessed": "2026-11-10",
+			"note": "The contract, pp. 275–80; arrival and first concert, pp. 286–97; Havana, pp. 319–21; the receipts, p. 354"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Jenny Lind's First Concert: Great Triumph of the Nightingale; Her Donation of $10,000 to the City Charities",
+			"container": "New-York Daily Tribune",
+			"published": "1850-09-12",
+			"pages": "1",
+			"url": "https://www.loc.gov/resource/sn83030213/1850-09-12/ed-1/?sp=1",
+			"accessed": "2026-11-10",
+			"note": "Read in Chronicling America's text of the page"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jenny Lind's tour of America",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jenny_Lind's_tour_of_America&oldid=1384360813",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07",
+			"key": true,
+			"note": "The contract, the tour and its legacy"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jenny Lind",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jenny_Lind&oldid=1379327109",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Castle Clinton",
+			"url": "https://en.wikipedia.org/w/index.php?title=Castle_Clinton&oldid=1379336818",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "His Majesty's Theatre, London",
+			"url": "https://en.wikipedia.org/w/index.php?title=His_Majesty's_Theatre,_London&oldid=1384111435",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-06"
+		},
+		{
+			"kind": "book",
+			"title": "Garcia the Centenarian and His Times: Being a Memoir of Manuel Garcia's Life and Labours for the Advancement of Music and Science",
+			"authors": [
+				{
+					"family": "Mackinlay",
+					"given": "M. Sterling"
+				}
+			],
+			"place": "Edinburgh and London",
+			"publisher": "William Blackwood and Sons",
+			"published": "1908",
+			"url": "https://archive.org/details/garciacentenaria00mack",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "media",
+			"title": "Castle Gardens, The Second Deluge, First Appearance of Jenny Lind in America",
+			"authors": [
+				{
+					"name": "William Schaus (publisher)"
+				}
+			],
+			"published": "1850",
+			"container": "Metropolitan Museum of Art, New York",
+			"number": "54.90.661",
+			"url": "https://commons.wikimedia.org/wiki/File:Castle_Gardens,_The_Second_Deluge,_First_Appearance_of_Jenny_Lind_in_America_MET_DP808181.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC0",
+			"file": "deluge.jpg"
+		},
+		{
+			"kind": "media",
+			"title": "Average receipts a concert in eight cities of Jenny Lind's tour under Barnum, 1850–51",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Barnum, Struggles and Triumphs (1869), p. 354",
+			"url": "https://archive.org/details/strugglestriumph00barn_0/page/n391",
+			"accessed": "2026-11-10",
+			"licence": "MIT",
+			"file": "receipts.svg"
+		}
+	]
+}

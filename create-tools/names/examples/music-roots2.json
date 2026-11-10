@@ -1,0 +1,36 @@
+{
+	"music/blues-record": [
+		["Mamie Smith", "mamie-smith"],
+		["Crazy Blues", "crazy-blues"],
+		["Perry Bradford", "perry-bradford"],
+		["Okeh Records", "okeh-records"],
+		["blues", "blues"],
+		["W. C. Handy", "w-c-handy"],
+		["St. Louis Blues", "saint-louis-blues-song"],
+		["twelve-bar blues", "twelve-bar-blues"],
+		["race record", "race-record"],
+		["Paramount Records", "paramount-records"],
+		["Black Swan Records", "black-swan-records"],
+		["Bessie Smith", "bessie-smith"],
+		["Ma Rainey", "ma-rainey"],
+		["Blind Lemon Jefferson", "blind-lemon-jefferson"],
+		["Charley Patton", "charley-patton"]
+	],
+	"music/hot-five": [
+		["Okeh", "okeh-records"],
+		["Louis Armstrong", "louis-armstrong"],
+		["West End Blues", "west-end-blues"],
+		["King Oliver", "king-oliver"],
+		["jazz", "jazz"],
+		["New Orleans", "new-orleans"],
+		["Great Migration", "great-migration-african-american"],
+		["Chicago", "chicago"],
+		["Original Dixieland Jass Band", "original-dixieland-jass-band"],
+		["Livery Stable Blues", "livery-stable-blues"],
+		["Gennett Records", "gennett-records"],
+		["Lil Hardin", "lil-hardin-armstrong"],
+		["Louis Armstrong and His Hot Five", "louis-armstrong-and-his-hot-five"],
+		["scat singing", "scat-singing"],
+		["Earl Hines", "earl-hines"]
+	]
+}

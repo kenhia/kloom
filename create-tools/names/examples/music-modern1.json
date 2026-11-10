@@ -1,0 +1,36 @@
+{
+	"music/twelve-tone": [
+		["Arnold Schoenberg", "arnold-schoenberg"],
+		["Vienna", "vienna"],
+		["Suite for Piano", "suite-for-piano-schoenberg"],
+		["_Pierrot lunaire_", "pierrot-lunaire"],
+		["Skandalkonzert", "skandalkonzert"],
+		["Alban Berg", "alban-berg"],
+		["twelve-tone technique", "twelve-tone-technique"],
+		["Klein four-group", "klein-four-group"],
+		["Josef Matthias Hauer", "josef-matthias-hauer"],
+		["Anton Webern", "anton-webern"],
+		["Second Viennese School", "second-viennese-school"],
+		["Prussian Academy of Arts", "prussian-academy-of-arts"],
+		["Nazi Germany", "nazi-germany"],
+		["degenerate music", "degenerate-music"],
+		["Los Angeles", "los-angeles"]
+	],
+	"music/electric-guitar": [
+		["Los Angeles", "los-angeles"],
+		["George Beauchamp", "george-beauchamp"],
+		["Adolph Rickenbacker", "adolph-rickenbacker"],
+		["electric guitar", "electric-guitar"],
+		["Rickenbacker", "rickenbacker"],
+		["pickup", "pickup-music-technology"],
+		["Faraday's law of induction", "faradays-law-of-induction"],
+		["Charlie Christian", "charlie-christian"],
+		["Benny Goodman", "benny-goodman"],
+		["Les Paul", "les-paul"],
+		["Leo Fender", "leo-fender"],
+		["Fender", "fender-company"],
+		["Telecaster", "fender-telecaster"],
+		["Gibson Les Paul", "gibson-les-paul"],
+		["Stratocaster", "fender-stratocaster"]
+	]
+}

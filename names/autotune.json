@@ -1,0 +1,9 @@
+{
+	"id": "autotune",
+	"wikidata": "Q784762",
+	"name": "AutoTune",
+	"aliases": ["Auto-Tune", "Auto Tune"],
+	"kind": "artifact",
+	"description": "Pitch-correction software released by Antares Audio Technologies in 1997, which measures a sung pitch and moves it to the nearest note of a chosen scale; at its fastest setting it makes the stepped, robotic sound first heard on Cher's \"Believe\".",
+	"home": "music/auto-tune"
+}

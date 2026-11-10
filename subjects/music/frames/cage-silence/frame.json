@@ -1,0 +1,245 @@
+{
+	"id": "cage-silence",
+	"topic": "Cage's 4′33″",
+	"position": {
+		"label": "1952",
+		"sort": 1952
+	},
+	"scene": {
+		"headline": "We listened to the",
+		"accent": "SILENCE.",
+		"palette": "valve",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MAVERICK CONCERT HALL · NEAR WOODSTOCK, NEW YORK",
+			"JOHN CAGE · DAVID TUDOR, PIANO · 29 AUGUST 1952"
+		],
+		"counter": {
+			"value": "273",
+			"label": "seconds, in three movements"
+		}
+	},
+	"connections": [
+		{
+			"to": "music/twelve-tone",
+			"why": "Cage studied composition with Schoenberg in Los Angeles."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "4′33″",
+			"url": "https://en.wikipedia.org/w/index.php?title=4%E2%80%B233%E2%80%B3&oldid=1383099023",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-01",
+			"note": "The premiere, the scores and their timings, and the Batt affair"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Experimental Music",
+			"authors": [
+				{
+					"family": "Cage",
+					"given": "John"
+				}
+			],
+			"container": "Silence: Lectures and Writings",
+			"place": "Middletown, CT",
+			"publisher": "Wesleyan University Press",
+			"published": "1961",
+			"url": "https://users.drew.edu/nlowrey/mus-101/texts/silence.html",
+			"accessed": "2026-11-10",
+			"read": "excerpt",
+			"note": "The anechoic chamber in Cage’s words; a lecture of 1957, read in an excerpt on a Drew University course page"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Cage’s Echoes of the Anechoic",
+			"authors": [
+				{
+					"family": "Hagood",
+					"given": "Mack"
+				}
+			],
+			"container": "Australian Humanities Review",
+			"issue": "70",
+			"published": "2022-11",
+			"url": "https://australianhumanitiesreview.org/2022/11/30/cages-echoes-of-the-anechoic/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Cage",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Cage&oldid=1383242461",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Music of Changes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Music_of_Changes&oldid=1344153566",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Anechoic chamber",
+			"url": "https://en.wikipedia.org/w/index.php?title=Anechoic_chamber&oldid=1384314795",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "David Tudor",
+			"url": "https://en.wikipedia.org/w/index.php?title=David_Tudor&oldid=1371939482",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-29"
+		},
+		{
+			"kind": "web",
+			"title": "White Painting [three panel]",
+			"authors": [
+				{
+					"family": "Roberts",
+					"given": "Sarah"
+				}
+			],
+			"container": "Rauschenberg Research Project, San Francisco Museum of Modern Art",
+			"published": "2013-07",
+			"url": "https://www.sfmoma.org/essay/white-painting-three-panel/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "4′33″ (In Proportional Notation), 1952/1953",
+			"authors": [
+				{
+					"family": "Cage",
+					"given": "John"
+				}
+			],
+			"container": "Collection, Museum of Modern Art",
+			"url": "https://www.moma.org/collection/works/163616",
+			"accessed": "2026-11-10",
+			"note": "The Kremen manuscript, object number 1636.2012"
+		},
+		{
+			"kind": "web",
+			"title": "There Will Never Be Silence: Scoring John Cage’s 4′33″",
+			"container": "Museum of Modern Art",
+			"published": "2013-10",
+			"url": "https://www.moma.org/calendar/exhibitions/1386",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "article",
+			"title": "John Cage’s 4′33″: Is It Music?",
+			"authors": [
+				{
+					"family": "Davies",
+					"given": "Stephen"
+				}
+			],
+			"container": "Australasian Journal of Philosophy",
+			"volume": "75",
+			"issue": "4",
+			"pages": "448–462",
+			"published": "1997",
+			"doi": "10.1080/00048409712348031",
+			"accessed": "2026-11-10",
+			"read": "excerpt"
+		},
+		{
+			"kind": "article",
+			"title": "What 4′33″ Is",
+			"authors": [
+				{
+					"family": "Dodd",
+					"given": "Julian"
+				}
+			],
+			"container": "Australasian Journal of Philosophy",
+			"volume": "96",
+			"issue": "4",
+			"pages": "629–641",
+			"published": "2018",
+			"doi": "10.1080/00048402.2017.1408664",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "Silent Music Dispute Resolved",
+			"container": "BBC News",
+			"published": "2002-09-23",
+			"url": "http://news.bbc.co.uk/2/hi/entertainment/2276621.stm",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Revealed: What Really Happened When a Womble Took on John Cage",
+			"authors": [
+				{
+					"family": "McCormick",
+					"given": "Neil"
+				}
+			],
+			"container": "Telegraph Blogs",
+			"published": "2010-12-09",
+			"url": "http://blogs.telegraph.co.uk/culture/neilmccormick/100049693/revealed-what-really-happened-when-a-womble-took-on-john-cage/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "media",
+			"title": "Maverick Concert Hall",
+			"authors": [
+				{
+					"name": "John E. Leslie III"
+				}
+			],
+			"published": "2017-09-12",
+			"url": "https://commons.wikimedia.org/wiki/File:Maverick_Concert_Hall.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC BY-SA 4.0",
+			"file": "maverick.jpg"
+		}
+	]
+}

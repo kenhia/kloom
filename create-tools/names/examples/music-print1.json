@@ -1,0 +1,31 @@
+{
+	"music/petrucci": [
+		["Ottaviano Petrucci", "ottaviano-petrucci"],
+		["Venice", "venice"],
+		["Harmonice Musices Odhecaton A", "harmonice-musices-odhecaton"],
+		["Johannes Gutenberg", "johannes-gutenberg"],
+		["printing press", "printing-press"],
+		["Mainz Psalter", "mainz-psalter"],
+		["Johann Fust", "johann-fust"],
+		["Ulrich Han", "ulrich-han"],
+		["Francesco Griffo", "francesco-griffo"],
+		["Josquin des Prez", "josquin-des-prez"],
+		["Pierre Attaingnant", "pierre-attaingnant"]
+	],
+	"music/josquin": [
+		["Ottaviano Petrucci", "ottaviano-petrucci"],
+		["_Ave Maria … virgo serena_", "ave-maria-virgo-serena"],
+		["Josquin des Prez", "josquin-des-prez"],
+		["Milan", "milan"],
+		["Ascanio Sforza", "ascanio-sforza"],
+		["Sistine Chapel", "sistine-chapel"],
+		["Ferrara", "ferrara"],
+		["Ercole I d'Este", "ercole-i-deste"],
+		["Heinrich Isaac", "heinrich-isaac"],
+		["Condé-sur-l'Escaut", "conde-sur-lescaut"],
+		["imitation", "imitation-music"],
+		["Martin Luther", "martin-luther"],
+		["Johannes Mathesius", "johannes-mathesius"],
+		["Heinrich Glarean", "heinrich-glarean"]
+	]
+}

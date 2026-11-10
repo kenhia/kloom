@@ -1,0 +1,96 @@
+{
+	"title": "Victor Talking Machine Company records sold a year, 1919\u20131935, in millions",
+	"description": "Bar chart. Victor sold 30.9 million records in 1919 and a peak of 54.9 million in 1921, then between 25 and 41 million a year through 1929; sales fell to 17.7 million in 1930, 7.1 million in 1931 and a low of 3.1 million in 1932, and were 4.8 million in 1935. Data: Victor's sales by year, an exhibit in RCA v. Decca Records (1943), as printed by Mainspring Press.",
+	"heading": "VICTOR RECORDS SOLD A YEAR \u00b7 MILLIONS",
+	"unit": "",
+	"axis": {
+		"min": 0,
+		"max": 60,
+		"ticks": [
+			[0, "0"],
+			[20, "20"],
+			[40, "40"],
+			[60, "60"]
+		]
+	},
+	"bars": [
+		{
+			"label": "1919",
+			"value": 30.9
+		},
+		{
+			"label": "1920",
+			"value": 33.4
+		},
+		{
+			"label": "1921",
+			"value": 54.9,
+			"highlight": true
+		},
+		{
+			"label": "1922",
+			"value": 37.2
+		},
+		{
+			"label": "1923",
+			"value": 40.5
+		},
+		{
+			"label": "1924",
+			"value": 32.8
+		},
+		{
+			"label": "1925",
+			"value": 25.2
+		},
+		{
+			"label": "1926",
+			"value": 31.9
+		},
+		{
+			"label": "1927",
+			"value": 37.6
+		},
+		{
+			"label": "1928",
+			"value": 37.8
+		},
+		{
+			"label": "1929",
+			"value": 34.5
+		},
+		{
+			"label": "1930",
+			"value": 17.7
+		},
+		{
+			"label": "1931",
+			"value": 7.1
+		},
+		{
+			"label": "1932",
+			"value": 3.1,
+			"highlight": true
+		},
+		{
+			"label": "1933",
+			"value": 3.6
+		},
+		{
+			"label": "1934",
+			"value": 4.4
+		},
+		{
+			"label": "1935",
+			"value": 4.8
+		}
+	],
+	"width": 640,
+	"height": 300,
+	"barWidth": 26,
+	"source": {
+		"container": "Victor sales by year, exhibit in RCA v. Decca Records (S.D.N.Y. 1943), printed by Mainspring Press",
+		"url": "https://mainspringpress.org/2025/06/24/victor-record-sales-statistics-1901-1941-from-radio-corporation-of-america-v-decca-records-etc/",
+		"accessed": "2026-11-10"
+	}
+}

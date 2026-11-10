@@ -1,0 +1,262 @@
+{
+	"id": "fisk-jubilee",
+	"topic": "The Fisk Jubilee Singers",
+	"position": {
+		"label": "1871",
+		"sort": 1871
+	},
+	"scene": {
+		"headline": "Freed students sang their college out of",
+		"accent": "DEBT.",
+		"palette": "sheet",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NASHVILLE · FISK UNIVERSITY · 1871–78",
+			"ELLA SHEPPARD · GEORGE L. WHITE · THE SPIRITUALS"
+		],
+		"counter": {
+			"value": "$150,000",
+			"label": "raised by their tours, in Du Bois's count"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/abolition",
+			"why": "Fisk University opened in January 1866, weeks after the Thirteenth Amendment that frame ends on, to teach people just freed from slavery, and twenty of the first twenty-four Jubilee Singers had been enslaved."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Story of the Jubilee Singers; with Their Songs",
+			"authors": [
+				{
+					"family": "Marsh",
+					"given": "J. B. T."
+				}
+			],
+			"edition": "Rev. ed.",
+			"place": "Boston",
+			"publisher": "Houghton, Mifflin and Company",
+			"published": "1880",
+			"url": "https://archive.org/details/storyofjubileesi00mars_0",
+			"accessed": "2026-11-10",
+			"note": "The founding of Fisk, the tour of 1871 and its takings, the Queen, and the singers' own histories"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Jubilee Songs: As Sung by the Jubilee Singers, of Fisk University",
+			"editors": [
+				{
+					"family": "Seward",
+					"given": "Theodore F."
+				}
+			],
+			"place": "New York",
+			"publisher": "Biglow & Main",
+			"published": "1872",
+			"url": "https://archive.org/details/jubileesongsassu00jubi",
+			"accessed": "2026-11-10",
+			"note": "Seward's preface, pp. 2–3; \"Swing Low, Sweet Chariot,\" p. 6, from which the plate is drawn"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Souls of Black Folk: Essays and Sketches",
+			"authors": [
+				{
+					"family": "Du Bois",
+					"given": "W. E. B."
+				}
+			],
+			"place": "Chicago",
+			"publisher": "A. C. McClurg & Co.",
+			"published": "1903",
+			"url": "https://www.gutenberg.org/ebooks/408",
+			"accessed": "2026-11-10",
+			"note": "Chapter 14, \"Of the Sorrow Songs\""
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "“Swing Low, Sweet Chariot”—The Fisk University Jubilee Quartet (1909)",
+			"authors": [
+				{
+					"family": "Anderson",
+					"given": "Toni P."
+				}
+			],
+			"container": "National Recording Registry",
+			"publisher": "Library of Congress",
+			"url": "https://www.loc.gov/programs/static/national-recording-preservation-board/documents/Swing%20Low%20article.pdf",
+			"accessed": "2026-11-10",
+			"note": "The 1909 quartet and its sound, and the rival origins of the song"
+		},
+		{
+			"kind": "recording",
+			"title": "Swing Low, Sweet Chariot",
+			"authors": [
+				{
+					"family": "Work",
+					"given": "John Wesley"
+				},
+				{
+					"family": "Myers",
+					"given": "James A."
+				},
+				{
+					"family": "King",
+					"given": "Alfred Garfield"
+				},
+				{
+					"family": "Ryder",
+					"given": "Noah Walker"
+				}
+			],
+			"recorded": "1909-12-01",
+			"publisher": "Victor",
+			"number": "16453",
+			"published": "1910",
+			"url": "https://www.loc.gov/item/jukebox-128141/",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "The Fisk University Jubilee Quartet; matrix B-8420, take 3, Camden, New Jersey; released March 1910"
+		},
+		{
+			"kind": "web",
+			"title": "Victor 16453 (Black label (popular) 10-in. double-faced)",
+			"container": "Discography of American Historical Recordings",
+			"publisher": "UC Santa Barbara Library",
+			"url": "https://adp.library.ucsb.edu/index.php/objects/refer/10443",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "book",
+			"title": "The Jubilee Singers, and Their Campaign for Twenty Thousand Dollars",
+			"authors": [
+				{
+					"family": "Pike",
+					"given": "G. D."
+				}
+			],
+			"place": "Boston",
+			"publisher": "Lee and Shepard",
+			"published": "1873",
+			"url": "https://archive.org/details/singers00pike",
+			"accessed": "2026-11-10",
+			"note": "Beecher's letter to the Boston Lyceum Bureau, p. 116"
+		},
+		{
+			"kind": "article",
+			"title": "Historical Sketch of the Jubilee Singers",
+			"authors": [
+				{
+					"family": "Moore",
+					"given": "Ella Sheppard"
+				}
+			],
+			"container": "Fisk University News",
+			"volume": "2",
+			"issue": "5",
+			"published": "1911-10",
+			"citedIn": "Fisk Jubilee Singers"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fisk Jubilee Singers",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fisk_Jubilee_Singers&oldid=1361450935",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Fisk University",
+			"url": "https://en.wikipedia.org/w/index.php?title=Fisk_University&oldid=1382489308",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ella Sheppard",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ella_Sheppard&oldid=1382778008",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jubilee Hall (Fisk University)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jubilee_Hall_(Fisk_University)&oldid=1373465554",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Swing Low, Sweet Chariot",
+			"url": "https://en.wikipedia.org/w/index.php?title=Swing_Low,_Sweet_Chariot&oldid=1381228826",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "W. E. B. Du Bois",
+			"url": "https://en.wikipedia.org/w/index.php?title=W._E._B._Du_Bois&oldid=1383255895",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-01"
+		},
+		{
+			"kind": "media",
+			"title": "The Jubilee Singers",
+			"container": "The Story of the Jubilee Singers; with Their Songs, 6th ed. (London: Hodder and Stoughton)",
+			"published": "1876",
+			"url": "https://archive.org/details/storyofjubileesi00mars_3/page/n7",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"note": "A photograph published in London in 1876 as the book's frontispiece: Maggie Porter, E. W. Watkins, H. D. Alexander, F. J. Loudin, Thomas Rutling, Jennie Jackson, Mabel Lewis, Ella Sheppard, Maggie Carnes and America W. Robinson",
+			"file": "singers.jpg"
+		}
+	]
+}

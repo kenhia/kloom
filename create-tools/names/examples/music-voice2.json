@@ -1,0 +1,29 @@
+{
+	"music/crooner": [
+		["microphone", "microphone"],
+		["crooner", "crooner"],
+		["Rudy Vallée", "rudy-vallee"],
+		["Bing Crosby", "bing-crosby"],
+		["Paul Whiteman", "paul-whiteman"],
+		["ribbon microphone", "ribbon-microphone"],
+		["Harry F. Olson", "harry-f-olson"],
+		["Michael Faraday", "michael-faraday"],
+		["proximity effect", "proximity-effect-audio"],
+		["Cardinal O'Connell", "william-henry-oconnell"]
+	],
+	"music/auto-tune": [
+		["Cher", "cher"],
+		["Believe", "believe-cher-song"],
+		["Auto-Tune", "autotune"],
+		["reflection seismology", "reflection-seismology"],
+		["autocorrelation", "autocorrelation"],
+		["fast Fourier transform", "fast-fourier-transform"],
+		["equal temperament", "equal-temperament"],
+		["vocoder", "vocoder"],
+		["T-Pain", "t-pain"],
+		["Kanye West", "kanye-west"],
+		["_808s & Heartbreak_", "808s-and-heartbreak"],
+		["Jay-Z", "jay-z"],
+		["Celemony", "celemony-software"]
+	]
+}

@@ -1,0 +1,480 @@
+{
+	"id": "mozart-vienna",
+	"topic": "Mozart in Vienna",
+	"position": {
+		"label": "1781–91",
+		"sort": 1781
+	},
+	"scene": {
+		"headline": "Mozart went",
+		"accent": "FREELANCE.",
+		"palette": "salon",
+		"illustration": "scene.svg",
+		"metadata": ["VIENNA · 1781–1791", "PUPILS · SUBSCRIPTION CONCERTS · OPERA · PRINT"],
+		"counter": {
+			"value": "22",
+			"label": "engagements in 37 days, Lent 1784"
+		}
+	},
+	"connections": [
+		{
+			"to": "ai/mechanical-turk",
+			"why": "Joseph II staged Mozart's keyboard contest with Clementi on 24 December 1781 for the same Russian state visit for which he had Kempelen rebuild his chess-playing Turk."
+		},
+		{
+			"to": "music/haydn-london",
+			"why": "Mozart dined with Haydn and Salomon in December 1790 before Haydn left for London."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Letters of Wolfgang Amadeus Mozart (1769–1791)",
+			"authors": [
+				{
+					"family": "Mozart",
+					"given": "Wolfgang Amadeus"
+				}
+			],
+			"translators": [
+				{
+					"name": "Lady Wallace"
+				}
+			],
+			"editors": [
+				{
+					"family": "Nohl",
+					"given": "Ludwig"
+				}
+			],
+			"volume": "2",
+			"place": "New York",
+			"publisher": "Hurd and Houghton",
+			"published": "1866",
+			"url": "https://archive.org/details/lettersofwolfgan02moza",
+			"accessed": "2026-11-10",
+			"note": "Vol. 2: the archbishop's table, Arco, Clementi and the concerts of 1784, quoted from it"
+		},
+		{
+			"kind": "letter",
+			"key": true,
+			"title": "Mon trés cher Pére! (list of concerts, Lent 1784)",
+			"authors": [
+				{
+					"family": "Mozart",
+					"given": "Wolfgang Amadeus"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Mozart",
+					"given": "Leopold"
+				}
+			],
+			"written": "1784-03-03",
+			"container": "Mozart Briefe und Dokumente: Online-Edition",
+			"publisher": "Internationale Stiftung Mozarteum",
+			"language": "de",
+			"url": "https://dme.mozarteum.at/DME/briefe/letter.php?mid=1347",
+			"accessed": "2026-11-10",
+			"note": "Bauer/Deutsch 778: the twenty-two engagements the plate draws"
+		},
+		{
+			"kind": "letter",
+			"title": "Mon trés cher Pére! (Count Arco)",
+			"authors": [
+				{
+					"family": "Mozart",
+					"given": "Wolfgang Amadeus"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Mozart",
+					"given": "Leopold"
+				}
+			],
+			"written": "1781-06-09",
+			"container": "Mozart Briefe und Dokumente: Online-Edition",
+			"publisher": "Internationale Stiftung Mozarteum",
+			"language": "de",
+			"url": "https://dme.mozarteum.at/DME/briefe/letter.php?mid=1170",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "letter",
+			"title": "List of subscribers",
+			"authors": [
+				{
+					"family": "Mozart",
+					"given": "Wolfgang Amadeus"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Mozart",
+					"given": "Leopold"
+				}
+			],
+			"written": "1784-03-20",
+			"container": "Mozart Briefe und Dokumente: Online-Edition",
+			"publisher": "Internationale Stiftung Mozarteum",
+			"language": "de",
+			"url": "https://dme.mozarteum.at/DME/briefe/letter.php?mid=1349",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter from Vienna (the Mehlgrube concerts)",
+			"authors": [
+				{
+					"family": "Mozart",
+					"given": "Leopold"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Mozart",
+					"given": "Maria Anna"
+				}
+			],
+			"written": "1785-02-14",
+			"container": "Mozart Briefe und Dokumente: Online-Edition",
+			"publisher": "Internationale Stiftung Mozarteum",
+			"language": "de",
+			"url": "https://dme.mozarteum.at/DME/briefe/letter.php?mid=1416",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter from Vienna (the fortepiano carried)",
+			"authors": [
+				{
+					"family": "Mozart",
+					"given": "Leopold"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Mozart",
+					"given": "Maria Anna"
+				}
+			],
+			"written": "1785-03-12",
+			"container": "Mozart Briefe und Dokumente: Online-Edition",
+			"publisher": "Internationale Stiftung Mozarteum",
+			"language": "de",
+			"url": "https://dme.mozarteum.at/DME/briefe/letter.php?mid=1419",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "letter",
+			"title": "Letter from Vienna (2,000 florins)",
+			"authors": [
+				{
+					"family": "Mozart",
+					"given": "Leopold"
+				}
+			],
+			"recipients": [
+				{
+					"family": "Mozart",
+					"given": "Maria Anna"
+				}
+			],
+			"written": "1785-03-19",
+			"container": "Mozart Briefe und Dokumente: Online-Edition",
+			"publisher": "Internationale Stiftung Mozarteum",
+			"language": "de",
+			"url": "https://dme.mozarteum.at/DME/briefe/letter.php?mid=1421",
+			"accessed": "2026-11-10",
+			"note": "Known from Nissen's copy"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wolfgang Amadeus Mozart",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wolfgang_Amadeus_Mozart&oldid=1384590714",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09",
+			"key": true,
+			"note": "His salary, the Walter piano's price, the court post and the common grave"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mozart's personal catalog of works",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mozart's_personal_catalog_of_works&oldid=1360388035",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-21",
+			"key": true,
+			"note": "The catalog's first and last entries"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Death of Wolfgang Amadeus Mozart",
+			"url": "https://en.wikipedia.org/w/index.php?title=Death_of_Wolfgang_Amadeus_Mozart&oldid=1383529759",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Anton Walter",
+			"url": "https://en.wikipedia.org/w/index.php?title=Anton_Walter&oldid=1381573783",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Piano concertos by Wolfgang Amadeus Mozart",
+			"url": "https://en.wikipedia.org/w/index.php?title=Piano_concertos_by_Wolfgang_Amadeus_Mozart&oldid=1380260400",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Piano Concerto No. 20 (Mozart)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Piano_Concerto_No._20_(Mozart)&oldid=1374798700",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-14"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Marriage of Figaro",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Marriage_of_Figaro&oldid=1363772636",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mozart and Prague",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mozart_and_Prague&oldid=1376820819",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-26"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Madamina, il catalogo è questo",
+			"url": "https://en.wikipedia.org/w/index.php?title=Madamina,_il_catalogo_%C3%A8_questo&oldid=1369681150",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Muzio Clementi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Muzio_Clementi&oldid=1377335456",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Mechanical Turk",
+			"url": "https://en.wikipedia.org/w/index.php?title=Mechanical_Turk&oldid=1376154564",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Antonio Salieri",
+			"url": "https://en.wikipedia.org/w/index.php?title=Antonio_Salieri&oldid=1384666635",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "article",
+			"title": "Mozart in the Market-Place",
+			"authors": [
+				{
+					"family": "Moore",
+					"given": "Julia"
+				}
+			],
+			"container": "Journal of the Royal Musical Association",
+			"volume": "114",
+			"issue": "1",
+			"pages": "18–42",
+			"published": "1989",
+			"doi": "10.1093/jrma/114.1.18",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "book",
+			"title": "Mozart: A Life",
+			"authors": [
+				{
+					"family": "Solomon",
+					"given": "Maynard"
+				}
+			],
+			"place": "New York",
+			"publisher": "HarperCollins",
+			"published": "1995",
+			"citedIn": "Wolfgang Amadeus Mozart"
+		},
+		{
+			"kind": "book",
+			"title": "The Concerto: A Listener's Guide",
+			"authors": [
+				{
+					"family": "Steinberg",
+					"given": "Michael"
+				}
+			],
+			"place": "New York",
+			"publisher": "Oxford University Press",
+			"published": "1998",
+			"citedIn": "Piano Concerto No. 20 (Mozart)"
+		},
+		{
+			"kind": "article",
+			"title": "The Death of Wolfgang Amadeus Mozart: An Epidemiologic Perspective",
+			"authors": [
+				{
+					"family": "Zegers",
+					"given": "Richard H. C."
+				},
+				{
+					"family": "Weigl",
+					"given": "Andreas"
+				},
+				{
+					"family": "Steptoe",
+					"given": "Andrew"
+				}
+			],
+			"container": "Annals of Internal Medicine",
+			"volume": "151",
+			"issue": "4",
+			"pages": "274–278",
+			"published": "2009-08-18",
+			"doi": "10.7326/0003-4819-151-4-200908180-00010",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "Mozart's Piano Returns Home to Vienna",
+			"container": "Classic FM",
+			"published": "2012-10-25",
+			"url": "https://www.classicfm.com/composers/mozart/news/mozart-piano-vienna-return/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "recording",
+			"title": "Madamina, il catalogo è questo",
+			"authors": [
+				{
+					"family": "Rossi",
+					"given": "Arcangelo"
+				}
+			],
+			"recorded": "1905-05-01",
+			"publisher": "Victor",
+			"number": "31435",
+			"url": "https://www.loc.gov/item/jukebox-121643/",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Matrix C-2507-B, take 2; bass with orchestra"
+		},
+		{
+			"kind": "media",
+			"title": "Mozart's thematic catalogue, ff. 28v–29r",
+			"authors": [
+				{
+					"family": "Mozart",
+					"given": "Wolfgang Amadeus"
+				}
+			],
+			"published": "1791",
+			"container": "British Library, Zweig MS 63",
+			"url": "https://commons.wikimedia.org/wiki/File:Mozart_sketch_book_2.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "catalog.jpg"
+		}
+	]
+}

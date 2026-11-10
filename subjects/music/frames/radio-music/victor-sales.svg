@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-labelledby="t d">
+<title id="t">Victor Talking Machine Company records sold a year, 1919–1935, in millions</title>
+<desc id="d">Bar chart. Victor sold 30.9 million records in 1919 and a peak of 54.9 million in 1921, then between 25 and 41 million a year through 1929; sales fell to 17.7 million in 1930, 7.1 million in 1931 and a low of 3.1 million in 1932, and were 4.8 million in 1935. Data: Victor's sales by year, an exhibit in RCA v. Decca Records (1943), as printed by Mainspring Press.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="620" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="620" y1="178.7" y2="178.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="182.7" text-anchor="end">20</text>
+<line x1="64" x2="620" y1="107.3" y2="107.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">40</text>
+<line x1="64" x2="620" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">60</text>
+</g>
+<rect x="67.4" y="139.8" width="26" height="110.2" fill-opacity="0.85"/>
+<text x="80.4" y="133.8" text-anchor="middle">30.9</text>
+<text x="80.4" y="266" text-anchor="middle">1919</text>
+<rect x="100.1" y="130.9" width="26" height="119.1" fill-opacity="0.85"/>
+<text x="113.1" y="124.9" text-anchor="middle">33.4</text>
+<text x="113.1" y="266" text-anchor="middle">1920</text>
+<rect x="132.8" y="54.2" width="26" height="195.8" class="accent" fill="currentColor"/>
+<text x="145.8" y="48.2" text-anchor="middle">54.9</text>
+<text x="145.8" y="266" text-anchor="middle">1921</text>
+<rect x="165.5" y="117.3" width="26" height="132.7" fill-opacity="0.85"/>
+<text x="178.5" y="111.3" text-anchor="middle">37.2</text>
+<text x="178.5" y="266" text-anchor="middle">1922</text>
+<rect x="198.2" y="105.6" width="26" height="144.4" fill-opacity="0.85"/>
+<text x="211.2" y="99.6" text-anchor="middle">40.5</text>
+<text x="211.2" y="266" text-anchor="middle">1923</text>
+<rect x="230.9" y="133.0" width="26" height="117.0" fill-opacity="0.85"/>
+<text x="243.9" y="127.0" text-anchor="middle">32.8</text>
+<text x="243.9" y="266" text-anchor="middle">1924</text>
+<rect x="263.6" y="160.1" width="26" height="89.9" fill-opacity="0.85"/>
+<text x="276.6" y="154.1" text-anchor="middle">25.2</text>
+<text x="276.6" y="266" text-anchor="middle">1925</text>
+<rect x="296.3" y="136.2" width="26" height="113.8" fill-opacity="0.85"/>
+<text x="309.3" y="130.2" text-anchor="middle">31.9</text>
+<text x="309.3" y="266" text-anchor="middle">1926</text>
+<rect x="329.0" y="115.9" width="26" height="134.1" fill-opacity="0.85"/>
+<text x="342.0" y="109.9" text-anchor="middle">37.6</text>
+<text x="342.0" y="266" text-anchor="middle">1927</text>
+<rect x="361.7" y="115.2" width="26" height="134.8" fill-opacity="0.85"/>
+<text x="374.7" y="109.2" text-anchor="middle">37.8</text>
+<text x="374.7" y="266" text-anchor="middle">1928</text>
+<rect x="394.4" y="127.0" width="26" height="123.0" fill-opacity="0.85"/>
+<text x="407.4" y="121.0" text-anchor="middle">34.5</text>
+<text x="407.4" y="266" text-anchor="middle">1929</text>
+<rect x="427.1" y="186.9" width="26" height="63.1" fill-opacity="0.85"/>
+<text x="440.1" y="180.9" text-anchor="middle">17.7</text>
+<text x="440.1" y="266" text-anchor="middle">1930</text>
+<rect x="459.8" y="224.7" width="26" height="25.3" fill-opacity="0.85"/>
+<text x="472.8" y="218.7" text-anchor="middle">7.1</text>
+<text x="472.8" y="266" text-anchor="middle">1931</text>
+<rect x="492.5" y="238.9" width="26" height="11.1" class="accent" fill="currentColor"/>
+<text x="505.5" y="232.9" text-anchor="middle">3.1</text>
+<text x="505.5" y="266" text-anchor="middle">1932</text>
+<rect x="525.2" y="237.2" width="26" height="12.8" fill-opacity="0.85"/>
+<text x="538.2" y="231.2" text-anchor="middle">3.6</text>
+<text x="538.2" y="266" text-anchor="middle">1933</text>
+<rect x="557.9" y="234.3" width="26" height="15.7" fill-opacity="0.85"/>
+<text x="570.9" y="228.3" text-anchor="middle">4.4</text>
+<text x="570.9" y="266" text-anchor="middle">1934</text>
+<rect x="590.6" y="232.9" width="26" height="17.1" fill-opacity="0.85"/>
+<text x="603.6" y="226.9" text-anchor="middle">4.8</text>
+<text x="603.6" y="266" text-anchor="middle">1935</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">VICTOR RECORDS SOLD A YEAR · MILLIONS</text>
+</g></svg>

@@ -1,0 +1,96 @@
+{
+	"segments": [
+		{
+			"id": "first-sounds",
+			"title": "First sounds",
+			"labelKind": "date",
+			"palette": "cave",
+			"frames": ["hohle-fels-flute", "lyres-of-ur", "hurrian-hymn"]
+		},
+		{
+			"id": "number-and-harmony",
+			"title": "Number and harmony",
+			"labelKind": "date",
+			"palette": "monochord",
+			"frames": ["pythagoras-ratios", "aristoxenus", "seikilos", "boethius"]
+		},
+		{
+			"id": "writing-it-down",
+			"title": "Writing it down",
+			"labelKind": "date",
+			"palette": "vespers",
+			"frames": ["neumes", "guido-staff", "hildegard", "notre-dame", "ars-nova"]
+		},
+		{
+			"id": "print",
+			"title": "Print and the Renaissance",
+			"labelKind": "date",
+			"palette": "woodcut",
+			"frames": ["petrucci", "josquin", "luther-chorale", "palestrina"]
+		},
+		{
+			"id": "baroque",
+			"title": "The Baroque",
+			"labelKind": "date",
+			"palette": "gilt",
+			"frames": [
+				"monteverdi-orfeo",
+				"cremona-violins",
+				"well-tempered-clavier",
+				"vivaldi-seasons",
+				"handel-messiah"
+			]
+		},
+		{
+			"id": "concert",
+			"title": "Classical and Romantic",
+			"labelKind": "date",
+			"palette": "salon",
+			"frames": ["mozart-vienna", "haydn-london", "eroica", "virtuoso", "bayreuth", "new-world"]
+		},
+		{
+			"id": "machines",
+			"title": "Machines that remember",
+			"labelKind": "date",
+			"palette": "shellac",
+			"frames": [
+				"phonautograph",
+				"edison-phonograph",
+				"gramophone",
+				"radio-music",
+				"electrical-recording",
+				"magnetic-tape",
+				"long-playing-record"
+			]
+		},
+		{
+			"id": "new-world-song",
+			"title": "Songs of the New World",
+			"labelKind": "date",
+			"palette": "sheet",
+			"frames": ["fisk-jubilee", "ragtime", "blues-record", "hot-five"]
+		},
+		{
+			"id": "modern-electric",
+			"title": "Modern and electric",
+			"labelKind": "date",
+			"palette": "valve",
+			"frames": ["twelve-tone", "electric-guitar", "cage-silence", "rock-and-roll", "moog"]
+		},
+		{
+			"id": "digital",
+			"title": "Digital",
+			"labelKind": "date",
+			"palette": "pixel",
+			"frames": [
+				"computer-music",
+				"fm-synthesis",
+				"compact-disc",
+				"midi",
+				"mp3",
+				"streaming",
+				"ai-music"
+			]
+		}
+	]
+}

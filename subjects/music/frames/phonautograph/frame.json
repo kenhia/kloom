@@ -1,0 +1,203 @@
+{
+	"id": "phonautograph",
+	"topic": "Scott's phonautograph",
+	"position": {
+		"label": "1857–60",
+		"sort": 1857
+	},
+	"scene": {
+		"headline": "Our voices left a",
+		"accent": "TRACE.",
+		"palette": "shellac",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PARIS · ÉDOUARD-LÉON SCOTT DE MARTINVILLE",
+			"HORN · MEMBRANE · BRISTLE · LAMPBLACK"
+		],
+		"counter": {
+			"value": "148",
+			"label": "years from tracing to first hearing"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/young-slits",
+			"why": "Thomas Young, who came to his waves of light from sound, described in 1807 a turning barrel on which a point joined to a sounding body draws its vibration, the method Scott's phonautograph turned on sound in the open air."
+		},
+		{
+			"to": "music/edison-phonograph",
+			"why": "Scott protested in 1878 that Edison's machine played back what his had only traced."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Phonautographic Manuscripts of Édouard-Léon Scott de Martinville",
+			"authors": [
+				{
+					"family": "Scott de Martinville",
+					"given": "Édouard-Léon"
+				}
+			],
+			"editors": [
+				{
+					"family": "Feaster",
+					"given": "Patrick"
+				}
+			],
+			"translators": [
+				{
+					"family": "Feaster",
+					"given": "Patrick"
+				}
+			],
+			"edition": "Edition 1.1",
+			"place": "Bloomington, IN",
+			"publisher": "FirstSounds.org",
+			"published": "2010-03",
+			"url": "https://www.firstsounds.org/publications/articles/Phonautographic-Manuscripts.pdf",
+			"accessed": "2026-11-10",
+			"note": "Scott's sealed packet of 1857, his patent, the 1859 addition and his notes of 1878, in French; the translations in the reading are ours"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Édouard-Léon Scott de Martinville: An Annotated Discography",
+			"authors": [
+				{
+					"family": "Feaster",
+					"given": "Patrick"
+				}
+			],
+			"container": "ARSC Journal",
+			"volume": "41",
+			"issue": "1",
+			"pages": "43–82",
+			"published": "2010",
+			"url": "https://www.firstsounds.org/publications/articles/scott-discography.pdf",
+			"accessed": "2026-11-10",
+			"note": "The phonautograms, the 1860 'Au clair de la lune' and the fork's 250 Hz"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Phonautograms of Édouard-Léon Scott de Martinville",
+			"container": "FirstSounds.org",
+			"url": "https://www.firstsounds.org/sounds/scott.php",
+			"accessed": "2026-11-10",
+			"note": "What each playback holds, and the claim of the earliest recognizable voice"
+		},
+		{
+			"kind": "web",
+			"title": "Édouard-Léon Scott de Martinville's Phonautograms: Earlier Playbacks",
+			"container": "FirstSounds.org",
+			"url": "https://www.firstsounds.org/sounds/earlier-playback.php",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Researchers Play Tune Recorded Before Edison",
+			"authors": [
+				{
+					"family": "Rosen",
+					"given": "Jody"
+				}
+			],
+			"container": "The New York Times",
+			"published": "2008-03-27",
+			"url": "https://www.nytimes.com/2008/03/27/arts/27soun.html",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "article",
+			"title": "Objecting to Edison: Édouard-Léon Scott de Martinville's Problem with the Phonograph",
+			"authors": [
+				{
+					"family": "Cullen",
+					"given": "Terrence"
+				}
+			],
+			"container": "Dix-Neuf",
+			"volume": "28",
+			"issue": "3–4",
+			"pages": "317–327",
+			"published": "2024",
+			"doi": "10.1080/14787318.2025.2468612",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "book",
+			"title": "A Course of Lectures on Natural Philosophy and the Mechanical Arts, Vol. 1",
+			"authors": [
+				{
+					"family": "Young",
+					"given": "Thomas"
+				}
+			],
+			"place": "London",
+			"publisher": "Joseph Johnson",
+			"published": "1807",
+			"url": "https://archive.org/details/lecturescourseof01younrich",
+			"accessed": "2026-11-10",
+			"note": "The recording barrel, pp. 190–91"
+		},
+		{
+			"kind": "recording",
+			"title": "Au clair de la lune",
+			"authors": [
+				{
+					"family": "Scott de Martinville",
+					"given": "Édouard-Léon"
+				}
+			],
+			"recorded": "1860-04-09",
+			"publisher": "FirstSounds.org",
+			"published": "2010-05",
+			"url": "https://www.firstsounds.org/sounds/scott.php",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Phonautogram no. 36 in Feaster's discography, Archives of the Académie des sciences; First Sounds' transfer of May 2010"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phonautograph",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phonautograph&oldid=1382545483",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Édouard-Léon Scott de Martinville",
+			"url": "https://en.wikipedia.org/w/index.php?title=%C3%89douard-L%C3%A9on_Scott_de_Martinville&oldid=1384327580",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07"
+		},
+		{
+			"kind": "media",
+			"title": "The phonautograph, model of 1859",
+			"container": "Franz Josef Pisko, Die neueren Apparate der Akustik (Vienna, 1865), p. 73",
+			"published": "1865",
+			"url": "https://commons.wikimedia.org/wiki/File:Phonautograph_1859.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "phonautograph-1859.jpg"
+		}
+	]
+}

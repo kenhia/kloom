@@ -1,0 +1,36 @@
+{
+	"title": "The ranges of Hildegard of Bingen's chants",
+	"description": "Bar chart counting Hildegard's 76 chants and chant groups by the span of their melody, in diatonic steps, as the Riesencodex gives them: 2 span an octave, 5 a ninth, 10 a tenth, 20 an 11th, 16 a 12th, 13 a 13th, 5 a 14th, 3 a 15th, none a 16th or 17th, 1 an 18th and 1 a 19th. Data: Weston 2022, appendix 1, from Corrigan's edition.",
+	"heading": "CHANTS BY RANGE, IN STEPS · 76 IN ALL",
+	"unit": "",
+	"axis": {
+		"min": 0,
+		"max": 24,
+		"ticks": [
+			[0, "0"],
+			[10, "10"],
+			[20, "20"]
+		]
+	},
+	"width": 560,
+	"barWidth": 34,
+	"bars": [
+		{ "label": "8", "sublabel": "8VE", "value": 2 },
+		{ "label": "9", "value": 5 },
+		{ "label": "10", "value": 10 },
+		{ "label": "11", "value": 20 },
+		{ "label": "12", "value": 16 },
+		{ "label": "13", "value": 13 },
+		{ "label": "14", "value": 5 },
+		{ "label": "15", "sublabel": "15MA", "value": 3 },
+		{ "label": "16", "value": 0 },
+		{ "label": "17", "value": 0 },
+		{ "label": "18", "value": 1, "highlight": true },
+		{ "label": "19", "value": 1, "highlight": true }
+	],
+	"source": {
+		"container": "Karin Weston, \"An Exploration of Range, Mode and Performance Practice in Hildegard von Bingen's 'O tu illustrata'\" (master's thesis, Schola Cantorum Basiliensis, 2022), appendix 1",
+		"url": "https://irf.fhnw.ch/bitstreams/a5efeabe-1567-4e17-8c60-646c199d0f34/download",
+		"accessed": "2026-11-10"
+	}
+}

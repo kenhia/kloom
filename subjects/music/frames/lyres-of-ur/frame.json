@@ -1,0 +1,187 @@
+{
+	"id": "lyres-of-ur",
+	"topic": "The Lyres of Ur",
+	"position": {
+		"label": "c. 2500 BC",
+		"sort": -2500
+	},
+	"scene": {
+		"headline": "Ur buried its dead with",
+		"accent": "LYRES.",
+		"palette": "cave",
+		"illustration": "scene.svg",
+		"metadata": ["THE ROYAL CEMETERY · UR", "LEONARD WOOLLEY · BRITISH MUSEUM AND PENN"],
+		"counter": {
+			"value": "4",
+			"label": "instruments in the Great Death Pit"
+		}
+	},
+	"connections": [
+		{
+			"to": "food/ninkasi",
+			"why": "Queen Puabi's tomb at Ur held both the instrument now rebuilt as the Queen's Lyre and a gold straw for drinking Sumerian beer."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Ur of the Chaldees: A Record of Seven Years of Excavation",
+			"authors": [
+				{
+					"family": "Woolley",
+					"given": "C. Leonard"
+				}
+			],
+			"place": "London",
+			"publisher": "Ernest Benn",
+			"published": "1929",
+			"url": "https://archive.org/details/dli.ernet.107191",
+			"accessed": "2026-11-10",
+			"note": "The Great Death Pit and its four lyres, pp. 63–67; quoted from it"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Ur Excavations, Volume II: The Royal Cemetery",
+			"authors": [
+				{
+					"family": "Woolley",
+					"given": "C. Leonard"
+				}
+			],
+			"etAl": true,
+			"place": "London and Philadelphia",
+			"publisher": "Trustees of the British Museum and the Museum of the University of Pennsylvania",
+			"published": "1934",
+			"url": "https://archive.org/details/ur-excavations-ii.-the-royal-cemetery-text",
+			"accessed": "2026-11-10",
+			"note": "Puabi's instrument lifted in plaster, pp. 74–77; the strings, pp. 249–60"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Queen's Lyre (museum number 121198,a)",
+			"container": "British Museum Collection Online",
+			"publisher": "British Museum",
+			"url": "https://www.britishmuseum.org/collection/object/W_1928-1010-1-a",
+			"accessed": "2026-11-10",
+			"note": "Its parts, its measurements and its rebuilding in 1971–72"
+		},
+		{
+			"kind": "article",
+			"title": "Human Sacrifice and Intentional Corpse Preservation in the Royal Cemetery of Ur",
+			"authors": [
+				{
+					"family": "Baadsgaard",
+					"given": "Aubrey"
+				},
+				{
+					"family": "Monge",
+					"given": "Janet"
+				},
+				{
+					"family": "Cox",
+					"given": "Samantha"
+				},
+				{
+					"family": "Zettler",
+					"given": "Richard L."
+				}
+			],
+			"container": "Antiquity",
+			"volume": "85",
+			"issue": "327",
+			"pages": "27–42",
+			"published": "2011",
+			"doi": "10.1017/S0003598X00067417",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lyres of Ur",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lyres_of_Ur&oldid=1384468922",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Royal Cemetery at Ur",
+			"url": "https://en.wikipedia.org/w/index.php?title=Royal_Cemetery_at_Ur&oldid=1384756971",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Puabi",
+			"url": "https://en.wikipedia.org/w/index.php?title=Puabi&oldid=1383224187",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Leonard Woolley",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leonard_Woolley&oldid=1374051286",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gudea",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gudea&oldid=1383911594",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-05"
+		},
+		{
+			"kind": "media",
+			"title": "Queen's Lyre, Ur Royal Cemetery",
+			"authors": [
+				{
+					"name": "Osama Shukir Muhammed Amin"
+				}
+			],
+			"published": "2019-03-31",
+			"container": "British Museum",
+			"url": "https://commons.wikimedia.org/wiki/File:Queen%27s_Lyre_Ur_Royal_Cemetery.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC BY-SA 4.0",
+			"file": "queens-lyre.jpg"
+		}
+	]
+}

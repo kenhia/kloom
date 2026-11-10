@@ -1,0 +1,47 @@
+{
+	"music/hildegard": [
+		["Hildegard of Bingen", "hildegard-of-bingen"],
+		["_Scivias_", "scivias"],
+		["Pope Eugene III", "pope-eugene-iii"],
+		["Bernard of Clairvaux", "bernard-of-clairvaux"],
+		["Gregorian chant", "gregorian-chant"],
+		["Hermann of Reichenau", "hermann-of-reichenau"],
+		["_Ordo Virtutum_", "ordo-virtutum"],
+		["Dendermonde Codex", "dendermonde-codex"],
+		["Wiesbaden Codex", "wiesbaden-codex"],
+		["neumes", "neume"],
+		["Mainz", "mainz"],
+		["Gothic Voices", "gothic-voices"],
+		["Emma Kirkby", "emma-kirkby"],
+		["_A Feather on the Breath of God_", "a-feather-on-the-breath-of-god"]
+	],
+	"music/notre-dame": [
+		["Maurice de Sully", "maurice-de-sully"],
+		["Saint-Denis", "basilica-of-saint-denis"],
+		["Notre-Dame de Paris", "notre-dame-de-paris"],
+		["Léonin", "leonin"],
+		["Pérotin", "perotin"],
+		["organum", "organum"],
+		["_Viderunt omnes_", "viderunt-omnes"],
+		["rhythmic modes", "rhythmic-mode"],
+		["Anonymous IV", "anonymous-iv"],
+		["University of Paris", "university-of-paris"],
+		["_Magnus liber_", "magnus-liber"],
+		["Eudes de Sully", "eudes-de-sully"],
+		["motet", "motet"]
+	],
+	"music/ars-nova": [
+		["Johannes de Muris", "johannes-de-muris"],
+		["Philippe de Vitry", "philippe-de-vitry"],
+		["Petrarch", "petrarch"],
+		["ars nova", "ars-nova"],
+		["mensural notation", "mensural-notation"],
+		["_Roman de Fauvel_", "roman-de-fauvel"],
+		["Pope John XXII", "pope-john-xxii"],
+		["Guillaume de Machaut", "guillaume-de-machaut"],
+		["Reims Cathedral", "reims-cathedral"],
+		["Black Death", "black-death"],
+		["_Messe de Nostre Dame_", "messe-de-nostre-dame"],
+		["isorhythm", "isorhythm"]
+	]
+}

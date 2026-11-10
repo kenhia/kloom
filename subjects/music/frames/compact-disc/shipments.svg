@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" role="img" aria-labelledby="t d">
+<title id="t">Compact discs shipped in the United States, 1985–2025</title>
+<desc id="d">Bar chart, millions of CDs shipped (net after returns) in every fifth year: 22.6 in 1985, 286.5 in 1990, 722.9 in 1995, 942.5 in 2000 (the peak), 705.4 in 2005, 225.8 in 2010, 122.9 in 2015, 31.6 in 2020 and 29.5 in 2025. Data: RIAA, in the Statistical Abstract of the United States (1999, table 936; 2012, table 1140) and the RIAA's year-end reports for 2015, 2020 and 2025.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="540" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="540" y1="199.0" y2="199.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="203.0" text-anchor="end">250</text>
+<line x1="64" x2="540" y1="148.1" y2="148.1" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="152.1" text-anchor="end">500</text>
+<line x1="64" x2="540" y1="97.1" y2="97.1" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="101.1" text-anchor="end">750</text>
+<line x1="64" x2="540" y1="46.2" y2="46.2" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="50.2" text-anchor="end">1,000</text>
+</g>
+<rect x="70.4" y="245.4" width="40" height="4.6" fill-opacity="0.85"/>
+<text x="90.4" y="239.4" text-anchor="middle">22.6</text>
+<text x="90.4" y="266" text-anchor="middle">1985</text>
+<rect x="123.3" y="191.6" width="40" height="58.4" fill-opacity="0.85"/>
+<text x="143.3" y="185.6" text-anchor="middle">286.5</text>
+<text x="143.3" y="266" text-anchor="middle">1990</text>
+<rect x="176.2" y="102.7" width="40" height="147.3" fill-opacity="0.85"/>
+<text x="196.2" y="96.7" text-anchor="middle">722.9</text>
+<text x="196.2" y="266" text-anchor="middle">1995</text>
+<rect x="229.1" y="57.9" width="40" height="192.1" class="accent" fill="currentColor"/>
+<text x="249.1" y="51.9" text-anchor="middle">942.5</text>
+<text x="249.1" y="266" text-anchor="middle">2000</text>
+<rect x="282.0" y="106.2" width="40" height="143.8" fill-opacity="0.85"/>
+<text x="302.0" y="100.2" text-anchor="middle">705.4</text>
+<text x="302.0" y="266" text-anchor="middle">2005</text>
+<rect x="334.9" y="204.0" width="40" height="46.0" fill-opacity="0.85"/>
+<text x="354.9" y="198.0" text-anchor="middle">225.8</text>
+<text x="354.9" y="266" text-anchor="middle">2010</text>
+<rect x="387.8" y="225.0" width="40" height="25.0" fill-opacity="0.85"/>
+<text x="407.8" y="219.0" text-anchor="middle">122.9</text>
+<text x="407.8" y="266" text-anchor="middle">2015</text>
+<rect x="440.7" y="243.6" width="40" height="6.4" fill-opacity="0.85"/>
+<text x="460.7" y="237.6" text-anchor="middle">31.6</text>
+<text x="460.7" y="266" text-anchor="middle">2020</text>
+<rect x="493.6" y="244.0" width="40" height="6.0" fill-opacity="0.85"/>
+<text x="513.6" y="238.0" text-anchor="middle">29.5</text>
+<text x="513.6" y="266" text-anchor="middle">2025</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">CDS SHIPPED IN THE US · MILLIONS</text>
+</g></svg>

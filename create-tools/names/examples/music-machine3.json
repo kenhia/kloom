@@ -1,0 +1,40 @@
+{
+	"music/electrical-recording": [
+		["Stroh violins", "stroh-violin"],
+		["Western Electric", "western-electric"],
+		["Bell Labs", "bell-labs"],
+		["microphone", "microphone"],
+		["Victor Talking Machine Company", "victor-talking-machine-company"],
+		["Columbia", "columbia-records"],
+		["Alfred Cortot", "alfred-cortot"],
+		["Orlando Marsh", "orlando-r-marsh"],
+		["Orthophonic Victrola", "victor-orthophonic-victrola"]
+	],
+	"music/magnetic-tape": [
+		["Jack Mullin", "jack-mullin"],
+		["magnetic tape", "magnetic-tape"],
+		["Magnetophon", "magnetophon"],
+		["Valdemar Poulsen", "valdemar-poulsen"],
+		["Fritz Pfleumer", "fritz-pfleumer"],
+		["AEG", "aeg-german-company"],
+		["BASF", "basf"],
+		["Reichs-Rundfunk-Gesellschaft", "reichs-rundfunk-gesellschaft"],
+		["Nazi Germany", "nazi-germany"],
+		["Walter Weber", "walter-weber-engineer"],
+		["Bing Crosby", "bing-crosby"],
+		["Ampex", "ampex"],
+		["Les Paul", "les-paul"],
+		["Pierre Schaeffer", "pierre-schaeffer"]
+	],
+	"music/long-playing-record": [
+		["Columbia Records", "columbia-records"],
+		["LP", "lp-record"],
+		["CBS", "cbs"],
+		["polyvinyl chloride", "polyvinyl-chloride"],
+		["Peter Goldmark", "peter-carl-goldmark"],
+		["RCA Victor", "rca-corporation"],
+		["EMI", "emi"],
+		["Alan Blumlein", "alan-blumlein"],
+		["stereophonic", "stereophonic-sound"]
+	]
+}

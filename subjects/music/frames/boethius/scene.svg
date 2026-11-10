@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M105 101 L295 101"/>
+		<path pathLength="1" d="M200 22 L200 180"/>
+		<path pathLength="1" d="M108.1 101 a91.9 91.9 0 1 0 183.8 0 a91.9 91.9 0 1 0 -183.8 0"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M135 36 L265 36 L265 166 L135 166 Z"/>
+		<path pathLength="1" d="M135 36 L265 166"/>
+		<path pathLength="1" d="M265 36 L135 166"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M131 36 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M261 36 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M131 166 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+		<path pathLength="1" d="M261 166 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0"/>
+	</g>
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M52 260 L52 268"/>
+		<path pathLength="1" d="M77 260 L77 264"/>
+		<path pathLength="1" d="M102 260 L102 264"/>
+		<path pathLength="1" d="M127 260 L127 268"/>
+		<path pathLength="1" d="M152 260 L152 264"/>
+		<path pathLength="1" d="M177 260 L177 264"/>
+		<path pathLength="1" d="M202 260 L202 268"/>
+		<path pathLength="1" d="M227 260 L227 264"/>
+		<path pathLength="1" d="M252 260 L252 264"/>
+		<path pathLength="1" d="M277 260 L277 268"/>
+		<path pathLength="1" d="M302 260 L302 264"/>
+		<path pathLength="1" d="M327 260 L327 264"/>
+		<path pathLength="1" d="M352 260 L352 268"/>
+		<path pathLength="1" d="M52 260 L352 260"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M46 254 L358 254 L358 260 L46 260 Z"/>
+		<path pathLength="1" d="M52 250 L352 250"/>
+		<path pathLength="1" d="M49 254 L52 247 L55 254"/>
+		<path pathLength="1" d="M349 254 L352 247 L355 254"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M124 254 L127 248 L130 254"/>
+		<path pathLength="1" d="M127 244 L127 221"/>
+		<path pathLength="1" d="M149 254 L152 248 L155 254"/>
+		<path pathLength="1" d="M152 244 L152 216"/>
+		<path pathLength="1" d="M199 254 L202 248 L205 254"/>
+		<path pathLength="1" d="M202 244 L202 206"/>
+		<path pathLength="1" d="M130.6 219.3 L127 221 L130.6 222.7"/>
+		<path pathLength="1" d="M127 221 L352 221"/>
+		<path pathLength="1" d="M155.6 214.3 L152 216 L155.6 217.7"/>
+		<path pathLength="1" d="M152 216 L352 216"/>
+		<path pathLength="1" d="M205.6 204.3 L202 206 L205.6 207.7"/>
+		<path pathLength="1" d="M202 206 L352 206"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="127" y="30" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">XII</text>
+		<text x="273" y="30" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VIIII</text>
+		<text x="127" y="176" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VI</text>
+		<text x="273" y="176" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VIII</text>
+		<text x="200" y="32" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DIATESSARON 4:3</text>
+		<text x="200" y="177" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DIATESSARON 4:3</text>
+		<text x="101" y="103.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DIAPASON 2:1</text>
+		<text x="299" y="103.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TONUS 9:8</text>
+		<text x="200" y="56" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DIAPENTE 3:2</text>
+		<text x="364" y="253" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">12</text>
+		<text x="122" y="223" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">9</text>
+		<text x="147" y="218" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">8</text>
+		<text x="197" y="208" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">6</text>
+		<text x="200" y="290" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DE INSTITUTIONE MUSICA I.10 · THE SAME NUMBERS ON THE RULE</text>
+	</g>
+</svg>

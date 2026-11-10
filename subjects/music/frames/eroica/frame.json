@@ -1,0 +1,193 @@
+{
+	"id": "eroica",
+	"topic": "Beethoven's Eroica",
+	"position": {
+		"label": "1803–04",
+		"sort": 1804
+	},
+	"scene": {
+		"headline": "Beethoven scratched out",
+		"accent": "BONAPARTE.",
+		"palette": "salon",
+		"illustration": "scene.svg",
+		"metadata": [
+			"VIENNA · LUDWIG VAN BEETHOVEN",
+			"SYMPHONY NO. 3 IN E-FLAT · OP. 55 · FIRST HEARD 1804"
+		],
+		"counter": {
+			"value": "690",
+			"label": "bars in the first movement"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/beethoven-ninth",
+			"why": "The Eroica of 1804 began the long, personal symphony that Beethoven's Ninth, first heard in Vienna in 1824 when he was almost completely deaf, carried to its choral end."
+		},
+		{
+			"to": "western-civ/french-revolution",
+			"why": "Beethoven wrote the Eroica on Napoleon Bonaparte as First Consul, the general whose seizure of power in 1799 is where most historians end the Revolution, and scratched out his name when he made himself emperor."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Beethoven and His Nine Symphonies",
+			"authors": [
+				{
+					"family": "Grove",
+					"given": "George"
+				}
+			],
+			"place": "London",
+			"publisher": "Novello",
+			"published": "1896",
+			"url": "https://archive.org/details/beethovenhisnine1896grov",
+			"accessed": "2026-11-10",
+			"note": "The Eroica, pp. 49–95: its titles, the first edition's notice on its length, the horn, the coda"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Life of Ludwig van Beethoven",
+			"volume": "2",
+			"authors": [
+				{
+					"family": "Thayer",
+					"given": "Alexander Wheelock"
+				}
+			],
+			"editors": [
+				{
+					"family": "Krehbiel",
+					"given": "Henry Edward"
+				}
+			],
+			"place": "New York",
+			"publisher": "The Beethoven Association",
+			"published": "1921",
+			"url": "https://www.gutenberg.org/ebooks/43592",
+			"accessed": "2026-11-10",
+			"note": "Ries's account, the surviving score's title page, the first performances and their reviews"
+		},
+		{
+			"kind": "book",
+			"title": "The Life of Ludwig van Beethoven",
+			"volume": "1",
+			"authors": [
+				{
+					"family": "Thayer",
+					"given": "Alexander Wheelock"
+				}
+			],
+			"editors": [
+				{
+					"family": "Krehbiel",
+					"given": "Henry Edward"
+				}
+			],
+			"place": "New York",
+			"publisher": "The Beethoven Association",
+			"published": "1921",
+			"url": "https://www.gutenberg.org/ebooks/43591",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Symphony No. 3 (Beethoven)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Symphony_No._3_(Beethoven)&oldid=1383985951",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-06",
+			"key": true,
+			"note": "Bar numbers, the 1804 rehearsals and the reviews"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Heiligenstadt Testament",
+			"url": "https://en.wikipedia.org/w/index.php?title=Heiligenstadt_Testament&oldid=1381774971",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-24"
+		},
+		{
+			"kind": "letter",
+			"title": "Brief an Breitkopf & Härtel in Leipzig",
+			"authors": [
+				{
+					"family": "Beethoven",
+					"given": "Ludwig van"
+				}
+			],
+			"recipients": [
+				{
+					"name": "Breitkopf & Härtel"
+				}
+			],
+			"written": "1804-08-26",
+			"container": "Beethoven-Haus Bonn, Sammlung H. C. Bodmer, HCB Br 63",
+			"url": "https://www.beethoven.de/en/media/view/5561491067502592",
+			"accessed": "2026-11-10",
+			"language": "de",
+			"read": "record"
+		},
+		{
+			"kind": "web",
+			"title": "Symphony No. 3 in E♭ Major (Eroica), Op. 55",
+			"authors": [
+				{
+					"family": "Beethoven",
+					"given": "Ludwig van"
+				}
+			],
+			"container": "Mutopia Project",
+			"url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1655",
+			"accessed": "2026-11-10",
+			"note": "The edition whose bars the plate counts"
+		},
+		{
+			"kind": "recording",
+			"title": "Symphony No. 3 in E-flat Major, Op. 55: I. Allegro con brio",
+			"authors": [
+				{
+					"name": "Berlin Philharmonic"
+				},
+				{
+					"family": "Pfitzner",
+					"given": "Hans"
+				}
+			],
+			"recorded": "1929",
+			"publisher": "Polydor",
+			"number": "66939–66940",
+			"published": "1929",
+			"url": "https://commons.wikimedia.org/wiki/File:Beethoven_-_Symphony_No._3_in_E-flat_major,_Op._55_-_I._Allegro_con_brio_(Part_1)_(Berlin_Philharmonic,_Hans_Pfitzner,_1929)_-_Polydor-66939a-917bi.oga",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "media",
+			"title": "Title page of a copyist's score of the Eroica Symphony, with Bonaparte's name scraped out",
+			"container": "Gesellschaft der Musikfreunde, Vienna",
+			"published": "1804",
+			"circa": true,
+			"url": "https://commons.wikimedia.org/wiki/File:Eroica_Beethoven_title.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "title-page.jpg"
+		}
+	]
+}

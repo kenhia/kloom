@@ -1,0 +1,47 @@
+{
+	"music/cage-silence": [
+		["David Tudor", "david-tudor"],
+		["Maverick Concert Hall", "maverick-concert-hall"],
+		["_4′33″_", "433"],
+		["John Cage", "john-cage"],
+		["Arnold Schoenberg", "arnold-schoenberg"],
+		["_I Ching_", "i-ching"],
+		["_Music of Changes_", "music-of-changes"],
+		["anechoic chamber", "anechoic-chamber"],
+		["Harvard University", "harvard-university"],
+		["Robert Rauschenberg", "robert-rauschenberg"]
+	],
+	"music/rock-and-roll": [
+		["Memphis", "memphis-tennessee"],
+		["Sam Phillips", "sam-phillips-record-producer"],
+		["Elvis Presley", "elvis-presley"],
+		["\"That's All Right,\"", "thats-all-right"],
+		["Arthur Crudup", "arthur-crudup"],
+		["Sun Records", "sun-records"],
+		["\"Rocket 88\"", "rocket-88"],
+		["Ike Turner", "ike-turner"],
+		["Alan Freed", "alan-freed"],
+		["Rock and roll", "rock-and-roll"],
+		["Little Richard", "little-richard"],
+		["electric guitar", "electric-guitar"],
+		["Chuck Berry", "chuck-berry"],
+		["magnetic tape", "magnetic-tape"],
+		["Ampex", "ampex"]
+	],
+	"music/moog": [
+		["Robert Moog", "robert-moog"],
+		["theremin", "theremin"],
+		["Moog synthesizer", "moog-synthesizer"],
+		["RCA Mark II Sound Synthesizer", "rca-mark-ii-sound-synthesizer"],
+		["Harry F. Olson", "harry-f-olson"],
+		["bipolar junction transistor", "bipolar-junction-transistor"],
+		["Wendy Carlos", "wendy-carlos"],
+		["_Switched-On Bach_", "switched-on-bach"],
+		["_The Well-Tempered Clavier_", "the-well-tempered-clavier"],
+		["Johann Sebastian Bach", "johann-sebastian-bach"],
+		["Columbia Records", "columbia-records"],
+		["Don Buchla", "don-buchla"],
+		["Minimoog", "minimoog"],
+		["synthesizer", "synthesizer"]
+	]
+}

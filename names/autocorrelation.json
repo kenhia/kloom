@@ -1,0 +1,8 @@
+{
+	"id": "autocorrelation",
+	"wikidata": "Q786970",
+	"name": "Autocorrelation",
+	"aliases": [],
+	"kind": "idea",
+	"description": "The correlation of a signal with a delayed copy of itself, as a function of the delay; its peaks reveal a signal's period, which is how pitch is detected in speech and music and echoes are found in seismic data."
+}

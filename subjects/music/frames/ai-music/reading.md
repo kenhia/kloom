@@ -1,0 +1,32 @@
+In 2026 a song can begin as a line of text. Google DeepMind shows its newest music model, Lyria 3.5, answering prompts such as "neosoul, rnb, deep male baritone vocal, groovy pocket, chill, slow sensual, rhodes keys" with finished tracks: a singer who never existed. The streaming service **[Deezer](kloom:e/deezer)** has counted the result. In June 2026 it was receiving about 90,000 fully AI-generated tracks a day, at peak more than half of all the new music delivered to it. They drew only 1 to 3 percent of its streams, and Deezer found that up to 85 percent of the streams they did draw in 2025 were fraudulent: bots playing machine-made songs to draw money from the royalty pool.
+
+## Rules, then examples
+
+The first score composed by a computer, by most accounts, was written by rules. In 1955 and 1956 two chemists at the University of Illinois, **[Lejaren Hiller](kloom:e/lejaren-hiller)** and **[Leonard Isaacson](kloom:e/leonard-isaacson)**, had the **[ILLIAC I](kloom:e/illiac-i)** computer draw random numbers, read them as notes, and keep only those that obeyed the rules of first-species counterpoint, note against note. A note that broke a rule was thrown out and another drawn, a "try-again" method they compared to a composer's own. In the suite's second movement the rules arrive one at a time, so the music can be heard learning them: first random notes on the white keys, then no more than one repeat in a row, then a start and an end on C, a range of an octave, consonant chords only, and at last no parallel fifths or octaves, until four strings play correct counterpoint in C major. The fourth movement wrote by Markov chains, choosing each note by probabilities. Three movements were played in Urbana on 9 August 1956, and the whole was published in 1957 as the **[Illiac Suite](kloom:e/illiac-suite)**.
+
+| Movement | Hiller and Isaacson's experiment     | What the program was given                                          |
+| -------- | ------------------------------------ | ------------------------------------------------------------------- |
+| I        | Melody, two-part and four-part music | A few counterpoint rules; tunes of 3 to 12 notes                    |
+| II       | Four-part counterpoint               | Random white-key notes, then the rules added one by one             |
+| III      | "Experimental music"                 | Rhythm, loudness and playing instructions; chromatic notes and rows |
+| IV       | Markov chain music                   | Probabilities for each next interval, from strictly tonal to random |
+
+From the 1980s **[David Cope](kloom:e/david-cope)**, a composer at the University of California, Santa Cruz, took the other road: his program EMI analyzed a composer's works and recombined their fragments into new pieces in the same style. In the cognitive scientist Douglas Hofstadter's lectures, audiences asked to tell EMI's Chopin from Chopin's did no better than chance.
+
+## From text to sound
+
+Today's generators learn from recordings, not rules. The plate draws the pipeline of MusicLM, which Google researchers described in January 2023 and trained on five million clips, 280,000 hours of music. A model trained on pairs of music and descriptions turns the prompt into 12 tokens. A **[transformer](kloom:e/transformer-deep-learning)** then writes _semantic_ tokens, 25 for every second of music, which hold the piece together over minutes; a second writes _acoustic_ tokens, 600 a second in 12 layers of detail, each predicted from those before it as a language model predicts words; and a decoder turns those into sound at 24,000 samples a second. Checked against its training data, MusicLM copied a tiny fraction exactly, and about 1 percent of the examples tested came out as close matches. **[Stability AI](kloom:e/stability-ai)**'s Stable Audio works the other way current image models do, by diffusion: it starts from noise in a compressed version of the sound and refines it, rendering 95 seconds of stereo in 8 seconds.
+
+The best-known services have not said how theirs work. **[Suno](kloom:e/suno)** opened to the public in December 2023 and released its sixth model family in September 2026; **[Udio](kloom:e/udio)**, founded by former Google DeepMind researchers, in April 2024. Udio's lawyers have described its models as "a complex collection of statistical insights about the auditory characteristics" of the recordings it learned from.
+
+## Suits and settlements
+
+In June 2024 the major record companies, through the Recording Industry Association of America, sued both, seeking up to $150,000 for each recording copied. Both have admitted taking training audio from YouTube, and both argue that training was fair use. **[Universal Music Group](kloom:e/universal-music-group)** settled with Udio in October 2025 and **[Warner Music Group](kloom:e/warner-music-group)** in November, for a licensed service promised for 2026; **[Sony Music](kloom:e/sony-music)** sued Udio again in July 2026. Warner settled with Suno in November 2025, and Suno built its v6 models with Warner, BMG and the distributor Believe. Universal and Sony sued Suno a second time on 18 September 2026, calling v6 "not a fresh start; it is the fruit of the same poisoned tree."
+
+## Who can tell, and who owns it
+
+In a survey Deezer commissioned from Ipsos in November 2025, of 9,000 people in eight countries, 97 percent could not tell fully AI-generated songs from a human one in a blind test, and 80 percent wanted such music labeled. Deezer tags it and leaves it out of recommendations. **[Spotify](kloom:e/spotify)** removed more than 75 million spam tracks in a year, bans voice clones an artist has not authorized, and since September 2026 has marked AI-generated artist personas with a badge.
+
+The law is still argued. The **[United States Copyright Office](kloom:e/united-states-copyright-office)** concluded in January 2025 that purely AI-generated material cannot be copyrighted and that "prompts alone do not provide sufficient human control" to make the person typing them its author; a record company had pointed it to one generator's own help page: "text prompts cannot fully define an actual piece of music." Its report on training, a draft of May 2025, is not yet final, and no American court has decided whether training on recordings is fair use.
+
+Some forty thousand years after a flute of vulture bone, music is still made by ear, by hand and by rule; now some of it is made by prediction.

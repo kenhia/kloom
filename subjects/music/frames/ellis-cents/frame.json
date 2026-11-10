@@ -1,0 +1,224 @@
+{
+	"id": "ellis-cents",
+	"topic": "Ellis and the cent",
+	"position": {
+		"label": "1885",
+		"sort": 1885
+	},
+	"scene": {
+		"headline": "We measured the scale in",
+		"accent": "CENTS.",
+		"palette": "monochord",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LONDON · SOCIETY OF ARTS · ALEXANDER J. ELLIS",
+			"WITH A. J. HIPKINS · JAVA, CHINA, JAPAN, INDIA"
+		],
+		"counter": {
+			"value": "1,200",
+			"label": "cents to the octave"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/logarithms",
+			"why": "A cent is a logarithm: Ellis built his unit on 1200 × log₂ of a ratio so that intervals add as logarithms do, the trick of turning multiplication into addition that Napier's tables began."
+		},
+		{
+			"to": "music/equal-temperament",
+			"why": "The equal semitone is defined as 100 cents."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "On the Musical Scales of Various Nations",
+			"authors": [
+				{
+					"family": "Ellis",
+					"given": "Alexander J."
+				}
+			],
+			"container": "Journal of the Society of Arts",
+			"volume": "33",
+			"pages": "485–527",
+			"published": "1885-03-27",
+			"url": "https://archive.org/details/journalofsociety33soci_0",
+			"accessed": "2026-11-10",
+			"note": "Cents, pp. 487–488; Java, pp. 508–514; the conclusion, p. 526"
+		},
+		{
+			"kind": "article",
+			"title": "On the History of Musical Pitch",
+			"authors": [
+				{
+					"family": "Ellis",
+					"given": "Alexander J."
+				}
+			],
+			"container": "Journal of the Society of Arts",
+			"volume": "28",
+			"published": "1880-03-05",
+			"url": "https://archive.org/details/journalofsociety28soci_0",
+			"accessed": "2026-11-10",
+			"note": "Cents first defined, art. 5, p. 295"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "On the Sensations of Tone as a Physiological Basis for the Theory of Music",
+			"authors": [
+				{
+					"family": "Helmholtz",
+					"given": "Hermann L. F."
+				}
+			],
+			"translators": [
+				{
+					"family": "Ellis",
+					"given": "Alexander J."
+				}
+			],
+			"edition": "2nd English ed.",
+			"place": "London",
+			"publisher": "Longmans, Green",
+			"published": "1885",
+			"url": "https://archive.org/details/onsensationston00unkngoog",
+			"accessed": "2026-11-10",
+			"note": "Ellis's additions: Sauveur's cycle of 301, p. 437; the calculation of cents, pp. 446–447"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cent (music)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cent_(music)&oldid=1376384857",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23",
+			"key": true,
+			"note": "The unit, and Ellis's 1880 and 1885 papers"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alexander John Ellis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alexander_John_Ellis&oldid=1353571013",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Alfred James Hipkins",
+			"url": "https://en.wikipedia.org/w/index.php?title=Alfred_James_Hipkins&oldid=1351825577",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Slendro",
+			"url": "https://en.wikipedia.org/w/index.php?title=Slendro&oldid=1340814666",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-27"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pelog",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pelog&oldid=1363310696",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gamelan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gamelan&oldid=1379043581",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ethnomusicology",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ethnomusicology&oldid=1381415158",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Joseph Sauveur",
+			"url": "https://en.wikipedia.org/w/index.php?title=Joseph_Sauveur&oldid=1316717578",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-10-14"
+		},
+		{
+			"kind": "article",
+			"title": "Alexander J. Ellis and His Place in the History of Ethnomusicology",
+			"authors": [
+				{
+					"family": "Stock",
+					"given": "Jonathan P. J."
+				}
+			],
+			"container": "Ethnomusicology",
+			"volume": "51",
+			"issue": "2",
+			"pages": "306–325",
+			"published": "2007",
+			"url": "https://www.jstor.org/stable/20174527",
+			"accessed": "2026-11-10",
+			"read": "record"
+		}
+	]
+}

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M30 42 L370 42"/>
+		<path pathLength="1" d="M30 38 L30 46"/>
+		<path pathLength="1" d="M370 38 L370 46"/>
+		<path pathLength="1" d="M171.8 84 L171.8 92 L370 92 L370 84"/>
+		<path pathLength="1" d="M30 164 L30 222"/>
+		<path pathLength="1" d="M146 164 L370 222"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M30 56 L370 56 L370 80 L30 80 Z"/>
+		<path pathLength="1" d="M86.8 56 L86.8 80"/>
+		<path pathLength="1" d="M171.8 56 L171.8 80"/>
+		<path pathLength="1" d="M327.5 56 L327.5 80"/>
+		<path pathLength="1" d="M270.9 92 L270.9 139"/>
+		<path pathLength="1" d="M268.7 135.5 L270.9 140 L273.1 135.5"/>
+		<path pathLength="1" d="M30 142 L370 142 L370 164 L30 164 Z"/>
+		<path pathLength="1" d="M30 222 L370 222 L370 244 L30 244 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M146 142 L146 164"/>
+		<path pathLength="1" d="M200.1 142 L200.1 164"/>
+		<path pathLength="1" d="M234.8 142 L234.8 164"/>
+		<path pathLength="1" d="M260 142 L260 164"/>
+		<path pathLength="1" d="M279.8 142 L279.8 164"/>
+		<path pathLength="1" d="M295.9 142 L295.9 164"/>
+		<path pathLength="1" d="M309.6 142 L309.6 164"/>
+		<path pathLength="1" d="M321.3 142 L321.3 164"/>
+		<path pathLength="1" d="M331.7 142 L331.7 164"/>
+		<path pathLength="1" d="M340.9 142 L340.9 164"/>
+		<path pathLength="1" d="M349.2 142 L349.2 164"/>
+		<path pathLength="1" d="M356.7 142 L356.7 164"/>
+		<path pathLength="1" d="M363.6 142 L363.6 164"/>
+		<path pathLength="1" d="M366 146 L366 160"/>
+		<path pathLength="1" d="M363.8 146 L363.8 160"/>
+		<path pathLength="1" d="M361.6 146 L361.6 160"/>
+		<path pathLength="1" d="M359.4 146 L359.4 160"/>
+		<path pathLength="1" d="M357.2 146 L357.2 160"/>
+		<path pathLength="1" d="M355 146 L355 160"/>
+		<path pathLength="1" d="M352.8 146 L352.8 160"/>
+		<path pathLength="1" d="M350.6 146 L350.6 160"/>
+		<path pathLength="1" d="M348.4 146 L348.4 160"/>
+		<path pathLength="1" d="M346.2 146 L346.2 160"/>
+		<path pathLength="1" d="M238.4 222 L238.4 244"/>
+		<path pathLength="1" d="M297.1 222 L297.1 244"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<text x="200" y="36" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">£9.99 A MONTH</text>
+		<text x="58.4" y="70.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VAT</text>
+		<text x="58.4" y="52" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">£1.67</text>
+		<text x="129.3" y="70.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SERVICE</text>
+		<text x="129.3" y="52" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">£2.50</text>
+		<text x="249.7" y="70.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RECORDING</text>
+		<text x="249.7" y="52" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">£4.58</text>
+		<text x="348.8" y="70.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SONG</text>
+		<text x="348.8" y="52" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">£1.25</text>
+		<text x="30" y="136" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">THE ROYALTY POOL</text>
+		<text x="30" y="176" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SPLIT BY SHARE OF ALL STREAMS</text>
+		<text x="134.2" y="235.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LABEL</text>
+		<text x="267.8" y="235.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ARTIST</text>
+		<text x="333.6" y="235.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SONG</text>
+		<text x="30" y="256" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ONE ACT'S SLICE</text>
+	</g>
+</svg>

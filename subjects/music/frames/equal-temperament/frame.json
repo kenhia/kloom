@@ -1,0 +1,282 @@
+{
+	"id": "equal-temperament",
+	"topic": "Zhu Zaiyu and equal temperament",
+	"position": {
+		"label": "1584",
+		"sort": 1584
+	},
+	"scene": {
+		"headline": "A prince split the octave",
+		"accent": "EVENLY.",
+		"palette": "monochord",
+		"illustration": "scene.svg",
+		"metadata": [
+			"HENAN, MING CHINA · ZHU ZAIYU · SIMON STEVIN · MARIN MERSENNE",
+			"TWELVE SEMITONES OF THE TWELFTH ROOT OF 2 · 1.059463"
+		],
+		"counter": {
+			"value": "25",
+			"label": "digits in Zhu's semitone ratio"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/abacus",
+			"why": "Zhu Zaiyu worked out the square and cube roots of equal temperament to twenty-five digits on the Ming bead abacus, the suanpan, whose two beads above the beam and five below that frame describes."
+		},
+		{
+			"to": "mathematics/incommensurable",
+			"why": "Zhu's first step was the square root of 2, the diagonal of a square with sides of ten, which that frame shows is no ratio of whole numbers; the equal semitone, the twelfth root of 2, is irrational for the same reason."
+		},
+		{
+			"to": "music/pythagoras-ratios",
+			"why": "Twelve pure fifths never close the circle, the problem Zhu's twelfth root of two solved."
+		},
+		{
+			"to": "music/well-temperament",
+			"why": "Well temperament spread the comma unevenly where equal temperament spread it evenly."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Equal temperament",
+			"url": "https://en.wikipedia.org/w/index.php?title=Equal_temperament&oldid=1384176275",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07",
+			"key": true,
+			"note": "Zhu Zaiyu, Stevin, Mersenne, Galilei's 18:17, transmission"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "东方文艺复兴式的学者——朱载堉",
+			"authors": [
+				{
+					"family": "Chen",
+					"given": "Guanrong"
+				}
+			],
+			"publisher": "City University of Hong Kong",
+			"url": "https://www.ee.cityu.edu.hk/~gchen/pdf/ZhuZaiyu.pdf",
+			"accessed": "2026-11-10",
+			"language": "zh",
+			"note": "Zhu's life, his works by year, his square and cube roots and the 81-rod abacus"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Special Interview: Yuki Tanaka",
+			"container": "Institute for Advanced Studies on Asia Newsletter, Spring 2025",
+			"publisher": "University of Tokyo",
+			"published": "2025-04",
+			"url": "https://www.ioc.u-tokyo.ac.jp/intro/newsletter/NewsLetter_202504_en.pdf",
+			"accessed": "2026-11-10",
+			"note": "\"Going but not returning\"; no evidence of transmission"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Zhu Zaiyu",
+			"url": "https://en.wikipedia.org/w/index.php?title=Zhu_Zaiyu&oldid=1358904807",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Twelfth root of two",
+			"url": "https://en.wikipedia.org/w/index.php?title=Twelfth_root_of_two&oldid=1349591675",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-04-18"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Suanpan",
+			"url": "https://en.wikipedia.org/w/index.php?title=Suanpan&oldid=1368513344",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Simon Stevin",
+			"url": "https://en.wikipedia.org/w/index.php?title=Simon_Stevin&oldid=1384658963",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Marin Mersenne",
+			"url": "https://en.wikipedia.org/w/index.php?title=Marin_Mersenne&oldid=1374312298",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vincenzo Galilei",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vincenzo_Galilei&oldid=1380533383",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-16"
+		},
+		{
+			"kind": "web",
+			"title": "Equal Temperament Circa 1600 in China and Europe",
+			"authors": [
+				{
+					"family": "Liu",
+					"given": "Yaya"
+				}
+			],
+			"container": "Canadian Mathematical Society Winter Meeting 2013, History and Philosophy of Mathematics session",
+			"publisher": "Canadian Mathematical Society",
+			"published": "2013",
+			"url": "https://www2.cms.math.ca/Events/winter13/res/pdf/hpm-yl.pdf",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Fine-Tuning a Global History of Music Theory: Divergences, Zhu Zaiyu, and Music-Theoretical Instruments",
+			"authors": [
+				{
+					"family": "Rehding",
+					"given": "Alexander"
+				}
+			],
+			"container": "Music Theory Spectrum",
+			"published": "2022",
+			"doi": "10.1093/mts/mtac004",
+			"accessed": "2026-11-10",
+			"read": "abstract"
+		},
+		{
+			"kind": "book",
+			"title": "On the Sensations of Tone as a Physiological Basis for the Theory of Music",
+			"authors": [
+				{
+					"family": "Helmholtz",
+					"given": "Hermann von"
+				}
+			],
+			"translators": [
+				{
+					"family": "Ellis",
+					"given": "Alexander J."
+				}
+			],
+			"edition": "3rd ed.",
+			"publisher": "Longmans, Green, and Co.",
+			"place": "London",
+			"published": "1895",
+			"url": "https://archive.org/details/onsensationsofto00helmrich",
+			"accessed": "2026-11-10",
+			"note": "Ellis on the history of equal temperament, pp. 548–549, quoting Mersenne"
+		},
+		{
+			"kind": "book",
+			"title": "Harmonie universelle",
+			"authors": [
+				{
+					"family": "Mersenne",
+					"given": "Marin"
+				}
+			],
+			"place": "Paris",
+			"published": "1636",
+			"language": "fr",
+			"citedIn": "On the Sensations of Tone as a Physiological Basis for the Theory of Music"
+		},
+		{
+			"kind": "book",
+			"title": "Tuning and Temperament: A Historical Survey",
+			"authors": [
+				{
+					"family": "Barbour",
+					"given": "J. Murray"
+				}
+			],
+			"place": "East Lansing",
+			"publisher": "Michigan State College Press",
+			"published": "1951",
+			"citedIn": "Equal temperament"
+		},
+		{
+			"kind": "book",
+			"title": "Imagined Civilizations: China, the West, and Their First Encounter",
+			"authors": [
+				{
+					"family": "Hart",
+					"given": "Roger"
+				}
+			],
+			"publisher": "Johns Hopkins University Press",
+			"place": "Baltimore",
+			"published": "2013",
+			"citedIn": "Suanpan"
+		},
+		{
+			"kind": "media",
+			"title": "How Zhu Zaiyu obtained the equal temperament ratio to 25 digits",
+			"authors": [
+				{
+					"family": "Zhu",
+					"given": "Zaiyu"
+				}
+			],
+			"container": "Yuelü quanshu (Complete Compendium of Music and Pitch)",
+			"published": "1606",
+			"url": "https://commons.wikimedia.org/wiki/File:%E4%B9%90%E5%BE%8B%E5%85%A8%E4%B9%A6%E5%85%A8-115.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "zhu-roots.jpg",
+			"note": "Commons dates the page 1584, the year of the discovery; the compendium it is printed in was presented in 1606"
+		}
+	]
+}
