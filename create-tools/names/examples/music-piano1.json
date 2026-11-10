@@ -1,0 +1,42 @@
+{
+	"music/cristofori": [
+		["Ferdinando de' Medici", "ferdinando-de-medici-grand-prince-of-tuscany"],
+		["Florence", "florence"],
+		["Bartolomeo Cristofori", "bartolomeo-cristofori"],
+		["harpsichords", "harpsichord"],
+		["piano", "piano"],
+		["House of Medici", "house-of-medici"],
+		["Scipione Maffei", "francesco-scipione-maffei"],
+		["Metropolitan Museum of Art", "metropolitan-museum-of-art"],
+		["Gottfried Silbermann", "gottfried-silbermann"],
+		["Johann Friedrich Agricola", "johann-friedrich-agricola"],
+		["Johann Sebastian Bach", "johann-sebastian-bach"],
+		["Frederick the Great", "frederick-the-great"],
+		["John V of Portugal", "john-v-of-portugal"],
+		["Lodovico Giustini", "lodovico-giustini"]
+	],
+	"music/stein-piano": [
+		["Wolfgang Amadeus Mozart", "wolfgang-amadeus-mozart"],
+		["Augsburg", "augsburg"],
+		["Johann Andreas Stein", "johann-andreas-stein"],
+		["Franz Jakob Späth", "franz-jakob-spath"],
+		["Leopold Mozart", "leopold-mozart"],
+		["fortepiano", "fortepiano"],
+		["Sigismond Thalberg", "sigismond-thalberg"],
+		["Great Exhibition", "great-exhibition"],
+		["Nannette Streicher", "nannette-streicher"],
+		["Ludwig van Beethoven", "ludwig-van-beethoven"],
+		["John Broadwood & Sons", "john-broadwood-and-sons"]
+	],
+	"music/double-escapement": [
+		["Sébastien Érard", "sebastien-erard"],
+		["action", "action-piano"],
+		["Louis XVI", "louis-xvi"],
+		["French Revolution", "french-revolution"],
+		["harps", "harp"],
+		["Franz Liszt", "franz-liszt"],
+		["Frédéric Chopin", "frederic-chopin"],
+		["Pleyel et Cie", "pleyel-et-cie"],
+		["Henri Herz", "henri-herz"]
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"id": "piano",
+	"title": "The piano",
+	"anchor": "mozart-vienna",
+	"spine": {
+		"segments": [
+			{
+				"id": "piano-seg",
+				"title": "Hammers and strings",
+				"labelKind": "date",
+				"palette": "salon",
+				"frames": ["cristofori", "stein-piano", "double-escapement"]
+			}
+		]
+	}
+}

@@ -1,0 +1,206 @@
+{
+	"id": "cristofori",
+	"topic": "Cristofori's first piano",
+	"position": {
+		"label": "1700",
+		"sort": 1700
+	},
+	"scene": {
+		"headline": "We struck the strings with",
+		"accent": "HAMMERS.",
+		"palette": "salon",
+		"illustration": "scene.svg",
+		"metadata": [
+			"FLORENCE · BARTOLOMEO CRISTOFORI",
+			"FOR PRINCE FERDINANDO DE' MEDICI · SOFT AND LOUD"
+		],
+		"counter": {
+			"value": "3",
+			"label": "of his pianos survive, all from the 1720s"
+		}
+	},
+	"connections": [
+		{
+			"to": "music/well-tempered-clavier",
+			"why": "The Silbermann pianos that Bach first found weak in the treble and hard to play, and later approved, were built after Cristofori's action, as Maffei's article of 1711 had described it."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Nuova invenzione d'un gravecembalo col piano e forte; aggiunte alcune considerazioni sopra gli strumenti musicali",
+			"authors": [
+				{
+					"family": "Maffei",
+					"given": "Scipione"
+				}
+			],
+			"container": "Giornale de' letterati d'Italia",
+			"volume": "5",
+			"pages": "144–59",
+			"place": "Venice",
+			"published": "1711",
+			"language": "it",
+			"url": "https://archive.org/details/giornaledeletter1711roya/page/n186",
+			"accessed": "2026-11-10",
+			"note": "Article IX, unsigned; the plate of the action, Tav. I, faces p. 158"
+		},
+		{
+			"kind": "book",
+			"title": "The Pianoforte, Its Origin, Progress, and Construction",
+			"authors": [
+				{
+					"family": "Rimbault",
+					"given": "Edward F."
+				}
+			],
+			"place": "London",
+			"publisher": "Robert Cocks",
+			"published": "1860",
+			"url": "https://archive.org/details/pianoforteitsori00rimbuoft",
+			"accessed": "2026-11-10",
+			"key": true,
+			"note": "Maffei's article in Italian and English, pp. 94–100; Silbermann and Bach, pp. 112–15"
+		},
+		{
+			"kind": "wikipedia",
+			"key": true,
+			"title": "Bartolomeo Cristofori",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bartolomeo_Cristofori&oldid=1382364874",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-28",
+			"note": "The 1700 inventory, the surviving pianos and the later action"
+		},
+		{
+			"kind": "book",
+			"title": "Musica mechanica organoedi",
+			"authors": [
+				{
+					"family": "Adlung",
+					"given": "Jakob"
+				}
+			],
+			"editors": [
+				{
+					"family": "Albrecht",
+					"given": "Johann Lorenz"
+				}
+			],
+			"volume": "2",
+			"place": "Berlin",
+			"publisher": "Friedrich Wilhelm Birnstiel",
+			"published": "1768",
+			"language": "de",
+			"url": "https://archive.org/details/10622188bsb/page/n145",
+			"accessed": "2026-11-10",
+			"note": "Agricola's note on Silbermann and Bach, pp. 116–17"
+		},
+		{
+			"kind": "web",
+			"title": "Grand Piano, Bartolomeo Cristofori, 1720 (89.4.1219a–c)",
+			"container": "The Met Collection",
+			"publisher": "The Metropolitan Museum of Art",
+			"url": "https://www.metmuseum.org/art/collection/search/501788",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Gottfried Silbermann",
+			"url": "https://en.wikipedia.org/w/index.php?title=Gottfried_Silbermann&oldid=1379511852",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ferdinando de' Medici, Grand Prince of Tuscany",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ferdinando_de'_Medici,_Grand_Prince_of_Tuscany&oldid=1377134976",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Francesco Scipione Maffei",
+			"url": "https://en.wikipedia.org/w/index.php?title=Francesco_Scipione_Maffei&oldid=1378626366",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lodovico Giustini",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lodovico_Giustini&oldid=1373854987",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Piano",
+			"url": "https://en.wikipedia.org/w/index.php?title=Piano&oldid=1384680767",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "media",
+			"title": "Tav. I: the action of the gravecembalo col piano e forte",
+			"container": "Giornale de' letterati d'Italia, vol. 5 (Boston Public Library copy)",
+			"published": "1711",
+			"url": "https://archive.org/details/giornaledeletter1711roya/page/n186",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "maffei-1711.jpg",
+			"note": "Published in Venice in 1711"
+		},
+		{
+			"kind": "media",
+			"title": "Grand Piano, Bartolomeo Cristofori, 1720",
+			"container": "The Crosby Brown Collection of Musical Instruments",
+			"publisher": "The Metropolitan Museum of Art",
+			"url": "https://www.metmuseum.org/art/collection/search/501788",
+			"accessed": "2026-11-10",
+			"licence": "CC0",
+			"file": "met-1720.jpg"
+		}
+	]
+}
