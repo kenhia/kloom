@@ -1,0 +1,28 @@
+{
+	"music/computer-music": [
+		["Bell Labs", "bell-labs"],
+		["Max Mathews", "max-mathews"],
+		["John R. Pierce", "john-r-pierce"],
+		["MUSIC I", "music-n"],
+		["IBM 704", "ibm-704"],
+		["IBM 7090", "ibm-7090"],
+		["Claude Shannon", "claude-shannon"],
+		["sampling theorem", "nyquist-shannon-sampling-theorem"],
+		["John Kelly", "john-larry-kelly-jr"],
+		["\"Daisy Bell\"", "daisy-bell"],
+		["Arthur C. Clarke", "arthur-c-clarke"],
+		["HAL 9000", "hal-9000"],
+		["Jean-Claude Risset", "jean-claude-risset"],
+		["IRCAM", "ircam"]
+	],
+	"music/fm-synthesis": [
+		["John Chowning", "john-chowning"],
+		["Stanford University", "stanford-university"],
+		["Max Mathews", "max-mathews"],
+		["Frequency modulation synthesis", "frequency-modulation-synthesis"],
+		["Jean-Claude Risset", "jean-claude-risset"],
+		["Bessel functions", "bessel-function"],
+		["Yamaha", "yamaha-corporation"],
+		["Yamaha DX7", "yamaha-dx7"]
+	]
+}

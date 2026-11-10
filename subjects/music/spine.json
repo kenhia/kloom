@@ -76,6 +76,13 @@
 			"labelKind": "date",
 			"palette": "valve",
 			"frames": ["twelve-tone", "electric-guitar"]
+		},
+		{
+			"id": "digital",
+			"title": "Digital",
+			"labelKind": "date",
+			"palette": "pixel",
+			"frames": ["computer-music", "fm-synthesis"]
 		}
 	]
 }

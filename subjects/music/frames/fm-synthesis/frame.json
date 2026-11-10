@@ -1,0 +1,218 @@
+{
+	"id": "fm-synthesis",
+	"topic": "Chowning's FM synthesis",
+	"position": {
+		"label": "1967–73",
+		"sort": 1973
+	},
+	"scene": {
+		"headline": "A vibrato, pushed too far, rang like",
+		"accent": "BELLS.",
+		"palette": "pixel",
+		"illustration": "scene.svg",
+		"metadata": ["STANFORD · JOHN CHOWNING", "TWO SINE WAVES · SIDEBANDS AT C ± NM · YAMAHA DX7"],
+		"counter": {
+			"value": "$20,000,000",
+			"label": "and more: Stanford's royalties by 1994"
+		}
+	},
+	"connections": [
+		{
+			"to": "mathematics/fourier",
+			"why": "An FM tone's sidebands are the terms of its Fourier series: two sine waves, one bending the other, make a wave whose components fall at the carrier plus and minus multiples of the modulator."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Synthesis of Complex Audio Spectra by Means of Frequency Modulation",
+			"authors": [
+				{
+					"family": "Chowning",
+					"given": "John M."
+				}
+			],
+			"container": "Journal of the Audio Engineering Society",
+			"volume": "21",
+			"issue": "7",
+			"pages": "526–534",
+			"published": "1973-09",
+			"url": "https://ccrma.stanford.edu/papers/synthesis-of-complex-audio-spectra-means-of-frequency-modulation",
+			"accessed": "2026-11-10",
+			"note": "The equation, the Bessel functions, and the bassoon, brass and bell recipes; read in a copy on a University of Michigan course site"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "John Chowning, Part I of an Exclusive Interview with the Father of Digital FM Synthesis",
+			"authors": [
+				{
+					"family": "Darter",
+					"given": "Tom"
+				}
+			],
+			"container": "Aftertouch Magazine",
+			"published": "1985-11",
+			"url": "https://ccrma.stanford.edu/~aj/archives/docs/all/800.pdf",
+			"accessed": "2026-11-10",
+			"note": "The dates of the discovery, the license, the GS1 and the DX7, in Chowning's words; read in CCRMA's archive"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Bell Tolls for FM Patent, but Yamaha Sees “New Beginning”",
+			"authors": [
+				{
+					"family": "Grunwald",
+					"given": "Eric"
+				}
+			],
+			"container": "Stanford Technology Brainstorm",
+			"publisher": "Stanford University Office of Technology Licensing",
+			"published": "1994",
+			"url": "https://web.stanford.edu/group/OTL/documents/0302_su94.pdf",
+			"accessed": "2026-11-10",
+			"note": "The organ makers, Ishimura's visit and the royalties"
+		},
+		{
+			"kind": "web",
+			"title": "US Patent 4,018,121: Method of Synthesizing a Musical Sound",
+			"authors": [
+				{
+					"family": "Chowning",
+					"given": "John M."
+				}
+			],
+			"publisher": "United States Patent and Trademark Office",
+			"published": "1977-04-19",
+			"url": "https://patentimages.storage.googleapis.com/pdfs/US4018121.pdf",
+			"accessed": "2026-11-10",
+			"note": "Filed May 2, 1975"
+		},
+		{
+			"kind": "web",
+			"title": "John Chowning: Pioneer of Electronic Music and Digital Synthesis",
+			"authors": [
+				{
+					"family": "Reid",
+					"given": "Gordon"
+				}
+			],
+			"container": "Sound on Sound",
+			"published": "2015-09",
+			"url": "https://www.soundonsound.com/people/john-chowning",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "article",
+			"title": "An Interview with Max Mathews",
+			"authors": [
+				{
+					"family": "Park",
+					"given": "Tae Hong"
+				}
+			],
+			"container": "Computer Music Journal",
+			"volume": "33",
+			"issue": "3",
+			"pages": "9–22",
+			"published": "2009",
+			"doi": "10.1162/comj.2009.33.3.9",
+			"url": "https://ccrma.stanford.edu/~aj/archives/docs/all/806.pdf",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Archival Documents: FM Synthesis",
+			"authors": [
+				{
+					"family": "Nelson",
+					"given": "Andrew"
+				}
+			],
+			"container": "CCRMA Virtual Archive",
+			"publisher": "Stanford University",
+			"url": "https://ccrma.stanford.edu/~aj/archives/tech/FM.html",
+			"accessed": "2026-11-10",
+			"note": "Lists the FM license agreement between Stanford and Yamaha, March 19, 1975"
+		},
+		{
+			"kind": "article",
+			"title": "The Digital Computer as a Musical Instrument",
+			"authors": [
+				{
+					"family": "Mathews",
+					"given": "M. V."
+				}
+			],
+			"container": "Science",
+			"volume": "142",
+			"issue": "3592",
+			"pages": "553–557",
+			"published": "1963-11",
+			"doi": "10.1126/science.142.3592.553",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Yamaha DX7",
+			"url": "https://en.wikipedia.org/w/index.php?title=Yamaha_DX7&oldid=1384026734",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-06",
+			"key": true,
+			"note": "The DX7's price, design, presets and sales"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frequency modulation synthesis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frequency_modulation_synthesis&oldid=1383115504",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Chowning",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Chowning&oldid=1374437041",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-12"
+		},
+		{
+			"kind": "media",
+			"title": "Yamaha DX7",
+			"authors": [
+				{
+					"name": "Leo-setä"
+				}
+			],
+			"container": "Flickr",
+			"published": "2008-04-29",
+			"url": "https://commons.wikimedia.org/wiki/File:Yamaha_DX7.jpg",
+			"accessed": "2026-11-10",
+			"licence": "CC BY 2.0",
+			"file": "dx7.jpg"
+		}
+	]
+}

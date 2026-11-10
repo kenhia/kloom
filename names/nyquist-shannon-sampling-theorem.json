@@ -1,0 +1,8 @@
+{
+	"id": "nyquist-shannon-sampling-theorem",
+	"wikidata": "Q679800",
+	"name": "Nyquist–Shannon sampling theorem",
+	"aliases": ["sampling theorem", "Nyquist rate"],
+	"kind": "idea",
+	"description": "The theorem that a signal containing no frequency above W is fully determined by samples taken 2W times a second, which underlies all digital audio and imaging."
+}
