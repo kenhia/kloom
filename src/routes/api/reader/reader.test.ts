@@ -4,7 +4,8 @@ import { openReaderStore, useReaderStore } from '$lib/server/reader-store';
 import { DELETE as unmark, GET as marks, POST as mark } from './bookmarks/+server';
 import { GET as exportData } from './export/+server';
 import { POST as importData } from './import/+server';
-import { DELETE as forget, GET as keptOn } from './kept/+server';
+import { DELETE as forget, GET as keptOn, PATCH as share } from './kept/+server';
+import { GET as sharedOn } from './shared/+server';
 import { GET as myNotes, POST as seeNotes } from './my-notes/+server';
 import {
 	DELETE as dropNote,
@@ -67,6 +68,10 @@ describe('reader data needs a reader', () => {
 			status: 401
 		});
 		expect(await call(forget, send('DELETE', {}, null))).toMatchObject({ status: 401 });
+		expect(await call(share, send('PATCH', {}, null))).toMatchObject({ status: 401 });
+		expect(await call(sharedOn, get('?subject=ai&frame=turing', null))).toMatchObject({
+			status: 401
+		});
 		expect(await call(markSeen, send('POST', {}, null))).toMatchObject({ status: 401 });
 		expect(await call(catchUp, send('POST', {}, null))).toMatchObject({ status: 401 });
 		expect(await call(frameVisit, send('POST', first, null))).toMatchObject({ status: 401 });
@@ -339,6 +344,37 @@ describe('kept answers', () => {
 		});
 		await call(forget, send('DELETE', { subject: 'western-civ', id }));
 		expect(await body(await call(keptOn, get(where)))).toEqual([]);
+	});
+
+	it('are shared with other readers only after a review passes them (korg 3560)', async () => {
+		const ask = { subject: 'western-civ', id, share: true };
+		expect(await body(await call(share, send('PATCH', ask)))).toMatchObject({
+			answer: { id },
+			share: 'pending'
+		});
+		// Another reader cannot share ken's answer, and nothing is shown before the review.
+		expect(await call(share, send('PATCH', ask, ada))).toMatchObject({ status: 404 });
+		expect(await call(share, send('PATCH', { ...ask, share: 'yes' }))).toMatchObject({
+			status: 400
+		});
+		expect(await body(await call(sharedOn, get(where, ada)))).toEqual([]);
+
+		const [waiting] = await readerStore().pendingShares();
+		await readerStore().reviewShare(ken.login, id, 'shared', 'Good.', waiting.asked);
+		expect(await body(await call(sharedOn, get(where, ada)))).toMatchObject([
+			{ answer: { id, question: 'Why?' } }
+		]);
+		// Never to its own reader (it is in their Q&A), and never who shared it.
+		expect(await body(await call(sharedOn, get(where)))).toEqual([]);
+		expect(JSON.stringify(await body(await call(sharedOn, get(where, ada))))).not.toContain(
+			ken.login
+		);
+		expect(await call(sharedOn, get('?subject=western-civ&frame=../x', ada))).toMatchObject({
+			status: 400
+		});
+
+		await call(share, send('PATCH', { ...ask, share: false }));
+		expect(await body(await call(sharedOn, get(where, ada)))).toEqual([]);
 	});
 });
 

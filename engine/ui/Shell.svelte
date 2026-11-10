@@ -49,7 +49,8 @@
 	import Narrative, {
 		type AnnotationOffer,
 		type LinksOffer,
-		type QaOffer
+		type QaOffer,
+		type SharedOffer
 	} from './Narrative.svelte';
 	import NoteEditor from './NoteEditor.svelte';
 	import Notes from './Notes.svelte';
@@ -615,8 +616,19 @@
 					count: (id) => layer.kept[id] ?? 0,
 					load: (id) => layer.keptOn(id),
 					forget: (id, answer) => layer.forget(id, answer),
+					share: (id, answer, on) => layer.share(id, answer, on),
 					titleOf: (id) => (subject.frames[id] ? titleOf(subject.frames[id]) : null),
 					ongoto: (id) => goTo(id)
+				}
+			: null
+	);
+
+	// Other readers' shared answers (korg 3560): any reader sees them, ask or none.
+	const sharedQa = $derived<SharedOffer | null>(
+		layer
+			? {
+					count: (id) => layer.shared[id] ?? 0,
+					load: (id) => layer.sharedOn(id)
 				}
 			: null
 	);
@@ -1091,6 +1103,7 @@
 			onenter={enter}
 			keys={{ sync: shown(keys.sync), trail: shown(keys.trail) }}
 			{qa}
+			shared={sharedQa}
 			{annotating}
 			annotations={frameNotes.filter((n) => n.anchor)}
 			links={linksOffer}

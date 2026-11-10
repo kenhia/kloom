@@ -28,7 +28,7 @@
 	],
 	"citations": [
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "From Enzymatic Adaptation to Allosteric Transitions",
 			"authors": [
@@ -37,7 +37,8 @@
 					"given": "Jacques"
 				}
 			],
-			"container": "Nobel Lecture, NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Prize Outreach",
 			"published": "1965-12-11",
 			"url": "https://www.nobelprize.org/uploads/2018/06/monod-lecture.pdf",
@@ -45,7 +46,7 @@
 			"note": "Diauxie and Lwoff in 1940, induction as new synthesis, the PaJaMo results, Szilard, and the repressor's composite portrait"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "Genetics of the Bacterial Cell",
 			"authors": [
@@ -54,7 +55,8 @@
 					"given": "François"
 				}
 			],
-			"container": "Nobel Lecture, NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Prize Outreach",
 			"published": "1965-12-11",
 			"url": "https://www.nobelprize.org/uploads/2018/06/jacob-lecture.pdf",

@@ -167,7 +167,7 @@ def brazil():
     d.text(px + 26, py + 8, 'POLAROID', size=7, anchor='start')
     d.text(370, sy - 6, 'AIR', size=7, anchor='end')
     d.text(370, sy + 14, 'WATER · n = 1.33', size=7, anchor='end')
-    d.text(200, 292, 'tan θB = n · θB = 53.1° · REFLECTED LIGHT POLARISED', size=7)
+    d.text(200, 292, 'tan θB = n · θB = 53.1° · REFLECTED LIGHT POLARIZED', size=7)
     return d
 
 

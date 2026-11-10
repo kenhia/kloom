@@ -127,7 +127,7 @@
 			"accessed": "2026-10-06"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "The Production of Mutations",
 			"authors": [
@@ -136,6 +136,7 @@
 					"given": "Hermann J."
 				}
 			],
+			"occasion": "Nobel Lecture",
 			"container": "NobelPrize.org",
 			"publisher": "Nobel Prize Outreach",
 			"published": "1946-12-12",

@@ -85,14 +85,10 @@ ADVANCE, ASCENT, DESCENT = 0.6, 0.75, 0.25
 TEXT = re.compile(r'<text\b([^>]*)>(.*?)</text>', re.S)
 
 
-def text_overflows(svg):
-    """Where a plate's text runs off its viewBox: one line each, by how far (korg 3554: bar_chart
-    warns of a chart's text, and a plate's labels ran off unseen in sprint 049). A turned label
-    (a `transform` or `rotate`) is not estimated."""
+def text_boxes(svg):
+    """Each flat label's estimated box, (text, left, top, right, bottom), and the viewBox (x, y, w, h)
+    or None. A turned label (a `transform` or `rotate`) is not estimated."""
     box = re.search(r'viewBox="\s*([-\d.]+)[\s,]+([-\d.]+)[\s,]+([-\d.]+)[\s,]+([-\d.]+)', svg)
-    if not box:
-        return []
-    x0, y0, w, h = map(float, box.groups())
     out = []
     for m in TEXT.finditer(svg):
         attrs, body = m.group(1), html.unescape(re.sub(r'<[^>]+>', '', m.group(2)))
@@ -107,11 +103,45 @@ def text_overflows(svg):
         n = len(body)
         wide = n * ADVANCE * size + (n - 1) * spacing
         left = {'middle': x - wide / 2, 'end': x - wide}.get(attr('text-anchor', 'start'), x)
+        out.append((body, left, y - ASCENT * size, left + wide, y + DESCENT * size))
+    return out, (tuple(map(float, box.groups())) if box else None)
+
+
+def text_overflows(svg):
+    """Where a plate's text runs off its viewBox: one line each, by how far (korg 3554: bar_chart
+    warns of a chart's text, and a plate's labels ran off unseen in sprint 049). A turned label
+    (a `transform` or `rotate`) is not estimated."""
+    boxes, view = text_boxes(svg)
+    if not view:
+        return []
+    x0, y0, w, h = view
+    out = []
+    for body, left, top, right, bottom in boxes:
         said = f'"{body}" runs ~{{:.0f}} units past the {{}}'
-        for over, edge in ((x0 - left, 'left edge'), (left + wide - (x0 + w), f'right edge ({x0 + w:g})'),
-                           (y0 - (y - ASCENT * size), 'top edge'), (y + DESCENT * size - (y0 + h), f'bottom edge ({y0 + h:g})')):
+        for over, edge in ((x0 - left, 'left edge'), (right - (x0 + w), f'right edge ({x0 + w:g})'),
+                           (y0 - top, 'top edge'), (bottom - (y0 + h), f'bottom edge ({y0 + h:g})')):
             if over >= 1:
                 out.append(said.format(over, edge))
+    return out
+
+
+# Two labels overlap when their estimated boxes share more than this much each way, in units: the
+# estimate is rough (a monospace advance, a descender every capital lacks), and a letter's spacing
+# between neighbors, or lines of a block set a size apart, are not a collision.
+OVERLAP = 1
+
+
+def text_overlaps(svg):
+    """Labels whose estimated boxes overlap inside a plate or a chart, one line a pair (korg 3557:
+    three of sprint 051's authors found theirs by eye). A warning: the estimate is the edge check's."""
+    boxes, _ = text_boxes(svg)
+    out = []
+    for i, (a, al, at, ar, ab) in enumerate(boxes):
+        for b, bl, bt, br, bb in boxes[i + 1:]:
+            wide, high = min(ar, br) - max(al, bl), min(ab, bb) - max(at, bt)
+            if wide > OVERLAP and high > OVERLAP:
+                out.append(f'"{a}" and "{b}" overlap by ~{wide:.0f} × {high:.0f} units at '
+                           f'({max(al, bl):.0f}, {max(at, bt):.0f})')
     return out
 
 
@@ -171,7 +201,7 @@ def main():
             continue
         p = palettes[s['palette']]
         for name, svg in svgs:
-            for line in text_overflows(svg):
+            for line in text_overflows(svg) + text_overlaps(svg):
                 print(f'contact_sheet: warning: {fid}/{name}: {line}', file=sys.stderr)
             title = (f'{html.escape(s["headline"])} <b style="color:{p["accent"]}">{html.escape(s["accent"])}</b>'
                      if name == s['illustration'] else html.escape(name))

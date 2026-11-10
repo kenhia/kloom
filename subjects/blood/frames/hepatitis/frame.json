@@ -21,15 +21,16 @@
 	},
 	"citations": [
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
-			"title": "Australia Antigen and the Biology of Hepatitis B: Nobel Lecture, December 13, 1976",
+			"title": "Australia Antigen and the Biology of Hepatitis B",
 			"authors": [
 				{
 					"family": "Blumberg",
 					"given": "Baruch S."
 				}
 			],
+			"occasion": "Nobel Lecture",
 			"container": "NobelPrize.org",
 			"publisher": "Nobel Foundation",
 			"published": "1976-12-13",

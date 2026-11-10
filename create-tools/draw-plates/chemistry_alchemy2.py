@@ -136,7 +136,7 @@ def gunpowder():
     for (k, su, ch), name, anchor, off in recipes:
         x, y = at(k, su, ch)
         d.text(x + off[0], y + off[1], name, size=7, anchor=anchor)
-    d.text(top[0], top[1] - 8, 'SALTPETRE KNO₃', size=8)
+    d.text(top[0], top[1] - 8, 'SALTPETER KNO₃', size=8)
     d.text(sul[0] - 4, by + 14, 'SULFUR', size=8)
     d.text(cha[0] + 4, by + 14, 'CHARCOAL', size=8)
     d.text(200, 286, '2 KNO₃ + S + 3 C → K₂S + N₂ + 3 CO₂', size=9)

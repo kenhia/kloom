@@ -9,6 +9,9 @@
 //   node skills/review-notes/review-notes.mjs [TARGET] handle --file RESULTS.json
 //   node skills/review-notes/review-notes.mjs [TARGET] suggestions [--status STATUS] [--json]
 //   node skills/review-notes/review-notes.mjs [TARGET] mark-suggestion READER SUGGESTION_ID STATUS
+//   node skills/review-notes/review-notes.mjs [TARGET] shares [--reader READER] [--json]
+//   node skills/review-notes/review-notes.mjs [TARGET] review-share READER ANSWER_ID shared|declined RESPONSE... [--seen ASKED]
+//   node skills/review-notes/review-notes.mjs [TARGET] review-share --file RESULTS.json
 //
 // TARGET is where the notes are: `--data DIR`, an app's data directory
 // ($KLOOM_DATA_DIR, else ./data, the dev server's; the service on kai keeps
@@ -20,7 +23,9 @@
 // whole: each answer is one guarded write, refused when the note is gone, no
 // longer flagged, or edited since it was listed (`--seen`, the `updated` the
 // listing gave). `handle --file` sends a JSON list of {reader, id, response,
-// seen?} in one call.
+// seen?} in one call. Kept answers readers asked to share (korg 3560) take
+// the same trip: `shares` lists them, and `review-share` passes or declines
+// one (`--file`: a list of {reader, id, decision, response, seen?}).
 
 import { spawnSync } from 'node:child_process';
 import { readFileSync } from 'node:fs';
@@ -31,7 +36,10 @@ const usage = `usage:
   review-notes.mjs [--data DIR | --public] handle READER NOTE_ID RESPONSE... [--seen UPDATED]
   review-notes.mjs [--data DIR | --public] handle --file RESULTS.json
   review-notes.mjs [--data DIR | --public] suggestions [--status STATUS] [--json]
-  review-notes.mjs [--data DIR | --public] mark-suggestion READER SUGGESTION_ID STATUS`;
+  review-notes.mjs [--data DIR | --public] mark-suggestion READER SUGGESTION_ID STATUS
+  review-notes.mjs [--data DIR | --public] shares [--reader READER] [--json]
+  review-notes.mjs [--data DIR | --public] review-share READER ANSWER_ID shared|declined RESPONSE... [--seen ASKED]
+  review-notes.mjs [--data DIR | --public] review-share --file RESULTS.json`;
 
 const repo = resolve(import.meta.dirname, '..', '..');
 const args = process.argv.slice(2);
@@ -173,4 +181,53 @@ if (command === 'list') {
 		process.exit(1);
 	}
 	process.stdout.write(r.out);
+} else if (command === 'shares') {
+	if (rest.length) fail(`unexpected: ${rest.join(' ')}`);
+	const { value: shares } = adminJson('shares', '--json', ...(reader ? ['--reader', reader] : []));
+	if (asJson) console.log(JSON.stringify(shares, null, '\t'));
+	else if (!shares.length) console.log(`No answers waiting to be shared (${where}).`);
+	else
+		for (const p of shares)
+			console.log(
+				[
+					`${p.readerName === p.reader ? p.reader : `${p.readerName} (${p.reader})`}  ${p.answer.id}`,
+					`  frame:   ${p.subject}/${p.frame}${p.answer.anchor.trail ? ` (on the trail ${p.answer.anchor.trail})` : ''}`,
+					`  content: subjects/${p.subject}/frames/${p.frame}/`,
+					`  asked:   ${p.answer.askedAt} by ${p.answer.model}${p.answer.webCitations ? ', with the web' : ''}`,
+					`  seen:    --seen ${p.asked}`,
+					`  Q: ${p.answer.question}`,
+					...p.answer.answer.split('\n').map((l) => `  | ${l}`),
+					...[...p.answer.citations, ...(p.answer.webCitations ?? [])].map((c) =>
+						`  - ${c.title ?? ''} ${c.url ?? ''}`.trimEnd()
+					),
+					''
+				].join('\n')
+			);
+} else if (command === 'review-share') {
+	let batch;
+	if (file) {
+		if (rest.length) fail('review-share --file takes nothing else');
+		try {
+			batch = JSON.parse(readFileSync(file, 'utf8'));
+		} catch (e) {
+			fail(`${file}: ${e.message}`);
+		}
+		if (!Array.isArray(batch)) fail(`${file}: not a JSON list`);
+	} else {
+		const [login, id, decision, ...words] = rest;
+		const response = words.join(' ').trim();
+		if (!login || !id || !decision || !response)
+			fail('review-share needs a reader, an answer id, shared or declined, and a response');
+		batch = [{ reader: login, id, decision, response, ...(seen ? { seen } : {}) }];
+	}
+	const { value: results } = adminJson('review-shares', JSON.stringify(batch));
+	let refused = 0;
+	for (const r of results) {
+		if (r.ok) console.log(`${r.decision === 'shared' ? 'Shared' : 'Declined'} ${r.id}.`);
+		else {
+			refused += 1;
+			console.error(`no share of ${r.id} by ${r.reader} reviewed: ${r.why}`);
+		}
+	}
+	if (refused) process.exit(1);
 } else fail(command ? `unknown command: ${command}` : 'no command');

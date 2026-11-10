@@ -275,7 +275,7 @@ def huntsman_steel():
     d.text(fx1 + wall + 43, floor - 76, 'FLUE', size=7)
     d.text(fx0 - wall - 4, grate - 40, 'COKE', size=7, anchor='end')
     d.text(cx, grate + 22, 'CELLAR', size=7)
-    d.text(mx + 20, mbot - 60, 'MOULD', size=7, anchor='start')
+    d.text(mx + 20, mbot - 60, 'MOLD', size=7, anchor='start')
     d.text(cx, 284, 'THE MELTING HOLE', size=8)
     d.text(mx, 284, 'TEEMING', size=8)
     return d

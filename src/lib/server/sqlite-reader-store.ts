@@ -12,8 +12,10 @@ import type {
 	Reading,
 	ReaderStore,
 	ReviewNote,
+	ReviewShare,
 	ReviewSuggestion,
 	SeenFrame,
+	SharedAnswer,
 	Suggestion
 } from '$engine/reader-data';
 import type { KeptAnswer } from '$engine/ai/kept';
@@ -211,7 +213,21 @@ const MIGRATIONS = [
 	CREATE TABLE admin (
 		reader TEXT PRIMARY KEY,
 		enabled TEXT NOT NULL
-	);`
+	);`,
+	// Sprint 057 (korg 3560): a kept answer shared with other readers, once
+	// an agent's review passes it. One row per answer ever asked about;
+	// `asked` is when the reader last ticked the box, the guard a review
+	// gives back, and `reviewed` when a review last landed.
+	`CREATE TABLE kept_share (
+		reader TEXT NOT NULL,
+		id TEXT NOT NULL,
+		state TEXT NOT NULL CHECK (state IN ('none', 'pending', 'shared', 'declined')),
+		response TEXT,
+		asked TEXT NOT NULL,
+		reviewed TEXT,
+		PRIMARY KEY (reader, id)
+	);
+	CREATE INDEX kept_share_state ON kept_share (state, asked);`
 ];
 
 /**
@@ -375,7 +391,14 @@ export function openReaderStore(
 		'SELECT frame, count(*) AS n FROM kept WHERE reader = ? AND subject = ? GROUP BY frame'
 	);
 	const keptOnFrame = db.prepare(
-		'SELECT answer, grown FROM kept WHERE reader = ? AND subject = ? AND frame = ? ORDER BY kept_at, id'
+		`SELECT k.answer, k.grown, coalesce(s.state, 'none') AS share, s.response AS shareResponse
+		 FROM kept k LEFT JOIN kept_share s ON s.reader = k.reader AND s.id = k.id
+		 WHERE k.reader = ? AND k.subject = ? AND k.frame = ? ORDER BY k.kept_at, k.id`
+	);
+	const keptOneShare = db.prepare(
+		`SELECT k.answer, k.grown, coalesce(s.state, 'none') AS share, s.response AS shareResponse
+		 FROM kept k LEFT JOIN kept_share s ON s.reader = k.reader AND s.id = k.id
+		 WHERE k.reader = ? AND k.subject = ? AND k.id = ?`
 	);
 	const keptById = db.prepare(
 		'SELECT answer FROM kept WHERE reader = ? AND subject = ? AND id = ?'
@@ -387,6 +410,36 @@ export function openReaderStore(
 		'UPDATE kept SET grown = ? WHERE reader = ? AND subject = ? AND id = ?'
 	);
 	const dropKept = db.prepare('DELETE FROM kept WHERE reader = ? AND subject = ? AND id = ?');
+
+	// Shared answers (korg 3560). Ticking asks for a review afresh; unticking
+	// takes it back at once. Only a review moves one to shared or declined,
+	// and only one still waiting, asked when the reviewer read it.
+	const askShare = db.prepare(
+		`INSERT INTO kept_share (reader, id, state, response, asked) VALUES (?, ?, 'pending', NULL, ?)
+		 ON CONFLICT (reader, id) DO UPDATE SET
+		 state = CASE WHEN kept_share.state = 'shared' THEN 'shared' ELSE 'pending' END,
+		 response = CASE WHEN kept_share.state = 'shared' THEN kept_share.response ELSE NULL END,
+		 asked = CASE WHEN kept_share.state = 'shared' THEN kept_share.asked ELSE excluded.asked END`
+	);
+	const unshare = db.prepare(
+		`UPDATE kept_share SET state = 'none', response = NULL WHERE reader = ? AND id = ?`
+	);
+	const dropShare = db.prepare('DELETE FROM kept_share WHERE reader = ? AND id = ?');
+	const review = db.prepare(
+		`UPDATE kept_share SET state = ?, response = ?, reviewed = ?
+		 WHERE reader = ? AND id = ? AND state = 'pending' AND (? IS NULL OR asked = ?)`
+	);
+	const sharedCols = `FROM kept k JOIN kept_share s ON s.reader = k.reader AND s.id = k.id
+		 WHERE s.state = 'shared' AND k.subject = ? AND k.reader IS NOT ?`;
+	const sharedCount = db.prepare(`SELECT k.frame, count(*) AS n ${sharedCols} GROUP BY k.frame`);
+	const sharedOnFrame = db.prepare(
+		`SELECT k.answer, s.reviewed AS shared ${sharedCols} AND k.frame = ? ORDER BY s.reviewed, k.id`
+	);
+	const pendingCols = `SELECT k.reader, k.subject, k.frame, k.answer, s.asked
+		 FROM kept k JOIN kept_share s ON s.reader = k.reader AND s.id = k.id
+		 WHERE s.state = 'pending'`;
+	const pending = db.prepare(`${pendingCols} ORDER BY s.asked, k.id`);
+	const pendingBy = db.prepare(`${pendingCols} AND k.reader = ? ORDER BY s.asked, k.id`);
 
 	// What's new (korg 3525): first visits, watermarks, what was opened, and activity.
 	const startReading = db.prepare(
@@ -450,8 +503,15 @@ export function openReaderStore(
 	};
 	const anchorText = (a: Note['anchor'] | undefined) => (a ? JSON.stringify(a) : null);
 	const kept = (r: unknown): Kept => {
-		const { answer, grown } = r as { answer: string; grown: string | null };
-		return { answer: JSON.parse(answer), grown: grown ? JSON.parse(grown) : null };
+		const { answer, grown, share, shareResponse } = r as {
+			answer: string;
+			grown: string | null;
+		} & Pick<Kept, 'share' | 'shareResponse'>;
+		return {
+			answer: JSON.parse(answer),
+			grown: grown ? JSON.parse(grown) : null,
+			...(share ? { share, shareResponse: shareResponse ?? null } : {})
+		};
 	};
 	const storeKept = (reader: string, a: KeptAnswer, grown: string[] | null) =>
 		putKept.run(
@@ -481,6 +541,7 @@ export function openReaderStore(
 		bookmark: db.prepare('DELETE FROM bookmark WHERE reader = ?'),
 		note: db.prepare('DELETE FROM note WHERE reader = ?'),
 		kept: db.prepare('DELETE FROM kept WHERE reader = ?'),
+		share: db.prepare('DELETE FROM kept_share WHERE reader = ?'),
 		suggestion: db.prepare('DELETE FROM suggestion WHERE reader = ?'),
 		reading: db.prepare('DELETE FROM reading WHERE reader = ?'),
 		seen: db.prepare('DELETE FROM seen WHERE reader = ?'),
@@ -645,7 +706,41 @@ export function openReaderStore(
 			setGrown.run(JSON.stringify(frames), reader, subject, id);
 		},
 		async forget(reader, subject, id) {
-			return dropKept.run(reader, subject, id).changes > 0;
+			return inTransaction(() => {
+				const gone = dropKept.run(reader, subject, id).changes > 0;
+				if (gone) dropShare.run(reader, id);
+				return gone;
+			});
+		},
+		async shareKept(reader, subject, id, share) {
+			return inTransaction(() => {
+				if (!keptById.get(reader, subject, id)) return null;
+				if (share) askShare.run(reader, id, stamp());
+				else unshare.run(reader, id);
+				return kept(keptOneShare.get(reader, subject, id));
+			});
+		},
+		async sharedCounts(subject, except) {
+			const counts: Record<string, number> = {};
+			for (const r of sharedCount.all(subject, except ?? null) as { frame: string; n: number }[])
+				counts[r.frame] = r.n;
+			return counts;
+		},
+		async sharedOn(subject, frame, except) {
+			return (
+				sharedOnFrame.all(subject, except ?? null, frame) as { answer: string; shared: string }[]
+			).map((r): SharedAnswer => ({ answer: JSON.parse(r.answer), shared: r.shared }));
+		},
+		async pendingShares(reader) {
+			return (
+				(reader ? pendingBy.all(reader) : pending.all()) as (Omit<ReviewShare, 'answer'> & {
+					answer: string;
+				})[]
+			).map((r) => ({ ...r, answer: JSON.parse(r.answer) }));
+		},
+		async reviewShare(reader, id, decision, response, seen) {
+			const at = seen ?? null;
+			return review.run(decision, response, stamp(), reader, id, at, at).changes > 0;
 		},
 
 		async exportData(reader): Promise<ReaderExport> {
@@ -713,6 +808,7 @@ export function openReaderStore(
 				n.bookmarks = Number(dropAll.bookmark.run(reader).changes);
 				n.notes = Number(dropAll.note.run(reader).changes);
 				n.kept = Number(dropAll.kept.run(reader).changes);
+				dropAll.share.run(reader);
 				n.readings = Number(dropAll.reading.run(reader).changes);
 				n.seen = Number(dropAll.seen.run(reader).changes);
 				dropAll.activity.run(reader);

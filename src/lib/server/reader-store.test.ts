@@ -153,7 +153,7 @@ describe('what is new to a reader (korg 3525)', () => {
 		// Back to sprint 041's schema, with the records kept.
 		const raw = new DatabaseSync(path);
 		raw.exec(
-			`DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access; DROP TABLE frame_visit; DROP TABLE admin; PRAGMA user_version = 6;`
+			`DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access; DROP TABLE frame_visit; DROP TABLE admin; DROP TABLE kept_share; PRAGMA user_version = 6;`
 		);
 		raw.close();
 		const store = openReaderStore(path, settable('2026-10-03T09:00:00Z'));
@@ -476,6 +476,96 @@ describe('kept answers', () => {
 	});
 });
 
+describe('shared answers', () => {
+	const one = '20260927T170509Z-00000001';
+	const two = '20260927T170509Z-00000002';
+
+	it('are public only once an agent review passes them', async () => {
+		const store = openReaderStore(':memory:', clock());
+		await store.keep(ken, answer(one, 'printing-press'));
+		await store.keep(ken, answer(two, 'printing-press'));
+		expect((await store.keptOn(ken, 'western-civ', 'printing-press'))[0]).toMatchObject({
+			share: 'none',
+			shareResponse: null
+		});
+
+		// Ticking "Share with other readers" asks for a review; nothing is public yet.
+		expect(await store.shareKept(ken, 'western-civ', one, true)).toMatchObject({
+			share: 'pending'
+		});
+		expect(await store.sharedOn('western-civ', 'printing-press')).toEqual([]);
+		expect(await store.sharedCounts('western-civ')).toEqual({});
+		const pending = await store.pendingShares();
+		expect(pending.map((p) => [p.reader, p.answer.id, p.subject, p.frame])).toEqual([
+			[ken, one, 'western-civ', 'printing-press']
+		]);
+		expect(await store.pendingShares(ada)).toEqual([]);
+
+		// The review passes it: every reader but ken now sees it.
+		expect(
+			await store.reviewShare(ken, one, 'shared', 'Accurate and sourced.', pending[0].asked)
+		).toBe(true);
+		expect(
+			(await store.sharedOn('western-civ', 'printing-press', ada)).map((s) => s.answer.id)
+		).toEqual([one]);
+		expect(await store.sharedOn('western-civ', 'printing-press', ken)).toEqual([]);
+		expect(await store.sharedCounts('western-civ', ada)).toEqual({ 'printing-press': 1 });
+		expect(await store.sharedCounts('western-civ', ken)).toEqual({});
+		expect((await store.keptOn(ken, 'western-civ', 'printing-press'))[0]).toMatchObject({
+			share: 'shared',
+			shareResponse: 'Accurate and sourced.'
+		});
+		// A review lands once: the share is no longer waiting.
+		expect(await store.reviewShare(ken, one, 'declined', 'No.')).toBe(false);
+
+		// A declined one stays private, with the reason; asking again clears it.
+		await store.shareKept(ken, 'western-civ', two, true);
+		expect(await store.reviewShare(ken, two, 'declined', 'It contradicts the frame.')).toBe(true);
+		expect((await store.keptOn(ken, 'western-civ', 'printing-press'))[1]).toMatchObject({
+			share: 'declined',
+			shareResponse: 'It contradicts the frame.'
+		});
+		expect(await store.sharedCounts('western-civ', ada)).toEqual({ 'printing-press': 1 });
+		expect(await store.shareKept(ken, 'western-civ', two, true)).toMatchObject({
+			share: 'pending',
+			shareResponse: null
+		});
+
+		// Unticking takes a shared answer back at once; forgetting it does too.
+		expect(await store.shareKept(ken, 'western-civ', one, false)).toMatchObject({
+			share: 'none'
+		});
+		expect(await store.sharedOn('western-civ', 'printing-press', ada)).toEqual([]);
+		await store.forget(ken, 'western-civ', two);
+		expect(await store.pendingShares()).toEqual([]);
+
+		// Only their own answers, and only ones they kept.
+		expect(await store.shareKept(ada, 'western-civ', one, true)).toBeNull();
+		expect(await store.shareKept(ken, 'ai', one, true)).toBeNull();
+	});
+
+	it('refuse a review of a request made again since it was read', async () => {
+		const store = openReaderStore(':memory:', clock());
+		await store.keep(ken, answer(one));
+		await store.shareKept(ken, 'western-civ', one, true);
+		const [read] = await store.pendingShares();
+		await store.shareKept(ken, 'western-civ', one, false);
+		await store.shareKept(ken, 'western-civ', one, true);
+		expect(await store.reviewShare(ken, one, 'shared', 'Fine.', read.asked)).toBe(false);
+		const [now] = await store.pendingShares();
+		expect(await store.reviewShare(ken, one, 'shared', 'Fine.', now.asked)).toBe(true);
+	});
+
+	it('go with a deleted reader', async () => {
+		const store = openReaderStore(':memory:', clock());
+		await store.keep(ken, answer(one));
+		await store.shareKept(ken, 'western-civ', one, true);
+		await store.reviewShare(ken, one, 'shared', 'Fine.');
+		await store.deleteReader(ken);
+		expect(await store.sharedOn('western-civ', context.frame.id)).toEqual([]);
+	});
+});
+
 describe('export and import', () => {
 	it('carries notes and kept answers through the export format', async () => {
 		const from = openReaderStore(':memory:', clock());
@@ -695,7 +785,7 @@ describe('the file', () => {
 		const raw = new DatabaseSync(path);
 		raw.exec(`ALTER TABLE note DROP COLUMN unseen;
 			DROP TABLE account; DROP TABLE session; DROP TABLE invite; DROP TABLE suggestion;
-			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access; DROP TABLE frame_visit; DROP TABLE admin;
+			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access; DROP TABLE frame_visit; DROP TABLE admin; DROP TABLE kept_share;
 			PRAGMA user_version = 3;`);
 		raw.close();
 		const store = openReaderStore(path, clock());
@@ -716,7 +806,7 @@ describe('the file', () => {
 		// Back to sprint 034's schema, before the reader edition's sign-in.
 		const raw = new DatabaseSync(path);
 		raw.exec(`DROP TABLE account; DROP TABLE session; DROP TABLE invite; DROP TABLE suggestion;
-			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access; DROP TABLE frame_visit; DROP TABLE admin;
+			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access; DROP TABLE frame_visit; DROP TABLE admin; DROP TABLE kept_share;
 			PRAGMA user_version = 4;`);
 		raw.close();
 		const store = openReaderStore(path, clock());
@@ -737,7 +827,7 @@ describe('the file', () => {
 		// Back to sprint 039's schema, the one the public site first shipped with.
 		const raw = new DatabaseSync(path);
 		raw.exec(`DROP TABLE suggestion;
-			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access; DROP TABLE frame_visit; DROP TABLE admin; PRAGMA user_version = 5;`);
+			DROP TABLE reading; DROP TABLE seen; DROP TABLE activity; DROP TABLE ask_cost; DROP TABLE ask_access; DROP TABLE frame_visit; DROP TABLE admin; DROP TABLE kept_share; PRAGMA user_version = 5;`);
 		raw.close();
 		const store = openReaderStore(path, clock());
 		expect((await store.allNotes(ken)).map((x) => x.text)).toEqual(['kept']);
@@ -754,7 +844,7 @@ describe('the file', () => {
 		// Back to sprint 043's schema, the one the public site ran before ask.
 		const raw = new DatabaseSync(path);
 		raw.exec(
-			`DROP TABLE ask_cost; DROP TABLE ask_access; DROP TABLE frame_visit; DROP TABLE admin; PRAGMA user_version = 7;`
+			`DROP TABLE ask_cost; DROP TABLE ask_access; DROP TABLE frame_visit; DROP TABLE admin; DROP TABLE kept_share; PRAGMA user_version = 7;`
 		);
 		raw.close();
 		const store = openReaderStore(path, clock());
@@ -776,7 +866,9 @@ describe('the file', () => {
 		before.close();
 		// Back to sprint 046's schema, the one the public site runs before this.
 		const raw = new DatabaseSync(path);
-		raw.exec(`DROP TABLE frame_visit; DROP TABLE admin; PRAGMA user_version = 8;`);
+		raw.exec(
+			`DROP TABLE frame_visit; DROP TABLE admin; DROP TABLE kept_share; PRAGMA user_version = 8;`
+		);
 		raw.close();
 		const store = openReaderStore(path, clock());
 		expect((await store.allNotes(ken)).map((x) => x.text)).toEqual(['kept']);

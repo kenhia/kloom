@@ -194,7 +194,7 @@ def lost_wax():
                 hatch.append([(cx + side * xi, y), (cx + side * xo, y)])
     d.lines(hatch)
     d.group('mid')
-    labels = ['WAX ON CORE', 'MOULD', 'BURN OUT', 'POUR']
+    labels = ['WAX ON CORE', 'MOLD', 'BURN OUT', 'POUR']
     for k, cx in enumerate(cxs):
         d.text(cx, cy + 108, f'{k + 1} · {labels[k]}', size=8)
     d.text(cxs[0], cy + H + 14, 'CORE', size=8)

@@ -18,17 +18,22 @@ python3 create-tools/names/names.py strip blood/abo blood/harvey --out .scratch/
   the `wikidata` item the article is about, its `name`, Wikidata's short
   description to start the name file's `description` from (rewrite it:
   one plain sentence on what it is and why it matters here), and the
-  article's `first_line` (its first 300 characters: the API's first
-  sentence ended at "Mary Prince (c.", sprint 051). **Read both before you use the item**: a real
+  article's `first_line` (its opening 300 characters, cut at a word: the
+  API's first sentence ended at "Mary Prince (c.", sprint 051). **Read
+  both before you use the item**: a real
   article on a namesake passes every other check ("Hideo Kodama" is a
   politician, "Robin Forrest" a priest; sprint 026 met four), and
   `--expect WORD` warns, and exits 1, for each article whose description
-  and first line lack WORD (`--expect printing`); a title may carry its
+  and whole intro (the lead section, since sprint 057: the first line
+  alone failed "Isabella Beeton=Household") lack WORD (`--expect
+printing`); a title may carry its
   own, `"Army Medical School=London"`, for a batch of different things.
   The check is shared with `wiki_cite.py --expect`
   (`create-tools/lib/article_check.py`), so the two never drift. A title that redirects
-  says so in `redirected`, because the article it lands on may be a wider
-  thing: "Project MAC" lands on CSAIL. Look such an item up on Wikidata
+  says so in `redirected`, and in a `note:` on stderr naming where it
+  went (sprint 057: a redirect to a namesake that happened to say the
+  word passed silently), because the article it lands on may be a wider
+  thing or a namesake: "Project MAC" lands on CSAIL. Look such an item up on Wikidata
   itself (`wbsearchentities`), and check units and namesakes there too:
   "Horsepower" is not the metric horsepower. A title that lands on a
   disambiguation page, or a set-index page ("Sodium citrate", a list of
@@ -55,7 +60,13 @@ python3 create-tools/names/names.py strip blood/abo blood/harvey --out .scratch/
   `kind` and `description` left empty for you, so `add` refuses it until
   they are written; a missing, ambiguous or warned-of title, or a draft
   already there, is not written (sprint 050: one of sprint 049's authors
-  typed a Wikidata id by hand, and wrong).
+  typed a Wikidata id by hand, and wrong). **An id that collides** is
+  warned of, exits 1 and is not written (sprint 057): one the registry
+  (`--names`) holds for another Wikidata item, or two titles in one call
+  that slug to one id for two items ("Cell biology" and "Cell (biology)"
+  are both `cell-biology`). Pick the id yourself with `Title#id`
+  (`"Cell (biology)#cell"`, with `=word` after it if you like), which
+  lookup and `--write-draft` then use.
 - **`add`** writes name files (files, or directories of them) into the
   registry. A new name is written, tab-indented as Prettier leaves the
   repo's JSON. A name already there is left alone unless `--update`. A
@@ -86,6 +97,18 @@ python3 create-tools/names/names.py strip blood/abo blood/harvey --out .scratch/
   whole words and exact case. `--root DIR` marks a copy of the subjects
   instead of the live ones, such as the one `subject_plan.py --complete`
   writes; wrapped words are written in the spec with a single space.
+  `mark` also warns when a mark lands just after a capitalized word that
+  looks part of the same name: "East India Company" inside "the Dutch
+  East India Company" (sprint 057). A warning, never a refusal, and quiet
+  after a possessive, a title, a people's adjective or a sentence's first
+  word; make the spec's words the ones meant.
+- **A frame marks at most fifteen names** (`MARK_CAP`, sprint 057; "up to
+  fifteen" since sprint 049). Past it, `mark` and `mark --check` exit 1,
+  and `mark` leaves the frame as it was, unless a spec carries the frame
+  in `"markCapOverrides": {"<subject>/<frame>": "<why it names so
+many>"}`, with a reason that is not empty: a roll call of who was in
+  the room, a lineage, a survey of a field's makers. Twelve frames
+  written before the cap was checked carry one.
 - **`mark --check` exits 0 when every mark is placed or would place**, and
   1 only on a problem: a mention it cannot find, a name no file or draft
   holds, or a mark in a frame the spec names that no spec in its
@@ -102,6 +125,11 @@ python3 create-tools/names/names.py strip blood/abo blood/harvey --out .scratch/
   would refuse (sprint 021; until sprint 030 it named the name and placed
   the frame's marks anyway). An
   author checks with `--check --drafts .scratch/names/<subject>-<segment>`.
+  **In a checking copy only** (`--root DIR`), `--skip-missing` places the
+  rest of a frame whose spec names a name not yet drafted or finished,
+  and names each one it skipped (sprint 057: authors waiting on another
+  part's names wrote temporary specs). On the live subjects, and with
+  `--placed`, it is refused and exits 2: the gate stays strict.
   A draft still without its `kind` or `description` (as `lookup
 --write-draft` leaves it) is not known yet: `mark` says it is "drafted but
   unfinished" and exits 1, as the checking copy (`subject_plan.py

@@ -63,6 +63,15 @@ lists (one typed by hand). "Would place" is success, and exits 0. `--placed` mak
 not yet placed a problem too: `just check` runs every spec that way, so a spec is the
 record of what was marked and a hand-typed mark fails the gate (sprint 027).
 `add --check` changes nothing, and exits 1 if anything would be refused.
+`mark --skip-missing` is for a checking copy only (`--root` a copy): it places the rest of a frame
+whose spec names a name not yet drafted, and names the one it skipped (sprint 057). The live
+subjects and `--placed` stay strict and refuse it. A frame marks at most 15 names (MARK_CAP);
+one that needs more says why in its spec, `"markCapOverrides": {"<subject>/<frame>": "<reason>"}`,
+and `mark` exits 1 on a frame past the cap with no reason (korg 3576 #8). `mark` warns of a mark
+that lands just after a capitalized word, which may be inside a longer name.
+`lookup` warns of an id that collides with the registry's or another title's, and `Title#id`
+gives a name its own; `--write-draft` writes no collision. `--expect` reads the whole intro, and a
+redirect is said.
 Standard library only.
 """
 
@@ -79,7 +88,7 @@ from pathlib import Path
 
 # The article check, shared with wiki_cite.py so the two never drift (sprint 033).
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / 'lib'))
-from article_check import article_mismatch, expectations, item_mismatch, untex  # noqa: E402
+from article_check import article_mismatch, expectations, item_mismatch, redirect_note, untex  # noqa: E402
 
 API = 'https://en.wikipedia.org/w/api.php'
 # A project URL, never a person: the Wikimedia APIs ask for a contact, and this is it.
@@ -125,19 +134,26 @@ def slug(title):
     return re.sub(r'[^a-z0-9]+', '-', plain.lower()).strip('-')
 
 
+def intro_query(batch):
+    """The API query for a batch's pages: their items, short descriptions and whole lead sections
+    (the intro, not its first 300 characters: "Isabella Beeton=Household" failed on a right article
+    whose first line did not say it, sprint 051)."""
+    return {
+        'action': 'query', 'prop': 'pageprops|extracts|categories',
+        'ppprop': 'wikibase_item|wikibase-shortdesc|disambiguation',
+        'exintro': 1, 'explaintext': 1, 'exlimit': 'max',
+        'clcategories': SET_INDEX, 'cllimit': 'max',
+        'redirects': 1, 'format': 'json', 'titles': '|'.join(batch),
+    }
+
+
 def lookup(titles):
-    """{requested title: {id, wikidata, name, description, first_line, item_description, instance_of}},
+    """{requested title: {id, wikidata, name, description, first_line, intro, item_description, instance_of}},
     following redirects, 20 at a time (the most intro extracts the API gives in one request)."""
     out = {}
     for i in range(0, len(titles), 20):
         batch = titles[i:i + 20]
-        query = urllib.parse.urlencode({
-            'action': 'query', 'prop': 'pageprops|extracts|categories',
-            'ppprop': 'wikibase_item|wikibase-shortdesc|disambiguation',
-            'exintro': 1, 'explaintext': 1, 'exchars': 300, 'exlimit': 'max',
-            'clcategories': SET_INDEX, 'cllimit': 'max',
-            'redirects': 1, 'format': 'json', 'titles': '|'.join(batch),
-        })
+        query = urllib.parse.urlencode(intro_query(batch))
         out.update(rows(batch, get(f'{API}?{query}')['query']))
     classes = item_classes([r['wikidata'] for r in out.values() if r.get('wikidata')])
     for row in out.values():
@@ -171,15 +187,67 @@ def rows(batch, data):
             # A disambiguation or set-index page is a list of meanings, not one of them.
             out[asked] = {'ambiguous': asked, 'page': page['title']}
             continue
+        intro = untex(' '.join(page.get('extract', '').split()))
         out[asked] = {
             **({'redirected': page['title']} if moved else {}),
             'id': slug(page['title']),
             'wikidata': props.get('wikibase_item'),
             'name': page['title'],
             'description': props.get('wikibase-shortdesc', ''),
-            # The article's own first sentence: a namesake shows here (sprint 026's four).
-            'first_line': untex(' '.join(page.get('extract', '').split())),
+            # The article's opening, to read: a namesake shows here (sprint 026's four).
+            'first_line': first_line(intro),
+            # The whole lead section, which --expect reads (sprint 057); not printed.
+            'intro': intro,
         }
+    return out
+
+
+def first_line(intro, limit=300):
+    """The intro's opening, at most `limit` characters, cut at a word."""
+    if len(intro) <= limit:
+        return intro
+    return intro[:limit].rsplit(' ', 1)[0] + ' …'
+
+
+def collisions(found, registry):
+    """{asked title: why} for a looked-up id that is not this item's to take (korg 3576 #4): the
+    registry holds the id for another Wikidata item, or two titles in one call slug to one id for
+    two items ("Cell biology" and "Cell (biology)" are both cell-biology). The author picks an id,
+    `Title#id`; `--write-draft` writes neither until then."""
+    out = {}
+    held = {}
+    for stem, f in registry.items():
+        held[stem] = json.loads(Path(f).read_text()).get('wikidata')
+    by_id = {}
+    for asked, row in found.items():
+        if 'id' in row:
+            by_id.setdefault(row['id'], []).append(asked)
+    pick = 'pick an id of its own with "Title#id"'
+    for name_id, asked_all in by_id.items():
+        items = {found[a].get('wikidata') for a in asked_all}
+        if name_id in held and held[name_id] not in items | {None}:
+            for a in asked_all:
+                out[a] = (f'"{a}" ({found[a].get("wikidata")}) slugs to {name_id}, but {name_id} is '
+                          f'names/{name_id}.json, {held[name_id]}: {pick}')
+        elif len(items) > 1:
+            both = ' and '.join(f'"{a}" ({found[a].get("wikidata")})' for a in asked_all)
+            for a in asked_all:
+                out[a] = f'{both} both slug to {name_id}: {pick}'
+    return out
+
+
+def explicit_ids(asked):
+    """[(title, keyword, id or None)] from [(title, keyword)]: `Title#id` gives the name its own id,
+    for a title whose slug collides (a Wikipedia title never holds "#")."""
+    out = []
+    for title, keyword in asked:
+        bare, sep, name_id = title.rpartition('#')
+        if not sep:
+            out.append((title, keyword, None))
+            continue
+        if not NAME_ID.match(name_id):
+            raise ValueError(f'"{title}": an id is lower case, digits and -')
+        out.append((bare, keyword, name_id))
     return out
 
 
@@ -210,12 +278,12 @@ def item_classes(qids):
 
 def unexpected(found, expect, expect_item=None):
     """Why a looked-up article may not be the thing meant: `expect` is in neither its description
-    nor its first line (a namesake: "Hideo Kodama" --expect printing is a politician), or, with
+    nor its intro (a namesake: "Hideo Kodama" --expect printing is a politician), or, with
     `expect_item`, in neither its Wikidata item's description nor its class (a gene product for a
     blood group, sprint 029). None when all is well, or the title was not found."""
     if 'id' not in found:
         return None
-    why = article_mismatch(found['name'], found.get('description'), found.get('first_line'), expect)
+    why = article_mismatch(found['name'], found.get('description'), found.get('intro', found.get('first_line')), expect)
     if why or not expect_item or 'instance_of' not in found:
         return why
     return item_mismatch(found['name'], found.get('wikidata'), found.get('item_description'),
@@ -248,6 +316,33 @@ def mark(reading, words, name):
         return None if at is None else reading
     a, b = at
     return f'{reading[:a]}[{reading[a:b]}](kloom:e/{name}){reading[b:]}'
+
+
+# Words that start a sentence or a phrase with a capital and are not part of a name: function words,
+# months and days, and titles before a person ("Sir Humphry Davy" marks the man, not the title).
+NOT_A_NAME = set('''a an the in on at by of for from to with and but or nor then when while as if its his her
+their this that these those after before under over between during since until upon into via
+our we he she it they i january february march april may june july august september october
+november december monday tuesday wednesday thursday friday saturday sunday sir lord lady dame king
+queen prince princess emperor empress pope saint st president general admiral captain lieutenant
+colonel major sergeant professor doctor dr mr mrs ms miss reverend rev bishop archbishop'''.split())
+
+
+def longer_name(reading, a):
+    """The capitalized word just before a mark at `a`, when it looks part of the same proper name:
+    "East India Company" landing inside "Dutch East India Company" (sprint 051). A warning, never a
+    refusal, so it errs quiet: not after a possessive ("MIT's Whirlwind"), a function word, a month,
+    a title before a person, a people's adjective ("Norwegian"), or a word that starts its sentence."""
+    m = re.search(r"(?<![\w\]'’])([A-Z][\w-]*)[ \t]*\n?[ \t]*(\*\*|_)?$", reading[:a])
+    if not m or m.group(1).lower() in NOT_A_NAME or m.group(1) == 'BC':
+        return None
+    # A people's or a faith's adjective names who, not which ("the Norwegian Niels Henrik Abel").
+    if re.search(r'(?:an|ian|ish|ese|ine|born)$', m.group(1)):
+        return None
+    before = reading[:m.start(1)].rstrip(' \t*_')
+    if not before or before.endswith(('.', '!', '?', ':', '\n', '"', '“', '(', '—')):
+        return None
+    return m.group(1)
 
 
 BOLD = re.compile(r'\*\*(?=\S)((?:(?!\n\n).)+?)(?<=\S)\*\*', re.S)
@@ -456,6 +551,7 @@ def main():
                          '(a title may carry its own: "Title=word")')
     lk.add_argument('--write-draft', metavar='DIR',
                     help='write a draft name file per title found into DIR (its kind and description left for you)')
+    lk.add_argument('--names', default='names', help='the registry directory, for id collisions')
     lk.add_argument('--expect-item', metavar='WORD',
                     help="also warn, and exit 1, when the article's Wikidata item's description and class lack "
                          'this word: an item that is something else (a gene product for a blood group)')
@@ -494,21 +590,37 @@ def main():
     mk.add_argument('--names', default='names', help='the registry directory')
     mk.add_argument('--drafts', action='append', default=[],
                     help='a directory of name drafts not yet added, whose ids count as known (repeatable)')
+    mk.add_argument('--skip-missing', action='store_true',
+                    help='a checking copy only (--root DIR): place the rest of a frame whose spec names a name '
+                         'not yet drafted, and name it; refused on the live subjects and with --placed')
     args = p.parse_args()
 
     if args.command == 'lookup':
-        asked = expectations(args.titles, args.expect)
-        found = lookup([t for t, _ in asked])
+        try:
+            asked = explicit_ids(expectations(args.titles, args.expect))
+        except ValueError as e:
+            p.error(str(e))
+        found = lookup([t for t, _, _ in asked])
+        rows_asked = {}
+        for t, _, name_id in asked:
+            row = dict(found.get(t, {'missing': t}))
+            if name_id and 'id' in row:
+                row['id'] = name_id
+            rows_asked[t] = row
+        registry = {f.stem: f for f in Path(args.names).glob('*.json')} if Path(args.names).is_dir() else {}
+        clash = collisions(rows_asked, registry)
         doubtful = set()
-        for t, keyword in asked:
-            row = found.get(t, {'missing': t})
-            print(json.dumps(row, ensure_ascii=False))
-            why = unexpected(row, keyword, args.expect_item)
-            if why:
-                print(f'warning: {why}', file=sys.stderr)
-                doubtful.add(t)
+        for t, keyword, _ in asked:
+            row = rows_asked[t]
+            print(json.dumps({k: v for k, v in row.items() if k != 'intro'}, ensure_ascii=False))
+            if 'redirected' in row:
+                print(f'note: {redirect_note(t, row["redirected"])}', file=sys.stderr)
+            for why in (unexpected(row, keyword, args.expect_item), clash.get(t)):
+                if why:
+                    print(f'warning: {why}', file=sys.stderr)
+                    doubtful.add(t)
         if args.write_draft:
-            for line in write_drafts({t: found.get(t, {'missing': t}) for t, _ in asked}, args.write_draft, doubtful):
+            for line in write_drafts(rows_asked, args.write_draft, doubtful):
                 print(line, file=sys.stderr)
         return 1 if doubtful else 0
 
@@ -564,6 +676,25 @@ def main():
 
 
 SPECS = Path(__file__).resolve().parent / 'examples'
+# The live subjects, which `mark --skip-missing` refuses to touch.
+LIVE = Path(__file__).resolve().parent.parent.parent / 'subjects'
+# The most names a frame marks without saying why (korg 3576 #8; "up to fifteen" since sprint 049).
+MARK_CAP = 15
+# A spec's key for the frames that may mark more, each with its reason: not a frame.
+OVERRIDES = 'markCapOverrides'
+
+
+def spec_frames(spec):
+    """A spec's {"<subject>/<frame>": pairs}, without its cap overrides."""
+    return {ref: pairs for ref, pairs in spec.items() if ref != OVERRIDES}
+
+
+def cap_overrides(spec_dir):
+    """{ref: reason} from every spec beside this one: a frame's marks may be split across specs."""
+    out = {}
+    for sp in Path(spec_dir).glob('*.json'):
+        out.update(json.loads(sp.read_text()).get(OVERRIDES, {}))
+    return out
 
 
 def write_drafts(found, out_dir, doubtful=()):
@@ -629,7 +760,8 @@ def drafts(subject, drafts_dir, plan=None, registry=None, specs=SPECS):
                                                           for r in rows}):
         notes.append(line)
     specs = Path(specs)
-    marked = {pair[1] for sp in specs.glob('*.json') for pairs in json.loads(sp.read_text()).values() for pair in pairs}
+    marked = {pair[1] for sp in specs.glob('*.json') for pairs in spec_frames(json.loads(sp.read_text())).values()
+              for pair in pairs}
     unspecced = set()
     for r in rows:
         if r['id'] in marked or (registry and r['id'] in registry):
@@ -655,6 +787,11 @@ def for_part(rows, problems, notes, part):
 
 def mark_spec(args):
     """`mark`: place each spec's marks, or with --check say what would be placed. 0, or 1 on a problem."""
+    if args.skip_missing and (args.placed or Path(args.root).resolve() == LIVE):
+        # A checking copy may wait on another part's name; the live subjects and the gate may not.
+        print('--skip-missing is for a checking copy (mark --root DIR): the live subjects and --placed '
+              'stay strict', file=sys.stderr)
+        return 2
     failed = 0
     # A mark on a name no file holds fails the gate; say so here, not at vitest (sprint 021).
     registry = {f.stem: f for f in Path(args.names).glob('*.json')} if Path(args.names).is_dir() else {}
@@ -667,7 +804,8 @@ def mark_spec(args):
     known = set(registry) | (set(drafted) - unfinished)
     # Name the stale drafts these specs mark; count the rest. Passing other authors' drafts
     # printed dozens of their names, which buried this author's own (sprint 028, four authors).
-    marked = {pair[1] for p in args.spec for pairs in json.loads(Path(p).read_text()).values() for pair in pairs}
+    marked = {pair[1] for p in args.spec for pairs in spec_frames(json.loads(Path(p).read_text())).values()
+              for pair in pairs}
     others = 0
     for stem, held, line in stale_drafts(registry, drafted):
         if stem in marked or held in marked:
@@ -685,14 +823,23 @@ def mark_spec(args):
 def mark_one(args, spec_path, known, unfinished=frozenset()):
     """One spec's marks; returns how many problems it found."""
     failed = 0
-    for ref, pairs in json.loads(spec_path.read_text()).items():
+    skip = getattr(args, 'skip_missing', False)
+    spec = json.loads(spec_path.read_text())
+    overrides = cap_overrides(spec_path.parent)
+    for ref, pairs in spec_frames(spec).items():
         unknown = [name for _, name in pairs if name not in known]
         for name in unknown:
-            if name in unfinished:
-                print(f'{ref}: {name} is drafted but unfinished (no kind or description yet)', file=sys.stderr)
+            why = ('is drafted but unfinished (no kind or description yet)' if name in unfinished
+                   else 'is not in the registry or a draft')
+            if skip:
+                # A checking copy: say which, and place the rest (sprint 057).
+                print(f'{ref}: {name} skipped: {why.replace("is ", "", 1)}', file=sys.stderr)
             else:
-                print(f'{ref}: {name} is not in the registry or a draft', file=sys.stderr)
-            failed += 1
+                print(f'{ref}: {name} {why}', file=sys.stderr)
+                failed += 1
+        if skip:
+            pairs = [pair for pair in pairs if pair[1] not in unknown]
+            unknown = []
         path = Path(args.root) / ref.split('/')[0] / 'frames' / ref.split('/')[1] / 'reading.md'
         if not path.exists():
             # A checking copy built with --only leaves other authors' frames out (sprint 049, where
@@ -709,13 +856,25 @@ def mark_one(args, spec_path, known, unfinished=frozenset()):
                 failed += 1
             elif at != 'marked':
                 a, b = at
-                landed.append((name, words, sentence(reading, a, b), bold_elsewhere(reading, words, a, b)))
+                landed.append((name, words, sentence(reading, a, b), bold_elsewhere(reading, words, a, b),
+                               longer_name(reading, a)))
                 reading = mark(reading, words, name)
+        count = len(MARK.findall(reading))
+        reason = overrides.get(ref)
+        over = count > MARK_CAP and not (isinstance(reason, str) and reason.strip())
+        # A frame split across specs (shared.json) is over the cap once, not once a spec.
+        capped = args.__dict__.setdefault('capped', set())
+        if over and ref not in capped:
+            capped.add(ref)
+            said = 'its reason is empty: it needs a reason' if ref in overrides else 'mark fewer, or say why'
+            print(f'{ref}: {count} marks, more than {MARK_CAP}: {said} in a spec\'s "{OVERRIDES}" '
+                  f'({{"{ref}": "<why this frame names so many>"}})', file=sys.stderr)
+            failed += 1
         if args.check:
             # The specs are the record of what was marked: a mark placed by hand is in none of them
             # (sprint 021). A frame's marks may be split across specs (shared.json), so read them all.
             listed = {name for sp in spec_path.parent.glob('*.json')
-                      for name_ref, ps in json.loads(sp.read_text()).items() if name_ref == ref
+                      for name_ref, ps in spec_frames(json.loads(sp.read_text())).items() if name_ref == ref
                       for _, name in ps}
             for name in sorted(set(MARK.findall(reading)) - listed):
                 print(f'{ref}: marks {name}, which the spec does not list (a mark typed by hand?)', file=sys.stderr)
@@ -732,14 +891,19 @@ def mark_one(args, spec_path, known, unfinished=frozenset()):
                 # Placing a mark on no name writes a frame the gate refuses (sprint 030), so a frame
                 # with one is left as it was, and every mark waits for the name to be added.
                 print(f'{ref}: not marked, until {", ".join(unknown)} is added', file=sys.stderr)
+            elif over:
+                print(f'{ref}: not marked', file=sys.stderr)
             else:
                 path.write_text(reading)
                 print(f'{ref}: marked {len(landed)}')
-            for name, words, where, bold in landed:
+            for name, words, where, bold, longer in landed:
                 print(f'  {name}: {where}')
                 if bold:
                     print(f'{ref}: warning: {name} lands on "{words}" before the bold {bold}; '
                           'reword the reading, or make the spec\'s words the bold ones', file=sys.stderr)
+                if longer:
+                    print(f'{ref}: warning: {name} lands on "{words}" after "{longer}": is it inside a longer '
+                          f'name ("{longer} {words}")? Make the spec\'s words the ones meant', file=sys.stderr)
     return failed
 
 

@@ -46,5 +46,8 @@
 		["Columbus", "christopher-columbus"],
 		["Luca Ghini", "luca-ghini"],
 		["Conrad Gessner", "conrad-gessner"]
-	]
+	],
+	"markCapOverrides": {
+		"biology/herbals": "A lineage frame: the herbal from Theophrastus and Dioscorides to Brunfels, Fuchs, Ghini and Gessner, with its artist and the New World plants first drawn in it."
+	}
 }

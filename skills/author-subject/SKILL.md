@@ -148,6 +148,15 @@ Each author gets:
   stays, and in all three runs a brief's must-tell list alone nearly
   filled it); the headline voice; the rights and sourcing rules that are
   particular to this subject; and the accents already taken;
+  **A laboratory frame's method** (an experiment, a technique, a
+  procedure at the bench) is asked for as historical narrative: who did
+  what, why, and what it showed, with the result and its numbers. Never
+  ask for it step by step, as a protocol, a recipe or a methods table: in
+  sprint 055 a model's safety filter refused one author's numbered table
+  of a cloning method, and the frame was rewritten as narrative (Ken's
+  decision of 2026-11-09, korg 3576). The reading may still show how a
+  thing works, its mechanism as geometry or a chart of its results;
+  what it leaves out is a procedure someone could follow;
 - the hand-written frames' readings **with their marks stripped**
   (`names.py strip <subject>/<frame> … --out <dir>`), to read in full
   before writing, as the quality bar, and their `frame.json` files.
@@ -157,7 +166,12 @@ Each author gets:
   (sprint 029). `just check`'s `mark --check --placed` stays the backstop;
 - **its own files only**: its frame directories, its own plate module, its
   own chart specs in `create-tools/bar-chart/examples/`, and its own names
-  drafts (below). Nothing shared, so nothing collides. The author does not
+  drafts (below). Nothing shared, so nothing collides. A map's coasts come
+  from `create-tools/draw-plates/coastlines.py` (`land(name)`, or `add NAME
+--box=W,S,E,N` for a new region; the lead commits a new region), never
+  data pasted into a part's module; hatching and fields are clipped with
+  `plates.clip` and `plates.hatch`, not a clipper of the author's own
+  (sprint 057). The author does not
   touch `spine.json`, the trails, the plan, `subject.json` or `names/`;
 - **names and connections**, as the grow skill's §Names and connections
   says, with one difference: the registry is shared, so an author does
@@ -175,7 +189,11 @@ lookup`, never from memory; the id is lookup's, so two authors reach the
   warns of a set-index page, with `--expect-item` where an article and its
   item may differ, a blood group's and its protein's),
   reading the sentence it prints for each mark and acting on any warning
-  that a mark misses the bold mention. An existing name whose description
+  that a mark misses the bold mention or lands inside a longer name. A
+  lookup that warns of an id collision is settled with `"Title#id"`, and
+  a redirect lookup notes is read before its item is used (sprint 057).
+  At most fifteen marks a frame, past which a spec's `markCapOverrides`
+  gives the reason, and the brief says so. An existing name whose description
   is written from another subject's angle only is reported, not edited.
   Its frames' `frame.json` carry their connections, each checked against
   the other frame's reading;
@@ -337,7 +355,11 @@ lookup "Title" … --write-draft .scratch/names/<subject>-<part>`** writes
   already drafted it. Authors run `names.py drafts <subject>` before
   drafting a name the plan does not list, pass every drafts directory to
   `--complete` and `mark --check`, and check with `--only <their frames>`
-  so no one else's half-written frame fails them.
+  so no one else's half-written frame fails them. In that copy, `mark
+--root <copy> --skip-missing` places the rest of a frame that borrows a
+  name another part has not drafted yet, and names what it skipped
+  (sprint 057); the live check stays strict, so the name must exist
+  before the part commits.
   An author's copy grows as the reviewer commits other parts, so a later
   commit (a clashing accent) can fail a frame that passed: check again
   just before reporting. `--complete` ends by counting the copy, not the

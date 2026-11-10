@@ -66,7 +66,7 @@ def matrix_mechanics():
     d.group()
     for n in range(1, 5):
         d.text(x1 + 6, ly(n) + 3, f'n={n}', size=7, anchor='start')
-    d.text(x0, top - 6, 'IONISED', size=7, anchor='start')
+    d.text(x0, top - 6, 'IONIZED', size=7, anchor='start')
     d.text(Px + 2 * cell, Py - 8, 'P', size=10)
     d.text(Xx - 10, Xy + 2 * cell + 4, 'X', size=10, anchor='end')
     d.text(Cx + 2 * cell, Cy + 4 * cell + 16, 'XP', size=10)

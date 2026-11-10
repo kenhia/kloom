@@ -53,6 +53,34 @@ class TextFit(unittest.TestCase):
         self.assertEqual(cs.text_overflows(svg), [])
 
 
+class TextOverlap(unittest.TestCase):
+    """Labels colliding inside a plate (korg 3557 #6: three of sprint 051's authors fixed theirs by eye),
+    estimated as the edge check estimates a label's box. A warning only."""
+
+    svg = TextFit.svg
+
+    def test_labels_apart_are_fine(self):
+        self.assertEqual(cs.text_overlaps(self.svg((100, 100, 'middle', 'ONE'), (100, 120, 'middle', 'TWO'),
+                                                   (200, 100, 'middle', 'THREE'))), [])
+
+    def test_says_which_labels_meet_and_where(self):
+        self.assertEqual(cs.text_overlaps(self.svg((100, 100, 'start', 'A LONG LABEL'), (130, 104, 'start', 'NEXT'))),
+                         ['"A LONG LABEL" and "NEXT" overlap by ~25 × 5 units at (130, 97)'])
+
+    def test_a_touch_is_not_an_overlap(self):
+        # two labels on one line, a letter's spacing apart; and lines of a block set 9 units apart at size 7
+        self.assertEqual(cs.text_overlaps(self.svg((100, 100, 'start', 'LEFT'), (124, 100, 'start', 'RIGHT'))), [])
+        svg = ('<svg viewBox="0 0 400 300">' + ''.join(
+            f'<text x="200" y="{y}" font-size="7" text-anchor="middle" letter-spacing="1">LINE OF A BLOCK</text>'
+            for y in (100, 109, 118)) + '</svg>')
+        self.assertEqual(cs.text_overlaps(svg), [])
+
+    def test_skips_a_turned_label(self):
+        svg = ('<svg viewBox="0 0 400 300"><text x="100" y="100" transform="rotate(-90 100 100)">TURNED</text>'
+               '<text x="100" y="100">FLAT</text></svg>')
+        self.assertEqual(cs.text_overlaps(svg), [])
+
+
 class Palettes(unittest.TestCase):
     known = {'flint': {}, 'chalk': {}}
 

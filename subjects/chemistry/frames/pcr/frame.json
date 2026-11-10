@@ -17,15 +17,16 @@
 	},
 	"citations": [
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
-			"title": "The Polymerase Chain Reaction (Nobel Lecture, December 8, 1993)",
+			"title": "The Polymerase Chain Reaction",
 			"authors": [
 				{
 					"family": "Mullis",
 					"given": "Kary B."
 				}
 			],
+			"occasion": "Nobel Lecture",
 			"container": "NobelPrize.org",
 			"publisher": "Nobel Prize Outreach",
 			"published": "1993-12-08",

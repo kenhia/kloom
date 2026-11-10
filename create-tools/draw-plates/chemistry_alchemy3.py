@@ -145,7 +145,7 @@ def paracelsus():
     d.text(x0, yb - 8, 'ARSENATE', size=7, anchor='start')
     d.text(290, 90, 'As₂O₃ + 2 KNO₃', size=8)
     d.text(290, 106, '→ 2 KAsO₃ + NO + NO₂', size=8)
-    d.text(cx, 186, 'FIRED WITH SALTPETRE', size=7)
+    d.text(cx, 186, 'FIRED WITH SALTPETER', size=7)
     return d
 
 

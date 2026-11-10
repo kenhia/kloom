@@ -411,7 +411,7 @@ describe('citationProblems', () => {
 				authors: ['NASA']
 			})
 		).toEqual([
-			'kind must be one of web, wikipedia, book, article, chapter, report, media, letter, encyclopedia, diary, case, statute, treaty',
+			'kind must be one of web, wikipedia, book, article, chapter, report, media, letter, encyclopedia, diary, case, statute, treaty, lecture',
 			'url must be http(s)',
 			'accessed date is required, as YYYY-MM-DD',
 			'published must be YYYY, YYYY-MM or YYYY-MM-DD, a shorter year (888), or a year BC (1550 BC)',
@@ -527,9 +527,8 @@ describe('the schema for older, translated and second-hand sources (sprint 027)'
 				'London: Society of Antiquaries of London, 1800. Accessed October 1, 2026. ' +
 				'https://archive.org/details/archaeologiaormi13soci/page/204.'
 		);
-		expect(citationProblems({ ...letter, recipients: undefined, written: 'June' })).toEqual([
-			'written must be YYYY, YYYY-MM or YYYY-MM-DD, a shorter year (888), or a year BC (1550 BC)',
-			'a letter needs its recipients'
+		expect(citationProblems({ ...letter, written: 'June' })).toEqual([
+			'written must be YYYY, YYYY-MM or YYYY-MM-DD, a shorter year (888), or a year BC (1550 BC)'
 		]);
 	});
 
@@ -904,7 +903,7 @@ describe('the forms from Keeping Watch (sprint 033)', () => {
 			'a law cited by its gazette needs the gazette and its page in code: {"name": "…", "page": "1146"}'
 		]);
 		expect(citationProblems({ ...gazette, citeAs: 'bluebook' })).toEqual([
-			'citeAs is "regnal" (an English act) or "gazette" (a foreign law); a US statute leaves it out'
+			'citeAs is "regnal" (an English act by regnal year), "year" (a UK act by its year and chapter) or "gazette" (a foreign law); a US statute leaves it out'
 		]);
 		expect(citationProblems({ ...frank, citeAs: 'regnal' })).toContain('citeAs is for a statute');
 	});
@@ -981,5 +980,99 @@ describe('the forms from Keeping Watch (sprint 033)', () => {
 		]);
 		expect(captionCredit(chart)).toBe('kloom contributors / MIT / data doi:10.1289/EHP7932');
 		expect(citationProblems(chart)).toEqual([]);
+	});
+});
+
+describe('the forms from The Story of Life (sprint 057)', () => {
+	it('sets a letter to a recipient no one knows as a letter, with no recipient invented', () => {
+		const anning: Citation = {
+			kind: 'letter',
+			title: 'Autograph letter concerning the discovery of plesiosaurus',
+			authors: [{ family: 'Anning', given: 'Mary' }],
+			written: '1823-12-26',
+			url: 'https://wellcomecollection.org/works/cezbevj4',
+			accessed: '2026-10-06'
+		};
+		expect(citationProblems(anning)).toEqual([]);
+		expect(chicagoText(anning)).toBe(
+			'Anning, Mary. “Autograph letter concerning the discovery of plesiosaurus.” Letter, ' +
+				'December 26, 1823. Accessed October 6, 2026. https://wellcomecollection.org/works/cezbevj4.'
+		);
+		expect(chicagoText({ ...anning, written: undefined })).toContain(
+			'plesiosaurus.” Letter. Accessed'
+		);
+		// An empty list is not "unknown": leave the field out.
+		expect(citationProblems({ ...anning, recipients: [] })).toEqual([
+			'recipients, when known, are listed; a letter to an unknown recipient leaves recipients out'
+		]);
+	});
+
+	it('sets a lecture: who gave it, on what occasion, where and when', () => {
+		const kornberg: Citation = {
+			kind: 'lecture',
+			title: 'The Biologic Synthesis of Deoxyribonucleic Acid',
+			authors: [{ family: 'Kornberg', given: 'Arthur' }],
+			occasion: 'Nobel Lecture',
+			place: 'Stockholm',
+			published: '1959-12-11',
+			container: 'NobelPrize.org',
+			publisher: 'Nobel Prize Outreach',
+			url: 'https://www.nobelprize.org/uploads/2018/06/kornberg-lecture.pdf',
+			accessed: '2026-10-06',
+			key: true
+		};
+		expect(citationProblems(kornberg)).toEqual([]);
+		expect(chicagoText(kornberg)).toBe(
+			'Kornberg, Arthur. “The Biologic Synthesis of Deoxyribonucleic Acid.” Nobel Lecture, ' +
+				'Stockholm, December 11, 1959. NobelPrize.org. Nobel Prize Outreach. Accessed October 6, 2026. ' +
+				'https://www.nobelprize.org/uploads/2018/06/kornberg-lecture.pdf.'
+		);
+		expect(keySource(kornberg)).toEqual({
+			title: 'Arthur Kornberg, The Biologic Synthesis of Deoxyribonucleic Acid',
+			url: 'https://www.nobelprize.org/uploads/2018/06/kornberg-lecture.pdf',
+			note: 'Nobel Lecture, Stockholm, December 11, 1959. NobelPrize.org'
+		});
+		expect(citationProblems({ ...kornberg, occasion: undefined, published: undefined })).toEqual([
+			'a lecture needs its occasion ("Nobel Lecture", "Lecture, Royal Institution")',
+			'a lecture needs the date it was given, in published'
+		]);
+		expect(citationProblems({ ...web, occasion: 'Nobel Lecture' })).toContain(
+			'occasion is for a lecture'
+		);
+	});
+
+	it('sets a modern UK act by its year and chapter, the year said once', () => {
+		const cloning: Citation = {
+			kind: 'statute',
+			citeAs: 'year',
+			title: 'Human Reproductive Cloning Act 2001',
+			chapter: '23',
+			published: '2001-12-04',
+			container: 'legislation.gov.uk',
+			publisher: 'The National Archives',
+			url: 'https://www.legislation.gov.uk/ukpga/2001/23/enacted',
+			accessed: '2026-10-06'
+		};
+		expect(citationProblems(cloning)).toEqual([]);
+		expect(legalText(cloning)).toBe('Human Reproductive Cloning Act 2001, c. 23');
+		expect(legalText({ ...cloning, section: 's. 1' })).toBe(
+			'Human Reproductive Cloning Act 2001, c. 23, s. 1'
+		);
+		// A short title without its year is given it once, after the chapter.
+		expect(legalText({ ...cloning, title: 'Cloning Act' })).toBe('Cloning Act, c. 23 (2001)');
+		expect(citationProblems({ ...cloning, chapter: undefined, code: { name: 'c. 23' } })).toEqual([
+			'an act cited by its year needs its chapter ("23"), and no code: its year is the volume'
+		]);
+		// A calendar year is not a regnal year: by regnal year it printed the year twice.
+		expect(
+			citationProblems({ ...cloning, citeAs: 'regnal', code: { volume: '2001', name: 'c.' } })
+		).toEqual([
+			'a regnal year is a reign’s ("1 Will. & Mar."), not a calendar year: an act cited by its year and chapter is citeAs "year"'
+		]);
+	});
+
+	it('takes a DataCite DOI (Zenodo, Catalogue of Life, a thesis) as any other', () => {
+		for (const doi of ['10.5281/zenodo.3553579', '10.48580/dgz5n', '10.21427/D79K7H'])
+			expect(citationProblems({ ...article, doi })).toEqual([]);
 	});
 });

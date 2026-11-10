@@ -19,25 +19,55 @@ python3 create-tools/bar-chart/bar_chart.py create-tools/bar-chart/examples/book
 
 See `examples/book-output.json`, the printing-press chart.
 
-| Field                         | Meaning                                                                                         |
-| ----------------------------- | ----------------------------------------------------------------------------------------------- |
-| `title`, `description`        | The SVG's accessible name and description.                                                      |
-| `heading`                     | The small caption across the top.                                                               |
-| `unit`                        | Suffix for the value labels (`"M"`).                                                            |
-| `scale`                       | Optional: `"log"` for a log10 axis (sprint 006, for quantities spanning orders of magnitude).   |
-| `axis`                        | `max` (and `min`, required for `log`), and `ticks` as `[value, label]` pairs.                   |
-| `bars`                        | `label`, optional `sublabel`, `value`, optional `display` (the value's label), `highlight`.     |
-| `width`, `height`, `barWidth` | Optional; default 480, 300 and 56.                                                              |
-| `source`                      | Optional: `container`, `doi` and/or `url`, `accessed`. The chart's `media` citation is printed. |
+| Field                         | Meaning                                                                                                                         |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| `title`, `description`        | The SVG's accessible name and description.                                                                                      |
+| `heading`                     | The small caption across the top.                                                                                               |
+| `unit`                        | Suffix for the value labels (`"M"`).                                                                                            |
+| `scale`                       | Optional: `"log"` for a log10 axis (sprint 006, for quantities spanning orders of magnitude).                                   |
+| `axis`                        | `max`, `min` (required for `log`; below zero for a negative value), and `ticks` as `[value, label]` pairs.                      |
+| `bars`                        | `label`, optional `sublabel`, `value`, optional `display` (the value's label), `highlight`.                                     |
+| `series`                      | Optional: grouped bars, `[{"label": …}, …]`, at most four; each bar then takes `values`, one a series, and optional `displays`. |
+| `width`, `height`, `barWidth` | Optional; default 480, 300 and 56 (with `series`, one bar's width, by default what fits).                                       |
+| `source`                      | Optional: `container`, `doi` and/or `url`, `accessed`. The chart's `media` citation is printed.                                 |
 
-A value's label has one decimal under 100 unless the value is whole: 28, not 28.0 (sprint 015).
+A value's label keeps the decimals the data gives it, and a whole number
+has none: 159.7 is "159.7", 28.0 is "28" (sprint 015). Until sprint 057 a
+value over 100 was rounded whole (korg 3557: 159.7 shown as 160, beside
+94.6 shown as written). A `display` still overrides it.
+
+**Negative values** (sprint 057, korg 3557: sprint 051 could not chart a
+net figure that went below zero, China's net grain imports around
+1961–62): give the axis a `min` below zero on a linear
+axis. A negative bar hangs from the zero line, which is drawn strong, with
+its value under its end in a true minus sign ("−4.16"). A negative value
+cannot go on a log axis.
+
+**Grouped bars** (sprint 057, korg 3576 and 3557: horses against tractors
+was drawn by hand): `series` names two to four series, and each entry in
+`bars` is a group with `values` in the series' order. The series are told
+apart by fill, the ink, the accent, the muted color and an outline, each
+a palette hook, so they follow the palette mode; a legend on the heading's
+line names them, ending at the plot's right edge. Values' labels are set
+at 9 units. `highlight` and `value` are refused in a grouped chart, and a
+`displays` entry of `""` leaves a value unlabeled where labels would
+overlap.
+
+```json
+"series": [{ "label": "HORSES AND MULES" }, { "label": "TRACTORS" }],
+"bars": [{ "label": "1920", "values": [25.2, 0.25] }, { "label": "1960", "values": [3.1, 4.69] }]
+```
 
 It refuses, writing nothing, a spec whose text will not fit (sprint 021,
 when authors could not see their charts and three headings ran off the
 right edge): a heading wider than the chart, two neighbouring labels that
 overlap, a bar so tall that its value's label meets the heading, and (since
 sprint 027, after a "1,000,000" tick was cut off) a tick label wider than
-the space left of the axis, about eight characters. Widen
+the space left of the axis, about eight characters. Since sprint 057 it
+also refuses a value below the axis `min` (or any negative one on a log
+axis), a negative bar's label that meets the bars' labels, a group whose
+`values` do not match its `series`, a legend that meets the heading, and
+two neighboring values' labels in a grouped chart that overlap. Widen
 the chart (`width`) or raise the axis `max`; shorten text only when nothing
 is lost. The estimate takes a monospace glyph as 0.6 em. Look at a chart
 before it goes live with `contact_sheet.py <subject> <frame> --charts`.
@@ -50,7 +80,9 @@ its data's: the bibliography gives it as "Data: https://doi.org/…" and the
 caption credit as "data doi:…", and `url` stays for an image's or a file's
 own page (sprint 033). Give the spec a `source` (`container`, `doi` and/or
 `url`, and `accessed` if not today) and the tool prints that citation, ready
-to paste.
+to paste. It warns of a Wikipedia page given as `url` without `oldid=`
+(sprint 057, korg 3576): a Wikipedia source is cited by the revision read,
+as every Wikipedia citation is.
 
 ## The charts made with it
 

@@ -20,7 +20,7 @@
 	},
 	"citations": [
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "Research in Nuclear Magnetism",
 			"authors": [
@@ -29,14 +29,15 @@
 					"given": "Edward M."
 				}
 			],
-			"container": "Nobel Lecture, NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"published": "1952-12-11",
 			"url": "https://www.nobelprize.org/uploads/2018/06/purcell-lecture.pdf",
 			"accessed": "2026-09-30",
 			"note": "The snow, the chemical shift as a nuisance, and the ethyl alcohol spectrum of Arnold, Dharmatti and Packard (1951), with its areas of 3, 2 and 1"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "Nuclear Magnetic Resonance Fourier Transform Spectroscopy",
 			"authors": [
@@ -45,7 +46,8 @@
 					"given": "Richard R."
 				}
 			],
-			"container": "Nobel Lecture, NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"published": "1992-12-09",
 			"url": "https://www.nobelprize.org/uploads/2018/06/ernst-lecture.pdf",
 			"accessed": "2026-09-30",

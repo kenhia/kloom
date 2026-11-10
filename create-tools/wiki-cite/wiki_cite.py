@@ -11,17 +11,19 @@ readable text to DIR/<Title>.txt (DIR/<Title>.<lang>.txt for --lang), so what yo
 a formula is written once, as its TeX. `--lang` cites another language's
 Wikipedia, with the citation's `language`. `--expect WORD` checks that each
 article is the one meant, as `names.py lookup --expect` does and with the
-same code: its short description or first line must say WORD, or a warning
+same code: its short description or intro (the whole lead section, sprint
+057) must say WORD, or a warning
 on stderr names the article it landed on, and the run exits 1 after
 printing (sprint 033: "Army Medical School" quietly cited the US school, a
 namesake). A title may carry its own word, `"Army Medical School=London"`.
+A title that redirects is said, with the article it lands on (sprint 057).
 Standard library only.
 """
 import argparse, datetime, html.parser, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 
 # The article check, shared with names.py lookup so the two never drift (sprint 033).
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'lib'))
-from article_check import article_mismatch, expectations, untex  # noqa: E402
+from article_check import article_mismatch, expectations, redirect_note, untex  # noqa: E402
 
 AGENT = 'kloom-create-tools/1.0 (https://github.com/kenhia/kloom)'
 
@@ -46,43 +48,61 @@ def api(lang):
     return f'https://{lang}.wikipedia.org/w/api.php'
 
 
+def revision_query(batch):
+    """The API query for a batch: each page's current revision, its short description and its whole
+    lead section, which --expect reads (sprint 057: the first sentence alone failed right articles)."""
+    return {
+        'action': 'query', 'prop': 'revisions|pageprops|extracts', 'rvprop': 'ids|timestamp',
+        'ppprop': 'disambiguation|wikibase-shortdesc', 'exintro': 1, 'explaintext': 1,
+        'exlimit': 'max', 'redirects': 1, 'format': 'json', 'titles': '|'.join(batch),
+    }
+
+
+def read_batch(batch, data, about=None, say=lambda line: print(line, file=sys.stderr)):
+    """{asked title: (canonical title, revid, date)} from one batch's `query` answer; what is missing,
+    a disambiguation page or a redirect is said (`say`)."""
+    out = {}
+    renamed = {}
+    for step in data.get('normalized', []) + data.get('redirects', []):
+        renamed[step['from']] = step['to']
+    redirected = {step['from'] for step in data.get('redirects', [])}
+    pages = {p['title']: p for p in data['pages'].values()}
+    for t in batch:
+        name, path = t, set()
+        while name in renamed and name not in path:
+            path.add(name)
+            name = renamed[name]
+        page = pages.get(name)
+        if not page or 'missing' in page:
+            say(f'wiki_cite: no article "{t}"')
+            continue
+        if 'disambiguation' in page.get('pageprops', {}):
+            # A list of meanings is not a source (sprint 024 cited "Gerhard Frey"'s by accident).
+            say(f'wiki_cite: "{name}" is a disambiguation page: cite the article meant')
+            continue
+        if path & redirected:
+            # The article it lands on may be a namesake, or something wider (sprint 057).
+            say(f'wiki_cite: {redirect_note(t, name)}')
+        elif name != t and name.lower() != t.lower().replace('_', ' '):
+            say(f'wiki_cite: "{t}" is cited as "{name}"')
+        rev = page['revisions'][0]
+        out[t] = (name, rev['revid'], rev['timestamp'][:10])
+        if about is not None:
+            about[name] = (page.get('pageprops', {}).get('wikibase-shortdesc', ''),
+                           untex(' '.join(page.get('extract', '').split())))
+    return out
+
+
 def revisions(titles, lang='en', about=None):
     """{requested title: (canonical title, revid, date)} in batches of 20 (the most intro extracts the
     API gives in one request); a title that is missing or a disambiguation page is named on stderr
-    and left out. `about`, a dict, is filled with {canonical title: (short description, first line)},
+    and left out. `about`, a dict, is filled with {canonical title: (short description, intro)},
     for --expect."""
     out = {}
     for i in range(0, len(titles), 20):
         batch = titles[i:i + 20]
-        query = urllib.parse.urlencode({
-            'action': 'query', 'prop': 'revisions|pageprops|extracts', 'rvprop': 'ids|timestamp',
-            'ppprop': 'disambiguation|wikibase-shortdesc', 'exintro': 1, 'explaintext': 1, 'exsentences': 1,
-            'exlimit': 'max', 'redirects': 1, 'format': 'json', 'titles': '|'.join(batch),
-        })
-        data = get(f'{api(lang)}?{query}')['query']
-        renamed = {}
-        for step in data.get('normalized', []) + data.get('redirects', []):
-            renamed[step['from']] = step['to']
-        pages = {p['title']: p for p in data['pages'].values()}
-        for t in batch:
-            name = t
-            while name in renamed:
-                name = renamed[name]
-            page = pages.get(name)
-            if not page or 'missing' in page:
-                print(f'wiki_cite: no article "{t}"', file=sys.stderr)
-                continue
-            if 'disambiguation' in page.get('pageprops', {}):
-                # A list of meanings is not a source (sprint 024 cited "Gerhard Frey"'s by accident).
-                print(f'wiki_cite: "{name}" is a disambiguation page: cite the article meant', file=sys.stderr)
-                continue
-            if name != t and name.lower() != t.lower().replace('_', ' '):
-                print(f'wiki_cite: "{t}" is cited as "{name}"', file=sys.stderr)
-            rev = page['revisions'][0]
-            out[t] = (name, rev['revid'], rev['timestamp'][:10])
-            if about is not None:
-                about[name] = (page.get('pageprops', {}).get('wikibase-shortdesc', ''),
-                               untex(' '.join(page.get('extract', '').split())))
+        query = urllib.parse.urlencode(revision_query(batch))
+        out.update(read_batch(batch, get(f'{api(lang)}?{query}')['query'], about))
     return out
 
 
@@ -185,7 +205,7 @@ def main():
     ap.add_argument('--text', metavar='DIR', help="also write each revision's readable text to DIR/<Title>.txt")
     ap.add_argument('--lang', default='en', help="the Wikipedia's language code (default en): de cites de.wikipedia.org")
     ap.add_argument('--expect', metavar='WORD',
-                    help='warn, and exit 1, for an article whose description and first line lack this word '
+                    help='warn, and exit 1, for an article whose description and intro lack this word '
                          '(a title may carry its own: "Title=word")')
     a = ap.parse_args()
     if not re.fullmatch(r'[a-z][a-z-]*', a.lang):
@@ -222,8 +242,8 @@ def mismatches(asked, revs, about):
     for t, keyword in asked:
         if t in revs:
             name = revs[t][0]
-            description, first_line = about.get(name, ('', ''))
-            why = article_mismatch(name, description, first_line, keyword)
+            description, intro = about.get(name, ('', ''))
+            why = article_mismatch(name, description, intro, keyword)
             if why:
                 out.append(why if name == t else f'"{t}" landed on {why}')
     return out

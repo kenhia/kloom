@@ -210,7 +210,7 @@ def ampere():
     # labels
     d.group()
     d.text(200, y0 + 70, '1 m', size=8)
-    d.text(200, 20, 'LIKE CURRENTS ATTRACT · 2 × 10⁻⁷ N PER METRE', size=7)
+    d.text(200, 20, 'LIKE CURRENTS ATTRACT · 2 × 10⁻⁷ N PER METER', size=7)
     d.text(200, 296, 'A MAGNET AS MOLECULAR CURRENTS', size=7)
     return d
 

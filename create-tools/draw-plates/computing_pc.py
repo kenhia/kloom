@@ -158,7 +158,7 @@ def apple_ii():
     d.text(x0 - 8, rows['phi'] + 3, 'φ 1.023', size=8, anchor='end')
     d.text(x0 - 8, rows['phi'] + 13, 'MHz ÷14', size=7, anchor='end')
     d.text(x0 - 8, rows['sub'] + 3, '3.58 MHz', size=8, anchor='end')
-    d.text(x0 - 8, rows['sub'] + 13, 'COLOUR ÷4', size=7, anchor='end')
+    d.text(x0 - 8, rows['sub'] + 13, 'COLOR ÷4', size=7, anchor='end')
     d.text(x0 - 8, rows['even'] + 3, 'EVEN DOTS', size=8, anchor='end')
     d.text(x0 - 8, rows['even'] + 13, 'VIOLET', size=7, anchor='end')
     d.text(x0 - 8, rows['odd'] + 3, 'ODD DOTS', size=8, anchor='end')
@@ -167,8 +167,8 @@ def apple_ii():
         xa = x0 + k * 14 * p
         d.text(xa + 3.5 * p, rows['phi'] - h - 5, 'VIDEO', size=7)
         d.text(xa + 10.5 * p, rows['phi'] - h - 5, '6502', size=7)
-    d.text((x0 + x1) / 2, 26, 'TWO CPU CYCLES · 28 TICKS · 7 COLOUR CYCLES · 14 DOTS', size=7)
-    d.text((x0 + x1) / 2, 290, 'ONE CLOCK FOR PROCESSOR, MEMORY, REFRESH AND COLOUR', size=7)
+    d.text((x0 + x1) / 2, 26, 'TWO CPU CYCLES · 28 TICKS · 7 COLOR CYCLES · 14 DOTS', size=7)
+    d.text((x0 + x1) / 2, 290, 'ONE CLOCK FOR PROCESSOR, MEMORY, REFRESH AND COLOR', size=7)
     return d
 
 

@@ -203,16 +203,27 @@
 			"title": "A Monograph on the Sub-class Cirripedia, Plate V: Balanus",
 			"url": "https://commons.wikimedia.org/wiki/File:A_monograph_on_the_sub-class_Cirripedia_(Plate_V)_(7509346182).jpg",
 			"accessed": "2026-10-06",
-			"licence": "Public domain",
+			"licence": "CC BY 2.0",
 			"file": "barnacles.jpg",
 			"authors": [
 				{
 					"family": "Sowerby",
 					"given": "George"
+				},
+				{
+					"name": "Biodiversity Heritage Library (scan)"
 				}
 			],
 			"published": "1854",
-			"container": "Charles Darwin, A Monograph on the Sub-class Cirripedia, vol. 2 (London: Ray Society); Biodiversity Heritage Library"
+			"container": "Charles Darwin, A Monograph on the Sub-class Cirripedia, vol. 2 (London: Ray Society); Biodiversity Heritage Library",
+			"note": "The 1854 plate is in the public domain; this scan is the Biodiversity Heritage Library's, released on Flickr under CC BY 2.0"
+		}
+	],
+	"edits": [
+		{
+			"date": "2026-11-09",
+			"kind": "correction",
+			"summary": "Corrected: the barnacle plate is now credited under CC BY 2.0 to the Biodiversity Heritage Library, whose scan it is, beside the plate's artist. It had been cited as public domain."
 		}
 	]
 }

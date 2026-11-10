@@ -132,7 +132,7 @@ def computer_proof():
     d.text(cx, cy + 3.2, '4', size=8)
     d.text(cx, 272, 'THE MAP', size=7)
     d.text(gx, 272, 'ITS GRAPH', size=7)
-    d.text(gx, 52, 'ODD RING · 3 COLOURS', size=7)
+    d.text(gx, 52, 'ODD RING · 3 COLORS', size=7)
     return d
 
 

@@ -112,7 +112,7 @@ def injection_moulding():
     d.group('mid')
     d.text(50, cy - bore - wall - 42, 'HOPPER', size=8)
     d.text(126, cy + bore + wall + 16, 'SCREW', size=8)
-    d.text(fa + 40, my0 - 12, 'MOULD', size=8)
+    d.text(fa + 40, my0 - 12, 'MOLD', size=8)
     d.text(pf - depth - 4, cy - half - 6, 'DRAFT', size=7, anchor='end')
     for k, name in enumerate(('FILL', 'PACK', 'COOL', 'OPEN')):
         d.text(px0 + pw * (bounds[k] + bounds[k + 1]) / 2, py0 + 12, name, size=7)

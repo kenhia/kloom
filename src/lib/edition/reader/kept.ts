@@ -1,5 +1,5 @@
 import { error, type RequestHandler } from '@sveltejs/kit';
-import { DELETE as forget, GET as list } from '../full/kept';
+import { DELETE as forget, GET as list, PATCH as share } from '../full/kept';
 import { askLedger } from '$lib/server/reader-store';
 
 /**
@@ -17,3 +17,4 @@ const withAsk =
 
 export const GET = withAsk(list);
 export const DELETE = withAsk(forget);
+export const PATCH = withAsk(share);

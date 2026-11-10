@@ -178,7 +178,7 @@ baked into the engine.
     links the URL that was read, so a Wikipedia source links its pinned
     revision, not the live article.
   - Fields: `kind` (`web`, `wikipedia`, `book`, `article`, `chapter`,
-    `report`, `media`, `letter`, `encyclopedia`, `diary`, `case`, `statute`, `treaty`), `title`, `url` and/or `doi`, `accessed`
+    `report`, `media`, `letter`, `encyclopedia`, `diary`, `case`, `statute`, `treaty`, `lecture`), `title`, `url` and/or `doi`, `accessed`
     (`YYYY-MM-DD`), and optionally `key`, `note` (a key source's remark in
     the Sources list: a page, why it matters), `authors` (`{family,
 given?}` or `{name}`; for Wikipedia `{name: "Wikipedia contributors"}`),
@@ -217,7 +217,8 @@ given?}` or `{name}`; for Wikipedia `{name: "Wikipedia contributors"}`),
       The Free Encyclopedia".
     - **Kinds.** `letter`: "Author. "Title." Letter to Recipients, Date
       written. In _Container_, vol. N, pages. Place: Publisher, Year." It
-      needs `recipients`. `encyclopedia`: an entry, set like a chapter, "In
+      needs `recipients`, unless no one knows them (sprint 057, below).
+      `encyclopedia`: an entry, set like a chapter, "In
       _Encyclopedia_, edited by …, edition." It needs its `container`. A
       chapter of a numbered report is a `chapter` with the report's
       `number`, set after its container.
@@ -308,6 +309,38 @@ page?}`: the session laws or the code it is in), the year left out
     secret protocol of 1939, Geneva 1864, Hague X). Two treaties read in
     a journal and a volume with their pages stay `article` and
     `chapter`. A change of form, not of source: no `edits` entry.
+  - **Forms from _The Story of Life_** (sprint 057, Ken's decisions of
+    2026-11-09 on korg 3576):
+    - **A letter to an unknown recipient** leaves `recipients` out, and
+      the entry reads "Letter, December 26, 1823." with no recipient
+      invented; an empty list is refused, so leaving them out is a
+      statement, not a slip. `mary-anning`'s "an unnamed buyer" was moved.
+    - **`lecture`**: a talk, by its speaker, with its `occasion` (required:
+      "Nobel Lecture", "Bakerian Lecture"), `place` when known, and the
+      day it was given in `published` (required), then where it was read:
+      "Kornberg, Arthur. "The Biologic Synthesis of Deoxyribonucleic
+      Acid." Nobel Lecture, Stockholm, December 11, 1959. NobelPrize.org.
+      Nobel Prize Outreach." Its Sources line notes the occasion, place
+      and day, then the site. A lecture read in a printed volume with its
+      pages stays a `chapter`, and one printed in a journal an `article`
+      (the Bakerian Lectures), as for a treaty. The 53 Nobel lectures
+      cited as `web` in seven subjects were moved, the occasion taken out
+      of the titles and containers that carried it ("…: Nobel Lecture,
+      December 11, 1962"); no place was added that the citation did not
+      already say.
+    - **A modern UK act**, numbered by calendar year as every act since
+      1963 is, is `"citeAs": "year"` with its `chapter` and no `code`:
+      "Human Reproductive Cloning Act 2001, c. 23", the year said once, by
+      the short title (or after the chapter when the title lacks it). A
+      four-digit year in a `regnal` act's `code` is refused, which is
+      how a modern act cited by regnal year printed its year twice.
+      `dolly`'s act, written with "c. 23" as its `code`, was moved.
+    - **DataCite DOIs** (Zenodo's `10.5281/zenodo.N`, the Catalogue of
+      Life's `10.48580/…`, a university repository's thesis) go in `doi`
+      like any other: nothing refused them, but they resolve through
+      DataCite (`https://api.datacite.org/dois/<doi>`), not Crossref, which
+      left an author unsure. `biodiversity-now`'s IPBES summary and
+      Catalogue of Life release gained theirs.
   - A `media` citation may credit an image by its en.wikipedia.org file
     page (`/wiki/File:…`) without a revision: it is an image's page, not
     an article (sprint 027).
@@ -1898,6 +1931,45 @@ read again, not only grow's to consume.
   the Q&A, marked "Grown into" with a link to each frame it made. The
   answer is still what the reader asked, and the link shows where it went.
 - **Remove** (with a question first) forgets a kept answer.
+
+## Shared answers
+
+Built in sprint 057 (korg 3560). Some answers are worth more than one
+reader but are not frames: a question grow would not turn into content,
+answered well. A reader may share a kept answer with every other reader,
+and it becomes public **only after an agent reviews it**, on the same path
+flagged notes take (§Notes).
+
+- **Share with other readers** is a box under each answer in the frame's
+  Q&A (§Kept answers). Ticking it asks for a review (`PATCH
+/api/reader/kept`, `{subject, id, share}`); the answer says it is waiting.
+  Unticking it takes the answer back at once, shared or not, and removing
+  the answer does too. Ticking a declined answer again asks afresh and
+  clears the old response.
+- **The review** is the review-notes skill's (`skills/review-notes/SKILL.md`
+  §Shared answers): `review-notes.mjs shares` lists the waiting answers,
+  and `review-share` passes (`shared`) or declines one with a response the
+  reader sees under it. A review is refused for an answer no longer
+  waiting, or asked again since it was read (`seen`, the `asked` time the
+  listing gave), as a note's answer is. On the public site it goes through
+  `admin.mjs` (`shares`, `review-shares`), as the notes do.
+- **Readers' Q&A.** Under a frame with shared answers, every other reader
+  gets a second section after the Q&A: a closed `<details>` labelled
+  "Readers' Q&A" with the count. The page load brings the counts per frame
+  (other readers' only); the answers are fetched (`GET
+/api/reader/shared?subject=&frame=`) when it first opens and render as
+  kept answers do, with the frame citations they drew on. Both editions
+  have it, for every reader: reading a shared answer needs no ask. A
+  reader's own shared answers stay in their own Q&A, not here.
+- **No name.** A shared answer never says who shared it: the route returns
+  the kept-answer format, which holds no reader, and the reader's question
+  is reviewed as fit to show.
+- **In the store**, `kept_share` holds one row per answer ever asked about
+  (its state: `none`, `pending`, `shared`, `declined`; the response; when
+  it was asked and reviewed). It is site state, not the reader's to carry:
+  the export leaves it out, so an import never makes anything public.
+  Deleting a reader removes their shares with their answers.
+- **Not in print**, as the Q&A is not (§Printing).
 
 ## The third subject
 

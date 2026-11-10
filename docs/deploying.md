@@ -216,6 +216,8 @@ node admin.mjs flagged [--reader R] [--json]       # notes flagged for Agent rev
 node admin.mjs handle-note <reader> <id> <response> [--seen UPDATED]
 node admin.mjs handle-notes '<JSON list>'          # several answers in one call
 node admin.mjs detached [--library FILE] [--json]  # notes whose frame or words are gone
+node admin.mjs shares [--reader R] [--json]        # kept answers waiting to be shared, readers named
+node admin.mjs review-shares '<JSON list>'         # pass or decline them: {reader, id, decision, response, seen?}
 node admin.mjs suggestions [--status S] [--json]   # subjects readers suggested
 node admin.mjs mark-suggestion <reader> <id> new|planned|written|declined
 node admin.mjs reader-ask enable|disable <reader> [--cap USD]
@@ -373,7 +375,13 @@ skill does it with `--public`:
 node skills/review-notes/review-notes.mjs --public list
 node skills/review-notes/review-notes.mjs --public handle <login> <id> "<response>" --seen <updated>
 node skills/review-notes/review-notes.mjs --public handle --file results.json
+node skills/review-notes/review-notes.mjs --public shares
+node skills/review-notes/review-notes.mjs --public review-share <login> <id> shared|declined "<response>" --seen <asked>
 ```
+
+Kept answers readers asked to share (korg 3560) take the same trip:
+`shares` is `admin.mjs shares --json`, and `review-share` is `review-shares`,
+refused for an answer no longer waiting or asked again since it was listed.
 
 Each runs `admin.mjs` on the machine through `fly ssh console`, with its
 arguments base64'd (§The admin CLI): `list` is `flagged --json`, live, each

@@ -113,7 +113,7 @@
 			"accessed": "2026-10-06"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"title": "The Significance of Responses of the Genome to Challenge",
 			"authors": [
 				{
@@ -121,6 +121,7 @@
 					"given": "Barbara"
 				}
 			],
+			"occasion": "Nobel Lecture",
 			"container": "NobelPrize.org",
 			"publisher": "The Nobel Foundation",
 			"published": "1983-12-08",

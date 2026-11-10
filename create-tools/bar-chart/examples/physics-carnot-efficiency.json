@@ -1,7 +1,7 @@
 {
 	"title": "What a steam engine of the 1820s did, against Carnot's limit",
 	"description": "Bar chart of thermal efficiency, the share of the heat taken in that comes out as work. A typical engine of Carnot's day, about 5 to 7 per cent (Wikipedia's figure). The Carnot limit for Carnot's own example, a boiler at 160 °C and a condenser at 40 °C, 27.7 per cent. The Carnot limit for heat falling from a coal fire at 1,000 °C to cooling water at 10 °C, 77.8 per cent. The two limits are this frame's arithmetic, 1 − T₂/T₁ in kelvin, from Carnot's temperatures.",
-	"heading": "HEAT TURNED INTO WORK · PER CENT",
+	"heading": "HEAT TURNED INTO WORK · PERCENT",
 	"unit": "%",
 	"width": 480,
 	"height": 300,

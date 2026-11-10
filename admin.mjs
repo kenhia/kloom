@@ -15,6 +15,8 @@
 //   node admin.mjs [--data DIR] flagged [--reader READER] [--json]
 //   node admin.mjs [--data DIR] handle-note READER NOTE_ID RESPONSE... [--seen UPDATED]
 //   node admin.mjs [--data DIR] handle-notes JSON
+//   node admin.mjs [--data DIR] shares [--reader READER] [--json]
+//   node admin.mjs [--data DIR] review-shares JSON
 //   node admin.mjs [--data DIR] detached [--library FILE] [--json]
 //   node admin.mjs [--data DIR] suggestions [--status STATUS] [--json]
 //   node admin.mjs [--data DIR] mark-suggestion READER SUGGESTION_ID STATUS
@@ -46,6 +48,11 @@
 // DIR/content.db) no longer has; they are reported, never dropped.
 // `suggestions` and `mark-suggestion` are the subjects readers suggested
 // (korg 3459) and their status: new, planned, written or declined.
+// `shares` lists the kept answers readers asked to share with other readers
+// (korg 3560), waiting for review, and `review-shares` passes (`shared`) or
+// declines each, with a response the reader sees: a JSON list of {reader,
+// id, decision, response, seen?}, refused for one gone, no longer waiting,
+// or (given `seen`, the `asked` it was read at) asked again since.
 //
 // Ask's costs and the reader site's allow-list (korg 3529, 3530; the ask
 // ledger, src/lib/server/ask-ledger.ts). `reader-ask enable` gives a reader
@@ -89,6 +96,8 @@ const usage = `usage:
   admin.mjs [--data DIR] flagged [--reader READER] [--json]
   admin.mjs [--data DIR] handle-note READER NOTE_ID RESPONSE... [--seen UPDATED]
   admin.mjs [--data DIR] handle-notes JSON
+  admin.mjs [--data DIR] shares [--reader READER] [--json]
+  admin.mjs [--data DIR] review-shares JSON
   admin.mjs [--data DIR] detached [--library FILE] [--json]
   admin.mjs [--data DIR] suggestions [--status STATUS] [--json]
   admin.mjs [--data DIR] mark-suggestion READER SUGGESTION_ID STATUS
@@ -194,6 +203,20 @@ async function handleOne(login, id, response, seenAt) {
 	if (!n) return 'there is no such note: the reader deleted it, or it never was';
 	if (n.review !== 'flagged') return `it is no longer flagged (${n.review})`;
 	return `the reader edited it at ${n.updated}, after it was read (${seenAt}): read it again`;
+}
+/**
+ * Review one share, or say why not: it names no decision or response, the
+ * answer is gone or no longer waiting, or it was asked again since `seenAt`.
+ */
+async function reviewOne(login, id, decision, response, seenAt) {
+	if (decision !== 'shared' && decision !== 'declined')
+		return 'the decision must be shared or declined';
+	if (!response?.trim()) return 'there is no response';
+	if (await store.reviewShare(login, id, decision, response.trim(), seenAt)) return null;
+	const waiting = (await store.pendingShares(login)).find((p) => p.answer.id === id);
+	if (!waiting)
+		return 'it is no longer waiting for review: unshared, forgotten, or already reviewed';
+	return `the reader asked again at ${waiting.asked}, after it was read (${seenAt}): read it again`;
 }
 const when = (iso) => (iso ? iso.replace('T', ' ').replace(/:\d\d\.\d+Z$/, 'Z') : 'never');
 
@@ -315,6 +338,47 @@ try {
 						? await handleOne(loginFor(b.reader), b.id, b.response, b.seen)
 						: 'it names no reader and note';
 				results.push({ reader: b?.reader, id: b?.id, ok: !why, ...(why ? { why } : {}) });
+			}
+			console.log(JSON.stringify(results, null, 2));
+			if (results.some((r) => !r.ok)) process.exitCode = 1;
+			break;
+		}
+		case 'shares': {
+			const shares = (await store.pendingShares(readerOpt && loginFor(readerOpt))).map((p) => ({
+				...p,
+				readerName: nameOf(p.reader)
+			}));
+			if (json) console.log(JSON.stringify(shares, null, 2));
+			else if (!shares.length) console.log('No answers waiting to be shared.');
+			else
+				for (const p of shares)
+					console.log(
+						`${p.readerName} (${p.reader})  ${p.answer.id}  ${p.subject}/${p.frame}\n` +
+							`  Q: ${p.answer.question}\n`
+					);
+			break;
+		}
+		case 'review-shares': {
+			let batch;
+			try {
+				batch = JSON.parse(username ?? '');
+			} catch {
+				fail('review-shares needs a JSON list of {reader, id, decision, response, seen?}');
+			}
+			if (!Array.isArray(batch)) fail('review-shares needs a JSON list');
+			const results = [];
+			for (const b of batch) {
+				const why =
+					typeof b?.reader === 'string' && typeof b?.id === 'string'
+						? await reviewOne(loginFor(b.reader), b.id, b.decision, b.response, b.seen)
+						: 'it names no reader and answer';
+				results.push({
+					reader: b?.reader,
+					id: b?.id,
+					decision: b?.decision,
+					ok: !why,
+					...(why ? { why } : {})
+				});
 			}
 			console.log(JSON.stringify(results, null, 2));
 			if (results.some((r) => !r.ok)) process.exitCode = 1;

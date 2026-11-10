@@ -12,11 +12,13 @@ python3 create-tools/wiki-cite/wiki_cite.py --text .scratch/wiki "ENIAC"   # and
 
 - Output: a JSON list, one citation per title, in the order given. The
   `published` date is the revision's date, rendered "Last modified". The
-  `accessed` date defaults to today.
+  `accessed` date defaults to today's date in UTC, as the revision dates
+  are (sprint 049).
 - Redirects and title normalisation are followed, titles that land on one
   article give one citation, and the canonical title is
   used. A title cited as another article is named on stderr ("Leaded
-  gasoline" is cited as "Gasoline"), since the article it lands on may be
+  gasoline" is cited as "Gasoline"; a redirect is said as one, with where
+  it went, since sprint 057), since the article it lands on may be
   a wider thing, and `--text` saves the text under that article's name
   (sprint 025). A missing article, or a title that lands on a
   disambiguation page ("Gerhard Frey"), is named on stderr and left out,
@@ -24,7 +26,7 @@ python3 create-tools/wiki-cite/wiki_cite.py --text .scratch/wiki "ENIAC"   # and
   are printed (sprint 027).
 - `--expect WORD` checks that each article is the one meant, as `names.py
 lookup --expect` does, with the same code (`create-tools/lib/article_check.py`):
-  its short description or first line must say WORD, or a warning on
+  its short description or whole intro (since sprint 057) must say WORD, or a warning on
   stderr names the article it landed on, and the run exits 1 after
   printing. A title may carry its own word in a batch, `"Army Medical
 School=London"`; the others take `--expect` (sprint 033: "Army Medical

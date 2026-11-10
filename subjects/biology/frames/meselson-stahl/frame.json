@@ -41,7 +41,7 @@
 			"note": "The method, Fig. 4's bands and the heat test"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "The Biologic Synthesis of Deoxyribonucleic Acid",
 			"authors": [
@@ -50,8 +50,8 @@
 					"given": "Arthur"
 				}
 			],
-			"container": "Nobel Lecture, December 11, 1959",
-			"publisher": "NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"published": "1959-12-11",
 			"url": "https://www.nobelprize.org/uploads/2018/06/kornberg-lecture.pdf",
 			"accessed": "2026-10-06"

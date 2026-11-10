@@ -64,7 +64,7 @@ def aristotle_motion():
     a = math.radians(a1 - 2)
     for r, name in shells + [(moon, 'MOON')]:
         d.text(cx + (r - 9) * math.cos(a), cy + (r - 9) * math.sin(a) + 3, name, size=7, anchor='end')
-    d.text(200, 20, 'THE SUBLUNARY SPHERES · CENTRE BELOW', size=7)
+    d.text(200, 20, 'THE SUBLUNARY SPHERES · CENTER BELOW', size=7)
     d.text(corner[0] - 18, corner[1] - 8, 'FORCED', size=7)
     d.text(drop[0] + 6, drop[1] - 18, 'NATURAL', size=7, anchor='start')
     return d

@@ -337,7 +337,12 @@ never a person, and wait when a site tells you to.
   McCormick may be quoted at length). Soviet and Chinese photographs of
   about 1930–1960 that Commons tags public domain are often restored to
   copyright in the United States by the URAA: leave them out unless the
-  file page shows why they are free here.
+  file page shows why they are free here. A work first published after its
+  author's death is free only when both its life-plus-70 term and its
+  publication term have run (Darwin's notebooks, first published in
+  1960, are not), and a press photograph distributed without notice
+  needs that basis recorded in its media citation's `note` (sprint 057;
+  SKILL.md §Authoring with tools).
 
 ## Natural history and the life sciences (sprint 055)
 

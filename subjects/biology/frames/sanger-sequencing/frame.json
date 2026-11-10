@@ -62,7 +62,7 @@
 			"note": "Its read lengths and its warning against a single result are in the discussion"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "Determination of Nucleotide Sequences in DNA",
 			"authors": [
@@ -71,6 +71,7 @@
 					"given": "Frederick"
 				}
 			],
+			"occasion": "Nobel Lecture",
 			"container": "NobelPrize.org",
 			"publisher": "Nobel Prize Outreach",
 			"published": "1980-12-08",
@@ -188,7 +189,7 @@
 			"read": "abstract"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"title": "The Chemistry of Insulin",
 			"authors": [
 				{
@@ -196,6 +197,7 @@
 					"given": "Frederick"
 				}
 			],
+			"occasion": "Nobel Lecture",
 			"container": "NobelPrize.org",
 			"publisher": "Nobel Prize Outreach",
 			"published": "1958-12-11",

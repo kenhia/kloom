@@ -32,7 +32,7 @@
 	],
 	"citations": [
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "The Green Revolution, Peace, and Humanity",
 			"authors": [
@@ -41,7 +41,8 @@
 					"given": "Norman E."
 				}
 			],
-			"container": "Nobel Lecture, NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Prize Outreach",
 			"published": "1970-12-11",
 			"url": "https://www.nobelprize.org/prizes/peace/1970/borlaug/lecture/",

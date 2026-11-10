@@ -95,7 +95,7 @@
 			"accessed": "2026-09-30"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"title": "Further Progress in Chemotherapy of Bacterial Infections",
 			"authors": [
 				{
@@ -103,7 +103,8 @@
 					"given": "Gerhard"
 				}
 			],
-			"container": "Nobel Lecture, 12 December 1947",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Prize Outreach",
 			"published": "1947-12-12",
 			"url": "https://www.nobelprize.org/uploads/2018/06/domagk-lecture.pdf",

@@ -151,8 +151,10 @@ class Specs(unittest.TestCase):
             (frame / 'reading.md').write_text(
                 'The [hemophilia](kloom:e/haemophilia) and the [Metre Convention](kloom:e/metre-convention).\n')
             spec = d / 'examples' / 's.json'
+            # A spec's markCapOverrides (sprint 057) is not a frame, and is passed over.
             spec.write_text('{\n\t"s/f": [\n\t\t["haemophilia", "haemophilia"],\n'
-                            '\t\t["Metre Convention", "metre-convention"]\n\t]\n}\n')
+                            '\t\t["Metre Convention", "metre-convention"]\n\t],\n'
+                            '\t"markCapOverrides": {"s/f": "A reason."}\n}\n')
             self.assertEqual(A.respell_specs(d / 'examples', d / 'subjects'), [spec])
             self.assertEqual(json.loads(spec.read_text())['s/f'],
                              [['hemophilia', 'haemophilia'], ['Metre Convention', 'metre-convention']])

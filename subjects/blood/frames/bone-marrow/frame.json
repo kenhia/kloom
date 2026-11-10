@@ -21,7 +21,7 @@
 	},
 	"citations": [
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "Bone Marrow Transplantation: Past, Present and Future",
 			"authors": [
@@ -30,7 +30,8 @@
 					"given": "E. Donnall"
 				}
 			],
-			"container": "Nobel Lecture, 8 December 1990",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "The Nobel Foundation",
 			"published": "1990-12-08",
 			"url": "https://www.nobelprize.org/uploads/2018/06/thomas-lecture.pdf",

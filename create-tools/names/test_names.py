@@ -72,6 +72,86 @@ class Lookup(unittest.TestCase):
         self.assertEqual(found['Trisodium citrate']['id'], 'trisodium-citrate')
 
 
+class LookupIntro(unittest.TestCase):
+    """`--expect` reads the whole lead section, and a redirect is said (sprint 057, korg 3557)."""
+
+    INTRO = ('Isabella Mary Beeton, known as Mrs Beeton, was an English journalist, editor and writer. '
+             'Born in London, she was educated in Islington and Heidelberg. ' * 4 +
+             'She is particularly known as the compiler of her first book, Mrs Beeton\'s Book of Household Management.')
+
+    def test_asks_for_the_whole_intro(self):
+        query = names.intro_query(['Isabella Beeton'])
+        self.assertEqual(query['exintro'], 1)
+        self.assertNotIn('exchars', query)
+        self.assertNotIn('exsentences', query)
+
+    def test_expect_reads_past_the_first_line(self):
+        data = {'pages': {'1': {'title': 'Isabella Beeton', 'pageprops': {'wikibase_item': 'Q271600',
+                                'wikibase-shortdesc': 'English writer'}, 'extract': self.INTRO}}}
+        row = names.rows(['Isabella Beeton'], data)['Isabella Beeton']
+        # The first line stays short, for reading; the check reads all of it.
+        self.assertLessEqual(len(row['first_line']), 300)
+        self.assertIsNone(names.unexpected(row, 'Household'))
+        self.assertIn('namesake', names.unexpected(row, 'chemistry'))
+
+    def test_a_redirect_is_said_with_where_it_went(self):
+        data = {'redirects': [{'from': 'Andrew Whitley', 'to': 'Andrew Whitley (politician)'}],
+                'pages': {'1': {'title': 'Andrew Whitley (politician)', 'pageprops': {'wikibase_item': 'Q1'},
+                                'extract': 'Andrew Whitley is a politician.'}}}
+        row = names.rows(['Andrew Whitley'], data)['Andrew Whitley']
+        self.assertEqual(row['redirected'], 'Andrew Whitley (politician)')
+        self.assertEqual(names.redirect_note('Andrew Whitley', row['redirected']),
+                         '"Andrew Whitley" redirects to "Andrew Whitley (politician)": '
+                         'check it is the thing meant, and not a namesake or something wider')
+
+
+class LookupCollisions(unittest.TestCase):
+    """Two titles, or a title and a name already registered, that slug to one id (korg 3576 #4)."""
+
+    def setUp(self):
+        self.dir = tempfile.mkdtemp()
+        with open(os.path.join(self.dir, 'cell-biology.json'), 'w') as fh:
+            json.dump({'id': 'cell-biology', 'wikidata': 'Q7141'}, fh)
+        self.registry = {'cell-biology': Path(self.dir) / 'cell-biology.json'}
+
+    def tearDown(self):
+        shutil.rmtree(self.dir)
+
+    def test_warns_of_an_id_the_registry_holds_for_another_item(self):
+        found = {'Cell (biology)': {'id': 'cell-biology', 'wikidata': 'Q7868', 'name': 'Cell (biology)'}}
+        (why,) = names.collisions(found, self.registry).values()
+        self.assertIn('cell-biology is names/cell-biology.json, Q7141', why)
+        self.assertIn('Title#id', why)
+        # The same item is the name already there, not a collision.
+        same = {'Cell biology': {'id': 'cell-biology', 'wikidata': 'Q7141', 'name': 'Cell biology'}}
+        self.assertEqual(names.collisions(same, self.registry), {})
+
+    def test_warns_of_two_titles_in_one_call(self):
+        found = {'Cell biology': {'id': 'cell-biology', 'wikidata': 'Q7141', 'name': 'Cell biology'},
+                 'Cell (biology)': {'id': 'cell-biology', 'wikidata': 'Q7868', 'name': 'Cell (biology)'}}
+        why = names.collisions(found, {})
+        self.assertEqual(sorted(why), ['Cell (biology)', 'Cell biology'])
+        self.assertIn('"Cell biology" (Q7141) and "Cell (biology)" (Q7868) both slug to cell-biology', why['Cell biology'])
+        # Two titles that redirect to one article are one name, not a collision.
+        found['Cell (biology)']['wikidata'] = 'Q7141'
+        self.assertEqual(names.collisions(found, {}), {})
+
+    def test_an_explicit_id_settles_it(self):
+        asked = names.explicit_ids([('Cell (biology)#cell', 'biology'), ('Cell biology', None)])
+        self.assertEqual(asked, [('Cell (biology)', 'biology', 'cell'), ('Cell biology', None, None)])
+        with self.assertRaises(ValueError):
+            names.explicit_ids([('Cell (biology)#Cell Thing', None)])
+        found = {'Cell (biology)': {'id': 'cell', 'wikidata': 'Q7868', 'name': 'Cell (biology)'}}
+        self.assertEqual(names.collisions(found, self.registry), {})
+
+    def test_write_draft_does_not_write_a_collision(self):
+        out = os.path.join(self.dir, 'drafts')
+        found = {'Cell (biology)': {'id': 'cell-biology', 'wikidata': 'Q7868', 'name': 'Cell (biology)'}}
+        said = names.write_drafts(found, out, doubtful=set(names.collisions(found, self.registry)))
+        self.assertEqual(said, ['Cell (biology): warned of, not written'])
+        self.assertFalse(os.path.exists(os.path.join(out, 'cell-biology.json')))
+
+
 class Strip(unittest.TestCase):
     def test_takes_out_marks_and_keeps_their_words(self):
         reading = ('**[William Harvey](kloom:e/william-harvey)** showed in [De Motu\nCordis](kloom:e/de-motu-cordis) '
@@ -127,6 +207,23 @@ class Place(unittest.TestCase):
     def test_a_bold_run_holding_another_mark_is_not_the_mention(self):
         reading = 'IBM built it. **[IBM 701](kloom:e/ibm-701)** was its first.'
         self.assertIsNone(names.bold_elsewhere(reading, 'IBM', 0, 3))
+
+
+class LongerName(unittest.TestCase):
+    """A mark landing inside a longer name is warned of (korg 3557 #5), quietly: 47 of 7,542 placed marks."""
+
+    def at(self, text, words):
+        return names.longer_name(text, text.index(words))
+
+    def test_a_capitalized_word_before_the_words(self):
+        self.assertEqual(self.at('In 1602 the Dutch East India Company was founded.', 'East India'), 'Dutch')
+        self.assertEqual(self.at('the **Dutch East India Company**', 'East India'), 'Dutch')
+
+    def test_not_after_a_possessive_a_title_a_people_or_a_sentences_start(self):
+        for text, words in [("MIT's Whirlwind ran", 'Whirlwind'), ('and Sir Humphry Davy', 'Humphry'),
+                            ('the Norwegian Niels Henrik Abel', 'Niels'), ('It ended. Then East India', 'East'),
+                            ('The East India Company', 'East'), ('in the East India Company', 'East')]:
+            self.assertIsNone(self.at(text, words), text)
 
 
 class MarkCheck(unittest.TestCase):
@@ -242,6 +339,64 @@ class MarkCheck(unittest.TestCase):
         self.write(os.path.join(drafts, 'plato.json'),
                    {'id': 'plato', 'wikidata': 'Q859', 'kind': 'person', 'description': 'Greek philosopher.'})
         self.assertEqual(self.mark('--check', '--drafts', drafts).returncode, 0)
+
+    def test_skip_missing_places_the_rest_in_a_copy_and_names_the_missing(self):
+        # Borrowed names not yet drafted refused a whole frame in a checking copy (sprint 055).
+        self.write(self.spec, {'subj/f': [['Aristotle', 'aristotle'], ['Plato', 'plato']]})
+        r = self.mark('--skip-missing')
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIn('subj/f: plato skipped: not in the registry or a draft', r.stderr)
+        with open(os.path.join(self.frame, 'reading.md')) as fh:
+            text = fh.read()
+        self.assertIn('[Aristotle](kloom:e/aristotle)', text)
+        self.assertNotIn('kloom:e/plato', text)
+        self.assertEqual(self.mark('--check', '--skip-missing').returncode, 0)
+
+    def test_skip_missing_is_refused_on_the_live_subjects_and_the_gate(self):
+        r = self.mark('--check', '--placed', '--skip-missing')
+        self.assertEqual(r.returncode, 2)
+        self.assertIn('--skip-missing is for a checking copy', r.stderr)
+        live = subprocess.run([sys.executable, os.path.join(HERE, 'names.py'), 'mark', self.spec, '--check',
+                               '--skip-missing', '--names', os.path.join(self.dir, 'names')],
+                              capture_output=True, text=True, cwd=os.path.dirname(os.path.dirname(HERE)))
+        self.assertEqual(live.returncode, 2)
+        self.assertIn('--skip-missing is for a checking copy', live.stderr)
+
+    def test_warns_of_a_match_inside_a_longer_name(self):
+        self.write(os.path.join(self.frame, 'reading.md'),
+                   'In 1602 the Dutch East India Company was founded. The East India Company was older.\n')
+        self.write(os.path.join(self.dir, 'names', 'east-india-company.json'), {'id': 'east-india-company'})
+        self.write(self.spec, {'subj/f': [['East India Company', 'east-india-company']]})
+        r = self.mark('--check')
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIn('east-india-company lands on "East India Company" after "Dutch"', r.stderr)
+
+    def many(self, n):
+        """A reading with n named things, a spec marking them all, and their name files."""
+        words = [f'Thing{chr(65 + i)}' for i in range(n)]
+        self.write(os.path.join(self.frame, 'reading.md'), ' '.join(f'{w} was here.' for w in words) + '\n')
+        for w in words:
+            self.write(os.path.join(self.dir, 'names', f'{w.lower()}.json'), {'id': w.lower()})
+        return {'subj/f': [[w, w.lower()] for w in words]}
+
+    def test_more_than_fifteen_marks_fail_without_a_reason(self):
+        self.write(self.spec, self.many(15))
+        self.assertEqual(self.mark('--check').returncode, 0)
+        spec = self.many(16)
+        self.write(self.spec, spec)
+        r = self.mark('--check')
+        self.assertEqual(r.returncode, 1)
+        self.assertIn('subj/f: 16 marks, more than 15', r.stderr)
+        self.assertEqual(self.mark().returncode, 1)
+        with open(os.path.join(self.frame, 'reading.md')) as fh:
+            self.assertNotIn('kloom:e/', fh.read())
+        self.write(self.spec, {**spec, 'markCapOverrides': {'subj/f': '  '}})
+        self.assertIn('needs a reason', self.mark('--check').stderr)
+        self.write(self.spec, {**spec, 'markCapOverrides': {'subj/f': 'A roll call of the workshop: who was there is the point.'}})
+        r = self.mark('--check')
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertEqual(self.mark().returncode, 0)
+        self.assertEqual(self.mark('--check', '--placed').returncode, 0)
 
 
 

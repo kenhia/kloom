@@ -29,9 +29,9 @@ metadata is what uploaders typed, and the page is where a licence is really
 stated.
 
 Three institutions' files are read further (sprint 033; most of sprint 030's
-authors rewrote these by hand), and since sprint 050 a NARA record uploaded
-through DPLA, whose Artist is an agency's path. Every other file is written
-as before.
+authors rewrote these by hand), since sprint 050 a NARA record uploaded
+through DPLA, whose Artist is an agency's path, and since sprint 057 a
+Library of Congress file. Every other file is written as before.
 
 - **NARA** (a `NARA-image-full` file page): the record's series is the
   `container` ("World War II Posters, National Archives and Records
@@ -47,6 +47,18 @@ as before.
   creator from the Collection's own catalogue record of the work, and the
   image number (`L0000024`). When that record is a book the image is a
   plate from, the book goes in the container and no author is written.
+- **Library of Congress** (a `{{LOC-image}}` page or an LCCN in the title):
+  the division as `container`, the LCCN as `number`, and a collection in the
+  Artist field ("…, PPOC, Library of Congress") not written as the author.
+
+Since sprint 057 (korg 3576, 3557) a page carrying both a public-domain tag
+and a Creative Commons licence (a photograph of an old artwork, a scan under
+its source's licence) is written under the Creative Commons one, the more
+restrictive, with its photographer as author when the page names one, and a
+warning naming both. Patterns an author has to put right are warned of, never
+refused: several people as one name, a file's name as the title, a book's
+author on a plate, an engraving firm, a catalog heading, a collection. A
+kilobyte is 1,000 bytes, and a `--width` wider than the original is refused.
 
 Two licences need a word more (sprint 029). Flickr's "No restrictions" (the
 Internet Archive's book scans, the Smithsonian's photographs) is taken as
@@ -71,8 +83,27 @@ MIME = {'image/jpeg', 'image/png', 'image/webp', 'image/gif', 'image/svg+xml'}
 PAGED = {'application/pdf', 'image/vnd.djvu'}
 # Commons serves thumbnails only at these widths, rounding a request up to the next one.
 STEPS = [120, 250, 330, 500, 960, 1280, 1920]
-# A reading's image larger than this is worth a smaller --width (sprint 006 kept them under it).
-LARGE = 350 * 1024
+# A reading's image larger than this is worth a smaller --width (sprint 006 kept them under it). A
+# kilobyte is a thousand bytes: until sprint 057 it was 1,024, and a 357,354-byte file passed as "348 KB".
+LARGE = 350_000
+
+
+def kb(size):
+    return f'{size / 1000:.0f} KB'
+
+
+def too_large(size):
+    return size > LARGE
+
+
+def width_problem(asked, original):
+    """Why a `--width` cannot be had (sprint 057, korg 3557: an author asked for more than the original
+    and got the original, with no way to make it smaller), or None. The default width takes the
+    original when it is smaller."""
+    if asked and asked > original:
+        return (f'--width {asked} is wider than the original, which is {original} pixels wide: leave --width out '
+                f'to take the original, or ask for less (Commons serves {", ".join(map(str, STEPS))})')
+    return None
 FREE = re.compile(r'^(public domain|pd|cc0|cc by(-sa)? [0-9.]+|cc-by(-sa)?-[0-9.]+)', re.I)
 # Flickr's "no known copyright restrictions", Commons' short name for it: public domain only on a stated basis.
 NO_RESTRICTIONS = re.compile(r'^no (known copyright )?restrictions$', re.I)
@@ -174,7 +205,7 @@ NO_AUTHOR = re.compile(r'unknown|anonymous|不明|unbekannt|inconnu|not provided
 ORG = re.compile(r'&|\b(Inc|Ltd|Co|Company|Museum|Library|University|Society|Archives?|Institution|Institute|'
                  r'Cent(er|re)|Colegio|College|School|Academy|Agency|Laborator(y|ies)|Department|Office|Service|'
                  r'Navy|Army|Corps|Command|Administration|Bureau|Ministry|Council|Foundation|Hospital|'
-                 r'Collection|Gallery|Studio|Group|Partners|Associates|Trust)\b')
+                 r'Collection|Gallery|Studio|Group|Partners|Associates|Trust|Sons?|Bros|Brothers)\b')
 
 # A role after a name, as Gallica writes it ("Desbuissons, Edouard (1827-1908). Auteur du texte", sprint 049).
 ROLE = re.compile(r'[.,]\s*(?:auteur du texte|auteur|illustrateur|dessinateur|graveur|cartographe|'
@@ -360,7 +391,7 @@ def dpla(meta, say):
     artist = plain(meta.get('Artist', ''))
     # A unit ends at a stop, but not an initial's ("U.S. Senate. 3/4/1789").
     units = [u.strip().rstrip('.') for u in re.split(r'(?<!\b[A-Z])\.\s+', artist) if u.strip()]
-    units = [u for u in units if not re.fullmatch(r'[\d/ -]+', u)]
+    units = [u for u in units if not re.fullmatch(r'[\d/ ()–-]+', u)]  # a date, or a span in brackets (sprint 051)
     if units:
         out['authors'] = [{'name': units[-1]}]
         if len(units) > 1:
@@ -369,8 +400,9 @@ def dpla(meta, say):
 
 
 def institution(title, meta, tags, wikitext, work=None, say=lambda line: None):
-    """What NARA (on its own or through DPLA), the US Navy or the Wellcome Collection say beyond Commons' own fields: a dict of
-    the citation's `container`, `authors` and `number`, empty for any other file (sprint 033)."""
+    """What NARA (on its own or through DPLA), the US Navy, the Wellcome Collection or the Library of Congress
+    say beyond Commons' own fields: a dict of the citation's `container`, `authors` and `number` (and
+    `no_author` when the Artist field is not an author), empty for any other file (sprint 033)."""
     fields = template_fields(wikitext, 'NARA-image-full')
     if fields is not None:
         return nara(fields, say)
@@ -380,7 +412,132 @@ def institution(title, meta, tags, wikitext, work=None, say=lambda line: None):
         return wellcome(title, meta, wikitext, work, say)
     if DPLA.search(f'{title} {wikitext}'):
         return dpla(meta, say)
+    if re.search(r'\{\{LOC-image|\bLCCN\d{8,10}\b', f'{title} {wikitext}') or 'lccn.loc.gov' in meta.get('Credit', ''):
+        return loc(title, meta, wikitext, say)
     return {}
+
+
+def cc_name(tag):
+    """A Creative Commons licence tag as the citation's licence: "Cc-by-sa-3.0-de" is "CC BY-SA 3.0 de";
+    a tag for several versions ("Cc-by-sa-3.0,2.5,2.0,1.0") is its first. None for any other tag."""
+    m = re.match(r'(?i)^cc-by(-sa)?-(\d\.\d)(.*)$', tag)
+    if not m:
+        return None
+    port = re.fullmatch(r'-([a-z]{2,3})', m.group(3), re.I)
+    return f'CC BY{"-SA" if m.group(1) else ""} {m.group(2)}' + (f' {port.group(1).lower()}' if port else '')
+
+
+def _field(wikitext, template, *names):
+    fields = template_fields(wikitext, template) or {}
+    low = {k.lower(): v for k, v in fields.items()}
+    for n in names:
+        if low.get(n):
+            return low[n]
+    return ''
+
+
+def photo_licence(tags, wikitext):
+    """When a file page carries both a public-domain tag (the artwork's, or Commons' own) and a Creative
+    Commons licence (the photograph's, or its source's), the photograph's: a dict of `licence`, the
+    `photographer` when the page names one, `self` when the uploader released it as their own work, and
+    the `warning` to print. None when the page carries no such pair (sprint 057, korg 3576: a photograph
+    of an old artwork came out public domain, its photographer's CC BY-SA dropped)."""
+    pd = [t for t in tags if t.lower().startswith('pd')]
+    cc = [t for t in tags if cc_name(t)]
+    if not pd or not cc:
+        return None
+    photo = _field(wikitext, 'Art Photo', 'photo license')
+    named = [t for t in cc if re.search(r'\{\{\s*(?:[^{}|]*\|)*\s*' + re.escape(t) + r'\s*[|}]', photo, re.I)]
+    # The photograph's own when the page says which; otherwise the more restrictive (BY-SA over BY).
+    pick = (named or sorted(cc, key=lambda t: '-sa-' not in t.lower()))[0]
+    who = wikitext_plain(_field(wikitext, 'Art Photo', 'photographer') or _field(wikitext, 'Information', 'photographer'))
+    if not who:
+        source = _field(wikitext, 'Artwork', 'source') or _field(wikitext, 'Information', 'source')
+        m = re.fullmatch(r'\s*\[\[User:([^|\]]+)(?:\|[^\]]*)?\]\]\s*', source)
+        who = m.group(1).strip() if m else ''
+    own = bool(re.search(r'\{\{\s*(self|own)\s*[|}]', wikitext, re.I))
+    licence = cc_name(pick)
+    cc_names = ', '.join(dict.fromkeys(cc))
+    warning = (f'the page carries a public-domain tag ({", ".join(pd)}) and a photograph\'s or a source\'s licence '
+               f'({cc_names}): written as {licence}, the more restrictive. The public-domain tag is the artwork\'s '
+               'or Commons\'; the photograph or scan is under the licence. Credit ' +
+               (f'its photographer, {who},' if who else 'its photographer, the uploader, who released it as their own work,'
+                if own else 'whoever made the photograph or scan, from the file page,') +
+               ' not the artwork\'s author')
+    return {'licence': licence, 'photographer': who or None, 'self': own and not who, 'warning': warning}
+
+
+# A firm that engraved, lithographed or printed a picture ("Cole, Swain & Sons", "Day & Son, Lithrs."):
+# an engraver (`engravers`), not the picture's author (sprint 051, korg 3557).
+FIRM = re.compile(r'(?:&|\band)\s+(?:Sons?|Co\.?|Company)\b|\bSons\b|\bBros\.?|\bBrothers\b|\bLith(?:r?s|ographers?)?\.|'
+                  r'\b(?:sculp|sc|del|lith|engr?)\.(?:\s|$)', re.I)
+# A library catalog's heading for a person: "Family, Given, active 13th century.", "Poland, Clifford H.,
+# photographer", "Name, 1850-1920" (sprint 051, korg 3557).
+CATALOG = re.compile(r',\s*(?:active|fl\.|ca\.|approximately|born|died|\d{4}\s*-\s*(?:\d{4})?|photographer|artist|'
+                     r'engraver|lithographer|draftsman|draughtsman|illustrator|publisher|printer|copyright claimant|'
+                     r'creator|author)\b', re.I)
+# A collection where an author should be ("Miscellaneous Items in High Demand, PPOC, Library of Congress").
+COLLECTION = re.compile(r'\bPPOC\b|Items in High Demand|\bLibrary of Congress\b|\bcollection\b', re.I)
+# A plate or a figure in a book, or a file from a book's scan.
+PLATE = re.compile(r'\b(?:plate|planche|tafel|tab\.|pl\.|fig(?:ure|\.)?|frontispiece)\s*[IVXLC\d]+\b|\(plate [^)]*\)', re.I)
+BOOK = re.compile(r'\{\{\s*(?:BHL|Book|IA)\b|Biodiversity Heritage Library|Internet Archive Book Images|\bFMIB\b', re.I)
+
+
+def author_warnings(title, written_title, meta, wikitext, who):
+    """What the citation fetch wrote probably gets wrong, for its author to put right (sprint 057, korg
+    3576 and 3557): several people written as one name, a file's name as its title, a book's author for
+    a plate's artist (and a plate's number, which Commons sometimes has wrong), an engraving firm, a
+    catalog heading or a collection as the author. Warnings, never refusals: each pattern has its
+    exceptions, and the file page is where they are settled."""
+    out = []
+    names = [a['name'] for a in who if a.get('name')]
+    for n in names:
+        if COLLECTION.search(n):
+            out.append(f'author "{n}" is a collection, not who made the picture: leave it out, or name the maker '
+                       'from the record')
+        elif FIRM.search(n):
+            out.append(f'author "{n}" reads as a firm that engraved or printed the picture: write it as `engravers` '
+                       '(or the publisher), not `authors`, and name the artist if the picture is signed')
+        elif CATALOG.search(n) or re.search(r'\.\s*$', n) and ',' in n:
+            out.append(f'author "{n}" is a catalog heading: write the person as family and given, without the '
+                       'dates or role')
+        elif re.search(r'\band\b|;|\s/\s', n) or n.count(',') >= 2 or ('&' in n and ' ' in n.split('&')[1].strip()):
+            out.append(f'author written as one name, "{n}", reads as several people: write one author each, '
+                       'family and given for a person')
+    stem = os.path.splitext(title[5:] if title.startswith('File:') else title)[0]
+    if written_title == stem and (' ' not in written_title or re.search(r'\d{2,}\)?$|[-_]g\d{3}\b|^(DSC|IMG)[-_]',
+                                                                       written_title, re.I)):
+        credit = plain(meta.get('Credit', ''))
+        hint = f' (the credit line says "{credit[:90]}")' if re.match(r'(?i)fig', credit) else ''
+        out.append(f'the title is the file\'s name, "{written_title}": write the work\'s own title, or a figure\'s '
+                   f'caption{hint}')
+    plate = PLATE.search(f'{written_title} {title}')
+    if (plate or BOOK.search(wikitext)) and who:
+        named = f' ("{plate.group(0).strip("()")}")' if plate else ''
+        out.append('a plate or figure from a book: the author written may be the book\'s author, not the plate\'s '
+                   'artist (look on the plate for "del.", "sculp.", "lith."), and Commons\' plate number' + named +
+                   ' may be wrong: check both against the book')
+    return out
+
+
+def loc(title, meta, wikitext, say):
+    """A Library of Congress file (sprint 057, korg 3557): the division as `container`, the LCCN as
+    `number`, and a collection in the Artist field not written as the author."""
+    lccn = re.search(r'LCCN\s?(\d{8,10})\b', title) or re.search(r'lccn\.loc\.gov/(\d+)', f'{meta.get("Credit", "")} {wikitext}')
+    pnp = re.search(r'loc\.gov/pictures/|/service/pnp/|prints and photographs|\{\{LOC-image', f'{meta.get("Credit", "")} {wikitext}', re.I)
+    out = {'container': 'Library of Congress Prints and Photographs Division' if pnp else 'Library of Congress'}
+    if lccn:
+        out['number'] = f'LCCN {lccn.group(1)}'
+    artist = plain(meta.get('Artist', ''))
+    if COLLECTION.search(artist):
+        out['no_author'] = True
+        said = f'the Artist field is the collection "{artist}", not an author: none written'
+        by = re.search(r'\b(?:photo(?:graph)?|drawn|engraved|painted) by\s+([^*|{}]+?)(?=\s+copyrighted\b|\s*[*|{}]|$)',
+                       plain(re.sub(r"'{2,}|\[\[(?:[^|\]]*\|)?([^\]]*)\]\]", r'\1', wikitext)), re.I)
+        if by:
+            said += f'; the record\'s notes say "{by.group(0).strip().rstrip(".")}": check the name against the catalog'
+        say(said + (f' (https://lccn.loc.gov/{lccn.group(1)})' if lccn else ''))
+    return out
 
 
 def page_wikitext(title):
@@ -405,6 +562,15 @@ def wellcome_work(wikitext):
             'workType': (w.get('workType') or {}).get('label'),
             'contributors': [{'label': c['agent']['label'], 'primary': c.get('primary', False)}
                              for c in w.get('contributors', [])]}
+
+
+def outside_frame(frame_dir):
+    """What to say when fetch writes outside a frame's directory (sprint 051: an author fetched into
+    .scratch to crop, and pasted the scratch copy's name as the citation's `file`), or None."""
+    if re.search(r'(^|/)subjects/[^/]+/frames/[^/]+/?$', os.path.normpath(os.path.abspath(frame_dir)).replace(os.sep, '/')):
+        return None
+    return (f'{frame_dir} is not a frame\'s directory: the citation\'s `file` names the copy fetched there. '
+            'After you crop it into the frame, set `file` to the cropped file\'s name')
 
 
 def to_jpeg(body, quality=85, box=None, width=None, rotate=0):
@@ -438,18 +604,25 @@ def step(width):
     return max([w for w in STEPS if w <= width] or [STEPS[0]])
 
 
-def fetch(title, frame_dir, name=None, width=960, accessed=None, page=None, jpeg=False):
+def fetch(title, frame_dir, name=None, width=None, accessed=None, page=None, jpeg=False):
     title = title if title.startswith('File:') else f'File:{title}'
-    width = step(width)
+    asked, width = width, step(width or 960)
     (_, i), = info([title], width, page)
     if not i:
         sys.exit(f'commons_media: no file "{title}"')
+    too_wide = width_problem(asked, i['width'])
+    if too_wide:
+        sys.exit(f'commons_media: {too_wide}')
     if i['mime'] in PAGED and not page:
         sys.exit(f'commons_media: "{title}" is {i["mime"]}; name a page with --page N')
     if i['mime'] not in MIME and i['mime'] not in PAGED:
         sys.exit(f'commons_media: "{title}" is {i["mime"]}; pick an image')
     meta = i['meta']
     lic = meta.get('LicenseShortName', '')
+    wikitext = page_wikitext(title)
+    photo = photo_licence(i['tags'], wikitext)  # a photograph's licence beside an artwork's PD tag (sprint 057)
+    if photo:
+        lic = photo['licence']
     free = licence_for(lic)
     if not free:
         sys.exit(f'commons_media: "{title}" is licensed "{lic}"; pick a public-domain, CC0 or CC BY(-SA) file')
@@ -490,10 +663,21 @@ def fetch(title, frame_dir, name=None, width=960, accessed=None, page=None, jpeg
     if not who and any(t.lower().startswith('pd-self') for t in i['tags']):
         who = uploader_credit(i['tags'], who, first_uploader(title))
     say = lambda line: print(f'commons_media: {line}', file=sys.stderr)  # noqa: E731
-    wikitext = page_wikitext(title)
     known = institution(title, meta, i['tags'], wikitext, wellcome_work(wikitext), say)
     if known.get('authors'):
         who = known['authors']
+    elif known.get('no_author'):
+        who = []
+    if photo:  # the photograph's licence is its photographer's: credit them, not the artwork's author
+        artwork = who
+        if photo['photographer']:
+            who = authors(photo['photographer']) or [{'name': photo['photographer']}]
+        elif photo['self']:
+            uploader = first_uploader(title)
+            who = [{'name': uploader}] if uploader else who
+        if who != artwork:
+            say(f'author written as the photographer, {json.dumps(who, ensure_ascii=False)}; the page names '
+                f'{json.dumps(artwork, ensure_ascii=False)} as the artwork\'s: name it in the title if it matters')
     if who:
         citation['authors'] = who
     for k in ('container', 'number'):
@@ -508,24 +692,31 @@ def fetch(title, frame_dir, name=None, width=960, accessed=None, page=None, jpeg
         if circa:
             citation['circa'] = True
     print(json.dumps(citation, ensure_ascii=False, indent='\t'))
-    say(f'wrote {file} ({len(body) // 1024} KB)' + (f', page {page} of {i.get("pagecount", "?")}' if paged else ''))
+    say(f'wrote {file} ({kb(len(body))})' + (f', page {page} of {i.get("pagecount", "?")}' if paged else ''))
     say(f'licence tags on the file page: {", ".join(i["tags"]) or "none found; read the page"}')
+    if photo:
+        say(photo['warning'])
+    warned = author_warnings(title, citation['title'], meta, wikitext, who)
+    for line in warned:
+        say(line)
+    if outside_frame(frame_dir):
+        say(outside_frame(frame_dir))
     if needs_basis:
         say(f'"{lic}" is Flickr\'s "no known copyright restrictions", not a licence: written as public domain, '
             'with an empty note the gate refuses. Write the basis in it (published in the US before 1931, a US '
             'government work, …), from the work itself, not the Flickr page')
     if who and who[0].get('name', '').endswith(' (uploader)'):
         say(f'author written as the uploader, {who[0]["name"]}: the file is PD-self and names no author')
-    if not who:
+    if not who and not known.get('no_author'):
         say(f'no author written: the page gives "{artist or "nothing"}"; add one by hand if it is known')
-    elif who[0].get('name') and not known.get('authors'):
+    elif who and who[0].get('name') and not known.get('authors') and not warned:
         say(f'author written as a name, "{who[0]["name"]}": make it family and given if it is a person')
     if 'container' not in citation:
         say('no container written: add where the work is from (a museum, a book), from the file page')
     if meta.get('Credit'):
         say(f'credit line: {meta["Credit"][:120]}')
-    if len(body) > LARGE:
-        print(f'commons_media: {file} is over {LARGE // 1024} KB; try a smaller --width '
+    if too_large(len(body)):
+        print(f'commons_media: {file} is over {kb(LARGE)}; try a smaller --width '
               f'(Commons serves {", ".join(map(str, STEPS))})', file=sys.stderr)
 
 
@@ -536,9 +727,9 @@ def jpeg(src, dest, quality=85, box=None, width=None, rotate=0):
         body = to_jpeg(fh.read(), quality, box, width, rotate)
     with open(dest, 'wb') as fh:
         fh.write(body)
-    print(f'commons_media: wrote {dest} ({len(body) // 1024} KB)', file=sys.stderr)
-    if len(body) > LARGE:
-        print(f'commons_media: {dest} is over {LARGE // 1024} KB; scale it down or lower --quality', file=sys.stderr)
+    print(f'commons_media: wrote {dest} ({kb(len(body))})', file=sys.stderr)
+    if too_large(len(body)):
+        print(f'commons_media: {dest} is over {kb(LARGE)}; scale it down or lower --quality', file=sys.stderr)
 
 
 def box_arg(text):
@@ -579,7 +770,8 @@ if __name__ == '__main__':
     f.add_argument('title')
     f.add_argument('frame_dir')
     f.add_argument('--as', dest='name')
-    f.add_argument('--width', type=int, default=960)
+    f.add_argument('--width', type=int, help='at most this wide (default 960, or the original when narrower); '
+                   'refused when wider than the original')
     f.add_argument('--accessed')
     f.add_argument('--page', type=int, help='a PDF or DjVu: the page to take, as a JPEG')
     f.add_argument('--jpeg', action='store_true', help='convert to JPEG, transparency onto white')

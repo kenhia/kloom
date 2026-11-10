@@ -150,7 +150,7 @@ def x_rays():
     d.text((bx0 + bx1) / 2, by0 - 8, 'BOOK', size=7)
     d.text((lead[0] + lead[2]) / 2, lead[3] + 14, 'LEAD', size=7)
     d.text(scr - 4, 282, 'SCREEN · BARIUM PLATINOCYANIDE', size=7, anchor='end')
-    d.text(200, 20, 'STILL GLOWING AT TWO METRES', size=7)
+    d.text(200, 20, 'STILL GLOWING AT TWO METERS', size=7)
     return d
 
 

@@ -21,7 +21,7 @@
 	},
 	"citations": [
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "The Development of the Space-Time View of Quantum Electrodynamics",
 			"url": "https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/",
@@ -32,7 +32,8 @@
 					"given": "Richard P."
 				}
 			],
-			"container": "Nobel Lecture, 11 December 1965",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Foundation",
 			"published": "1965-12-11",
 			"note": "The absorber, the ten-light-second example and Wheeler's telephone call, in his words"

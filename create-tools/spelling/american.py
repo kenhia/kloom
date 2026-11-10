@@ -575,6 +575,8 @@ def respell_specs(examples, subjects):
     for spec in sorted(Path(examples).glob('*.json')):
         raw = before = spec.read_text()
         for ref, pairs in json.loads(raw).items():
+            if ref == 'markCapOverrides':  # a frame's reason to mark more than 15 (sprint 057), not a frame
+                continue
             subject, frame = ref.split('/')
             reading = Path(subjects) / subject / 'frames' / frame / 'reading.md'
             if not reading.is_file():

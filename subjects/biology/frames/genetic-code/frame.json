@@ -115,7 +115,7 @@
 			"note": "The sequence hypothesis, the central dogma, the adaptor, and Gamow's code ruled out by insulin"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "The Genetic Code",
 			"authors": [
@@ -124,14 +124,15 @@
 					"given": "Marshall"
 				}
 			],
-			"container": "Nobel Lecture, NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Prize Outreach",
 			"published": "1968-12-12",
 			"url": "https://www.nobelprize.org/uploads/2018/06/nirenberg-lecture.pdf",
 			"accessed": "2026-10-06"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"title": "Nucleic Acid Synthesis in the Study of the Genetic Code",
 			"authors": [
 				{
@@ -139,7 +140,8 @@
 					"given": "H. Gobind"
 				}
 			],
-			"container": "Nobel Lecture, NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Prize Outreach",
 			"published": "1968-12-12",
 			"url": "https://www.nobelprize.org/uploads/2018/06/khorana-lecture.pdf",

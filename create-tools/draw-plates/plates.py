@@ -74,6 +74,9 @@ class D:
         self.path(f'M{f(cx - rx)} {f(cy)} a{f(rx)} {f(ry)} 0 1 0 {f(2 * rx)} 0 a{f(rx)} {f(ry)} 0 1 0 {f(-2 * rx)} 0', cls)
 
     def arc(self, cx, cy, r, a0, a1, n=48, cls=None, ry=None):
+        """An arc about (cx, cy) from angle a0 to a1, in DEGREES (not radians: sprint 051 passed
+        radians and drew a sliver), measured from east (+x) and turning clockwise on the page, since
+        y runs down: 90 is straight down. `ry` makes it elliptical; `n` is its number of segments."""
         ry = r if ry is None else ry
         pts = [(cx + r * math.cos(math.radians(a0 + (a1 - a0) * i / n)),
                 cy + ry * math.sin(math.radians(a0 + (a1 - a0) * i / n))) for i in range(n + 1)]
@@ -109,6 +112,108 @@ class D:
         os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
         with open(path, 'w') as fh:
             fh.write(self.svg())
+
+
+# clipping --------------------------------------------------------------
+# Sprint 057 (korg 3576, 3557): four authors wrote their own Cyrus-Beck to clip hatching to a convex
+# polygon, and sprint 051's enclosure fields went empty for want of one that took any polygon.
+
+def inside(pt, poly):
+    """Whether a point is inside a polygon (even-odd, so either winding, convex or not)."""
+    x, y = pt
+    hit = False
+    for (x0, y0), (x1, y1) in zip(poly, poly[1:] + poly[:1]):
+        if (y0 > y) != (y1 > y) and x < x0 + (y - y0) * (x1 - x0) / (y1 - y0):
+            hit = not hit
+    return hit
+
+
+def _crossings(a, b, poly):
+    """Where segment a-b crosses the polygon's edges, as fractions of the way from a to b."""
+    rx, ry = b[0] - a[0], b[1] - a[1]
+    out = []
+    for q, q1 in zip(poly, poly[1:] + poly[:1]):
+        sx, sy = q1[0] - q[0], q1[1] - q[1]
+        den = rx * sy - ry * sx
+        if abs(den) < 1e-12:
+            continue
+        qx, qy = q[0] - a[0], q[1] - a[1]
+        t, u = (qx * sy - qy * sx) / den, (qx * ry - qy * rx) / den
+        if 0 <= t <= 1 and -1e-12 <= u <= 1 + 1e-12:
+            out.append(t)
+    return out
+
+
+def clip(pts, poly):
+    """The parts of a polyline inside a polygon, any polygon (convex or not, either winding): a list
+    of polylines, a piece kept whole while it stays inside. Draw them with `D.lines`."""
+    pieces, cur = [], None
+    for a, b in zip(pts, pts[1:]):
+        ts = sorted({0.0, 1.0, *_crossings(a, b, poly)})
+        for t0, t1 in zip(ts, ts[1:]):
+            if t1 - t0 < 1e-9:
+                continue
+            at = lambda t: (a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t)  # noqa: E731
+            if not inside(at((t0 + t1) / 2), poly):
+                cur = None
+                continue
+            p0, p1 = at(t0), at(t1)
+            if cur and math.dist(cur[-1], p0) < 1e-9:
+                cur.append(p1)
+            else:
+                cur = [p0, p1]
+                pieces.append(cur)
+    return pieces
+
+
+def hatch(poly, step=5, angle=45):
+    """Parallel lines `step` apart at `angle` degrees, clipped to a polygon (any polygon): a list of
+    segments for `D.lines`. A line that would lie along the polygon's edge is left out."""
+    a = math.radians(angle)
+    ux, uy = math.cos(a), math.sin(a)
+    nx, ny = -uy, ux
+    offs = [x * nx + y * ny for x, y in poly]
+    along = [x * ux + y * uy for x, y in poly]
+    lo, hi = min(along) - 1, max(along) + 1
+    segs = []
+    k = math.floor(min(offs) / step)
+    while k * step < max(offs) - 1e-9:
+        c = k * step
+        k += 1
+        if c <= min(offs) + 1e-9:
+            continue
+        p, q = (nx * c + ux * lo, ny * c + uy * lo), (nx * c + ux * hi, ny * c + uy * hi)
+        segs.extend(clip([p, q], poly))
+    return segs
+
+
+def clip_polygon(poly, window):
+    """A polygon cut to a convex window (Sutherland-Hodgman): the part inside, [] if none. A coast cut
+    to a map's frame, a field cut to a parish."""
+    area = sum(x0 * y1 - x1 * y0 for (x0, y0), (x1, y1) in zip(window, window[1:] + window[:1]))
+    sign = 1 if area > 0 else -1
+    out = list(poly)
+    for e0, e1 in zip(window, window[1:] + window[:1]):
+        side = lambda p: sign * ((e1[0] - e0[0]) * (p[1] - e0[1]) - (e1[1] - e0[1]) * (p[0] - e0[0]))  # noqa: E731
+        src, out = out, []
+        for i, p in enumerate(src):
+            prev = src[i - 1]
+            sp, sq = side(p), side(prev)
+            if sp >= 0:
+                if sq < 0:
+                    out.append(_meet(prev, p, sq, sp))
+                out.append(p)
+            elif sq >= 0:
+                out.append(_meet(prev, p, sq, sp))
+        if not out:
+            return []
+    clean = [p for i, p in enumerate(out) if math.dist(p, out[i - 1]) > 1e-9] if len(out) > 1 else out
+    return clean if len(clean) >= 3 else []
+
+
+def _meet(p, q, sp, sq):
+    t = sp / (sp - sq)
+    return (p[0] + (q[0] - p[0]) * t, p[1] + (q[1] - p[1]) * t)
 
 
 def rot(p, ax, ay, az=0):

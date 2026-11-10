@@ -49,5 +49,8 @@
 		["Pope Clement VI", "pope-clement-vi"],
 		["Ragusa", "republic-of-ragusa"],
 		["quarantine", "quarantine"]
-	]
+	],
+	"markCapOverrides": {
+		"western-civ/aquinas": "The recovery of Aristotle and Roman law by the medieval universities, told through its translators (James of Venice, Gerard of Cremona, Michael Scot, William of Moerbeke) and their cities."
+	}
 }

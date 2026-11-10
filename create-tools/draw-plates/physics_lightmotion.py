@@ -77,7 +77,7 @@ def ibn_al_haytham():
     d.text((wall_x + back_x) / 2 + 3, top - 8, 'DARK CHAMBER', size=7)
     d.text(sx + 2, sy + 28, 'SHIELDED', size=7)
     d.text(back_x - 12, g[1] + 3, 'NO SPOT', size=7, anchor='end')
-    d.text(200, 290, 'LIGHT AND COLOUR DO NOT MINGLE IN THE AIR', size=8)
+    d.text(200, 290, 'LIGHT AND COLOR DO NOT MINGLE IN THE AIR', size=8)
     return d
 
 

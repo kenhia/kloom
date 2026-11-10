@@ -19,7 +19,36 @@ python3 create-tools/commons-media/commons_media.py crop .scratch/scan.png subje
   frame directory as `<short-name>.<ext>`. Commons serves thumbnails only at
   fixed widths (120, 250, 330, 500, 960, 1280, 1920) and rounds a request
   up, so `--width` (default 960) takes the widest step no wider than
-  asked. It warns when the file is over 350 KB; try `--width 500`.
+  asked. It warns when the file is over 350 KB; try `--width 500`. A
+  kilobyte is a thousand bytes (sprint 057: it counted 1,024, so a
+  357,354-byte file passed as "348 KB"). A `--width` wider than the
+  original is refused, with the original's width; leave `--width` out to
+  take an original narrower than 960.
+- **A page with two licences** (sprint 057, korg 3576): a photograph of an
+  old artwork carries the artwork's public-domain tag and the photograph's
+  Creative Commons licence (`{{Art Photo}}`'s `photo license`,
+  `{{Licensed-PD-Art|PD-old-100|cc-by-sa-4.0}}`, or `{{self|cc-by-sa-4.0}}`
+  beside `{{PD-old-100}}`), and a scan can carry Commons' PD tag beside its
+  source's CC BY (the Biodiversity Heritage Library's Flickr scans).
+  Commons' summary says "Public domain", and `fetch` used to write that. It
+  now writes the Creative Commons licence, the more restrictive, and warns
+  naming both. The author is then the photographer when the page names one
+  (`{{Art Photo}}`'s `photographer`, a `[[User:…]]` source, or the uploader
+  of an own work), with the artwork's author said on stderr.
+- **What it warns of in the author and the title** (sprint 057, korg 3576
+  and 3557), none of them refused: several people written as one name
+  ("Jawahar Swaminathan and MSD staff at …", a figure's eight authors
+  between commas); a title that is the file's name (a journal figure's
+  `Microorganisms-09-01822-g001`, with the credit line's "Fig. 1 at …"
+  when it has one); a plate or figure from a book, whose Artist may be the
+  book's author rather than the plate's artist, and whose plate number on
+  Commons may be wrong; an engraving or printing firm ("Cole, Swain &
+  Sons", "Day & Son, Lithrs."), which is `engravers`; a library catalog's
+  heading ("Villard, de Honnecourt, active 13th century."); and a
+  collection ("Miscellaneous Items in High Demand, PPOC, Library of
+  Congress"). A firm (Sons, Bros, Brothers) is a `name`, never family and
+  given. Fetched anywhere but a frame's directory, it says that `file`
+  names the fetched copy, to be set to the cropped file's name.
 - **Flickr's "No restrictions"** (the Internet Archive's book scans, the
   Smithsonian's photographs) is not a licence but a statement that none is
   known. `fetch` takes it as public domain, with a warning and an empty
@@ -61,7 +90,7 @@ PD-old-100`), since "Public domain" hides which: `PD-Art` covers only
     found "c. 1504 BC" written as AD 1504). A span ("1941-01-01/1945-12-31", or NARA's "between 1941 and 1945"
     since sprint 030) is written as circa its first year, with a warning to check it (sprint
     028 found one written as an exact day).
-- **Three institutions' files are read further, and NARA's through DPLA** (sprint 033, korg 3478:
+- **Four institutions' files are read further, and NARA's through DPLA** (sprint 033, korg 3478:
   most of sprint 030's authors still rewrote these by hand, writing credit
   lines and NARA series names as authors). It reads the file page's
   wikitext, and for a Wellcome file the Collection's own catalogue record.
@@ -93,6 +122,14 @@ PD-old-100`), since "Public domain" hides which: `PD-Art` covers only
     1961-10/1/1979"): the author is the last unit, said on stderr with the
     whole path, and a NARA record, as its credit line says, has NARA as
     its container and its identifier as the `number` ("NAID 19999523").
+    A date in brackets after the path ("(1836 - 1849)") is not a unit
+    (sprint 057; it was written as the author in sprint 051).
+  - **Library of Congress** (a `{{LOC-image}}` page, or an `LCCN` in the
+    title; sprint 057, korg 3557): the division is the `container`
+    ("Library of Congress Prints and Photographs Division"), the LCCN the
+    `number` ("LCCN 2004676518"), and a collection in the Artist field is
+    not written as the author; stderr says so, with the record's "Photo
+    by …" note when it has one, to check against the catalog.
 - **`--page N`** takes one page of a PDF or DjVu on Commons as a JPEG (a
   scanned book's plate), named `<short-name>-pN.jpg`, and cites the file
   page with `?page=N`.

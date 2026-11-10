@@ -33,3 +33,20 @@ export const DELETE: RequestHandler = async ({ request, locals }) => {
 		error(404, 'No such kept answer.');
 	return json({ ok: true });
 };
+
+/**
+ * Tick or untick "Share with other readers" on one of the reader's kept
+ * answers (§Shared answers, korg 3560): `{subject, id, share}`. Ticked asks
+ * for an agent's review; it is public only once that passes it.
+ */
+export const PATCH: RequestHandler = async ({ request, locals }) => {
+	const reader = requireReader(locals.reader);
+	const body = (await request.json().catch(() => null)) as Record<string, unknown> | null;
+	await servedSubject(body?.subject);
+	const id = body?.id;
+	if (typeof id !== 'string' || !ANSWER_ID.test(id)) error(400, 'A kept answer id is required.');
+	if (typeof body?.share !== 'boolean') error(400, 'Say whether to share it: true or false.');
+	const kept = await readerStore().shareKept(reader.login, body.subject as string, id, body.share);
+	if (!kept) error(404, 'No such kept answer.');
+	return json(kept);
+};

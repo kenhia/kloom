@@ -103,7 +103,7 @@
 			"accessed": "2026-09-30"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "The Density of Gases in the Air and the Discovery of Argon",
 			"authors": [
@@ -111,7 +111,8 @@
 					"name": "Lord Rayleigh"
 				}
 			],
-			"container": "Nobel Lecture, NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"published": "1904-12-12",
 			"url": "https://www.nobelprize.org/prizes/physics/1904/strutt/lecture/",
 			"accessed": "2026-09-30",
