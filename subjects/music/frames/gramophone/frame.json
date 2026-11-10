@@ -1,0 +1,266 @@
+{
+	"id": "gramophone",
+	"topic": "Berliner's gramophone",
+	"position": {
+		"label": "1887",
+		"sort": 1887
+	},
+	"scene": {
+		"headline": "We pressed the voice into",
+		"accent": "DISCS.",
+		"palette": "shellac",
+		"illustration": "scene.svg",
+		"metadata": ["WASHINGTON · EMILE BERLINER", "LATERAL GROOVE · ZINC MASTER · SHELLAC PRESSING"],
+		"counter": {
+			"value": "7,686,709",
+			"label": "records Victor sold in 1907"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/polymers",
+			"why": "Shellac, the lac insect's resin that gramophone records were pressed from, was what Leo Baekeland first set out to replace when his work on phenol and formaldehyde led to Bakelite."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Gramophone: Etching the Human Voice",
+			"authors": [
+				{
+					"family": "Berliner",
+					"given": "Emile"
+				}
+			],
+			"container": "Journal of the Franklin Institute",
+			"volume": "125",
+			"issue": "6",
+			"pages": "425–447",
+			"published": "1888-06",
+			"doi": "10.1016/0016-0032(88)90219-0",
+			"url": "https://archive.org/details/sim_journal-of-the-franklin-institute_1888-06_125_6",
+			"accessed": "2026-11-10",
+			"note": "His lecture of May 16, 1888, quoted from it: the lateral trace, the etching and the forecast of royalties"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Gramophone",
+			"container": "Emile Berliner and the Birth of the Recording Industry",
+			"publisher": "Library of Congress",
+			"url": "https://www.loc.gov/collections/emile-berliner/articles-and-essays/gramophone/",
+			"accessed": "2026-11-10",
+			"note": "Celluloid, rubber and shellac pressings, the Seaman injunction, Victor and Nipper"
+		},
+		{
+			"kind": "web",
+			"title": "Emile Berliner Biography",
+			"container": "Emile Berliner and the Birth of the Recording Industry",
+			"publisher": "Library of Congress",
+			"url": "https://www.loc.gov/collections/emile-berliner/articles-and-essays/emile-berliner-biography/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Victor Record Sales Statistics (1901–1941), from Radio Corporation of America v. Decca Records, etc.",
+			"authors": [
+				{
+					"family": "Sutton",
+					"given": "Allan R."
+				}
+			],
+			"container": "78 rpm Record History",
+			"publisher": "Mainspring Press",
+			"published": "2025-06-24",
+			"url": "https://mainspringpress.org/2025/06/24/victor-record-sales-statistics-1901-1941-from-radio-corporation-of-america-v-decca-records-etc/",
+			"accessed": "2026-11-10",
+			"note": "Victor's own yearly sales in units, an exhibit in a 1943 trademark case"
+		},
+		{
+			"kind": "recording",
+			"title": "Vesti la giubba",
+			"authors": [
+				{
+					"family": "Caruso",
+					"given": "Enrico"
+				}
+			],
+			"recorded": "1904-02-01",
+			"publisher": "Victor",
+			"number": "81032",
+			"published": "1904",
+			"url": "https://www.loc.gov/item/jukebox-119158/",
+			"accessed": "2026-11-10",
+			"read": "record",
+			"note": "Matrix B-1002, take 1, with piano; the National Jukebox holds the later double-faced issue, Victor 930"
+		},
+		{
+			"kind": "web",
+			"title": "First million-selling record",
+			"publisher": "Guinness World Records",
+			"url": "https://www.guinnessworldrecords.com/world-records/first-million-seller-record/",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Edison Gold-Moulded Cylinders (1902–1912)",
+			"container": "UCSB Cylinder Audio Archive",
+			"publisher": "UC Santa Barbara Library",
+			"url": "https://cylinders.library.ucsb.edu/history-goldmoulded.php",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Edison Blue Amberol Cylinders (1912–1929)",
+			"container": "UCSB Cylinder Audio Archive",
+			"publisher": "UC Santa Barbara Library",
+			"url": "https://cylinders.library.ucsb.edu/history-blueamberol.php",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Emile Berliner",
+			"url": "https://en.wikipedia.org/w/index.php?title=Emile_Berliner&oldid=1374238975",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Phonograph record",
+			"url": "https://en.wikipedia.org/w/index.php?title=Phonograph_record&oldid=1384224666",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Victor Talking Machine Company",
+			"url": "https://en.wikipedia.org/w/index.php?title=Victor_Talking_Machine_Company&oldid=1384579420",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nipper",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nipper&oldid=1373807419",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Enrico Caruso",
+			"url": "https://en.wikipedia.org/w/index.php?title=Enrico_Caruso&oldid=1384330410",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vesti la giubba",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vesti_la_giubba&oldid=1375762655",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Shellac",
+			"url": "https://en.wikipedia.org/w/index.php?title=Shellac&oldid=1375758718",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Leo Baekeland",
+			"url": "https://en.wikipedia.org/w/index.php?title=Leo_Baekeland&oldid=1384373060",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Deutsche Grammophon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Deutsche_Grammophon&oldid=1355575713",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-22"
+		},
+		{
+			"kind": "media",
+			"title": "Dog Looking at and Listening to a Phonograph",
+			"authors": [
+				{
+					"family": "Barraud",
+					"given": "Francis"
+				}
+			],
+			"published": "1898",
+			"container": "A photograph of the painting before it was repainted with a gramophone",
+			"url": "https://commons.wikimedia.org/wiki/File:OriginalNipper.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"note": "PD-Art: a photograph of a painting by Barraud, who died in 1924",
+			"file": "nipper.jpg"
+		}
+	]
+}

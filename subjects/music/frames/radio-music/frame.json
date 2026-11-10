@@ -1,0 +1,319 @@
+{
+	"id": "radio-music",
+	"topic": "Music on the radio",
+	"position": {
+		"label": "1920",
+		"sort": 1920
+	},
+	"scene": {
+		"headline": "We heard music over the",
+		"accent": "AIR.",
+		"palette": "shellac",
+		"illustration": "scene.svg",
+		"metadata": ["EAST PITTSBURGH · KDKA · LONDON · THE BBC", "AMPLITUDE MODULATION · 545 KHZ"],
+		"counter": {
+			"value": "40%",
+			"label": "of American homes had a radio in April 1930"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/hertz",
+			"why": "Broadcast music travels on the radio waves Hertz first made and detected in 1886–88, a carrier whose strength is shaped by the sound."
+		},
+		{
+			"to": "feynman/radio-boy",
+			"why": "The crystal set, which needed no battery because the station's own signal drove the headphones, was how many first heard broadcast music, and how the boy Feynman listened all night."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "KDKA (AM)",
+			"url": "https://en.wikipedia.org/w/index.php?title=KDKA_(AM)&oldid=1383677342",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-04",
+			"key": true,
+			"note": "The election-night broadcast, its wavelengths and power, and Conrad's 8XK"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Fessenden: World's First Broadcaster?",
+			"authors": [
+				{
+					"family": "O'Neal",
+					"given": "James E."
+				}
+			],
+			"container": "Radio World",
+			"published": "2006-10-25",
+			"url": "https://www.radioworld.com/news-and-business/fessenden-worlds-first-broadcaster",
+			"accessed": "2026-11-10",
+			"note": "The search for a trace of the 1906 broadcast"
+		},
+		{
+			"kind": "web",
+			"title": "Fessenden's 1906 Christmas Eve Broadcast, Revisited",
+			"authors": [
+				{
+					"family": "Belrose",
+					"given": "John S."
+				}
+			],
+			"published": "2006",
+			"url": "https://www.radiocom.net/Fessenden/BelroseXmas.htm",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "web",
+			"title": "Milestones: First Wireless Radio Broadcast by Reginald A. Fessenden, 1906",
+			"container": "Engineering and Technology History Wiki",
+			"publisher": "IEEE History Center",
+			"url": "https://ethw.org/Milestones:First_Wireless_Radio_Broadcast_by_Reginald_A._Fessenden,_1906",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "article",
+			"title": "Pittsburgh's Contributions to Radio",
+			"authors": [
+				{
+					"family": "Kintner",
+					"given": "S. M."
+				}
+			],
+			"container": "Proceedings of the Institute of Radio Engineers",
+			"volume": "20",
+			"issue": "12",
+			"pages": "1849–1862",
+			"published": "1932-12",
+			"doi": "10.1109/JRPROC.1932.227746",
+			"accessed": "2026-11-10",
+			"read": "record"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Victor Record Sales Statistics (1901–1941), from Radio Corporation of America v. Decca Records, etc.",
+			"authors": [
+				{
+					"family": "Sutton",
+					"given": "Allan R."
+				}
+			],
+			"container": "78 rpm Record History",
+			"publisher": "Mainspring Press",
+			"published": "2025-06-24",
+			"url": "https://mainspringpress.org/2025/06/24/victor-record-sales-statistics-1901-1941-from-radio-corporation-of-america-v-decca-records-etc/",
+			"accessed": "2026-11-10",
+			"note": "Victor's yearly sales, an exhibit in a 1943 trademark case"
+		},
+		{
+			"kind": "article",
+			"title": "Preparing for the 1930 Federal Population Census",
+			"authors": [
+				{
+					"family": "Potter",
+					"given": "Constance"
+				}
+			],
+			"container": "Prologue",
+			"volume": "34",
+			"issue": "1",
+			"published": "2002",
+			"publisher": "National Archives",
+			"url": "https://www.archives.gov/publications/prologue/2002/spring/1930-census-1",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frank Conrad",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frank_Conrad&oldid=1374324749",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Lee de Forest",
+			"url": "https://en.wikipedia.org/w/index.php?title=Lee_de_Forest&oldid=1383804426",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Nellie Melba",
+			"url": "https://en.wikipedia.org/w/index.php?title=Nellie_Melba&oldid=1384393750",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Reginald Fessenden",
+			"url": "https://en.wikipedia.org/w/index.php?title=Reginald_Fessenden&oldid=1380740650",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "BBC",
+			"url": "https://en.wikipedia.org/w/index.php?title=BBC&oldid=1383306229",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-02"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "John Reith, 1st Baron Reith",
+			"url": "https://en.wikipedia.org/w/index.php?title=John_Reith,_1st_Baron_Reith&oldid=1367674834",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "BBC Proms",
+			"url": "https://en.wikipedia.org/w/index.php?title=BBC_Proms&oldid=1383675313",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "American Society of Composers, Authors and Publishers",
+			"url": "https://en.wikipedia.org/w/index.php?title=American_Society_of_Composers,_Authors_and_Publishers&oldid=1383600272",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-03"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "ASCAP boycott",
+			"url": "https://en.wikipedia.org/w/index.php?title=ASCAP_boycott&oldid=1356849960",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-05-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Broadcast Music, Inc.",
+			"url": "https://en.wikipedia.org/w/index.php?title=Broadcast_Music,_Inc.&oldid=1379225543",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Victor Talking Machine Company",
+			"url": "https://en.wikipedia.org/w/index.php?title=Victor_Talking_Machine_Company&oldid=1384579420",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Radio in the United States",
+			"url": "https://en.wikipedia.org/w/index.php?title=Radio_in_the_United_States&oldid=1379692006",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-11"
+		},
+		{
+			"kind": "media",
+			"title": "Victor Talking Machine Company records sold a year, 1919–1935, in millions",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Victor sales by year, exhibit in RCA v. Decca Records (S.D.N.Y. 1943), printed by Mainspring Press",
+			"url": "https://mainspringpress.org/2025/06/24/victor-record-sales-statistics-1901-1941-from-radio-corporation-of-america-v-decca-records-etc/",
+			"accessed": "2026-11-10",
+			"licence": "MIT",
+			"file": "victor-sales.svg"
+		}
+	]
+}
