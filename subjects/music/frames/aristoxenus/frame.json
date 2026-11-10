@@ -1,0 +1,222 @@
+{
+	"id": "aristoxenus",
+	"topic": "Aristoxenus and the ear",
+	"position": {
+		"label": "c. 330 BC",
+		"sort": -330
+	},
+	"scene": {
+		"headline": "Aristoxenus trusted the",
+		"accent": "EAR.",
+		"palette": "monochord",
+		"illustration": "scene.svg",
+		"metadata": [
+			"TARENTUM · THE LYCEUM, ATHENS",
+			"ELEMENTS OF HARMONICS · THREE GENERA · SIX SHADES"
+		],
+		"counter": {
+			"value": "30",
+			"label": "twelfths of a tone in a fourth"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/greek-tragedy",
+			"why": "The aulos, the double reed pipe Aristoxenus would not trust to fix a scale, was the instrument that accompanied the tragic chorus, played by the piper on the Pronomos vase."
+		}
+	],
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Harmonics of Aristoxenus",
+			"authors": [
+				{
+					"name": "Aristoxenus"
+				}
+			],
+			"editors": [
+				{
+					"family": "Macran",
+					"given": "Henry S."
+				}
+			],
+			"translators": [
+				{
+					"family": "Macran",
+					"given": "Henry S."
+				}
+			],
+			"place": "Oxford",
+			"publisher": "Clarendon Press",
+			"published": "1902",
+			"url": "https://archive.org/details/aristoxenouharmo00aris",
+			"accessed": "2026-11-10",
+			"note": "The translation, pp. 165–222; the table of the genera, pp. 248–49"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aristoxenus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aristoxenus&oldid=1380114394",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-13",
+			"key": true,
+			"note": "His life, his teachers and the Suda's story"
+		},
+		{
+			"kind": "encyclopedia",
+			"key": true,
+			"title": "Philolaus",
+			"authors": [
+				{
+					"family": "Huffman",
+					"given": "Carl"
+				}
+			],
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"editors": [
+				{
+					"family": "Zalta",
+					"given": "Edward N."
+				},
+				{
+					"family": "Nodelman",
+					"given": "Uri"
+				}
+			],
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2024-09-27",
+			"url": "https://plato.stanford.edu/entries/philolaus/",
+			"accessed": "2026-11-10",
+			"note": "The split between Pythagorean and Aristoxenian theorists"
+		},
+		{
+			"kind": "book",
+			"title": "The Republic",
+			"authors": [
+				{
+					"name": "Plato"
+				}
+			],
+			"translators": [
+				{
+					"family": "Jowett",
+					"given": "Benjamin"
+				}
+			],
+			"publisher": "Project Gutenberg",
+			"published": "1998",
+			"url": "https://www.gutenberg.org/ebooks/1497",
+			"accessed": "2026-11-10",
+			"note": "Book VII, 530d–531c"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Elementa harmonica",
+			"url": "https://en.wikipedia.org/w/index.php?title=Elementa_harmonica&oldid=1384411296",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Tetrachord",
+			"url": "https://en.wikipedia.org/w/index.php?title=Tetrachord&oldid=1368658115",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Genus (music)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Genus_(music)&oldid=1368458595",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Aulos",
+			"url": "https://en.wikipedia.org/w/index.php?title=Aulos&oldid=1381345156",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kithara",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kithara&oldid=1375671776",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-19"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Musical system of ancient Greece",
+			"url": "https://en.wikipedia.org/w/index.php?title=Musical_system_of_ancient_Greece&oldid=1371028127",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-24"
+		},
+		{
+			"kind": "media",
+			"title": "Aulos player, interior of an Attic red-figure kylix",
+			"authors": [
+				{
+					"name": "Brygos Painter"
+				}
+			],
+			"container": "Musée du Louvre, Paris; photograph by Bibi Saint-Pol",
+			"published": "490 BC",
+			"circa": true,
+			"url": "https://commons.wikimedia.org/wiki/File:Aulos_player_Louvre_G313.jpg",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"note": "The photographer released the photograph into the public domain (PD-self)",
+			"file": "aulos-player.jpg"
+		}
+	]
+}

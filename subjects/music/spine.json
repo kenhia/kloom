@@ -6,6 +6,13 @@
 			"labelKind": "date",
 			"palette": "cave",
 			"frames": ["hohle-fels-flute", "lyres-of-ur", "hurrian-hymn"]
+		},
+		{
+			"id": "number-and-harmony",
+			"title": "Number and harmony",
+			"labelKind": "date",
+			"palette": "monochord",
+			"frames": ["pythagoras-ratios", "aristoxenus"]
 		}
 	]
 }

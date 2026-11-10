@@ -1,0 +1,312 @@
+{
+	"id": "pythagoras-ratios",
+	"topic": "Pythagoras and the ratios",
+	"position": {
+		"label": "c. 530 BC",
+		"sort": -500
+	},
+	"scene": {
+		"headline": "We found harmony in a",
+		"accent": "RATIO.",
+		"palette": "monochord",
+		"illustration": "scene.svg",
+		"metadata": ["SAMOS · CROTON · PHILOLAUS", "OCTAVE 2:1 · FIFTH 3:2 · FOURTH 4:3"],
+		"counter": {
+			"value": "12",
+			"label": "pure fifths that overshoot seven octaves"
+		}
+	},
+	"connections": [
+		{
+			"to": "mathematics/incommensurable",
+			"why": "The Pythagoreans who held that whole numbers lay at the heart of everything took the musical concords, ratios of 1 to 4, as their chief example; the diagonal of a square was the length no such ratio could measure."
+		},
+		{
+			"to": "physics/kepler",
+			"why": "Kepler found his third law while writing the Harmonices Mundi of 1619, his search for the music of the spheres that Plato and the Pythagoreans had heard in the heavens."
+		},
+		{
+			"to": "music/hurrian-hymn",
+			"why": "The Babylonian tuning texts behind the hymn are read as a diatonic scale, a reading warned against as borrowed from the later Greek theory of ratios this frame begins."
+		}
+	],
+	"citations": [
+		{
+			"kind": "encyclopedia",
+			"key": true,
+			"title": "Pythagoras",
+			"authors": [
+				{
+					"family": "Huffman",
+					"given": "Carl"
+				}
+			],
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"editors": [
+				{
+					"family": "Zalta",
+					"given": "Edward N."
+				},
+				{
+					"family": "Nodelman",
+					"given": "Uri"
+				}
+			],
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2024-02-05",
+			"url": "https://plato.stanford.edu/entries/pythagoras/",
+			"accessed": "2026-11-10",
+			"note": "What is known of Pythagoras, the smithy story's falsity, Xenocrates and the tetraktys, Huffman against Zhmud"
+		},
+		{
+			"kind": "encyclopedia",
+			"key": true,
+			"title": "Philolaus",
+			"authors": [
+				{
+					"family": "Huffman",
+					"given": "Carl"
+				}
+			],
+			"container": "The Stanford Encyclopedia of Philosophy",
+			"editors": [
+				{
+					"family": "Zalta",
+					"given": "Edward N."
+				},
+				{
+					"family": "Nodelman",
+					"given": "Uri"
+				}
+			],
+			"publisher": "Metaphysics Research Lab, Stanford University",
+			"published": "2024-09-27",
+			"url": "https://plato.stanford.edu/entries/philolaus/",
+			"accessed": "2026-11-10",
+			"note": "Fragment 6a: the octave as fourth and fifth, the tone 9:8, the remainder 256:243"
+		},
+		{
+			"kind": "book",
+			"key": true,
+			"title": "Iamblichus' Life of Pythagoras, or Pythagoric Life",
+			"authors": [
+				{
+					"name": "Iamblichus"
+				}
+			],
+			"translators": [
+				{
+					"family": "Taylor",
+					"given": "Thomas"
+				}
+			],
+			"place": "London",
+			"publisher": "A. J. Valpy",
+			"published": "1818",
+			"pages": "84–87",
+			"url": "https://archive.org/details/b29318610",
+			"accessed": "2026-11-10",
+			"note": "Chapter 26, the smithy story after Nicomachus"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pythagorean hammers",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pythagorean_hammers&oldid=1361656843",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-29",
+			"key": true,
+			"note": "The legend's versions, its physics, and Galilei and Mersenne"
+		},
+		{
+			"kind": "web",
+			"title": "Vincenzo Galilei",
+			"authors": [
+				{
+					"family": "Van Helden",
+					"given": "Albert"
+				}
+			],
+			"container": "The Galileo Project",
+			"publisher": "Rice University",
+			"published": "1995",
+			"url": "http://galileo.rice.edu/fam/vincenzo.html",
+			"accessed": "2026-11-10"
+		},
+		{
+			"kind": "book",
+			"title": "Timaeus",
+			"authors": [
+				{
+					"name": "Plato"
+				}
+			],
+			"translators": [
+				{
+					"family": "Jowett",
+					"given": "Benjamin"
+				}
+			],
+			"publisher": "Project Gutenberg",
+			"published": "1998",
+			"url": "https://www.gutenberg.org/ebooks/1572",
+			"accessed": "2026-11-10",
+			"note": "35b–36b, the division of the world soul"
+		},
+		{
+			"kind": "book",
+			"title": "The Republic",
+			"authors": [
+				{
+					"name": "Plato"
+				}
+			],
+			"translators": [
+				{
+					"family": "Jowett",
+					"given": "Benjamin"
+				}
+			],
+			"publisher": "Project Gutenberg",
+			"published": "1998",
+			"url": "https://www.gutenberg.org/ebooks/1497",
+			"accessed": "2026-11-10",
+			"note": "Book X, 617b, the Sirens on the circles"
+		},
+		{
+			"kind": "book",
+			"title": "On the Heavens",
+			"authors": [
+				{
+					"name": "Aristotle"
+				}
+			],
+			"translators": [
+				{
+					"family": "Stocks",
+					"given": "J. L."
+				}
+			],
+			"place": "Oxford",
+			"publisher": "Clarendon Press",
+			"published": "1922",
+			"url": "http://classics.mit.edu/Aristotle/heavens.2.ii.html",
+			"accessed": "2026-11-10",
+			"note": "Book II, chapter 9, read in the Internet Classics Archive's copy"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Monochord",
+			"url": "https://en.wikipedia.org/w/index.php?title=Monochord&oldid=1343286045",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-03-13"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pythagorean comma",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pythagorean_comma&oldid=1282280157",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-03-25"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Musica universalis",
+			"url": "https://en.wikipedia.org/w/index.php?title=Musica_universalis&oldid=1365360209",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vincenzo Galilei",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vincenzo_Galilei&oldid=1380533383",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-16"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Philolaus",
+			"url": "https://en.wikipedia.org/w/index.php?title=Philolaus&oldid=1378436271",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pythagoras",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pythagoras&oldid=1379710816",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-11"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cent (music)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cent_(music)&oldid=1376384857",
+			"accessed": "2026-11-10",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "media",
+			"title": "Pythagoras's discoveries in sound, from Franchino Gaffurio's Theorica musice",
+			"container": "Franchino Gaffurio, Theorica musice (1492), from the Bibliothèque nationale de France's Gallica",
+			"published": "1492",
+			"url": "https://commons.wikimedia.org/wiki/File:Gaffurio_Pythagoras.png",
+			"accessed": "2026-11-10",
+			"licence": "Public domain",
+			"file": "gaffurio.jpg"
+		}
+	]
+}
