@@ -47,6 +47,23 @@ class Expect(unittest.TestCase):
         (why,) = wiki_cite.mismatches(asked, revs, about)
         self.assertTrue(why.startswith('"Army Medical School" landed on "Walter Reed Army Institute of Research"'))
 
+    def test_reads_the_whole_intro(self):
+        # The first sentence alone failed right articles (sprint 051, "Isabella Beeton=Household").
+        query = wiki_cite.revision_query(['Isabella Beeton'])
+        self.assertEqual(query['exintro'], 1)
+        self.assertNotIn('exsentences', query)
+        self.assertNotIn('exchars', query)
+
+    def test_says_a_redirect_and_where_it_went(self):
+        data = {'redirects': [{'from': 'Andrew Whitley', 'to': 'Andrew Whitley (politician)'}],
+                'pages': {'1': {'title': 'Andrew Whitley (politician)', 'revisions': [{'revid': 5, 'timestamp': '2026-01-02T00:00:00Z'}],
+                                'extract': 'A politician.'}}}
+        about, said = {}, []
+        out = wiki_cite.read_batch(['Andrew Whitley'], data, about, said.append)
+        self.assertEqual(out, {'Andrew Whitley': ('Andrew Whitley (politician)', 5, '2026-01-02')})
+        self.assertEqual(said, ['wiki_cite: "Andrew Whitley" redirects to "Andrew Whitley (politician)": check it is '
+                                'the thing meant, and not a namesake or something wider'])
+
     def test_says_nothing_without_a_keyword(self):
         asked = wiki_cite.expectations(['Walter Reed'])
         self.assertEqual(wiki_cite.mismatches(asked, {'Walter Reed': ('Walter Reed', 2, 'x')}, {}), [])

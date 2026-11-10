@@ -1,7 +1,8 @@
 """Is a looked-up Wikipedia article the thing meant? Shared by `names.py lookup` and `wiki_cite.py`
 (sprint 033), so the two never drift.
 
-`--expect KEYWORD` checks the **article**: its short description and first line must say the keyword,
+`--expect KEYWORD` checks the **article**: its short description or its intro (the whole lead section,
+since sprint 057) must say the keyword,
 or it may be a namesake ("Army Medical School" quietly cited the US school; "Hideo Kodama" is a
 politician). `--expect-item KEYWORD` (names.py only) checks the Wikidata **item** as well: its
 description and class, for an article whose item is something else (the Duffy blood group's item is
@@ -37,14 +38,24 @@ def expectations(titles, default=None):
     return out
 
 
-def article_mismatch(name, description, first_line, keyword):
+def article_mismatch(name, description, intro, keyword):
     """Why the article `name` may be a namesake: `keyword` is in neither its description nor its
-    first line. None when it is, or when there is no keyword."""
+    intro, the whole lead section (sprint 057: the first line alone failed right articles, "Isabella
+    Beeton=Household"). None when it is, or when there is no keyword."""
     if not keyword:
         return None
-    if keyword.lower() in f'{description or ""} {first_line or ""}'.lower():
+    if keyword.lower() in f'{description or ""} {intro or ""}'.lower():
         return None
-    return f'"{name}" does not say {keyword!r}: is it a namesake? ({description or first_line or "no description"})'
+    shown = description or (intro[:200] + ' …' if intro and len(intro) > 200 else intro)
+    return f'"{name}" does not say {keyword!r}: is it a namesake? ({shown or "no description"})'
+
+
+def redirect_note(asked, landed):
+    """What to say when a title redirects: the article it lands on may be a namesake or something
+    wider (Project MAC lands on CSAIL; "Andrew Whitley" on a namesake, sprint 051), and --expect
+    passes a namesake that happens to say the word."""
+    return (f'"{asked}" redirects to "{landed}": check it is the thing meant, and not a namesake or '
+            'something wider')
 
 
 def item_mismatch(name, qid, item_description, classes, keyword):

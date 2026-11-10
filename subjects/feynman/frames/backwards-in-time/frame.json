@@ -37,7 +37,7 @@
 			"note": "The abstract, the bombardier (p. 749) and the Stückelberg footnote (p. 753)"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"title": "The Development of the Space-Time View of Quantum Electrodynamics",
 			"url": "https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/",
 			"accessed": "2026-09-28",
@@ -47,7 +47,8 @@
 					"given": "Richard P."
 				}
 			],
-			"container": "Nobel Lecture, 11 December 1965",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Foundation",
 			"published": "1965-12-11",
 			"key": true,

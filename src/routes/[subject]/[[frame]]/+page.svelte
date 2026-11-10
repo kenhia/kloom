@@ -6,6 +6,7 @@
 		type Bookmark,
 		type JumpItem,
 		type Kept,
+		type SharedAnswer,
 		type Note,
 		type Place,
 		type ReaderLayer,
@@ -269,6 +270,7 @@
 	// another subject brings its own, and written over as the reader acts.
 	let notes = $derived<Note[]>(data.readerData?.notes ?? []);
 	let keptCounts = $derived<Record<string, number>>(data.readerData?.kept ?? {});
+	const sharedCounts = $derived<Record<string, number>>(data.readerData?.shared ?? {});
 	const layer = $derived<ReaderLayer | null>(
 		data.reader
 			? {
@@ -311,6 +313,20 @@
 						if (ok)
 							keptCounts = { ...keptCounts, [frame]: Math.max(0, (keptCounts[frame] ?? 1) - 1) };
 						return ok;
+					},
+					share: async (_frame, id, share) => {
+						const res = await send(resolve('/api/reader/kept'), 'PATCH', {
+							subject: data.subject.id,
+							id,
+							share
+						});
+						return res ? ((await res.json()) as Kept) : null;
+					},
+					shared: sharedCounts,
+					sharedOn: async (frame) => {
+						const q = new URLSearchParams({ subject: data.subject.id, frame });
+						const res = await send(`${resolve('/api/reader/shared')}?${q}`, 'GET');
+						return res ? ((await res.json()) as SharedAnswer[]) : null;
 					},
 					onkept: (frame) => (keptCounts = { ...keptCounts, [frame]: (keptCounts[frame] ?? 0) + 1 })
 				}

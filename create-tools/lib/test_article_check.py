@@ -21,6 +21,16 @@ class Mismatch(unittest.TestCase):
         self.assertIsNone(ac.article_mismatch('Hideo Kodama', 'Japanese politician', '', 'Politician'))
         self.assertIsNone(ac.article_mismatch('Hideo Kodama', 'Japanese politician', '', None))
 
+    def test_the_article_check_reads_the_whole_intro(self):
+        intro = 'Isabella Beeton was an English writer. ' * 10 + "She compiled Mrs Beeton's Book of Household Management."
+        self.assertIsNone(ac.article_mismatch('Isabella Beeton', 'English writer', intro, 'household'))
+        why = ac.article_mismatch('Isabella Beeton', '', intro, 'chemistry')
+        self.assertLess(len(why), 300)
+
+    def test_a_redirect_is_said(self):
+        self.assertIn('"Project MAC" redirects to "MIT Computer Science and Artificial Intelligence Laboratory"',
+                      ac.redirect_note('Project MAC', 'MIT Computer Science and Artificial Intelligence Laboratory'))
+
     def test_the_item_check_reads_the_items_description_and_class(self):
         why = ac.item_mismatch('Duffy antigen system', 'Q1', 'mammalian protein found in Homo sapiens',
                                ['protein'], 'blood')

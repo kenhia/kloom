@@ -255,7 +255,12 @@ both as you write.
   eight a frame is usual. Only the first mention: a second mark of the same
   name is an error. Not in a heading, a table or an image's alt text, and
   never inside another link. A history frame names more: up to fifteen is
-  fine (sprint 049). A name mentioned only in a table cannot be marked, so
+  fine (sprint 049), and fifteen is the cap, which `names.py mark` checks
+  (sprint 057). A frame that truly needs more (a roll call of who was in
+  the room, a lineage, a survey of a field's makers) says why in its mark
+  spec, `"markCapOverrides": {"<subject>/<frame>": "<the reason>"}`; a
+  frame of method and history is usually better served by marking fewer.
+  A name mentioned only in a table cannot be marked, so
   say it in prose too if it matters. The mark opens a card listing every frame, in
   every subject, that marks the same name, so a name that recurs is the
   one most worth marking.
@@ -357,7 +362,8 @@ knowledge is not a source.
   `YYYY-MM` or `YYYY-MM-DD`; a shorter year for a work before AD 1000
   (`"888"`, no leading zero); or a year BC (`"1550 BC"`). The kinds are
   `web`, `wikipedia`, `book`, `article`, `chapter`, `report`, `media`,
-  `letter`, `encyclopedia`, `diary`, `case`, `statute` and `treaty`. A **`diary`** entry is the diary
+  `letter`, `encyclopedia`, `diary`, `case`, `statute`, `treaty` and
+  `lecture`. A **`diary`** entry is the diary
   as `title`, the entry's date as `written` (required), and the edition's
   `editors`, `place`, `publisher` and `published`: "Pepys, Samuel. Diary
   entry, November 14, 1666, in _The Diary of Samuel Pepys_, edited by
@@ -372,7 +378,11 @@ knowledge is not a source.
   which the list already says.
 - **A DOI goes in `doi`**, bare: `"doi": "10.1109/5.58323"`. Do not write
   a doi.org url; the entry links the DOI itself. A `url` beside it is
-  allowed (where you read it) but the DOI wins.
+  allowed (where you read it) but the DOI wins. **A DataCite DOI** (a
+  Zenodo record's `10.5281/zenodo.N`, a Catalogue of Life release's
+  `10.48580/…`, a university repository's thesis) is a DOI like any other:
+  it is not in Crossref, so look it up at
+  `https://api.datacite.org/dois/<doi>` (sprint 057).
 - **Many authors:** list the first (up to seven) and set `"etAl": true`.
   Never write "et al." into a name.
 - **Papers:** a journal paper is `article`, with the journal as its
@@ -389,9 +399,22 @@ knowledge is not a source.
 - **An approximate date** is `published` with `"circa": true`
   (`"published": "1951", "circa": true` renders "ca. 1951"; `"1550 BC"`
   renders "ca. 1550 BC"). Never put "c. 1951" into `container` or `title`.
-- **A letter** is `letter`, with `recipients` (required, like `authors`),
-  the date it was `written`, and where it was printed as `container`,
-  `volume`, `pages` and `published`. **An encyclopedia entry** is
+- **A letter** is `letter`, with `recipients` (like `authors`), the date
+  it was `written`, and where it was printed as `container`, `volume`,
+  `pages` and `published`. **When no one knows who it was sent to**, leave
+  `recipients` out: the entry reads "Letter, December 26, 1823." Never
+  invent one ("an unnamed buyer"), and never write an empty list (sprint
+  057). **A lecture** is `lecture`: the speaker as `authors`, its
+  `occasion` as it is named (`"Nobel Lecture"`, `"Bakerian Lecture"`;
+  required), `place` where it was given when the source says so, the day
+  it was given in `published` (required), and where you read it as
+  `container` and `publisher` (`"NobelPrize.org"`, `"Nobel Prize
+Outreach"`): "Kornberg, Arthur. "The Biologic Synthesis of
+  Deoxyribonucleic Acid." Nobel Lecture, Stockholm, December 11, 1959.
+  NobelPrize.org." Keep the occasion out of the `title`. A lecture read in
+  a printed volume with its pages is a `chapter` in that volume, and one a
+  journal printed (the Bakerian Lectures in the _Philosophical
+  Transactions_) an `article`. **An encyclopedia entry** is
   `encyclopedia`, with the encyclopedia as `container` (required), and
   `editors` and `edition` when it has them (the _Stanford Encyclopedia of
   Philosophy_'s "Summer 2020 ed."). A chapter of a numbered report is a
@@ -572,7 +595,12 @@ DIR` writes its text. When a site refuses a script, or a paper is closed,
   `contact_sheet.py <subject> <frame> --charts` shows a frame's charts in
   its palette. `bar_chart.py` refuses a heading or labels that will not
   fit, and `contact_sheet.py` warns of any text in a plate or a chart
-  drawn by hand that runs off its edge, by about how far (sprint 050).
+  drawn by hand that runs off its edge, by about how far (sprint 050), or
+  that overlaps another label inside it (sprint 057). Grouped bars
+  (`series`) and negative values (an axis `min` below zero) are
+  `bar_chart.py`'s, not a hand-drawn chart's; a value label keeps the
+  data's own decimals, and a Wikipedia source `url` without `oldid=` is
+  warned of (sprint 057).
 - **"Public domain" on Commons is a claim to check**: a photograph from a
   national laboratory run under contract (Brookhaven, LIGO) is not a US
   government work, a `PD-USGov` tag can sit on a photograph nobody in
@@ -588,6 +616,23 @@ DIR` writes its text. When a site refuses a script, or a paper is closed,
   validation refuses until you state the public-domain basis there
   ("Published in the US in 1890"). A `PD-self` file with no author is
   credited to its uploader, `"Name (uploader)"`.
+- **Two rights rules, conservative on purpose** (Ken's decision of
+  2026-11-09, korg 3576). **A work first published after its author's
+  death** (a notebook, a diary, letters printed later) is public domain
+  only when **both** terms have run: the author's life plus 70 years
+  _and_ the term that runs from its first publication, which in the
+  United States may be a full 95 years, or restored by the URAA for a
+  work first published abroad. Darwin died in 1882, but his notebooks
+  were first published in full in 1960: their text and their facsimile
+  pages are not used as public domain, and are quoted as any work in
+  copyright is. Only an author's death date is not enough. **A press
+  photograph distributed without a copyright notice** (an agency or
+  newspaper print from before 1989, which a Commons tag such as
+  `PD-US-no-notice` calls free) is used as public domain only with the
+  basis recorded: write in the media citation's `note` where the
+  no-notice evidence is (the print's back, its first publication, the
+  archive's record), as "Published without notice: <where>". With no
+  such record, leave it out and describe it.
 - **The subject's voice holds for arithmetic too**: "by our arithmetic",
   not "by my".
 - **Readings run 550–900 words of prose, and every one scrolls.** Tables,
@@ -602,7 +647,16 @@ DIR` writes its text. When a site refuses a script, or a paper is closed,
   wrong: an old work's `published` may come out as the upload date, and
   "public domain" may be claimed for a company's photograph.
   `commons_media` writes no `container` (add where the work is from) and
-  says when it left out an author it could not trust. Grep the subject's
+  says when it left out an author it could not trust. It also warns of
+  several people written as one name, a file's name as the title, a
+  book's author on a plate (and Commons' plate number), an engraving firm
+  (write it as `engravers`), a catalog heading and a collection as the
+  author: put each right by hand (sprint 057). A page that carries both a
+  public-domain tag and a Creative Commons licence (a photograph of an
+  old artwork, a scan under its source's licence) is written under the
+  Creative Commons one, with its photographer as author where the page
+  names one, and a warning naming both (Ken's decision, korg 3576); keep
+  it unless the page shows the CC tag does not apply. Grep the subject's
   `frame.json` files for an image's file page before you use it, so two
   frames do not show the same picture.
 - **An image that is not freely licensed** (an archive photograph) is not
@@ -658,10 +712,14 @@ DIR` writes its text. When a site refuses a script, or a paper is closed,
   **An English act cited by regnal year** is a `statute` with `"citeAs":
 "regnal"`, `code` `{"volume": "1", "name": "Will. & Mar. Sess. 2"}` and
   `chapter` `"2"`: "1 Will. & Mar. Sess. 2, c. 2", the regnal year its
-  year. **A foreign law** is one with `"citeAs": "gazette"` and the gazette
+  year. **A modern UK act**, numbered by calendar year (every act since
+  1963), is a `statute` with `"citeAs": "year"` and its `chapter`, and no
+  `code`: "Human Reproductive Cloning Act 2001, c. 23", its year said once,
+  by its short title. Never put a calendar year in a regnal `code`, which
+  validation refuses (sprint 057). **A foreign law** is one with `"citeAs": "gazette"` and the gazette
   and page in `code`, `{"name": "Reichsgesetzblatt 1935, Teil I", "page":
-"1146"}`: "…, Reichsgesetzblatt 1935, Teil I, p. 1146". Neither takes a
-  `publicLaw`. **A treaty** is a `treaty`: its name, its `parties` when
+"1146"}`: "…, Reichsgesetzblatt 1935, Teil I, p. 1146". None of the three
+  takes a `publicLaw`. **A treaty** is a `treaty`: its name, its `parties` when
   there are two or three (`["Holy Roman Empire", "France"]`; a treaty
   among many states leaves them out), the date signed in `published`, and
   a treaty series in `code` when you have one (`{"volume": "1", "name":

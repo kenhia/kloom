@@ -65,12 +65,13 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 		try {
 			const store = readerStore();
 			const login = locals.reader.login;
-			const [places, last, marks, notes, kept, unseen, news] = await Promise.all([
+			const [places, last, marks, notes, kept, shared, unseen, news] = await Promise.all([
 				Promise.all(subjects.map((s) => store.lastVisited(login, s.id))),
 				store.lastVisited(login),
 				store.bookmarks(login),
 				store.notes(login, subject.id),
 				store.keptCounts(login, subject.id),
+				store.sharedCounts(subject.id, login),
 				store.unseenAnswers(login),
 				readerNews(store, login)
 			]);
@@ -84,6 +85,8 @@ export const load: PageServerLoad = async ({ params, locals }) => {
 				bookmarks: marks.map(live).filter((b) => b !== null),
 				notes: notes.filter((n) => onFrame(n.frame)),
 				kept: Object.fromEntries(Object.entries(kept).filter(([id]) => onFrame(id))),
+				// Other readers' answers shared on each frame, past review (§Shared answers).
+				shared: Object.fromEntries(Object.entries(shared).filter(([id]) => onFrame(id))),
 				// Agent answers the reader has not seen, across subjects (§My notes).
 				unseen,
 				// What's new to them (§What's new): started subjects, last visit, new frames.

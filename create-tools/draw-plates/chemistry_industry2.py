@@ -62,7 +62,7 @@ def chemical_warfare():
     d.group('mid')
     d.text(lx, ly + 52, 'Cl₂ · 70.9', size=8)
     d.text(rx, ry + 52, 'AIR · ≈ 29', size=8)
-    d.text(px, 146, '1 LITRE EACH · 3.2 g AGAINST 1.3 g', size=7)
+    d.text(px, 146, '1 LITER EACH · 3.2 g AGAINST 1.3 g', size=7)
     d.text(60, gy - 55.5, 'WIND', size=7, anchor='end')
     d.text(tx, gy + td + 16, 'TRENCH', size=7)
     d.text(cx0 + cw / 2, gy + ch + 20, 'CYLINDER', size=7)

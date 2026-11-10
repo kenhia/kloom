@@ -105,7 +105,7 @@
 			"published": "2026-08-11"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"title": "The statistical interpretation of quantum mechanics",
 			"url": "https://www.nobelprize.org/uploads/2018/06/born-lecture.pdf",
 			"accessed": "2026-09-29",
@@ -115,7 +115,8 @@
 					"given": "Max"
 				}
 			],
-			"container": "Nobel Lecture, 11 December 1954",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "The Nobel Foundation",
 			"published": "1954-12-11"
 		},

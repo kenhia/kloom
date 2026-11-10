@@ -179,7 +179,7 @@ def autoanalyzer():
     d.text(10, ys[0] - 6, 'SAMPLE', size=7, anchor='start')
     d.text(10, ys[2] - 6, 'AIR', size=7, anchor='start')
     d.text(10, ys[3] - 6, 'WATER', size=7, anchor='start')
-    d.text(255, 116, 'DIALYSER', size=7)
+    d.text(255, 116, 'DIALYZER', size=7)
     d.text(338, 104, 'WASTE', size=7, anchor='start')
     d.text(250, 202, 'NESSLER', size=7, anchor='end')
     d.text(241, 288, 'FLOW CELL', size=7)

@@ -65,7 +65,7 @@
 			"note": "Pauling's Oxford telling, quoted from Serafini (1989), and Perutz's horse hair, quoted from Perutz (1998)"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"title": "The Chemistry of Insulin",
 			"authors": [
 				{
@@ -73,7 +73,8 @@
 					"given": "Frederick"
 				}
 			],
-			"container": "Nobel Lectures",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Foundation",
 			"published": "1958-12-11",
 			"url": "https://www.nobelprize.org/uploads/2018/06/sanger-lecture.pdf",
@@ -81,7 +82,7 @@
 			"key": true
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"title": "Myoglobin and the Structure of Proteins",
 			"authors": [
 				{
@@ -89,7 +90,8 @@
 					"given": "John C."
 				}
 			],
-			"container": "Nobel Lectures",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Foundation",
 			"published": "1962-12-11",
 			"url": "https://www.nobelprize.org/uploads/2018/06/kendrew-lecture.pdf",
@@ -97,7 +99,7 @@
 			"key": true
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"title": "X-ray Analysis of Haemoglobin",
 			"authors": [
 				{
@@ -105,7 +107,8 @@
 					"given": "Max F."
 				}
 			],
-			"container": "Nobel Lectures",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Foundation",
 			"published": "1962-12-11",
 			"url": "https://www.nobelprize.org/uploads/2018/06/perutz-lecture.pdf",

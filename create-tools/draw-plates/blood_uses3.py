@@ -93,7 +93,7 @@ def hiv_blood():
     d.text(cx - R - 16, top - 6, 'PLATE', size=7, anchor='start')
     d.text(cx + R + 5, 210, 'ANTIGEN', size=7, anchor='start')
     d.text(cx, 290, 'DONOR ANTIBODY + ENZYME-LINKED ANTI-HUMAN', size=7)
-    d.text(cx, 76, 'COLOUR', size=7)
+    d.text(cx, 76, 'COLOR', size=7)
     d.text(wells[0], 58, 'NEG', size=7)
     d.text(wells[1], 58, 'POS', size=7)
     d.text(x1, cut - 5, 'CUT-OFF', size=7, anchor='end')

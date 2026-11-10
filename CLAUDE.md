@@ -345,6 +345,17 @@ prints the scene and then the whole reading on a white page in dark ink,
 with colour kept in images and charts (a chart's accent from the light
 palette), the citations opened, the app's controls and the reader's layer
 left off, and `just print-check`.
+Sprint 057 the author-subject skill tuned a fifth time, from Daily Bread's
+and The Story of Life's findings (korg 3576, 3557): a `lecture` citation
+kind (50 Nobel lectures migrated), a letter with no recipient, a modern UK
+act (`citeAs: "year"`), the 15-mark cap enforced with a reasoned
+`markCapOverrides`, `lookup` slug-collision warnings, `--expect` reading
+the whole intro, `mark --skip-missing` for checking copies, `bar_chart`
+`series` and signed bars, `plates.clip` and shared `coastlines.py`,
+label-overlap warnings, `commons_media` taking a photograph's licence over
+an artwork's, and the rights and laboratory-brief rules; and shared
+answers (korg 3560): a kept answer a reader shares becomes public, as
+Readers' Q&A, only after the review-notes skill passes it.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

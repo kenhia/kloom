@@ -887,6 +887,9 @@ describe('the reader’s layer on a frame', () => {
 		seen: () => {},
 		keptOn: async () => [],
 		forget: async () => false,
+		share: async () => null,
+		shared: {},
+		sharedOn: async () => [],
 		onkept: () => {},
 		...over
 	});
@@ -951,6 +954,27 @@ describe('the reader’s layer on a frame', () => {
 		expect(body).toMatch(/<details class="qa[^"]*">\s*<summary[^>]*>Q&amp;A \(2\)<\/summary>/);
 		expect(body).not.toMatch(/<details class="qa[^"]*"[^>]*\bopen/);
 		expect(shell(layer())).not.toContain('class="qa');
+	});
+
+	it('offers other readers’ shared answers, past review, to a reader with or without ask (korg 3560)', () => {
+		const body = shell(layer({ kept: { [first]: 2 }, shared: { [first]: 3 } }));
+		expect(body).toMatch(/<summary[^>]*>Q&amp;A \(2\)<\/summary>/);
+		expect(body).toMatch(/<summary[^>]*>Readers’ Q&amp;A \(3\)<\/summary>/);
+		// The reader site's reader without ask: no AI pane, no kept answers, the shared ones still.
+		const settings = new UserSettings([layout], () => null);
+		const noAsk = render(Shell, {
+			props: {
+				subject,
+				bodies,
+				settings,
+				ai: null,
+				layer: layer({ kept: { [first]: 2 }, shared: { [first]: 3 } })
+			}
+		}).body;
+		expect(noAsk).not.toMatch(/<summary[^>]*>Q&amp;A \(2\)/);
+		expect(noAsk).toMatch(/<summary[^>]*>Readers’ Q&amp;A \(3\)<\/summary>/);
+		expect(shell(layer({ shared: {} }))).not.toContain('Readers’ Q&amp;A');
+		expect(shell(null)).not.toContain('Readers’ Q&amp;A');
 	});
 
 	it('says N adds a note, in the help and on the Add button', () => {

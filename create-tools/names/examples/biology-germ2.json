@@ -32,5 +32,8 @@
 		["tobacco mosaic virus", "tobacco-mosaic-virus"],
 		["Helmut Ruska", "helmut-ruska"],
 		["electron microscope", "electron-microscope"]
-	]
+	],
+	"markCapOverrides": {
+		"biology/virus": "The discovery came in steps by many hands (Mayer, Chamberland, Ivanovsky, Beijerinck, Loeffler, Twort, d'Hérelle, Stanley, Ruska), each with its apparatus or organism."
+	}
 }

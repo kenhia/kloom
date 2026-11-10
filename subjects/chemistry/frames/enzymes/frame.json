@@ -37,7 +37,7 @@
 			"note": "In English, from Mikuláš Teich, A Documentary History of Biochemistry (1992), on Carmen Giunta's Classic Chemistry site"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "The Chemical Nature of Enzymes",
 			"authors": [
@@ -46,7 +46,8 @@
 					"given": "James B."
 				}
 			],
-			"container": "Nobel Lecture, 12 December 1946",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Prize Outreach",
 			"published": "1946-12-12",
 			"url": "https://www.nobelprize.org/uploads/2018/06/sumner-lecture.pdf",
@@ -76,7 +77,7 @@
 			"note": "The constant of 16.7 mM, the five sucrose concentrations and the slope of 0.576"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"title": "Cell-Free Fermentation",
 			"authors": [
 				{
@@ -84,14 +85,15 @@
 					"given": "Eduard"
 				}
 			],
-			"container": "Nobel Lecture, 11 December 1907",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Prize Outreach",
 			"published": "1907-12-11",
 			"url": "https://www.nobelprize.org/uploads/2018/06/buchner-lecture.pdf",
 			"accessed": "2026-09-30"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"title": "The Preparation of Pure Enzymes and Virus Proteins",
 			"authors": [
 				{
@@ -99,7 +101,8 @@
 					"given": "John H."
 				}
 			],
-			"container": "Nobel Lecture, 12 December 1946",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Prize Outreach",
 			"published": "1946-12-12",
 			"url": "https://www.nobelprize.org/uploads/2018/06/northrop-lecture.pdf",

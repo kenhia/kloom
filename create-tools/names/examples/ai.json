@@ -875,5 +875,12 @@
 		["ELMo", "elmo"],
 		["BERT", "bert-language-model"],
 		["transformer", "transformer-deep-learning"]
-	]
+	],
+	"markCapOverrides": {
+		"ai/chat-assistants": "A survey of the field: each assistant is named with the company that makes it (OpenAI, Meta, Google, Anthropic, xAI, Mistral, Alibaba, DeepSeek), eight pairs, and other frames mark most of them.",
+		"ai/dartmouth": "Who was in the room is the frame: the proposal's four authors, the others who came, and the foundation, college and companies behind them.",
+		"ai/lisp-collapse": "A market's collapse told through its players: the Lisp machine makers, the workstation and PC makers that displaced them, and the programs (XCON, the Fifth Generation project) that set the boom.",
+		"ai/mcculloch-pitts": "The 1943 neuron's sources (Russell and Whitehead, Carnap, Leibniz, Turing) and its heirs (von Neumann, Minsky, Rosenblatt, the Macy conferences): the frame traces both lines.",
+		"ai/shakey": "The robot, its laboratory and funder, its computers (SDS 940, PDP-10) and what it left behind (STRIPS, A*, the Hough transform), each named where the reading introduces it."
+	}
 }

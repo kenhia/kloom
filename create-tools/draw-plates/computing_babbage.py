@@ -273,7 +273,7 @@ def scheutz_engine():
     d.text((xs[0] + xs[7]) / 2, 8, '8 TYPE WHEELS', size=7)
     d.text((xs[0] + xs[-1]) / 2, ys[-1] + 34, '15 FIGURES × TABLE AND 4 DIFFERENCES', size=7)
     d.text(tx + 32, 210, 'STEREOTYPE', size=7)
-    d.text(tx + 32, 222, 'MOULD', size=7)
+    d.text(tx + 32, 222, 'MOLD', size=7)
     d.text(200, 272, 'STOCKHOLM 1853 · LONDON COPY 1859', size=8)
     return d
 

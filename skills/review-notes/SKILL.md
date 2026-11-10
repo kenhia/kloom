@@ -1,6 +1,6 @@
 ---
 name: kloom-review-notes
-description: Find the notes and annotations kloom readers flagged for "Agent review" (on kai's service, a dev server, or the public reader site), deal with each one (usually a fix to the frame it is on), and mark it handled with what was done; and list the subjects readers suggested, promote one to korg and mark its status. Use when Ken asks to review flagged notes, "look at my kloom notes", "what subjects have readers suggested", or run the review-notes skill.
+description: Find the notes and annotations kloom readers flagged for "Agent review" (on kai's service, a dev server, or the public reader site), deal with each one (usually a fix to the frame it is on), and mark it handled with what was done; review the kept answers readers asked to share with other readers, passing or declining each; and list the subjects readers suggested, promote one to korg and mark its status. Use when Ken asks to review flagged notes, "look at my kloom notes", "what subjects have readers suggested", or run the review-notes skill.
 ---
 
 # Reviewing flagged notes
@@ -106,6 +106,57 @@ seen it, and My notes lists it as Answered, where they can clear it. If they
 tick Agent review again (in the editor, or "Ask the agent again" in My
 notes), it comes back flagged, and your old response is cleared.
 
+## Shared answers
+
+A reader who kept an answer can tick **Share with other readers** under it
+in the frame's Q&A (korg 3560). Nothing is shown to anyone else until you
+review it: a share waits, and only your review makes it public. It then
+appears to every other reader under the frame, as **Readers' Q&A**, without
+the name of the reader who shared it (`docs/design.md` §Shared answers).
+The same targets reach them:
+
+```sh
+node skills/review-notes/review-notes.mjs --public shares
+```
+
+`shares` prints each waiting answer, oldest first: the reader, the answer
+id, the frame and its content directory, when it was asked and by which
+model, the `--seen` value, the question, the answer, and the sources it
+drew on. Add `--reader <login>` or `--json` as for `list`.
+
+For each one, read the frame first, then the answer as a stranger would
+meet it under that frame. **Pass it** (`shared`) when all of these hold:
+
+- it is **accurate**, against the frame and its sources, and against what
+  you can check (a web source it cites says what it is cited for);
+- it **answers the question** and stays on this frame's subject;
+- the **question is fit to show**: nothing personal about the reader or
+  anyone else, nothing a stranger should not read;
+- it adds something the frame does not already say.
+
+Otherwise **decline** it, and say why in a sentence the reader will read.
+Never edit an answer to make it pass: it is what the model said, as the
+reader kept it. If the answer shows the frame is wrong or missing
+something, that is a fix to the frame, made as for a note (above), and the
+share may still pass or not on its own merits.
+
+```sh
+node skills/review-notes/review-notes.mjs --public \
+  review-share <login> <answer-id> shared "Accurate, and it adds the reason the frame leaves out." \
+  --seen <asked>
+node skills/review-notes/review-notes.mjs --public \
+  review-share <login> <answer-id> declined "The date it gives for the press is wrong (1440s, not 1500)."
+```
+
+A review is refused when the reader has unticked the box, removed the
+answer, or ticked it again since you listed it (`--seen`): list again.
+Several at once go in a JSON file, a list of `{"reader", "id", "decision",
+"response", "seen"}`: `review-share --file results.json`.
+
+The reader sees your response under their answer either way. Unticking the
+box takes a shared answer back at once, with no review. Ticking a declined
+one again asks for a fresh review and clears your old response.
+
 ## Suggested subjects
 
 Readers can suggest a subject from the start screen's About panel (korg
@@ -132,7 +183,8 @@ changes it.
 
 ## Rules
 
-- Never change a note's text: it is the reader's. The response is yours.
+- Never change a note's text, or a shared answer's: they are the reader's.
+  The response is yours.
 - A note may be about something the frame does not say. Check before you
   "fix" a frame to agree with a note.
 - The notes are personal. Quote them in a commit message or a korg item only

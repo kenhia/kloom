@@ -40,6 +40,7 @@
 			"place": "Bonn",
 			"published": "2019",
 			"url": "https://zenodo.org/records/3553579",
+			"doi": "10.5281/zenodo.3553579",
 			"accessed": "2026-10-06",
 			"note": "The drivers in order (B), the altered land (A4) and the species committed by lost habitat (A5)"
 		},
@@ -146,6 +147,7 @@
 			"container": "ChecklistBank",
 			"published": "2026-09-11",
 			"url": "https://www.checklistbank.org/dataset/316321/about",
+			"doi": "10.48580/dgz5n",
 			"accessed": "2026-10-06",
 			"note": "Species counts read from ChecklistBank's import metrics for the release"
 		},

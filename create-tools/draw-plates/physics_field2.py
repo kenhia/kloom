@@ -79,7 +79,7 @@ def faraday_lines():
     d.text(80, cy + 4, 'N', size=10)
     d.text(320, cy + 4, 'S', size=10)
     d.text(200, cy + gh + 14, 'HEAVY GLASS', size=7)
-    d.text(24, cy - 50, 'POLARISED RAY', size=7, anchor='start')
+    d.text(24, cy - 50, 'POLARIZED RAY', size=7, anchor='start')
     d.text(250, cy - 18, 'θ', size=9)
     d.text(bx + 10, by + 3, 'BAR SETS ACROSS', size=7, anchor='start')
     d.text(200, 292, 'MAGNETISM TURNS THE PLANE OF LIGHT · 1845', size=7)

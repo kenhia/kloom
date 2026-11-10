@@ -194,7 +194,7 @@ describe('ask on the reader site (korg 3530)', () => {
 	it('answers ask, keep and kept answers with a 404 for a reader Ken has not given ask', async () => {
 		for (const reader of [null, jkh]) {
 			const e = asking(reader, question);
-			for (const handler of [ask.POST, keep.POST, kept.GET, kept.DELETE])
+			for (const handler of [ask.POST, keep.POST, kept.GET, kept.DELETE, kept.PATCH])
 				expect(await outcome(() => handler({ ...e, url: new URL(SITE) } as never))).toMatchObject({
 					status: 404
 				});

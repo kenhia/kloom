@@ -20,7 +20,7 @@
 	},
 	"citations": [
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "Electronic Structure of Matter: Wave Functions and Density Functionals",
 			"authors": [
@@ -29,14 +29,15 @@
 					"given": "Walter"
 				}
 			],
-			"container": "Nobel Lecture, NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"published": "1999-01-28",
 			"url": "https://www.nobelprize.org/uploads/2018/06/kohn-lecture.pdf",
 			"accessed": "2026-09-30",
 			"note": "The exponential wall, M = p³ᴺ, on pp. 218–220; the autumn of 1963 with Hohenberg on p. 221"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "Quantum Chemical Models",
 			"authors": [
@@ -45,7 +46,8 @@
 					"given": "John A."
 				}
 			],
-			"container": "Nobel Lecture, NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"published": "1998-12-08",
 			"url": "https://www.nobelprize.org/uploads/2018/06/pople-lecture.pdf",
 			"accessed": "2026-09-30",
@@ -88,7 +90,7 @@
 			"note": "224 hard disks on the MANIAC, three minutes a cycle"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"title": "Development of Multiscale Models for Complex Chemical Systems: From H+H2 to Biomolecules",
 			"authors": [
 				{
@@ -96,13 +98,14 @@
 					"given": "Martin"
 				}
 			],
-			"container": "Nobel Lecture, NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"published": "2013-12-08",
 			"url": "https://www.nobelprize.org/uploads/2018/06/karplus-lecture.pdf",
 			"accessed": "2026-09-30"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"title": "Birth and Future of Multiscale Modeling for Macromolecular Systems",
 			"authors": [
 				{
@@ -110,7 +113,8 @@
 					"given": "Michael"
 				}
 			],
-			"container": "Nobel Lecture, NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"published": "2013-12-08",
 			"url": "https://www.nobelprize.org/uploads/2018/06/levitt-lecture.pdf",
 			"accessed": "2026-09-30"

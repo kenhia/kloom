@@ -196,7 +196,7 @@ def free_software():
     d.text(100, 34, 'PERMISSIVE', size=8)
     d.text(300, 34, 'COPYLEFT · GNU GPL', size=8)
     d.text(100, 206 + 44, 'SOURCE MAY BE CLOSED', size=7)
-    d.text(300, 206 + 44, 'SOURCE AND LICENCE TRAVEL', size=7)
+    d.text(300, 206 + 44, 'SOURCE AND LICENSE TRAVEL', size=7)
     d.text(100, 272, '3 OF 7 VERSIONS OPEN', size=7)
     d.text(300, 272, '7 OF 7 VERSIONS OPEN', size=7)
     return d

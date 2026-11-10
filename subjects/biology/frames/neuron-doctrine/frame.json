@@ -46,7 +46,7 @@
 			"note": "His translations of Golgi's letter of 1873 and of Cajal's Textura"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "The Neuron Doctrine: Theory and Facts",
 			"authors": [
@@ -55,14 +55,14 @@
 					"given": "Camillo"
 				}
 			],
-			"container": "Nobel Lecture, December 11, 1906",
-			"publisher": "NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"published": "1906-12-11",
 			"url": "https://www.nobelprize.org/prizes/medicine/1906/golgi/lecture/",
 			"accessed": "2026-10-06"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "The Structure and Connexions of Neurons",
 			"authors": [
@@ -71,8 +71,8 @@
 					"given": "Santiago"
 				}
 			],
-			"container": "Nobel Lecture, December 12, 1906",
-			"publisher": "NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"published": "1906-12-12",
 			"url": "https://www.nobelprize.org/prizes/medicine/1906/cajal/lecture/",
 			"accessed": "2026-10-06"

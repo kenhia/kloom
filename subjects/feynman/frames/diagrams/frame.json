@@ -61,7 +61,7 @@
 			"note": "The positron as an electron running backwards in time"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "The Development of the Space-Time View of Quantum Electrodynamics",
 			"url": "https://www.nobelprize.org/prizes/physics/1965/feynman/lecture/",
@@ -72,9 +72,10 @@
 					"given": "Richard P."
 				}
 			],
-			"container": "Nobel Lecture",
-			"publisher": "Nobel Foundation",
+			"occasion": "Nobel Lecture",
 			"place": "Stockholm",
+			"container": "NobelPrize.org",
+			"publisher": "Nobel Foundation",
 			"published": "1965-12-11",
 			"note": "Bethe's lecture, the rules found by guessing, and Slotnick"
 		},

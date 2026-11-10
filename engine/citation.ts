@@ -13,7 +13,8 @@
  * `diary` is a dated entry in a named edition of a diary (sprint 029).
  * `case` is a court's opinion and `statute` a law or a regulation, each
  * rendered in legal form (sprint 033); `treaty` an agreement between states,
- * in legal form too (sprint 050).
+ * in legal form too (sprint 050). `lecture` is a talk given on an `occasion`
+ * (a Nobel Lecture), and a letter's recipients may be unknown (sprint 057).
  */
 export const CITATION_KINDS = [
 	'web',
@@ -28,7 +29,8 @@ export const CITATION_KINDS = [
 	'diary',
 	'case',
 	'statute',
-	'treaty'
+	'treaty',
+	'lecture'
 ] as const;
 export type CitationKind = (typeof CITATION_KINDS)[number];
 
@@ -105,8 +107,17 @@ export interface Citation {
 	translators?: Author[];
 	/** Who engraved a plate: "Engraved by …" (sprint 027). */
 	engravers?: Author[];
-	/** A letter's recipients: "Letter to …". Required on a letter. */
+	/**
+	 * A letter's recipients: "Letter to …". Left out only when no one knows who it was sent to: the
+	 * entry then reads "Letter, <date>" (sprint 057).
+	 */
 	recipients?: Author[];
+	/**
+	 * A lecture's occasion, as it is named: "Nobel Lecture", "Bakerian Lecture", "Lecture, Royal
+	 * Institution". Required on a lecture, and only on one (sprint 057). Where it was given goes in
+	 * `place`, the day in `published`.
+	 */
+	occasion?: string;
 	/**
 	 * When a letter was written, or a diary's entry; `published` is when it
 	 * was printed. Same forms as `published`. Required on a diary.
@@ -162,9 +173,10 @@ export interface Citation {
 	/**
 	 * A statute that is not a US one (sprint 050): `regnal`, an English act by regnal year and chapter
 	 * ("1 Will. & Mar. Sess. 2, c. 2"); `gazette`, a foreign law by the gazette that printed it
-	 * ("Reichsgesetzblatt 1935, Teil I, p. 1146").
+	 * ("Reichsgesetzblatt 1935, Teil I, p. 1146"); `year`, a UK act numbered by calendar year, as
+	 * every one since 1963 is, by its chapter ("Human Reproductive Cloning Act 2001, c. 23"; sprint 057).
 	 */
-	citeAs?: 'regnal' | 'gazette';
+	citeAs?: 'regnal' | 'gazette' | 'year';
 	/**
 	 * A treaty's parties, as its title page names them: ["Holy Roman Empire", "France"]. Left out for
 	 * a treaty among many states, as legal form leaves them out (the Geneva Convention of 1864).
@@ -268,7 +280,8 @@ const legalCite = (l: LegalCite) => [l.volume, l.name, l.page].filter(Boolean).j
  *   says it: in the name ("…Act of 1947") or as the volume ("2023 Or. Laws").
  *   An English act by regnal year: ", 1 Will. & Mar. Sess. 2, c. 2", the
  *   regnal year its year; a foreign law by its gazette: ", Reichsgesetzblatt
- *   1935, Teil I, p. 1146" (sprint 050);
+ *   1935, Teil I, p. 1146" (sprint 050); a modern UK act by its year and
+ *   chapter: ", c. 23", its year in its short title (sprint 057);
  * - a treaty: ", Holy Roman Empire–France, October 24, 1648", and its
  *   series when it has one (", 1 Consol. T.S. 271"; sprint 050).
  *
@@ -290,6 +303,11 @@ export function legalForm(c: Citation): string | undefined {
 	if (c.citeAs === 'regnal') {
 		const cite = [c.code && legalCite(c.code), c.chapter && `c. ${c.chapter}`, c.section];
 		return `, ${cite.filter(Boolean).join(', ')}`;
+	}
+	if (c.citeAs === 'year') {
+		const cite = [`c. ${c.chapter}`, c.section].filter(Boolean).join(', ');
+		const said = !year || c.title.includes(year);
+		return `, ${cite}${said ? '' : ` (${year})`}`;
 	}
 	if (c.citeAs === 'gazette') {
 		const cite = [c.code?.name, c.code?.volume, c.code?.page && `p. ${c.code.page}`, c.section];
@@ -376,6 +394,11 @@ function quoted(title: string): string {
  * - media: Creator. _Title_. Date. Collection. Licence. Accessed Date. URL.
  * - diary: Author. Diary entry, Date, in _Title_, edited by Editor.
  *   Container. Place: Publisher, Year. Accessed Date. URL.
+ * - letter: Author. "Title." Letter to Recipient, Date. In _Container_,
+ *   vol., pages. Place: Publisher, Year. Accessed Date. URL. To an unknown
+ *   recipient: "Letter, Date."
+ * - lecture: Speaker. "Title." Occasion, Place, Date. Container. Publisher.
+ *   Accessed Date. URL.
  *
  * With a `doi`, the URL is the DOI at doi.org. An approximate date reads
  * "ca. 1951". A mirror's URL is followed by "(copy at host)"; a source seen
@@ -432,9 +455,10 @@ export function chicago(c: Citation): Part[] {
 			imprint();
 			break;
 		case 'letter': {
-			const to = c.recipients?.length ? series(c.recipients.map(natural)) : '';
+			// To an unknown recipient it is a letter all the same: none is invented (sprint 057).
+			const to = c.recipients?.length ? ` to ${series(c.recipients.map(natural))}` : '';
 			const sent = c.written ? chicagoDate(c.written) : '';
-			if (to) add(`${stop(`Letter to ${to}${sent ? `, ${sent}` : ''}`)} `);
+			add(`${stop(`Letter${to}${sent ? `, ${sent}` : ''}`)} `);
 			const rest = [c.volume && `vol. ${c.volume}`, c.pages].filter(Boolean);
 			if (c.container) {
 				add('In ');
@@ -442,6 +466,13 @@ export function chicago(c: Citation): Part[] {
 				add(rest.length ? `, ${stop(rest.join(', '))} ` : '. ');
 			}
 			imprint();
+			break;
+		}
+		case 'lecture': {
+			const given = [c.occasion, c.place, date].filter(Boolean).join(', ');
+			if (given) add(`${stop(given)} `);
+			if (c.container) add(`${stop(c.container)} `);
+			if (c.publisher) add(`${stop(c.publisher)} `);
 			break;
 		}
 		case 'chapter':
@@ -604,7 +635,11 @@ export function keySource(c: Citation): Source {
 	const who = where && shortAuthors(c) === where ? undefined : shortAuthors(c);
 	const date = c.published && chicagoDate(c.published, c.circa);
 	const entry = c.kind === 'diary' && c.written && `entry of ${chicagoDate(c.written)}`;
-	const facts = [entry, where, date].filter(Boolean).join(', ');
+	// A lecture is dated by its giving, so its occasion and place come first, then where it was read.
+	const facts =
+		c.kind === 'lecture'
+			? [[c.occasion, c.place, date].filter(Boolean).join(', '), where].filter(Boolean).join('. ')
+			: [entry, where, date].filter(Boolean).join(', ');
 	const host = mirrorHost(c);
 	const seen = [...seenAs(c), host && `Copy at ${host}`];
 	const note = [facts, ...seen.map((s) => s && s.replace(/\.$/, '')), c.note]
@@ -690,7 +725,8 @@ export function citationProblems(c: unknown, options: { legacy?: boolean } = {})
 		'number',
 		'note',
 		'edition',
-		'citedIn'
+		'citedIn',
+		'occasion'
 	] as const)
 		if (c[k] !== undefined && !isText(c[k])) out.push(`${k} must be text`);
 	if (c.abstractOnly !== undefined && !(options.legacy && typeof c.abstractOnly === 'boolean'))
@@ -716,8 +752,15 @@ export function citationProblems(c: unknown, options: { legacy?: boolean } = {})
 		out.push('a chapter needs its container: the volume or proceedings it appears in');
 	if (c.kind === 'encyclopedia' && !isText(c.container))
 		out.push('an encyclopedia entry needs its container: the encyclopedia');
-	if (c.kind === 'letter' && !(Array.isArray(c.recipients) && c.recipients.length))
-		out.push('a letter needs its recipients');
+	if (Array.isArray(c.recipients) && !c.recipients.length)
+		out.push(
+			'recipients, when known, are listed; a letter to an unknown recipient leaves recipients out'
+		);
+	if (c.kind === 'lecture') {
+		if (c.occasion === undefined)
+			out.push('a lecture needs its occasion ("Nobel Lecture", "Lecture, Royal Institution")');
+		if (c.published === undefined) out.push('a lecture needs the date it was given, in published');
+	} else if (c.occasion !== undefined) out.push('occasion is for a lecture');
 	if (c.kind === 'diary' && c.written === undefined)
 		out.push('a diary entry needs the date it was written');
 	if (c.kind === 'media') {
@@ -769,6 +812,15 @@ function legalProblems(c: Obj): string[] {
 				out.push(
 					'an act cited by regnal year needs its code ({"volume": "1", "name": "Will. & Mar. Sess. 2"}) and chapter'
 				);
+			else if (/^\d{4}$/.test((c.code as Obj).volume as string))
+				out.push(
+					'a regnal year is a reign’s ("1 Will. & Mar."), not a calendar year: an act cited by its year and chapter is citeAs "year"'
+				);
+		} else if (c.citeAs === 'year') {
+			if (!isText(c.chapter) || c.code !== undefined)
+				out.push(
+					'an act cited by its year needs its chapter ("23"), and no code: its year is the volume'
+				);
 		} else if (c.citeAs === 'gazette') {
 			if (!(isLegalCite(c.code, false) && isText((c.code as Obj).page)))
 				out.push(
@@ -776,7 +828,7 @@ function legalProblems(c: Obj): string[] {
 				);
 		} else
 			out.push(
-				'citeAs is "regnal" (an English act) or "gazette" (a foreign law); a US statute leaves it out'
+				'citeAs is "regnal" (an English act by regnal year), "year" (a UK act by its year and chapter) or "gazette" (a foreign law); a US statute leaves it out'
 			);
 		for (const k of ['chapter', 'section'] as const)
 			if (c[k] !== undefined && !isText(c[k])) out.push(`${k} must be text`);

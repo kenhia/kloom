@@ -1,8 +1,6 @@
 <script lang="ts">
-	import { keptReferences } from '../ai/kept';
-	import { chicago } from '../citation';
-	import { renderMarkdown } from '../markdown';
-	import type { Kept } from '../reader-data';
+	import type { Kept, Share } from '../reader-data';
+	import QaAnswer from './QaAnswer.svelte';
 
 	interface Props {
 		/** How many answers were kept on this frame. */
@@ -12,12 +10,14 @@
 		/** Fetch the answers; null when that failed. */
 		load: () => Promise<Kept[] | null>;
 		onforget: (id: string) => Promise<boolean>;
+		/** Tick or untick "Share with other readers" (korg 3560): the answer after, or null. */
+		onshare: (id: string, share: boolean) => Promise<Kept | null>;
 		/** A frame's title if this subject has it, for "grown into". */
 		titleOf: (frame: string) => string | null;
 		ongoto: (frame: string) => void;
 	}
 
-	let { count, citations, load, onforget, titleOf, ongoto }: Props = $props();
+	let { count, citations, load, onforget, onshare, titleOf, ongoto }: Props = $props();
 
 	let items = $state<Kept[] | null>(null);
 	let failed = $state(false);
@@ -40,6 +40,26 @@
 		} else said = 'Could not remove it.';
 	}
 
+	async function share(k: Kept, e: Event) {
+		const box = e.currentTarget as HTMLInputElement;
+		const after = await onshare(k.answer.id, box.checked);
+		if (!after) {
+			box.checked = !box.checked;
+			said = 'Could not change it.';
+			return;
+		}
+		items = items?.map((x) => (x.answer.id === k.answer.id ? after : x)) ?? null;
+		said = SHARE_WORDS[after.share ?? 'none'] || 'Not shared.';
+	}
+
+	/** Where a share stands, in words; none says nothing. */
+	const SHARE_WORDS: Record<Share, string> = {
+		none: '',
+		pending: 'Waiting for an agent to review it. Other readers see it once the review passes it.',
+		shared: 'Shared: other readers see it under this frame.',
+		declined: 'Not shared.'
+	};
+
 	const day = (iso: string) => new Date(iso).toLocaleDateString(undefined, { dateStyle: 'medium' });
 </script>
 
@@ -52,29 +72,8 @@
 		<p class="about">Loading…</p>
 	{:else}
 		{#each items as k (k.answer.id)}
-			{@const refs = keptReferences(k.answer, citations)}
-			<article class="kept">
-				<p class="question"><span class="q" aria-hidden="true">Q</span> {k.answer.question}</p>
-				<div class="answer">
-					<!-- A model's answer, rendered with raw HTML escaped, unsafe links dropped and no images. -->
-					<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-					{@html renderMarkdown(k.answer.answer, { image: () => null })}
-				</div>
-				{#if refs.length}
-					<ol class="refs" aria-label="Sources it drew on">
-						{#each refs as r, i (i)}
-							<li value={r.n ?? undefined} class:unnumbered={r.n === null}>
-								{#each chicago(r.citation) as part, j (j)}
-									{#if part.href}
-										<!-- An external source, not an app route. -->
-										<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
-										<a href={part.href} rel="noopener noreferrer">{part.text}</a>
-									{:else if part.italic}<i>{part.text}</i>{:else}{part.text}{/if}
-								{/each}
-							</li>
-						{/each}
-					</ol>
-				{/if}
+			{@const state = k.share ?? 'none'}
+			<QaAnswer answer={k.answer} {citations}>
 				<p class="meta">
 					Kept {day(k.answer.keptAt)} · {k.answer.model}
 					{#if k.grown?.length}
@@ -91,7 +90,23 @@
 						>Remove<span class="visually-hidden">: {k.answer.question}</span></button
 					>
 				</p>
-			</article>
+				<p class="share">
+					<label>
+						<input
+							type="checkbox"
+							checked={state === 'pending' || state === 'shared'}
+							onchange={(e) => share(k, e)}
+						/>
+						Share with other readers<span class="visually-hidden">: {k.answer.question}</span>
+					</label>
+					{#if state !== 'none'}
+						<span class="state">{SHARE_WORDS[state]}</span>
+					{/if}
+				</p>
+				{#if k.shareResponse && (state === 'shared' || state === 'declined')}
+					<p class="response"><span class="who">Agent review:</span> {k.shareResponse}</p>
+				{/if}
+			</QaAnswer>
 		{/each}
 	{/if}
 	<p class="visually-hidden" role="status">{said}</p>
@@ -115,42 +130,25 @@
 		font-size: 0.8rem;
 		color: var(--muted);
 	}
-	.kept {
-		margin: 1rem 0;
-		padding-left: 0.75rem;
-		border-left: 2px solid var(--accent);
-	}
-	.question {
-		margin: 0;
-		font-family: var(--serif);
-		font-size: 1.1rem;
-	}
-	.q {
-		font-family: var(--mono);
-		font-size: 0.75rem;
-		color: var(--accent);
-	}
-	.answer {
-		font-size: 0.95rem;
-	}
-	.answer :global(a),
-	.refs a {
-		color: inherit;
-		text-decoration-color: var(--accent);
-	}
-	.refs {
-		margin: 0.25rem 0;
-		padding-left: 1.75rem;
-		font-size: 0.8rem;
-		overflow-wrap: anywhere;
-	}
-	.refs li.unnumbered {
-		list-style: disc;
-	}
-	.meta {
+	.meta,
+	.share,
+	.response {
 		margin: 0.35rem 0 0;
 		font-size: 0.75rem;
 		color: var(--muted);
+	}
+	.share label {
+		color: var(--ink);
+		cursor: pointer;
+	}
+	.share input {
+		accent-color: var(--accent);
+	}
+	.state {
+		margin-left: 0.5rem;
+	}
+	.who {
+		color: var(--ink);
 	}
 	.link {
 		font: inherit;

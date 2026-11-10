@@ -33,5 +33,8 @@
 		["siege of Leningrad", "siege-of-leningrad"],
 		["Great Chinese Famine", "great-chinese-famine"],
 		["Nikita Khrushchev", "nikita-khrushchev"]
-	]
+	],
+	"markCapOverrides": {
+		"biology/eugenics": "A history whose names are its evidence: the movement's people, institutions, court case and laws, from Galton to Buck v. Bell and Nazi Germany's sterilization law."
+	}
 }

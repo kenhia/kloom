@@ -186,7 +186,7 @@ def dark_matter():
         d.text(X(r), Y(0) + 13, str(r), size=7)
     for v in (100, 200):
         d.text(X(0) - 6, Y(v) + 3, str(v), size=7, anchor='end')
-    d.text(X(15), Y(0) + 26, 'DISTANCE FROM CENTRE · KPC', size=7)
+    d.text(X(15), Y(0) + 26, 'DISTANCE FROM CENTER · KPC', size=7)
     d.text(X(0) + 6, Y(270) + 4, 'KM/S', size=7, anchor='start')
     d.text(X(24), Y(math.hypot(v_disc(24), v_halo(24))) - 9, 'MEASURED', size=7, anchor='end')
     d.text(X(29), Y(v_disc(29)) + 13, 'STARS AND GAS ALONE', size=7, anchor='end')

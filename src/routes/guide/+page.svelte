@@ -354,6 +354,11 @@
 			is waiting for you.
 		</li>
 	</ul>
+	<p>
+		Under some frames there is a <strong>Readers' Q&amp;A</strong>: questions other readers asked
+		about the frame, and the answers they chose to share. An agent reviewed each one before it was
+		shown there, and none says who asked it.
+	</p>
 
 	<h2 id="about">About kloom</h2>
 	<p>
@@ -482,8 +487,8 @@
 		<p>
 			On this copy of kloom the AI pane can also answer a question about the frame you are on (Ask),
 			or write new frames and trails (Grow). Choose Ask or Grow, type, and send. An answer worth
-			keeping can be kept on its frame. Grown frames are reviewed before they become part of the
-			subject.
+			keeping can be kept on its frame, and shared with other readers once an agent has reviewed it.
+			Grown frames are reviewed before they become part of the subject.
 		</p>
 	{:else if data.ask}
 		<h2 id="ai">Asking</h2>
@@ -493,8 +498,10 @@
 			an AI made by Anthropic, which Ken provides; they can be wrong, so check anything that matters
 			against the frame's sources. If an answer is wrong or strange, tell Ken, or note it on the
 			frame with <em>Agent review</em> ticked. <strong>Web</strong> lets Claude search the web for
-			that question. <strong>Keep this</strong> keeps an answer on its frame, under Q&amp;A. Questions
-			have a monthly allowance; if it runs out, Ask rests until the first of the next month.
+			that question. <strong>Keep this</strong> keeps an answer on its frame, under Q&amp;A. Ticking
+			<strong>Share with other readers</strong> under a kept answer offers it to everyone: an agent reviews
+			it first, and other readers see it, without your name, only if the review passes it. Questions have
+			a monthly allowance; if it runs out, Ask rests until the first of the next month.
 		</p>
 	{/if}
 

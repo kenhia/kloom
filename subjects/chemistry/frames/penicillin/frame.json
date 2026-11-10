@@ -47,7 +47,7 @@
 			"key": true
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "Chemical Structure of the Penicillins",
 			"authors": [
@@ -56,7 +56,8 @@
 					"given": "Ernst B."
 				}
 			],
-			"container": "Nobel Lecture, 20 March 1946",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Prize Outreach",
 			"published": "1946-03-20",
 			"url": "https://www.nobelprize.org/uploads/2018/06/chain-lecture.pdf",
@@ -86,7 +87,7 @@
 			"accessed": "2026-09-30"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"title": "Penicillin",
 			"authors": [
 				{
@@ -94,7 +95,8 @@
 					"given": "Alexander"
 				}
 			],
-			"container": "Nobel Lecture, 11 December 1945",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Prize Outreach",
 			"published": "1945-12-11",
 			"url": "https://www.nobelprize.org/uploads/2018/06/fleming-lecture.pdf",

@@ -250,7 +250,7 @@ def karlsruhe():
     for k in range(1, 5):
         d.text(x0 + 12 * k * s, y0 + dy * 6 + 28, str(12 * k), size=7)
     d.text(318, 30, 'CARBON IN EACH MOLECULE', size=7)
-    d.text(105, 284, 'VAPOUR DENSITY BULB', size=7)
+    d.text(105, 284, 'VAPOR DENSITY BULB', size=7)
     return d
 
 

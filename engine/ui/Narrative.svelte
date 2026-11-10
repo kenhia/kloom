@@ -1,7 +1,7 @@
 <script module lang="ts">
 	import type { Anchor } from '../anchor';
 	import type { FrameLink, NameCard as Card } from '../graph';
-	import type { Kept, Note } from '../reader-data';
+	import type { Kept, Note, SharedAnswer } from '../reader-data';
 
 	/** What the shell offers for connections and names (docs/design.md §Connections). */
 	export interface LinksOffer {
@@ -24,8 +24,17 @@
 		count: (frame: string) => number;
 		load: (frame: string) => Promise<Kept[] | null>;
 		forget: (frame: string, id: string) => Promise<boolean>;
+		/** Tick or untick "Share with other readers" (korg 3560). */
+		share: (frame: string, id: string, share: boolean) => Promise<Kept | null>;
 		titleOf: (frame: string) => string | null;
 		ongoto: (frame: string) => void;
+	}
+
+	/** What the shell offers for other readers' shared answers (§Shared answers, korg 3560). */
+	export interface SharedOffer {
+		/** How many are shared on a frame. */
+		count: (frame: string) => number;
+		load: (frame: string) => Promise<SharedAnswer[] | null>;
 	}
 
 	/** What the shell offers for annotations (korg 3415). */
@@ -47,6 +56,7 @@
 	import type { Frame, Trail } from '../model';
 	import type { SyncMode } from '../navigation';
 	import KeptQa from './KeptQa.svelte';
+	import SharedQa from './SharedQa.svelte';
 	import NameCard from './NameCard.svelte';
 	import {
 		clearHighlights,
@@ -74,6 +84,8 @@
 		keys?: { sync: string | null; trail: string | null };
 		/** The reader's kept answers; absent when there is no reader. */
 		qa?: QaOffer | null;
+		/** Other readers' shared answers; absent when there is no reader. */
+		shared?: SharedOffer | null;
 		/** The id of the tab this pane is the panel of, when it is one. */
 		tab?: string | null;
 		hidden?: boolean;
@@ -98,6 +110,7 @@
 		element = $bindable(),
 		keys = { sync: 'S', trail: 'T' },
 		qa = null,
+		shared = null,
 		tab = null,
 		hidden = false,
 		annotating = null,
@@ -487,8 +500,19 @@
 					citations={frame.citations?.length ?? 0}
 					load={() => qa.load(frame.id)}
 					onforget={(id) => qa.forget(frame.id, id)}
+					onshare={(id, on) => qa.share(frame.id, id, on)}
 					titleOf={qa.titleOf}
 					ongoto={qa.ongoto}
+				/>
+			{/key}
+		{/if}
+
+		{#if shared && shared.count(frame.id) > 0}
+			{#key `${frame.id}:${shared.count(frame.id)}`}
+				<SharedQa
+					count={shared.count(frame.id)}
+					citations={frame.citations?.length ?? 0}
+					load={() => shared.load(frame.id)}
 				/>
 			{/key}
 		{/if}

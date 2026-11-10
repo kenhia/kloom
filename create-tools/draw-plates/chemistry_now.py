@@ -223,7 +223,7 @@ def where_chemistry_is():
     c = cs[2]
     d.text(c[0], c[1] - 16, '120°', size=7)
     d.text(200, 262, 'PFOA · C₈HF₁₅O₂ · M = 414 g/mol', size=8)
-    d.text(200, 280, 'C–F 1.35 Å · 4 ppt ≈ 6 × 10¹² MOLECULES A LITRE', size=8)
+    d.text(200, 280, 'C–F 1.35 Å · 4 ppt ≈ 6 × 10¹² MOLECULES A LITER', size=8)
     return d
 
 

@@ -54,5 +54,10 @@
 		["pangenesis", "pangenesis"],
 		["Asa Gray", "asa-gray"],
 		["Louis Agassiz", "louis-agassiz"]
-	]
+	],
+	"markCapOverrides": {
+		"biology/darwin-wallace": "Two routes to one theory: Wallace's islands (Sarawak, Ternate, the Moluccas, Bali, Lombok, the Wallace line) and the London naturalists who arranged the 1858 reading.",
+		"biology/oxford-1860": "A roll of who said what: the 1860 meeting's speakers, and the critics (Kelvin, Jenkin, Agassiz) and defenders (Gray, Hooker) who followed.",
+		"biology/origin-of-species": "The book's publisher, the sources of its argument (Malthus, Lyell, the Beagle, the Galápagos, pigeons) and its first readers and critics."
+	}
 }

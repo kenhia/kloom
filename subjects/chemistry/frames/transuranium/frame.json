@@ -116,7 +116,7 @@
 			"note": "Half a microgram of plutonium-239 split by slow neutrons, received 29 May 1941"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "The Transuranium Elements: Present Status",
 			"authors": [
@@ -125,7 +125,8 @@
 					"given": "Glenn T."
 				}
 			],
-			"container": "Nobel Lecture, NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Foundation",
 			"published": "1951-12-12",
 			"url": "https://www.nobelprize.org/uploads/2018/06/seaborg-lecture.pdf",
@@ -133,7 +134,7 @@
 			"note": "The first weighing, the actinide concept of 1944, and americium and curium"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "The Transuranium Elements: Early History",
 			"authors": [
@@ -142,7 +143,8 @@
 					"given": "Edwin M."
 				}
 			],
-			"container": "Nobel Lecture, NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Foundation",
 			"published": "1951-12-12",
 			"url": "https://www.nobelprize.org/uploads/2018/06/mcmillan-lecture.pdf",

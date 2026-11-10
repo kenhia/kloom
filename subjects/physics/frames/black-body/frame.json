@@ -37,7 +37,7 @@
 			"note": "The textbook story as \"a myth\", Kuhn's case and the case against it"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "The Genesis and Present State of Development of the Quantum Theory",
 			"url": "https://www.nobelprize.org/prizes/physics/1918/planck/lecture/",
@@ -48,7 +48,8 @@
 					"given": "Max"
 				}
 			],
-			"container": "Nobel Lecture",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Foundation",
 			"published": "1920-06-02",
 			"note": "Planck's own telling; read in the Nobel Lectures text mirrored at hep.fsu.edu"

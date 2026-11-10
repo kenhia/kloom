@@ -13,7 +13,32 @@ showing, in the style docs/design.md §Illustrations describes.
   small monospace label that fades in; write it as plain text, since `&`, `<`
   and `>` are escaped for you). `wire` draws a convex solid's
   wireframe from its vertices, and `SOLIDS` holds the five Platonic solids.
-  `D.svg()` returns the markup and `D.save(path)` writes it.
+  `D.svg()` returns the markup and `D.save(path)` writes it. **`arc(cx, cy,
+r, a0, a1)` takes degrees, not radians**, from east and turning clockwise
+  on the page, since y runs down: 90 is straight down (sprint 057, korg
+  3557: sprint 051 passed radians and drew a sliver).
+- **Clipping** (sprint 057, korg 3576 and 3557: four authors each wrote a
+  Cyrus-Beck for a convex polygon, and sprint 051's enclosure fields went
+  empty for want of one that took any): `clip(pts, poly)` is the parts of a
+  polyline inside a polygon, convex or not and either winding, as a list
+  of polylines for `D.lines`; `hatch(poly, step, angle)` is parallel lines
+  `step` apart at `angle` degrees clipped to a polygon, as segments for
+  `D.lines`; `clip_polygon(poly, window)` cuts a polygon to a convex window
+  (a coast to a map's frame); and `inside(pt, poly)` is the even-odd test
+  under them. They are geometry, not drawing: draw what they return.
+- `coastlines.py` (sprint 057, korg 3576): coastlines from Natural
+  Earth's land, public domain, shared by every subject. `land(name)` is a
+  region's rings of (lon, lat) and `project(rings, x, y)` maps them
+  through your projection; draw each ring as a closed line. Regions live
+  in `coastlines.json` (`python3 create-tools/draw-plates/coastlines.py
+list`), each a box cut once, clipped, simplified to a tolerance in
+  degrees and rounded to 0.01. `coastlines.py add NAME
+--box=W,S,E,N [--tolerance 0.04] [--scale 50m]` cuts a new one (the `=`
+  keeps a negative west from reading as an option), downloading
+  Natural Earth into `.scratch/` once; the plates themselves never touch
+  the network. Its first region, `wallacea`, is the Wallace Line's map
+  (biology's `darwin-wallace`), moved out of that plate's module, which
+  draws identically from it. `test_coastlines.py` is its test.
 - `plates_for.py <subject> <frame …>` (sprint 027): draws a subject's
   plates from its `<subject>_<part>.py` modules (a dash in the subject id
   is an underscore: `western_civ_`). Each module exports `PLATES = {frame:
@@ -47,7 +72,13 @@ function}`, where a function returns its `D`, so several authors can draw
   It warns, on stderr, of text that runs off a plate's or a chart's edge
   and by about how far, estimated as `bar_chart.py` estimates a chart's
   (monospace at 0.6 em; a turned label is not estimated). Sprint 050 found
-  two plates in the AI subject with a label off the edge that way.
+  two plates in the AI subject with a label off the edge that way. Since
+  sprint 057 (korg 3557: three of sprint 051's authors found theirs by eye)
+  it also warns of two labels whose boxes, estimated the same way, overlap
+  inside a plate or a chart by more than a unit each way, and says where.
+  A warning only. Across the 966 SVGs in `subjects/` it flags none; across
+  the ~1,050 distinct drafts in `.scratch/` it flags two, both real
+  collisions that their authors moved before committing.
   `test_contact_sheet.py` is its test.
 - `western_civ.py`: the 17 western-civ plates, one function per frame. It
   is the worked example: the Pantheon section, the globe with its route,

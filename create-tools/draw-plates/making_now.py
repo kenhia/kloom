@@ -157,7 +157,7 @@ def where_making_is():
         d.text(X(mm), ry + 38, s, size=8)
     d.text(bx, by + 44, 'BORE', size=8)
     d.text(ox + 22, oy + 46, 'OVERLAY', size=8)
-    d.text(200, 286, 'THE ERROR, MILLIMETRES TO NANOMETRES, LOG SCALE', size=8)
+    d.text(200, 286, 'THE ERROR, MILLIMETERS TO NANOMETERS, LOG SCALE', size=8)
     return d
 
 

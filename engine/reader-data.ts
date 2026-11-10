@@ -121,6 +121,39 @@ export interface Kept {
 	answer: KeptAnswer;
 	/** Frame ids a grow job made from it, in the order it listed them; null until one does. */
 	grown: string[] | null;
+	/**
+	 * Whether it is shared with other readers (§Shared answers, korg 3560);
+	 * set when the store lists a frame's answers, absent in an export, which
+	 * never carries a share.
+	 */
+	share?: Share;
+	/** What the agent that reviewed the share said; null until one has. */
+	shareResponse?: string | null;
+}
+
+/**
+ * Where a kept answer's "Share with other readers" stands (korg 3560): not
+ * asked, waiting for an agent's review, shared (public to every other
+ * reader), or declined by the review, which says why. Only `shared` is ever
+ * shown to anyone but the reader who kept it.
+ */
+export type Share = 'none' | 'pending' | 'shared' | 'declined';
+
+/** An answer another reader kept and shared, once a review passed it. Never says who. */
+export interface SharedAnswer {
+	answer: KeptAnswer;
+	/** When the review passed it. */
+	shared: string;
+}
+
+/** A share waiting for review, for the review skill: whose it is, and when they asked. */
+export interface ReviewShare {
+	reader: string;
+	subject: string;
+	frame: string;
+	answer: KeptAnswer;
+	/** When they ticked the box: the `seen` a review gives back, refused if they asked again since. */
+	asked: string;
 }
 
 /**
@@ -300,6 +333,34 @@ export interface ReaderStore {
 	grew(reader: string, subject: string, id: string, frames: string[]): Promise<void>;
 	/** Remove one of their kept answers; false when there was none. */
 	forget(reader: string, subject: string, id: string): Promise<boolean>;
+
+	/**
+	 * Tick or untick "Share with other readers" on one of their kept answers
+	 * (§Shared answers, korg 3560). Ticked asks for an agent's review (again,
+	 * after a decline); unticked takes the answer back, at once, whatever the
+	 * review said. The answer as it now stands; null when they kept no such
+	 * answer.
+	 */
+	shareKept(reader: string, subject: string, id: string, share: boolean): Promise<Kept | null>;
+	/** How many shared answers each frame of `subject` has, leaving out `except`'s own. */
+	sharedCounts(subject: string, except?: string): Promise<Record<string, number>>;
+	/** The shared answers on one frame, oldest first, leaving out `except`'s own. Across readers. */
+	sharedOn(subject: string, frame: string, except?: string): Promise<SharedAnswer[]>;
+	/** Every share waiting for review, oldest first: one reader's, or every reader's. */
+	pendingShares(reader?: string): Promise<ReviewShare[]>;
+	/**
+	 * The agent reviewed a share: `shared` makes it public, `declined` keeps
+	 * it private; either way `response` says why, and the reader sees it.
+	 * False when it is gone or no longer waiting, and, given `seen` (its
+	 * `asked`), when the reader has asked again since.
+	 */
+	reviewShare(
+		reader: string,
+		id: string,
+		decision: 'shared' | 'declined',
+		response: string,
+		seen?: string
+	): Promise<boolean>;
 
 	/** Everything the store holds for `reader`, to back up or carry elsewhere. */
 	exportData(reader: string): Promise<ReaderExport>;
@@ -528,6 +589,12 @@ export interface ReaderLayer {
 	/** The kept answers on a frame, fetched when the Q&A section opens; null when that failed. */
 	keptOn(frame: string): Promise<Kept[] | null>;
 	forget(frame: string, id: string): Promise<boolean>;
+	/** Tick or untick "Share with other readers" (korg 3560): the answer after, or null on failure. */
+	share(frame: string, id: string, share: boolean): Promise<Kept | null>;
+	/** Shared answers from other readers per frame id, in this subject (§Shared answers). */
+	shared: Record<string, number>;
+	/** Other readers' shared answers on a frame, fetched when the section opens; null when that failed. */
+	sharedOn(frame: string): Promise<SharedAnswer[] | null>;
 	/** An answer was just kept on this frame. */
 	onkept(frame: string): void;
 }

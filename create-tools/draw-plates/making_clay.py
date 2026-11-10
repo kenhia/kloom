@@ -85,7 +85,7 @@ def potters_wheel():
     # the rilling a thrown pot keeps: faint rings inside the pulled wall
     d.lines([[(sx - 12, base - 20 - 14 * k), (sx + 12, base - 20 - 14 * k)] for k in range(5)])
     d.group('mid')
-    d.text(stations[0], 186, 'CENTRE', size=8)
+    d.text(stations[0], 186, 'CENTER', size=8)
     d.text(stations[1], 186, 'OPEN', size=8)
     d.text(stations[2], 186, 'PULL', size=8)
     d.text(ax + rf / 2, fly_y + 38, 'r', size=9)

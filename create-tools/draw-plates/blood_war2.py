@@ -233,7 +233,7 @@ def whole_blood_returns():
     for x, s in zip(xs, labels):
         d.text(x, 248, s, size=7)
     d.text(18, top - 40, '1 IN', size=7, anchor='start')
-    d.text(xs[6], 266, 'TITRE 64', size=7)
+    d.text(xs[6], 266, 'TITER 64', size=7)
     d.text(tx + 4, 56, 'LOW < 256', size=7, anchor='start')
     return d
 

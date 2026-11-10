@@ -21,7 +21,7 @@
 	},
 	"citations": [
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "The Discovery of Asymptotic Freedom and the Emergence of QCD",
 			"url": "https://www.nobelprize.org/uploads/2018/06/gross-lecture.pdf",
@@ -32,7 +32,8 @@
 					"given": "David J."
 				}
 			],
-			"container": "Nobel Lecture, NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Foundation",
 			"published": "2004-12-08",
 			"note": "The plan to disprove field theory, the sign error, and Politzer"

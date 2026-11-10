@@ -240,5 +240,138 @@ class Institutions(unittest.TestCase):
                                         ['PD-old-100'], '{{Artwork |artist=Albert Charles Challen}}'), {})
 
 
+def raw(name):
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fixtures', f'{name}.json')) as fh:
+        return json.load(fh)
+
+
+class PhotoOfArtwork(unittest.TestCase):
+    """korg 3576 #1: on a photograph of an old artwork fetch took the artwork's public-domain tag over the
+    photographer's CC BY-SA, and Commons' PD over a source's CC BY. When a page carries both, the
+    photograph's (the more restrictive) licence is written, with a warning naming both."""
+
+    def chosen(self, name):
+        f = raw(name)
+        return cm.photo_licence(f['tags'], f['wikitext'])
+
+    def test_an_art_photo_takes_its_photo_licence_and_photographer(self):
+        got = self.chosen('art-photo-pellegrini')
+        self.assertEqual(got['licence'], 'CC BY-SA 4.0')
+        self.assertEqual(got['photographer'], 'Didier Descouens')
+        self.assertIn('PD-old-100', got['warning'])
+        self.assertIn('Cc-by-sa-4.0', got['warning'])
+
+    def test_licensed_pd_art_names_the_photographer_from_the_source(self):
+        got = self.chosen('licensed-pd-art-lorenz')
+        self.assertEqual((got['licence'], got['photographer']), ('CC BY-SA 4.0', 'Uoaei1'))
+
+    def test_an_own_photograph_beside_a_pd_tag_is_the_uploaders(self):
+        got = self.chosen('self-and-pd-isis')
+        self.assertEqual((got['licence'], got['photographer'], got['self']), ('CC BY-SA 4.0', None, True))
+
+    def test_a_sources_cc_by_beside_commons_pd(self):
+        # BHL's Flickr licence on a scan of a public-domain plate
+        got = self.chosen('bhl-cirripedia-plate')
+        self.assertEqual(got['licence'], 'CC BY 2.0')
+
+    def test_a_page_with_one_licence_is_as_before(self):
+        self.assertIsNone(self.chosen('engraver-bell-coleman'))
+        self.assertIsNone(cm.photo_licence(['Cc-by-sa-4.0'], '{{self|cc-by-sa-4.0}}'))
+
+    def test_names_a_cc_tag_as_a_licence(self):
+        self.assertEqual(cm.cc_name('Cc-by-sa-3.0-de'), 'CC BY-SA 3.0 de')
+        self.assertEqual(cm.cc_name('CC-BY-2.0'), 'CC BY 2.0')
+        self.assertEqual(cm.cc_name('Cc-by-sa-3.0,2.5,2.0,1.0'), 'CC BY-SA 3.0')
+        self.assertIsNone(cm.cc_name('PD-old-100'))
+
+
+class AuthorWarnings(unittest.TestCase):
+    """korg 3576 #2 and 3557 #4: what fetch writes that an author has to put right. Warnings, not refusals."""
+
+    def warned(self, name, who=None):
+        f = raw(name)
+        title = cm.clean_title(f['meta'].get('ObjectName')) or f['title'][5:]
+        who = cm.authors(f['meta'].get('Artist', '')) if who is None else who
+        return ' '.join(cm.author_warnings(f['title'], title, f['meta'], f['wikitext'], who))
+
+    def test_several_people_written_as_one_name(self):
+        self.assertIn('several', self.warned('merged-authors-pdb'))
+        self.assertIn('several', self.warned('journal-figure-microorganisms'))
+        self.assertNotIn('several', self.warned('art-photo-pellegrini'))
+
+    def test_a_journal_figure_titled_by_its_file_name(self):
+        said = self.warned('journal-figure-microorganisms')
+        self.assertIn("file's name", said)
+        self.assertIn('Fig. 1 at Biodiversity of Phages', said)
+        self.assertNotIn("file's name", self.warned('art-photo-pellegrini'))
+
+    def test_a_plate_from_a_book(self):
+        said = self.warned('bhl-cirripedia-plate')
+        self.assertIn('plate', said)
+        self.assertIn("book's author", said)
+        self.assertIn('Plate V', said)
+
+    def test_an_engraving_firm(self):
+        self.assertEqual(cm.authors('Cole, Swain Sons'), [{'name': 'Cole, Swain Sons'}])
+        self.assertIn('engravers', self.warned('engraver-bell-coleman'))
+        self.assertIn('engravers', ' '.join(cm.author_warnings('File:x.jpg', 'x', {}, '', [{'name': 'Day & Son'}])))
+
+    def test_a_catalog_heading(self):
+        self.assertIn('catalog heading', self.warned('loc-reims-catalog'))
+        self.assertIn('catalog heading', ' '.join(cm.author_warnings(
+            'File:x.jpg', 'x', {}, '', [{'name': 'Poland, Clifford H., photographer'}])))
+
+    def test_an_ordinary_photograph_is_not_warned_of(self):
+        self.assertEqual(cm.author_warnings('File:Vindija Cave 1.jpg', 'Vindija Cave 1', {}, '',
+                                            [{'family': 'Parg', 'given': 'Thilo'}]), [])
+
+
+class LibraryOfCongress(unittest.TestCase):
+    """korg 3557 #4: a Library of Congress file's container and LCCN, and its collection not taken as the author."""
+
+    def test_the_division_is_the_container_and_the_lccn_the_number(self):
+        f = raw('loc-piggly-wiggly')
+        said = []
+        found = cm.institution(f['title'], f['meta'], f['tags'], f['wikitext'], say=said.append)
+        self.assertEqual(found['container'], 'Library of Congress Prints and Photographs Division')
+        self.assertEqual(found['number'], 'LCCN 2004676518')
+        self.assertTrue(found['no_author'])
+        self.assertIn('Miscellaneous Items in High Demand', ' '.join(said))
+        self.assertIn('Cilfford H. Poland', ' '.join(said))     # the notes' "Photo by", typo and all
+
+    def test_a_named_author_is_kept_and_its_heading_warned_of(self):
+        f = raw('loc-reims-catalog')
+        found = cm.institution(f['title'], f['meta'], f['tags'], f['wikitext'])
+        self.assertEqual(found['number'], 'LCCN 2006681060')
+        self.assertNotIn('no_author', found)
+
+
+class Size(unittest.TestCase):
+    """korg 3557 #4: a 357,354-byte file was reported as "348 KB" and passed the 350 KB check."""
+
+    def test_a_kilobyte_is_a_thousand_bytes(self):
+        self.assertEqual(cm.kb(357_354), '357 KB')
+        self.assertTrue(cm.too_large(357_354))
+        self.assertFalse(cm.too_large(349_999))
+
+    def test_refuses_a_width_wider_than_the_original(self):
+        self.assertIn('960 pixels wide', cm.width_problem(1280, 960))
+        self.assertIsNone(cm.width_problem(960, 4970))
+        self.assertIsNone(cm.width_problem(None, 800))      # the default takes the original when smaller
+
+
+class Dpla(unittest.TestCase):
+    def test_a_span_in_brackets_is_not_a_unit(self):
+        # sprint 051: "(1836 - 1849)" was written as the author
+        found = cm.dpla({'Artist': 'Department of Commerce. Patent Office. (1836 - 1849)', 'Credit': ''}, lambda line: None)
+        self.assertEqual(found['authors'], [{'name': 'Patent Office'}])
+
+
+class FrameDir(unittest.TestCase):
+    def test_says_when_fetched_outside_a_frame(self):
+        self.assertIsNone(cm.outside_frame('subjects/food/frames/annona'))
+        self.assertIn('crop', cm.outside_frame('.scratch/051/empire2'))
+
+
 if __name__ == '__main__':
     unittest.main()

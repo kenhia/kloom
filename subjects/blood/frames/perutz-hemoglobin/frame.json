@@ -21,15 +21,16 @@
 	},
 	"citations": [
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
-			"title": "X-ray Analysis of Haemoglobin: Nobel Lecture, December 11, 1962",
+			"title": "X-ray Analysis of Haemoglobin",
 			"authors": [
 				{
 					"family": "Perutz",
 					"given": "Max F."
 				}
 			],
+			"occasion": "Nobel Lecture",
 			"container": "NobelPrize.org",
 			"publisher": "Nobel Prize Outreach",
 			"published": "1962-12-11",

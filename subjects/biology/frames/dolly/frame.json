@@ -295,10 +295,9 @@
 		},
 		{
 			"kind": "statute",
+			"citeAs": "year",
 			"title": "Human Reproductive Cloning Act 2001",
-			"code": {
-				"name": "c. 23"
-			},
+			"chapter": "23",
 			"published": "2001-12-04",
 			"container": "legislation.gov.uk",
 			"publisher": "The National Archives",

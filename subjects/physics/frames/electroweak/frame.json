@@ -21,7 +21,7 @@
 	},
 	"citations": [
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "Conceptual Foundations of the Unified Theory of Weak and Electromagnetic Interactions",
 			"url": "https://www.nobelprize.org/uploads/2018/06/weinberg-lecture.pdf",
@@ -32,13 +32,14 @@
 					"given": "Steven"
 				}
 			],
-			"container": "Nobel Lecture, NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Foundation",
 			"published": "1979-12-08",
 			"note": "The drive to MIT in 1967, and his first doubts about 't Hooft's proof"
 		},
 		{
-			"kind": "web",
+			"kind": "lecture",
 			"key": true,
 			"title": "Towards a Unified Theory: Threads in a Tapestry",
 			"url": "https://www.nobelprize.org/uploads/2018/06/glashow-lecture.pdf",
@@ -49,7 +50,8 @@
 					"given": "Sheldon Lee"
 				}
 			],
-			"container": "Nobel Lecture, NobelPrize.org",
+			"occasion": "Nobel Lecture",
+			"container": "NobelPrize.org",
 			"publisher": "Nobel Foundation",
 			"published": "1979-12-08",
 			"note": "Schwinger's faith, the 1960 model, and missing the boat"
