@@ -323,3 +323,25 @@ tools-test`, `just reader-gate`, every mark spec with `--check
 - **The 15-mark cap** was the binding limit on several history frames
   (blues, Petrucci, neumes); the brief could say which yields, a planned
   borrow or an owned name.
+
+## Deployed
+
+2026-11-10 (05:44 UTC), to the service on kai, by `just deploy`
+(`.sprint-deploy`'s `recipe: deploy`) from merged `main` at `1ddf71f4`
+(PR #69), after the overseer's clearance on korg 3549. The content clone is
+at the same commit.
+
+- **The deploy's own verify:** all ten checks `ok` (both doors, write
+  gating, reader-data and notes gating, a frame's body from the library,
+  compression), library `22a0d3`; it reports `deployed 1ddf71f47`.
+- **This sprint's work, live, each 200:** `/music`,
+  `/music/hohle-fels-flute` (its page carries BONE.), `/music/castrati` (a
+  trail frame), `/music/ai-music` and `/media/music/lyres-of-ur/queens-lyre.jpg`
+  on the ssh door (:4891), and `/music` on the tailnet door (:4890).
+- **`/api/stats`** counts music as _Sound and Score_, "a history of Western
+  music, from bone flutes to streaming": 67 frames, 17 of them in 3 trails,
+  62,301 words (227 pages, by the stats' own count, which includes tables
+  and captions), 75 images, 7 charts, 75 tables, 1,041 citations and 147
+  connections.
+- **The public reader site is unchanged**: music is not in `publish.json`,
+  at the overseer's ruling, until Ken decides.
