@@ -1,0 +1,11 @@
+{
+	"segments": [
+		{
+			"id": "argument",
+			"title": "The argument",
+			"labelKind": "category",
+			"palette": "hall",
+			"frames": ["the-fight", "inside-a-data-center"]
+		}
+	]
+}
