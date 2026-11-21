@@ -112,7 +112,24 @@ NO_RESTRICTIONS = re.compile(r'^no (known copyright )?restrictions$', re.I)
 def get(params):
     query = urllib.parse.urlencode({**params, 'format': 'json'})
     req = urllib.request.Request(f'{API}?{query}', headers={'User-Agent': AGENT})
-    return json.load(urllib.request.urlopen(req, timeout=30))
+    return checked(json.load(urllib.request.urlopen(req, timeout=30)))
+
+
+def checked(data):
+    """The API's answer, or its error said plainly (sprint 059: an error came back as a KeyError)."""
+    if 'error' in data:
+        e = data['error']
+        raise SystemExit(f"Commons refused the query: {e.get('code')}: {e.get('info', '')[:200]}")
+    return data
+
+
+IMAGE = re.compile(r'\.(jpe?g|png|webp|gif|svg)$', re.I)
+
+
+def image_titles(titles):
+    """Only image files, which is all `search` lists (sprint 059: a PDF among the results made Commons
+    refuse the whole info query, since it could not size a thumbnail of it)."""
+    return [t for t in titles if IMAGE.search(t)]
 
 
 def plain(value):
@@ -154,7 +171,7 @@ def licence_tags(templates):
 def search(text, limit=12):
     data = get({'action': 'query', 'list': 'search', 'srsearch': text, 'srnamespace': 6,
                 'srlimit': limit})
-    titles = [r['title'] for r in data['query']['search']]
+    titles = image_titles([r['title'] for r in data['query']['search']])
     for title, i in info(titles) if titles else []:
         if not i or i['mime'] not in MIME:
             continue
