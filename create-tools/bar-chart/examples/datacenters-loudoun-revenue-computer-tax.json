@@ -1,0 +1,37 @@
+{
+	"title": "Loudoun County's tax on computer equipment, fiscal years 2014–2025",
+	"description": "Bar chart of the business personal property tax Loudoun County collected on computer equipment, actual, in millions of dollars, from its adopted budgets: 68.9 in fiscal 2014, 84.7 in 2015, 117.2 in 2016, 150.5 in 2017, 195.2 in 2018, 255.1 in 2019, 319.9 in 2020, 388.9 in 2021, 476.1 in 2022, 597.9 in 2023, 698.7 in 2024 and 711.3 in 2025. From 2021 the budgets show data centers' equipment on a line of its own, 97 to 98% of the total.",
+	"heading": "COMPUTER EQUIPMENT TAX COLLECTED, $ MILLION, BY FISCAL YEAR",
+	"unit": "",
+	"width": 560,
+	"axis": {
+		"min": 0,
+		"max": 800,
+		"ticks": [
+			[0, "0"],
+			[200, "200"],
+			[400, "400"],
+			[600, "600"],
+			[800, "800"]
+		]
+	},
+	"bars": [
+		{ "label": "2014", "value": 68.9 },
+		{ "label": "2015", "value": 84.7 },
+		{ "label": "2016", "value": 117.2 },
+		{ "label": "2017", "value": 150.5 },
+		{ "label": "2018", "value": 195.2 },
+		{ "label": "2019", "value": 255.1 },
+		{ "label": "2020", "value": 319.9 },
+		{ "label": "2021", "value": 388.9 },
+		{ "label": "2022", "value": 476.1 },
+		{ "label": "2023", "value": 597.9 },
+		{ "label": "2024", "value": 698.7 },
+		{ "label": "2025", "value": 711.3, "highlight": true }
+	],
+	"source": {
+		"container": "Loudoun County adopted budgets, FY 2018, FY 2021, FY 2024 and FY 2027, General Fund revenue tables (actuals)",
+		"url": "https://www.loudoun.gov/budget"
+	},
+	"barWidth": 32
+}

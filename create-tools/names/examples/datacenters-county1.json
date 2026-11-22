@@ -1,0 +1,27 @@
+{
+	"datacenters/aol-dulles": [
+		["Loudoun County", "loudoun-county-virginia"],
+		["Virginia", "virginia"],
+		["Ashburn", "ashburn-virginia"],
+		["AOL", "aol"],
+		["MAE-East", "mae-east"],
+		["UUNET", "uunet"],
+		["Dulles International Airport", "dulles-international-airport"],
+		["Dominion Energy", "dominion-energy"],
+		["Equinix", "equinix"]
+	],
+	"datacenters/data-center-alley": [
+		["Loudoun County", "loudoun-county-virginia"],
+		["Ashburn", "ashburn-virginia"],
+		["Dulles Technology Corridor", "dulles-technology-corridor"],
+		["Great Recession", "great-recession"],
+		["Cushman & Wakefield", "cushman-and-wakefield"]
+	],
+	"datacenters/loudoun-revenue": [
+		["Loudoun County", "loudoun-county-virginia"],
+		["Virginia", "virginia"],
+		["Loudoun County Public Schools", "loudoun-county-public-schools"],
+		["Piedmont Environmental Council", "piedmont-environmental-council"],
+		["Virginia General Assembly", "virginia-general-assembly"]
+	]
+}

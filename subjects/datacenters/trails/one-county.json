@@ -1,0 +1,16 @@
+{
+	"id": "one-county",
+	"title": "One county",
+	"anchor": "zoning",
+	"spine": {
+		"segments": [
+			{
+				"id": "loudoun-seg",
+				"title": "Loudoun County",
+				"labelKind": "date",
+				"palette": "chamber",
+				"frames": ["aol-dulles", "data-center-alley", "loudoun-revenue"]
+			}
+		]
+	}
+}
