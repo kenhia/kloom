@@ -41,7 +41,14 @@
 			"title": "Power and the grid",
 			"labelKind": "category",
 			"palette": "current",
-			"frames": ["power-demand", "who-pays-grid", "gas-plants", "nuclear-deals"]
+			"frames": [
+				"power-demand",
+				"who-pays-grid",
+				"gas-plants",
+				"nuclear-deals",
+				"carbon-accounting",
+				"flexible-load"
+			]
 		},
 		{
 			"id": "water",
