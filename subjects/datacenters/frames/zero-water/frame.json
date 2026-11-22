@@ -1,0 +1,212 @@
+{
+	"id": "zero-water",
+	"topic": "Zero-water cooling",
+	"asOf": "2026-11-22",
+	"position": { "label": "Zero water" },
+	"scene": {
+		"headline": "The loop stays",
+		"accent": "CLOSED.",
+		"palette": "tower",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MICROSOFT · PHOENIX · MOUNT PLEASANT",
+			"COLD PLATES · DRY COOLERS · RECLAIMED WATER"
+		],
+		"counter": {
+			"value": "125,000,000",
+			"label": "liters a year saved per site, Microsoft's estimate"
+		}
+	},
+	"connections": [
+		{
+			"to": "datacenters/inside-a-data-center",
+			"why": "That frame's cooling chain ends in the choice this one follows: a cooling tower that evaporates water, or a dry cooler or air-cooled chiller that uses almost none on site but more electricity."
+		},
+		{
+			"to": "chemistry/where-chemistry-is",
+			"why": "Most two-phase immersion coolants are PFAS, the persistent fluorinated chemicals whose bonds and new limits that frame explains."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Sustainable by Design: Next-Generation Datacenters Consume Zero Water for Cooling",
+			"authors": [{ "family": "Solomon", "given": "Steve" }],
+			"container": "Microsoft Cloud Blog",
+			"publisher": "Microsoft",
+			"published": "2024-12-09",
+			"url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/12/09/sustainable-by-design-next-generation-datacenters-consume-zero-water-for-cooling/",
+			"accessed": "2026-11-22",
+			"note": "The design, its pilots, the 125 million liters and the PUE it raises: the company's own account"
+		},
+		{
+			"kind": "web",
+			"title": "Inside the World's Most Powerful AI Datacenter",
+			"authors": [{ "family": "Guthrie", "given": "Scott" }],
+			"container": "The Official Microsoft Blog",
+			"publisher": "Microsoft",
+			"published": "2025-09-18",
+			"url": "https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "Microsoft Datacenters in Wisconsin",
+			"authors": [{ "name": "Microsoft" }],
+			"publisher": "Microsoft",
+			"published": "2025-10",
+			"url": "https://local.microsoft.com/wp-content/uploads/2025/10/Microsoft-datacenters-in-Wisconsin.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Inside Microsoft's Two-Decade Push to Cut Water Intensity while Scaling for Growth",
+			"authors": [
+				{ "family": "Priest", "given": "Judy" },
+				{ "family": "Solomon", "given": "Steve" }
+			],
+			"container": "The Official Microsoft Blog",
+			"publisher": "Microsoft",
+			"published": "2026-06-24",
+			"url": "https://blogs.microsoft.com/blog/2026/06/24/inside-microsofts-two-decade-push-to-cut-water-intensity-while-scaling-for-growth/",
+			"accessed": "2026-11-22",
+			"note": "The fleet's WUE for 2025, its share of low- and zero-water cooling, and its replenishment"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Using Life Cycle Assessment to Drive Innovation for Sustainable Cool Clouds",
+			"authors": [
+				{ "family": "Alissa", "given": "Husam A." },
+				{ "family": "Nick", "given": "Teresa A." },
+				{ "family": "Raniwala", "given": "Ashish" },
+				{ "family": "Arribas Herranz", "given": "Alberto" },
+				{ "family": "Frost", "given": "Kali" },
+				{ "family": "Manousakis", "given": "Ioannis" },
+				{ "family": "Lio", "given": "Kari" }
+			],
+			"etAl": true,
+			"container": "Nature",
+			"volume": "641",
+			"pages": "331–338",
+			"published": "2025-05-08",
+			"doi": "10.1038/s41586-025-08832-3",
+			"accessed": "2026-11-22",
+			"note": "Savings against air cooling, and the fluids, pp. 335–36"
+		},
+		{
+			"kind": "web",
+			"title": "Water",
+			"container": "Meta Data Centers",
+			"publisher": "Meta",
+			"url": "https://datacenters.atmeta.com/water/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Environmental Report 2026",
+			"authors": [{ "name": "Google" }],
+			"publisher": "Google",
+			"published": "2026",
+			"url": "https://sustainability.google/files/google-2026-environmental-report.pdf",
+			"accessed": "2026-11-22",
+			"note": "Replenishment and its method, p. 78; Douglas County's reclaimed water, p. 97"
+		},
+		{
+			"kind": "web",
+			"title": "Douglas County, Georgia",
+			"container": "Google Data Centers",
+			"publisher": "Google",
+			"url": "https://datacenters.google/locations/douglas-county-georgia/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Water",
+			"container": "Amazon Sustainability",
+			"publisher": "Amazon",
+			"url": "https://sustainability.aboutamazon.com/natural-resources/water",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "article",
+			"title": "Small Bottle, Big Pipe: Quantifying and Addressing the Impact of Data Centers on Public Water Systems",
+			"authors": [
+				{ "family": "Han", "given": "Yuelin" },
+				{ "family": "Li", "given": "Pengfei" },
+				{ "family": "Wierman", "given": "Adam" },
+				{ "family": "Ren", "given": "Shaolei" }
+			],
+			"container": "arXiv preprint arXiv:2603.02705",
+			"published": "2026-03-03",
+			"url": "https://arxiv.org/abs/2603.02705",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "Thirsty Data and the Lone Star State: The Impact of Data Center Growth on Texas' Water Supply",
+			"authors": [{ "family": "Cook", "given": "Margaret" }],
+			"publisher": "Houston Advanced Research Center",
+			"published": "2026-01",
+			"url": "https://harcresearch.org/wp-content/uploads/2026/01/Thirsty-Data-Water-Use-and-The-Projected-Data-Center-Boom-in-Texas.pdf",
+			"accessed": "2026-11-22",
+			"note": "Air-cooled against water-cooled chillers' PUE, notes 27–28"
+		},
+		{
+			"kind": "report",
+			"title": "2024 United States Data Center Energy Usage Report",
+			"authors": [
+				{ "family": "Shehabi", "given": "Arman" },
+				{ "family": "Smith", "given": "Sarah J." },
+				{ "family": "Hubbard", "given": "Alex" },
+				{ "family": "Newkirk", "given": "Alex" },
+				{ "family": "Lei", "given": "Nuoa" },
+				{ "family": "Siddik", "given": "Md Abu Bakar" },
+				{ "family": "Holecek", "given": "Billie" }
+			],
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"number": "LBNL-2001637",
+			"published": "2024-12",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+			"accessed": "2026-11-22",
+			"note": "Indirect water, 4.52 L/kWh, section 5"
+		},
+		{
+			"kind": "web",
+			"title": "3M to Exit PFAS Manufacturing by the End of 2025",
+			"container": "3M News Center",
+			"publisher": "3M",
+			"place": "St. Paul, MN",
+			"published": "2022-12-20",
+			"url": "https://news.3m.com/2022-12-20-3M-to-Exit-PFAS-Manufacturing-by-the-End-of-2025",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Immersion cooling",
+			"url": "https://en.wikipedia.org/w/index.php?title=Immersion_cooling&oldid=1386175475",
+			"accessed": "2026-11-22",
+			"authors": [{ "name": "Wikipedia contributors" }],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-17"
+		},
+		{
+			"kind": "media",
+			"title": "Condensatori e prodotti LU-VE",
+			"url": "https://commons.wikimedia.org/wiki/File:Dry_cooler_LU-VE.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC BY-SA 4.0",
+			"file": "dry-cooler.jpg",
+			"authors": [{ "name": "Nico aspe 22" }],
+			"container": "Wikimedia Commons",
+			"published": "2023-11-27",
+			"language": "it"
+		}
+	]
+}

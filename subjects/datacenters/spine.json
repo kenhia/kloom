@@ -55,7 +55,13 @@
 			"title": "Water",
 			"labelKind": "category",
 			"palette": "tower",
-			"frames": ["where-water-goes", "water-totals"]
+			"frames": [
+				"where-water-goes",
+				"water-totals",
+				"dry-places",
+				"small-water-systems",
+				"zero-water"
+			]
 		},
 		{
 			"id": "deciding",

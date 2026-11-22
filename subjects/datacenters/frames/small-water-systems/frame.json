@@ -1,0 +1,207 @@
+{
+	"id": "small-water-systems",
+	"topic": "Small water systems, big campuses",
+	"position": {
+		"label": "Small systems"
+	},
+	"scene": {
+		"headline": "A campus joins the town's",
+		"accent": "WATERWORKS.",
+		"palette": "tower",
+		"illustration": "scene.svg",
+		"metadata": [
+			"THE DALLES, OREGON · NEWTON COUNTY, GEORGIA",
+			"PEAK-DAY CAPACITY · WATER AGREEMENTS"
+		],
+		"counter": {
+			"value": "29%",
+			"label": "of The Dalles's water taken by Google, 2021"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "We Now Know How Much Water Google's Oregon Data Centers Use, after City Drops Lawsuit against Journalists",
+			"authors": [
+				{
+					"family": "Moss",
+					"given": "Sebastian"
+				}
+			],
+			"container": "DatacenterDynamics",
+			"published": "2022-12-19",
+			"url": "https://www.datacenterdynamics.com/en/news/we-now-know-how-much-water-googles-oregon-data-centers-use-after-city-drops-lawsuit-against-journalists/",
+			"accessed": "2026-11-22",
+			"note": "The city's records for 2012–2021, as The Oregonian reported them"
+		},
+		{
+			"kind": "web",
+			"title": "Oregon's City of The Dalles Agrees to Reveal Google's Local Water Usage",
+			"authors": [
+				{
+					"family": "Young",
+					"given": "Chris"
+				}
+			],
+			"container": "Reporters Committee for Freedom of the Press",
+			"published": "2022-12-15",
+			"url": "https://www.rcfp.org/dalles-google-oregonian-settlement/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "As Google's Water Demands Grow, The Dalles Aims to Pull More from Mount Hood Forest",
+			"authors": [
+				{
+					"family": "Ehrlich",
+					"given": "April"
+				}
+			],
+			"container": "Oregon Public Broadcasting",
+			"published": "2026-01-15",
+			"url": "https://www.opb.org/article/2026/01/15/as-googles-water-demands-grow-the-dalles-aims-to-pull-more-from-mount-hood-forest/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "Environmental Report 2026",
+			"authors": [
+				{
+					"name": "Google"
+				}
+			],
+			"publisher": "Google",
+			"published": "2026",
+			"url": "https://sustainability.google/files/google-2026-environmental-report.pdf",
+			"accessed": "2026-11-22",
+			"note": "The Dalles, pp. 35–36, and water use by location, p. 97: the company's own account"
+		},
+		{
+			"kind": "report",
+			"title": "2025 Environmental Report",
+			"authors": [
+				{
+					"name": "Google"
+				}
+			],
+			"publisher": "Google",
+			"published": "2025",
+			"url": "https://www.gstatic.com/gumdrop/sustainability/google-2025-environmental-report.pdf",
+			"accessed": "2026-11-22",
+			"note": "The Dalles's water, 2024: the company's own figure"
+		},
+		{
+			"kind": "report",
+			"title": "2024 Environmental Report",
+			"authors": [
+				{
+					"name": "Google"
+				}
+			],
+			"publisher": "Google",
+			"published": "2024",
+			"url": "https://www.gstatic.com/gumdrop/sustainability/google-2024-environmental-report.pdf",
+			"accessed": "2026-11-22",
+			"note": "The Dalles's water, 2023: the company's own figure"
+		},
+		{
+			"kind": "report",
+			"title": "2023 Environmental Report",
+			"authors": [
+				{
+					"name": "Google"
+				}
+			],
+			"publisher": "Google",
+			"published": "2023",
+			"url": "https://www.gstatic.com/gumdrop/sustainability/google-2023-environmental-report.pdf",
+			"accessed": "2026-11-22",
+			"note": "The Dalles's water, 2022: the company's own figure"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Their Water Taps Ran Dry When Meta Built Next Door",
+			"authors": [
+				{
+					"family": "Tan",
+					"given": "Eli"
+				}
+			],
+			"container": "The New York Times",
+			"published": "2025-07-14",
+			"url": "https://www.nytimes.com/2025/07/14/technology/meta-data-center-water.html",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Meta Stanton Springs Data Center",
+			"authors": [
+				{
+					"name": "Meta"
+				}
+			],
+			"container": "Meta Data Centers",
+			"publisher": "Meta",
+			"url": "https://datacenters.atmeta.com/asset/stanton-springs-data-center-info-sheet/",
+			"accessed": "2026-11-22",
+			"note": "The company's information sheet"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Small Bottle, Big Pipe: Quantifying and Addressing the Impact of Data Centers on Public Water Systems",
+			"authors": [
+				{
+					"family": "Han",
+					"given": "Yuelin"
+				},
+				{
+					"family": "Li",
+					"given": "Pengfei"
+				},
+				{
+					"family": "Wierman",
+					"given": "Adam"
+				},
+				{
+					"family": "Ren",
+					"given": "Shaolei"
+				}
+			],
+			"container": "arXiv preprint arXiv:2603.02705",
+			"published": "2026-03-03",
+			"url": "https://arxiv.org/abs/2603.02705",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Reclaimed Water Program",
+			"authors": [
+				{
+					"name": "Loudoun Water"
+				}
+			],
+			"publisher": "Loudoun Water",
+			"url": "https://www.loudounwater.org/commercial-customers/reclaimed-water-program",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "media",
+			"title": "Google's water use at The Dalles, Oregon, 2012–2025",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "City of The Dalles records, via The Oregonian/OregonLive and DatacenterDynamics (2012–2021); Google, Environmental Reports 2023–2026 (2022–2025)",
+			"url": "https://www.datacenterdynamics.com/en/news/we-now-know-how-much-water-googles-oregon-data-centers-use-after-city-drops-lawsuit-against-journalists/",
+			"accessed": "2026-11-22",
+			"licence": "MIT",
+			"file": "dalles.svg"
+		}
+	]
+}
