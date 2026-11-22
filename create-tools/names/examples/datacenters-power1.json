@@ -1,0 +1,26 @@
+{
+	"datacenters/power-demand": [
+		["Lawrence Berkeley National Laboratory", "lawrence-berkeley-national-laboratory"],
+		["International Energy Agency", "international-energy-agency"],
+		["Electric Power Research Institute", "electric-power-research-institute"],
+		["PJM Interconnection", "pjm-interconnection"],
+		["_Forbes_", "forbes"],
+		["Jonathan Koomey", "jonathan-koomey"],
+		["Western Fuels Association", "western-fuels-association"],
+		["Ohio", "ohio"],
+		["American Electric Power", "american-electric-power"],
+		["Virginia", "virginia"]
+	],
+	"datacenters/who-pays-grid": [
+		["PJM Interconnection", "pjm-interconnection"],
+		["FERC", "federal-energy-regulatory-commission"],
+		["Harvard Law School", "harvard-law-school"],
+		["Virginia", "virginia"],
+		["State Corporation Commission", "state-corporation-commission-virginia"],
+		["Dominion Energy", "dominion-energy"],
+		["Lawrence Berkeley National Laboratory", "lawrence-berkeley-national-laboratory"],
+		["Ohio", "ohio"],
+		["Public Utilities Commission of Ohio", "public-utilities-commission-of-ohio"],
+		["American Electric Power", "american-electric-power"]
+	]
+}

@@ -1,0 +1,310 @@
+{
+	"id": "who-pays-grid",
+	"topic": "Who pays for the grid",
+	"position": {
+		"label": "Ratepayers"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Every new line sends a",
+		"accent": "BILL.",
+		"palette": "current",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PJM · DOMINION · AEP OHIO",
+			"RATE CASES · CAPACITY AUCTIONS · LARGE-LOAD TARIFFS"
+		],
+		"counter": {
+			"value": "$16.4 billion",
+			"label": "PJM's capacity auction for 2028/29"
+		}
+	},
+	"connections": [
+		{
+			"to": "datacenters/the-fight",
+			"why": "Utility bills were the cost opponents named most in Gallup's 2026 poll and the reason for opposing most chosen in Heatmap's; this frame follows how those bills are set."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"title": "2028/2029 RPM Base Residual Auction Report",
+			"authors": [
+				{
+					"name": "PJM Interconnection"
+				}
+			],
+			"publisher": "PJM Interconnection",
+			"published": "2026-07-14",
+			"url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2028-2029/2028-2029-bra-results-report.pdf",
+			"accessed": "2026-11-22",
+			"key": true,
+			"place": "Valley Forge, PA",
+			"note": "Clearing prices and totals by delivery year, table 2; the simulation without the cap"
+		},
+		{
+			"kind": "web",
+			"title": "PJM Capacity Auction Procures 138,318 MW of Generation Resources as Work Continues To Address Growing Electricity Demand",
+			"container": "News release",
+			"publisher": "PJM Interconnection",
+			"published": "2026-07-14",
+			"url": "https://www.pjm.com/-/media/DotCom/about-pjm/newsroom/2026-releases/20260714-pjm-capacity-auction-procures-138318-mw-of-generation-resources.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Data Centers 'Primary Reason' for High PJM Capacity Prices: Market Monitor",
+			"authors": [
+				{
+					"family": "Howland",
+					"given": "Ethan"
+				}
+			],
+			"container": "Utility Dive",
+			"publisher": "Industry Dive",
+			"published": "2025-10-02",
+			"url": "https://www.utilitydive.com/news/data-centers-pjm-capacity-auction-market-monitor/801780/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Data Centers Drove $6.3B in PJM Capacity Auction Costs: Market Monitor",
+			"authors": [
+				{
+					"family": "Howland",
+					"given": "Ethan"
+				}
+			],
+			"container": "Utility Dive",
+			"publisher": "Industry Dive",
+			"published": "2026-07-20",
+			"url": "https://www.utilitydive.com/news/pjm-data-centers-capacity-auction-imm-bowring/825626/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "FERC Chair Slams PJM 'Mess' as Country's Largest Grid Operator Delays Power Auction",
+			"authors": [
+				{
+					"family": "Howland",
+					"given": "Ethan"
+				}
+			],
+			"container": "Utility Dive",
+			"publisher": "Industry Dive",
+			"published": "2026-09-30",
+			"url": "https://utilitydive.com/news/pjm-delays-backstop-procurement-ferc-data-center/831751/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "PJM's Revised Data Center Backstop Procurement Plan Reduces Utility Risks: ICF",
+			"container": "Utility Dive",
+			"publisher": "Industry Dive",
+			"published": "2026-11-03",
+			"url": "https://www.utilitydive.com/news/pjm-revised-data-center-backstop-procurement-ferc/873551/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "Extracting Profits from the Public: How Utility Ratepayers Are Paying for Big Tech's Power",
+			"authors": [
+				{
+					"family": "Martin",
+					"given": "Eliza"
+				},
+				{
+					"family": "Peskoe",
+					"given": "Ari"
+				}
+			],
+			"publisher": "Harvard Law School Environmental and Energy Law Program",
+			"published": "2025-03",
+			"url": "https://eelp.law.harvard.edu/wp-content/uploads/2025/03/Harvard-ELI-Extracting-Profits-from-the-Public.pdf",
+			"accessed": "2026-11-22",
+			"key": true,
+			"place": "Cambridge, MA",
+			"note": "Cost causation, pp. 6–7; the review of nearly 50 proceedings, p. 2"
+		},
+		{
+			"kind": "report",
+			"title": "Final Order, Application of Virginia Electric and Power Company for a 2025 Biennial Review",
+			"authors": [
+				{
+					"name": "Virginia State Corporation Commission"
+				}
+			],
+			"publisher": "Virginia State Corporation Commission",
+			"published": "2025-11-25",
+			"url": "https://npr.brightspotcdn.com/b6/ac/706130b64d2b8eee6a9832b97e48/20251125-virginiascc-dominionenergyruling.pdf",
+			"accessed": "2026-11-22",
+			"key": true,
+			"place": "Richmond, VA",
+			"number": "Case No. PUR-2025-00058",
+			"note": "Public comments, p. 3; class returns, pp. 16–17; Rate Schedule GS-5, pp. 23–25. Read in the copy NPR posted, since the commission's docket refuses a script"
+		},
+		{
+			"kind": "report",
+			"title": "Data Centers in Virginia 2024",
+			"authors": [
+				{
+					"name": "Joint Legislative Audit and Review Commission"
+				}
+			],
+			"publisher": "Joint Legislative Audit and Review Commission",
+			"published": "2024-12-09",
+			"url": "https://jlarc.virginia.gov/pdfs/reports/Rpt598.pdf",
+			"accessed": "2026-11-22",
+			"key": true,
+			"place": "Richmond, VA",
+			"number": "Report 598",
+			"note": "Cost of service and residential costs, chapter 4"
+		},
+		{
+			"kind": "report",
+			"title": "Retail Electricity Price Trends and Drivers: Data Update, 2026 Edition",
+			"authors": [
+				{
+					"family": "Wiser",
+					"given": "Ryan"
+				},
+				{
+					"family": "Barbose",
+					"given": "Galen"
+				},
+				{
+					"family": "Gorman",
+					"given": "Will"
+				},
+				{
+					"family": "O'Shaughnessy",
+					"given": "Eric"
+				},
+				{
+					"family": "Forrester",
+					"given": "Sydney"
+				},
+				{
+					"family": "Donohoo-Vallett",
+					"given": "Paul"
+				},
+				{
+					"family": "Cappers",
+					"given": "Peter"
+				}
+			],
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"published": "2026-07",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2026-07/retail_price_trends_2026_edition_julyupdate.pdf",
+			"accessed": "2026-11-22",
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"note": "With the Brattle Group, for the Department of Energy; the load-growth deep dive, slides 47–54"
+		},
+		{
+			"kind": "report",
+			"title": "Understanding the Drivers of Rising Electricity Rates and the Role of Data Centers",
+			"authors": [
+				{
+					"name": "Energy and Environmental Economics (E3)"
+				}
+			],
+			"publisher": "Energy and Environmental Economics",
+			"published": "2026-05",
+			"url": "https://www.ethree.com/wp-content/uploads/2026/05/Understanding-the-Drivers-of-Rising-Electricity-Rates-and-the-Role-of-Data-Centers_E3-2026.pdf",
+			"accessed": "2026-11-22",
+			"key": true,
+			"place": "San Francisco",
+			"note": "Funded by the Data Center Coalition, which reviewed it before publication"
+		},
+		{
+			"kind": "web",
+			"title": "PUCO Orders AEP Ohio to Create Data Center Specific Tariff",
+			"container": "News release",
+			"publisher": "Public Utilities Commission of Ohio",
+			"published": "2025-07-09",
+			"url": "https://content.govdelivery.com/accounts/OHPUC/bulletins/3e8bb79",
+			"accessed": "2026-11-22",
+			"note": "Case 24-508-EL-ATA"
+		},
+		{
+			"kind": "web",
+			"title": "Data Center Tariff",
+			"container": "AEP Ohio",
+			"publisher": "American Electric Power",
+			"published": "2026",
+			"url": "https://www.aepohio.com/company/about/rates/data-center-tariff",
+			"accessed": "2026-11-22",
+			"note": "The terms of Schedule DCT"
+		},
+		{
+			"kind": "web",
+			"title": "Quick Facts: Data Centers in Ohio",
+			"container": "Office of the Ohio Consumers' Counsel",
+			"publisher": "Office of the Ohio Consumers' Counsel",
+			"published": "2026-03",
+			"url": "https://occ.ohio.gov/sites/default/files/2026-03/OCC-Data-Centers-in-Ohio.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Manufacturers Say AEP Ohio Still Inflating Data Center Demand after Halving Forecast",
+			"authors": [
+				{
+					"family": "Howland",
+					"given": "Ethan"
+				}
+			],
+			"container": "Utility Dive",
+			"publisher": "Industry Dive",
+			"published": "2026-02-06",
+			"url": "https://www.utilitydive.com/news/aep-ohio-data-center-load-tariff-oma-manufacturers/811583/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Americans Oppose AI Data Centers in Their Area",
+			"authors": [
+				{
+					"family": "Jones",
+					"given": "Jeffrey M."
+				}
+			],
+			"container": "Gallup News",
+			"publisher": "Gallup",
+			"published": "2026-05-13",
+			"url": "https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx",
+			"accessed": "2026-11-22",
+			"note": "Opponents' reasons, open answers of April 1–15, 2026"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "PJM Interconnection",
+			"url": "https://en.wikipedia.org/w/index.php?title=PJM_Interconnection&oldid=1362437056",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-03"
+		},
+		{
+			"kind": "media",
+			"title": "PJM capacity auction clearing prices, delivery years 2024/25 to 2028/29",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "PJM, 2028/2029 RPM Base Residual Auction Report, table 2",
+			"url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2028-2029/2028-2029-bra-results-report.pdf",
+			"accessed": "2026-11-22",
+			"licence": "MIT",
+			"file": "capacity-price.svg"
+		}
+	]
+}

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M14 150 L122 150"/>
+		<path pathLength="1" d="M150 40 L150 262"/>
+		<path pathLength="1" d="M200 30 L200 272"/>
+		<path pathLength="1" d="M318 30 L318 272"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M13 150 L22 92 L31 150"/>
+		<path pathLength="1" d="M10 104 L34 104"/>
+		<path pathLength="1" d="M14 116 L30 116"/>
+		<path pathLength="1" d="M53 150 L62 92 L71 150"/>
+		<path pathLength="1" d="M50 104 L74 104"/>
+		<path pathLength="1" d="M54 116 L70 116"/>
+		<path pathLength="1" d="M22 104 Q42 112 62 104"/>
+		<path pathLength="1" d="M84 126 L118 126 L118 150 L84 150 Z"/>
+		<path pathLength="1" d="M150 110 L200 110 L200 190 L150 190 Z"/>
+		<path pathLength="1" d="M200 110.0 C259 110.0 259 44.0 318 44.0"/>
+		<path pathLength="1" d="M200 140.4 C259 140.4 259 74.4 318 74.4"/>
+		<path pathLength="1" d="M318 44 L328 44 L328 74.4 L318 74.4"/>
+		<path pathLength="1" d="M200 140.4 C259 140.4 259 104.0 318 104.0"/>
+		<path pathLength="1" d="M200 158.0 C259 158.0 259 121.6 318 121.6"/>
+		<path pathLength="1" d="M318 104 L328 104 L328 121.6 L318 121.6"/>
+		<path pathLength="1" d="M200 158.0 C259 158.0 259 164.0 318 164.0"/>
+		<path pathLength="1" d="M200 169.2 C259 169.2 259 175.2 318 175.2"/>
+		<path pathLength="1" d="M318 164 L328 164 L328 175.2 L318 175.2"/>
+		<path pathLength="1" d="M200 169.2 C259 169.2 259 214.0 318 214.0"/>
+		<path pathLength="1" d="M200 190.0 C259 190.0 259 234.8 318 234.8"/>
+		<path pathLength="1" d="M318 214 L328 214 L328 234.8 L318 234.8"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M118 138 L146 138"/>
+		<path pathLength="1" d="M143.5 140.2 L148 138 L143.5 135.8"/>
+		<path pathLength="1" d="M92.5 128 L92.5 148"/>
+		<path pathLength="1" d="M101 128 L101 148"/>
+		<path pathLength="1" d="M109.5 128 L109.5 148"/>
+		<path pathLength="1" d="M296 217.1 L299 217.1 M301 217.1 L304 217.1 M306 217.1 L309 217.1 M311 217.1 L314 217.1 M316 217.1 L319 217.1 M321 217.1 L324 217.1 M326 217.1 L328 217.1"/>
+		<path pathLength="1" d="M324.6 217.1 L328 220.5 M318.9 217.1 L328 226.2 M313.3 217.1 L328 231.8 M307.6 217.1 L325.3 234.8 M302 217.1 L319.7 234.8 M300 220.8 L314 234.8 M300 226.5 L308.3 234.8 M300 232.1 L302.7 234.8"/>
+	</g>
+	<g>
+		<text x="66" y="174" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NEW LINE AND</text>
+		<text x="66" y="183" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SUBSTATION</text>
+		<text x="175" y="148" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RATE</text>
+		<text x="175" y="157" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CASE</text>
+		<text x="175" y="206" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">REVENUE</text>
+		<text x="175" y="215" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">REQUIREMENT</text>
+		<text x="332" y="62.2" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RESIDENTIAL</text>
+		<text x="332" y="115.8" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COMMERCIAL</text>
+		<text x="332" y="172.6" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">INDUSTRIAL</text>
+		<text x="332" y="227.4" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LARGE LOAD</text>
+		<text x="332" y="246.8" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MINIMUM: 85%</text>
+		<text x="200" y="292" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SCHEMATIC: BAND WIDTHS ILLUSTRATIVE</text>
+	</g>
+</svg>
