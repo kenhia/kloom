@@ -1,0 +1,317 @@
+{
+	"id": "bubble",
+	"topic": "Is it a bubble?",
+	"position": {
+		"label": "2026"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "The money went in",
+		"accent": "FIRST.",
+		"palette": "horizon",
+		"illustration": "scene.svg",
+		"metadata": ["AMAZON · ALPHABET · META · MICROSOFT", "CAPITAL SPENDING · CLOUD REVENUE · DEBT"],
+		"counter": {
+			"value": "~$700 billion",
+			"label": "four companies' capital plans for 2026"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/cloud",
+			"why": "Cloud computing follows the market for rented computing to $500 billion a year by mid-2026, growing 43%, the revenue this frame weighs against the cloud companies' capital spending."
+		},
+		{
+			"to": "datacenters/the-fight",
+			"why": "The fight over data centers opens on an April 2026 tally of about $725 billion in planned capital spending; this frame follows those plans through the companies' filings to the autumn."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "AI's $600B Question",
+			"authors": [
+				{
+					"family": "Cahn",
+					"given": "David"
+				}
+			],
+			"container": "Sequoia Capital Perspectives",
+			"publisher": "Sequoia Capital",
+			"published": "2024-06-20",
+			"url": "https://www.sequoiacap.com/article/ais-600b-question/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Alphabet Announces Third Quarter 2026 Results",
+			"authors": [
+				{
+					"name": "Alphabet"
+				}
+			],
+			"container": "Alphabet Investor Relations",
+			"publisher": "Alphabet",
+			"published": "2026-10-28",
+			"url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",
+			"accessed": "2026-11-22",
+			"key": true,
+			"note": "Free cash flow; Google Cloud's growth; and, with the releases for each quarter from the first of 2022, the plate's figures"
+		},
+		{
+			"kind": "web",
+			"title": "Alphabet Announces Fourth Quarter and Fiscal Year 2025 Results",
+			"authors": [
+				{
+					"name": "Alphabet"
+				}
+			],
+			"container": "Alphabet Investor Relations",
+			"publisher": "Alphabet",
+			"published": "2026-02-04",
+			"url": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf",
+			"accessed": "2026-11-22",
+			"note": "Purchases of property and equipment, 2024 and 2025; the 2026 plan"
+		},
+		{
+			"kind": "web",
+			"title": "Alphabet Announces Fourth Quarter and Fiscal Year 2023 Results",
+			"authors": [
+				{
+					"name": "Alphabet"
+				}
+			],
+			"container": "Alphabet Investor Relations",
+			"publisher": "Alphabet",
+			"published": "2024-01-30",
+			"url": "https://s206.q4cdn.com/479360582/files/doc_financials/2023/q4/2023q4-alphabet-earnings-release.pdf",
+			"accessed": "2026-11-22",
+			"note": "Purchases of property and equipment, 2023"
+		},
+		{
+			"kind": "web",
+			"title": "Amazon.com Announces Third Quarter Results",
+			"authors": [
+				{
+					"name": "Amazon"
+				}
+			],
+			"container": "Amazon Investor Relations",
+			"publisher": "Amazon",
+			"published": "2026-10-29",
+			"url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+			"accessed": "2026-11-22",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"title": "Amazon.com Announces Fourth Quarter Results",
+			"authors": [
+				{
+					"name": "Amazon"
+				}
+			],
+			"container": "Amazon Investor Relations",
+			"publisher": "Amazon",
+			"published": "2026-02-05",
+			"url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx",
+			"accessed": "2026-11-22",
+			"note": "Purchases of property and equipment, 2024 and 2025"
+		},
+		{
+			"kind": "web",
+			"title": "Amazon.com Announces Fourth Quarter Results",
+			"authors": [
+				{
+					"name": "Amazon"
+				}
+			],
+			"container": "Amazon Investor Relations",
+			"publisher": "Amazon",
+			"published": "2024-02-01",
+			"url": "https://ir.aboutamazon.com/news-release/news-release-details/2024/Amazon-com-Announces-Fourth-Quarter-Results/default.aspx",
+			"accessed": "2026-11-22",
+			"note": "Purchases of property and equipment, 2023"
+		},
+		{
+			"kind": "web",
+			"title": "Meta Reports Third Quarter 2026 Results",
+			"authors": [
+				{
+					"name": "Meta"
+				}
+			],
+			"container": "Meta Investor Relations",
+			"publisher": "Meta",
+			"published": "2026-10-21",
+			"url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+			"accessed": "2026-11-22",
+			"key": true
+		},
+		{
+			"kind": "web",
+			"title": "Meta Reports Fourth Quarter and Full Year 2025 Results",
+			"authors": [
+				{
+					"name": "Meta"
+				}
+			],
+			"container": "Meta Investor Relations",
+			"publisher": "Meta",
+			"published": "2026-01-28",
+			"url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Meta Reports Fourth Quarter and Full Year 2024 Results",
+			"authors": [
+				{
+					"name": "Meta"
+				}
+			],
+			"container": "Meta Investor Relations",
+			"publisher": "Meta",
+			"published": "2025-01-29",
+			"url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results/default.aspx",
+			"accessed": "2026-11-22",
+			"note": "Capital expenditures for 2023 and 2024; servers' useful life, note 1"
+		},
+		{
+			"kind": "web",
+			"title": "Microsoft Earnings Release FY27 Q1",
+			"authors": [
+				{
+					"name": "Microsoft"
+				}
+			],
+			"container": "Microsoft Investor Relations",
+			"publisher": "Microsoft",
+			"published": "2026-10-28",
+			"url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+			"accessed": "2026-11-22",
+			"key": true,
+			"note": "Commercial remaining performance obligation; Azure's growth"
+		},
+		{
+			"kind": "web",
+			"title": "Microsoft Earnings Release FY26 Q4",
+			"authors": [
+				{
+					"name": "Microsoft"
+				}
+			],
+			"container": "Microsoft Investor Relations",
+			"publisher": "Microsoft",
+			"published": "2026-07-29",
+			"url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+			"accessed": "2026-11-22",
+			"note": "Additions to property and equipment, fiscal 2025"
+		},
+		{
+			"kind": "web",
+			"title": "Microsoft Earnings Release FY24 Q4",
+			"authors": [
+				{
+					"name": "Microsoft"
+				}
+			],
+			"container": "Microsoft Investor Relations",
+			"publisher": "Microsoft",
+			"published": "2024-07-30",
+			"url": "https://www.microsoft.com/en-us/investor/earnings/fy-2024-q4/press-release-webcast",
+			"accessed": "2026-11-22",
+			"note": "Additions to property and equipment, fiscal 2023 and 2024"
+		},
+		{
+			"kind": "web",
+			"title": "Microsoft Holds the Line on AI Spending Plans",
+			"authors": [
+				{
+					"family": "Alexis",
+					"given": "Alexei"
+				}
+			],
+			"container": "CFO Dive",
+			"publisher": "Industry Dive",
+			"published": "2026-07-30",
+			"url": "https://www.cfodive.com/news/microsoft-holds-line-ai-spending-plans/826648/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "OpenAI and NVIDIA Announce Strategic Partnership to Deploy 10 Gigawatts of NVIDIA Systems",
+			"authors": [
+				{
+					"name": "Nvidia"
+				}
+			],
+			"container": "NVIDIA Newsroom",
+			"publisher": "Nvidia",
+			"published": "2025-09-22",
+			"url": "https://nvidianews.nvidia.com/news/openai-and-nvidia-announce-strategic-partnership-to-deploy-10gw-of-nvidia-systems",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "PUCO Orders AEP Ohio to Create Data Center Specific Tariff",
+			"authors": [
+				{
+					"name": "Public Utilities Commission of Ohio"
+				}
+			],
+			"container": "PUCO news bulletins",
+			"publisher": "Public Utilities Commission of Ohio",
+			"place": "Columbus, OH",
+			"published": "2025-07-09",
+			"url": "https://content.govdelivery.com/accounts/OHPUC/bulletins/3e8bb79",
+			"accessed": "2026-11-22",
+			"note": "Case 24-508-EL-ATA"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Manufacturers Say AEP Ohio Still Inflating Data Center Demand after Halving Forecast",
+			"authors": [
+				{
+					"family": "Howland",
+					"given": "Ethan"
+				}
+			],
+			"container": "Utility Dive",
+			"publisher": "Industry Dive",
+			"published": "2026-02-06",
+			"url": "https://www.utilitydive.com/news/aep-ohio-data-center-load-tariff-oma-manufacturers/811583/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "AI bubble",
+			"url": "https://en.wikipedia.org/w/index.php?title=AI_bubble&oldid=1386784873",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "AI build-out financing",
+			"url": "https://en.wikipedia.org/w/index.php?title=AI_build-out_financing&oldid=1386981760",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-21"
+		}
+	]
+}

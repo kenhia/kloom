@@ -1,0 +1,32 @@
+{
+	"datacenters/race-for-compute": [
+		["AI Action Plan", "ai-action-plan"],
+		["Donald Trump", "donald-trump"],
+		["China", "china"],
+		["Center for Strategic and International Studies", "center-for-strategic-and-international-studies"],
+		["Bureau of Industry and Security", "bureau-of-industry-and-security"],
+		["export control", "export-control"],
+		["Nvidia", "nvidia"],
+		["International Energy Agency", "international-energy-agency"],
+		["Epoch AI", "epoch-ai"],
+		["Goldman Sachs", "goldman-sachs"],
+		["McKinsey & Company", "mckinsey-and-company"],
+		["Daron Acemoglu", "daron-acemoglu"],
+		["AI Now Institute", "ai-now-institute"],
+		["DeepSeek", "deepseek"]
+	],
+	"datacenters/bubble": [
+		["Sequoia Capital", "sequoia-capital"],
+		["Nvidia", "nvidia"],
+		["AI bubble", "ai-bubble"],
+		["Amazon", "amazon-company"],
+		["Alphabet", "alphabet-inc"],
+		["Meta", "meta-platforms"],
+		["Microsoft", "microsoft"],
+		["OpenAI", "openai"],
+		["Oracle", "oracle-corporation"],
+		["dot-com bubble", "dot-com-bubble"],
+		["Ohio", "ohio"],
+		["AEP Ohio", "american-electric-power"]
+	]
+}

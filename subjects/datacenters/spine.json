@@ -19,7 +19,14 @@
 			"title": "Why we build them",
 			"labelKind": "category",
 			"palette": "ledger",
-			"frames": ["what-runs-there", "efficiency-case"]
+			"frames": ["what-runs-there", "efficiency-case", "race-for-compute"]
+		},
+		{
+			"id": "next",
+			"title": "What comes next",
+			"labelKind": "category",
+			"palette": "horizon",
+			"frames": ["bubble"]
 		}
 	]
 }
