@@ -1,0 +1,211 @@
+{
+	"id": "google-dalles",
+	"topic": "Google at The Dalles",
+	"position": {
+		"label": "2006",
+		"sort": 2006
+	},
+	"scene": {
+		"headline": "Google built its own by the",
+		"accent": "RIVER.",
+		"palette": "punchcard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"THE DALLES, OREGON · COLUMBIA RIVER",
+			"PROJECT 02 · HYDROPOWER · ENTERPRISE ZONE"
+		],
+		"counter": {
+			"value": "15",
+			"label": "years of property-tax exemption"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Welcome to Googleville",
+			"authors": [
+				{
+					"family": "Beck",
+					"given": "Byron"
+				}
+			],
+			"container": "Willamette Week",
+			"publisher": "Willamette Week",
+			"place": "Portland, OR",
+			"published": "2008-06-04",
+			"url": "https://www.wweek.com/portland/article-9089-welcome-to-googleville.html",
+			"accessed": "2026-11-22",
+			"note": "The nondisclosure agreements, the tax exemption and its conditions, and the Northwest Energy Coalition's estimate"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Hiding in Plain Sight, Google Seeks More Power",
+			"authors": [
+				{
+					"family": "Markoff",
+					"given": "John"
+				},
+				{
+					"family": "Hansell",
+					"given": "Saul"
+				}
+			],
+			"container": "The New York Times",
+			"published": "2006-06-14",
+			"url": "https://www.nytimes.com/2006/06/14/technology/14search.html",
+			"accessed": "2026-11-22",
+			"read": "excerpt",
+			"note": "Read in its opening, as copied to a telecommunications forum the next day"
+		},
+		{
+			"kind": "web",
+			"title": "Top-Secret Google Data Center Almost Completed",
+			"authors": [
+				{
+					"family": "Rosencrance",
+					"given": "Linda"
+				}
+			],
+			"container": "Computerworld",
+			"published": "2006-06-16",
+			"url": "https://www.computerworld.com/article/1648132/top-secret-google-data-center-almost-completed.html",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "First Google Data Center Hits Tax Rolls; Bill Just Went Up $5 Million",
+			"authors": [
+				{
+					"family": "Peterson",
+					"given": "Tom"
+				}
+			],
+			"container": "Columbia Community Connection",
+			"published": "2022-10-24",
+			"url": "https://columbiacommunityconnection.com/the-dalles/first-google-data-center-hits-tax-rolls-bill-just-went-up-5-million",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Inside Google's Oregon Data Center",
+			"authors": [
+				{
+					"family": "Miller",
+					"given": "Rich"
+				}
+			],
+			"container": "Data Center Knowledge",
+			"published": "2007-08-27",
+			"url": "https://www.datacenterknowledge.com/archives/2007/08/27/inside-googles-oregon-data-center",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "The Dalles, Ore., Settles Lawsuit Over Google Data Centers",
+			"authors": [
+				{
+					"family": "Rogoway",
+					"given": "Mike"
+				}
+			],
+			"container": "Government Technology",
+			"publisher": "e.Republic",
+			"published": "2022-12-15",
+			"url": "https://www.govtech.com/analytics/the-dalles-ore-settles-lawsuit-over-google-data-centers",
+			"accessed": "2026-11-22",
+			"note": "First published by The Oregonian/OregonLive"
+		},
+		{
+			"kind": "web",
+			"title": "The Dalles, Oregon",
+			"container": "Google Data Centers",
+			"publisher": "Google",
+			"url": "https://datacenters.google/locations/the-dalles-oregon/",
+			"accessed": "2026-11-22",
+			"note": "Google's own account of its first data center there, 2006, and its investment in Oregon"
+		},
+		{
+			"kind": "web",
+			"title": "Power Usage Effectiveness",
+			"container": "Google Data Centers",
+			"publisher": "Google",
+			"url": "https://datacenters.google/efficiency/",
+			"accessed": "2026-11-22",
+			"note": "The 2008 and 2025 reports, Google's own measurements"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Dalles, Oregon",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Dalles,_Oregon&oldid=1384753855",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-09"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Google data centers",
+			"url": "https://en.wikipedia.org/w/index.php?title=Google_data_centers&oldid=1386174285",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "The Dalles Dam",
+			"url": "https://en.wikipedia.org/w/index.php?title=The_Dalles_Dam&oldid=1287876119",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-04-29"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Bonneville Power Administration",
+			"url": "https://en.wikipedia.org/w/index.php?title=Bonneville_Power_Administration&oldid=1385502720",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-13"
+		},
+		{
+			"kind": "media",
+			"title": "Google Data Center, The Dalles, Oregon",
+			"url": "https://commons.wikimedia.org/wiki/File:Google_Datacenter_-_The_Dalles,_Oregon_(17832143871).jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC BY 2.0",
+			"file": "dalles.jpg",
+			"authors": [
+				{
+					"family": "Webster",
+					"given": "Tony"
+				}
+			],
+			"container": "Flickr, via Wikimedia Commons",
+			"published": "2015-05-17"
+		}
+	]
+}

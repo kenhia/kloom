@@ -1,0 +1,9 @@
+{
+	"id": "colocation-centre",
+	"wikidata": "Q730132",
+	"name": "Colocation center",
+	"aliases": ["colocation", "colocation center", "carrier hotel", "carrier hotels"],
+	"kind": "idea",
+	"description": "A data center that rents space, power, cooling and network connections to many customers for equipment they own; one built around carriers' interconnection is called a carrier hotel.",
+	"home": "datacenters/carrier-hotel"
+}

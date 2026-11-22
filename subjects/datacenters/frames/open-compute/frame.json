@@ -1,0 +1,195 @@
+{
+	"id": "open-compute",
+	"topic": "Prineville and the Open Compute Project",
+	"position": {
+		"label": "2011",
+		"sort": 2011
+	},
+	"scene": {
+		"headline": "Facebook published the",
+		"accent": "BLUEPRINTS.",
+		"palette": "punchcard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PRINEVILLE, OREGON · OPEN COMPUTE PROJECT",
+			"OUTSIDE AIR · MISTING · 480/277 V · 48 V BATTERIES"
+		],
+		"counter": {
+			"value": "1.07",
+			"label": "PUE at full load, Facebook's own figure"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Open Compute Project Data Center v1.0",
+			"authors": [
+				{
+					"family": "Park",
+					"given": "Jay"
+				}
+			],
+			"publisher": "Open Compute Project",
+			"published": "2011-04-07",
+			"url": "https://mvdirona.com/jrh/TalksAndPapers/Open_Compute_Project_Data_Center_v1.0.pdf",
+			"accessed": "2026-11-22",
+			"note": "Sections 3 and 4, the power design; section 5.3.2, the airflow",
+			"mirror": true
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Designing a Very Efficient Data Center",
+			"authors": [
+				{
+					"family": "Park",
+					"given": "Jay"
+				}
+			],
+			"container": "Engineering at Meta",
+			"publisher": "Meta",
+			"published": "2011-04-14",
+			"url": "https://engineering.fb.com/2011/04/14/core-infra/designing-a-very-efficient-data-center/",
+			"accessed": "2026-11-22",
+			"note": "The power losses, the battery cabinets, the PUE and the capital cost, Facebook's own figures"
+		},
+		{
+			"kind": "web",
+			"title": "Learning Lessons at the Prineville Data Center",
+			"authors": [
+				{
+					"name": "Open Compute Project"
+				}
+			],
+			"container": "Open Compute Project",
+			"publisher": "Open Compute Project",
+			"url": "https://www.opencompute.org/blog/learning-lessons-at-the-prineville-data-center",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Water Efficiency at Facebook's Prineville Data Center",
+			"authors": [
+				{
+					"name": "Open Compute Project"
+				}
+			],
+			"container": "Open Compute Project",
+			"publisher": "Open Compute Project",
+			"url": "https://www.opencompute.org/blog/water-efficiency-at-facebooks-prineville-data-center",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Facebook Unveils Custom Servers, Facility Design",
+			"authors": [
+				{
+					"family": "Miller",
+					"given": "Rich"
+				}
+			],
+			"container": "Data Center Knowledge",
+			"published": "2011-04-07",
+			"url": "https://www.datacenterknowledge.com/servers/facebook-unveils-custom-servers-facility-design",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Microsoft Joins Open Compute Project, Shares Its Server Designs",
+			"authors": [
+				{
+					"family": "Miller",
+					"given": "Rich"
+				}
+			],
+			"container": "Data Center Knowledge",
+			"published": "2014-01-28",
+			"url": "https://www.datacenterknowledge.com/data-center-chips/microsoft-joins-open-compute-project-shares-its-server-designs",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Google Joins Open Compute Project to Drive Standards in IT Infrastructure",
+			"authors": [
+				{
+					"family": "Zipfel",
+					"given": "John"
+				}
+			],
+			"container": "Google Cloud Blog",
+			"publisher": "Google",
+			"published": "2016-03-09",
+			"url": "https://cloud.google.com/blog/products/compute/google-joins-open-compute-project-to-drive-standards-in-it-infrastructure",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Meta Prineville Data Center",
+			"container": "Meta Data Centers",
+			"publisher": "Meta",
+			"url": "https://datacenters.atmeta.com/asset/prineville-data-center-info-sheet/",
+			"accessed": "2026-11-22",
+			"note": "Meta's own figures for its investment, jobs and water pledge"
+		},
+		{
+			"kind": "report",
+			"title": "Uptime Institute Global Data Center Survey 2025",
+			"authors": [
+				{
+					"name": "Uptime Institute"
+				}
+			],
+			"publisher": "Uptime Institute",
+			"number": "UII Keynote Report 180",
+			"published": "2025-07",
+			"url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf",
+			"accessed": "2026-11-22",
+			"note": "The 2011 average PUE, figure 2"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Open Compute Project",
+			"url": "https://en.wikipedia.org/w/index.php?title=Open_Compute_Project&oldid=1386180694",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Prineville, Oregon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Prineville,_Oregon&oldid=1377384855",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-29"
+		},
+		{
+			"kind": "media",
+			"title": "Facebook, Highway 126, Prineville",
+			"url": "https://commons.wikimedia.org/wiki/File:Facebook,_Highway_126,_Prineville_-_DPLA_-_fd9c0cae95b43c5864c55d3eef1bf5a6.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC BY 4.0",
+			"file": "prineville.jpg",
+			"authors": [
+				{
+					"family": "Halvorson",
+					"given": "Gary"
+				}
+			],
+			"container": "Oregon State Archives, via Wikimedia Commons",
+			"published": "2014-07-08"
+		}
+	]
+}

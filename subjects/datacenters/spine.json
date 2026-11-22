@@ -8,6 +8,13 @@
 			"frames": ["the-fight", "inside-a-data-center"]
 		},
 		{
+			"id": "rooms",
+			"title": "Rooms for computers",
+			"labelKind": "date",
+			"palette": "punchcard",
+			"frames": ["carrier-hotel", "google-dalles", "open-compute"]
+		},
+		{
 			"id": "why",
 			"title": "Why we build them",
 			"labelKind": "category",

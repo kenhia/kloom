@@ -1,0 +1,39 @@
+{
+	"datacenters/carrier-hotel": [
+		["NSFNET", "national-science-foundation-network"],
+		["MAE-East", "mae-east"],
+		["internet exchange point", "internet-exchange-point"],
+		["carrier hotels", "colocation-centre"],
+		["60 Hudson Street", "60-hudson-street"],
+		["One Wilshire", "one-wilshire"],
+		["Exodus Communications", "exodus-communications"],
+		["Equinix", "equinix"],
+		["Digital Equipment Corporation", "digital-equipment-corporation"],
+		["WorldCom", "worldcom"],
+		["Andrew Odlyzko", "andrew-odlyzko"],
+		["dot-com bubble", "dot-com-bubble"],
+		["dark fiber", "dark-fibre"]
+	],
+	"datacenters/google-dalles": [
+		["The Dalles", "the-dalles-oregon"],
+		["Columbia River", "columbia-river"],
+		["Google", "google"],
+		["The Dalles Dam", "the-dalles-dam"],
+		["Bonneville Power Administration", "bonneville-power-administration"],
+		["Celilo Falls", "celilo-falls"],
+		["The New York Times", "the-new-york-times"],
+		["Urs Hölzle", "urs-holzle"],
+		["power usage effectiveness", "power-usage-effectiveness"]
+	],
+	"datacenters/open-compute": [
+		["Facebook", "meta-platforms"],
+		["Prineville", "prineville-oregon"],
+		["Open Compute Project", "open-compute-project"],
+		["uninterruptible power supply", "uninterruptible-power-supply"],
+		["power usage effectiveness", "power-usage-effectiveness"],
+		["water usage effectiveness", "water-usage-effectiveness"],
+		["Greenpeace", "greenpeace"],
+		["Microsoft", "microsoft"],
+		["Google", "google"]
+	]
+}
