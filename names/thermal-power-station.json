@@ -1,0 +1,9 @@
+{
+	"id": "thermal-power-station",
+	"wikidata": "Q200297",
+	"name": "Thermal power station",
+	"aliases": ["thermal power plant", "thermoelectric power plant", "power plant"],
+	"kind": "artifact",
+	"description": "Power plant that turns heat from burning fuel, nuclear fission or the sun into electricity, usually by driving steam turbines, and must reject its waste heat, often with cooling water.",
+	"home": "datacenters/power-plant-water"
+}

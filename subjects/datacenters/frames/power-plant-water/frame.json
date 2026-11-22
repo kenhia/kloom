@@ -1,0 +1,393 @@
+{
+	"id": "power-plant-water",
+	"topic": "The water behind the electricity",
+	"position": {
+		"label": "Power plants"
+	},
+	"scene": {
+		"headline": "Some of the water is",
+		"accent": "UPSTREAM.",
+		"palette": "tower",
+		"illustration": "scene.svg",
+		"metadata": [
+			"THERMOELECTRIC COOLING · HYDROPOWER RESERVOIRS",
+			"USGS · NREL · LAWRENCE BERKELEY LAB"
+		],
+		"counter": {
+			"value": "4.52 L",
+			"label": "consumed at power plants per kWh data centers used, 2023 (estimate)"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/carnot",
+			"why": "Carnot showed in 1824 that every heat engine must give heat to something colder, which is why a steam power plant needs a river or a cooling tower."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2024 United States Data Center Energy Usage Report",
+			"authors": [
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Smith",
+					"given": "Sarah J."
+				},
+				{
+					"family": "Hubbard",
+					"given": "Alex"
+				},
+				{
+					"family": "Newkirk",
+					"given": "Alex"
+				},
+				{
+					"family": "Lei",
+					"given": "Nuoa"
+				},
+				{
+					"family": "Siddik",
+					"given": "Md Abu Bakar"
+				},
+				{
+					"family": "Holecek",
+					"given": "Billie"
+				}
+			],
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"number": "LBNL-2001637",
+			"published": "2024-12",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+			"accessed": "2026-11-22",
+			"note": "Indirect water and its method, pp. 56–58; simulated PUE and WUE by cooling system, figure 4.4"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Operational Water Consumption and Withdrawal Factors for Electricity Generating Technologies: A Review of Existing Literature",
+			"authors": [
+				{
+					"family": "Macknick",
+					"given": "Jordan"
+				},
+				{
+					"family": "Newmark",
+					"given": "Robin"
+				},
+				{
+					"family": "Heath",
+					"given": "Garvin"
+				},
+				{
+					"family": "Hallett",
+					"given": "K. C."
+				}
+			],
+			"container": "Environmental Research Letters",
+			"volume": "7",
+			"issue": "4",
+			"pages": "045802",
+			"published": "2012-12-20",
+			"doi": "10.1088/1748-9326/7/4/045802",
+			"accessed": "2026-11-22",
+			"note": "Consumption, tables 1 and 2; withdrawal, table 3; hydropower's allocation, section 3"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Water Use across the Conterminous United States, Water Years 2010–20",
+			"authors": [
+				{
+					"family": "Medalie",
+					"given": "Laura"
+				},
+				{
+					"family": "Galanter",
+					"given": "Amy E."
+				},
+				{
+					"family": "Martinez",
+					"given": "Anthony J."
+				},
+				{
+					"family": "Archer",
+					"given": "Althea A."
+				},
+				{
+					"family": "Luukkonen",
+					"given": "Carol L."
+				},
+				{
+					"family": "Harris",
+					"given": "Melissa A."
+				},
+				{
+					"family": "Haynes",
+					"given": "Jonathan V."
+				}
+			],
+			"publisher": "U.S. Geological Survey",
+			"place": "Reston, VA",
+			"number": "Professional Paper 1894-D",
+			"published": "2025-01",
+			"doi": "10.3133/pp1894D",
+			"accessed": "2026-11-22",
+			"note": "Thermoelectric withdrawals and consumptive use, key points and chapter text"
+		},
+		{
+			"kind": "report",
+			"title": "Estimated Use of Water in the United States in 2015",
+			"authors": [
+				{
+					"family": "Dieter",
+					"given": "Cheryl A."
+				},
+				{
+					"family": "Maupin",
+					"given": "Molly A."
+				},
+				{
+					"family": "Caldwell",
+					"given": "Rodney R."
+				},
+				{
+					"family": "Harris",
+					"given": "Melissa A."
+				},
+				{
+					"family": "Ivahnenko",
+					"given": "Tamara I."
+				},
+				{
+					"family": "Lovelace",
+					"given": "John K."
+				},
+				{
+					"family": "Barber",
+					"given": "Nancy L."
+				}
+			],
+			"etAl": true,
+			"publisher": "U.S. Geological Survey",
+			"place": "Reston, VA",
+			"number": "Circular 1441",
+			"published": "2018",
+			"doi": "10.3133/cir1441",
+			"accessed": "2026-11-22",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Water Withdrawal and Consumption Trends for Thermoelectric-Power Plants in the Conterminous United States, 2008–2020",
+			"authors": [
+				{
+					"family": "Skinner",
+					"given": "Kenneth D."
+				},
+				{
+					"family": "Niswonger",
+					"given": "Richard G."
+				},
+				{
+					"family": "Harris",
+					"given": "Melissa A."
+				},
+				{
+					"family": "McCarthy",
+					"given": "Brendan A."
+				},
+				{
+					"family": "Chamberlin",
+					"given": "Catherine A."
+				},
+				{
+					"family": "Lombard",
+					"given": "Melissa A."
+				},
+				{
+					"family": "Diehl",
+					"given": "Timothy H."
+				}
+			],
+			"etAl": true,
+			"container": "ACS ES&T Water",
+			"volume": "5",
+			"issue": "10",
+			"published": "2025",
+			"doi": "10.1021/acsestwater.5c00360",
+			"accessed": "2026-11-22",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "The Environmental Footprint of Data Centers in the United States",
+			"authors": [
+				{
+					"family": "Siddik",
+					"given": "Md Abu Bakar"
+				},
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Marston",
+					"given": "Landon"
+				}
+			],
+			"container": "Environmental Research Letters",
+			"volume": "16",
+			"issue": "6",
+			"pages": "064017",
+			"published": "2021-05-21",
+			"doi": "10.1088/1748-9326/abfba1",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "article",
+			"title": "Spatially and Temporally Detailed Water and Carbon Footprints of U.S. Electricity Generation and Use",
+			"authors": [
+				{
+					"family": "Siddik",
+					"given": "Md Abu Bakar"
+				},
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Rao",
+					"given": "Prakash"
+				},
+				{
+					"family": "Marston",
+					"given": "Landon T."
+				}
+			],
+			"container": "Water Resources Research",
+			"volume": "60",
+			"issue": "12",
+			"pages": "e2024WR038350",
+			"published": "2024-12",
+			"doi": "10.1029/2024WR038350",
+			"accessed": "2026-11-22",
+			"read": "abstract"
+		},
+		{
+			"kind": "article",
+			"title": "Making AI Less “Thirsty”: Uncovering and Addressing the Secret Water Footprint of AI Models",
+			"authors": [
+				{
+					"family": "Li",
+					"given": "Pengfei"
+				},
+				{
+					"family": "Yang",
+					"given": "Jianyi"
+				},
+				{
+					"family": "Islam",
+					"given": "Mohammad A."
+				},
+				{
+					"family": "Ren",
+					"given": "Shaolei"
+				}
+			],
+			"container": "arXiv preprint arXiv:2304.03271",
+			"published": "2025-03-26",
+			"url": "https://arxiv.org/abs/2304.03271v5",
+			"accessed": "2026-11-22",
+			"note": "Version 5; Washington State's off-site water factor, table 1"
+		},
+		{
+			"kind": "article",
+			"title": "Measuring the Environmental Impact of Delivering AI at Google Scale",
+			"authors": [
+				{
+					"family": "Elsworth",
+					"given": "Cooper"
+				},
+				{
+					"family": "Huang",
+					"given": "Keguo"
+				},
+				{
+					"family": "Patterson",
+					"given": "David"
+				},
+				{
+					"family": "Schneider",
+					"given": "Ian"
+				},
+				{
+					"family": "Sedivy",
+					"given": "Robert"
+				},
+				{
+					"family": "Goodman",
+					"given": "Savannah"
+				},
+				{
+					"family": "Townsend",
+					"given": "Ben"
+				}
+			],
+			"etAl": true,
+			"container": "arXiv preprint arXiv:2508.15734",
+			"published": "2025-08-21",
+			"url": "https://arxiv.org/abs/2508.15734",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "wikipedia",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"accessed": "2026-11-22",
+			"title": "Carnot's theorem (thermodynamics)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Carnot's_theorem_(thermodynamics)&oldid=1370964129",
+			"published": "2026-08-23"
+		},
+		{
+			"kind": "wikipedia",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"accessed": "2026-11-22",
+			"title": "National Laboratory of the Rockies",
+			"url": "https://en.wikipedia.org/w/index.php?title=National_Laboratory_of_the_Rockies&oldid=1365019356",
+			"published": "2026-07-19"
+		},
+		{
+			"kind": "media",
+			"title": "Water consumed per megawatt-hour by generating technology and cooling, medians from Macknick and colleagues, 2012",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Macknick et al., Environmental Research Letters 7 (2012), tables 1 and 2",
+			"doi": "10.1088/1748-9326/7/4/045802",
+			"accessed": "2026-11-22",
+			"licence": "MIT",
+			"file": "consumption.svg"
+		}
+	]
+}
