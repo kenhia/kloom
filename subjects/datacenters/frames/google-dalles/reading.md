@@ -4,12 +4,12 @@ In 2005 officials at **[The Dalles](kloom:e/the-dalles-oregon)**, a town of abou
 
 ## Why there
 
-Google acknowledged that cheap power was the chief attraction, _Willamette Week_ reported in 2008. The power is hydroelectric: **[The Dalles Dam](kloom:e/the-dalles-dam)**, just upstream of the town, finished by the Army Corps of Engineers in 1957 and rated at 1,878 megawatts, is one of the federal dams whose output the **[Bonneville Power Administration](kloom:e/bonneville-power-administration)** sells at cost, in Google's case through the local public utility district. Its reservoir drowned **[Celilo Falls](kloom:e/celilo-falls)**, long a center of fishing and trade for the river's Native peoples. The second reason was fiber: the city had built its own fiber-optic loop, and the region had a surplus of long-distance fiber left from the dot-com years. The third was a tax break.
+Google said that cheap power was the chief attraction, _Willamette Week_ reported in 2008. The power is hydroelectric: **[The Dalles Dam](kloom:e/the-dalles-dam)**, just upstream of the town, finished by the Army Corps of Engineers in 1957 and rated at 1,878 megawatts, is one of the federal dams whose output the **[Bonneville Power Administration](kloom:e/bonneville-power-administration)** sells at cost, in Google's case through the local public utility district. Its reservoir flooded **[Celilo Falls](kloom:e/celilo-falls)**, long a center of fishing and trade for the river's Native peoples. The second reason was fiber: the city had built its own fiber-optic loop, and the region had a surplus of long-distance fiber left from the dot-com years. The third was a tax break.
 
 | The deal's numbers                                          | Value                                           | Kind, and who gave it                         |
 | ----------------------------------------------------------- | ----------------------------------------------- | --------------------------------------------- |
 | Property-tax exemption on what Google built                 | 15 years                                        | reported by _Willamette Week_, 2008           |
-| Condition: average pay of the promised 200 jobs             | $42,600, 150% of the county average             | the city's development director, 2008         |
+| Condition: average pay of the expected 200 jobs             | $42,600, 150% of the county average             | the city's development director, 2008         |
 | Google's payments to local governments under its agreements | $2.85 million a year                            | said at a city council meeting, 2021          |
 | Tax bill once the exemption ran out                         | $5.26 million, on $334.5 million assessed       | measured: Wasco County's 2022–23 tax roll     |
 | Electricity drawn                                           | about 30 megawatts                              | an unattributed estimate, 2008                |

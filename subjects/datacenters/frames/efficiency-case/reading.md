@@ -1,4 +1,4 @@
-The strongest energy argument made for data centers is that they get more work from each kilowatt-hour every year. **[Google](kloom:e/google)** puts it in its 2025 environmental report: its data centers "deliver over six times more computing power per unit of electricity than they did just five years ago," much of it from its own AI chips, **[tensor processing units](kloom:e/tensor-processing-unit)**. That is the company's claim about its own buildings, and its website in 2026 gives a smaller one, over three times in the five years to 2025. The argument's best independent evidence is one decade.
+The chief energy argument made for data centers is that they get more work from each kilowatt-hour every year. **[Google](kloom:e/google)** puts it in its 2025 environmental report: its data centers "deliver over six times more computing power per unit of electricity than they did just five years ago," much of it from its own AI chips, **[tensor processing units](kloom:e/tensor-processing-unit)**. That is the company's claim about its own buildings, and its website in 2026 gives a smaller one, over three times in the five years to 2025. The argument's best independent evidence is one decade.
 
 ## More work for nearly the same energy
 
@@ -8,7 +8,7 @@ The authors gave four reasons. A typical server's electricity per computation fe
 
 ## The closet and the campus
 
-That move is the consolidation argument, and in 2014 an environmental group made it as forcefully as any company. The **[Natural Resources Defense Council](kloom:e/natural-resources-defense-council)**, with the consultancy Anthesis, reported that the largest cloud companies had "largely solved the technical efficiency problems" of their buildings, while server rooms and closets used about half of American server electricity. Average server utilization had stayed between 12% and 18% from 2006 to 2012, and a server doing almost nothing still drew 30% to 60% of its maximum power.
+That move is the consolidation argument, and in 2014 an environmental group made it too. The **[Natural Resources Defense Council](kloom:e/natural-resources-defense-council)**, with the consultancy Anthesis, reported that the largest cloud companies had "largely solved the technical efficiency problems" of their buildings, while server rooms and closets used about half of American server electricity. Average server utilization had stayed between 12% and 18% from 2006 to 2012, and a server doing almost nothing still drew 30% to 60% of its maximum power.
 
 ![A cluttered office server room in Florida in 2005: an open rack crowded with network switches and tangled cables, a small monitor and keyboard on a shelf, and shelves of boxes and spare parts behind](server-closet.jpg)
 

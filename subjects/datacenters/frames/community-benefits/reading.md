@@ -16,7 +16,7 @@ Most data center deals are of the second and third kinds. Even the first has a k
 
 Meta's own fact sheet adds pledges outside those agreements: more than $200 million for roads and water, $1 million a year to Entergy's bill assistance program for low-income seniors and customers with disabilities, and community grants once the center runs. The plate sets the two sides out as a ledger.
 
-What the property tax concession is worth in dollars has not been published in any source this reading found. Critics found other gaps. _Wired_ reported that the incentive agreement does not require local hiring and counts 40 hours of part-time work as a "full-time job." The Alliance for Affordable Energy, a ratepayer advocate, questioned whether the commission could enforce Meta's payments for the plants at all. Supporters answered with the need. "There's nothing that is bulletproof," said Commissioner Foster Campbell, who voted yes: "I think it will pay dividends." The state's economic development agency said it still expects 500 permanent, full-time jobs.
+What the property tax concession is worth in dollars has not been published in any source this reading found. Critics raised other concerns. _Wired_ reported that the incentive agreement does not require local hiring and counts 40 hours of part-time work as a "full-time job." The Alliance for Affordable Energy, a ratepayer advocate, questioned whether the commission could enforce Meta's payments for the plants at all. Supporters answered with the need. "There's nothing that is bulletproof," said Commissioner Foster Campbell, who voted yes: "I think it will pay dividends." The state's economic development agency said it still expects 500 permanent, full-time jobs.
 
 ## Pledges without a counterparty
 

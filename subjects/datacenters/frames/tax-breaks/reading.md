@@ -2,7 +2,7 @@ A **[sales tax](kloom:e/sales-tax)** is paid by whoever buys a thing to use it, 
 
 ## What Virginia gives up, and gets back
 
-Virginia's exemption dates from 2010. A data center qualifies by investing $150 million and creating 50 jobs paying at least one and a half times the local average wage, less in distressed areas, and the exemption runs to 2035, or to 2040 or 2050 for projects of $35 billion or $100 billion. Since 2021 operators must report the tax they did not pay. Those reports are the measurement, and the state does not check them.
+Virginia's exemption dates from 2010. A data center qualifies by investing $150 million and creating 50 jobs paying at least one and a half times the local average wage, less in distressed areas, and the exemption runs to 2035, or to 2040 or 2050 for projects of $35 billion or $100 billion. Since 2021 operators must report the tax they did not pay. Those reports are the only measurement, and they are the operators' own: the state does not check them.
 
 ![Bar chart of the state share of sales tax Virginia's data center exemption waived, in millions of dollars: 613.5 in fiscal 2021, 411.5 in 2022, 685.2 in 2023, 927.4 in 2024 and 1,420.0 in 2025](exempted.svg)
 

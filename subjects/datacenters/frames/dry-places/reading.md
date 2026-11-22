@@ -19,7 +19,7 @@ Chandler passed an ordinance in 2015 that keeps out new water-intensive business
 
 ## Texas
 
-In January 2026 the Houston Advanced Research Center (HARC), an independent nonprofit, estimated that **[Texas](kloom:e/texas)** data centers would consume about 25 billion gallons in 2025, counting the water at their power plants, 0.4% of the state's use; by 2030, 29 to 161 billion gallons, 0.5% to 2.7%. Both are modeled. Its concern is planning: the state water plan of the **[Texas Water Development Board](kloom:e/texas-water-development-board)** is built from water use already reported, so a campus that opened in 2025 enters the plan only in 2032. The board projects 25% less groundwater by 2070. One data center is unlikely to drain a neighbor's well, the hydrologist Robert Mace said of West Texas, where landowners may pump under the rule of capture, but each is "another straw in the aquifer pulling water out."
+In January 2026 the Houston Advanced Research Center (HARC), a nonprofit, estimated that **[Texas](kloom:e/texas)** data centers would consume about 25 billion gallons in 2025, counting the water at their power plants, 0.4% of the state's use; by 2030, 29 to 161 billion gallons, 0.5% to 2.7%. Both are modeled. Its concern is planning: the state water plan of the **[Texas Water Development Board](kloom:e/texas-water-development-board)** is built from water use already reported, so a campus that opened in 2025 enters the plan only in 2032. The board projects 25% less groundwater by 2070. One data center is unlikely to drain a neighbor's well, the hydrologist Robert Mace said of West Texas, where landowners may pump under the rule of capture, but each is "another straw in the aquifer pulling water out."
 
 ## Chile, Uruguay and Spain
 

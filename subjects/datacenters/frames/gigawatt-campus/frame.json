@@ -310,6 +310,47 @@
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-11-19"
+		},
+		{
+			"kind": "report",
+			"title": "Retail Electricity Price Trends and Drivers: Data Update, 2026 Edition",
+			"authors": [
+				{
+					"family": "Wiser",
+					"given": "Ryan"
+				},
+				{
+					"family": "Barbose",
+					"given": "Galen"
+				},
+				{
+					"family": "Gorman",
+					"given": "Will"
+				},
+				{
+					"family": "O'Shaughnessy",
+					"given": "Eric"
+				},
+				{
+					"family": "Forrester",
+					"given": "Sydney"
+				},
+				{
+					"family": "Donohoo-Vallett",
+					"given": "Paul"
+				},
+				{
+					"family": "Cappers",
+					"given": "Peter"
+				}
+			],
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"published": "2026-07",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2026-07/retail_price_trends_2026_edition_julyupdate.pdf",
+			"accessed": "2026-11-22",
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"note": "With the Brattle Group, for the Department of Energy; the load-growth deep dive, slides 47–54"
 		}
 	]
 }

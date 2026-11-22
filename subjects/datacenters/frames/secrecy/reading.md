@@ -16,7 +16,7 @@ In June 2025 the supervisors of **[Pima County](kloom:e/pima-county-arizona)**, 
 | September 2, 2025 | The county adopts new rules for NDAs                                                                        |
 | December 16, 2025 | The county approves Beale's commitments; the sale goes ahead without the city                               |
 
-The city's own information page said that its NDA had "constrained fact-sharing," leaving a "communication void" filled by "misinformation and speculation." Tucson's mayor, Regina Romero, said that she did not know the company either. When the council ended talks, Beale called it "a missed opportunity for the City." **[Amazon Web Services](kloom:e/amazon-web-services)** said it had no commitments in place to develop Project Blue and had done only "standard due diligence" in Arizona. The county approved the sale anyway, in December 2025, to a developer that had agreed to cool the buildings with air in a closed loop and to give $15 million to local causes.
+The city's own information page said that its NDA had "constrained fact-sharing," leaving a "communication void" filled by "misinformation and speculation." Tucson's mayor, Regina Romero, said that she did not know the company either. When the council ended talks, Beale called it "a missed opportunity for the City." **[Amazon Web Services](kloom:e/amazon-web-services)** said it had no commitments in place to develop Project Blue and had done only "standard due diligence" in Arizona. The county went ahead with the sale in December 2025, to a developer that had agreed to cool the buildings with air in a closed loop and to give $15 million to local causes.
 
 ## Two accounts
 
