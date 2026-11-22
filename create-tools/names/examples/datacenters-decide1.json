@@ -1,0 +1,25 @@
+{
+	"datacenters/zoning": [
+		["data center", "data-center"],
+		["zoning", "zoning"],
+		["Village of Euclid v. Ambler Realty Co.", "village-of-euclid-v-ambler-realty-co"],
+		["Virginia", "virginia"],
+		["Fairfax County", "fairfax-county-virginia"],
+		["Loudoun County", "loudoun-county-virginia"],
+		["Prince William County", "prince-william-county-virginia"],
+		["West Virginia", "west-virginia"],
+		["Dominion Energy", "dominion-energy"]
+	],
+	"datacenters/digital-gateway": [
+		["Prince William County", "prince-william-county-virginia"],
+		["Virginia", "virginia"],
+		["Manassas National Battlefield Park", "manassas-national-battlefield-park"],
+		["QTS", "quality-technology-services"],
+		["Compass Datacenters", "compass-datacenters"],
+		["Court of Appeals of Virginia", "court-of-appeals-of-virginia"],
+		["American Battlefield Trust", "american-battlefield-trust"],
+		["National Parks Conservation Association", "national-parks-conservation-association"],
+		["Piedmont Environmental Council", "piedmont-environmental-council"],
+		["Occoquan Reservoir", "occoquan-reservoir"]
+	]
+}

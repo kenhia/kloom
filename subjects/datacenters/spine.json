@@ -75,7 +75,14 @@
 			"title": "Who decides",
 			"labelKind": "category",
 			"palette": "chamber",
-			"frames": ["tax-breaks", "community-benefits", "moratoriums", "federal-push"]
+			"frames": [
+				"zoning",
+				"digital-gateway",
+				"tax-breaks",
+				"community-benefits",
+				"moratoriums",
+				"federal-push"
+			]
 		},
 		{
 			"id": "next",

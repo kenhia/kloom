@@ -1,0 +1,162 @@
+{
+	"id": "zoning",
+	"topic": "Zoning a data center",
+	"position": {
+		"label": "Zoning"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Every parcel has a",
+		"accent": "DISTRICT.",
+		"palette": "chamber",
+		"illustration": "scene.svg",
+		"metadata": [
+			"COMPREHENSIVE PLAN · DISTRICTS · BY RIGHT · SPECIAL PERMIT",
+			"FAIRFAX · LOUDOUN · PRINCE WILLIAM · WEST VIRGINIA"
+		],
+		"counter": {
+			"value": "29%",
+			"label": "of Virginia sites within 200 ft of residential zoning, 2024"
+		}
+	},
+	"connections": [
+		{
+			"to": "datacenters/the-fight",
+			"why": "The fight's reading says that to call an opponent a NIMBY is to say the objection is to where a thing goes; zoning is the local law that decides where."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Data Centers in Virginia 2024",
+			"authors": [
+				{
+					"name": "Joint Legislative Audit and Review Commission"
+				}
+			],
+			"place": "Richmond, VA",
+			"publisher": "Commonwealth of Virginia",
+			"number": "Report 598",
+			"published": "2024-12-09",
+			"url": "https://jlarc.virginia.gov/pdfs/reports/Rpt598.pdf",
+			"accessed": "2026-11-22",
+			"note": "Zoning and residential impacts, chapter 6; the counties' changes since 2019, appendix L; water and the State Corporation Commission, chapters 3 and 4"
+		},
+		{
+			"kind": "report",
+			"title": "Recommendations for Legislative Action: Data Centers",
+			"authors": [
+				{
+					"name": "Joint Legislative Audit and Review Commission"
+				}
+			],
+			"publisher": "Commonwealth of Virginia",
+			"published": "2025",
+			"url": "https://jlarc.virginia.gov/pdfs/other/Unimp-Leg-Recs/2025DataCenters.pdf",
+			"accessed": "2026-11-22",
+			"note": "Recommendations 6 to 8, on water-use estimates and sound, among those awaiting action"
+		},
+		{
+			"kind": "statute",
+			"key": true,
+			"title": "Committee Substitute for House Bill 2014, relating to the generation and consumption of electric power",
+			"code": {
+				"name": "W. Va. Code"
+			},
+			"section": "§ 5B-2-21b",
+			"published": "2025-04",
+			"container": "West Virginia Legislature, 2025 Regular Session, enrolled bill",
+			"publisher": "West Virginia Legislature",
+			"url": "https://www.wvlegislature.gov/Bill_Text_HTML/2025_SESSIONS/RS/bills/hb2014%20sub1%20enr.pdf",
+			"accessed": "2026-11-22",
+			"note": "The exemption from local ordinances is § 5B-2-21b(c)–(d); a high impact data center's 90 megawatts, § 11-6N-2"
+		},
+		{
+			"kind": "web",
+			"title": "Prince William Supervisors Unanimously Vote to End By-Right Data Center Development",
+			"authors": [
+				{
+					"family": "Shaw",
+					"given": "Stacy"
+				}
+			],
+			"container": "Bristow Beat",
+			"publisher": "Bristow Beat",
+			"published": "2026-09-23",
+			"url": "https://bristowbeat.com/stories/prince-william-supervisors-unanimously-vote-to-end-by-right-data-center-development,175504",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "The Window for By-Right Data Center Development in Prince William County Is Closing Quickly—and More Changes Are Proposed",
+			"authors": [
+				{
+					"family": "Whitmore",
+					"given": "Kedrick"
+				},
+				{
+					"family": "Allman",
+					"given": "Matthew J."
+				},
+				{
+					"family": "Klein",
+					"given": "Noah B."
+				},
+				{
+					"family": "Williams",
+					"given": "Zachary G."
+				}
+			],
+			"container": "Venable Insights",
+			"publisher": "Venable LLP",
+			"published": "2026-09-24",
+			"url": "https://www.venable.com/insights/publications/2026/09/the-window-for-by-right-data-center-development",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "How the Failed Digital Gateway Data Center Project Changed Northern Virginia's Future",
+			"authors": [
+				{
+					"family": "Klavon",
+					"given": "Dawn"
+				}
+			],
+			"container": "Northern Virginia Magazine",
+			"publisher": "Northern Virginia Magazine",
+			"published": "2026-11-10",
+			"url": "https://northernvirginiamag.com/news/2026/11/10/how-the-failed-digital-gateway-data-center-project-changed-northern-virginias-future/",
+			"accessed": "2026-11-22",
+			"note": "Synergy Research Group's count of Northern Virginia's hyperscale data centers"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Village of Euclid v. Ambler Realty Co.",
+			"url": "https://en.wikipedia.org/w/index.php?title=Village_of_Euclid_v._Ambler_Realty_Co.&oldid=1363785386",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-07-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Zoning",
+			"url": "https://en.wikipedia.org/w/index.php?title=Zoning&oldid=1385921614",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-15"
+		}
+	]
+}

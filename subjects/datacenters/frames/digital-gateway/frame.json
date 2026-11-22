@@ -1,0 +1,179 @@
+{
+	"id": "digital-gateway",
+	"topic": "The Prince William Digital Gateway",
+	"position": {
+		"label": "2021–26"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Thirty-seven data centers beside a",
+		"accent": "BATTLEFIELD.",
+		"palette": "chamber",
+		"illustration": "scene.svg",
+		"metadata": ["PAGELAND LANE · PRINCE WILLIAM COUNTY, VIRGINIA", "QTS · COMPASS · 2021–2026"],
+		"counter": {
+			"value": "27",
+			"label": "hours of the meeting that approved it, 2023"
+		}
+	},
+	"citations": [
+		{
+			"kind": "case",
+			"key": true,
+			"title": "Board of County Supervisors of Prince William County v. Oak Valley Homeowners Association",
+			"neutral": "Record No. 1590-25-4 (Va. Ct. App. Mar. 31, 2026)",
+			"published": "2026-03-31",
+			"container": "Court of Appeals of Virginia, published opinion",
+			"publisher": "Virginia's Judicial System",
+			"url": "https://www.vacourts.gov/opinions/opncavwp/1592254.pdf",
+			"accessed": "2026-11-22",
+			"note": "Consolidated with Record Nos. 1584-25-4, 1592-25-4 and 2025-24-4; the rezonings on p. 6, the advertisements and the hearing on pp. 7–11"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "PW Digital Gateway",
+			"container": "Planning Office",
+			"publisher": "Prince William County",
+			"url": "https://www.pwcva.gov/department/planning-office/pw-digital-gateway",
+			"accessed": "2026-11-22",
+			"note": "The county's status update of August 5, 2026, and the plan amendment's history"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "How the Failed Digital Gateway Data Center Project Changed Northern Virginia's Future",
+			"authors": [
+				{
+					"family": "Klavon",
+					"given": "Dawn"
+				}
+			],
+			"container": "Northern Virginia Magazine",
+			"publisher": "Northern Virginia Magazine",
+			"published": "2026-11-10",
+			"url": "https://northernvirginiamag.com/news/2026/11/10/how-the-failed-digital-gateway-data-center-project-changed-northern-virginias-future/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Digital Gateway's 100-Plus Landowners Remain in Limbo",
+			"authors": [
+				{
+					"family": "Muzyk",
+					"given": "Cher"
+				},
+				{
+					"family": "Cary",
+					"given": "Peter"
+				}
+			],
+			"container": "Prince William Times",
+			"publisher": "Prince William Times",
+			"published": "2026-05-06",
+			"url": "https://www.princewilliamtimes.com/localnews/digital-gateways-100-plus-landowners-remain-in-limbo-as-project-hangs-by-a-thread/article_a318de92-5018-4c4f-803b-0fb5d6e21fca.html",
+			"accessed": "2026-11-22",
+			"note": "QTS's petition to the Supreme Court of Virginia, quoted; the landowners' contracts and lawsuits"
+		},
+		{
+			"kind": "web",
+			"title": "QTS Withdraws Supreme Court Appeal, Ending Proposed Digital Gateway Data Center Project",
+			"authors": [
+				{
+					"name": "Potomac Local News"
+				}
+			],
+			"container": "Potomac Local News",
+			"publisher": "Potomac Local News",
+			"published": "2026-07-03",
+			"url": "https://www.potomaclocal.com/2026/07/03/qts-withdraws-supreme-court-appeal-ending-proposed-digital-gateway-data-center-project/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Prince William Co. Withdraws from Digital Gateway Lawsuit, Reversing Course from 2023",
+			"authors": [
+				{
+					"name": "InsideNoVa"
+				}
+			],
+			"container": "WTOP News",
+			"publisher": "WTOP",
+			"published": "2026-04-15",
+			"url": "https://wtop.com/virginia/2026/04/prince-william-co-withdraws-from-digital-gateway-lawsuit-reversing-course-from-2023/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Backlash to Data Centers Prompts Political Upset in Northern Virginia",
+			"authors": [
+				{
+					"family": "Barakat",
+					"given": "Matthew"
+				}
+			],
+			"container": "Associated Press, via WTVR",
+			"publisher": "WTVR CBS 6",
+			"published": "2023-06",
+			"url": "https://www.wtvr.com/news/local-news/backlash-to-data-centers-prompts-political-upset-in-northern-virginia",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Neighbor vs. Neighbor: A Community Debates Data Center Growth",
+			"authors": [
+				{
+					"family": "Miller",
+					"given": "Rich"
+				}
+			],
+			"container": "Data Center Frontier",
+			"publisher": "Endeavor Business Media",
+			"published": "2022-08-08",
+			"url": "https://www.datacenterfrontier.com/featured/article/11427166/neighbor-vs-neighbor-a-community-debates-data-center-growth",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "PW Digital Gateway Water Concerns Acknowledged",
+			"authors": [
+				{
+					"name": "InsideNoVa"
+				}
+			],
+			"container": "WTOP News",
+			"publisher": "WTOP",
+			"published": "2022-04-06",
+			"url": "https://wtop.com/prince-william-county/2022/04/pw-digital-gateway-water-concerns-acknowledged/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Manassas National Battlefield Park",
+			"url": "https://en.wikipedia.org/w/index.php?title=Manassas_National_Battlefield_Park&oldid=1373366390",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Quality Technology Services",
+			"url": "https://en.wikipedia.org/w/index.php?title=Quality_Technology_Services&oldid=1381534513",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-23"
+		}
+	]
+}
