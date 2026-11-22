@@ -22,6 +22,18 @@
 		{
 			"to": "physics/carnot",
 			"why": "Carnot showed in 1824 that every heat engine must give heat to something colder, which is why a steam power plant needs a river or a cooling tower."
+		},
+		{
+			"to": "datacenters/withdrawal-consumption",
+			"why": "Power plants withdraw far more water than they consume, the gap that defines the two numbers."
+		},
+		{
+			"to": "datacenters/wue",
+			"why": "A site's water usage effectiveness leaves out the water consumed at the power plant that supplies it."
+		},
+		{
+			"to": "datacenters/carbon-accounting",
+			"why": "A dry-cooled site saves water by using more electricity, which adds the power plant's emissions."
 		}
 	],
 	"citations": [

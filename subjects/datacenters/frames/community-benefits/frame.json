@@ -134,5 +134,19 @@
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-11-16"
 		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/gas-plants",
+			"why": "Meta's Louisiana agreement commits it to pay for Entergy's gas plants for fifteen years."
+		},
+		{
+			"to": "datacenters/who-pays-grid",
+			"why": "Microsoft's 2026 pledge to pay its own way on electricity meets the large-load tariffs that frame describes."
+		},
+		{
+			"to": "datacenters/gigawatt-campus",
+			"why": "The agreement is for Meta's Hyperion campus in Richland Parish."
+		}
 	]
 }

@@ -169,5 +169,11 @@
 			"licence": "MIT",
 			"file": "floor-space.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/loudoun-by-right",
+			"why": "The alley's growth led to the county's 2025 decision to end approval by right."
+		}
 	]
 }

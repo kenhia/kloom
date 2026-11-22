@@ -20,6 +20,14 @@
 		{
 			"to": "ai/chat-assistants",
 			"why": "The per-response water estimates are for ChatGPT and its rivals, and their totals depend on the volume of use whose growth that frame traces."
+		},
+		{
+			"to": "datacenters/power-plant-water",
+			"why": "Most of the water in the larger per-answer estimates is power-plant water, not the data center's own."
+		},
+		{
+			"to": "datacenters/small-water-systems",
+			"why": "Shaolei Ren and Pengfei Li, who made the high per-answer estimates, are among the authors of the preprint on small water systems."
 		}
 	],
 	"citations": [

@@ -1,7 +1,9 @@
 {
 	"id": "memphis-turbines",
 	"topic": "xAI's gas turbines in Memphis",
-	"position": { "label": "Memphis" },
+	"position": {
+		"label": "Memphis"
+	},
 	"asOf": "2026-11-22",
 	"scene": {
 		"headline": "Memphis got",
@@ -12,12 +14,19 @@
 			"xAI · COLOSSUS · SOUTH MEMPHIS AND SOUTHAVEN",
 			"SHELBY COUNTY HEALTH DEPT. · SELC · NAACP · 2024–2026"
 		],
-		"counter": { "value": "69", "label": "Southaven turbines to go by July 2027, xAI says" }
+		"counter": {
+			"value": "69",
+			"label": "Southaven turbines to go by July 2027, xAI says"
+		}
 	},
 	"connections": [
 		{
 			"to": "ai/compute",
 			"why": "The AI subject's compute frame names xAI's Colossus, built in Memphis in 122 days, as a mark of how fast training clusters grew; this frame follows the gas turbines that powered it and the neighbors' fight over them."
+		},
+		{
+			"to": "datacenters/moratoriums",
+			"why": "Memphis's council paused new data center approvals for 135 days in 2026."
 		}
 	],
 	"citations": [
@@ -26,8 +35,14 @@
 			"key": true,
 			"title": "Inside Memphis' Fight against xAI",
 			"authors": [
-				{ "family": "Hilt", "given": "Eric" },
-				{ "family": "Baars", "given": "Samantha" }
+				{
+					"family": "Hilt",
+					"given": "Eric"
+				},
+				{
+					"family": "Baars",
+					"given": "Samantha"
+				}
 			],
 			"container": "Southern Environmental Law Center",
 			"publisher": "Southern Environmental Law Center",
@@ -40,7 +55,11 @@
 			"kind": "web",
 			"key": true,
 			"title": "Fact v. Fiction",
-			"authors": [{ "name": "SpaceXSI (formerly xAI)" }],
+			"authors": [
+				{
+					"name": "SpaceXSI (formerly xAI)"
+				}
+			],
 			"container": "SpaceXSI Memphis",
 			"publisher": "SpaceXSI",
 			"url": "https://x.ai/memphis/fact-v-fiction",
@@ -50,7 +69,11 @@
 		{
 			"kind": "web",
 			"title": "Information Center",
-			"authors": [{ "name": "SpaceXSI (formerly xAI)" }],
+			"authors": [
+				{
+					"name": "SpaceXSI (formerly xAI)"
+				}
+			],
 			"container": "SpaceXSI Memphis",
 			"publisher": "SpaceXSI",
 			"url": "https://x.ai/memphis/info",
@@ -60,7 +83,11 @@
 			"kind": "web",
 			"key": true,
 			"title": "SpaceXSI's Greater Memphis Area Site Updates",
-			"authors": [{ "name": "SpaceXSI (formerly xAI)" }],
+			"authors": [
+				{
+					"name": "SpaceXSI (formerly xAI)"
+				}
+			],
 			"container": "SpaceXSI Memphis",
 			"publisher": "SpaceXSI",
 			"published": "2026-07-30",
@@ -72,7 +99,12 @@
 			"kind": "web",
 			"key": true,
 			"title": "xAI Gets Permits for 15 Natural Gas Generators at Memphis Data Center",
-			"authors": [{ "family": "De Chant", "given": "Tim" }],
+			"authors": [
+				{
+					"family": "De Chant",
+					"given": "Tim"
+				}
+			],
 			"container": "TechCrunch",
 			"publisher": "TechCrunch",
 			"published": "2025-07-03",
@@ -83,7 +115,11 @@
 		{
 			"kind": "web",
 			"title": "New Images Reveal Elon Musk's xAI Datacenter Has Nearly Doubled Its Number of Polluting, Unpermitted Gas Turbines",
-			"authors": [{ "name": "Southern Environmental Law Center" }],
+			"authors": [
+				{
+					"name": "Southern Environmental Law Center"
+				}
+			],
 			"container": "Southern Environmental Law Center",
 			"publisher": "Southern Environmental Law Center",
 			"published": "2025-04-09",
@@ -93,7 +129,11 @@
 		{
 			"kind": "web",
 			"title": "Elon Musk's xAI Threatened with Lawsuit over Air Pollution from Memphis Data Center",
-			"authors": [{ "name": "Southern Environmental Law Center" }],
+			"authors": [
+				{
+					"name": "Southern Environmental Law Center"
+				}
+			],
 			"container": "Southern Environmental Law Center",
 			"publisher": "Southern Environmental Law Center",
 			"published": "2025-06-17",
@@ -103,7 +143,12 @@
 		{
 			"kind": "web",
 			"title": "Shelby County Approves xAI Air Permit amid Lingering Community Opposition",
-			"authors": [{ "family": "Smith", "given": "Lee Eric" }],
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Lee Eric"
+				}
+			],
 			"container": "Tri-State Defender",
 			"publisher": "Tri-State Defender",
 			"published": "2025-07-08",
@@ -113,7 +158,11 @@
 		{
 			"kind": "web",
 			"title": "Greater Memphis Chamber Commends Shelby County Health Department's Approval of xAI's Environmentally Advanced Backup Power System",
-			"authors": [{ "name": "Greater Memphis Chamber" }],
+			"authors": [
+				{
+					"name": "Greater Memphis Chamber"
+				}
+			],
 			"container": "Greater Memphis Chamber",
 			"publisher": "Greater Memphis Chamber",
 			"published": "2025-07-02",
@@ -123,7 +172,11 @@
 		{
 			"kind": "web",
 			"title": "Velocity Meets Potency: xAI Announces Memphis as New Home",
-			"authors": [{ "name": "Greater Memphis Chamber" }],
+			"authors": [
+				{
+					"name": "Greater Memphis Chamber"
+				}
+			],
 			"container": "Greater Memphis Chamber",
 			"publisher": "Greater Memphis Chamber",
 			"published": "2024-06-05",
@@ -133,7 +186,11 @@
 		{
 			"kind": "web",
 			"title": "City of Memphis Releases Initial Air Quality Testing Results: No Dangerous Levels Detected",
-			"authors": [{ "name": "City of Memphis" }],
+			"authors": [
+				{
+					"name": "City of Memphis"
+				}
+			],
 			"container": "City of Memphis",
 			"publisher": "City of Memphis",
 			"published": "2025-06-24",
@@ -146,9 +203,18 @@
 			"key": true,
 			"title": "Air Quality Analysis Reveals Minimal Changes after xAI Data Center Opens in Pollution-Burdened Memphis Neighborhood",
 			"authors": [
-				{ "family": "Jia", "given": "Chunrong" },
-				{ "family": "Titu", "given": "Abu Mohammed Naser" },
-				{ "family": "Batbaatar", "given": "Namuun" }
+				{
+					"family": "Jia",
+					"given": "Chunrong"
+				},
+				{
+					"family": "Titu",
+					"given": "Abu Mohammed Naser"
+				},
+				{
+					"family": "Batbaatar",
+					"given": "Namuun"
+				}
 			],
 			"container": "Space.com",
 			"publisher": "Future US",
@@ -161,8 +227,14 @@
 			"kind": "web",
 			"title": "Pollution from Musk's Unpermitted xAI Power Project Hits Hardest in Black Communities",
 			"authors": [
-				{ "family": "Raychaudhuri", "given": "Disha" },
-				{ "family": "Volcovici", "given": "Valerie" }
+				{
+					"family": "Raychaudhuri",
+					"given": "Disha"
+				},
+				{
+					"family": "Volcovici",
+					"given": "Valerie"
+				}
 			],
 			"container": "The Star",
 			"publisher": "Star Media Group",
@@ -174,7 +246,11 @@
 		{
 			"kind": "web",
 			"title": "Court Denies xAI's Motion to Dismiss Air Pollution Lawsuit against Elon Musk's Company",
-			"authors": [{ "name": "Earthjustice" }],
+			"authors": [
+				{
+					"name": "Earthjustice"
+				}
+			],
 			"container": "Earthjustice",
 			"publisher": "Earthjustice",
 			"published": "2026-10-30",
@@ -184,7 +260,12 @@
 		{
 			"kind": "web",
 			"title": "Judge Rejects xAI's Bid to Dismiss NAACP Lawsuit over Its Gas Turbines",
-			"authors": [{ "family": "Stan", "given": "Alina Maria" }],
+			"authors": [
+				{
+					"family": "Stan",
+					"given": "Alina Maria"
+				}
+			],
 			"container": "The Next Web",
 			"publisher": "The Next Web",
 			"published": "2026-11-01",
@@ -204,8 +285,14 @@
 			"key": true,
 			"title": "Musk Promised His Data Center Would Reuse Water. That's Now Stalled.",
 			"authors": [
-				{ "family": "Wittenberg", "given": "Ariel" },
-				{ "family": "Willson", "given": "Miranda" }
+				{
+					"family": "Wittenberg",
+					"given": "Ariel"
+				},
+				{
+					"family": "Willson",
+					"given": "Miranda"
+				}
 			],
 			"container": "E&E News",
 			"publisher": "POLITICO",
@@ -217,8 +304,14 @@
 			"kind": "web",
 			"title": "XAI Says It Will Resume Work on Its Water Reuse Facility in 2027",
 			"authors": [
-				{ "family": "Wittenberg", "given": "Ariel" },
-				{ "family": "Willson", "given": "Miranda" }
+				{
+					"family": "Wittenberg",
+					"given": "Ariel"
+				},
+				{
+					"family": "Willson",
+					"given": "Miranda"
+				}
 			],
 			"container": "E&E News",
 			"publisher": "POLITICO",
@@ -229,7 +322,12 @@
 		{
 			"kind": "web",
 			"title": "City Council Rejects Data Center Moratorium, Chooses Shorter Pause",
-			"authors": [{ "family": "Copeland", "given": "Raven" }],
+			"authors": [
+				{
+					"family": "Copeland",
+					"given": "Raven"
+				}
+			],
 			"container": "WREG",
 			"publisher": "Nexstar Media",
 			"published": "2026-10-21",
@@ -242,7 +340,11 @@
 			"title": "Colossus (data center)",
 			"url": "https://en.wikipedia.org/w/index.php?title=Colossus_(data_center)&oldid=1386646677",
 			"accessed": "2026-11-22",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-11-19"
@@ -252,7 +354,11 @@
 			"title": "Boxtown, Memphis",
 			"url": "https://en.wikipedia.org/w/index.php?title=Boxtown,_Memphis&oldid=1378746898",
 			"accessed": "2026-11-22",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-10-06"

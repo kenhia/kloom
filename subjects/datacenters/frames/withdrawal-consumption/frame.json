@@ -246,5 +246,11 @@
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-02-14"
 		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/small-water-systems",
+			"why": "A town's water system must be built for peak withdrawal on the hottest day, not for annual consumption."
+		}
 	]
 }

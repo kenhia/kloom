@@ -253,6 +253,10 @@
 		{
 			"to": "computing/internet",
 			"why": "The NSFNET backbone that the internet frame sees retired in April 1995 left long-distance traffic to commercial carriers, and the exchange points and carrier hotels here are where those carriers met."
+		},
+		{
+			"to": "datacenters/bubble",
+			"why": "The fiber and colocation overbuild of the late 1990s is the history both sides cite in arguing whether AI building is a bubble."
 		}
 	]
 }

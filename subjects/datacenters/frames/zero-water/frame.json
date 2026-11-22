@@ -2,7 +2,9 @@
 	"id": "zero-water",
 	"topic": "Zero-water cooling",
 	"asOf": "2026-11-22",
-	"position": { "label": "Zero water" },
+	"position": {
+		"label": "Zero water"
+	},
 	"scene": {
 		"headline": "The loop stays",
 		"accent": "CLOSED.",
@@ -25,6 +27,10 @@
 		{
 			"to": "chemistry/where-chemistry-is",
 			"why": "Most two-phase immersion coolants are PFAS, the persistent fluorinated chemicals whose bonds and new limits that frame explains."
+		},
+		{
+			"to": "datacenters/power-plant-water",
+			"why": "Less water on site means more electricity, and so more water at the power plant."
 		}
 	],
 	"citations": [
@@ -32,7 +38,12 @@
 			"kind": "web",
 			"key": true,
 			"title": "Sustainable by Design: Next-Generation Datacenters Consume Zero Water for Cooling",
-			"authors": [{ "family": "Solomon", "given": "Steve" }],
+			"authors": [
+				{
+					"family": "Solomon",
+					"given": "Steve"
+				}
+			],
 			"container": "Microsoft Cloud Blog",
 			"publisher": "Microsoft",
 			"published": "2024-12-09",
@@ -43,7 +54,12 @@
 		{
 			"kind": "web",
 			"title": "Inside the World's Most Powerful AI Datacenter",
-			"authors": [{ "family": "Guthrie", "given": "Scott" }],
+			"authors": [
+				{
+					"family": "Guthrie",
+					"given": "Scott"
+				}
+			],
 			"container": "The Official Microsoft Blog",
 			"publisher": "Microsoft",
 			"published": "2025-09-18",
@@ -53,7 +69,11 @@
 		{
 			"kind": "report",
 			"title": "Microsoft Datacenters in Wisconsin",
-			"authors": [{ "name": "Microsoft" }],
+			"authors": [
+				{
+					"name": "Microsoft"
+				}
+			],
 			"publisher": "Microsoft",
 			"published": "2025-10",
 			"url": "https://local.microsoft.com/wp-content/uploads/2025/10/Microsoft-datacenters-in-Wisconsin.pdf",
@@ -64,8 +84,14 @@
 			"key": true,
 			"title": "Inside Microsoft's Two-Decade Push to Cut Water Intensity while Scaling for Growth",
 			"authors": [
-				{ "family": "Priest", "given": "Judy" },
-				{ "family": "Solomon", "given": "Steve" }
+				{
+					"family": "Priest",
+					"given": "Judy"
+				},
+				{
+					"family": "Solomon",
+					"given": "Steve"
+				}
 			],
 			"container": "The Official Microsoft Blog",
 			"publisher": "Microsoft",
@@ -79,13 +105,34 @@
 			"key": true,
 			"title": "Using Life Cycle Assessment to Drive Innovation for Sustainable Cool Clouds",
 			"authors": [
-				{ "family": "Alissa", "given": "Husam A." },
-				{ "family": "Nick", "given": "Teresa A." },
-				{ "family": "Raniwala", "given": "Ashish" },
-				{ "family": "Arribas Herranz", "given": "Alberto" },
-				{ "family": "Frost", "given": "Kali" },
-				{ "family": "Manousakis", "given": "Ioannis" },
-				{ "family": "Lio", "given": "Kari" }
+				{
+					"family": "Alissa",
+					"given": "Husam A."
+				},
+				{
+					"family": "Nick",
+					"given": "Teresa A."
+				},
+				{
+					"family": "Raniwala",
+					"given": "Ashish"
+				},
+				{
+					"family": "Arribas Herranz",
+					"given": "Alberto"
+				},
+				{
+					"family": "Frost",
+					"given": "Kali"
+				},
+				{
+					"family": "Manousakis",
+					"given": "Ioannis"
+				},
+				{
+					"family": "Lio",
+					"given": "Kari"
+				}
 			],
 			"etAl": true,
 			"container": "Nature",
@@ -108,7 +155,11 @@
 			"kind": "report",
 			"key": true,
 			"title": "Environmental Report 2026",
-			"authors": [{ "name": "Google" }],
+			"authors": [
+				{
+					"name": "Google"
+				}
+			],
 			"publisher": "Google",
 			"published": "2026",
 			"url": "https://sustainability.google/files/google-2026-environmental-report.pdf",
@@ -135,10 +186,22 @@
 			"kind": "article",
 			"title": "Small Bottle, Big Pipe: Quantifying and Addressing the Impact of Data Centers on Public Water Systems",
 			"authors": [
-				{ "family": "Han", "given": "Yuelin" },
-				{ "family": "Li", "given": "Pengfei" },
-				{ "family": "Wierman", "given": "Adam" },
-				{ "family": "Ren", "given": "Shaolei" }
+				{
+					"family": "Han",
+					"given": "Yuelin"
+				},
+				{
+					"family": "Li",
+					"given": "Pengfei"
+				},
+				{
+					"family": "Wierman",
+					"given": "Adam"
+				},
+				{
+					"family": "Ren",
+					"given": "Shaolei"
+				}
 			],
 			"container": "arXiv preprint arXiv:2603.02705",
 			"published": "2026-03-03",
@@ -148,7 +211,12 @@
 		{
 			"kind": "report",
 			"title": "Thirsty Data and the Lone Star State: The Impact of Data Center Growth on Texas' Water Supply",
-			"authors": [{ "family": "Cook", "given": "Margaret" }],
+			"authors": [
+				{
+					"family": "Cook",
+					"given": "Margaret"
+				}
+			],
 			"publisher": "Houston Advanced Research Center",
 			"published": "2026-01",
 			"url": "https://harcresearch.org/wp-content/uploads/2026/01/Thirsty-Data-Water-Use-and-The-Projected-Data-Center-Boom-in-Texas.pdf",
@@ -159,13 +227,34 @@
 			"kind": "report",
 			"title": "2024 United States Data Center Energy Usage Report",
 			"authors": [
-				{ "family": "Shehabi", "given": "Arman" },
-				{ "family": "Smith", "given": "Sarah J." },
-				{ "family": "Hubbard", "given": "Alex" },
-				{ "family": "Newkirk", "given": "Alex" },
-				{ "family": "Lei", "given": "Nuoa" },
-				{ "family": "Siddik", "given": "Md Abu Bakar" },
-				{ "family": "Holecek", "given": "Billie" }
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Smith",
+					"given": "Sarah J."
+				},
+				{
+					"family": "Hubbard",
+					"given": "Alex"
+				},
+				{
+					"family": "Newkirk",
+					"given": "Alex"
+				},
+				{
+					"family": "Lei",
+					"given": "Nuoa"
+				},
+				{
+					"family": "Siddik",
+					"given": "Md Abu Bakar"
+				},
+				{
+					"family": "Holecek",
+					"given": "Billie"
+				}
 			],
 			"etAl": true,
 			"place": "Berkeley, CA",
@@ -191,7 +280,11 @@
 			"title": "Immersion cooling",
 			"url": "https://en.wikipedia.org/w/index.php?title=Immersion_cooling&oldid=1386175475",
 			"accessed": "2026-11-22",
-			"authors": [{ "name": "Wikipedia contributors" }],
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
 			"container": "Wikipedia, The Free Encyclopedia",
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-11-17"
@@ -203,7 +296,11 @@
 			"accessed": "2026-11-22",
 			"licence": "CC BY-SA 4.0",
 			"file": "dry-cooler.jpg",
-			"authors": [{ "name": "Nico aspe 22" }],
+			"authors": [
+				{
+					"name": "Nico aspe 22"
+				}
+			],
 			"container": "Wikimedia Commons",
 			"published": "2023-11-27",
 			"language": "it"

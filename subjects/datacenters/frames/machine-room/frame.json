@@ -27,6 +27,14 @@
 		{
 			"to": "datacenters/inside-a-data-center",
 			"why": "The raised floor, the room's own air conditioning and water to the processor, set out for IBM's machine rooms, are the parts of today's data hall whose overhead power usage effectiveness measures."
+		},
+		{
+			"to": "datacenters/ai-cluster",
+			"why": "Water ran to the chip modules of IBM's mainframes decades before liquid cooling returned for AI racks."
+		},
+		{
+			"to": "datacenters/carrier-hotel",
+			"why": "After the machine room, the next room for computers was the shared building of the 1990s."
 		}
 	],
 	"citations": [

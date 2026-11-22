@@ -160,5 +160,11 @@
 			"licence": "MIT",
 			"file": "computer-tax.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/ashburn-power",
+			"why": "The lines that carry the county's data centers' power are approved by the state, and their cost is settled outside the county's budget."
+		}
 	]
 }

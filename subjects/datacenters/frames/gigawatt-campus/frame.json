@@ -24,6 +24,22 @@
 		{
 			"to": "ai/compute",
 			"why": "AI compute and hardware names Colossus and Stargate among the clusters behind frontier models, and Epoch AI's finding that the largest single data center's capacity doubled every seven months; this frame follows those campuses from announcement to what was built."
+		},
+		{
+			"to": "datacenters/gas-plants",
+			"why": "Meta's Hyperion campus in Louisiana is to run on three new Entergy gas plants."
+		},
+		{
+			"to": "datacenters/memphis-turbines",
+			"why": "xAI's Colossus campus in Memphis ran first on gas turbines that neighbors and the county argued over."
+		},
+		{
+			"to": "datacenters/zero-water",
+			"why": "Microsoft says its Fairwater campus is cooled in a closed loop, the zero-water design."
+		},
+		{
+			"to": "datacenters/power-demand",
+			"why": "Developers asking several utilities for power for one project inflate the requests that forecasts are made from."
 		}
 	],
 	"citations": [

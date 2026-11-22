@@ -23,6 +23,14 @@
 		{
 			"to": "food/refrigeration",
 			"why": "A data center's chillers run the refrigeration cycle that reading tables, and whether their condensers give the heat to the air or to evaporating water decides how much water a site uses."
+		},
+		{
+			"to": "datacenters/zero-water",
+			"why": "The dry route at the wall evaporates nothing but costs electricity, the trade Microsoft's zero-water design makes."
+		},
+		{
+			"to": "datacenters/power-plant-water",
+			"why": "Its estimate that power plants consume about twelve times a data center's on-site water is explained frame by frame there."
 		}
 	],
 	"citations": [

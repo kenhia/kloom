@@ -207,5 +207,15 @@
 			"container": "Flickr, via Wikimedia Commons",
 			"published": "2015-05-17"
 		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/carrier-hotel",
+			"why": "Until The Dalles, Google grew in buildings run by others, the colocation centers of the 1990s."
+		},
+		{
+			"to": "datacenters/small-water-systems",
+			"why": "The Dalles' fight over releasing Google's water records began at this campus."
+		}
 	]
 }

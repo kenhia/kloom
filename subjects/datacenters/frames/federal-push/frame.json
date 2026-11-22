@@ -23,6 +23,10 @@
 		{
 			"to": "ai/governance",
 			"why": "Governance follows the federal AI orders of 2025, EO 14365's challenge to state AI laws among them; this frame follows the orders on data centers, and the room EO 14365 leaves for state data center rules."
+		},
+		{
+			"to": "datacenters/race-for-compute",
+			"why": "The orders' national-security case is the race argument."
 		}
 	],
 	"citations": [

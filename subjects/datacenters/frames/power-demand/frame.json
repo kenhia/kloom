@@ -20,6 +20,10 @@
 		{
 			"to": "computing/where-computing-is",
 			"why": "Both cite the International Energy Agency's estimates of the world's data center electricity, 415 TWh in 2024 and 485 TWh in 2025, and Jonathan Koomey's work on what computing costs in energy."
+		},
+		{
+			"to": "datacenters/who-pays-grid",
+			"why": "How much load comes is half the question of rates; who pays for the lines and plants it needs is the other half."
 		}
 	],
 	"citations": [

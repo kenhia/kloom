@@ -175,5 +175,15 @@
 			"publisher": "Wikimedia Foundation",
 			"published": "2026-10-23"
 		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/zoning",
+			"why": "The Gateway went through the plan amendment, rezoning and proffers that zoning explains."
+		},
+		{
+			"to": "datacenters/noise",
+			"why": "Its proffers capped noise at 60 and 55 decibels but exempted generators."
+		}
 	]
 }

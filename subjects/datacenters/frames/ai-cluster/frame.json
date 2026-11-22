@@ -27,6 +27,18 @@
 		{
 			"to": "datacenters/inside-a-data-center",
 			"why": "Inside a data center gives the 132-kilowatt liquid-cooled rack and the ratios a building is measured by; this frame shows the training cluster that drove racks toward that density."
+		},
+		{
+			"to": "datacenters/water-totals",
+			"why": "The AP's report on Microsoft's West Des Moines campus in July 2022 is one of few measured water figures for a training cluster."
+		},
+		{
+			"to": "datacenters/flexible-load",
+			"why": "Meta's Llama 3 paper reports power swings of tens of megawatts across the cluster as jobs paused and resumed."
+		},
+		{
+			"to": "datacenters/carbon-accounting",
+			"why": "Meta reports its emissions under both accounting methods, the gap that frame explains."
 		}
 	],
 	"citations": [

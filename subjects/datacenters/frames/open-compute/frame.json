@@ -191,5 +191,15 @@
 			"container": "Oregon State Archives, via Wikimedia Commons",
 			"published": "2014-07-08"
 		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/google-dalles",
+			"why": "Five years after Google built in secret at The Dalles, Facebook published the designs of its own Oregon campus."
+		},
+		{
+			"to": "datacenters/inside-a-data-center",
+			"why": "Facebook's 1.07 PUE for Prineville stood against the 1.98 industry average Uptime reported for 2011."
+		}
 	]
 }

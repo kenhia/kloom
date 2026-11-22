@@ -252,5 +252,11 @@
 			"licence": "MIT",
 			"file": "exempted.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/tax-base",
+			"why": "The state's sales tax exemption and the county's property tax on the same equipment are the two sides of a data center's tax bill."
+		}
 	]
 }

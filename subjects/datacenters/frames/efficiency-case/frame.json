@@ -23,6 +23,10 @@
 		{
 			"to": "datacenters/inside-a-data-center",
 			"why": "Power usage effectiveness, the overhead ratio that frame defines, fell by a quarter from 2010 to 2018 and is one of the four reasons the Science estimate gives for nearly flat energy use."
+		},
+		{
+			"to": "datacenters/power-demand",
+			"why": "The flat decade the efficiency argument rests on ended after 2017, the turn the national estimates and forecasts start from."
 		}
 	],
 	"citations": [

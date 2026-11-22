@@ -24,6 +24,10 @@
 		{
 			"to": "physics/entropy",
 			"why": "A SAGE center spent two-thirds of its power on lighting and air conditioning, because moving heat out of a cool building into a warm day takes work, as the second law of thermodynamics says."
+		},
+		{
+			"to": "datacenters/cooling-tower",
+			"why": "IBM's 1959 site drawing for a SAGE center put a cooling tower beside the power building."
 		}
 	],
 	"citations": [

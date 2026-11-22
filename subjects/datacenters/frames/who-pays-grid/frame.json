@@ -23,6 +23,10 @@
 		{
 			"to": "datacenters/the-fight",
 			"why": "Utility bills were the cost opponents named most in Gallup's 2026 poll and the reason for opposing most chosen in Heatmap's; this frame follows how those bills are set."
+		},
+		{
+			"to": "datacenters/gas-plants",
+			"why": "Who pays for new generation built for data centers is argued plant by plant in Louisiana and Georgia."
 		}
 	],
 	"citations": [

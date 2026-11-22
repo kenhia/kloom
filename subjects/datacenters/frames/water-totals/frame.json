@@ -252,5 +252,15 @@
 			"licence": "MIT",
 			"file": "direct.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/withdrawal-consumption",
+			"why": "Two water numbers for one site can differ by multiples because one is water withdrawn and the other water consumed."
+		},
+		{
+			"to": "datacenters/dry-places",
+			"why": "The national totals are small; where the water is drawn, in Arizona, Texas, Chile or Spain, is the local question."
+		}
 	]
 }

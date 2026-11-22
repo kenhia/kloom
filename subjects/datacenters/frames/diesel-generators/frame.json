@@ -273,6 +273,10 @@
 		{
 			"to": "datacenters/inside-a-data-center",
 			"why": "The batteries of the uninterruptible power supply carry a data center for the seconds its diesel generators take to start, the chain that reading lays out."
+		},
+		{
+			"to": "datacenters/memphis-turbines",
+			"why": "Gas turbines run on site are the other kind of on-site power, and Memphis is their contested case."
 		}
 	]
 }

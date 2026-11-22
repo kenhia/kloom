@@ -24,6 +24,10 @@
 		{
 			"to": "datacenters/the-fight",
 			"why": "Gallup asked about a nuclear plant nearby in the same words as a data center in March 2026: 53% opposed the plant, 71% the data center."
+		},
+		{
+			"to": "datacenters/who-pays-grid",
+			"why": "FERC's 2024 rejection turned on whether a plant serving one data center shifts grid costs to others."
 		}
 	],
 	"citations": [

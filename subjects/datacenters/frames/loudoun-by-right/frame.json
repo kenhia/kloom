@@ -180,5 +180,15 @@
 			"accessed": "2026-11-22",
 			"note": "September/October 2026 issue: the 2000 ruling and 2014 amendment, Supervisor Turner's paper, and the 2026 session"
 		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/zoning",
+			"why": "Loudoun's change moved data centers from approval by right to a special exception, the distinction zoning explains."
+		},
+		{
+			"to": "datacenters/ashburn-power",
+			"why": "Residents' complaints about new lines and substations were among the reasons supervisors gave for the change."
+		}
 	]
 }

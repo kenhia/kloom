@@ -23,6 +23,10 @@
 		{
 			"to": "datacenters/inside-a-data-center",
 			"why": "Inside a data center introduces PUE and WUE as The Green Grid's two ratios; this frame follows how WUE is defined, reported and traded against PUE."
+		},
+		{
+			"to": "datacenters/zero-water",
+			"why": "Microsoft's zero-water design trades a lower WUE for a higher PUE."
 		}
 	],
 	"citations": [
