@@ -9,7 +9,13 @@
 				"title": "Loudoun County",
 				"labelKind": "date",
 				"palette": "chamber",
-				"frames": ["aol-dulles", "data-center-alley", "loudoun-revenue"]
+				"frames": [
+					"aol-dulles",
+					"data-center-alley",
+					"loudoun-revenue",
+					"ashburn-power",
+					"loudoun-by-right"
+				]
 			}
 		]
 	}

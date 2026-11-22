@@ -1,0 +1,39 @@
+{
+	"title": "Data center demand billed by Dominion Energy, 2013–2025",
+	"description": "Bar chart of the peak data center demand Dominion Energy billed in its service territory each year, in megawatts, from the company's own presentation to PJM of September 2026: 462 in 2013, 532 in 2014, 636 in 2015, 753 in 2016, 931 in 2017, 1,113 in 2018, 1,421 in 2019, 1,808 in 2020, 2,302 in 2021, 2,767 in 2022, 3,183 in 2023, 3,636 in 2024 and 4,237 in 2025.",
+	"heading": "DATA CENTER DEMAND DOMINION BILLED · MW",
+	"unit": "",
+	"width": 680,
+	"barWidth": 30,
+	"axis": {
+		"min": 0,
+		"max": 5000,
+		"ticks": [
+			[0, "0"],
+			[1000, "1,000"],
+			[2000, "2,000"],
+			[3000, "3,000"],
+			[4000, "4,000"],
+			[5000, "5,000"]
+		]
+	},
+	"bars": [
+		{ "label": "2013", "value": 462 },
+		{ "label": "2014", "value": 532 },
+		{ "label": "2015", "value": 636 },
+		{ "label": "2016", "value": 753 },
+		{ "label": "2017", "value": 931 },
+		{ "label": "2018", "value": 1113, "display": "1,113" },
+		{ "label": "2019", "value": 1421, "display": "1,421" },
+		{ "label": "2020", "value": 1808, "display": "1,808" },
+		{ "label": "2021", "value": 2302, "display": "2,302" },
+		{ "label": "2022", "value": 2767, "display": "2,767", "highlight": true },
+		{ "label": "2023", "value": 3183, "display": "3,183" },
+		{ "label": "2024", "value": 3636, "display": "3,636" },
+		{ "label": "2025", "value": 4237, "display": "4,237" }
+	],
+	"source": {
+		"container": "Dominion Energy, LSE 20-Year Data Center Forecast, presented to PJM, September 29, 2026, slide 3",
+		"url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260929/20260929-item-5ai---dominion_energy.pdf"
+	}
+}
