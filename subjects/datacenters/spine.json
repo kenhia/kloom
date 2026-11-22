@@ -62,7 +62,7 @@
 			"title": "Who decides",
 			"labelKind": "category",
 			"palette": "chamber",
-			"frames": ["tax-breaks", "community-benefits"]
+			"frames": ["tax-breaks", "community-benefits", "moratoriums", "federal-push"]
 		},
 		{
 			"id": "next",
