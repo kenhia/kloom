@@ -37,6 +37,13 @@
 			]
 		},
 		{
+			"id": "water",
+			"title": "Water",
+			"labelKind": "category",
+			"palette": "tower",
+			"frames": ["where-water-goes", "water-totals"]
+		},
+		{
 			"id": "next",
 			"title": "What comes next",
 			"labelKind": "category",

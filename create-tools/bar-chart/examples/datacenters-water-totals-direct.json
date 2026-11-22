@@ -1,0 +1,28 @@
+{
+	"title": "On-site water consumed by US data centers, modeled, 2014–2028",
+	"description": "Bar chart of Lawrence Berkeley National Laboratory's modeled estimate of the water consumed on site by all US data centers, in billions of liters a year: 21.2 in 2014, about 29 in 2018, 66 in 2023, and a projection for 2028 of about 146 at the low end and about 275 at the high end. The 2018 and 2028 values are read from the report's figure 5.9. Data: 2024 United States Data Center Energy Usage Report, figure 5.9.",
+	"heading": "ON-SITE WATER CONSUMED · BILLION LITERS A YEAR · MODELED",
+	"unit": "",
+	"width": 560,
+	"axis": {
+		"min": 0,
+		"max": 300,
+		"ticks": [
+			[0, "0"],
+			[100, "100"],
+			[200, "200"],
+			[300, "300"]
+		]
+	},
+	"bars": [
+		{ "label": "2014", "value": 21.2 },
+		{ "label": "2018", "value": 29, "display": "~29" },
+		{ "label": "2023", "value": 66, "highlight": true },
+		{ "label": "2028", "sublabel": "LOW", "value": 146, "display": "~146" },
+		{ "label": "2028", "sublabel": "HIGH", "value": 275, "display": "~275" }
+	],
+	"source": {
+		"container": "Lawrence Berkeley National Laboratory, 2024 United States Data Center Energy Usage Report, figure 5.9",
+		"url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf"
+	}
+}

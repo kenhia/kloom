@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M150 40 L150 262"/>
+		<path pathLength="1" d="M236 40 L236 262"/>
+		<path pathLength="1" d="M146 58 L154 58"/>
+		<path pathLength="1" d="M232 58 L240 58"/>
+		<path pathLength="1" d="M24 280 L86.7 280"/>
+		<path pathLength="1" d="M24 276 L24 284"/>
+		<path pathLength="1" d="M86.7 276 L86.7 284"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M36 44 C93.0 44 93.0 66 150 66 L150 203.2459814186698 C93.0 203.2459814186698 93.0 181.2459814186698 36 181.2459814186698 Z"/>
+		<path pathLength="1" d="M36 199.2459814186698 C93.0 199.2459814186698 93.0 203.2459814186698 150 203.2459814186698 L150 224.49284766258663 C93.0 224.49284766258663 93.0 220.49284766258663 36 220.49284766258663 Z"/>
+		<path pathLength="1" d="M36 238.49284766258663 C93.0 238.49284766258663 93.0 224.49284766258663 150 224.49284766258663 L150 236.0 C93.0 236.0 93.0 250.0 36 250.0 Z"/>
+		<path pathLength="1" d="M150 66 L236 66"/>
+		<path pathLength="1" d="M150 236 L236 236"/>
+		<path pathLength="1" d="M236 66 C283.0 66 283.0 34 330 34 L330 165.90606105294205 C283.0 165.90606105294205 283.0 197.90606105294205 236 197.90606105294205 Z"/>
+		<path pathLength="1" d="M236 197.90606105294205 C283.0 197.90606105294205 283.0 220 330 220 L330 258.09393894705795 C283.0 258.09393894705795 283.0 236.0 236 236.0 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M336 52 q 6 -4 12 0 q 6 4 12 0"/>
+		<path pathLength="1" d="M336 74 q 6 -4 12 0 q 6 4 12 0"/>
+		<path pathLength="1" d="M336 96 q 6 -4 12 0 q 6 4 12 0"/>
+		<path pathLength="1" d="M336 118 q 6 -4 12 0 q 6 4 12 0"/>
+		<path pathLength="1" d="M336 140 q 6 -4 12 0 q 6 4 12 0"/>
+		<path pathLength="1" d="M334 239 L360 239"/>
+		<path pathLength="1" d="M358.4 240.8 L362 239 L358.4 237.3"/>
+		<path pathLength="1" d="M185 48 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0"/>
+		<path pathLength="1" d="M193 56 L193 66"/>
+		<path pathLength="1" d="M193 48 L198 44"/>
+	</g>
+	<g>
+		<text x="40" y="55" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">POTABLE</text>
+		<text x="40" y="210.2" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NON-POTABLE</text>
+		<text x="40" y="259" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">RECLAIMED</text>
+		<text x="24" y="22" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GOOGLE DATA CENTERS, 2025, MILLION GALLONS</text>
+		<text x="193" y="151" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">WITHDRAWN</text>
+		<text x="193" y="160" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">13,562</text>
+		<text x="368" y="30" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CONSUMED</text>
+		<text x="300" y="106" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10,523</text>
+		<text x="376" y="216" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DISCHARGED</text>
+		<text x="300" y="242" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">3,039</text>
+		<text x="24" y="272" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SCALE: 5,000 MILLION GALLONS</text>
+	</g>
+</svg>

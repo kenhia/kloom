@@ -1,0 +1,256 @@
+{
+	"id": "water-totals",
+	"topic": "How much water data centers use",
+	"position": {
+		"label": "Totals"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "The national total is an",
+		"accent": "ESTIMATE.",
+		"palette": "tower",
+		"illustration": "scene.svg",
+		"metadata": ["LBNL · GOOGLE · MICROSOFT · META · AMAZON", "USGS · CALIFORNIA · 2014–2028"],
+		"counter": {
+			"value": "66 billion",
+			"label": "liters consumed on site, US data centers, 2023 (modeled)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2024 United States Data Center Energy Usage Report",
+			"authors": [
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Smith",
+					"given": "Sarah J."
+				},
+				{
+					"family": "Hubbard",
+					"given": "Alex"
+				},
+				{
+					"family": "Newkirk",
+					"given": "Alex"
+				},
+				{
+					"family": "Lei",
+					"given": "Nuoa"
+				},
+				{
+					"family": "Siddik",
+					"given": "Md Abu Bakar"
+				},
+				{
+					"family": "Holecek",
+					"given": "Billie"
+				}
+			],
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"number": "LBNL-2001637",
+			"published": "2024-12",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+			"accessed": "2026-11-22",
+			"note": "Direct water, figure 5.9 and p. 55; indirect water, pp. 56–58; the national WUE, figure 4.7"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Environmental Report 2026",
+			"authors": [
+				{
+					"name": "Google"
+				}
+			],
+			"publisher": "Google",
+			"published": "2026-06",
+			"url": "https://sustainability.google/reports/google-2026-environmental-report/",
+			"accessed": "2026-11-22",
+			"note": "Water use by data centers and by location, 2025, pp. 35 and 96–97, the company's own figures"
+		},
+		{
+			"kind": "report",
+			"title": "2026 Environmental Data Fact Sheet",
+			"authors": [
+				{
+					"name": "Microsoft"
+				}
+			],
+			"publisher": "Microsoft",
+			"published": "2026-07",
+			"url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/2026-Microsoft-Environmental-Data-Fact-Sheet-PDF.pdf",
+			"accessed": "2026-11-22",
+			"note": "Water, tables 8 and 15, and the estimation method, p. 17",
+			"key": true
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2026 Sustainability Report",
+			"authors": [
+				{
+					"name": "Meta"
+				}
+			],
+			"publisher": "Meta",
+			"published": "2026-11-19",
+			"url": "https://sustainability.atmeta.com/asset/2026-sustainability-report",
+			"accessed": "2026-11-22",
+			"note": "Water withdrawal and consumption by facility, pp. 75–77"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Water Use Across the Conterminous United States, Water Years 2010–20",
+			"authors": [
+				{
+					"family": "Medalie",
+					"given": "Laura"
+				},
+				{
+					"family": "Galanter",
+					"given": "Amy E."
+				},
+				{
+					"family": "Martinez",
+					"given": "Anthony J."
+				},
+				{
+					"family": "Archer",
+					"given": "Althea A."
+				},
+				{
+					"family": "Luukkonen",
+					"given": "Carol L."
+				},
+				{
+					"family": "Harris",
+					"given": "Melissa A."
+				},
+				{
+					"family": "Haynes",
+					"given": "Jonathan V."
+				}
+			],
+			"place": "Reston, VA",
+			"publisher": "U.S. Geological Survey",
+			"number": "Professional Paper 1894-D",
+			"published": "2025-01-15",
+			"doi": "10.3133/pp1894D",
+			"url": "https://pubs.usgs.gov/publication/pp1894D/full",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "2025 Amazon Sustainability Report",
+			"authors": [
+				{
+					"name": "Amazon"
+				}
+			],
+			"publisher": "Amazon",
+			"published": "2026",
+			"url": "https://sustainability.aboutamazon.com/2025-amazon-sustainability-report.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Data Centers and Water Consumption",
+			"authors": [
+				{
+					"family": "Yañez-Barnuevo",
+					"given": "Miguel"
+				}
+			],
+			"container": "EESI Articles",
+			"publisher": "Environmental and Energy Study Institute",
+			"published": "2025-06-25",
+			"url": "https://www.eesi.org/articles/view/data-centers-and-water-consumption",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "Regulating Data Center Water Use in California",
+			"authors": [
+				{
+					"family": "Grimm",
+					"given": "Marie"
+				},
+				{
+					"family": "Green Nylen",
+					"given": "Nell"
+				},
+				{
+					"family": "Kiparsky",
+					"given": "Michael"
+				}
+			],
+			"place": "Berkeley, CA",
+			"publisher": "Center for Law, Energy & the Environment, UC Berkeley School of Law",
+			"published": "2026-02",
+			"url": "https://www.law.berkeley.edu/wp-content/uploads/archive/2026/02/Regulating-Data-Center-Water-Use-in-CA_Report_CLEE-2026.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "Uptime Institute Global Data Center Survey 2025",
+			"authors": [
+				{
+					"name": "Uptime Institute"
+				}
+			],
+			"publisher": "Uptime Institute",
+			"number": "UII Keynote Report 180",
+			"published": "2025-07",
+			"url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf",
+			"accessed": "2026-11-22",
+			"note": "Sustainability metrics collected, figure 6"
+		},
+		{
+			"kind": "web",
+			"title": "Governor Newsom Signs Most Comprehensive Data Center Laws in the Nation",
+			"container": "Office of Governor Gavin Newsom",
+			"publisher": "State of California",
+			"published": "2026-09-21",
+			"url": "https://www.gov.ca.gov/2026/09/21/governor-newsom-signs-most-comprehensive-data-center-laws-in-the-nation/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "California Links Data Center Permitting and Licensing to New Water Use Disclosure and Drought Planning Obligations",
+			"authors": [
+				{
+					"family": "Paul",
+					"given": "Tara E."
+				}
+			],
+			"container": "Allen Matkins Legal Alerts",
+			"publisher": "Allen Matkins",
+			"published": "2026-10-05",
+			"url": "https://www.allenmatkins.com/real-ideas/california-links-data-center-permitting-and-licensing-to-new-water-use-disclosure-and-drought-planning-obligations.html",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "media",
+			"title": "On-site water consumed by US data centers, modeled, 2014–2028",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Lawrence Berkeley National Laboratory, 2024 United States Data Center Energy Usage Report, figure 5.9",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+			"accessed": "2026-11-22",
+			"licence": "MIT",
+			"file": "direct.svg"
+		}
+	]
+}
