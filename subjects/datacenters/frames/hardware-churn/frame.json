@@ -233,5 +233,15 @@
 			"licence": "MIT",
 			"file": "capital-goods.svg"
 		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/bubble",
+			"why": "How long servers and AI chips are kept in use sets both their embodied carbon per year and the depreciation the bubble argument turns on."
+		},
+		{
+			"to": "datacenters/carbon-accounting",
+			"why": "Capital goods dominate the companies' emissions only under market-based counting, which that frame explains."
+		}
 	]
 }

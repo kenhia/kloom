@@ -24,6 +24,10 @@
 		{
 			"to": "datacenters/carbon-accounting",
 			"why": "Ireland's 2025 rule asks a new data center to match 80% of a year's demand with new Irish renewables, the annual matching that Counting a data center's carbon explains and that Friends of the Earth called an accounting exercise."
+		},
+		{
+			"to": "datacenters/who-pays-grid",
+			"why": "Ireland's network-tariff review asks the question American rate cases ask: who pays for the grid that data centers need."
 		}
 	],
 	"citations": [

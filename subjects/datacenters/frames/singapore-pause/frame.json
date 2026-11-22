@@ -21,6 +21,10 @@
 		{
 			"to": "datacenters/wue",
 			"why": "Johor admits new data centers only below a water usage effectiveness of 1.8, a threshold it says matches Singapore's, and that frame explains the ratio."
+		},
+		{
+			"to": "datacenters/germany-efficiency-act",
+			"why": "Both countries set legal efficiency limits for data centers, Singapore through licensing and Germany through its energy efficiency law."
 		}
 	],
 	"citations": [

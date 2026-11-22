@@ -263,6 +263,18 @@
 		{
 			"to": "ai/open-weights",
 			"why": "DeepSeek's V3, the openly released model whose reported training cost set off the Jevons argument of January 2025, is one of the open-weights models that frame follows."
+		},
+		{
+			"to": "datacenters/efficiency-case",
+			"why": "Efficiency per computation rose for decades while total use first held flat and then rose, the evidence both readings of rebound draw on."
+		},
+		{
+			"to": "datacenters/bubble",
+			"why": "Whether cheaper AI computing raises total demand is half of whether the building will be repaid."
+		},
+		{
+			"to": "datacenters/race-for-compute",
+			"why": "DeepSeek's January 2025 claim of cheap training cut both ways for the race argument: less compute needed, or more use."
 		}
 	]
 }

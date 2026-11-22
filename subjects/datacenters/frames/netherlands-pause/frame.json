@@ -21,6 +21,10 @@
 		{
 			"to": "datacenters/withdrawal-consumption",
 			"why": "Microsoft drew 84 million liters at Middenmeer in 2021 and says 36 million went back, so the campus's water was two numbers, the withdrawal and the consumption that frame tells apart."
+		},
+		{
+			"to": "datacenters/moratoriums",
+			"why": "The Netherlands paused hyperscale building as a nation, where the American pauses are county by county."
 		}
 	],
 	"citations": [
