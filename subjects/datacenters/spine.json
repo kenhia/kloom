@@ -89,7 +89,7 @@
 			"title": "What comes next",
 			"labelKind": "category",
 			"palette": "horizon",
-			"frames": ["bubble"]
+			"frames": ["rebound", "heat-reuse", "hardware-churn", "bubble"]
 		}
 	]
 }

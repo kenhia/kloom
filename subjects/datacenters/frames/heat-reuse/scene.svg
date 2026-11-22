@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M200 60 L200 248"/>
+		<path pathLength="1" d="M40 152 L360 152"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M150 182 L150 122"/>
+		<path pathLength="1" d="M150 122 L150 92 L188 92"/>
+		<path pathLength="1" d="M188 92 a12 12 0 1 0 24 0 a12 12 0 1 0 -24 0"/>
+		<path pathLength="1" d="M212 92 L250 92 L250 122"/>
+		<path pathLength="1" d="M250 122 L250 182"/>
+		<path pathLength="1" d="M250 182 L250 212 L208 212"/>
+		<path pathLength="1" d="M208 204 L192 220 L192 204 L208 220 Z"/>
+		<path pathLength="1" d="M192 212 L150 212 L150 182"/>
+		<path pathLength="1" d="M150 124 L140 131 L150 138 L140 145 L150 152 L140 159 L150 166 L140 173 L150 180"/>
+		<path pathLength="1" d="M250 124 L260 131 L250 138 L260 145 L250 152 L260 159 L250 166 L260 173 L250 180"/>
+		<path pathLength="1" d="M20 112 L82 112 L82 192 L20 192 Z"/>
+		<path pathLength="1" d="M318 112 L380 112 L380 192 L318 192 Z"/>
+		<path pathLength="1" d="M35.5 128 L35.5 192"/>
+		<path pathLength="1" d="M51 128 L51 192"/>
+		<path pathLength="1" d="M66.5 128 L66.5 192"/>
+		<path pathLength="1" d="M318 140 L349 118 L380 140"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M82 132 L134 132 L134 140"/>
+		<path pathLength="1" d="M134 166 L134 176 L82 176"/>
+		<path pathLength="1" d="M117.5 134.2 L122 132 L117.5 129.8"/>
+		<path pathLength="1" d="M102.5 173.8 L98 176 L102.5 178.2"/>
+		<path pathLength="1" d="M266 140 L266 132 L318 132"/>
+		<path pathLength="1" d="M318 176 L266 176 L266 166"/>
+		<path pathLength="1" d="M297.5 134.2 L302 132 L297.5 129.8"/>
+		<path pathLength="1" d="M282.5 173.8 L278 176 L282.5 178.2"/>
+		<path pathLength="1" d="M200 40 L200 54 L194 62 L206 70 L200 80"/>
+		<path pathLength="1" d="M197.8 75.5 L200 80 L202.2 75.5"/>
+		<path pathLength="1" d="M152.2 136.5 L150 132 L147.8 136.5"/>
+		<path pathLength="1" d="M247.8 167.5 L250 172 L252.2 167.5"/>
+	</g>
+	<g>
+		<text x="200" y="34" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ELECTRICITY</text>
+		<text x="200" y="74" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COMPRESSOR</text>
+		<text x="150" y="232" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EVAPORATOR</text>
+		<text x="250" y="232" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CONDENSER</text>
+		<text x="200" y="246" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">VALVE</text>
+		<text x="51" y="106" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DATA CENTER</text>
+		<text x="349" y="106" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HOMES</text>
+		<text x="112" y="124" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">≤50 °C</text>
+		<text x="286" y="124" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">70–75 °C</text>
+		<text x="200" y="286" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SCHEMATIC</text>
+	</g>
+</svg>

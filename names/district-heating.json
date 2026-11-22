@@ -4,5 +4,6 @@
 	"name": "District heating",
 	"aliases": ["heat network", "heat networks"],
 	"kind": "idea",
-	"description": "A system that makes heat in central plants, or collects waste heat, and distributes it as hot water or steam through insulated pipes to heat many buildings."
+	"description": "A system that makes heat in central plants, or collects waste heat, and distributes it as hot water or steam through insulated pipes to heat many buildings.",
+	"home": "datacenters/heat-reuse"
 }

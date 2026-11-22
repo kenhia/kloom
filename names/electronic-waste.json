@@ -1,0 +1,9 @@
+{
+	"id": "electronic-waste",
+	"wikidata": "Q327400",
+	"name": "Electronic waste",
+	"aliases": ["e-waste", "WEEE"],
+	"kind": "idea",
+	"description": "Discarded electrical and electronic equipment, from phones and computers to servers and appliances, whose metals can be recovered and whose hazardous parts need safe handling.",
+	"home": "datacenters/hardware-churn"
+}

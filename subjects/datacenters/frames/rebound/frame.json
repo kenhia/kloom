@@ -1,0 +1,268 @@
+{
+	"id": "rebound",
+	"topic": "Efficiency and the rebound effect",
+	"position": {
+		"label": "Rebound"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Jevons counted the",
+		"accent": "COAL.",
+		"palette": "horizon",
+		"illustration": "scene.svg",
+		"metadata": [
+			"W. STANLEY JEVONS · THE COAL QUESTION · 1865",
+			"DEEPSEEK · NVIDIA · JANUARY 2025"
+		],
+		"counter": {
+			"value": "17%",
+			"label": "rise in data centers' electricity, 2025 (IEA estimate)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "book",
+			"key": true,
+			"title": "The Coal Question: An Inquiry Concerning the Progress of the Nation, and the Probable Exhaustion of Our Coal-Mines",
+			"authors": [
+				{
+					"family": "Jevons",
+					"given": "W. Stanley"
+				}
+			],
+			"place": "London",
+			"publisher": "Macmillan",
+			"published": "1865",
+			"url": "https://archive.org/details/bub_gb_gAAKAAAAIAAJ",
+			"accessed": "2026-11-22",
+			"note": "Chapter VI, \"Of the Economy of Fuel,\" pp. 102–5"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The Rebound Effect and Energy Efficiency Policy",
+			"authors": [
+				{
+					"family": "Gillingham",
+					"given": "Kenneth"
+				},
+				{
+					"family": "Rapson",
+					"given": "David"
+				},
+				{
+					"family": "Wagner",
+					"given": "Gernot"
+				}
+			],
+			"place": "Washington, DC",
+			"publisher": "Resources for the Future",
+			"number": "RFF DP 14-39",
+			"published": "2014-11",
+			"url": "https://ageconsearch.umn.edu/record/196916/files/NDL2014-107.pdf",
+			"accessed": "2026-11-22",
+			"note": "Read in the copy circulated as FEEM Nota di Lavoro 107.2014; direct rebound, p. 10; their own assessment, pp. 23–24; the Environmental Defense Fund workshop, in the acknowledgments"
+		},
+		{
+			"kind": "article",
+			"title": "The Rebound Effect and Energy Efficiency Policy",
+			"authors": [
+				{
+					"family": "Gillingham",
+					"given": "Kenneth"
+				},
+				{
+					"family": "Rapson",
+					"given": "David"
+				},
+				{
+					"family": "Wagner",
+					"given": "Gernot"
+				}
+			],
+			"container": "Review of Environmental Economics and Policy",
+			"volume": "10",
+			"issue": "1",
+			"pages": "68–88",
+			"published": "2016",
+			"doi": "10.1093/reep/rev017",
+			"accessed": "2026-11-22",
+			"read": "record"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Energy Efficiency and Economy-Wide Rebound Effects: A Review of the Evidence and Its Implications",
+			"authors": [
+				{
+					"family": "Brockway",
+					"given": "Paul E."
+				},
+				{
+					"family": "Sorrell",
+					"given": "Steve"
+				},
+				{
+					"family": "Semieniuk",
+					"given": "Gregor"
+				},
+				{
+					"family": "Heun",
+					"given": "Matthew Kuperus"
+				},
+				{
+					"family": "Court",
+					"given": "Victor"
+				}
+			],
+			"container": "Renewable and Sustainable Energy Reviews",
+			"volume": "141",
+			"pages": "110781",
+			"published": "2021-05",
+			"doi": "10.1016/j.rser.2021.110781",
+			"accessed": "2026-11-22",
+			"note": "The 21 CGE and 12 other estimates, sections 4 and 5; funding in the acknowledgments"
+		},
+		{
+			"kind": "article",
+			"title": "DeepSeek-V3 Technical Report",
+			"authors": [
+				{
+					"name": "DeepSeek-AI"
+				}
+			],
+			"container": "arXiv preprint arXiv:2412.19437",
+			"published": "2024-12-27",
+			"url": "https://arxiv.org/abs/2412.19437",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Nvidia Sheds Almost $600 Billion in Market Cap, Biggest One-Day Loss in U.S. History",
+			"authors": [
+				{
+					"family": "Subin",
+					"given": "Samantha"
+				}
+			],
+			"container": "CNBC",
+			"publisher": "CNBC",
+			"published": "2025-01-27",
+			"url": "https://www.cnbc.com/2025/01/27/nvidia-sheds-almost-600-billion-in-market-cap-biggest-drop-ever.html",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Microsoft CEO Says AI Use Will 'Skyrocket' with More Efficiency amid Craze over DeepSeek",
+			"authors": [
+				{
+					"family": "Soper",
+					"given": "Taylor"
+				}
+			],
+			"container": "GeekWire",
+			"publisher": "GeekWire",
+			"published": "2025-01-27",
+			"url": "https://www.geekwire.com/2025/microsoft-ceo-says-ai-use-will-skyrocket-with-more-efficiency-amid-craze-over-deepseek/",
+			"accessed": "2026-11-22",
+			"note": "Nadella's post of January 26–27, 2025, quoted in full"
+		},
+		{
+			"kind": "report",
+			"title": "Key Questions on Energy and AI",
+			"authors": [
+				{
+					"name": "International Energy Agency"
+				}
+			],
+			"place": "Paris",
+			"publisher": "International Energy Agency",
+			"published": "2026-04-16",
+			"url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+			"accessed": "2026-11-22",
+			"note": "Executive summary: growth of 17% in 2025, 485 TWh, per-task efficiency and users"
+		},
+		{
+			"kind": "report",
+			"title": "2024 United States Data Center Energy Usage Report",
+			"authors": [
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Smith",
+					"given": "Sarah J."
+				},
+				{
+					"family": "Hubbard",
+					"given": "Alex"
+				},
+				{
+					"family": "Newkirk",
+					"given": "Alex"
+				},
+				{
+					"family": "Lei",
+					"given": "Nuoa"
+				},
+				{
+					"family": "Siddik",
+					"given": "Md Abu Bakar"
+				},
+				{
+					"family": "Holecek",
+					"given": "Billie"
+				}
+			],
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"number": "LBNL-2001637",
+			"published": "2024-12",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+			"accessed": "2026-11-22",
+			"note": "The estimates for 2014 to 2023, figure ES-1"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Jevons paradox",
+			"url": "https://en.wikipedia.org/w/index.php?title=Jevons_paradox&oldid=1386823586",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-20"
+		},
+		{
+			"kind": "media",
+			"title": "Frontispiece diagram of The Coal Question",
+			"url": "https://commons.wikimedia.org/wiki/File:Jevons-exponential_growth.jpg",
+			"accessed": "2026-11-22",
+			"licence": "Public domain",
+			"file": "coal-question.jpg",
+			"authors": [
+				{
+					"family": "Jevons",
+					"given": "William Stanley"
+				}
+			],
+			"container": "The Coal Question, via the Online Library of Liberty",
+			"published": "1865"
+		}
+	],
+	"connections": [
+		{
+			"to": "western-civ/steam",
+			"why": "Jevons's evidence for the paradox was the steam engine: he counted Watt's condenser among the economies of coal that, in his argument, made Britain burn more of it, and that frame tells how Watt's engine came to use about half the coal of Newcomen's."
+		},
+		{
+			"to": "ai/open-weights",
+			"why": "DeepSeek's V3, the openly released model whose reported training cost set off the Jevons argument of January 2025, is one of the open-weights models that frame follows."
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"datacenters/rebound": [
+		["William Stanley Jevons", "william-stanley-jevons"],
+		["_The Coal Question_", "the-coal-question"],
+		["Jevons paradox", "jevons-paradox"],
+		["rebound effect", "rebound-effect-conservation"],
+		["Koomey's law", "koomeys-law"],
+		["DeepSeek", "deepseek"],
+		["Nvidia", "nvidia"],
+		["Satya Nadella", "satya-nadella"],
+		["Microsoft", "microsoft"],
+		["International Energy Agency", "international-energy-agency"]
+	],
+	"datacenters/heat-reuse": [
+		["district heating", "district-heating"],
+		["heat pump", "heat-pump"],
+		["Carnot", "nicolas-leonard-sadi-carnot"],
+		["Odense", "odense"],
+		["Meta", "meta-platforms"],
+		["Stockholm", "stockholm"],
+		["Microsoft", "microsoft"],
+		["Fortum", "fortum"],
+		["Espoo", "espoo"]
+	],
+	"datacenters/hardware-churn": [
+		["embedded emissions", "embedded-emissions"],
+		["electronic waste", "electronic-waste"],
+		["Meta", "meta-platforms"],
+		["Microsoft", "microsoft"],
+		["Google", "google"],
+		["tensor processing units", "tensor-processing-unit"],
+		["International Telecommunication Union", "international-telecommunication-union"],
+		[
+			"United Nations Institute for Training and Research",
+			"united-nations-institute-for-training-and-research"
+		]
+	]
+}
