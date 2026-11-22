@@ -37,6 +37,13 @@
 			]
 		},
 		{
+			"id": "power",
+			"title": "Power and the grid",
+			"labelKind": "category",
+			"palette": "current",
+			"frames": ["gas-plants", "nuclear-deals"]
+		},
+		{
 			"id": "water",
 			"title": "Water",
 			"labelKind": "category",

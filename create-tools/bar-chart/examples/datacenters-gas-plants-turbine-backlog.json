@@ -1,0 +1,30 @@
+{
+	"title": "GE Vernova's gas turbine backlog and slot reservations, March 2025 to September 2026",
+	"description": "Bar chart of the gigawatts of gas power equipment GE Vernova had under contract, firm orders and slot reservations together, at the end of each quarter, by the company's own count: 50 in March 2025, 55 in June 2025, 62 in September 2025, 83 in December 2025, 100 in March 2026, 116 in June 2026 and 122 in September 2026. Data: GE Vernova's quarterly earnings releases filed with the SEC.",
+	"heading": "GE VERNOVA GAS TURBINES UNDER CONTRACT, GW, COMPANY'S COUNT",
+	"unit": "",
+	"width": 560,
+	"axis": {
+		"min": 0,
+		"max": 140,
+		"ticks": [
+			[0, "0"],
+			[50, "50"],
+			[100, "100"]
+		]
+	},
+	"bars": [
+		{ "label": "Q1", "sublabel": "2025", "value": 50 },
+		{ "label": "Q2", "sublabel": "2025", "value": 55 },
+		{ "label": "Q3", "sublabel": "2025", "value": 62 },
+		{ "label": "Q4", "sublabel": "2025", "value": 83 },
+		{ "label": "Q1", "sublabel": "2026", "value": 100 },
+		{ "label": "Q2", "sublabel": "2026", "value": 116 },
+		{ "label": "Q3", "sublabel": "2026", "value": 122, "highlight": true }
+	],
+	"source": {
+		"container": "GE Vernova quarterly earnings releases, Form 8-K, 2025–2026",
+		"url": "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm"
+	},
+	"barWidth": 40
+}

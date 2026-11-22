@@ -1,0 +1,32 @@
+{
+	"datacenters/gas-plants": [
+		["natural gas", "natural-gas"],
+		["GE Vernova", "ge-vernova"],
+		["combined-cycle power plant", "combined-cycle-power-plant"],
+		["Georgia Power", "georgia-power"],
+		["Louisiana Public Service Commission", "louisiana-public-service-commission"],
+		["Entergy", "entergy"],
+		["Meta", "meta-platforms"],
+		["Hyperion", "hyperion-data-center"],
+		["Stargate", "stargate-llc"],
+		["Abilene, Texas", "abilene-texas"]
+	],
+	"datacenters/nuclear-deals": [
+		["Constellation Energy", "constellation-energy"],
+		[
+			"Three Mile Island Nuclear Generating Station",
+			"three-mile-island-nuclear-generating-station"
+		],
+		["Microsoft", "microsoft"],
+		["Nuclear power", "nuclear-power"],
+		["Palisades Nuclear Generating Station", "palisades-nuclear-generating-station"],
+		["Susquehanna Steam Electric Station", "susquehanna-steam-electric-station"],
+		["Talen Energy", "talen-energy"],
+		["Amazon", "amazon-company"],
+		["PJM Interconnection", "pjm-interconnection"],
+		["Federal Energy Regulatory Commission", "federal-energy-regulatory-commission"],
+		["small modular reactor", "small-modular-reactor"],
+		["NuScale Power", "nuscale-power"],
+		["Google", "google"]
+	]
+}
