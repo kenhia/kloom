@@ -1,0 +1,197 @@
+{
+	"id": "machine-room",
+	"topic": "The mainframe machine room",
+	"position": {
+		"label": "1964–80",
+		"sort": 1964
+	},
+	"scene": {
+		"headline": "The computer got a raised",
+		"accent": "FLOOR.",
+		"palette": "punchcard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"IBM SYSTEM/360 · 1964 · IBM 3081 · 1980",
+			"RAISED FLOOR · PRECISION AIR · CHILLED WATER"
+		],
+		"counter": {
+			"value": "75°F",
+			"label": "IBM's design point, at 50% humidity"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/ibm-360",
+			"why": "IBM's System/360, whose design the computing frame tells, came with a planning manual for its room: a raised floor, air conditioning all year and, for the largest models, water to the processor."
+		},
+		{
+			"to": "datacenters/inside-a-data-center",
+			"why": "The raised floor, the room's own air conditioning and water to the processor, set out for IBM's machine rooms, are the parts of today's data hall whose overhead power usage effectiveness measures."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "IBM System/360 Installation Manual: Physical Planning",
+			"authors": [
+				{
+					"name": "IBM Systems Development Division"
+				}
+			],
+			"publisher": "International Business Machines Corporation",
+			"place": "Poughkeepsie, NY",
+			"number": "C22-6820-8",
+			"edition": "9th ed.",
+			"url": "http://www.bitsavers.org/pdf/ibm/360/fe/C22-6820-8_System_360_Installation_Manual_-_Physical_Planning.pdf",
+			"mirror": true,
+			"accessed": "2026-11-22",
+			"note": "The raised floor, air conditioning and underfloor system, pp. 6–16; the Model 85's heat to water, p. 58; the coolant distribution unit, appendix C"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "The Evolution of Water Cooling for IBM Large Server Systems: Back to the Future",
+			"authors": [
+				{
+					"family": "Ellsworth",
+					"given": "Michael"
+				},
+				{
+					"family": "Campbell",
+					"given": "Levi A."
+				},
+				{
+					"family": "Simons",
+					"given": "Robert E."
+				},
+				{
+					"family": "Iyengar",
+					"given": "M."
+				},
+				{
+					"family": "Schmidt",
+					"given": "Roger R."
+				},
+				{
+					"family": "Chu",
+					"given": "Richard C."
+				}
+			],
+			"container": "2008 11th Intersociety Conference on Thermal and Thermomechanical Phenomena in Electronic Systems",
+			"publisher": "IEEE",
+			"pages": "266–274",
+			"published": "2008-05",
+			"doi": "10.1109/itherm.2008.4544279",
+			"read": "abstract",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "article",
+			"title": "Thermal Conduction Module: A High-Performance Multilayer Ceramic Package",
+			"authors": [
+				{
+					"family": "Blodgett",
+					"given": "A. J."
+				},
+				{
+					"family": "Barbour",
+					"given": "D. R."
+				}
+			],
+			"container": "IBM Journal of Research and Development",
+			"volume": "26",
+			"issue": "1",
+			"pages": "30–36",
+			"published": "1982-01",
+			"doi": "10.1147/rd.261.0030",
+			"read": "abstract",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "article",
+			"title": "Conduction Cooling for an LSI Package: A One-Dimensional Approach",
+			"authors": [
+				{
+					"family": "Chu",
+					"given": "R. C."
+				},
+				{
+					"family": "Hwang",
+					"given": "U. P."
+				},
+				{
+					"family": "Simons",
+					"given": "R. E."
+				}
+			],
+			"container": "IBM Journal of Research and Development",
+			"volume": "26",
+			"issue": "1",
+			"pages": "45–54",
+			"published": "1982-01",
+			"doi": "10.1147/rd.261.0045",
+			"read": "abstract",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "Uptime Institute Global Data Center Survey 2025",
+			"authors": [
+				{
+					"name": "Uptime Institute"
+				}
+			],
+			"publisher": "Uptime Institute",
+			"number": "UII Keynote Report 180",
+			"published": "2025-07",
+			"url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf",
+			"accessed": "2026-11-22",
+			"note": "The weighted average PUE, figure 2 (681 operators)"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "IBM 308X",
+			"url": "https://en.wikipedia.org/w/index.php?title=IBM_308X&oldid=1369801372",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-08-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Vertiv",
+			"url": "https://en.wikipedia.org/w/index.php?title=Vertiv&oldid=1384066030",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-06"
+		},
+		{
+			"kind": "media",
+			"title": "An IBM System/360 in use at the US Department of Agriculture",
+			"url": "https://commons.wikimedia.org/wiki/File:Dept_of_Agriculture_Computer_Room.jpg",
+			"accessed": "2026-11-22",
+			"licence": "Public domain",
+			"file": "usda-360.jpg",
+			"authors": [
+				{
+					"family": "Leffler",
+					"given": "Warren K."
+				}
+			],
+			"published": "1969-10-29",
+			"container": "U.S. News & World Report Magazine Photograph Collection, Library of Congress"
+		}
+	]
+}

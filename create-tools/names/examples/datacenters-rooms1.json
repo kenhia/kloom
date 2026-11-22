@@ -1,0 +1,37 @@
+{
+	"datacenters/eniac-room": [
+		["ENIAC", "eniac"],
+		["Moore School of Electrical Engineering", "moore-school-of-electrical-engineering"],
+		["University of Pennsylvania", "university-of-pennsylvania"],
+		["Adele Goldstine", "adele-goldstine"],
+		["vacuum tubes", "vacuum-tube"],
+		["Ballistic Research Laboratory", "ballistic-research-laboratory"],
+		["Aberdeen Proving Ground", "aberdeen-proving-ground"],
+		["United States Army", "united-states-army"],
+		["J. Presper Eckert", "j-presper-eckert"],
+		["Nvidia", "nvidia"]
+	],
+	"datacenters/sage-blockhouse": [
+		["United States Air Force", "united-states-air-force"],
+		["SAGE", "semi-automatic-ground-environment"],
+		["McGuire Air Force Base", "mcguire-air-force-base"],
+		["AN/FSQ-7", "an-fsq-7-combat-direction-central"],
+		["IBM", "ibm"],
+		["Western Electric", "western-electric"],
+		["cooling tower", "cooling-tower"],
+		["second law of thermodynamics", "second-law-of-thermodynamics"],
+		["power usage effectiveness", "power-usage-effectiveness"],
+		["intercontinental ballistic missiles", "intercontinental-ballistic-missile"],
+		["data center", "data-center"]
+	],
+	"datacenters/machine-room": [
+		["IBM", "ibm"],
+		["System/360", "ibm-system-360"],
+		["raised floor", "raised-floor"],
+		["Vertiv", "vertiv"],
+		["System/360 Model 91", "ibm-system-360-model-91"],
+		["IBM 3081", "ibm-308x"],
+		["helium", "helium"],
+		["power usage effectiveness", "power-usage-effectiveness"]
+	]
+}

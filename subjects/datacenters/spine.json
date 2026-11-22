@@ -12,7 +12,16 @@
 			"title": "Rooms for computers",
 			"labelKind": "date",
 			"palette": "punchcard",
-			"frames": ["carrier-hotel", "google-dalles", "open-compute", "ai-cluster", "gigawatt-campus"]
+			"frames": [
+				"eniac-room",
+				"sage-blockhouse",
+				"machine-room",
+				"carrier-hotel",
+				"google-dalles",
+				"open-compute",
+				"ai-cluster",
+				"gigawatt-campus"
+			]
 		},
 		{
 			"id": "why",

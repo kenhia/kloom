@@ -1,0 +1,149 @@
+{
+	"id": "sage-blockhouse",
+	"topic": "SAGE's concrete blockhouses",
+	"position": {
+		"label": "1958",
+		"sort": 1958
+	},
+	"scene": {
+		"headline": "The computer moved into",
+		"accent": "CONCRETE.",
+		"palette": "punchcard",
+		"illustration": "scene.svg",
+		"metadata": ["SAGE DIRECTION CENTERS · 1958–1984", "IBM AN/FSQ-7 · US AIR FORCE"],
+		"counter": {
+			"value": "3,000 kW",
+			"label": "per direction center, a third to its computers"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/whirlwind",
+			"why": "The blockhouses were built around the AN/FSQ-7, IBM's production version of MIT's Whirlwind, whose memory and computers the computing frame describes."
+		},
+		{
+			"to": "physics/entropy",
+			"why": "A SAGE center spent two-thirds of its power on lighting and air conditioning, because moving heat out of a cool building into a warm day takes work, as the second law of thermodynamics says."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Introduction to AN/FSQ-7 Combat Direction Central and AN/FSQ-8 Combat Control Central",
+			"authors": [
+				{
+					"name": "International Business Machines Corporation"
+				}
+			],
+			"publisher": "IBM Military Products Division",
+			"place": "Kingston, NY",
+			"published": "1959",
+			"url": "https://ed-thelen.org/SageIntro.html",
+			"mirror": true,
+			"accessed": "2026-11-22",
+			"note": "The buildings, section 3.3 and figures 3-10 to 3-12"
+		},
+		{
+			"kind": "book",
+			"title": "AN/FSQ-7: The Computer That Shaped the Cold War",
+			"authors": [
+				{
+					"family": "Ulmann",
+					"given": "Bernd"
+				}
+			],
+			"publisher": "De Gruyter Oldenbourg",
+			"place": "Munich",
+			"published": "2014",
+			"doi": "10.1524/9783486856705",
+			"url": "https://www.oreilly.com/library/view/anfsq-7-the-computer/9783486990911/e9783486727661_c10.html",
+			"read": "excerpt",
+			"accessed": "2026-11-22",
+			"note": "Chapter 11, Power supply, read in its publisher's online preview"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Searching the Skies: The Legacy of the United States Cold War Defense Radar Program",
+			"authors": [
+				{
+					"family": "Winkler",
+					"given": "David F."
+				}
+			],
+			"publisher": "Headquarters, Air Combat Command",
+			"place": "Langley Air Force Base, VA",
+			"published": "1997-06",
+			"url": "https://nuke.fas.org/guide/usa/airdef/searching_the_skies.htm",
+			"mirror": true,
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "SAGE",
+			"container": "IBM Heritage",
+			"publisher": "IBM",
+			"url": "https://www.ibm.com/history/sage",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "Uptime Institute Global Data Center Survey 2025",
+			"authors": [
+				{
+					"name": "Uptime Institute"
+				}
+			],
+			"publisher": "Uptime Institute",
+			"number": "UII Keynote Report 180",
+			"published": "2025-07",
+			"url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf",
+			"accessed": "2026-11-22",
+			"note": "The weighted average PUE, figure 2 (681 operators)"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Semi-Automatic Ground Environment",
+			"url": "https://en.wikipedia.org/w/index.php?title=Semi-Automatic_Ground_Environment&oldid=1384475601",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "AN/FSQ-7 Combat Direction Central",
+			"url": "https://en.wikipedia.org/w/index.php?title=AN%2FFSQ-7_Combat_Direction_Central&oldid=1383582701",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-03"
+		},
+		{
+			"kind": "media",
+			"title": "The former SAGE direction center at Stewart Air Force Base, Newburgh, New York",
+			"url": "https://commons.wikimedia.org/wiki/File:Stewart_AFB_SAGE_center_NY1.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC BY-SA 4.0",
+			"file": "blockhouse.jpg",
+			"authors": [
+				{
+					"name": "Acroterion"
+				}
+			],
+			"published": "2016-07-27",
+			"container": "Wikimedia Commons"
+		}
+	]
+}
