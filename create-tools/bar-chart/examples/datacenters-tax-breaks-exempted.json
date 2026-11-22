@@ -1,0 +1,28 @@
+{
+	"title": "Virginia's state sales tax exempted for data centers, fiscal years 2021–2025",
+	"description": "Bar chart of the state share of sales and use tax that Virginia's data center exemption waived each fiscal year, in millions of dollars, as JLARC estimated it from operators' reports: 613.5 in FY2021, 411.5 in FY2022, 685.2 in FY2023, 927.4 in FY2024 and 1,420.0 in FY2025. Local and regional shares are not included. Data: JLARC, Economic Development Incentives 2026, table D-3.",
+	"heading": "STATE SALES TAX EXEMPTED, VIRGINIA · $ MILLION",
+	"unit": "",
+	"axis": {
+		"min": 0,
+		"max": 1600,
+		"ticks": [
+			[0, "0"],
+			[400, "400"],
+			[800, "800"],
+			[1200, "1,200"],
+			[1600, "1,600"]
+		]
+	},
+	"bars": [
+		{ "label": "FY2021", "value": 613.5 },
+		{ "label": "FY2022", "value": 411.5 },
+		{ "label": "FY2023", "value": 685.2 },
+		{ "label": "FY2024", "value": 927.4 },
+		{ "label": "FY2025", "value": 1420.0, "display": "1,420.0", "highlight": true }
+	],
+	"source": {
+		"container": "JLARC, Economic Development Incentives 2026, table D-3",
+		"url": "https://jlarc.virginia.gov/pdfs/reports/Rpt623.pdf"
+	}
+}

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Virginia's state sales tax exempted for data centers, fiscal years 2021–2025</title>
+<desc id="d">Bar chart of the state share of sales and use tax that Virginia's data center exemption waived each fiscal year, in millions of dollars, as JLARC estimated it from operators' reports: 613.5 in FY2021, 411.5 in FY2022, 685.2 in FY2023, 927.4 in FY2024 and 1,420.0 in FY2025. Local and regional shares are not included. Data: JLARC, Economic Development Incentives 2026, table D-3.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="460" y1="196.5" y2="196.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="200.5" text-anchor="end">400</text>
+<line x1="64" x2="460" y1="143.0" y2="143.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="147.0" text-anchor="end">800</text>
+<line x1="64" x2="460" y1="89.5" y2="89.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="93.5" text-anchor="end">1,200</text>
+<line x1="64" x2="460" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">1,600</text>
+</g>
+<rect x="75.6" y="167.9" width="56" height="82.1" fill-opacity="0.85"/>
+<text x="103.6" y="161.9" text-anchor="middle">613.5</text>
+<text x="103.6" y="266" text-anchor="middle">FY2021</text>
+<rect x="154.8" y="195.0" width="56" height="55.0" fill-opacity="0.85"/>
+<text x="182.8" y="189.0" text-anchor="middle">411.5</text>
+<text x="182.8" y="266" text-anchor="middle">FY2022</text>
+<rect x="234.0" y="158.4" width="56" height="91.6" fill-opacity="0.85"/>
+<text x="262.0" y="152.4" text-anchor="middle">685.2</text>
+<text x="262.0" y="266" text-anchor="middle">FY2023</text>
+<rect x="313.2" y="126.0" width="56" height="124.0" fill-opacity="0.85"/>
+<text x="341.2" y="120.0" text-anchor="middle">927.4</text>
+<text x="341.2" y="266" text-anchor="middle">FY2024</text>
+<rect x="392.4" y="60.1" width="56" height="189.9" class="accent" fill="currentColor"/>
+<text x="420.4" y="54.1" text-anchor="middle">1,420.0</text>
+<text x="420.4" y="266" text-anchor="middle">FY2025</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">STATE SALES TAX EXEMPTED, VIRGINIA · $ MILLION</text>
+</g></svg>

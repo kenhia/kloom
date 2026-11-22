@@ -58,6 +58,13 @@
 			"frames": ["where-water-goes", "water-totals"]
 		},
 		{
+			"id": "deciding",
+			"title": "Who decides",
+			"labelKind": "category",
+			"palette": "chamber",
+			"frames": ["tax-breaks", "community-benefits"]
+		},
+		{
 			"id": "next",
 			"title": "What comes next",
 			"labelKind": "category",

@@ -1,0 +1,23 @@
+{
+	"datacenters/tax-breaks": [
+		["sales tax", "sales-tax"],
+		["Virginia", "virginia"],
+		["Texas", "texas"],
+		["Georgia", "georgia-u-s-state"],
+		["Brian Kemp", "brian-kemp"],
+		["Ohio", "ohio"]
+	],
+	"datacenters/community-benefits": [
+		["community benefits agreement", "community-benefits-agreement"],
+		["Meta", "meta-platforms"],
+		["Hyperion", "hyperion-data-center"],
+		["Richland Parish", "richland-parish-louisiana"],
+		["Louisiana", "louisiana"],
+		["payment in lieu of taxes", "payment-in-lieu-of-taxes"],
+		["Entergy", "entergy"],
+		["Microsoft", "microsoft"],
+		["Brad Smith", "brad-smith-american-lawyer"],
+		["Amazon Web Services", "amazon-web-services"],
+		["project labor agreement", "project-labor-agreement"]
+	]
+}
