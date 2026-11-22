@@ -161,7 +161,26 @@
 			}
 		}
 	],
-	"owners": {},
+	"owners": {
+		"equinix": "rooms2",
+		"the-dalles-oregon": "rooms2",
+		"oracle-corporation": "rooms3",
+		"texas": "rooms3",
+		"louisiana": "rooms3",
+		"international-energy-agency": "case1",
+		"prince-william-county-virginia": "case2",
+		"council-bluffs-iowa": "case2",
+		"loudoun-county-virginia": "case2",
+		"electric-power-research-institute": "power1",
+		"pjm-interconnection": "power1",
+		"dominion-energy": "power1",
+		"natural-gas": "power2",
+		"federal-energy-regulatory-commission": "power2",
+		"nuclear-power": "power2",
+		"tucson-arizona": "water2",
+		"ashburn-virginia": "county1",
+		"district-heating": "abroad2"
+	},
 	"frames": {
 		"the-fight": {
 			"topic": "The fight over data centers",
