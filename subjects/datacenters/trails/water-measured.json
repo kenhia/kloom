@@ -1,0 +1,16 @@
+{
+	"id": "water-measured",
+	"title": "Water, measured",
+	"anchor": "where-water-goes",
+	"spine": {
+		"segments": [
+			{
+				"id": "water-measured-seg",
+				"title": "Water, measured",
+				"labelKind": "category",
+				"palette": "tower",
+				"frames": ["withdrawal-consumption", "cooling-tower", "wue"]
+			}
+		]
+	}
+}

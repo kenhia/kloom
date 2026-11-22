@@ -1,0 +1,290 @@
+{
+	"id": "wue",
+	"topic": "Water usage effectiveness",
+	"position": {
+		"label": "WUE"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Water became a",
+		"accent": "RATIO.",
+		"palette": "tower",
+		"illustration": "scene.svg",
+		"metadata": [
+			"THE GREEN GRID · WHITE PAPER 35 · 2011",
+			"ISO/IEC 30134-9 · LITERS PER KILOWATT-HOUR"
+		],
+		"counter": {
+			"value": "0.36",
+			"label": "modeled US average site WUE, L/kWh, 2023"
+		}
+	},
+	"connections": [
+		{
+			"to": "datacenters/inside-a-data-center",
+			"why": "Inside a data center introduces PUE and WUE as The Green Grid's two ratios; this frame follows how WUE is defined, reported and traded against PUE."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"title": "Water Usage Effectiveness (WUE): A Green Grid Data Center Sustainability Metric",
+			"authors": [
+				{
+					"family": "Azevedo",
+					"given": "Dan"
+				},
+				{
+					"family": "Belady",
+					"given": "Christian"
+				},
+				{
+					"family": "Pouchet",
+					"given": "Jack"
+				}
+			],
+			"editors": [
+				{
+					"family": "Patterson",
+					"given": "Michael"
+				}
+			],
+			"publisher": "The Green Grid",
+			"number": "White Paper 35",
+			"published": "2011-03-01",
+			"url": "https://www.thegreengrid.org/product/114",
+			"accessed": "2026-11-22",
+			"read": "record"
+		},
+		{
+			"kind": "report",
+			"title": "Information Technology — Data Centres Key Performance Indicators — Part 9: Water Usage Effectiveness (WUE)",
+			"authors": [
+				{
+					"name": "ISO/IEC JTC 1/SC 39"
+				}
+			],
+			"publisher": "International Organization for Standardization",
+			"place": "Geneva",
+			"number": "ISO/IEC 30134-9:2022",
+			"published": "2022-03",
+			"url": "https://www.iso.org/standard/77692.html",
+			"accessed": "2026-11-22",
+			"read": "record"
+		},
+		{
+			"kind": "article",
+			"title": "Estimating Data Center Water Use: Best Practices and Critical Questions",
+			"authors": [
+				{
+					"family": "Masanet",
+					"given": "Eric"
+				}
+			],
+			"container": "arXiv preprint arXiv:2610.04735",
+			"published": "2026-10-03",
+			"url": "https://arxiv.org/abs/2610.04735",
+			"accessed": "2026-11-22",
+			"key": true,
+			"note": "WUE's definitions and categories, section 3.31 and table 4; the best practices, table 3"
+		},
+		{
+			"kind": "report",
+			"title": "2024 United States Data Center Energy Usage Report",
+			"authors": [
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Smith",
+					"given": "Sarah J."
+				},
+				{
+					"family": "Hubbard",
+					"given": "Alex"
+				},
+				{
+					"family": "Newkirk",
+					"given": "Alex"
+				},
+				{
+					"family": "Lei",
+					"given": "Nuoa"
+				},
+				{
+					"family": "Siddik",
+					"given": "Md Abu Bakar"
+				},
+				{
+					"family": "Holecek",
+					"given": "Billie"
+				}
+			],
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"number": "LBNL-2001637",
+			"published": "2024-12",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+			"accessed": "2026-11-22",
+			"key": true,
+			"note": "WUE by cooling system, figure 4.4, read from the figure; by space type, figure 4.5; the national average, figure 4.7"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2025 Amazon Web Services Sustainability Report Summary",
+			"authors": [
+				{
+					"name": "Amazon Web Services"
+				}
+			],
+			"publisher": "Amazon Web Services",
+			"published": "2026-07",
+			"url": "https://sustainability.aboutamazon.com/2025-aws-summary.pdf",
+			"accessed": "2026-11-22",
+			"note": "Water, pp. 8–9: the company's own figures"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2026 Meta Sustainability Report",
+			"authors": [
+				{
+					"name": "Meta"
+				}
+			],
+			"publisher": "Meta",
+			"place": "Menlo Park, CA",
+			"published": "2026-11",
+			"url": "https://sustainability.atmeta.com/asset/2026-sustainability-report/",
+			"accessed": "2026-11-22",
+			"note": "WUE, p. 40 and the data tables; the method, \"PUE/WUE\": the company's own figures"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2026 Environmental Sustainability Report",
+			"authors": [
+				{
+					"name": "Microsoft"
+				}
+			],
+			"publisher": "Microsoft",
+			"place": "Redmond, WA",
+			"published": "2026-07",
+			"url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/2026-Microsoft-Environmental-Sustainability-Report-PDF.pdf",
+			"accessed": "2026-11-22",
+			"note": "WUE, p. 24, and its definition, note 12: the company's own figures"
+		},
+		{
+			"kind": "article",
+			"title": "Measuring the Environmental Impact of Delivering AI at Google Scale",
+			"authors": [
+				{
+					"family": "Elsworth",
+					"given": "Cooper"
+				},
+				{
+					"family": "Huang",
+					"given": "Keguo"
+				},
+				{
+					"family": "Patterson",
+					"given": "David"
+				},
+				{
+					"family": "Schneider",
+					"given": "Ian"
+				},
+				{
+					"family": "Sedivy",
+					"given": "Robert"
+				},
+				{
+					"family": "Goodman",
+					"given": "Savannah"
+				},
+				{
+					"family": "Townsend",
+					"given": "Ben"
+				}
+			],
+			"etAl": true,
+			"container": "arXiv preprint arXiv:2508.15734",
+			"published": "2025-08",
+			"url": "https://arxiv.org/abs/2508.15734",
+			"accessed": "2026-11-22",
+			"note": "Google's WUE of 1.15 L/kWh for 2023 and 2024, section 3.3"
+		},
+		{
+			"kind": "report",
+			"title": "2026 Environmental Report",
+			"authors": [
+				{
+					"name": "Google"
+				}
+			],
+			"publisher": "Google",
+			"place": "Mountain View, CA",
+			"published": "2026-06",
+			"url": "https://sustainability.google/google-2026-environmental-report/",
+			"accessed": "2026-11-22",
+			"note": "Water and electricity tables, pp. 95–97"
+		},
+		{
+			"kind": "article",
+			"title": "Balancing Bits and Drops: Stress-Adjusted Water Management for Data Centers",
+			"authors": [
+				{
+					"family": "Talukder",
+					"given": "Zahidur"
+				},
+				{
+					"family": "Rahim",
+					"given": "Imtiaz Bin"
+				},
+				{
+					"family": "Sen Gupta",
+					"given": "Pranjol"
+				},
+				{
+					"family": "Ren",
+					"given": "Shaolei"
+				},
+				{
+					"family": "Islam",
+					"given": "Mohammad A."
+				}
+			],
+			"container": "arXiv preprint arXiv:2607.22617",
+			"published": "2026-06-15",
+			"url": "https://arxiv.org/abs/2607.22617",
+			"accessed": "2026-11-22",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "Aqueduct",
+			"container": "World Resources Institute",
+			"publisher": "World Resources Institute",
+			"url": "https://www.wri.org/aqueduct",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Water usage effectiveness",
+			"url": "https://en.wikipedia.org/w/index.php?title=Water_usage_effectiveness&oldid=1382957701",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-31"
+		}
+	]
+}

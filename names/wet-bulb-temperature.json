@@ -1,0 +1,9 @@
+{
+	"id": "wet-bulb-temperature",
+	"wikidata": "Q3517825",
+	"name": "Wet-bulb temperature",
+	"aliases": ["wet bulb"],
+	"kind": "idea",
+	"description": "The lowest temperature that evaporating water can cool something to in the air around it, set by the air's temperature and humidity.",
+	"home": "datacenters/cooling-tower"
+}
