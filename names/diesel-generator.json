@@ -4,5 +4,6 @@
 	"name": "Diesel generator",
 	"aliases": ["diesel genset"],
 	"kind": "artifact",
-	"description": "A diesel engine coupled to an electric generator, used for remote or backup electric power."
+	"description": "A diesel engine coupled to an electric generator, used for remote or backup electric power.",
+	"home": "datacenters/diesel-generators"
 }

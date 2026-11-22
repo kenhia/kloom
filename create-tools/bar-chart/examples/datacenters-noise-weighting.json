@@ -1,0 +1,30 @@
+{
+	"title": "What A-weighting subtracts and what a house removes, by octave band",
+	"description": "Grouped bar chart in decibels by octave band. A-weighting subtracts 39 at 31.5 Hz, 26 at 63 Hz, 16 at 125 Hz, 9 at 250 Hz and 0 at 1,000 Hz (IEC 61672, rounded). A typical wood-frame house with windows open about two inches removes 11, 15, 19, 21 and 25 decibels in the same bands (Nelson Acoustics' memorandum to Prince William County, August 2025, table 7).",
+	"heading": "DECIBELS, BY OCTAVE BAND",
+	"unit": "",
+	"width": 560,
+	"axis": {
+		"max": 45,
+		"ticks": [
+			[0, "0"],
+			[10, "10"],
+			[20, "20"],
+			[30, "30"],
+			[40, "40"]
+		]
+	},
+	"series": [{ "label": "A-WEIGHTING SUBTRACTS" }, { "label": "HOUSE REMOVES" }],
+	"bars": [
+		{ "label": "31.5 HZ", "values": [39, 11] },
+		{ "label": "63 HZ", "values": [26, 15] },
+		{ "label": "125 HZ", "values": [16, 19] },
+		{ "label": "250 HZ", "values": [9, 21] },
+		{ "label": "1,000 HZ", "values": [0, 25] }
+	],
+	"source": {
+		"container": "IEC 61672 A-weighting, rounded; Nelson Acoustics, Memorandum Report 1618-01 to Prince William County, August 3, 2025, table 7",
+		"url": "https://www.pwcva.gov/assets/2025-10/M1618-01%202025%20AUG%2003%20PWC%20Noise%20Ordinance%20Criteria%20Basis%20and%20Background.pdf",
+		"accessed": "2026-11-22"
+	}
+}

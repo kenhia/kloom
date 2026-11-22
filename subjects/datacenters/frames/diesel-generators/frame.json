@@ -1,0 +1,278 @@
+{
+	"id": "diesel-generators",
+	"topic": "Backup diesel generators",
+	"position": {
+		"label": "Backup power"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Thousands of engines wait on",
+		"accent": "STANDBY.",
+		"palette": "parcel",
+		"illustration": "scene.svg",
+		"metadata": ["NORTHERN VIRGINIA · DEQ · EPA", "TIER 2 AND TIER 4 · NOX · PARTICULATE MATTER"],
+		"counter": {
+			"value": "8,000",
+			"label": "permitted data center generators in Virginia, 2024"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Data Centers in Virginia",
+			"authors": [
+				{
+					"name": "Joint Legislative Audit and Review Commission"
+				}
+			],
+			"place": "Richmond, VA",
+			"publisher": "Joint Legislative Audit and Review Commission",
+			"number": "Report 598",
+			"published": "2024-12-09",
+			"url": "https://jlarc.virginia.gov/pdfs/reports/Rpt598.pdf",
+			"accessed": "2026-11-22",
+			"note": "Chapter 5: generator counts, testing, 2023 emissions at 7% of permitted, the worst case; appendix K: alternative fuels"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Virginia Regulators Weigh Expanded Use of Data Centers' Polluting Generators",
+			"authors": [
+				{
+					"family": "Paullin",
+					"given": "Charles"
+				}
+			],
+			"container": "Inside Climate News",
+			"publisher": "Inside Climate News",
+			"published": "2025-12-15",
+			"url": "https://insideclimatenews.org/news/15122025/virginia-regulators-weigh-expanded-use-of-data-centers-polluting-generators/",
+			"accessed": "2026-11-22",
+			"note": "Read in VPM News's republication of December 17, 2025"
+		},
+		{
+			"kind": "web",
+			"title": "Proposed Variance for Data Centers in Loudoun County Withdrawn",
+			"authors": [
+				{
+					"name": "Virginia Department of Environmental Quality"
+				}
+			],
+			"container": "Virginia Regulatory Town Hall",
+			"publisher": "Commonwealth of Virginia",
+			"published": "2023-04-12",
+			"url": "https://TownHall.virginia.gov/L/ViewNotice.cfm?gnid=2581",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Virginia Drops Proposal to Relax Generator Restrictions in Loudoun County",
+			"authors": [
+				{
+					"family": "Swinhoe",
+					"given": "Dan"
+				}
+			],
+			"container": "Data Center Dynamics",
+			"publisher": "DCD",
+			"published": "2023-04-14",
+			"url": "https://www.datacenterdynamics.com/en/news/virginia-drops-proposal-to-relax-generator-restrictions-in-loudoun-county",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "EPA Issues Clarification to Help Power Data Centers, Ensure U.S. Is the AI Capital of the World",
+			"authors": [
+				{
+					"name": "United States Environmental Protection Agency"
+				}
+			],
+			"container": "EPA News Releases",
+			"publisher": "United States Environmental Protection Agency",
+			"published": "2025-05-01",
+			"url": "https://www.epa.gov/newsreleases/epa-issues-clarification-help-power-data-centers-ensure-us-ai-capital-world",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "'The Industry Comes In and Kills the Work of Local Citizens'",
+			"authors": [
+				{
+					"family": "Wittenberg",
+					"given": "Ariel"
+				}
+			],
+			"container": "E&E News",
+			"publisher": "POLITICO",
+			"published": "2026-02-17",
+			"url": "https://www.eenews.net/articles/the-industry-comes-in-and-kills-the-work-of-local-citizens/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "statute",
+			"key": true,
+			"title": "Permits for data centers; emission limits for certain engine-generator sets",
+			"code": {
+				"name": "Va. Code Ann."
+			},
+			"section": "§ 10.1-1322.6",
+			"published": "2026",
+			"container": "Code of Virginia",
+			"publisher": "Virginia General Assembly",
+			"url": "https://law.lis.virginia.gov/vacode/title10.1/chapter13/section10.1-1322.6/",
+			"accessed": "2026-11-22",
+			"note": "House Bill 507, 2026 Acts of Assembly, chapter 397"
+		},
+		{
+			"kind": "web",
+			"title": "Virginia Tightens Air Permitting for Data Center Backup Generators: Tier 4-Equivalent Emissions Limits Now Required",
+			"authors": [
+				{
+					"family": "Nowak",
+					"given": "Bradley J."
+				}
+			],
+			"container": "Williams Mullen Legal News",
+			"publisher": "Williams Mullen",
+			"published": "2026-11-02",
+			"url": "https://www.williamsmullen.com/insights/news/legal-news/virginia-tightens-air-permitting-data-center-backup-generators-tier-4",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Nonroad Compression-Ignition Engines: Exhaust Emission Standards",
+			"authors": [
+				{
+					"name": "United States Environmental Protection Agency"
+				}
+			],
+			"publisher": "United States Environmental Protection Agency, Office of Transportation and Air Quality",
+			"number": "EPA-420-B-16-022",
+			"published": "2016-03",
+			"url": "https://nepis.epa.gov/Exe/ZyPDF.cgi?Dockey=P100OA05.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "IARC: Diesel Engine Exhaust Carcinogenic",
+			"authors": [
+				{
+					"name": "International Agency for Research on Cancer"
+				}
+			],
+			"container": "Press Release No. 213",
+			"publisher": "International Agency for Research on Cancer",
+			"place": "Lyon",
+			"published": "2012-06-12",
+			"url": "https://www.iarc.who.int/wp-content/uploads/2018/07/pr213_E.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "article",
+			"title": "Health-Informed Computing: Estimating and Addressing the Public Health Impact of Data Centers",
+			"authors": [
+				{
+					"family": "Han",
+					"given": "Yuelin"
+				},
+				{
+					"family": "Wu",
+					"given": "Zhifeng"
+				},
+				{
+					"family": "Li",
+					"given": "Pengfei"
+				},
+				{
+					"family": "Wierman",
+					"given": "Adam"
+				},
+				{
+					"family": "Ren",
+					"given": "Shaolei"
+				}
+			],
+			"container": "arXiv preprint arXiv:2412.06288",
+			"published": "2026-06-08",
+			"url": "https://arxiv.org/abs/2412.06288v4",
+			"accessed": "2026-11-22",
+			"note": "Version 4; earlier versions were titled The Unpaid Toll"
+		},
+		{
+			"kind": "web",
+			"title": "As Communities and Policymakers Push Back, Can Batteries Make Data Centers Better Neighbors?",
+			"authors": [
+				{
+					"family": "Martucci",
+					"given": "Brian"
+				}
+			],
+			"container": "Facilities Dive",
+			"publisher": "Industry Dive",
+			"published": "2026-03-23",
+			"url": "https://www.facilitiesdive.com/news/as-communities-and-policymakers-push-back-can-batteries-make-data-centers/815406/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Hydrogen Fuel Cells Could Provide Emission Free Backup Power at Datacenters, Microsoft Says",
+			"authors": [
+				{
+					"family": "Roach",
+					"given": "John"
+				}
+			],
+			"container": "Microsoft Source",
+			"publisher": "Microsoft",
+			"published": "2022-07-28",
+			"url": "https://news.microsoft.com/source/features/sustainability/hydrogen-fuel-cells-could-provide-emission-free-backup-power-at-datacenters-microsoft-says/",
+			"accessed": "2026-11-22",
+			"note": "The company's own account of its test"
+		},
+		{
+			"kind": "web",
+			"title": "Data Center Air Monitoring Project",
+			"container": "Air and Energy",
+			"publisher": "Virginia Department of Environmental Quality",
+			"url": "https://www.deq.virginia.gov/air-energy/data-center-air-monitoring-project",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Diesel generator",
+			"url": "https://en.wikipedia.org/w/index.php?title=Diesel_generator&oldid=1375843792",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-20"
+		},
+		{
+			"kind": "media",
+			"title": "Data center backup generators",
+			"url": "https://commons.wikimedia.org/wiki/File:Data_center_backup_generators.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC0",
+			"file": "generators.jpg",
+			"authors": [
+				{
+					"name": "Rsparks3"
+				}
+			],
+			"container": "Wikimedia Commons",
+			"published": "2025-11-23"
+		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/inside-a-data-center",
+			"why": "The batteries of the uninterruptible power supply carry a data center for the seconds its diesel generators take to start, the chain that reading lays out."
+		}
+	]
+}

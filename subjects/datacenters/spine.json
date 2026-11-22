@@ -68,7 +68,7 @@
 			"title": "The neighbors",
 			"labelKind": "category",
 			"palette": "parcel",
-			"frames": ["memphis-turbines", "secrecy"]
+			"frames": ["noise", "diesel-generators", "memphis-turbines", "secrecy"]
 		},
 		{
 			"id": "deciding",
