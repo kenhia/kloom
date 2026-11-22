@@ -6,6 +6,13 @@
 			"labelKind": "category",
 			"palette": "hall",
 			"frames": ["the-fight", "inside-a-data-center"]
+		},
+		{
+			"id": "why",
+			"title": "Why we build them",
+			"labelKind": "category",
+			"palette": "ledger",
+			"frames": ["what-runs-there", "efficiency-case"]
 		}
 	]
 }
