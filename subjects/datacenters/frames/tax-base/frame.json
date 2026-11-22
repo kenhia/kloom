@@ -1,0 +1,141 @@
+{
+	"id": "tax-base",
+	"topic": "Data centers and the local tax base",
+	"position": {
+		"label": "Taxes"
+	},
+	"scene": {
+		"headline": "The servers are taxed as",
+		"accent": "PROPERTY.",
+		"palette": "ledger",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PRINCE WILLIAM · LOUDOUN · HENRICO · GEORGIA",
+			"REAL ESTATE · BUSINESS PERSONAL PROPERTY · ABATEMENTS"
+		],
+		"counter": {
+			"value": "$110M",
+			"label": "from data centers, Prince William, FY2023 (7%)"
+		}
+	},
+	"connections": [
+		{
+			"to": "datacenters/the-fight",
+			"why": "Heatmap's October 2026 poll in the fight found tax revenue the reason most chosen for supporting a project; this frame shows how that tax is levied and spent."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Data Centers in Virginia",
+			"authors": [
+				{
+					"name": "Joint Legislative Audit and Review Commission"
+				}
+			],
+			"place": "Richmond, VA",
+			"publisher": "Joint Legislative Audit and Review Commission",
+			"number": "Report 598",
+			"published": "2024-12-09",
+			"url": "https://jlarc.virginia.gov/pdfs/reports/Rpt598-2.pdf",
+			"accessed": "2026-11-22",
+			"note": "Local tax revenue, figures 2-4 and 2-5; capital investment, figure 2-2; what localities did with it, chapter 2"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Prince William County, Virginia: Data Center Fiscal Impact Analysis",
+			"authors": [
+				{
+					"name": "PFM Group Consulting"
+				}
+			],
+			"place": "Prince William County, VA",
+			"publisher": "Prince William County",
+			"published": "2022-07-07",
+			"url": "https://www.pwcva.gov/assets/2022-07/Data%20Center%20Fiscal%20Impact%20Analysis_6.30.22_lock.pdf",
+			"accessed": "2026-11-22",
+			"note": "Commissioned by the county; data center property tax revenue, table 4; tax rates, chapter 4; the cost-benefit ratio, executive summary"
+		},
+		{
+			"kind": "report",
+			"title": "FY2027 Adopted Budget: Budget Summary",
+			"authors": [
+				{
+					"name": "Prince William County"
+				}
+			],
+			"place": "Prince William County, VA",
+			"publisher": "Prince William County",
+			"published": "2026",
+			"url": "https://www.pwcva.gov/assets/2026-07/aFY27--03--Budget_Summary.pdf",
+			"accessed": "2026-11-22",
+			"note": "Adopted April 21, 2026: tax rates, the schools' share and reserves"
+		},
+		{
+			"kind": "report",
+			"title": "Tax Incentive Evaluation: Georgia Data Center Sales & Use Tax Exemption",
+			"authors": [
+				{
+					"name": "Georgia Department of Audits and Accounts"
+				}
+			],
+			"place": "Atlanta, GA",
+			"publisher": "Georgia Department of Audits and Accounts",
+			"published": "2026-01",
+			"url": "https://www.audits2.ga.gov/wp-content/uploads/2025/12/Data-Center-Tax-Exemption-Summary-Revised.pdf",
+			"accessed": "2026-11-22",
+			"note": "The auditors' summary, December 2025, revised January 2026, of a report by the University of Georgia's Carl Vinson Institute of Government"
+		},
+		{
+			"kind": "report",
+			"title": "Data Center Tax Abatements: Why States and Localities Must Disclose These Soaring Revenue Losses",
+			"authors": [
+				{
+					"family": "LeRoy",
+					"given": "Greg"
+				},
+				{
+					"family": "Tarczynska",
+					"given": "Kasia"
+				}
+			],
+			"place": "Washington, DC",
+			"publisher": "Good Jobs First",
+			"published": "2026-04",
+			"url": "https://goodjobsfirst.org/wp-content/uploads/2026/04/Data-Center-Tax-Abatements-Why-States-and-Localities-Must-Disclose-These-Soaring-Revenue-Losses.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "The No. 1 Reason Americans Would Support a Data Center",
+			"authors": [
+				{
+					"family": "Meyer",
+					"given": "Robinson"
+				}
+			],
+			"container": "Heatmap News",
+			"publisher": "Heatmap",
+			"published": "2026-10-27",
+			"url": "https://heatmap.news/daily/data-center-support-oppose-polling",
+			"accessed": "2026-11-22",
+			"note": "The Heatmap Pro poll of 2,537 registered voters, by Embold Research, October 3–15, 2026"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Payment in lieu of taxes",
+			"url": "https://en.wikipedia.org/w/index.php?title=Payment_in_lieu_of_taxes&oldid=1386742636",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-20"
+		}
+	]
+}

@@ -28,7 +28,13 @@
 			"title": "Why we build them",
 			"labelKind": "category",
 			"palette": "ledger",
-			"frames": ["what-runs-there", "efficiency-case", "race-for-compute"]
+			"frames": [
+				"what-runs-there",
+				"efficiency-case",
+				"data-center-jobs",
+				"tax-base",
+				"race-for-compute"
+			]
 		},
 		{
 			"id": "next",

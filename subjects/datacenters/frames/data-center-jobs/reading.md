@@ -1,0 +1,31 @@
+Jobs were the reason most supporters gave. In [Gallup](kloom:e/gallup-inc)'s 2026 survey, 55% of the people who favored a nearby **[data center](kloom:e/data-center)** named jobs, as _The fight over data centers_ shows. Both sides cite numbers, and they count different things: the people on a site, the jobs across a state's economy, or the jobs bought with each dollar of a tax break.
+
+## Two workforces
+
+A data center hires twice: a large crew to build it, then a small staff to run it. In 2024 **[Virginia](kloom:e/virginia)**'s legislative auditor, the Joint Legislative Audit and Review Commission (JLARC), reported what company representatives told it: a building takes 12 to 18 months, about 1,500 workers are on site at the height of construction, and a typical finished building of 250,000 square feet has about 50 full-time workers, half of them contractors. Those are the industry's own figures. JLARC's staff estimated a little over 8,000 full-time jobs at Virginia's data centers in fiscal 2023.
+
+| Site and source                                   | Construction                      | Operations                    | Kind of figure           |
+| ------------------------------------------------- | --------------------------------- | ----------------------------- | ------------------------ |
+| Typical 250,000 sq ft building, Virginia (JLARC)  | about 1,500 at peak, 12–18 months | about 50 full-time            | claimed by the companies |
+| Lafayette Data Center, Santa Clara (state filing) | average 90, peak 175, 24 months   | 30–35 people on a typical day | projected by the builder |
+| Google, Council Bluffs, Iowa                      | not given                         | 130 (2014); "over 300" (2016) | claimed by Google        |
+
+The plate draws the middle row. **[Digital Realty](kloom:e/digital-realty)**, planning a 575,400-square-foot, 99.8-megawatt building, told the California Energy Commission in 2020 how many workers it expected; it gave only an average, a peak and a daily count, and the plate draws no more. **[Google](kloom:e/google)** said in 2014 that its campus in **[Council Bluffs](kloom:e/council-bluffs-iowa)** had created 130 jobs, and in 2016 "over 300"; its own impact study of 2024 counted about 1,140 direct jobs a year in Iowa from 2021 to 2023, employees and contractors together.
+
+## The industry's count
+
+The Data Center Coalition, the industry's trade group, paid **[PwC](kloom:e/pwc)** for a national estimate, published in May 2026. It found 1,005,080 direct jobs in 2024 and 5.5 million in all. The direct count uses what PwC calls an expanded definition: every job in the industry code for data processing and hosting (NAICS 518210), plus a share of jobs in other industries that deliver the same services. The other 4.5 million come from an **[input–output model](kloom:e/input-output-model)**, a table of what each industry buys from every other: spending ripples to suppliers (indirect jobs), and workers spend their pay in shops and restaurants (induced jobs). Building and equipping data centers accounts for 1.7 million of them. JLARC's estimate used the same kind of model.
+
+PwC states the limits itself: the results are activity "supported by" the industry, "not activity newly created," and the model assumes fixed recipes for every industry. The **[Bureau of Labor Statistics](kloom:e/bureau-of-labor-statistics)** counted 483,954 jobs in NAICS 518210 in 2025 (measured), but the code is a poor fit either way: JLARC's consultants found that only 15% of Virginia's jobs in it in 2016 were at data centers, and that only 41% of data center jobs were filed under it. In Virginia, PwC's direct count for 2024 was 49,000, and JLARC's on-site count for 2023 about 8,000. They measure different things.
+
+## The critics' count
+
+Good Jobs First, a nonprofit that tracks business subsidies and argues for disclosing and capping them, found in 2016 (in a report funded by the Surdna Foundation) that eleven large data center deals cost state and local governments an average of $1.95 million per permanent job. JLARC, with a model it commissioned from the University of Virginia's Weldon Cooper Center, allowed for the critics' point that the money could have been spent otherwise, counting the forgone tax as government spending lost. It estimated that each $1 million of Virginia's sales tax exemption added 84 jobs, against 58 for the state's average incentive, and returned 48 cents in state revenue per dollar: "moderate," in JLARC's word, since like most incentives it does not pay for itself. Good Jobs First reads the same figure as losing 52 cents.
+
+Critics also ask how many jobs would have come anyway. **[Georgia](kloom:e/georgia-u-s-state)**'s auditors, reporting a study by the University of Georgia, judged that 70% of the state's data centers would exist without the tax break, and counted only the rest: 8,505 construction and 1,641 operations jobs in fiscal 2025. Their first version, in December 2025, had said 28,350 and 5,471; Capitol Beat's Ty Tagami reported the correction in January 2026. Even corrected, the auditors judged the economic gain larger than the revenue forgone. In **[Texas](kloom:e/texas)** that July, the comptroller's office told senators it had audited 20 of 138 exempt data centers, and at least four had not created the jobs they promised; they must repay the tax.
+
+## Pay, and what is not known
+
+The jobs pay well, by the counts there are. BLS measured average pay of $205,865 in NAICS 518210 in 2025, though most of that code's jobs are not at data centers, against $79,094 across private industry and $85,692 for building equipment contractors, the trade of the electricians and pipefitters who build them. JLARC put data center staff and contractors at about $100,000.
+
+Who gets them is less clear. Digital Realty expected all its workers to come from the Bay Area, and a union representative told JLARC that apprentice classes in Northern Virginia had grown from 300 to 500. No public count shows how many construction workers travel from out of state, and most permanent counts are the companies' own. JLARC added that because most of the benefit comes from construction, Virginia must keep building to keep it. The other reason supporters give is taxes, which _Data centers and the local tax base_ follows.

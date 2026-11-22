@@ -1,0 +1,249 @@
+{
+	"id": "data-center-jobs",
+	"topic": "Data center jobs",
+	"position": {
+		"label": "Jobs"
+	},
+	"scene": {
+		"headline": "Data centers hire in two",
+		"accent": "WAVES.",
+		"palette": "ledger",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CONSTRUCTION · OPERATIONS · MULTIPLIERS",
+			"PWC · JLARC · BUREAU OF LABOR STATISTICS"
+		],
+		"counter": {
+			"value": "50",
+			"label": "full-time staff, a typical building (industry figure)"
+		}
+	},
+	"connections": [
+		{
+			"to": "datacenters/the-fight",
+			"why": "Gallup's table in the fight shows jobs were the reason 55% of supporters gave; this frame sets out how the competing job counts are made."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Data Centers in Virginia",
+			"authors": [
+				{
+					"name": "Joint Legislative Audit and Review Commission"
+				}
+			],
+			"place": "Richmond, VA",
+			"publisher": "Joint Legislative Audit and Review Commission",
+			"number": "Report 598",
+			"published": "2024-12-09",
+			"url": "https://jlarc.virginia.gov/pdfs/reports/Rpt598-2.pdf",
+			"accessed": "2026-11-22",
+			"note": "Construction and operations workforces, chapter 2 and table 2-1; the exemption's jobs per $1 million, table 2-2; NAICS 518210 and the IMPLAN model, appendix D"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Economic Contributions of Data Centers in the United States, 2023–2024",
+			"authors": [
+				{
+					"name": "PwC"
+				}
+			],
+			"publisher": "Data Center Coalition",
+			"published": "2026-05",
+			"url": "https://www.centerofyourdigitalworld.org/2026-impact-study",
+			"accessed": "2026-11-22",
+			"note": "Prepared by PwC for the Data Center Coalition; jobs, table III-1; the expanded definition and its limits, appendix B; Virginia, appendix A"
+		},
+		{
+			"kind": "report",
+			"title": "Lafayette Data Center: Draft Environmental Impact Report",
+			"authors": [
+				{
+					"name": "California Energy Commission"
+				}
+			],
+			"place": "Sacramento, CA",
+			"publisher": "California Energy Commission",
+			"number": "CEC-700-2023-003-D",
+			"published": "2023-04",
+			"url": "https://efiling.energy.ca.gov/GetDocument.aspx?tn=249557",
+			"accessed": "2026-11-22",
+			"note": "Docket 20-SPPE-02; project description and workforce, sections 3.1 and 3.7"
+		},
+		{
+			"kind": "report",
+			"title": "Lafayette Backup Generating Facility: Response to CEC Staff Data Request Set 1",
+			"authors": [
+				{
+					"name": "Digital Realty"
+				}
+			],
+			"publisher": "California Energy Commission",
+			"number": "TN 234295",
+			"published": "2020-08-12",
+			"url": "https://efiling.energy.ca.gov/GetDocument.aspx?tn=234295",
+			"accessed": "2026-11-22",
+			"note": "Docket 20-SPPE-02, filed by DayZen for Digital Realty; workforce, responses 88–90"
+		},
+		{
+			"kind": "report",
+			"title": "Impact Study: Iowa, US Data Center, 2024",
+			"authors": [
+				{
+					"name": "Google"
+				}
+			],
+			"publisher": "Google",
+			"published": "2024",
+			"url": "https://www.gstatic.com/marketing-cms/3b/64/f40b9fe249dcb82912724229c834/2024-impact-study-iowa.pdf",
+			"accessed": "2026-11-22",
+			"note": "Google's own study; direct jobs, page 3"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Council Bluffs, Iowa",
+			"url": "https://en.wikipedia.org/w/index.php?title=Council_Bluffs,_Iowa&oldid=1384992524",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-11",
+			"note": "Google's job counts for Council Bluffs, 2014 and 2016, as the article records them"
+		},
+		{
+			"kind": "web",
+			"title": "Quarterly Census of Employment and Wages, 2025 Annual Averages: NAICS 518210, Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",
+			"container": "QCEW Open Data",
+			"publisher": "U.S. Bureau of Labor Statistics",
+			"url": "https://data.bls.gov/cew/data/api/2025/a/industry/518210.csv",
+			"accessed": "2026-11-22",
+			"note": "Private ownership, United States: employment and average annual pay"
+		},
+		{
+			"kind": "web",
+			"title": "Quarterly Census of Employment and Wages, 2025 Annual Averages: United States, All Industries",
+			"container": "QCEW Open Data",
+			"publisher": "U.S. Bureau of Labor Statistics",
+			"url": "https://data.bls.gov/cew/data/api/2025/a/area/US000.csv",
+			"accessed": "2026-11-22",
+			"note": "Private total, construction, and building equipment contractors (NAICS 2382): average annual pay"
+		},
+		{
+			"kind": "report",
+			"title": "Money Lost to the Cloud: How Data Centers Benefit from State and Local Government Subsidies",
+			"authors": [
+				{
+					"family": "Tarczynska",
+					"given": "Kasia"
+				}
+			],
+			"place": "Washington, DC",
+			"publisher": "Good Jobs First",
+			"published": "2016-10",
+			"url": "https://goodjobsfirst.org/wp-content/uploads/docs/pdf/datacenters.pdf",
+			"accessed": "2026-11-22",
+			"note": "Supported by the Surdna Foundation, as its acknowledgment says"
+		},
+		{
+			"kind": "report",
+			"title": "The Hidden Costs of Virginia’s Data Center Subsidy and How They Undermine Public Schools",
+			"authors": [
+				{
+					"family": "Elmo",
+					"given": "Anthony"
+				},
+				{
+					"family": "Gizis",
+					"given": "Anya"
+				}
+			],
+			"place": "Washington, DC",
+			"publisher": "Good Jobs First",
+			"published": "2026-04",
+			"url": "https://goodjobsfirst.org/wp-content/uploads/2026/04/The-Hidden-Costs-of-Virginias-Data-Center-Subsidy-and-How-they-Undermine-Public-Schools.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "Tax Incentive Evaluation: Georgia Data Center Sales & Use Tax Exemption",
+			"authors": [
+				{
+					"name": "Georgia Department of Audits and Accounts"
+				}
+			],
+			"place": "Atlanta, GA",
+			"publisher": "Georgia Department of Audits and Accounts",
+			"published": "2026-01",
+			"url": "https://www.audits2.ga.gov/wp-content/uploads/2025/12/Data-Center-Tax-Exemption-Summary-Revised.pdf",
+			"accessed": "2026-11-22",
+			"note": "The auditors' summary, December 2025, revised January 2026, of a report by the University of Georgia's Carl Vinson Institute of Government"
+		},
+		{
+			"kind": "web",
+			"title": "Error in State Auditors’ Data Center Review Inflated Job Production and Economic Value",
+			"authors": [
+				{
+					"family": "Tagami",
+					"given": "Ty"
+				}
+			],
+			"container": "Georgia Public Broadcasting",
+			"publisher": "Georgia Public Broadcasting",
+			"published": "2026-01-16",
+			"url": "https://www.gpb.org/news/2026/01/16/error-in-state-auditors-data-center-review-inflated-job-production-and-economic",
+			"accessed": "2026-11-22",
+			"note": "Reported for Capitol Beat News Service"
+		},
+		{
+			"kind": "web",
+			"title": "Texas’ Multibillion-Dollar Sales Tax Exemption for Data Centers Is Growing, While Audits Lag",
+			"authors": [
+				{
+					"family": "Cobler",
+					"given": "Paul"
+				}
+			],
+			"container": "The Texas Tribune",
+			"publisher": "The Texas Tribune",
+			"published": "2026-07-27",
+			"url": "https://www.texastribune.org/2026/07/27/texas-data-centers-sales-tax-break-audits/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Americans Oppose AI Data Centers in Their Area",
+			"authors": [
+				{
+					"family": "Jones",
+					"given": "Jeffrey M."
+				}
+			],
+			"container": "Gallup News",
+			"publisher": "Gallup",
+			"published": "2026-05-13",
+			"url": "https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Input–output model",
+			"url": "https://en.wikipedia.org/w/index.php?title=Input%E2%80%93output_model&oldid=1383650427",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-03"
+		}
+	]
+}
