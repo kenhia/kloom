@@ -152,3 +152,49 @@ def inside_a_data_center():
 
 
 PLATES = {'the-fight': the_fight, 'inside-a-data-center': inside_a_data_center}
+
+
+def open_questions():
+    """The six questions of the last frame as a sieve: six screens, each finer than the one above,
+    with claims falling through. A schematic: the mesh sizes are drawn, not measured."""
+    d = D()
+    x0, x1 = 30, 236
+    ys = [52, 88, 124, 160, 196, 232]
+    labels = ['1 KIND · YEAR', '2 WHO PAID', '3 WITHDRAWN/CONSUMED', '4 PER TASK/TOTAL',
+              '5 ANNOUNCED/BUILT', '6 COUNTRY/WATERSHED']
+    d.group('thin')
+    d.line((x0 - 16, 30), (x0 - 16, 262)); d.line((x1 + 16, 30), (x1 + 16, 262))
+    for y in ys:
+        d.line((x0 - 16, y), (x0, y)); d.line((x1, y), (x1 + 16, y))
+    d.group()
+    for i, y in enumerate(ys):                     # each screen: a frame with a mesh that tightens
+        inset = i * 11
+        d.line((x0 + inset, y), (x1 - inset, y))
+        step = 26 - i * 3
+        x = x0 + inset
+        while x <= x1 - inset:
+            d.line((x, y - 3), (x, y + 3)); x += step
+    d.line((x0 + 66, 262), (x1 - 66, 262))           # the tray at the bottom
+    d.line((x0 + 66, 262), (x0 + 66, 254)); d.line((x1 - 66, 262), (x1 - 66, 254))
+    d.group('mid')
+    import random
+    rnd = random.Random(59)
+    for i, y in enumerate(ys):                     # claims caught on each screen, fewer passing lower
+        n = 7 - i
+        inset = i * 11
+        for k in range(n):
+            cx = x0 + inset + 12 + k * (x1 - x0 - 2 * inset - 24) / max(n - 1, 1)
+            d.circle(cx, y - 7, 2.2 + rnd.random() * 1.6)
+    for k in range(3):                             # what passes all six
+        d.circle(123 + k * 10, 256, 2.0)
+    for (a, b) in ((133, 24), (133, 40)):
+        d.line((a, b - 8), (a, b)); _arrow(d, (a, b - 8), (a, b), 4)
+    d.group('labels')
+    for y, t in zip(ys, labels):
+        d.text(x1 + 22, y + 3, t, size=7, anchor='start')
+    d.text(133, 16, 'CLAIMS', size=7)
+    d.text(133, 280, 'WHAT BOTH SIDES CAN ARGUE FROM', size=7)
+    return d
+
+
+PLATES['open-questions'] = open_questions
