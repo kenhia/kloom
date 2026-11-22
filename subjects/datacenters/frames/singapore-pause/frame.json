@@ -1,0 +1,309 @@
+{
+	"id": "singapore-pause",
+	"topic": "Singapore's data center pause",
+	"position": {
+		"label": "2019",
+		"sort": 2019
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Singapore rationed the",
+		"accent": "ROOM.",
+		"palette": "chamber",
+		"illustration": "scene.svg",
+		"metadata": ["SINGAPORE · JOHOR, MALAYSIA", "EDB · IMDA · 2019–2026"],
+		"counter": {
+			"value": "768 MW",
+			"label": "approved in the five years before the pause"
+		}
+	},
+	"connections": [
+		{
+			"to": "datacenters/wue",
+			"why": "Johor admits new data centers only below a water usage effectiveness of 1.8, a threshold it says matches Singapore's, and that frame explains the ratio."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Written Reply to PQ on New Data Centres",
+			"authors": [
+				{
+					"family": "Chan",
+					"given": "Chun Sing"
+				}
+			],
+			"container": "Ministry of Trade and Industry",
+			"publisher": "Government of Singapore",
+			"published": "2021-02-01",
+			"url": "https://www.mti.gov.sg/newsroom/written-reply-to-pq-on-new-data-centres/",
+			"accessed": "2026-11-22",
+			"note": "The pause, its reason and the approvals of 2011–20, in a written answer to Parliament"
+		},
+		{
+			"kind": "web",
+			"title": "Written Reply to PQ on Data Centres",
+			"authors": [
+				{
+					"family": "Gan",
+					"given": "Kim Yong"
+				}
+			],
+			"container": "Ministry of Trade and Industry",
+			"publisher": "Government of Singapore",
+			"published": "2022-01-11",
+			"url": "https://www.mti.gov.sg/newsroom/written-reply-to-pq-on-data-centres/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "MCI Response to PQ on Data on Total Carbon Emissions by Data Centres in Singapore",
+			"container": "Ministry of Communications and Information",
+			"publisher": "Government of Singapore",
+			"published": "2021-07-27",
+			"url": "https://www.mddi.gov.sg/newsroom/mci-response-pq-data-carbon-emissions-data-centres-sg/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "EDB and IMDA Launch Pilot Data Centre – Call for Application (DC-CFA) to Support Sustainable Growth of DCs",
+			"container": "Singapore Economic Development Board",
+			"publisher": "Singapore Economic Development Board and Infocomm Media Development Authority",
+			"published": "2022-07-20",
+			"url": "https://www.edb.gov.sg/en/corporate-news/edb-and-imda-launch-pilot-data-centre-call-for-application-to-support-sustainable-growth-of-data-centres",
+			"accessed": "2026-11-22",
+			"note": "With its Annex A, the pilot's conditions"
+		},
+		{
+			"kind": "web",
+			"title": "Four Data Centre Proposals Selected as Part of Pilot Data Centre – Call for Application",
+			"container": "Singapore Economic Development Board",
+			"publisher": "Singapore Economic Development Board and Infocomm Media Development Authority",
+			"published": "2023-07-14",
+			"url": "https://www.edb.gov.sg/en/about-edb/media-releases-publications/four-data-centre-proposals-selected-as-part-of-pilot-data-centre-call-for-application.html",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Opening Remarks by SMS Janil Puthucheary at ATxSummit Digital Sustainability Forum",
+			"authors": [
+				{
+					"family": "Puthucheary",
+					"given": "Janil"
+				}
+			],
+			"container": "Ministry of Communications and Information",
+			"publisher": "Government of Singapore",
+			"published": "2024-05-30",
+			"url": "https://www.mddi.gov.sg/newsroom/opening-by-sms-janil-puthucheary-at-atxsummit-digital-sustainability-forum/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Written Reply to PQ on Electricity Consumption When Data Centres' Capacities Rise by a Third and Impact on Singapore's Greenhouse Emissions",
+			"authors": [
+				{
+					"family": "Gan",
+					"given": "Kim Yong"
+				}
+			],
+			"container": "Ministry of Trade and Industry",
+			"publisher": "Government of Singapore",
+			"published": "2025-01-07",
+			"url": "https://www.mti.gov.sg/newsroom/written-reply-to-pq-on-electricity-consumption-when-data-centres--capacities-rise-by-a-third-and-impact-on-singapore-s-greenhouse-emissions/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Launch of Second Data Centre – Call for Application",
+			"container": "Singapore Economic Development Board",
+			"publisher": "Singapore Economic Development Board and Infocomm Media Development Authority",
+			"published": "2025-12-01",
+			"url": "https://www.edb.gov.sg/en/news-and-insights/launch-of-second-data-centre-call-for-application",
+			"accessed": "2026-11-22",
+			"note": "With its fact sheet"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Four Data Centre Proposals Selected as Part of Second Data Centre – Call for Application (DC-CFA2)",
+			"container": "Singapore Economic Development Board",
+			"publisher": "Singapore Economic Development Board and Infocomm Media Development Authority",
+			"published": "2026-08-21",
+			"url": "https://www.edb.gov.sg/en/news-and-insights/four-data-centre-proposals-selected-as-part-of-second-data-centre",
+			"accessed": "2026-11-22",
+			"note": "With its fact sheet: the awards and Jurong Island"
+		},
+		{
+			"kind": "web",
+			"title": "New Digital Infrastructure Bill to Strengthen the Foundations for Singapore's Digital Economy",
+			"container": "Ministry of Digital Development and Information",
+			"publisher": "Government of Singapore",
+			"published": "2026-09-08",
+			"url": "https://www.mddi.gov.sg/newsroom/new-digital-infrastructure-bill-to-strengthen-the-foundations-for-singapore-s-digital-economy/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Public Consultation on the Digital Infrastructure Bill",
+			"container": "Ministry of Digital Development and Information",
+			"publisher": "Government of Singapore",
+			"published": "2026",
+			"url": "https://www.mddi.gov.sg/newsroom/public-consultation-on-the-digital-infrastructure-bill/",
+			"accessed": "2026-11-22",
+			"note": "The closing note on the consultation"
+		},
+		{
+			"kind": "web",
+			"title": "Singapore Sets Southeast Asia's First Binding Data Centre Rules, Building Demand for Clean Energy",
+			"authors": [
+				{
+					"family": "Yap",
+					"given": "Kelvin"
+				}
+			],
+			"container": "Eco-Business",
+			"publisher": "Eco-Business",
+			"published": "2026-10-08",
+			"url": "https://www.eco-business.com/news/singapore-sets-southeast-asias-first-binding-data-centre-rules-building-demand-for-clean-energy/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "After the Moratorium: How Singapore Plans to Stay in Data Center Race",
+			"authors": [
+				{
+					"family": "Mah",
+					"given": "Paul"
+				}
+			],
+			"container": "DCD",
+			"publisher": "Data Centre Dynamics",
+			"published": "2022-05-03",
+			"url": "https://www.datacenterdynamics.com/en/analysis/after-the-moratorium-how-singapore-plans-to-stay-in-data-center-race/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Singapore Could Miss Out on Demand If It Doesn't Move to Greener Data Centers, Warns Keppel Corp",
+			"authors": [
+				{
+					"family": "Butler",
+					"given": "Georgia"
+				}
+			],
+			"container": "DCD",
+			"publisher": "Data Centre Dynamics",
+			"published": "2023-05-23",
+			"url": "https://www.datacenterdynamics.com/en/news/singapore-could-miss-out-on-demand-if-it-doesnt-move-to-greener-data-centers-warns-keppel-corp/",
+			"accessed": "2026-11-22",
+			"note": "Reporting Wong Wai Meng's words to Nikkei Asia"
+		},
+		{
+			"kind": "web",
+			"title": "Singapore Data Center Roadmap Unlikely to Drive Investment – Report",
+			"authors": [
+				{
+					"family": "Gooding",
+					"given": "Matthew"
+				}
+			],
+			"container": "DCD",
+			"publisher": "Data Centre Dynamics",
+			"published": "2024-06-05",
+			"url": "https://www.datacenterdynamics.com/en/news/singapore-data-center-roadmap-unlikely-to-drive-investment-report/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Data Centres, Energy Demand and Sustainability: Can Malaysia Strike the Right Balance?",
+			"authors": [
+				{
+					"family": "Loo",
+					"given": "Sara"
+				}
+			],
+			"publisher": "ISEAS–Yusof Ishak Institute",
+			"place": "Singapore",
+			"number": "ISEAS Perspective 2025/43",
+			"published": "2025-05",
+			"url": "https://www.iseas.edu.sg/articles-commentaries/iseas-perspective/2025-43-data-centres-energy-demand-and-sustainability-can-malaysia-strike-the-right-balance-by-sara-loo/",
+			"accessed": "2026-11-22",
+			"note": "Johor's capacity, Tenaga Nasional's contracts and load, and the grid's renewable share"
+		},
+		{
+			"kind": "web",
+			"title": "Johor Data Centre Projects to Undergo Rigorous Assessment Before Approval",
+			"container": "Bernama",
+			"publisher": "Malaysian National News Agency",
+			"published": "2026-01-05",
+			"url": "https://bernama.com/en/news.php?id=2508830",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Malaysia's Data Centre Hub Tightens Approvals on Water Worries",
+			"authors": [
+				{
+					"name": "Bloomberg"
+				}
+			],
+			"container": "The Star",
+			"publisher": "Star Media Group",
+			"published": "2025-11-26",
+			"url": "https://www.thestar.com.my/business/business-news/2025/11/26/malaysias-data-centre-hub-tightens-approvals-on-water-worries",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Johor Data Centres' Expansions Postponed",
+			"container": "Lowyat.NET",
+			"publisher": "Lowyat.NET",
+			"published": "2025-11",
+			"url": "https://www.lowyat.net/2025/373950/johor-data-centres-expansions-postponed/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Data Centres in Malaysia's Johor Told to Wait for Water until Mid-2027",
+			"container": "South China Morning Post",
+			"publisher": "South China Morning Post",
+			"published": "2025-11",
+			"url": "https://www.scmp.com/week-asia/health-environment/article/3333109/data-centres-malaysias-johor-told-wait-water-until-mid-2027",
+			"accessed": "2026-11-22",
+			"citedIn": "Johor Data Centres' Expansions Postponed"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Energy in Singapore",
+			"url": "https://en.wikipedia.org/w/index.php?title=Energy_in_Singapore&oldid=1383570043",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-03"
+		},
+		{
+			"kind": "media",
+			"title": "Johor–Singapore Causeway",
+			"url": "https://commons.wikimedia.org/wiki/File:Johor-Singapore_Causeway_20240816_163357.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC BY-SA 4.0",
+			"file": "causeway.jpg",
+			"authors": [
+				{
+					"name": "ZKang123"
+				}
+			],
+			"container": "Wikimedia Commons",
+			"published": "2024-08-16"
+		}
+	]
+}

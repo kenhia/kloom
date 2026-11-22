@@ -1,0 +1,29 @@
+{
+	"datacenters/singapore-pause": [
+		["Singapore", "singapore"],
+		["Economic Development Board", "economic-development-board"],
+		["Infocomm Media Development Authority", "infocomm-media-development-authority"],
+		["Equinix", "equinix"],
+		["Microsoft", "microsoft"],
+		["Jurong Island", "jurong-island"],
+		["power usage effectiveness", "power-usage-effectiveness"],
+		["Johor", "johor"],
+		["Malaysia", "malaysia"],
+		["water usage effectiveness", "water-usage-effectiveness"]
+	],
+	"datacenters/netherlands-pause": [
+		["Amsterdam", "amsterdam"],
+		["Haarlemmermeer", "haarlemmermeer"],
+		["Zeewolde", "zeewolde"],
+		["Meta", "meta-platforms"],
+		["Netherlands", "netherlands"],
+		["Senate", "senate-netherlands"],
+		["Council of State", "council-of-state-netherlands"],
+		["Hugo de Jonge", "hugo-de-jonge"],
+		["Eemshaven", "eemshaven"],
+		["Middenmeer", "middenmeer"],
+		["Statistics Netherlands", "statistics-netherlands"],
+		["Microsoft", "microsoft"],
+		["Google", "google"]
+	]
+}

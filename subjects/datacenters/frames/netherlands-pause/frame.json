@@ -1,0 +1,288 @@
+{
+	"id": "netherlands-pause",
+	"topic": "Amsterdam, Zeewolde and the Dutch pause",
+	"position": {
+		"label": "2022",
+		"sort": 2022
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Hyperscale got two",
+		"accent": "ADDRESSES.",
+		"palette": "chamber",
+		"illustration": "scene.svg",
+		"metadata": ["AMSTERDAM · ZEEWOLDE · EEMSHAVEN · MIDDENMEER", "THE NETHERLANDS · 2019–2026"],
+		"counter": {
+			"value": "5.0%",
+			"label": "of Dutch electricity used by data centers, 2025"
+		}
+	},
+	"connections": [
+		{
+			"to": "datacenters/withdrawal-consumption",
+			"why": "Microsoft drew 84 million liters at Middenmeer in 2021 and says 36 million went back, so the campus's water was two numbers, the withdrawal and the consumption that frame tells apart."
+		}
+	],
+	"citations": [
+		{
+			"kind": "statute",
+			"key": true,
+			"title": "Voorbereidingsbesluit hyperscale datacenters",
+			"citeAs": "gazette",
+			"code": {
+				"name": "Staatscourant 2022, nr. 5276",
+				"page": "1"
+			},
+			"published": "2022-02-16",
+			"container": "Officiële bekendmakingen",
+			"publisher": "Government of the Netherlands",
+			"url": "https://zoek.officielebekendmakingen.nl/stcrt-2022-5276.pdf",
+			"accessed": "2026-11-22",
+			"language": "nl",
+			"note": "The nine-month pause on hyperscale data centers, with the coalition agreement's words in its preamble"
+		},
+		{
+			"kind": "statute",
+			"title": "Voorbereidingsbesluit hyperscale datacentra",
+			"citeAs": "gazette",
+			"code": {
+				"name": "Staatscourant 2023, nr. 20472",
+				"page": "1"
+			},
+			"published": "2023-07-12",
+			"container": "Officiële bekendmakingen",
+			"publisher": "Government of the Netherlands",
+			"url": "https://zoek.officielebekendmakingen.nl/stcrt-2023-20472.pdf",
+			"accessed": "2026-11-22",
+			"language": "nl"
+		},
+		{
+			"kind": "statute",
+			"key": true,
+			"title": "Besluit van 20 december 2023, houdende wijziging van het Besluit kwaliteit leefomgeving in verband met een instructieregel voor hyperscale datacentra",
+			"citeAs": "gazette",
+			"code": {
+				"name": "Staatsblad 2023, nr. 492",
+				"page": "1"
+			},
+			"published": "2023-12-20",
+			"container": "Officiële bekendmakingen",
+			"publisher": "Government of the Netherlands",
+			"url": "https://zoek.officielebekendmakingen.nl/stb-2023-492.pdf",
+			"accessed": "2026-11-22",
+			"language": "nl",
+			"note": "The national rule, in force January 1, 2024, and its explanatory note"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Kabinet beperkt mogelijkheid tot vestiging hyperscale datacentra",
+			"container": "Rijksoverheid",
+			"publisher": "Government of the Netherlands",
+			"published": "2022-06-10",
+			"url": "https://www.rijksoverheid.nl/actueel/nieuws/2022/06/10/kabinet-beperkt-mogelijkheid-tot-vestiging-hyperscale-datacentra",
+			"accessed": "2026-11-22",
+			"language": "nl"
+		},
+		{
+			"kind": "web",
+			"title": "Voorlopig geen nieuwe datacenters rond Amsterdam",
+			"container": "Binnenlands Bestuur",
+			"publisher": "Binnenlands Bestuur",
+			"published": "2019-07-12",
+			"url": "https://www.binnenlandsbestuur.nl/digitaal/pensioenen/voorlopig-geen-nieuwe-datacenters-rond-amsterdam",
+			"accessed": "2026-11-22",
+			"language": "nl"
+		},
+		{
+			"kind": "web",
+			"title": "The Future of Data Centers in the Amsterdam Metropolitan Area: Another 10 Years of Sustainable Growth",
+			"container": "Dutch Data Center Association",
+			"publisher": "Dutch Data Center Association",
+			"published": "2020-06-30",
+			"url": "https://www.dutchdatacenters.nl/en/nieuws/amsterdam_moratorium_jul20/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Gemeenteraad Zeewolde maakt de weg vrij voor komst datacenter Facebook",
+			"container": "NOS Nieuws",
+			"publisher": "Nederlandse Omroep Stichting",
+			"published": "2021-12-16",
+			"url": "https://nos.nl/l/2409774",
+			"accessed": "2026-11-22",
+			"language": "nl"
+		},
+		{
+			"kind": "web",
+			"title": "Voorlopige stop op nieuwe megadatacenters, geen gevolgen voor Zeewolde",
+			"container": "NOS Nieuws",
+			"publisher": "Nederlandse Omroep Stichting",
+			"published": "2022-02-16",
+			"url": "https://nos.nl/l/2417657",
+			"accessed": "2026-11-22",
+			"language": "nl"
+		},
+		{
+			"kind": "web",
+			"title": "Het doek lijkt te vallen voor megadatacenter Zeewolde",
+			"container": "NOS Nieuws",
+			"publisher": "Nederlandse Omroep Stichting",
+			"published": "2022-03-18",
+			"url": "https://nos.nl/l/2421747",
+			"accessed": "2026-11-22",
+			"language": "nl"
+		},
+		{
+			"kind": "web",
+			"title": "Eerste Kamer roept kabinet op megadatacenter Zeewolde tegen te houden",
+			"container": "NOS Nieuws",
+			"publisher": "Nederlandse Omroep Stichting",
+			"published": "2022-03-22",
+			"url": "https://nos.nl/l/2422271",
+			"accessed": "2026-11-22",
+			"language": "nl"
+		},
+		{
+			"kind": "web",
+			"title": "Vreugde bij tegenstanders datacenter Zeewolde",
+			"container": "NOS Nieuws",
+			"publisher": "Nederlandse Omroep Stichting",
+			"published": "2022-03-30",
+			"url": "https://nos.nl/artikel/2423183-vreugde-bij-tegenstanders-datacenter-zeewolde",
+			"accessed": "2026-11-22",
+			"language": "nl"
+		},
+		{
+			"kind": "web",
+			"title": "Moederbedrijf Facebook staakt plan voor datacenter Zeewolde",
+			"container": "Binnenlands Bestuur",
+			"publisher": "Binnenlands Bestuur",
+			"published": "2022-06-30",
+			"url": "https://www.binnenlandsbestuur.nl/bestuur-en-organisatie/moederbedrijf-facebook-staakt-plan-voor-datacenter-zeewolde",
+			"accessed": "2026-11-22",
+			"language": "nl"
+		},
+		{
+			"kind": "web",
+			"title": "Hoogste rechter zet definitieve streep door datacenter",
+			"container": "Binnenlands Bestuur",
+			"publisher": "Binnenlands Bestuur",
+			"published": "2023-09-20",
+			"url": "https://www.binnenlandsbestuur.nl/ruimte-en-milieu/bouwen-en-wonen/hoogste-rechter-zet-definitieve-streep-door-datacenter",
+			"accessed": "2026-11-22",
+			"language": "nl"
+		},
+		{
+			"kind": "web",
+			"title": "Drought-Stricken Holland Discovers Microsoft Data Center Slurped 84m Liters of Drinking Water Last Year",
+			"authors": [
+				{
+					"family": "Judge",
+					"given": "Peter"
+				}
+			],
+			"container": "DCD",
+			"publisher": "Data Centre Dynamics",
+			"published": "2022-08-16",
+			"url": "https://www.datacenterdynamics.com/en/news/drought-stricken-holland-discovers-microsoft-data-center-slurped-84m-liters-of-drinking-water-last-year/",
+			"accessed": "2026-11-22",
+			"note": "Reporting the Noordhollands Dagblad's figures, with Microsoft's reply"
+		},
+		{
+			"kind": "web",
+			"title": "Keijzer: kan niks doen tegen enorm datacenter voor Microsoft in Amsterdam",
+			"container": "NOS Nieuws",
+			"publisher": "Nederlandse Omroep Stichting",
+			"published": "2026-01-27",
+			"url": "https://nos.nl/l/2599925",
+			"accessed": "2026-11-22",
+			"language": "nl"
+		},
+		{
+			"kind": "web",
+			"title": "Tweede Kamer wil nieuwe criteria voor hyperscalers",
+			"container": "Binnenlands Bestuur",
+			"publisher": "Binnenlands Bestuur",
+			"published": "2026-03-03",
+			"url": "https://www.binnenlandsbestuur.nl/ruimte-en-milieu/tweede-kamer-wil-nieuwe-criteria-voor-hyperscalers",
+			"accessed": "2026-11-22",
+			"language": "nl"
+		},
+		{
+			"kind": "web",
+			"title": "Bouw van minstens zeven megadatacentra gaat door, ondanks politiek verzet",
+			"container": "NOS Nieuws",
+			"publisher": "Nederlandse Omroep Stichting",
+			"published": "2026-03-28",
+			"url": "https://nos.nl/l/2608192",
+			"accessed": "2026-11-22",
+			"language": "nl"
+		},
+		{
+			"kind": "web",
+			"title": "Eén Microsoft-datacenter gebruikt 1 procent van alle stroom in Nederland",
+			"container": "NOS Nieuws",
+			"publisher": "Nederlandse Omroep Stichting",
+			"published": "2026-07-14",
+			"url": "https://nos.nl/l/2622984",
+			"accessed": "2026-11-22",
+			"language": "nl"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Data Centres Consume 5 Percent of the Netherlands' Electricity",
+			"container": "Statistics Netherlands (CBS)",
+			"publisher": "Centraal Bureau voor de Statistiek",
+			"published": "2026-11-18",
+			"url": "https://www.cbs.nl/en-gb/news/2026/47/data-centres-consume-5-percent-of-the-netherlands-electricity",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "Microsoft Datacenters in the Netherlands",
+			"authors": [
+				{
+					"name": "Microsoft"
+				}
+			],
+			"publisher": "Microsoft",
+			"published": "2025-10",
+			"url": "https://local.microsoft.com/wp-content/uploads/2025/10/Microsoft-datacenters-in-Netherlands.pdf",
+			"accessed": "2026-11-22",
+			"note": "The company's own fact sheet"
+		},
+		{
+			"kind": "media",
+			"title": "Google data center and wind turbines in Eemshaven",
+			"url": "https://commons.wikimedia.org/wiki/File:Google_data_center_and_wind_turbines_in_Eemshaven.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC0",
+			"file": "eemshaven.jpg",
+			"authors": [
+				{
+					"name": "Wvdp"
+				}
+			],
+			"container": "Wikimedia Commons",
+			"published": "2023-01-06"
+		},
+		{
+			"kind": "media",
+			"title": "Data centers' share of Dutch electricity use, 2017–2025",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Statistics Netherlands (CBS), \"Data Centres Consume 5 Percent of the Netherlands' Electricity,\" November 18, 2026",
+			"url": "https://www.cbs.nl/en-gb/news/2026/47/data-centres-consume-5-percent-of-the-netherlands-electricity",
+			"accessed": "2026-11-22",
+			"licence": "MIT",
+			"file": "cbs-share.svg"
+		}
+	]
+}
