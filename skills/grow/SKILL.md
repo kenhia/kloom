@@ -313,6 +313,33 @@ both as you write.
   frames mention is a mark, not a connection. None is fine; one or two is
   usual.
 
+## A contested subject
+
+Some subjects are live public arguments (sprint 059's _The Cloud on the
+Ground_, on data centers). There the frame's job is to let a reader who has
+heard slanted claims from both sides judge for themselves, so it takes no
+side, and these rules hold for every frame that touches the argument:
+
+- **Each side's strongest case**, in terms its own advocates would accept,
+  attributed and quoted briefly from their own documents, then each side's
+  reply to the other.
+- **Every number says what kind it is**, and its year: **measured** (counted
+  after the fact, with a published method), **estimated (modeled)** (a
+  model's estimate of the past), **projected** (a forecast, with its range
+  and date), **company-reported** (a firm's own metered or computed figure)
+  or **claimed** (stated by someone with a stake, unchecked). A figure read
+  off a source's chart is "our reading of its figure".
+- **Who paid** for an interested study is named: an industry association, a
+  company, an advocacy group, the agency that runs the program it measures.
+- **Neutral words**: loaded words appear only inside quotations; the headline
+  describes and never gives a verdict, and so do the counter and the plate.
+- **Measured beats claimed, from either side.** Balance is not "both equally
+  right": where a measurement settles a claim, say so plainly, whichever side
+  the claim came from, and who disputes it.
+- **End on what is not known**, then point onward.
+- **Read your draft twice**, as a committed opponent and as a committed
+  advocate, and fix every sentence either would call unfair.
+
 ## Sources and citations
 
 This is a subject written with a model, so **sources are mandatory and must
