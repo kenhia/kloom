@@ -64,6 +64,13 @@
 			]
 		},
 		{
+			"id": "neighbors",
+			"title": "The neighbors",
+			"labelKind": "category",
+			"palette": "parcel",
+			"frames": ["memphis-turbines", "secrecy"]
+		},
+		{
 			"id": "deciding",
 			"title": "Who decides",
 			"labelKind": "category",

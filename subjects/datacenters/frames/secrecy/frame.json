@@ -1,0 +1,238 @@
+{
+	"id": "secrecy",
+	"topic": "NDAs and code names",
+	"position": {
+		"label": "Secrecy"
+	},
+	"scene": {
+		"headline": "The buyer went",
+		"accent": "UNNAMED.",
+		"palette": "parcel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"NONDISCLOSURE AGREEMENTS · CODE NAMES",
+			"PROJECT BLUE · PIMA COUNTY, ARIZONA · 2023–2026"
+		],
+		"counter": {
+			"value": "77%",
+			"label": "of Louisiana's state senators had signed an NDA, 2026"
+		}
+	},
+	"connections": [
+		{
+			"to": "datacenters/google-dalles",
+			"why": "Google's campus at The Dalles was bought by a company under another name, as Project 02, by officials bound by confidentiality agreements; that frame tells the story, and this one the argument it began."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Some Louisiana Lawmakers Backing Out of NDAs as Questions Arise over Data Centers, Other Deals",
+			"authors": [
+				{
+					"family": "Karlin",
+					"given": "Sam"
+				}
+			],
+			"container": "NOLA.com",
+			"publisher": "The Times-Picayune | The Advocate",
+			"published": "2026-07-29",
+			"url": "https://www.nola.com/news/politics/louisiana-nda-secrecy-data-center-legislature/article_c3a388d0-277e-4652-9a49-491a06563e3d.html",
+			"accessed": "2026-11-22",
+			"note": "Counts from the agreements obtained by records request: nearly 300 NDAs signed by Louisiana Economic Development since January 2024"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Amazon Web Services Is Company behind Tucson's Project Blue, according to 2023 County Memo",
+			"authors": [
+				{
+					"family": "Kunichoff",
+					"given": "Yana"
+				},
+				{
+					"family": "Washington",
+					"given": "John"
+				}
+			],
+			"container": "Arizona Luminaria",
+			"publisher": "Arizona Luminaria",
+			"published": "2025-07-21",
+			"url": "https://azluminaria.org/2025/07/21/amazon-web-services-is-company-behind-tucsons-project-blue-according-to-2023-county-memo/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Project Blue: Facts and Information (Archive Page)",
+			"authors": [
+				{
+					"name": "City of Tucson"
+				}
+			],
+			"container": "City of Tucson",
+			"publisher": "City of Tucson",
+			"url": "https://www.tucsonaz.gov/projectblue",
+			"accessed": "2026-11-22",
+			"note": "The city's account of the project and of its NDA, kept as an archive after the council's vote"
+		},
+		{
+			"kind": "web",
+			"title": "Tucson City Council Rejects Project Blue Data Center amid Intense Community Pressure",
+			"authors": [
+				{
+					"family": "Kunichoff",
+					"given": "Yana"
+				}
+			],
+			"container": "Arizona Luminaria",
+			"publisher": "Arizona Luminaria",
+			"published": "2025-08-06",
+			"url": "https://azluminaria.org/2025/08/06/tucson-city-council-rejects-project-blue-amid-intense-community-pressure/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Pima County Votes to Change Two Policies, about NDAs and Environmental Impact Reviews, after \"Lessons Learned\" from Project Blue",
+			"authors": [
+				{
+					"family": "Washington",
+					"given": "John"
+				},
+				{
+					"family": "Kunichoff",
+					"given": "Yana"
+				}
+			],
+			"container": "Arizona Luminaria",
+			"publisher": "Arizona Luminaria",
+			"published": "2025-09-03",
+			"url": "https://azluminaria.org/2025/09/03/pima-county-votes-to-change-two-policies-about-ndas-and-environmental-impact-reviews-after-lessons-learned-from-project-blue/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Pima County Supervisors Approve Agreement Outlining Beale's Commitments on Project Blue",
+			"authors": [
+				{
+					"family": "Washington",
+					"given": "John"
+				}
+			],
+			"container": "Arizona Luminaria",
+			"publisher": "Arizona Luminaria",
+			"published": "2025-12-16",
+			"url": "https://azluminaria.org/2025/12/16/pima-county-supervisors-approve-agreement-outlining-beales-commitments-on-project-blue/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Board of Supervisors Votes to Expand Transparency Policies",
+			"authors": [
+				{
+					"family": "Cuellar",
+					"given": "Carolina"
+				}
+			],
+			"container": "Arizona Luminaria",
+			"publisher": "Arizona Luminaria",
+			"published": "2026-09-09",
+			"url": "https://azluminaria.org/2026/09/09/board-of-supervisors-votes-to-expand-transparency-policies/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Microsoft Responds to AI Data Center Revolt, Vowing to Cover Full Power Costs and Reject Local Tax Breaks",
+			"authors": [
+				{
+					"family": "Bishop",
+					"given": "Todd"
+				}
+			],
+			"container": "GeekWire",
+			"publisher": "GeekWire",
+			"published": "2026-01-13",
+			"url": "https://www.geekwire.com/2026/microsoft-responds-to-ai-data-center-revolt-vowing-to-cover-full-power-costs-and-reject-local-tax-breaks/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "article",
+			"title": "Hiding in Plain Sight, Google Seeks More Power",
+			"authors": [
+				{
+					"family": "Markoff",
+					"given": "John"
+				},
+				{
+					"family": "Hansell",
+					"given": "Saul"
+				}
+			],
+			"container": "The New York Times",
+			"published": "2006-06-14",
+			"url": "https://www.nytimes.com/2006/06/14/technology/14search.html",
+			"accessed": "2026-11-22",
+			"note": "Project 02, and officials in The Dalles bound by confidentiality agreements"
+		},
+		{
+			"kind": "web",
+			"title": "Top-Secret Google Data Center Almost Completed",
+			"authors": [
+				{
+					"name": "Computerworld"
+				}
+			],
+			"container": "Computerworld",
+			"published": "2006-06-16",
+			"url": "https://www.computerworld.com/article/1648132/top-secret-google-data-center-almost-completed.html",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Google's Water Use Is Soaring in The Dalles, Records Show, with Two More Data Centers to Come",
+			"authors": [
+				{
+					"family": "Rogoway",
+					"given": "Mike"
+				}
+			],
+			"container": "The Oregonian/OregonLive",
+			"publisher": "Advance Local",
+			"published": "2022-12-17",
+			"url": "https://www.oregonlive.com/silicon-forest/2022/12/googles-water-use-is-soaring-in-the-dalles-records-show-with-two-more-data-centers-to-come.html",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "The No. 1 Reason Americans Would Support a Data Center",
+			"authors": [
+				{
+					"family": "Meyer",
+					"given": "Robinson"
+				}
+			],
+			"container": "Heatmap News",
+			"publisher": "Heatmap",
+			"published": "2026-10-27",
+			"url": "https://heatmap.news/daily/data-center-support-oppose-polling",
+			"accessed": "2026-11-22",
+			"note": "The Heatmap Pro poll of 2,537 registered voters, by Embold Research, October 3–15, 2026"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Opposition to AI data centers",
+			"url": "https://en.wikipedia.org/w/index.php?title=Opposition_to_AI_data_centers&oldid=1386681852",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-19"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"datacenters/memphis-turbines": [
+		["xAI", "spacexai"],
+		["Elon Musk", "elon-musk"],
+		["Memphis", "memphis-tennessee"],
+		["Colossus", "colossus-data-center"],
+		["Boxtown", "boxtown-memphis"],
+		["Tennessee Valley Authority", "tennessee-valley-authority"],
+		["Southern Environmental Law Center", "southern-environmental-law-center"],
+		["Shelby County", "shelby-county-tennessee"],
+		["NAACP", "naacp"],
+		["Clean Air Act", "clean-air-act-united-states"],
+		["Memphis Light, Gas and Water", "memphis-light-gas-and-water"],
+		["Southaven", "southaven-mississippi"]
+	],
+	"datacenters/secrecy": [
+		["nondisclosure agreement", "non-disclosure-agreement"],
+		["Google", "google"],
+		["Louisiana", "louisiana"],
+		["Meta", "meta-platforms"],
+		["Amazon", "amazon-company"],
+		["Pima County", "pima-county-arizona"],
+		["Tucson", "tucson-arizona"],
+		["Amazon Web Services", "amazon-web-services"],
+		["Microsoft", "microsoft"],
+		["Brad Smith", "brad-smith-american-lawyer"]
+	]
+}
