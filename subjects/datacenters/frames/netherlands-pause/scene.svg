@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M51.4 284.2 L51.4 17"/>
+		<path pathLength="1" d="M102.1 284.2 L102.1 17"/>
+		<path pathLength="1" d="M152.9 284.2 L152.9 17"/>
+		<path pathLength="1" d="M203.6 284.2 L203.6 17"/>
+		<path pathLength="1" d="M254.4 284.2 L254.4 17"/>
+		<path pathLength="1" d="M305.2 284.2 L305.2 17"/>
+		<path pathLength="1" d="M355.9 284.2 L355.9 17"/>
+		<path pathLength="1" d="M29 289.2 L327.5 289.2"/>
+		<path pathLength="1" d="M29 205.2 L327.5 205.2"/>
+		<path pathLength="1" d="M29 121.2 L327.5 121.2"/>
+		<path pathLength="1" d="M29 37.2 L327.5 37.2"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M31.1 272.4 L43.3 247.2 L53.4 222 L59.5 196.8 L64.6 171.6 L69.7 146.4 L74.7 129.6 L92 126.2 L107.2 121.2 L127.5 112.8 L144.8 92.6 L158 74.2 L183.3 57.4 L213.8 50.6 L244.3 49 L274.7 45.6 L287.9 45.6 L300.1 65.8 L320.4 79.2"/>
+		<path pathLength="1" d="M97.4 153.4 a4.5 4.5 0 1 0 9.1 0 a4.5 4.5 0 1 0 -9.1 0"/>
+		<path pathLength="1" d="M102.2 148.9 L106.5 153.1 M99.7 149.5 L105.9 155.6 M98.1 151 L104.3 157.2 M97.4 153.5 L101.9 157.9"/>
+		<path pathLength="1" d="M283.5 45.9 a4.5 4.5 0 1 0 9.1 0 a4.5 4.5 0 1 0 -9.1 0"/>
+		<path pathLength="1" d="M287.2 41.5 L292.4 46.7 M285.1 42.4 L291.5 48.8 M283.8 44.3 L289.6 50.1 M283.7 47.3 L286.6 50.2"/>
+		<path pathLength="1" d="M153 228.2 L163 228.2 L163 238.2 L153 238.2 Z"/>
+		<path pathLength="1" d="M153 228.2 L163 238.2"/>
+		<path pathLength="1" d="M153 238.2 L163 228.2"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M89.1 226.6 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M68.5 237.8 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M149 205.2 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M259.1 84.4 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M270 286 L315.6 286"/>
+		<path pathLength="1" d="M270 282 L270 290"/>
+		<path pathLength="1" d="M315.6 282 L315.6 290"/>
+	</g>
+	<g>
+		<text x="97.3" y="222.6" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AMSTERDAM</text>
+		<text x="74.7" y="251.8" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HAARLEMMERMEER</text>
+		<text x="167" y="236.2" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ZEEWOLDE</text>
+		<text x="157.2" y="201.2" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LELYSTAD</text>
+		<text x="113" y="156.4" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MIDDENMEER</text>
+		<text x="277" y="37.9" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EEMSHAVEN</text>
+		<text x="255.3" y="94.4" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GRONINGEN</text>
+		<text x="56.5" y="79.2" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NORTH SEA</text>
+		<text x="292.8" y="298" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">50 KM</text>
+		<text x="26" y="298" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COAST SCHEMATIC</text>
+	</g>
+</svg>

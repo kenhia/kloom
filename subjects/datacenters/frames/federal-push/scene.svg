@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M112 114 L342 114"/>
+		<path pathLength="1" d="M112 112 L112 116"/>
+		<path pathLength="1" d="M157.5 112 L157.5 116"/>
+		<path pathLength="1" d="M202.9 112 L202.9 116"/>
+		<path pathLength="1" d="M248.4 112 L248.4 116"/>
+		<path pathLength="1" d="M293.8 112 L293.8 116"/>
+		<path pathLength="1" d="M339.3 112 L339.3 116"/>
+		<path pathLength="1" d="M41 158 L41 161 M41 164 L41 167 M41 170 L41 173 M41 176 L41 179 M41 182 L41 185 M41 188 L41 191 M41 194 L41 197 M41 200 L41 203 M41 206 L41 209 M41 212 L41 215 M41 218 L41 221 M41 224 L41 227 M41 230 L41 233 M41 236 L41 239 M41 242 L41 245 M41 248 L41 251 M41 254 L41 257 M41 260 L41 262"/>
+		<path pathLength="1" d="M102 62 L102 64 M102 68 L102 70 M102 74 L102 76 M102 80 L102 82 M102 86 L102 88 M102 92 L102 94 M102 98 L102 100 M102 104 L102 106 M102 110 L102 112 M102 116 L102 118 M102 122 L102 124 M102 128 L102 130 M102 134 L102 136 M102 140 L102 142 M102 146 L102 148 M102 152 L102 154 M102 158 L102 160 M102 164 L102 166 M102 170 L102 172 M102 176 L102 178 M102 182 L102 184 M102 188 L102 190 M102 194 L102 196 M102 200 L102 202 M102 206 L102 208 M102 212 L102 214 M102 218 L102 220 M102 224 L102 226 M102 230 L102 232 M102 236 L102 238 M102 242 L102 244"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M14 128 L68 128 L68 158 L14 158 Z"/>
+		<path pathLength="1" d="M2 262 L80 262 L80 282 L2 282 Z"/>
+		<path pathLength="1" d="M364 128 L396 128 L396 158 L364 158 Z"/>
+		<path pathLength="1" d="M68 143 L92 143"/>
+		<path pathLength="1" d="M92 90 L92 232"/>
+		<path pathLength="1" d="M92 90 L112 90"/>
+		<path pathLength="1" d="M112 84 L342 84 L342 96 L112 96 Z"/>
+		<path pathLength="1" d="M342 90 L358 90"/>
+		<path pathLength="1" d="M92 166 L112 166"/>
+		<path pathLength="1" d="M112 160 L262 160 L262 172 L112 172 Z"/>
+		<path pathLength="1" d="M262 166 L358 166"/>
+		<path pathLength="1" d="M92 232 L112 232"/>
+		<path pathLength="1" d="M112 226 L262 226 L262 238 L112 238 Z"/>
+		<path pathLength="1" d="M262 232 L358 232"/>
+		<path pathLength="1" d="M358 90 L358 232"/>
+		<path pathLength="1" d="M358 143 L364 143"/>
+		<path pathLength="1" d="M360.4 144.7 L364 143 L360.4 141.3"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M112 90 L112 92 M112 94 L112 96 M112 98 L112 100"/>
+		<path pathLength="1" d="M112 98 L162 98 L162 106 L112 106 Z"/>
+		<path pathLength="1" d="M162 102 L165 102 M167 102 L170 102 M172 102 L175 102 M177 102 L180 102 M182 102 L185 102 M187 102 L190 102 M192 102 L195 102 M197 102 L200 102 M202 102 L205 102 M207 102 L210 102 M212 102 L215 102 M217 102 L220 102 M222 102 L225 102 M227 102 L230 102 M232 102 L235 102 M237 102 L240 102 M242 102 L245 102 M247 102 L250 102 M252 102 L255 102 M257 102 L260 102 M262 102 L265 102 M267 102 L270 102 M272 102 L275 102 M277 102 L280 102 M282 102 L285 102 M287 102 L290 102 M292 102 L295 102 M297 102 L300 102 M302 102 L305 102 M307 102 L310 102 M312 102 L315 102 M317 102 L320 102 M322 102 L325 102 M327 102 L330 102 M332 102 L335 102 M337 102 L340 102 M342 102 L345 102 M347 102 L350 102 M350 100 L350 97 M350 95 L350 92"/>
+		<path pathLength="1" d="M108 162 C 142 138 232 138 266 162"/>
+		<path pathLength="1" d="M262.2 160.7 L266 162 L264.7 158.2"/>
+		<path pathLength="1" d="M108 228 C 142 204 232 204 266 228"/>
+		<path pathLength="1" d="M262.2 226.7 L266 228 L264.7 224.2"/>
+	</g>
+	<g>
+		<text x="41" y="146" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PROJECT</text>
+		<text x="41" y="275" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">STATE, COUNTY</text>
+		<text x="380" y="146" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BUILD</text>
+		<text x="112" y="78" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ARMY CORPS WETLAND PERMIT: 253 DAYS</text>
+		<text x="166" y="109" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NATIONWIDE: 55</text>
+		<text x="187" y="168.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">NEPA REVIEW</text>
+		<text x="187" y="234.5" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SPECIES CONSULTATION</text>
+		<text x="187" y="139" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CATEGORICAL EXCLUSION</text>
+		<text x="187" y="205" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PROGRAMMATIC</text>
+		<text x="102" y="56" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FEDERAL NEXUS</text>
+	</g>
+</svg>

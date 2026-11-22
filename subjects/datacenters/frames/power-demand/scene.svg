@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M48 186 L372 186"/>
+		<path pathLength="1" d="M48 110 L372 110"/>
+		<path pathLength="1" d="M48 34 L372 34"/>
+		<path pathLength="1" d="M48 262 L48 266"/>
+		<path pathLength="1" d="M88.5 262 L88.5 266"/>
+		<path pathLength="1" d="M129 262 L129 266"/>
+		<path pathLength="1" d="M169.5 262 L169.5 266"/>
+		<path pathLength="1" d="M210 262 L210 266"/>
+		<path pathLength="1" d="M250.5 262 L250.5 266"/>
+		<path pathLength="1" d="M291 262 L291 266"/>
+		<path pathLength="1" d="M331.5 262 L331.5 266"/>
+		<path pathLength="1" d="M372 262 L372 266"/>
+		<path pathLength="1" d="M240.4 34 L240.4 262"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M48 34 L48 262 L372 262"/>
+		<path pathLength="1" d="M48 246.8 L68.2 246.8 L88.5 246.8 L129 242.7 L230.2 217.4 L250.5 213.4"/>
+		<path pathLength="1" d="M45.8 246.8 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M86.3 246.8 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M126.8 242.7 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M228.1 217.4 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+		<path pathLength="1" d="M248.3 213.4 a2.2 2.2 0 1 0 4.4 0 a2.2 2.2 0 1 0 -4.4 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M250.5 213.4 L254.2 211.8 M257 210.7 L260.7 209.1 M263.4 208 L267.1 206.4 M269.9 205.3 L273.6 203.8 M276.4 202.6 L280 201.1 M282.8 199.9 L286.5 198.4 M289.3 197.2 L293 195.7 M295.7 194.5 L299.4 193 M302.2 191.9 L305.9 190.3 M308.7 189.2 L312.4 187.6 M315.1 186.5 L318.8 184.9 M321.6 183.8 L325.3 182.3 M328.1 181.1 L331.5 179.7"/>
+		<path pathLength="1" d="M250.5 213.4 L253 210.3 M255 208 L257.5 204.9 M259.4 202.6 L261.9 199.5 M263.9 197.2 L266.4 194.1 M268.3 191.8 L270.9 188.7 M272.8 186.3 L275.3 183.3 M277.2 180.9 L279.8 177.9 M281.7 175.5 L284.2 172.5 M286.1 170.1 L288.7 167.1 M290.6 164.7 L293.1 161.7 M295 159.3 L297.6 156.3 M299.5 153.9 L302 150.9 M303.9 148.5 L306.5 145.4 M308.4 143.1 L310.9 140 M312.8 137.7 L315.4 134.6 M317.3 132.3 L319.8 129.2 M321.7 126.9 L324.3 123.8 M326.2 121.5 L328.7 118.4 M330.6 116.1 L331.5 115.1"/>
+		<path pathLength="1" d="M331.5 179.7 L331.5 115.1"/>
+		<path pathLength="1" d="M327.5 179.7 L335.5 179.7"/>
+		<path pathLength="1" d="M327.5 115.1 L335.5 115.1"/>
+		<path pathLength="1" d="M250.5 213.4 L253.7 211 M256.2 209.2 L259.4 206.9 M261.8 205.1 L265.1 202.8 M267.5 201 L270.7 198.6 M273.1 196.9 L276.4 194.5 M278.8 192.8 L282 190.4 M284.5 188.6 L287.7 186.3 M290.1 184.5 L293.3 182.2 M295.8 180.4 L299 178 M301.4 176.3 L304.7 173.9 M307.1 172.2 L310.3 169.8 M312.8 168 L316 165.7 M318.4 163.9 L321.6 161.6 M324.1 159.8 L327.3 157.5 M329.7 155.7 L333 153.3 M335.4 151.6 L338.6 149.2 M341.1 147.4 L344.3 145.1 M346.7 143.3 L349.9 141 M352.4 139.2 L355.6 136.9 M358 135.1 L361.3 132.7 M363.7 131 L365 130"/>
+		<path pathLength="1" d="M250.5 213.4 L252.8 210.1 M254.5 207.6 L256.8 204.3 M258.5 201.9 L260.8 198.6 M262.5 196.1 L264.8 192.8 M266.5 190.4 L268.7 187.1 M270.5 184.6 L272.7 181.3 M274.5 178.9 L276.7 175.6 M278.4 173.1 L280.7 169.8 M282.4 167.4 L284.7 164.1 M286.4 161.6 L288.7 158.3 M290.4 155.9 L292.7 152.6 M294.4 150.1 L296.7 146.8 M298.4 144.4 L300.7 141.1 M302.4 138.6 L304.7 135.3 M306.4 132.9 L308.7 129.6 M310.4 127.1 L312.7 123.8 M314.4 121.4 L316.7 118.1 M318.4 115.6 L320.6 112.3 M322.4 109.9 L324.6 106.6 M326.4 104.1 L328.6 100.8 M330.3 98.4 L332.6 95.1 M334.3 92.6 L336.6 89.3 M338.3 86.9 L340.6 83.6 M342.3 81.1 L344.6 77.8 M346.3 75.4 L348.6 72.1 M350.3 69.6 L352.6 66.3 M354.3 63.9 L356.6 60.6 M358.3 58.1 L360.6 54.8 M362.3 52.4 L364.6 49.1"/>
+		<path pathLength="1" d="M365 130 L365 48.4"/>
+		<path pathLength="1" d="M361 130 L369 130"/>
+		<path pathLength="1" d="M361 48.4 L369 48.4"/>
+		<path pathLength="1" d="M250.5 213.4 L254.2 212 M257.1 210.9 L260.8 209.5 M263.6 208.4 L267.3 207 M270.2 206 L273.9 204.6 M276.7 203.5 L280.4 202.1 M283.3 201 L287 199.6 M289.8 198.6 L293.5 197.1 M296.4 196.1 L300.1 194.7 M302.9 193.6 L306.7 192.2 M309.5 191.2 L313.2 189.7 M316 188.7 L319.8 187.3 M322.6 186.2 L326.3 184.8 M329.1 183.8 L332.9 182.3 M335.7 181.3 L339.4 179.9 M342.2 178.8 L346 177.4 M348.8 176.4 L352.5 174.9 M355.3 173.9 L359.1 172.5 M361.9 171.4 L365.6 170 M368.4 169 L372.2 167.5 M375 166.5 L378.7 165.1"/>
+		<path pathLength="1" d="M250.5 213.4 L253.1 210.3 M255 208 L257.6 205 M259.5 202.7 L262.1 199.6 M264 197.3 L266.6 194.3 M268.6 192 L271.1 188.9 M273.1 186.6 L275.7 183.6 M277.6 181.3 L280.2 178.2 M282.1 175.9 L284.7 172.9 M286.6 170.6 L289.2 167.5 M291.1 165.2 L293.7 162.2 M295.6 159.9 L298.2 156.8 M300.2 154.5 L302.7 151.5 M304.7 149.2 L307.3 146.1 M309.2 143.8 L311.8 140.8 M313.7 138.5 L316.3 135.4 M318.2 133.1 L320.8 130.1 M322.7 127.8 L325.3 124.7 M327.3 122.4 L329.8 119.4 M331.8 117.1 L334.3 114 M336.3 111.7 L338.9 108.7 M340.8 106.4 L343.4 103.3 M345.3 101 L347.9 98 M349.8 95.7 L352.4 92.6 M354.3 90.3 L356.9 87.3 M358.9 85 L361.4 81.9 M363.4 79.6 L366 76.6 M367.9 74.3 L370.5 71.2 M372.4 68.9 L375 65.9 M376.9 63.6 L379 61.1"/>
+		<path pathLength="1" d="M379 165 L379 61.1"/>
+		<path pathLength="1" d="M375 165 L383 165"/>
+		<path pathLength="1" d="M375 61.1 L383 61.1"/>
+		<path pathLength="1" d="M362.4 97.6 a2.6 2.6 0 1 0 5.2 0 a2.6 2.6 0 1 0 -5.2 0"/>
+	</g>
+	<g>
+		<text x="42" y="189" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">300</text>
+		<text x="42" y="113" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">600</text>
+		<text x="42" y="37" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">900</text>
+		<text x="42" y="26" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">TWh</text>
+		<text x="48" y="276" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2014</text>
+		<text x="129" y="276" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2018</text>
+		<text x="210" y="276" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2022</text>
+		<text x="291" y="276" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2026</text>
+		<text x="372" y="276" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2030</text>
+		<text x="139.1" y="198.7" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ESTIMATED</text>
+		<text x="303.1" y="224" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PROJECTED</text>
+		<text x="337.5" y="109.1" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LBNL 2024</text>
+		<text x="360" y="51.4" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">LBNL 2026</text>
+		<text x="382" y="187" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">EPRI 2026</text>
+	</g>
+</svg>

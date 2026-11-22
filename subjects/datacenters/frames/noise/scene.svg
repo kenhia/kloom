@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M60 40 L60 250"/>
+		<path pathLength="1" d="M114 40 L114 250"/>
+		<path pathLength="1" d="M168 40 L168 250"/>
+		<path pathLength="1" d="M222 40 L222 250"/>
+		<path pathLength="1" d="M276 40 L276 250"/>
+		<path pathLength="1" d="M330 40 L330 250"/>
+		<path pathLength="1" d="M60 250 L330 250"/>
+		<path pathLength="1" d="M60 211.8 L330 211.8"/>
+		<path pathLength="1" d="M60 173.6 L330 173.6"/>
+		<path pathLength="1" d="M60 135.5 L330 135.5"/>
+		<path pathLength="1" d="M60 97.3 L330 97.3"/>
+		<path pathLength="1" d="M60 59.1 L330 59.1"/>
+		<path pathLength="1" d="M114 82.1 L168 82.1 L168 105.1"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M60 40 L60 250 L330 250"/>
+		<path pathLength="1" d="M32 60 L32 250"/>
+		<path pathLength="1" d="M26.1 60 L32 65.9 M24 66.4 L32 74.4 M24 74.9 L32 82.9 M24 83.4 L32 91.4 M24 91.9 L32 99.9 M24 100.4 L32 108.4 M24 108.9 L32 116.9 M24 117.3 L32 125.3 M24 125.8 L32 133.8 M24 134.3 L32 142.3 M24 142.8 L32 150.8 M24 151.3 L32 159.3 M24 159.8 L32 167.8 M24 168.2 L32 176.2 M24 176.7 L32 184.7 M24 185.2 L32 193.2 M24 193.7 L32 201.7 M24 202.2 L32 210.2 M24 210.7 L32 218.7 M24 219.2 L32 227.2 M24 227.6 L32 235.6 M24 236.1 L32 244.1 M24 244.6 L29.4 250"/>
+		<path pathLength="1" d="M60 59.1 L215 125.1"/>
+		<path pathLength="1" d="M206 250 L206 236 L215 228 L224 236 L224 250"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M129.4 46 L129.4 50 M129.4 53 L129.4 57 M129.4 60 L129.4 64 M129.4 67 L129.4 71 M129.4 74 L129.4 78 M129.4 81 L129.4 85 M129.4 88 L129.4 92 M129.4 95 L129.4 99 M129.4 102 L129.4 106 M129.4 109 L129.4 113 M129.4 116 L129.4 120 M129.4 123 L129.4 127 M129.4 130 L129.4 134 M129.4 137 L129.4 141 M129.4 144 L129.4 148 M129.4 151 L129.4 155 M129.4 158 L129.4 162 M129.4 165 L129.4 169 M129.4 172 L129.4 176 M129.4 179 L129.4 183 M129.4 186 L129.4 190 M129.4 193 L129.4 197 M129.4 200 L129.4 204 M129.4 207 L129.4 211 M129.4 214 L129.4 218 M129.4 221 L129.4 225 M129.4 228 L129.4 232 M129.4 235 L129.4 239 M129.4 242 L129.4 246 M129.4 249 L129.4 250"/>
+		<path pathLength="1" d="M215 125.1 L218.7 126.7 M221.5 127.8 L225.1 129.4 M227.9 130.6 L231.6 132.1 M234.4 133.3 L238 134.9 M240.8 136.1 L244.5 137.6 M247.2 138.8 L250.9 140.4 M253.7 141.5 L257.4 143.1 M260.1 144.3 L263.8 145.8 M266.6 147 L270.2 148.6 M273 149.8 L276.7 151.3 M279.4 152.5 L283.1 154.1 M285.9 155.2 L289.6 156.8 M292.3 158 L296 159.6 M298.8 160.7 L302.4 162.3 M305.2 163.5 L308.9 165 M311.6 166.2 L315.3 167.8 M318.1 169 L321.8 170.5 M324.5 171.7 L328.2 173.3"/>
+		<path pathLength="1" d="M229 125.1 L229 220.5"/>
+		<path pathLength="1" d="M227.3 216.9 L229 220.5 L230.8 216.9"/>
+		<path pathLength="1" d="M224 220.5 L234 220.5"/>
+		<path pathLength="1" d="M251 125.1 L251 182.4"/>
+		<path pathLength="1" d="M249.3 178.8 L251 182.4 L252.8 178.8"/>
+		<path pathLength="1" d="M246 182.4 L256 182.4"/>
+		<path pathLength="1" d="M215 125.1 L257 125.1"/>
+		<path pathLength="1" d="M57.5 59.1 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+	</g>
+	<g>
+		<text x="60" y="262" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">25</text>
+		<text x="114" y="262" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">50</text>
+		<text x="168" y="262" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">100</text>
+		<text x="222" y="262" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">200</text>
+		<text x="276" y="262" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">400</text>
+		<text x="330" y="262" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">800</text>
+		<text x="195" y="274" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">METERS FROM THE WALL, EACH STEP A DOUBLING</text>
+		<text x="56" y="252.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">20</text>
+		<text x="56" y="214.3" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">30</text>
+		<text x="56" y="176.1" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">40</text>
+		<text x="56" y="138" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">50</text>
+		<text x="56" y="99.8" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">60</text>
+		<text x="56" y="61.6" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">70</text>
+		<text x="56" y="32" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DB</text>
+		<text x="171" y="96.1" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">-6 DB</text>
+		<text x="132.4" y="42" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SETBACK 200 FT</text>
+		<text x="234" y="223" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1 KHZ</text>
+		<text x="256" y="184.9" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">63 HZ</text>
+		<text x="227" y="246" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HOUSE, 600 FT</text>
+		<text x="240" y="120.1" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">INDOORS</text>
+		<text x="200" y="22" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SCHEMATIC · INVENTED STARTING LEVEL</text>
+	</g>
+</svg>

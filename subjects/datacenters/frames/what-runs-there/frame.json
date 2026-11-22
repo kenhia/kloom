@@ -1,0 +1,225 @@
+{
+	"id": "what-runs-there",
+	"topic": "What runs in a data center",
+	"position": {
+		"label": "The work"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Everything online runs",
+		"accent": "SOMEWHERE.",
+		"palette": "ledger",
+		"illustration": "scene.svg",
+		"metadata": [
+			"SEARCH · MAIL · VIDEO · PAYMENTS · RECORDS · AI",
+			"ENTERPRISE · COLOCATION · HYPERSCALE"
+		],
+		"counter": {
+			"value": "485 TWh",
+			"label": "world data center use, 2025 (IEA estimate)"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/cloud",
+			"why": "The Berkeley estimate of servers moving into hyperscale and colocation buildings is the physical side of the rented computing The cloud describes, whose hyperscale share Synergy Research put at 48% of world capacity in 2025."
+		},
+		{
+			"to": "datacenters/race-for-compute",
+			"why": "Whether the AI work driving new building is worth its power, water and land, the question this frame leaves open, is the race argument's ground."
+		},
+		{
+			"to": "datacenters/efficiency-case",
+			"why": "The machinery whose electricity this frame estimates is what the efficiency argument says got more work per kilowatt-hour each year."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2024 United States Data Center Energy Usage Report",
+			"authors": [
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Smith",
+					"given": "Sarah J."
+				},
+				{
+					"family": "Hubbard",
+					"given": "Alex"
+				},
+				{
+					"family": "Newkirk",
+					"given": "Alex"
+				},
+				{
+					"family": "Lei",
+					"given": "Nuoa"
+				},
+				{
+					"family": "Siddik",
+					"given": "Md Abu Bakar"
+				},
+				{
+					"family": "Holecek",
+					"given": "Billie"
+				}
+			],
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"number": "LBNL-2001637",
+			"published": "2024-12",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+			"accessed": "2026-11-22",
+			"note": "Server, storage and AI electricity, section 5; space types, table 4.1 and figure 4.1; Bitcoin mining, section 6"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Key Questions on Energy and AI",
+			"authors": [
+				{
+					"name": "International Energy Agency"
+				}
+			],
+			"place": "Paris",
+			"publisher": "International Energy Agency",
+			"published": "2026-04-16",
+			"url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+			"accessed": "2026-11-22",
+			"note": "2025 consumption of 485 TWh and the 2030 outlook, in the executive summary"
+		},
+		{
+			"kind": "report",
+			"title": "Energy and AI",
+			"authors": [
+				{
+					"name": "International Energy Agency"
+				}
+			],
+			"place": "Paris",
+			"publisher": "International Energy Agency",
+			"published": "2025-04",
+			"url": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
+			"accessed": "2026-11-22",
+			"note": "Read in its chapter Energy demand from AI"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Using Massive Online Choice Experiments to Measure Changes in Well-Being",
+			"authors": [
+				{
+					"family": "Brynjolfsson",
+					"given": "Erik"
+				},
+				{
+					"family": "Collis",
+					"given": "Avinash"
+				},
+				{
+					"family": "Eggers",
+					"given": "Felix"
+				}
+			],
+			"container": "Proceedings of the National Academy of Sciences",
+			"volume": "116",
+			"issue": "15",
+			"pages": "7250–55",
+			"published": "2019-04",
+			"doi": "10.1073/pnas.1815663116",
+			"accessed": "2026-11-22",
+			"note": "Median valuations of digital goods, table 1; funding in the acknowledgments"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Carbon Footprint of Streaming Video: Fact-Checking the Headlines",
+			"authors": [
+				{
+					"family": "Kamiya",
+					"given": "George"
+				}
+			],
+			"container": "IEA Commentaries",
+			"publisher": "International Energy Agency",
+			"published": "2020-12-10",
+			"url": "https://www.iea.org/commentaries/the-carbon-footprint-of-streaming-video-fact-checking-the-headlines",
+			"accessed": "2026-11-22",
+			"note": "Updated from the February 2020 analysis; includes The Shift Project's June 2020 correction"
+		},
+		{
+			"kind": "report",
+			"title": "Climate Crisis: The Unsustainable Use of Online Video",
+			"authors": [
+				{
+					"family": "Efoui-Hess",
+					"given": "Maxime"
+				}
+			],
+			"publisher": "The Shift Project",
+			"place": "Paris",
+			"published": "2019-07",
+			"url": "https://theshiftproject.org/wp-content/uploads/2019/07/2019-02.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Tracking Electricity Consumption from U.S. Cryptocurrency Mining Operations",
+			"authors": [
+				{
+					"family": "Morey",
+					"given": "Mark"
+				},
+				{
+					"family": "McGrath",
+					"given": "Glenn"
+				},
+				{
+					"family": "Minato",
+					"given": "Hiroaki"
+				}
+			],
+			"container": "Today in Energy",
+			"publisher": "U.S. Energy Information Administration",
+			"published": "2024-02-01",
+			"url": "https://www.eia.gov/todayinenergy/detail.php?id=61364",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Americans Oppose AI Data Centers in Their Area",
+			"authors": [
+				{
+					"family": "Jones",
+					"given": "Jeffrey M."
+				}
+			],
+			"container": "Gallup News",
+			"publisher": "Gallup",
+			"published": "2026-05-13",
+			"url": "https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx",
+			"accessed": "2026-11-22",
+			"note": "A telephone survey of 1,000 adults, March 2–18, 2026, and the open answers of 2,054 panel members, April 1–15"
+		},
+		{
+			"kind": "media",
+			"title": "Three estimates of the carbon dioxide from half an hour of Netflix, 2019",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "IEA, The carbon footprint of streaming video: fact-checking the headlines, December 2020",
+			"url": "https://www.iea.org/commentaries/the-carbon-footprint-of-streaming-video-fact-checking-the-headlines",
+			"accessed": "2026-11-22",
+			"licence": "MIT",
+			"file": "streaming.svg"
+		}
+	]
+}

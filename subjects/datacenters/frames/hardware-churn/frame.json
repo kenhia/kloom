@@ -1,0 +1,247 @@
+{
+	"id": "hardware-churn",
+	"topic": "Embodied carbon and e-waste",
+	"position": {
+		"label": "Hardware"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Servers are made, then",
+		"accent": "RETIRED.",
+		"palette": "horizon",
+		"illustration": "scene.svg",
+		"metadata": ["SCOPE 3 · CAPITAL GOODS · EMBODIED CARBON", "GLOBAL E-WASTE MONITOR · 2024"],
+		"counter": {
+			"value": "73%",
+			"label": "of Meta's net 2025 emissions from capital goods, its own count"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2026 Sustainability Report",
+			"authors": [
+				{
+					"name": "Meta"
+				}
+			],
+			"publisher": "Meta",
+			"published": "2026-11",
+			"url": "https://sustainability.atmeta.com/asset/2026-sustainability-report/",
+			"accessed": "2026-11-22",
+			"note": "Net carbon footprint for 2025, p. 19; location-based emissions, pp. 71–72; embodied carbon of designs, p. 25; component reuse, p. 51"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2026 Environmental Data Fact Sheet",
+			"authors": [
+				{
+					"name": "Microsoft"
+				}
+			],
+			"place": "Redmond, WA",
+			"publisher": "Microsoft",
+			"published": "2026",
+			"url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/2026-Microsoft-Environmental-Data-Fact-Sheet-PDF.pdf",
+			"accessed": "2026-11-22",
+			"note": "Table 1A, emissions by scope and Scope 3 category, fiscal years 2020–2025; Deloitte's review, section 1.11"
+		},
+		{
+			"kind": "report",
+			"title": "2026 Environmental Sustainability Report",
+			"authors": [
+				{
+					"name": "Microsoft"
+				}
+			],
+			"place": "Redmond, WA",
+			"publisher": "Microsoft",
+			"published": "2026",
+			"url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/2026-Microsoft-Environmental-Sustainability-Report-PDF.pdf",
+			"accessed": "2026-11-22",
+			"note": "The 30% embodied carbon goal, p. 17; the Circular Centers' 92%, p. 26"
+		},
+		{
+			"kind": "report",
+			"title": "Data Center Capacity Growth Trends: Findings from the 2026 Global Data Center Survey",
+			"authors": [
+				{
+					"name": "Uptime Institute"
+				}
+			],
+			"publisher": "Uptime Institute",
+			"published": "2026-08",
+			"url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026%20Annual%20Survey%20Data%20Center%20Growth%20v6.pdf",
+			"accessed": "2026-11-22",
+			"note": "Server refresh timelines, question IV: 801 owner and operator respondents"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Life-Cycle Emissions of AI Hardware: A Cradle-to-Grave Approach and Generational Trends",
+			"authors": [
+				{
+					"family": "Schneider",
+					"given": "Ian"
+				},
+				{
+					"family": "Xu",
+					"given": "Hui"
+				},
+				{
+					"family": "Benecke",
+					"given": "Stephan"
+				},
+				{
+					"family": "Patterson",
+					"given": "David"
+				},
+				{
+					"family": "Huang",
+					"given": "Keguo"
+				},
+				{
+					"family": "Ranganathan",
+					"given": "Parthasarathy"
+				},
+				{
+					"family": "Elsworth",
+					"given": "Cooper"
+				}
+			],
+			"container": "arXiv preprint arXiv:2502.01671",
+			"published": "2025-02-01",
+			"url": "https://arxiv.org/abs/2502.01671",
+			"accessed": "2026-11-22",
+			"note": "By Google's own engineers, from first-party data; table 1 and the review of server studies"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "The Global E-waste Monitor 2024",
+			"authors": [
+				{
+					"family": "Baldé",
+					"given": "Cornelis P."
+				},
+				{
+					"family": "Kuehr",
+					"given": "Ruediger"
+				},
+				{
+					"family": "Yamamoto",
+					"given": "Tales"
+				},
+				{
+					"family": "McDonald",
+					"given": "Rosie"
+				},
+				{
+					"family": "D'Angelo",
+					"given": "Elena"
+				},
+				{
+					"family": "Lobuntsova",
+					"given": "Shahana"
+				},
+				{
+					"family": "Nnorom",
+					"given": "Innocent"
+				}
+			],
+			"etAl": true,
+			"place": "Geneva and Bonn",
+			"publisher": "International Telecommunication Union and United Nations Institute for Training and Research",
+			"published": "2024-03",
+			"url": "https://ewastemonitor.info/wp-content/uploads/2024/03/GEM_2024_18-03_web_page_per_page_web.pdf",
+			"accessed": "2026-11-22",
+			"note": "Executive summary: 62 billion kg in 2022, 22.3% documented as recycled, 82 billion kg projected for 2030"
+		},
+		{
+			"kind": "article",
+			"title": "E-waste Challenges of Generative Artificial Intelligence",
+			"authors": [
+				{
+					"family": "Wang",
+					"given": "Peng"
+				},
+				{
+					"family": "Zhang",
+					"given": "Ling-Yu"
+				},
+				{
+					"family": "Tzachor",
+					"given": "Asaf"
+				},
+				{
+					"family": "Chen",
+					"given": "Wei-Qiang"
+				}
+			],
+			"container": "Nature Computational Science",
+			"volume": "4",
+			"issue": "11",
+			"pages": "818–23",
+			"published": "2024-10-28",
+			"doi": "10.1038/s43588-024-00712-6",
+			"accessed": "2026-11-22",
+			"read": "abstract"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Embedded emissions",
+			"url": "https://en.wikipedia.org/w/index.php?title=Embedded_emissions&oldid=1386164162",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-17"
+		},
+		{
+			"kind": "media",
+			"title": "Decommissioned servers to be scrapped",
+			"url": "https://commons.wikimedia.org/wiki/File:Decomissioned_servers_for_scrap_-_IMG_3486.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC BY 2.0",
+			"file": "scrap-servers.jpg",
+			"authors": [
+				{
+					"name": "Jemimus"
+				}
+			],
+			"container": "Flickr, via Wikimedia Commons",
+			"published": "2008-05-28"
+		},
+		{
+			"kind": "media",
+			"title": "Microsoft's reported capital goods emissions, fiscal years 2020–2025",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Microsoft, 2026 Environmental Data Fact Sheet, table 1A",
+			"url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/2026-Microsoft-Environmental-Data-Fact-Sheet-PDF.pdf",
+			"accessed": "2026-11-22",
+			"licence": "MIT",
+			"file": "capital-goods.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/bubble",
+			"why": "How long servers and AI chips are kept in use sets both their embodied carbon per year and the depreciation the bubble argument turns on."
+		},
+		{
+			"to": "datacenters/carbon-accounting",
+			"why": "Capital goods dominate the companies' emissions only under market-based counting, which that frame explains."
+		}
+	]
+}

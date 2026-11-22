@@ -1,0 +1,262 @@
+{
+	"id": "tax-breaks",
+	"topic": "Data center tax breaks",
+	"position": {
+		"label": "Tax breaks"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Most states made servers",
+		"accent": "EXEMPT.",
+		"palette": "chamber",
+		"illustration": "scene.svg",
+		"metadata": ["SALES AND USE TAX · PROPERTY TAX", "VIRGINIA · GEORGIA · JLARC AUDITS"],
+		"counter": {
+			"value": "$1.42B",
+			"label": "state sales tax waived, FY2025 (JLARC estimate)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Data Centers in Virginia",
+			"authors": [
+				{
+					"name": "Joint Legislative Audit and Review Commission"
+				}
+			],
+			"publisher": "Joint Legislative Audit and Review Commission",
+			"place": "Richmond, VA",
+			"number": "Report 598",
+			"published": "2024-12-09",
+			"url": "https://jlarc.virginia.gov/pdfs/reports/Rpt598.pdf",
+			"accessed": "2026-11-22",
+			"note": "The exemption, its eligibility and its users, chapter 2; states with exemptions, appendix E"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Economic Development Incentives 2026: Spending and Performance",
+			"authors": [
+				{
+					"name": "Joint Legislative Audit and Review Commission"
+				}
+			],
+			"publisher": "Joint Legislative Audit and Review Commission",
+			"place": "Richmond, VA",
+			"number": "Report 623",
+			"published": "2026-11-09",
+			"url": "https://jlarc.virginia.gov/pdfs/reports/Rpt623.pdf",
+			"accessed": "2026-11-22",
+			"note": "Commission draft. Return in revenue, table 11; the 50.2% \"but for\" assumption, p. 29; the exemption by fiscal year, table D-3"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Biennial Data Center Retail Sales and Use Tax Exemption Report",
+			"authors": [
+				{
+					"name": "Virginia Department of Taxation"
+				}
+			],
+			"publisher": "Virginia Department of Taxation",
+			"place": "Richmond, VA",
+			"number": "RD40 (2026)",
+			"published": "2026-01-02",
+			"url": "https://rga.lis.virginia.gov/Published/2026/RD40/PDF",
+			"accessed": "2026-11-22",
+			"note": "With the Virginia Economic Development Partnership; operators' reported tax benefit, table 1; return on incentive, table 2"
+		},
+		{
+			"kind": "report",
+			"title": "Data Center and Manufacturing Incentives",
+			"authors": [
+				{
+					"name": "Joint Legislative Audit and Review Commission"
+				}
+			],
+			"publisher": "Joint Legislative Audit and Review Commission",
+			"place": "Richmond, VA",
+			"number": "Report 518",
+			"published": "2019-06-17",
+			"url": "https://jlarc.virginia.gov/pdfs/reports/Rpt518.pdf",
+			"accessed": "2026-11-22",
+			"note": "Return in revenue of 72¢, table 1-4"
+		},
+		{
+			"kind": "report",
+			"title": "Economic Development Incentives 2025: Spending and Performance",
+			"authors": [
+				{
+					"name": "Joint Legislative Audit and Review Commission"
+				}
+			],
+			"publisher": "Joint Legislative Audit and Review Commission",
+			"place": "Richmond, VA",
+			"number": "Report 611",
+			"published": "2025-11-10",
+			"url": "https://jlarc.virginia.gov/pdfs/reports/Rpt611.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "2026 Budget Language on Data Centers and Background Information",
+			"authors": [
+				{
+					"name": "House Appropriations and Senate Finance and Appropriations Committee Staff"
+				}
+			],
+			"container": "Joint Subcommittee on Tax Policy",
+			"publisher": "Senate Finance and Appropriations Committee",
+			"published": "2026-08-19",
+			"url": "https://sfac.virginia.gov/pdf/Tax%20Policy/2026/08192026_No2_Overview%20Jt.%20Tax%20Sub%20Data%20Center.pdf",
+			"accessed": "2026-11-22",
+			"note": "The consumption tax, the exemption's history and the operators' reported values, FY2022–25"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Cloudy with a Loss of Spending Control: How Data Centers Are Endangering State Budgets",
+			"authors": [
+				{
+					"family": "Tarczynska",
+					"given": "Kasia"
+				}
+			],
+			"publisher": "Good Jobs First",
+			"published": "2025-04",
+			"url": "https://goodjobsfirst.org/cloudy-with-a-loss-of-spending-control-how-data-centers-are-endangering-state-budgets/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "2024 Veto Messages",
+			"authors": [
+				{
+					"family": "Kemp",
+					"given": "Brian P."
+				}
+			],
+			"publisher": "Office of the Governor of Georgia",
+			"published": "2024-05",
+			"url": "https://gov.georgia.gov/document/2024-vetoed-legislation/2024-veto-messages/download",
+			"accessed": "2026-11-22",
+			"note": "Veto 7, House Bill 1192"
+		},
+		{
+			"kind": "web",
+			"title": "Georgia Lawmakers Vowed to Restrain Tax Breaks. But the Governor's Veto Saved a Data-Center Break",
+			"authors": [
+				{
+					"family": "Amy",
+					"given": "Jeff"
+				}
+			],
+			"container": "Associated Press",
+			"publisher": "WSLS",
+			"published": "2024-05-08",
+			"url": "https://www.wsls.com/news/politics/2024/05/08/georgia-lawmakers-vowed-to-restrain-tax-breaks-but-the-governors-veto-saved-a-data-center-break/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "After Months of Debate, Virginia Fails to Pass Data Center Clean Energy Requirements",
+			"authors": [
+				{
+					"family": "Paullin",
+					"given": "Charles"
+				}
+			],
+			"container": "Inside Climate News",
+			"published": "2026-07-17",
+			"url": "https://insideclimatenews.org/news/17072026/virginia-fails-to-require-data-centers-use-clean-energy/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Virginia Preserves Data Center Tax Incentive, Adds New Electricity Consumption Tax",
+			"authors": [
+				{
+					"family": "Wingfield",
+					"given": "Kyle H."
+				}
+			],
+			"container": "Holland & Knight Alert",
+			"publisher": "Holland & Knight",
+			"published": "2026-08-20",
+			"url": "https://www.hklaw.com/en/insights/publications/2026/08/virginia-preserves-data-center-tax-incentive",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Arizona – Grand Canyon State Enacts Three-Year Moratorium on Sales Tax Preferences for New Data Centers",
+			"authors": [
+				{
+					"name": "KPMG"
+				}
+			],
+			"container": "This Week in State Tax",
+			"publisher": "KPMG",
+			"published": "2026-06-22",
+			"url": "https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2026/twist-062226-arizona.pdf",
+			"accessed": "2026-11-22",
+			"note": "Arizona H.B. 4168"
+		},
+		{
+			"kind": "web",
+			"title": "Data Center Tax Incentives Under Pressure as States Reassess Costs and Infrastructure Impacts",
+			"authors": [
+				{
+					"family": "Calvert",
+					"given": "Walter R."
+				},
+				{
+					"family": "El-Khattabi",
+					"given": "Meriem"
+				}
+			],
+			"publisher": "Venable LLP",
+			"published": "2026-06-18",
+			"url": "https://www.venable.com/insights/publications/2026/06/data-center-tax-incentives-under-pressure",
+			"accessed": "2026-11-22",
+			"note": "Ohio, Illinois and Washington"
+		},
+		{
+			"kind": "web",
+			"title": "Multistate Monitor: States Diverge on Data Center Tax Incentives",
+			"authors": [
+				{
+					"family": "Leddy",
+					"given": "Maureen"
+				}
+			],
+			"container": "Checkpoint News",
+			"publisher": "Thomson Reuters",
+			"published": "2026-08-03",
+			"url": "https://tax.thomsonreuters.com/news/multistate-monitor-states-diverge-on-data-center-tax-incentives/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "media",
+			"title": "Virginia's state sales tax exempted for data centers, fiscal years 2021–2025",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "JLARC, Economic Development Incentives 2026, table D-3",
+			"url": "https://jlarc.virginia.gov/pdfs/reports/Rpt623.pdf",
+			"accessed": "2026-11-22",
+			"licence": "MIT",
+			"file": "exempted.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/tax-base",
+			"why": "The state's sales tax exemption and the county's property tax on the same equipment are the two sides of a data center's tax bill."
+		}
+	]
+}

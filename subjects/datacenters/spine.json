@@ -1,0 +1,95 @@
+{
+	"segments": [
+		{
+			"id": "argument",
+			"title": "The argument",
+			"labelKind": "category",
+			"palette": "hall",
+			"frames": ["the-fight", "inside-a-data-center"]
+		},
+		{
+			"id": "rooms",
+			"title": "Rooms for computers",
+			"labelKind": "date",
+			"palette": "punchcard",
+			"frames": [
+				"eniac-room",
+				"sage-blockhouse",
+				"machine-room",
+				"carrier-hotel",
+				"google-dalles",
+				"open-compute",
+				"ai-cluster",
+				"gigawatt-campus"
+			]
+		},
+		{
+			"id": "why",
+			"title": "Why we build them",
+			"labelKind": "category",
+			"palette": "ledger",
+			"frames": [
+				"what-runs-there",
+				"efficiency-case",
+				"data-center-jobs",
+				"tax-base",
+				"race-for-compute"
+			]
+		},
+		{
+			"id": "power",
+			"title": "Power and the grid",
+			"labelKind": "category",
+			"palette": "current",
+			"frames": [
+				"power-demand",
+				"who-pays-grid",
+				"gas-plants",
+				"nuclear-deals",
+				"carbon-accounting",
+				"flexible-load"
+			]
+		},
+		{
+			"id": "water",
+			"title": "Water",
+			"labelKind": "category",
+			"palette": "tower",
+			"frames": [
+				"where-water-goes",
+				"water-totals",
+				"dry-places",
+				"small-water-systems",
+				"zero-water"
+			]
+		},
+		{
+			"id": "neighbors",
+			"title": "The neighbors",
+			"labelKind": "category",
+			"palette": "parcel",
+			"frames": ["noise", "diesel-generators", "memphis-turbines", "secrecy"]
+		},
+		{
+			"id": "deciding",
+			"title": "Who decides",
+			"labelKind": "category",
+			"palette": "chamber",
+			"frames": [
+				"zoning",
+				"digital-gateway",
+				"tax-breaks",
+				"community-benefits",
+				"moratoriums",
+				"federal-push"
+			]
+		},
+		{
+			"id": "next",
+			"title": "What comes next",
+			"labelKind": "category",
+			"palette": "horizon",
+			"frames": ["rebound", "heat-reuse", "hardware-churn", "bubble", "open-questions"]
+		}
+	]
+}

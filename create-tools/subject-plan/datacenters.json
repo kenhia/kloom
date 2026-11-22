@@ -1,0 +1,478 @@
+{
+	"spine": {
+		"segments": [
+			{
+				"id": "argument",
+				"title": "The argument",
+				"labelKind": "category",
+				"palette": "hall",
+				"frames": ["the-fight", "inside-a-data-center"]
+			},
+			{
+				"id": "rooms",
+				"title": "Rooms for computers",
+				"labelKind": "date",
+				"palette": "punchcard",
+				"frames": [
+					"eniac-room",
+					"sage-blockhouse",
+					"machine-room",
+					"carrier-hotel",
+					"google-dalles",
+					"open-compute",
+					"ai-cluster",
+					"gigawatt-campus"
+				]
+			},
+			{
+				"id": "why",
+				"title": "Why we build them",
+				"labelKind": "category",
+				"palette": "ledger",
+				"frames": [
+					"what-runs-there",
+					"efficiency-case",
+					"data-center-jobs",
+					"tax-base",
+					"race-for-compute"
+				]
+			},
+			{
+				"id": "power",
+				"title": "Power and the grid",
+				"labelKind": "category",
+				"palette": "current",
+				"frames": [
+					"power-demand",
+					"who-pays-grid",
+					"gas-plants",
+					"nuclear-deals",
+					"carbon-accounting",
+					"flexible-load"
+				]
+			},
+			{
+				"id": "water",
+				"title": "Water",
+				"labelKind": "category",
+				"palette": "tower",
+				"frames": [
+					"where-water-goes",
+					"water-totals",
+					"dry-places",
+					"small-water-systems",
+					"zero-water"
+				]
+			},
+			{
+				"id": "neighbors",
+				"title": "The neighbors",
+				"labelKind": "category",
+				"palette": "parcel",
+				"frames": ["noise", "diesel-generators", "memphis-turbines", "secrecy"]
+			},
+			{
+				"id": "deciding",
+				"title": "Who decides",
+				"labelKind": "category",
+				"palette": "chamber",
+				"frames": [
+					"zoning",
+					"digital-gateway",
+					"tax-breaks",
+					"community-benefits",
+					"moratoriums",
+					"federal-push"
+				]
+			},
+			{
+				"id": "next",
+				"title": "What comes next",
+				"labelKind": "category",
+				"palette": "horizon",
+				"frames": ["rebound", "heat-reuse", "hardware-churn", "bubble", "open-questions"]
+			}
+		]
+	},
+	"trails": [
+		{
+			"id": "water-measured",
+			"title": "Water, measured",
+			"anchor": "where-water-goes",
+			"spine": {
+				"segments": [
+					{
+						"id": "water-measured-seg",
+						"title": "Water, measured",
+						"labelKind": "category",
+						"palette": "tower",
+						"frames": [
+							"withdrawal-consumption",
+							"cooling-tower",
+							"wue",
+							"power-plant-water",
+							"water-per-prompt"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "one-county",
+			"title": "One county",
+			"anchor": "zoning",
+			"spine": {
+				"segments": [
+					{
+						"id": "loudoun-seg",
+						"title": "Loudoun County",
+						"labelKind": "date",
+						"palette": "chamber",
+						"frames": [
+							"aol-dulles",
+							"data-center-alley",
+							"loudoun-revenue",
+							"ashburn-power",
+							"loudoun-by-right"
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "elsewhere",
+			"title": "Elsewhere",
+			"anchor": "moratoriums",
+			"spine": {
+				"segments": [
+					{
+						"id": "elsewhere-seg",
+						"title": "Elsewhere",
+						"labelKind": "date",
+						"palette": "chamber",
+						"frames": [
+							"singapore-pause",
+							"netherlands-pause",
+							"ireland-grid",
+							"germany-efficiency-act"
+						]
+					}
+				]
+			}
+		}
+	],
+	"owners": {
+		"equinix": "rooms2",
+		"the-dalles-oregon": "rooms2",
+		"oracle-corporation": "rooms3",
+		"texas": "rooms3",
+		"louisiana": "rooms3",
+		"international-energy-agency": "case1",
+		"prince-william-county-virginia": "case2",
+		"council-bluffs-iowa": "case2",
+		"loudoun-county-virginia": "case2",
+		"electric-power-research-institute": "power1",
+		"pjm-interconnection": "power1",
+		"dominion-energy": "power1",
+		"natural-gas": "power2",
+		"federal-energy-regulatory-commission": "power2",
+		"nuclear-power": "power2",
+		"tucson-arizona": "water2",
+		"ashburn-virginia": "county1",
+		"district-heating": "abroad2"
+	},
+	"frames": {
+		"the-fight": {
+			"topic": "The fight over data centers",
+			"palette": "hall",
+			"part": "hand"
+		},
+		"inside-a-data-center": {
+			"topic": "Inside a data center",
+			"palette": "hall",
+			"part": "hand"
+		},
+		"eniac-room": {
+			"topic": "ENIAC's room",
+			"palette": "punchcard",
+			"sort": 1946,
+			"part": "rooms1"
+		},
+		"sage-blockhouse": {
+			"topic": "SAGE's concrete blockhouses",
+			"palette": "punchcard",
+			"sort": 1958,
+			"part": "rooms1"
+		},
+		"machine-room": {
+			"topic": "The mainframe machine room",
+			"palette": "punchcard",
+			"sort": 1964,
+			"part": "rooms1"
+		},
+		"carrier-hotel": {
+			"topic": "Carrier hotels and colocation",
+			"palette": "punchcard",
+			"sort": 1997,
+			"part": "rooms2"
+		},
+		"google-dalles": {
+			"topic": "Google at The Dalles",
+			"palette": "punchcard",
+			"sort": 2006,
+			"part": "rooms2"
+		},
+		"open-compute": {
+			"topic": "Prineville and the Open Compute Project",
+			"palette": "punchcard",
+			"sort": 2011,
+			"part": "rooms2"
+		},
+		"ai-cluster": {
+			"topic": "The AI training cluster",
+			"palette": "punchcard",
+			"sort": 2023,
+			"part": "rooms3"
+		},
+		"gigawatt-campus": {
+			"topic": "The gigawatt campus",
+			"palette": "punchcard",
+			"sort": 2025,
+			"part": "rooms3"
+		},
+		"what-runs-there": {
+			"topic": "What runs in a data center",
+			"palette": "ledger",
+			"part": "case1"
+		},
+		"efficiency-case": {
+			"topic": "The efficiency argument",
+			"palette": "ledger",
+			"part": "case1"
+		},
+		"data-center-jobs": {
+			"topic": "Data center jobs",
+			"palette": "ledger",
+			"part": "case2"
+		},
+		"tax-base": {
+			"topic": "Data centers and the local tax base",
+			"palette": "ledger",
+			"part": "case2"
+		},
+		"race-for-compute": {
+			"topic": "The race for compute",
+			"palette": "ledger",
+			"part": "case3"
+		},
+		"power-demand": {
+			"topic": "How much electricity data centers use",
+			"palette": "current",
+			"part": "power1"
+		},
+		"who-pays-grid": {
+			"topic": "Who pays for the grid",
+			"palette": "current",
+			"part": "power1"
+		},
+		"gas-plants": {
+			"topic": "Gas plants for data centers",
+			"palette": "current",
+			"part": "power2"
+		},
+		"nuclear-deals": {
+			"topic": "Nuclear power for data centers",
+			"palette": "current",
+			"part": "power2"
+		},
+		"carbon-accounting": {
+			"topic": "Counting a data center's carbon",
+			"palette": "current",
+			"part": "power3"
+		},
+		"flexible-load": {
+			"topic": "Data centers as flexible load",
+			"palette": "current",
+			"part": "power3"
+		},
+		"where-water-goes": {
+			"topic": "Where a data center's water goes",
+			"palette": "tower",
+			"part": "water1"
+		},
+		"water-totals": {
+			"topic": "How much water data centers use",
+			"palette": "tower",
+			"part": "water1"
+		},
+		"dry-places": {
+			"topic": "Data centers in dry places",
+			"palette": "tower",
+			"part": "water2"
+		},
+		"small-water-systems": {
+			"topic": "Small water systems, big campuses",
+			"palette": "tower",
+			"part": "water2"
+		},
+		"zero-water": {
+			"topic": "Zero-water cooling",
+			"palette": "tower",
+			"part": "water2"
+		},
+		"noise": {
+			"topic": "Data center noise",
+			"palette": "parcel",
+			"part": "neigh1"
+		},
+		"diesel-generators": {
+			"topic": "Backup diesel generators",
+			"palette": "parcel",
+			"part": "neigh1"
+		},
+		"memphis-turbines": {
+			"topic": "xAI's gas turbines in Memphis",
+			"palette": "parcel",
+			"part": "neigh2"
+		},
+		"secrecy": {
+			"topic": "NDAs and code names",
+			"palette": "parcel",
+			"part": "neigh2"
+		},
+		"zoning": {
+			"topic": "Zoning a data center",
+			"palette": "chamber",
+			"part": "decide1"
+		},
+		"digital-gateway": {
+			"topic": "The Prince William Digital Gateway",
+			"palette": "chamber",
+			"part": "decide1"
+		},
+		"tax-breaks": {
+			"topic": "Data center tax breaks",
+			"palette": "chamber",
+			"part": "decide2"
+		},
+		"community-benefits": {
+			"topic": "Community benefit agreements",
+			"palette": "chamber",
+			"part": "decide2"
+		},
+		"moratoriums": {
+			"topic": "Moratoriums and local votes",
+			"palette": "chamber",
+			"part": "decide3"
+		},
+		"federal-push": {
+			"topic": "The federal push for data centers",
+			"palette": "chamber",
+			"part": "decide3"
+		},
+		"rebound": {
+			"topic": "Efficiency and the rebound effect",
+			"palette": "horizon",
+			"part": "next1"
+		},
+		"heat-reuse": {
+			"topic": "Reusing a data center's heat",
+			"palette": "horizon",
+			"part": "next1"
+		},
+		"hardware-churn": {
+			"topic": "Embodied carbon and e-waste",
+			"palette": "horizon",
+			"part": "next1"
+		},
+		"bubble": {
+			"topic": "Is it a bubble?",
+			"palette": "horizon",
+			"part": "case3"
+		},
+		"open-questions": {
+			"topic": "What no one knows yet",
+			"palette": "horizon",
+			"part": "hand2"
+		},
+		"withdrawal-consumption": {
+			"topic": "Withdrawal and consumption",
+			"palette": "tower",
+			"part": "wtrail1"
+		},
+		"cooling-tower": {
+			"topic": "How a cooling tower works",
+			"palette": "tower",
+			"part": "wtrail1"
+		},
+		"wue": {
+			"topic": "Water usage effectiveness",
+			"palette": "tower",
+			"part": "wtrail1"
+		},
+		"power-plant-water": {
+			"topic": "The water behind the electricity",
+			"palette": "tower",
+			"part": "wtrail2"
+		},
+		"water-per-prompt": {
+			"topic": "The water in a chatbot answer",
+			"palette": "tower",
+			"part": "wtrail2"
+		},
+		"aol-dulles": {
+			"topic": "AOL and MAE-East in Loudoun",
+			"palette": "chamber",
+			"sort": 1997,
+			"part": "county1"
+		},
+		"data-center-alley": {
+			"topic": "Data Center Alley",
+			"palette": "chamber",
+			"sort": 2012,
+			"part": "county1"
+		},
+		"loudoun-revenue": {
+			"topic": "What data centers pay Loudoun",
+			"palette": "chamber",
+			"sort": 2019,
+			"part": "county1"
+		},
+		"ashburn-power": {
+			"topic": "Ashburn's power lines",
+			"palette": "chamber",
+			"sort": 2022,
+			"part": "county2"
+		},
+		"loudoun-by-right": {
+			"topic": "Loudoun ends by-right data centers",
+			"palette": "chamber",
+			"sort": 2025,
+			"part": "county2"
+		},
+		"singapore-pause": {
+			"topic": "Singapore's data center pause",
+			"palette": "chamber",
+			"sort": 2019,
+			"part": "abroad1"
+		},
+		"netherlands-pause": {
+			"topic": "Amsterdam, Zeewolde and the Dutch pause",
+			"palette": "chamber",
+			"sort": 2022,
+			"part": "abroad1"
+		},
+		"ireland-grid": {
+			"topic": "Ireland's grid and its data centers",
+			"palette": "chamber",
+			"sort": 2022,
+			"part": "abroad2"
+		},
+		"germany-efficiency-act": {
+			"topic": "Germany's Energy Efficiency Act",
+			"palette": "chamber",
+			"sort": 2023,
+			"part": "abroad2"
+		}
+	}
+}

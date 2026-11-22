@@ -1,0 +1,298 @@
+{
+	"id": "noise",
+	"topic": "Data center noise",
+	"position": {
+		"label": "Noise"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "The neighbors hear a",
+		"accent": "HUM.",
+		"palette": "parcel",
+		"illustration": "scene.svg",
+		"metadata": [
+			"GREAT OAK · PRINCE WILLIAM COUNTY · VIRGINIA",
+			"FANS · CHILLERS · TRANSFORMERS · DB(A) AND DB(C)"
+		],
+		"counter": {
+			"value": "40–59",
+			"label": "estimated dBA at Virginia sites that drew complaints"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Data Centers in Virginia",
+			"authors": [
+				{
+					"name": "Joint Legislative Audit and Review Commission"
+				}
+			],
+			"place": "Richmond, VA",
+			"publisher": "Joint Legislative Audit and Review Commission",
+			"number": "Report 598",
+			"published": "2024-12-09",
+			"url": "https://jlarc.virginia.gov/pdfs/reports/Rpt598.pdf",
+			"accessed": "2026-11-22",
+			"note": "Chapter 6: noise complaints at 15 sites, levels of 40 to 59 dBA, recommendations 7 and 8"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Prince William County Noise Ordinance Update: Basis and Background",
+			"authors": [
+				{
+					"name": "Nelson Acoustics"
+				}
+			],
+			"publisher": "Prince William County",
+			"number": "Memorandum Report 1618-01",
+			"published": "2025-08-03",
+			"url": "https://www.pwcva.gov/assets/2025-10/M1618-01%202025%20AUG%2003%20PWC%20Noise%20Ordinance%20Criteria%20Basis%20and%20Background.pdf",
+			"accessed": "2026-11-22",
+			"note": "The county's consultant; a house's noise reduction by octave band, table 7"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Amazon Tones Down Its Data Center Noise After Residents Sound the Alarm",
+			"authors": [
+				{
+					"family": "Cary",
+					"given": "Peter"
+				}
+			],
+			"container": "Data Center Knowledge",
+			"publisher": "Informa TechTarget",
+			"published": "2023-10-24",
+			"url": "https://www.datacenterknowledge.com/data-center-construction/amazon-tones-down-its-data-center-noise-after-residents-sound-the-alarm",
+			"accessed": "2026-11-22",
+			"note": "First published by the Fauquier Times and Prince William Times"
+		},
+		{
+			"kind": "web",
+			"title": "AWS Data Center (Tanner Way): Impacts on Great Oak",
+			"authors": [
+				{
+					"family": "Browne",
+					"given": "Dale"
+				}
+			],
+			"container": "Data Center Ordinance Advisory Group",
+			"publisher": "Prince William County",
+			"published": "2024-10-23",
+			"url": "https://www.pwcva.gov/assets/2024-10/Great%20Oak%20Update%20-%20DCOAG%2023%20Oct.pdf",
+			"accessed": "2026-11-22",
+			"note": "A Great Oak resident's presentation of residents' measurements"
+		},
+		{
+			"kind": "web",
+			"title": "Great Oak Status: Proposed Ordinance Levels",
+			"authors": [
+				{
+					"family": "Browne",
+					"given": "Dale"
+				}
+			],
+			"container": "Data Center Ordinance Advisory Group",
+			"publisher": "Prince William County",
+			"published": "2025-03-19",
+			"url": "https://pwcva.gov/assets/2025-03/DCOAG%20Great%20Oak%20Status%20Proposed%20Ordinance%20Levels%20PowerPoint%2020250319.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Data Center Ordinance Advisory Group: Meeting Notes, July 9, 2025",
+			"authors": [
+				{
+					"name": "Prince William County"
+				}
+			],
+			"publisher": "Prince William County",
+			"published": "2025-07-09",
+			"url": "https://www.pwcva.gov/assets/2025-07/DCOAG%20Meeting%20Notes%2020250709.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Data Center Advisory Group: Meeting Notes, May 7, 2025",
+			"authors": [
+				{
+					"name": "Prince William County"
+				}
+			],
+			"publisher": "Prince William County",
+			"published": "2025-05-07",
+			"url": "https://www.pwcva.gov/assets/2025-05/DCOAG%20Meeting%20Notes%2020250507.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "'The Industry Comes In and Kills the Work of Local Citizens'",
+			"authors": [
+				{
+					"family": "Wittenberg",
+					"given": "Ariel"
+				}
+			],
+			"container": "E&E News",
+			"publisher": "POLITICO",
+			"published": "2026-02-17",
+			"url": "https://www.eenews.net/articles/the-industry-comes-in-and-kills-the-work-of-local-citizens/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Prince William County Supervisors Expedite Vote on Data Center Noise Rules",
+			"authors": [
+				{
+					"name": "InsideNoVa"
+				}
+			],
+			"container": "WTOP News",
+			"publisher": "WTOP",
+			"published": "2025-10-16",
+			"url": "https://wtop.com/prince-william-county/2025/10/prince-william-supervisors-expedite-vote-on-data-center-noise-rules",
+			"accessed": "2026-11-22",
+			"note": "Republished from InsideNoVa"
+		},
+		{
+			"kind": "web",
+			"title": "Steady Tonal Noise",
+			"container": "Department of Public Works",
+			"publisher": "Prince William County",
+			"url": "https://www.pwcva.gov/department/public-works/steady-tonal-noise",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Adoption of an Amendment to Chapters 112.1 and 112.2 (Zoning) of the 1976 Code of the County of Fairfax, Virginia",
+			"authors": [
+				{
+					"name": "Fairfax County Board of Supervisors"
+				}
+			],
+			"publisher": "Fairfax County",
+			"number": "ZO 112.1-2024-9",
+			"published": "2024-09-10",
+			"url": "https://www.fairfaxcounty.gov/planning-development/sites/planning-development/files/Assets/Documents/zoning%20ordinance/adopted%20amendments/ZO_112_1-2024-9.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Environmental Noise Guidelines for the European Region",
+			"authors": [
+				{
+					"name": "World Health Organization Regional Office for Europe"
+				}
+			],
+			"place": "Copenhagen",
+			"publisher": "World Health Organization Regional Office for Europe",
+			"published": "2018",
+			"url": "https://iris.who.int/handle/10665/279952",
+			"accessed": "2026-11-22",
+			"note": "No recommendation for industrial noise, p. 8; research needed on stationary sources, p. 101"
+		},
+		{
+			"kind": "article",
+			"title": "Health Effects from Low-Frequency Noise and Infrasound in the General Population: Is It Time to Listen? A Systematic Review of Observational Studies",
+			"authors": [
+				{
+					"family": "Baliatsas",
+					"given": "Christos"
+				},
+				{
+					"family": "van Kamp",
+					"given": "Irene"
+				},
+				{
+					"family": "van Poll",
+					"given": "Ric"
+				},
+				{
+					"family": "Yzermans",
+					"given": "Joris"
+				}
+			],
+			"container": "Science of the Total Environment",
+			"volume": "557–558",
+			"pages": "163–169",
+			"published": "2016-07",
+			"doi": "10.1016/j.scitotenv.2016.03.065",
+			"url": "https://www.nivel.nl/nl/publicaties/6138",
+			"accessed": "2026-11-22",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "Americans Oppose AI Data Centers in Their Area",
+			"authors": [
+				{
+					"family": "Jones",
+					"given": "Jeffrey M."
+				}
+			],
+			"container": "Gallup News",
+			"publisher": "Gallup",
+			"published": "2026-05-13",
+			"url": "https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx",
+			"accessed": "2026-11-21"
+		},
+		{
+			"kind": "web",
+			"title": "The No. 1 Reason Americans Would Support a Data Center",
+			"authors": [
+				{
+					"family": "Meyer",
+					"given": "Robinson"
+				}
+			],
+			"container": "Heatmap News",
+			"publisher": "Heatmap",
+			"published": "2026-10",
+			"url": "https://heatmap.news/daily/data-center-support-oppose-polling",
+			"accessed": "2026-11-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "A-weighting",
+			"url": "https://en.wikipedia.org/w/index.php?title=A-weighting&oldid=1376341495",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-23"
+		},
+		{
+			"kind": "media",
+			"title": "What A-weighting subtracts and what a house removes, by octave band",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "IEC 61672 A-weighting, rounded; Nelson Acoustics, Memorandum Report 1618-01 to Prince William County, August 3, 2025, table 7",
+			"url": "https://www.pwcva.gov/assets/2025-10/M1618-01%202025%20AUG%2003%20PWC%20Noise%20Ordinance%20Criteria%20Basis%20and%20Background.pdf",
+			"accessed": "2026-11-22",
+			"licence": "MIT",
+			"file": "weighting.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/the-fight",
+			"why": "Noise was named by 9% of the opponents in Gallup's open answers and by about one in ten in Heatmap's poll, the polls the fight is measured by."
+		},
+		{
+			"to": "datacenters/zoning",
+			"why": "Setbacks and required noise studies are written into county zoning, as Fairfax's 2024 amendment did."
+		}
+	]
+}

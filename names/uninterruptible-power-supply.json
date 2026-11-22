@@ -1,0 +1,8 @@
+{
+	"id": "uninterruptible-power-supply",
+	"wikidata": "Q207696",
+	"name": "Uninterruptible power supply",
+	"aliases": ["UPS"],
+	"kind": "artifact",
+	"description": "A battery-backed device that keeps electricity flowing to equipment through a power failure, for the seconds or minutes until other power takes over."
+}

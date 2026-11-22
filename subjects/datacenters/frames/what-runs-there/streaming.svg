@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+<title id="t">Three estimates of the carbon dioxide from half an hour of Netflix, 2019</title>
+<desc id="d">Bar chart on a logarithmic axis, grams of carbon dioxide attributed to watching 30 minutes of Netflix: 1,600 in the figure drawn from The Shift Project's July 2019 report, 200 after The Shift Project corrected a bit-and-byte error in June 2020, and 18 in George Kamiya's updated IEA estimate for 2019 at the world's average electricity mix. Data: IEA, The carbon footprint of streaming video: fact-checking the headlines, December 2020.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="460" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">10</text>
+<line x1="64" x2="460" y1="178.7" y2="178.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="182.7" text-anchor="end">100</text>
+<line x1="64" x2="460" y1="107.3" y2="107.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">1,000</text>
+<line x1="64" x2="460" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">10,000</text>
+</g>
+<rect x="95.0" y="92.8" width="70" height="157.2" fill-opacity="0.85"/>
+<text x="130.0" y="86.8" text-anchor="middle">1,600 g</text>
+<text x="130.0" y="266" text-anchor="middle">SHIFT 2019</text>
+<text x="130.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">as reported</text>
+<rect x="227.0" y="157.2" width="70" height="92.8" fill-opacity="0.85"/>
+<text x="262.0" y="151.2" text-anchor="middle">200 g</text>
+<text x="262.0" y="266" text-anchor="middle">SHIFT 2020</text>
+<text x="262.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">corrected</text>
+<rect x="359.0" y="231.8" width="70" height="18.2" fill-opacity="0.85"/>
+<text x="394.0" y="225.8" text-anchor="middle">18 g</text>
+<text x="394.0" y="266" text-anchor="middle">IEA 2020</text>
+<text x="394.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">Kamiya</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">GRAMS OF CO2 PER HALF HOUR OF NETFLIX · LOG SCALE</text>
+</g></svg>

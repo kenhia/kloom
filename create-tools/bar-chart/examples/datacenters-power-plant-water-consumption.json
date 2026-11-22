@@ -1,0 +1,34 @@
+{
+	"title": "Water consumed per megawatt-hour by generating technology and cooling, medians from Macknick and colleagues, 2012",
+	"description": "Bar chart of median operational water consumption, in gallons per megawatt-hour, from the literature review by Macknick, Newmark, Heath and Hallett (2012): wind 0, utility-scale photovoltaics 1, gas combined cycle with dry cooling 2, gas combined cycle once-through 100, gas combined cycle with a cooling tower 205, coal once-through 250, nuclear once-through 269, nuclear with a cooling tower 672 and coal with a cooling tower 687. Hydropower's median, 4,491, is left off the chart, as the paper's own figures leave it off. Data: Environmental Research Letters 7, 045802, tables 1 and 2.",
+	"heading": "WATER CONSUMED · GALLONS PER MWH · MEDIANS",
+	"unit": "",
+	"width": 600,
+	"axis": {
+		"min": 0,
+		"max": 800,
+		"ticks": [
+			[0, "0"],
+			[200, "200"],
+			[400, "400"],
+			[600, "600"],
+			[800, "800"]
+		]
+	},
+	"bars": [
+		{ "label": "WIND", "value": 0 },
+		{ "label": "PV", "value": 1 },
+		{ "label": "GAS CC", "sublabel": "DRY", "value": 2 },
+		{ "label": "GAS CC", "sublabel": "ONCE", "value": 100 },
+		{ "label": "GAS CC", "sublabel": "TOWER", "value": 205 },
+		{ "label": "COAL", "sublabel": "ONCE", "value": 250 },
+		{ "label": "NUCLEAR", "sublabel": "ONCE", "value": 269 },
+		{ "label": "NUCLEAR", "sublabel": "TOWER", "value": 672 },
+		{ "label": "COAL", "sublabel": "TOWER", "value": 687 }
+	],
+	"source": {
+		"container": "Macknick et al., Environmental Research Letters 7 (2012), tables 1 and 2",
+		"doi": "10.1088/1748-9326/7/4/045802"
+	},
+	"barWidth": 40
+}

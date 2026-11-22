@@ -1,0 +1,287 @@
+{
+	"id": "gas-plants",
+	"topic": "Gas plants for data centers",
+	"position": {
+		"label": "Gas"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Much new firm power burns",
+		"accent": "GAS.",
+		"palette": "current",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ENTERGY LOUISIANA · META · LOUISIANA PSC",
+			"GE VERNOVA · GEORGIA POWER · ABILENE, TEXAS"
+		],
+		"counter": {
+			"value": "122 GW",
+			"label": "gas turbines GE Vernova had on order or reserved, September 2026"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/carnot",
+			"why": "A combined-cycle plant follows Carnot's advice to take heat in as hot and let it out as cold as possible: a gas turbine's flame at the top, a steam condenser's river water at the bottom."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "GE Vernova Reports Strong Third Quarter 2026 Financial Performance",
+			"authors": [
+				{
+					"name": "GE Vernova"
+				}
+			],
+			"container": "Form 8-K, exhibit 99.1",
+			"publisher": "GE Vernova",
+			"published": "2026-10-28",
+			"url": "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm",
+			"accessed": "2026-11-22",
+			"note": "122 GW of gas equipment backlog and slot reservations; the company's own count"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "GE Vernova 2Q 2026 Results & Outlook",
+			"authors": [
+				{
+					"name": "GE Vernova"
+				}
+			],
+			"container": "Earnings call transcript",
+			"publisher": "GE Vernova",
+			"published": "2026-07-22",
+			"url": "https://www.gevernova.com/sites/default/files/gev_webcast_transcript_07222026.pdf",
+			"accessed": "2026-11-22",
+			"note": "Scott Strazik: 20% of gigawatts under contract for data centers; \"mostly sold out through '30\""
+		},
+		{
+			"kind": "web",
+			"title": "Elevated Demand for Gas Turbines Could Persist through 2035: Siemens Energy",
+			"authors": [
+				{
+					"family": "Penrod",
+					"given": "Emma"
+				}
+			],
+			"container": "Utility Dive",
+			"publisher": "Industry Dive",
+			"published": "2026-11-17",
+			"url": "https://www.utilitydive.com/news/elevated-demand-for-gas-turbines-could-persist-through-2035-siemens-energy/874839/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Entergy Louisiana Gains Regulatory Approval for Massive Meta Power Project",
+			"authors": [
+				{
+					"family": "Muller",
+					"given": "Wesley"
+				}
+			],
+			"container": "Louisiana Illuminator",
+			"publisher": "States Newsroom",
+			"published": "2025-08-20",
+			"url": "https://lailluminator.com/2025/08/20/entergy-meta/",
+			"accessed": "2026-11-22",
+			"note": "The 4–1 vote, the 15-year contract, and the Alliance for Affordable Energy's objections"
+		},
+		{
+			"kind": "web",
+			"title": "Entergy Louisiana Receives LPSC Approval for Major Infrastructure Investments to Support Meta's Data Center and Improve Reliability",
+			"container": "Entergy Newsroom",
+			"publisher": "Entergy",
+			"published": "2025-08-20",
+			"url": "https://www.entergy.com/news/entergy-louisiana-receives-lpsc-approval-for-major-infrastructure-investments-to-support-metas-data-center-and-improve-reliability",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Entergy Louisiana Breaks Ground on New State-of-the-Art Generation Facilities to Power Reliability, Growth and Innovation",
+			"container": "Entergy Newsroom",
+			"publisher": "Entergy",
+			"published": "2025-12-01",
+			"url": "https://www.entergy.com/news/entergy-louisiana-breaks-ground-on-new-state-of-the-art-generation-facilities-to-power-reliability-growth-and-innovation",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Entergy Louisiana Announces a New Agreement with Meta That Will Deliver an Additional $2B in Customer Savings",
+			"container": "Entergy Newsroom",
+			"publisher": "Entergy",
+			"published": "2026-03-27",
+			"url": "https://www.entergy.com/news/entergy-louisiana-announces-a-new-agreement-with-meta-that-will-deliver-an-additional-2b-in-customer-savings",
+			"accessed": "2026-11-22",
+			"note": "Seven combined-cycle plants of over 5,200 MW; the savings are the company's claim"
+		},
+		{
+			"kind": "web",
+			"title": "Louisiana Regulators Fast-Track Proposal Tripling Number of Gas Plants to Power Massive Meta Data Center",
+			"container": "Union of Concerned Scientists",
+			"publisher": "Union of Concerned Scientists",
+			"published": "2026-04-15",
+			"url": "https://www.ucs.org/about/news/louisiana-regulators-fast-track-7-gas-plant-proposal-meta-data-center",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Entergy's Meta Gas Plant Costs Soar as Utility Seeks Approval for Seven More",
+			"authors": [
+				{
+					"family": "Hawkins",
+					"given": "Drew"
+				}
+			],
+			"container": "WWNO",
+			"publisher": "Gulf States Newsroom",
+			"published": "2026-11-19",
+			"url": "https://www.wwno.org/investigations/2026-11-19/entergys-meta-gas-plant-costs-soar-as-utility-seeks-approval-for-seven-more",
+			"accessed": "2026-11-22",
+			"note": "Cost estimates from Entergy's quarterly reports to the commission; the suit of November 9"
+		},
+		{
+			"kind": "web",
+			"title": "Georgia Power Files 2025 IRP Plan to Meet Energy Needs",
+			"container": "Georgia Power News Hub",
+			"publisher": "Georgia Power",
+			"published": "2025-01-31",
+			"url": "https://www.georgiapower.com/news-hub/press-releases/georgia-power-files-2025-irp-plan-to-meet-energy-needs.html",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Georgia Public Service Commission Approves Plan to Reliably, Economically Meet the Energy Needs of a Growing Georgia",
+			"container": "Southern Company Newsroom",
+			"publisher": "Southern Company",
+			"published": "2025-07-15",
+			"url": "https://southerncompany.mediaroom.com/2025-07-15-Georgia-Public-Service-Commission-approves-plan-to-reliably,-economically-meet-the-energy-needs-of-a-growing-Georgia",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Georgia Power's New IRP Keeps Coal Plants Online to Serve Data Centers",
+			"authors": [
+				{
+					"family": "Walton",
+					"given": "Robert"
+				}
+			],
+			"container": "Utility Dive",
+			"publisher": "Industry Dive",
+			"published": "2025-07-16",
+			"url": "https://www.utilitydive.com/news/georgia-power-irp-coal-gas-plants-data-centers/753170/",
+			"accessed": "2026-11-22",
+			"note": "Lexy Doherty of the Sierra Club, quoted"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Planned Texas Data Centers Could Emit More Greenhouse Gases than Many Countries",
+			"authors": [
+				{
+					"family": "Simon",
+					"given": "Evan"
+				}
+			],
+			"container": "The Texas Tribune",
+			"publisher": "The Texas Tribune",
+			"published": "2026-07-09",
+			"url": "https://www.texastribune.org/2026/07/09/texas-data-centers-ai-power-plants-pollution-state-permits/",
+			"accessed": "2026-11-22",
+			"note": "By Floodlight; Stargate's permits in Abilene, and Global Energy Monitor's count of Texas gas plants"
+		},
+		{
+			"kind": "web",
+			"title": "How Much Carbon Dioxide Is Produced per Kilowatthour of U.S. Electricity Generation?",
+			"authors": [
+				{
+					"name": "U.S. Energy Information Administration"
+				}
+			],
+			"container": "Frequently Asked Questions",
+			"publisher": "U.S. Energy Information Administration",
+			"published": "2024-12-11",
+			"url": "https://www.eia.gov/tools/faqs/faq.php?id=74&t=11",
+			"accessed": "2026-11-22",
+			"note": "0.96 pounds of CO₂ per kWh from natural gas, 2023"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Combined-cycle power plant",
+			"url": "https://en.wikipedia.org/w/index.php?title=Combined-cycle_power_plant&oldid=1385808418",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-15"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hyperion Data Center",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hyperion_Data_Center&oldid=1383979055",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "GE Vernova",
+			"url": "https://en.wikipedia.org/w/index.php?title=GE_Vernova&oldid=1382401186",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-28"
+		},
+		{
+			"kind": "media",
+			"title": "Entergy's Ninemile 6 gas-fired unit, Westwego, Louisiana",
+			"url": "https://commons.wikimedia.org/wiki/File:Entergy_Corp,_Ninemile_6_power_plant,_Louisiana,_2019.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC BY 2.0",
+			"file": "ninemile.jpg",
+			"authors": [
+				{
+					"family": "Davis",
+					"given": "Chad"
+				}
+			],
+			"container": "Flickr, via Wikimedia Commons",
+			"published": "2019-12-08"
+		},
+		{
+			"kind": "media",
+			"title": "GE Vernova's gas turbine backlog and slot reservations, March 2025 to September 2026",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "GE Vernova quarterly earnings releases, Form 8-K, 2025–2026",
+			"url": "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm",
+			"accessed": "2026-11-22",
+			"licence": "MIT",
+			"file": "turbine-backlog.svg"
+		}
+	]
+}

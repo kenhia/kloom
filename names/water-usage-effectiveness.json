@@ -1,0 +1,9 @@
+{
+	"id": "water-usage-effectiveness",
+	"wikidata": "Q23583787",
+	"name": "Water usage effectiveness",
+	"aliases": ["WUE"],
+	"kind": "idea",
+	"description": "A data center's water use divided by the energy its computing equipment uses, in liters per kilowatt-hour, defined by The Green Grid in 2011.",
+	"home": "datacenters/wue"
+}

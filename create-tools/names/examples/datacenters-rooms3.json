@@ -1,0 +1,33 @@
+{
+	"datacenters/ai-cluster": [
+		["data center", "data-center"],
+		["Microsoft", "microsoft"],
+		["OpenAI", "openai"],
+		["GPT-4", "gpt-4"],
+		["West Des Moines", "west-des-moines-iowa"],
+		["Meta", "meta-platforms"],
+		["Llama", "llama-language-model"],
+		["Nvidia", "nvidia"],
+		["graphics processing units", "graphics-processing-unit"],
+		["Lawrence Berkeley National Laboratory", "lawrence-berkeley-national-laboratory"],
+		["International Energy Agency", "international-energy-agency"],
+		["Google", "google"]
+	],
+	"datacenters/gigawatt-campus": [
+		["Louisiana", "louisiana"],
+		["Epoch AI", "epoch-ai"],
+		["Stargate", "stargate-llc"],
+		["OpenAI", "openai"],
+		["SoftBank", "softbank-group"],
+		["Oracle", "oracle-corporation"],
+		["Abilene", "abilene-texas"],
+		["Texas", "texas"],
+		["Meta", "meta-platforms"],
+		["Richland Parish", "richland-parish-louisiana"],
+		["Hyperion", "hyperion-data-center"],
+		["Microsoft", "microsoft"],
+		["xAI", "spacexai"],
+		["Colossus", "colossus-data-center"],
+		["Memphis", "memphis-tennessee"]
+	]
+}

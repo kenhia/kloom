@@ -1,0 +1,372 @@
+{
+	"id": "gigawatt-campus",
+	"topic": "The gigawatt campus",
+	"position": {
+		"label": "2025–26",
+		"sort": 2025
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Campuses are measured in",
+		"accent": "GIGAWATTS.",
+		"palette": "punchcard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ABILENE · RICHLAND PARISH · NEW ALBANY · MEMPHIS · MOUNT PLEASANT",
+			"STARGATE · HYPERION · PROMETHEUS · COLOSSUS · FAIRWATER"
+		],
+		"counter": {
+			"value": "812,000",
+			"label": "US homes' yearly electricity in a gigawatt-year"
+		}
+	},
+	"connections": [
+		{
+			"to": "ai/compute",
+			"why": "AI compute and hardware names Colossus and Stargate among the clusters behind frontier models, and Epoch AI's finding that the largest single data center's capacity doubled every seven months; this frame follows those campuses from announcement to what was built."
+		},
+		{
+			"to": "datacenters/gas-plants",
+			"why": "Meta's Hyperion campus in Louisiana is to run on three new Entergy gas plants."
+		},
+		{
+			"to": "datacenters/memphis-turbines",
+			"why": "xAI's Colossus campus in Memphis ran first on gas turbines that neighbors and the county argued over."
+		},
+		{
+			"to": "datacenters/zero-water",
+			"why": "Microsoft says its Fairwater campus is cooled in a closed loop, the zero-water design."
+		},
+		{
+			"to": "datacenters/power-demand",
+			"why": "Developers asking several utilities for power for one project inflate the requests that forecasts are made from."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Data on AI Data Centers",
+			"authors": [
+				{
+					"name": "Epoch AI"
+				}
+			],
+			"container": "Epoch AI Data Hub",
+			"publisher": "Epoch AI",
+			"published": "2026",
+			"url": "https://epoch.ai/data/data-centers",
+			"accessed": "2026-11-22",
+			"note": "Estimates of IT power by campus and date, from satellite images, permits and company statements (data_centers.csv and data_center_timelines.csv, CC BY 4.0)"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Announcing The Stargate Project",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"publisher": "OpenAI",
+			"published": "2025-01-21",
+			"url": "https://openai.com/index/announcing-the-stargate-project/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "OpenAI, Oracle, and SoftBank Expand Stargate with Five New AI Data Center Sites",
+			"authors": [
+				{
+					"name": "OpenAI"
+				}
+			],
+			"container": "OpenAI",
+			"publisher": "OpenAI",
+			"published": "2025-09-23",
+			"url": "https://openai.com/index/five-new-stargate-sites/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Crusoe Begins Construction on Second Phase of Abilene, Texas, Data Center Campus, Will Add Six Buildings",
+			"authors": [
+				{
+					"family": "Moss",
+					"given": "Sebastian"
+				}
+			],
+			"container": "Data Center Dynamics",
+			"publisher": "DCD",
+			"published": "2025-03-19",
+			"url": "https://www.datacenterdynamics.com/en/news/crusoe-begins-construction-on-second-phase-of-abilene-texas-data-center-campus-will-add-six-buildings/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Oracle/OpenAI Drop Plans to Expand Flagship Abilene Stargate Site, Meta in Talks to Pick Up Crusoe Capacity with Nvidia's Help",
+			"authors": [
+				{
+					"family": "Moss",
+					"given": "Sebastian"
+				}
+			],
+			"container": "Data Center Dynamics",
+			"publisher": "DCD",
+			"published": "2026-03-06",
+			"url": "https://www.datacenterdynamics.com/en/news/oracleopenai-drop-plans-to-expand-flagship-abilene-stargate-site-meta-in-talks-to-pick-up-crusoe-capacity-with-nvidias-help/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Oracle Q1 Strong and So Is Capital Expenditures",
+			"authors": [
+				{
+					"family": "Dignan",
+					"given": "Larry"
+				}
+			],
+			"container": "Constellation Research",
+			"publisher": "Constellation Research",
+			"published": "2026-09",
+			"url": "https://www.constellationr.com/insights/news/oracle-q1-strong-and-so-capital-expenditures",
+			"accessed": "2026-11-22",
+			"note": "Quotes Oracle's co-chief executive Clay Magouyrk on Abilene, from the earnings call"
+		},
+		{
+			"kind": "web",
+			"title": "Abilene Reporter News Highlights Progress on Abilene Clean Campus",
+			"container": "Lancium",
+			"publisher": "Lancium",
+			"published": "2022-08-01",
+			"url": "https://lancium.com/2022/08/01/abilene-reporter-news-highlights-progress-on-abilene-clean-campus/",
+			"accessed": "2026-11-22",
+			"note": "Lancium's repost of the Abilene Reporter-News story"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Deepening Our Investment in Richland Parish, Louisiana",
+			"authors": [
+				{
+					"name": "Meta"
+				}
+			],
+			"container": "Meta Data Centers",
+			"publisher": "Meta",
+			"published": "2026-07-13",
+			"url": "https://datacenters.atmeta.com/2026/07/deepening-our-investment-in-richland-parish-louisiana/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Mark Zuckerberg Says Meta Is Building a 5GW AI Data Center",
+			"authors": [
+				{
+					"family": "Zeff",
+					"given": "Maxwell"
+				}
+			],
+			"container": "TechCrunch",
+			"publisher": "TechCrunch",
+			"published": "2025-07-14",
+			"url": "https://techcrunch.com/2025/07/14/mark-zuckerberg-says-meta-is-building-a-5gw-ai-data-center/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Inside the World's Most Powerful AI Datacenter",
+			"authors": [
+				{
+					"family": "Guthrie",
+					"given": "Scott"
+				}
+			],
+			"container": "The Official Microsoft Blog",
+			"publisher": "Microsoft",
+			"published": "2025-09-18",
+			"url": "https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Colossus",
+			"authors": [
+				{
+					"name": "xAI"
+				}
+			],
+			"container": "xAI",
+			"publisher": "xAI",
+			"published": "2025",
+			"url": "https://x.ai/colossus",
+			"accessed": "2026-11-22",
+			"note": "Read in the Wayback Machine's copy of April 18, 2025"
+		},
+		{
+			"kind": "statute",
+			"key": true,
+			"title": "An Act Relating to the Planning for, Interconnection and Operation of, and Costs Related to Providing Service for Certain Electrical Loads (S.B. 6)",
+			"code": {
+				"name": "Tex. Util. Code Ann."
+			},
+			"section": "§ 37.0561",
+			"published": "2025-06-20",
+			"container": "Texas Legislature Online",
+			"publisher": "Texas Legislative Council",
+			"url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00006F.htm",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Key Questions on Energy and AI",
+			"authors": [
+				{
+					"name": "International Energy Agency"
+				}
+			],
+			"place": "Paris",
+			"publisher": "International Energy Agency",
+			"published": "2026-04",
+			"url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+			"accessed": "2026-11-22",
+			"note": "Read in its executive summary"
+		},
+		{
+			"kind": "web",
+			"title": "How Much Electricity Does an American Home Use?",
+			"container": "Frequently Asked Questions",
+			"publisher": "U.S. Energy Information Administration",
+			"published": "2024-01-08",
+			"url": "https://www.eia.gov/tools/faqs/faq.php?id=97&t=3",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "2024 United States Data Center Energy Usage Report",
+			"authors": [
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Smith",
+					"given": "Sarah J."
+				},
+				{
+					"family": "Hubbard",
+					"given": "Alex"
+				},
+				{
+					"family": "Newkirk",
+					"given": "Alex"
+				},
+				{
+					"family": "Lei",
+					"given": "Nuoa"
+				},
+				{
+					"family": "Siddik",
+					"given": "Md Abu Bakar"
+				},
+				{
+					"family": "Holecek",
+					"given": "Billie"
+				}
+			],
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"number": "LBNL-2001637",
+			"published": "2024-12",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Hyperion Data Center",
+			"url": "https://en.wikipedia.org/w/index.php?title=Hyperion_Data_Center&oldid=1383979055",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-05"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Stargate LLC",
+			"url": "https://en.wikipedia.org/w/index.php?title=Stargate_LLC&oldid=1384348354",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Colossus (data center)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Colossus_(data_center)&oldid=1386646677",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-19"
+		},
+		{
+			"kind": "report",
+			"title": "Retail Electricity Price Trends and Drivers: Data Update, 2026 Edition",
+			"authors": [
+				{
+					"family": "Wiser",
+					"given": "Ryan"
+				},
+				{
+					"family": "Barbose",
+					"given": "Galen"
+				},
+				{
+					"family": "Gorman",
+					"given": "Will"
+				},
+				{
+					"family": "O'Shaughnessy",
+					"given": "Eric"
+				},
+				{
+					"family": "Forrester",
+					"given": "Sydney"
+				},
+				{
+					"family": "Donohoo-Vallett",
+					"given": "Paul"
+				},
+				{
+					"family": "Cappers",
+					"given": "Peter"
+				}
+			],
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"published": "2026-07",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2026-07/retail_price_trends_2026_edition_julyupdate.pdf",
+			"accessed": "2026-11-22",
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"note": "With the Brattle Group, for the Department of Energy; the load-growth deep dive, slides 47–54"
+		}
+	]
+}

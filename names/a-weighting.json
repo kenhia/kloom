@@ -1,0 +1,8 @@
+{
+	"id": "a-weighting",
+	"wikidata": "Q13583781",
+	"name": "A-weighting",
+	"aliases": ["dBA", "dB(A)"],
+	"kind": "idea",
+	"description": "The standard frequency weighting used by sound level meters, which discounts low and very high pitches to approximate the sensitivity of human hearing to quiet tones."
+}

@@ -1,0 +1,9 @@
+{
+	"id": "embedded-emissions",
+	"wikidata": "Q5370001",
+	"name": "Embedded emissions",
+	"aliases": ["embodied carbon", "embodied emissions"],
+	"kind": "idea",
+	"description": "The greenhouse gas emissions released in making, transporting and disposing of a product or building, as distinct from those of using it; often called embodied carbon.",
+	"home": "datacenters/hardware-churn"
+}

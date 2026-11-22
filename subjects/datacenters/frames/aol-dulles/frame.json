@@ -1,0 +1,244 @@
+{
+	"id": "aol-dulles",
+	"topic": "AOL and MAE-East in Loudoun",
+	"position": {
+		"label": "1996–2009",
+		"sort": 1997
+	},
+	"scene": {
+		"headline": "Loudoun got the",
+		"accent": "FIBER.",
+		"palette": "chamber",
+		"illustration": "scene.svg",
+		"metadata": ["DULLES · ASHBURN · LOUDOUN COUNTY, VIRGINIA", "AOL · UUNET · MAE-EAST · EQUINIX"],
+		"counter": {
+			"value": "86,129",
+			"label": "people in Loudoun, 1990 census"
+		}
+	},
+	"connections": [
+		{
+			"to": "datacenters/carrier-hotel",
+			"why": "MAE-East, the first exchange run by a company, began in Fairfax County in 1992; by its closing in 2009 its networks had moved to Equinix's exchange in Ashburn."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Data Centers: The Loudoun Story",
+			"container": "Loudoun County, VA, Official Website",
+			"publisher": "Loudoun County",
+			"url": "https://www.loudoun.gov/6408/Data-Centers-The-Loudoun-Story",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "AOL Opens Headquarters in Dulles",
+			"container": "Loudoun County Economic Development, timeline",
+			"publisher": "Loudoun County Department of Economic Development",
+			"url": "https://biz.loudoun.gov/timeline/aol-opens-headquarters-in-dulles/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "MAE-East Internet Exchange Point Moves to Loudoun",
+			"container": "Loudoun County Economic Development, timeline",
+			"publisher": "Loudoun County Department of Economic Development",
+			"url": "https://biz.loudoun.gov/timeline/mae-east-internet-exchange-point-moves-to-loudoun/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Mergers and Acquisitions: UUNET, MFS, WorldCom, MCI",
+			"container": "Loudoun County Economic Development, timeline",
+			"publisher": "Loudoun County Department of Economic Development",
+			"url": "https://biz.loudoun.gov/timeline/mergers-and-acquisitions-uunet-mfs-worldcom-mci/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Dulles Greenway Opens in Loudoun County",
+			"container": "Loudoun County Economic Development, timeline",
+			"publisher": "Loudoun County Department of Economic Development",
+			"url": "https://biz.loudoun.gov/timeline/dulles-greenway-opens-in-loudoun-county/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Dulles Toll Road Opens, Further Connecting Loudoun to the Region",
+			"container": "Loudoun County Economic Development, timeline",
+			"publisher": "Loudoun County Department of Economic Development",
+			"url": "https://biz.loudoun.gov/timeline/dulles-toll-road-opens-further-connecting-loudoun-to-the-region/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Data Centers",
+			"container": "Loudoun County Economic Development",
+			"publisher": "Loudoun County Department of Economic Development",
+			"published": "2020-01",
+			"url": "https://biz.loudoun.gov/key-business-sectors/data-centers/",
+			"accessed": "2026-11-22",
+			"note": "The power-rate claim; read in the Wayback Machine's capture of January 5, 2020"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Data Centers in Virginia",
+			"authors": [
+				{
+					"name": "Joint Legislative Audit and Review Commission"
+				}
+			],
+			"publisher": "Joint Legislative Audit and Review Commission",
+			"place": "Richmond, VA",
+			"number": "Report 598",
+			"published": "2024-12",
+			"url": "https://jlarc.virginia.gov/pdfs/reports/Rpt598.pdf",
+			"accessed": "2026-11-22",
+			"note": "Why northern Virginia, chapter 1"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "MAE-East",
+			"url": "https://en.wikipedia.org/w/index.php?title=MAE-East&oldid=1378512805",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "AOL",
+			"url": "https://en.wikipedia.org/w/index.php?title=AOL&oldid=1385323132",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Equinix",
+			"url": "https://en.wikipedia.org/w/index.php?title=Equinix&oldid=1383785461",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Loudoun County, Virginia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Loudoun_County,_Virginia&oldid=1377855749",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Ashburn, Virginia",
+			"url": "https://en.wikipedia.org/w/index.php?title=Ashburn,_Virginia&oldid=1380349717",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-15"
+		},
+		{
+			"kind": "web",
+			"title": "How Northern Virginia Became 'Data Center Alley'",
+			"authors": [
+				{
+					"family": "Giorno",
+					"given": "Taylor"
+				},
+				{
+					"family": "Norman",
+					"given": "Zara"
+				},
+				{
+					"family": "Larreal",
+					"given": "Samuel"
+				}
+			],
+			"container": "NOTUS",
+			"published": "2026-07-09",
+			"url": "https://washingtonsun.com/metro/northern-virginia-data-center-capital",
+			"accessed": "2026-11-22",
+			"note": "Published by NOTUS; read where it is now served, on The Washington Sun's site"
+		},
+		{
+			"kind": "web",
+			"title": "Ashburn's Fiber-Fueled Data Center Boom",
+			"authors": [
+				{
+					"family": "Sverdlik",
+					"given": "Yevgeniy"
+				}
+			],
+			"container": "Data Center Knowledge",
+			"published": "2018-03-14",
+			"url": "https://www.datacenterknowledge.com/networking/ashburn-s-fiber-fueled-data-center-boom",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Existing Data Center Buildings, September 1, 2026 (Existing_DC_Buildings_Sept1_26)",
+			"container": "Loudoun County Data Center Dashboard",
+			"publisher": "Loudoun County",
+			"published": "2026-09",
+			"url": "https://www.loudoun.gov/6439/Data-Center-Dashboard",
+			"accessed": "2026-11-22",
+			"note": "The buildings' positions, years built and floor areas, in the plate"
+		},
+		{
+			"kind": "web",
+			"title": "TIGERweb: Transportation, Places and Counties; TIGER/Line Shapefiles 2024, Area Landmarks, Virginia",
+			"publisher": "US Census Bureau",
+			"url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb",
+			"accessed": "2026-11-22",
+			"note": "The roads, the county line, the census places and the airport in the plate"
+		},
+		{
+			"kind": "media",
+			"title": "View west along the Dulles Greenway from the Ashburn Village Parkway overpass",
+			"url": "https://commons.wikimedia.org/wiki/File:2018-10-26_09_43_05_View_west_along_Virginia_State_Route_267_(Dulles_Greenway)_from_the_overpass_for_Virginia_State_Route_772_(Ashburn_Village_Parkway)_on_the_border_of_Broadlands_and_Ashburn_in_Loudoun_County,_Virginia.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC BY-SA 4.0",
+			"file": "greenway.jpg",
+			"authors": [
+				{
+					"name": "Famartin"
+				}
+			],
+			"container": "Wikimedia Commons",
+			"published": "2018-10-26"
+		}
+	]
+}

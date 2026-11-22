@@ -373,5 +373,20 @@ class FrameDir(unittest.TestCase):
         self.assertIn('crop', cm.outside_frame('.scratch/051/empire2'))
 
 
+
+class SearchTitles(unittest.TestCase):
+    """Sprint 059: one PDF in a search's results (a Bengali gazette) made Commons refuse the whole
+    info query ("urlparamnormal"), and search died on a KeyError. It asks only for images now."""
+
+    def test_keeps_only_image_files(self):
+        titles = ['File:A.jpg', 'File:Gazette.pdf', 'File:B.PNG', 'File:Scan.djvu', 'File:C.svg', 'File:D.tif']
+        self.assertEqual(cm.image_titles(titles), ['File:A.jpg', 'File:B.PNG', 'File:C.svg'])
+
+    def test_an_api_error_is_said_not_a_key_error(self):
+        with self.assertRaises(SystemExit) as e:
+            cm.checked({'error': {'code': 'urlparamnormal', 'info': 'Could not normalize'}})
+        self.assertIn('urlparamnormal', str(e.exception))
+
+
 if __name__ == '__main__':
     unittest.main()

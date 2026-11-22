@@ -1,0 +1,177 @@
+{
+	"id": "where-water-goes",
+	"topic": "Where a data center's water goes",
+	"position": {
+		"label": "Water"
+	},
+	"scene": {
+		"headline": "The heat goes",
+		"accent": "OUTDOORS.",
+		"palette": "tower",
+		"illustration": "scene.svg",
+		"metadata": ["CHIP · CLOSED LOOP · HEAT EXCHANGER", "COOLING TOWER · DRY COOLER · ADIABATIC"],
+		"counter": {
+			"value": "0–4.1",
+			"label": "liters per kWh on site, by cooling (modeled)"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/entropy",
+			"why": "Heat can pass from a data center's coolant to outdoor air hotter than it only by spending work, the second law's \"other change\", which is why cooling without evaporating water costs electricity on hot days."
+		},
+		{
+			"to": "food/refrigeration",
+			"why": "A data center's chillers run the refrigeration cycle that reading tables, and whether their condensers give the heat to the air or to evaporating water decides how much water a site uses."
+		},
+		{
+			"to": "datacenters/zero-water",
+			"why": "The dry route at the wall evaporates nothing but costs electricity, the trade Microsoft's zero-water design makes."
+		},
+		{
+			"to": "datacenters/power-plant-water",
+			"why": "Its estimate that power plants consume about twelve times a data center's on-site water is explained frame by frame there."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2024 United States Data Center Energy Usage Report",
+			"authors": [
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Smith",
+					"given": "Sarah J."
+				},
+				{
+					"family": "Hubbard",
+					"given": "Alex"
+				},
+				{
+					"family": "Newkirk",
+					"given": "Alex"
+				},
+				{
+					"family": "Lei",
+					"given": "Nuoa"
+				},
+				{
+					"family": "Siddik",
+					"given": "Md Abu Bakar"
+				},
+				{
+					"family": "Holecek",
+					"given": "Billie"
+				}
+			],
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"number": "LBNL-2001637",
+			"published": "2024-12",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+			"accessed": "2026-11-22",
+			"note": "Cooling systems, table 4.2 and figure 4.2; simulated WUE by cooling system, figure 4.4; the national WUE, figure 4.7; indirect water, pp. 55–58"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Environmental Report 2026",
+			"authors": [
+				{
+					"name": "Google"
+				}
+			],
+			"publisher": "Google",
+			"published": "2026-06",
+			"url": "https://sustainability.google/reports/google-2026-environmental-report/",
+			"accessed": "2026-11-22",
+			"note": "Water use by data center location, 2025, p. 97, the company's own figures"
+		},
+		{
+			"kind": "web",
+			"title": "Sustainable by Design: Next-Generation Datacenters Consume Zero Water for Cooling",
+			"authors": [
+				{
+					"family": "Solomon",
+					"given": "Steve"
+				}
+			],
+			"container": "The Microsoft Cloud Blog",
+			"publisher": "Microsoft",
+			"published": "2024-12-09",
+			"url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/12/09/sustainable-by-design-next-generation-datacenters-consume-zero-water-for-cooling/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "2026 Environmental Data Fact Sheet",
+			"authors": [
+				{
+					"name": "Microsoft"
+				}
+			],
+			"publisher": "Microsoft",
+			"published": "2026-07",
+			"url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/2026-Microsoft-Environmental-Data-Fact-Sheet-PDF.pdf",
+			"accessed": "2026-11-22",
+			"note": "Datacenter water by location, fiscal 2025, table 15"
+		},
+		{
+			"kind": "report",
+			"title": "2025 Amazon Sustainability Report",
+			"authors": [
+				{
+					"name": "Amazon"
+				}
+			],
+			"publisher": "Amazon",
+			"published": "2026",
+			"url": "https://sustainability.aboutamazon.com/2025-amazon-sustainability-report.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Data Centers and Water Consumption",
+			"authors": [
+				{
+					"family": "Yañez-Barnuevo",
+					"given": "Miguel"
+				}
+			],
+			"container": "EESI Articles",
+			"publisher": "Environmental and Energy Study Institute",
+			"published": "2025-06-25",
+			"url": "https://www.eesi.org/articles/view/data-centers-and-water-consumption",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "How We Use Water",
+			"container": "WaterSense",
+			"publisher": "U.S. Environmental Protection Agency",
+			"published": "2026-08-04",
+			"url": "https://www.epa.gov/watersense/how-we-use-water",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "media",
+			"title": "Data center roof",
+			"url": "https://commons.wikimedia.org/wiki/File:Data_center_roof.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC0",
+			"file": "roof.jpg",
+			"authors": [
+				{
+					"name": "Rsparks3"
+				}
+			],
+			"container": "Wikimedia Commons",
+			"published": "2025-11-23"
+		}
+	]
+}

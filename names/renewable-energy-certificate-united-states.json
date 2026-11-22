@@ -1,0 +1,9 @@
+{
+	"id": "renewable-energy-certificate-united-states",
+	"wikidata": "Q2143923",
+	"name": "Renewable Energy Certificate (United States)",
+	"aliases": ["renewable energy certificate", "renewable energy certificates", "REC", "RECs"],
+	"kind": "idea",
+	"description": "A tradable certificate representing one megawatt-hour of electricity generated from a renewable source, which can be bought separately from the electricity itself.",
+	"home": "datacenters/carbon-accounting"
+}

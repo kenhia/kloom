@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" role="img" aria-labelledby="t d">
+<title id="t">Data centers' share of metered electricity in Ireland, 2015–2025</title>
+<desc id="d">Bar chart of the share of Ireland's metered electricity consumption that the Central Statistics Office attributes to data centers, by year: 5% in 2015, 6% in 2016, 7% in 2017, 8% in 2018, 9% in 2019, 11% in 2020, 14% in 2021, 18% in 2022, 21% in 2023, 22% in 2024 and 23% in 2025. Data: Central Statistics Office, Data Centres Metered Electricity Consumption 2025, table 1.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="540" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0%</text>
+<line x1="64" x2="540" y1="178.7" y2="178.7" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="182.7" text-anchor="end">10%</text>
+<line x1="64" x2="540" y1="107.3" y2="107.3" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="111.3" text-anchor="end">20%</text>
+<line x1="64" x2="540" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">30%</text>
+</g>
+<rect x="69.6" y="214.3" width="32" height="35.7" fill-opacity="0.85"/>
+<text x="85.6" y="208.3" text-anchor="middle">5%</text>
+<text x="85.6" y="266" text-anchor="middle">2015</text>
+<rect x="112.9" y="207.2" width="32" height="42.8" fill-opacity="0.85"/>
+<text x="128.9" y="201.2" text-anchor="middle">6%</text>
+<text x="128.9" y="266" text-anchor="middle">2016</text>
+<rect x="156.2" y="200.1" width="32" height="49.9" fill-opacity="0.85"/>
+<text x="172.2" y="194.1" text-anchor="middle">7%</text>
+<text x="172.2" y="266" text-anchor="middle">2017</text>
+<rect x="199.5" y="192.9" width="32" height="57.1" fill-opacity="0.85"/>
+<text x="215.5" y="186.9" text-anchor="middle">8%</text>
+<text x="215.5" y="266" text-anchor="middle">2018</text>
+<rect x="242.7" y="185.8" width="32" height="64.2" fill-opacity="0.85"/>
+<text x="258.7" y="179.8" text-anchor="middle">9%</text>
+<text x="258.7" y="266" text-anchor="middle">2019</text>
+<rect x="286.0" y="171.5" width="32" height="78.5" fill-opacity="0.85"/>
+<text x="302.0" y="165.5" text-anchor="middle">11%</text>
+<text x="302.0" y="266" text-anchor="middle">2020</text>
+<rect x="329.3" y="150.1" width="32" height="99.9" fill-opacity="0.85"/>
+<text x="345.3" y="144.1" text-anchor="middle">14%</text>
+<text x="345.3" y="266" text-anchor="middle">2021</text>
+<rect x="372.5" y="121.6" width="32" height="128.4" fill-opacity="0.85"/>
+<text x="388.5" y="115.6" text-anchor="middle">18%</text>
+<text x="388.5" y="266" text-anchor="middle">2022</text>
+<rect x="415.8" y="100.2" width="32" height="149.8" fill-opacity="0.85"/>
+<text x="431.8" y="94.2" text-anchor="middle">21%</text>
+<text x="431.8" y="266" text-anchor="middle">2023</text>
+<rect x="459.1" y="93.1" width="32" height="156.9" fill-opacity="0.85"/>
+<text x="475.1" y="87.1" text-anchor="middle">22%</text>
+<text x="475.1" y="266" text-anchor="middle">2024</text>
+<rect x="502.4" y="85.9" width="32" height="164.1" class="accent" fill="currentColor"/>
+<text x="518.4" y="79.9" text-anchor="middle">23%</text>
+<text x="518.4" y="266" text-anchor="middle">2025</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">DATA CENTERS' SHARE OF METERED ELECTRICITY · IRELAND</text>
+</g></svg>

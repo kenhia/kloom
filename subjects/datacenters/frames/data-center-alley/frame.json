@@ -1,0 +1,179 @@
+{
+	"id": "data-center-alley",
+	"topic": "Data Center Alley",
+	"position": {
+		"label": "2007–2016",
+		"sort": 2012
+	},
+	"scene": {
+		"headline": "Ashburn became an",
+		"accent": "ALLEY.",
+		"palette": "chamber",
+		"illustration": "scene.svg",
+		"metadata": ["ASHBURN · STERLING · LOUDOUN COUNTY, VIRGINIA", "ROUTE 7 TO THE DULLES GREENWAY"],
+		"counter": {
+			"value": "58.3 million",
+			"label": "sq ft built or being built, Sept. 2026"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Data Centers: The Loudoun Story",
+			"container": "Loudoun County, VA, Official Website",
+			"publisher": "Loudoun County",
+			"url": "https://www.loudoun.gov/6408/Data-Centers-The-Loudoun-Story",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Data Centers: Data Center Dashboard",
+			"container": "Loudoun County, VA, Official Website",
+			"publisher": "Loudoun County",
+			"url": "https://www.loudoun.gov/6439/Data-Center-Dashboard",
+			"accessed": "2026-11-22",
+			"note": "Numbers at a glance, as of September 1, 2026; the building layer behind the chart and the plate"
+		},
+		{
+			"kind": "web",
+			"title": "Data Centers: Appearance, Land Values & Workforce",
+			"container": "Loudoun County, VA, Official Website",
+			"publisher": "Loudoun County",
+			"url": "https://www.loudoun.gov/6407/Appearance-Land-Values-Workforce",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Data Centers in Virginia",
+			"authors": [
+				{
+					"name": "Joint Legislative Audit and Review Commission"
+				}
+			],
+			"publisher": "Joint Legislative Audit and Review Commission",
+			"place": "Richmond, VA",
+			"number": "Report 598",
+			"published": "2024-12",
+			"url": "https://jlarc.virginia.gov/pdfs/reports/Rpt598.pdf",
+			"accessed": "2026-11-22",
+			"note": "Market size, chapter 1; residential impacts, chapter 6; zoning changes, appendix L; sites near residential zoning, table B-1"
+		},
+		{
+			"kind": "web",
+			"title": "Data Centers",
+			"container": "Loudoun County Economic Development",
+			"publisher": "Loudoun County Department of Economic Development",
+			"published": "2020-01",
+			"url": "https://biz.loudoun.gov/key-business-sectors/data-centers/",
+			"accessed": "2026-11-22",
+			"note": "Read in the Wayback Machine's captures of October 2016 to January 2024; the page's figures and its 70 percent claim changed over those years"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Does 70% of the World's Internet Traffic Flow Through Virginia?",
+			"authors": [
+				{
+					"family": "Stronge",
+					"given": "Tim"
+				}
+			],
+			"container": "TeleGeography Blog",
+			"publisher": "TeleGeography",
+			"published": "2019-05-30",
+			"url": "https://resources.telegeography.com/does-70-of-the-worlds-internet-traffic-flow-through-virginia",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "The Famous Claim That 70% of the World's Internet Traffic Goes Through Northern Virginia Is Wrong",
+			"authors": [
+				{
+					"family": "Yancey",
+					"given": "Dwayne"
+				}
+			],
+			"container": "Cardinal News",
+			"published": "2025-07-29",
+			"url": "https://cardinalnews.org/2025/07/29/the-famous-claim-that-70-of-the-worlds-internet-traffic-goes-through-northern-virginia-is-wrong/",
+			"accessed": "2026-11-22",
+			"note": "A column"
+		},
+		{
+			"kind": "web",
+			"title": "How Northern Virginia Became 'Data Center Alley'",
+			"authors": [
+				{
+					"family": "Giorno",
+					"given": "Taylor"
+				},
+				{
+					"family": "Norman",
+					"given": "Zara"
+				},
+				{
+					"family": "Larreal",
+					"given": "Samuel"
+				}
+			],
+			"container": "NOTUS",
+			"published": "2026-07-09",
+			"url": "https://washingtonsun.com/metro/northern-virginia-data-center-capital",
+			"accessed": "2026-11-22",
+			"note": "Published by NOTUS; read where it is now served, on The Washington Sun's site"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dulles Technology Corridor",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dulles_Technology_Corridor&oldid=1357620141",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-06-03"
+		},
+		{
+			"kind": "media",
+			"title": "AWS servers in Ashburn, group 1",
+			"url": "https://commons.wikimedia.org/wiki/File:AWS_servers_in_Ashburn,_group_1,_2020-10-09_1.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC BY-SA 4.0",
+			"file": "aws1.jpg",
+			"authors": [
+				{
+					"name": "Vahurzpu"
+				}
+			],
+			"container": "Wikimedia Commons",
+			"published": "2020-10-09"
+		},
+		{
+			"kind": "media",
+			"title": "Data center floor space standing in Loudoun County, by the year its buildings were finished",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Loudoun County, Data Center Dashboard, existing data center buildings as of September 1, 2026",
+			"url": "https://www.loudoun.gov/6439/Data-Center-Dashboard",
+			"accessed": "2026-11-22",
+			"licence": "MIT",
+			"file": "floor-space.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/loudoun-by-right",
+			"why": "The alley's growth led to the county's 2025 decision to end approval by right."
+		}
+	]
+}

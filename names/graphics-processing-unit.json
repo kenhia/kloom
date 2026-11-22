@@ -1,0 +1,8 @@
+{
+	"id": "graphics-processing-unit",
+	"wikidata": "Q183484",
+	"name": "Graphics processing unit",
+	"aliases": ["GPU", "GPUs"],
+	"kind": "artifact",
+	"description": "A processor of many simple cores working in parallel, built for graphics and now the main chip for training and running AI models."
+}

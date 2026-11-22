@@ -1,0 +1,26 @@
+{
+	"datacenters/ashburn-power": [
+		["Dominion Energy", "dominion-energy"],
+		["Loudoun County", "loudoun-county-virginia"],
+		["data center", "data-center"],
+		["Ashburn", "ashburn-virginia"],
+		["transmission", "electric-power-transmission"],
+		["substations", "substation"],
+		["Virginia", "virginia"],
+		["State Corporation Commission", "state-corporation-commission-virginia"],
+		["transformers", "transformer"],
+		["Loudoun County Public Schools", "loudoun-county-public-schools"],
+		["PJM Interconnection", "pjm-interconnection"],
+		["Piedmont Environmental Council", "piedmont-environmental-council"]
+	],
+	"datacenters/loudoun-by-right": [
+		["Loudoun County", "loudoun-county-virginia"],
+		["Virginia", "virginia"],
+		["data centers", "data-center"],
+		["zoning", "zoning"],
+		["special exception", "special-use-permit"],
+		["Juli Briskman", "juli-briskman"],
+		["Phyllis Randall", "phyllis-randall"],
+		["General Assembly", "virginia-general-assembly"]
+	]
+}

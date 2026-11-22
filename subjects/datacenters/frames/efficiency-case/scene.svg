@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M56 238 L200 238"/>
+		<path pathLength="1" d="M60 216.9 L64 216.9"/>
+		<path pathLength="1" d="M60 204.6 L64 204.6"/>
+		<path pathLength="1" d="M60 195.9 L64 195.9"/>
+		<path pathLength="1" d="M60 189.1 L64 189.1"/>
+		<path pathLength="1" d="M60 183.5 L64 183.5"/>
+		<path pathLength="1" d="M60 178.8 L64 178.8"/>
+		<path pathLength="1" d="M60 174.8 L64 174.8"/>
+		<path pathLength="1" d="M60 171.2 L64 171.2"/>
+		<path pathLength="1" d="M56 168 L200 168"/>
+		<path pathLength="1" d="M60 146.9 L64 146.9"/>
+		<path pathLength="1" d="M60 134.6 L64 134.6"/>
+		<path pathLength="1" d="M60 125.9 L64 125.9"/>
+		<path pathLength="1" d="M60 119.1 L64 119.1"/>
+		<path pathLength="1" d="M60 113.5 L64 113.5"/>
+		<path pathLength="1" d="M60 108.8 L64 108.8"/>
+		<path pathLength="1" d="M60 104.8 L64 104.8"/>
+		<path pathLength="1" d="M60 101.2 L64 101.2"/>
+		<path pathLength="1" d="M56 98 L200 98"/>
+		<path pathLength="1" d="M60 76.9 L64 76.9"/>
+		<path pathLength="1" d="M60 64.6 L64 64.6"/>
+		<path pathLength="1" d="M60 55.9 L64 55.9"/>
+		<path pathLength="1" d="M60 49.1 L64 49.1"/>
+		<path pathLength="1" d="M60 43.5 L64 43.5"/>
+		<path pathLength="1" d="M60 38.8 L64 38.8"/>
+		<path pathLength="1" d="M60 34.8 L64 34.8"/>
+		<path pathLength="1" d="M60 31.2 L64 31.2"/>
+		<path pathLength="1" d="M56 28 L200 28"/>
+		<path pathLength="1" d="M66 20 L66 246"/>
+		<path pathLength="1" d="M196 20 L196 246"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M66 168 L196 111.1"/>
+		<path pathLength="1" d="M193.5 111.1 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M66 168 L196 166.3"/>
+		<path pathLength="1" d="M193.5 166.3 a2.5 2.5 0 1 0 5 0 a2.5 2.5 0 1 0 -5 0"/>
+		<path pathLength="1" d="M63 168 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M66 168 L196 69"/>
+		<path pathLength="1" d="M194.2 69 a1.8 1.8 0 1 0 3.6 0 a1.8 1.8 0 1 0 -3.6 0"/>
+		<path pathLength="1" d="M66 168 L196 95.1"/>
+		<path pathLength="1" d="M194.2 95.1 a1.8 1.8 0 1 0 3.6 0 a1.8 1.8 0 1 0 -3.6 0"/>
+		<path pathLength="1" d="M66 168 L196 176.7"/>
+		<path pathLength="1" d="M194.2 176.7 a1.8 1.8 0 1 0 3.6 0 a1.8 1.8 0 1 0 -3.6 0"/>
+		<path pathLength="1" d="M66 168 L196 211.4"/>
+		<path pathLength="1" d="M194.2 211.4 a1.8 1.8 0 1 0 3.6 0 a1.8 1.8 0 1 0 -3.6 0"/>
+		<path pathLength="1" d="M66 168 L196 235.1"/>
+		<path pathLength="1" d="M194.2 235.1 a1.8 1.8 0 1 0 3.6 0 a1.8 1.8 0 1 0 -3.6 0"/>
+	</g>
+	<g>
+		<text x="52" y="240.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0.1</text>
+		<text x="52" y="170.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">1</text>
+		<text x="52" y="100.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">10</text>
+		<text x="52" y="30.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">100</text>
+		<text x="66" y="258" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2010</text>
+		<text x="196" y="258" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2018</text>
+		<text x="204" y="71.5" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">STORAGE CAPACITY x26</text>
+		<text x="204" y="97.6" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">IP TRAFFIC x11</text>
+		<text x="204" y="113.6" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COMPUTE INSTANCES x6.5</text>
+		<text x="204" y="168.8" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ENERGY USE x1.06</text>
+		<text x="204" y="179.2" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">PUE x0.75</text>
+		<text x="204" y="213.9" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SERVER Wh PER COMPUTATION x0.24</text>
+		<text x="204" y="237.6" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">DRIVE kWh PER TB x0.11</text>
+		<text x="200" y="14" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2018 AS A MULTIPLE OF 2010 · LOG SCALE</text>
+		<text x="200" y="286" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">MASANET ET AL., SCIENCE, 2020: MODELED</text>
+	</g>
+</svg>

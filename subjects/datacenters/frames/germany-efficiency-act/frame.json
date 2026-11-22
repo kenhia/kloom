@@ -1,0 +1,298 @@
+{
+	"id": "germany-efficiency-act",
+	"topic": "Germany's Energy Efficiency Act",
+	"position": {
+		"label": "2023–26",
+		"sort": 2023
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Germany put efficiency into",
+		"accent": "LAW.",
+		"palette": "chamber",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ENERGIEEFFIZIENZGESETZ · § 11 · FRANKFURT · DE-CIX",
+			"EU DIRECTIVE 2023/1791 · 2023–2026"
+		],
+		"counter": {
+			"value": "1.2",
+			"label": "PUE limit for centers opening from July 2026"
+		}
+	},
+	"connections": [
+		{
+			"to": "datacenters/inside-a-data-center",
+			"why": "Germany's law caps the power usage effectiveness that Inside a data center defines, at 1.2 for centers opening from July 2026, below the 1.54 average operators reported to the Uptime Institute in 2025."
+		}
+	],
+	"citations": [
+		{
+			"kind": "statute",
+			"key": true,
+			"title": "Gesetz zur Steigerung der Energieeffizienz in Deutschland (Energieeffizienzgesetz – EnEfG) vom 13. November 2023",
+			"citeAs": "gazette",
+			"code": {
+				"name": "Bundesgesetzblatt 2023, Teil I, Nr. 309",
+				"page": "9"
+			},
+			"section": "§ 11",
+			"published": "2023-11-13",
+			"container": "Bundesgesetzblatt",
+			"publisher": "Bundesministerium der Justiz",
+			"url": "https://www.recht.bund.de/bgbl/1/2023/309/VO.html",
+			"accessed": "2026-11-22",
+			"language": "de",
+			"note": "Section 11 sets the PUE limits, reused heat and renewable electricity; sections 12 to 14 the management system, the publication and the register"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Report from the Commission to the European Parliament and the Council on the Energy Efficiency of Data Centres in the EU",
+			"authors": [
+				{
+					"name": "European Commission"
+				}
+			],
+			"place": "Brussels",
+			"publisher": "European Commission",
+			"number": "COM(2026) 500 final",
+			"published": "2026-09-21",
+			"url": "https://energy.ec.europa.eu/publications/report-energy-efficiency-data-centres-eu_en",
+			"accessed": "2026-11-22",
+			"note": "Read in the copy sent to the Council, document 13443/26; coverage, PUE and heat reuse in section 2"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Rechenzentrumsregister: Daten widerlegen hohe Rechtsanforderungen",
+			"authors": [
+				{
+					"name": "Umweltbundesamt"
+				}
+			],
+			"container": "Umweltbundesamt",
+			"publisher": "Umweltbundesamt",
+			"published": "2026-09-21",
+			"url": "https://www.umweltbundesamt.de/themen/rechenzentrumsregister-daten-widerlegen-hohe",
+			"accessed": "2026-11-22",
+			"language": "de"
+		},
+		{
+			"kind": "statute",
+			"title": "Directive (EU) 2023/1791 of the European Parliament and of the Council of 13 September 2023 on Energy Efficiency and Amending Regulation (EU) 2023/955",
+			"citeAs": "gazette",
+			"code": {
+				"name": "Official Journal of the European Union, L 231",
+				"page": "1"
+			},
+			"section": "art. 12",
+			"published": "2023-09-13",
+			"container": "EUR-Lex",
+			"publisher": "Publications Office of the European Union",
+			"url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023L1791",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "statute",
+			"title": "Commission Delegated Regulation (EU) 2024/1364 of 14 March 2024 on the First Phase of the Establishment of a Common Union Rating Scheme for Data Centres",
+			"citeAs": "gazette",
+			"code": {
+				"name": "Official Journal of the European Union, L series, 2024/1364",
+				"page": "1"
+			},
+			"published": "2024-03-14",
+			"container": "EUR-Lex",
+			"publisher": "Publications Office of the European Union",
+			"url": "https://eur-lex.europa.eu/eli/reg_del/2024/1364/oj",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Commission Enhances Energy Efficiency and Sustainability of Data Centres in the EU",
+			"authors": [
+				{
+					"name": "European Commission"
+				}
+			],
+			"container": "Press corner",
+			"publisher": "European Commission",
+			"published": "2026-09-21",
+			"url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1667",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Bundestag Adopts Energy Efficiency Act: A Clear Legal Framework for Energy Efficiency",
+			"authors": [
+				{
+					"name": "Federal Ministry for Economic Affairs and Climate Action"
+				}
+			],
+			"container": "Press releases",
+			"publisher": "Federal Ministry for Economic Affairs and Climate Action",
+			"published": "2023-09-21",
+			"url": "https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Pressemitteilungen/2023/09/20230921-bundestag-adopts-energy-efficiency-act-a-clear-legal-framework-for-energy-efficiency.html",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Bitkom zum Energieeffizienzgesetz",
+			"authors": [
+				{
+					"name": "Bitkom"
+				}
+			],
+			"container": "Presseinformation",
+			"publisher": "Bitkom",
+			"place": "Berlin",
+			"published": "2026-06-24",
+			"url": "https://www.bitkom.org/Presse/Presseinformation/Bitkom-zum-Energieeffizienzgesetz",
+			"accessed": "2026-11-22",
+			"language": "de"
+		},
+		{
+			"kind": "web",
+			"title": "Bitkom zur Novelle Energieeffizienzgesetz",
+			"authors": [
+				{
+					"name": "Bitkom"
+				}
+			],
+			"container": "Presseinformation",
+			"publisher": "Bitkom",
+			"place": "Berlin",
+			"published": "2026-09-25",
+			"url": "https://www.bitkom.org/Presse/Presseinformation/Bitkom-zur-Novelle-Energieeffizienzgesetz",
+			"accessed": "2026-11-22",
+			"language": "de"
+		},
+		{
+			"kind": "web",
+			"title": "Update Rechenzentren: Gesetzentwurf zur Änderung des Energieeffizienzgesetzes liegt vor",
+			"authors": [
+				{
+					"name": "Gleiss Lutz"
+				}
+			],
+			"container": "Know-how",
+			"publisher": "Gleiss Lutz",
+			"published": "2026-07-02",
+			"url": "https://www.gleisslutz.com/de/know-how/update-rechenzentren-gesetzentwurf-zur-aenderung-des-energieeffizienzgesetzes-liegt-vor",
+			"accessed": "2026-11-22",
+			"language": "de",
+			"note": "The cabinet's bill, its changes to section 11 and their stated reasons"
+		},
+		{
+			"kind": "web",
+			"title": "Wirtschaft und Energie — Gesetzentwurf (hib 718/2026)",
+			"authors": [
+				{
+					"name": "Deutscher Bundestag"
+				}
+			],
+			"container": "heute im bundestag",
+			"publisher": "Deutscher Bundestag",
+			"published": "2026-09-17",
+			"url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1216236",
+			"accessed": "2026-11-22",
+			"language": "de",
+			"note": "The bill, Drucksache 21/8027"
+		},
+		{
+			"kind": "web",
+			"title": "Öffentliche Anhörung zur Umsetzung der Energieeffizienzrichtlinie",
+			"authors": [
+				{
+					"name": "Deutscher Bundestag"
+				}
+			],
+			"container": "Textarchiv",
+			"publisher": "Deutscher Bundestag",
+			"published": "2026-10-05",
+			"url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-pa-wirtschaft-energieeffizienzrichtlinie-1218082",
+			"accessed": "2026-11-22",
+			"language": "de"
+		},
+		{
+			"kind": "report",
+			"title": "Stellungnahme zur öffentlichen Anhörung anlässlich der geplanten Novelle des Energieeffizienzgesetzes",
+			"authors": [
+				{
+					"family": "Bothe",
+					"given": "Julian"
+				}
+			],
+			"publisher": "AlgorithmWatch",
+			"place": "Berlin",
+			"number": "Ausschussdrucksache 21(9)365 neu",
+			"published": "2026-10-01",
+			"url": "https://www.bundestag.de/resource/blob/1222062/Stellungnahme_Dr-_Julian_Bothe_Algorith_Watch.pdf",
+			"accessed": "2026-11-22",
+			"language": "de"
+		},
+		{
+			"kind": "web",
+			"title": "Update on Frankfurt Data Centre Masterplan",
+			"authors": [
+				{
+					"family": "Reubekeul",
+					"given": "Lars"
+				},
+				{
+					"family": "Moser",
+					"given": "Philipp"
+				}
+			],
+			"container": "Insights",
+			"publisher": "DLA Piper",
+			"published": "2022-07-25",
+			"url": "https://www.dlapiper.com/de-de/insights/publications/2022/07/update-on-frankfurt-data-centre-masterplan",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "IHK Frankfurt fordert stärkere Anerkennung der wirtschaftlichen und städtebaulichen Bedeutung von Rechenzentren",
+			"authors": [
+				{
+					"name": "IHK Frankfurt am Main"
+				}
+			],
+			"container": "Pressemeldungen",
+			"publisher": "IHK Frankfurt am Main",
+			"published": "2025-12-29",
+			"url": "https://www.frankfurt-main.ihk.de/presse/pressemeldungen2025/staerkere-anerkennung-der-bedeutung-von-rechenzentren-6927940",
+			"accessed": "2026-11-22",
+			"language": "de"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "DE-CIX",
+			"url": "https://en.wikipedia.org/w/index.php?title=DE-CIX&oldid=1385480127",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-13"
+		},
+		{
+			"kind": "media",
+			"title": "Equinix-Rechenzentrum, Kruppstraße, Frankfurt am Main",
+			"url": "https://commons.wikimedia.org/wiki/File:Equinix-Kruppstrasse-2015-Ffm-661-663.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC BY-SA 4.0",
+			"file": "equinix.jpg",
+			"authors": [
+				{
+					"name": "Simsalabimbam"
+				}
+			],
+			"container": "Wikimedia Commons",
+			"published": "2015-04-12"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"id": "power-usage-effectiveness",
+	"wikidata": "Q2619414",
+	"name": "Power usage effectiveness",
+	"aliases": ["PUE"],
+	"kind": "idea",
+	"description": "A data center's total energy use divided by the energy its computing equipment uses: 1.0 would mean no overhead for cooling and power conversion.",
+	"home": "datacenters/inside-a-data-center"
+}

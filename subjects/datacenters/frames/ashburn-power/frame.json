@@ -1,0 +1,256 @@
+{
+	"id": "ashburn-power",
+	"topic": "Ashburn's power lines",
+	"position": {
+		"label": "2022–26",
+		"sort": 2022
+	},
+	"scene": {
+		"headline": "Ashburn waited for new",
+		"accent": "LINES.",
+		"palette": "chamber",
+		"illustration": "scene.svg",
+		"metadata": [
+			"ASHBURN · LOUDOUN COUNTY · DOMINION ENERGY",
+			"500 KV AND 230 KV · VIRGINIA SCC · 2022–2026"
+		],
+		"counter": {
+			"value": "54 GW",
+			"label": "data center capacity Dominion reports under contract, 2026"
+		}
+	},
+	"connections": [
+		{
+			"to": "western-civ/faraday-induction",
+			"why": "The transformers in Ashburn's new substations, stepping 500 kV down to 230 kV, work by the electromagnetic induction Faraday found in 1831."
+		},
+		{
+			"to": "datacenters/who-pays-grid",
+			"why": "The cost of Dominion's new lines is shared across the region through PJM, which that frame explains."
+		},
+		{
+			"to": "datacenters/data-center-alley",
+			"why": "The lines were built for the cluster of data centers along the Dulles corridor."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Data Centers in Virginia",
+			"authors": [
+				{
+					"name": "Joint Legislative Audit and Review Commission"
+				}
+			],
+			"publisher": "Joint Legislative Audit and Review Commission",
+			"place": "Richmond, VA",
+			"number": "Report 598",
+			"published": "2024-12-09",
+			"url": "https://jlarc.virginia.gov/pdfs/reports/Rpt598.pdf",
+			"accessed": "2026-11-22",
+			"note": "The 2022 pause, p. 36; the forecast, ch. 3; full cost of service and residential bills, ch. 4 and table 4-2; undergrounding, appendix"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Dominion Energy LSE 20-Year Data Center Forecast",
+			"authors": [
+				{
+					"name": "Dominion Energy"
+				}
+			],
+			"publisher": "PJM Interconnection, Load Analysis Subcommittee",
+			"published": "2026-09-29",
+			"url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260929/20260929-item-5ai---dominion_energy.pdf",
+			"accessed": "2026-11-22",
+			"note": "The company's own figures: billed demand by year, slide 3; contracts, slides 2 and 6; forecasts compared, slides 9 and 10"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Application of Virginia Electric and Power Company for Approval and Certification of Electric Transmission Facilities: Aspen-Golden; Order for Notice and Hearing",
+			"authors": [
+				{
+					"name": "State Corporation Commission of Virginia"
+				}
+			],
+			"publisher": "State Corporation Commission of Virginia",
+			"place": "Richmond, VA",
+			"number": "Case No. PUR-2024-00032",
+			"published": "2024-04-17",
+			"url": "https://scc.virginia.gov/docketsearch/DOCS/7ynf01!.PDF",
+			"accessed": "2026-11-22",
+			"note": "The lines' ratings, structures and estimated cost, as Dominion's application gave them"
+		},
+		{
+			"kind": "web",
+			"title": "Data Center Alley's Power Utility Warns It May Not Be Able to Serve New Projects",
+			"authors": [
+				{
+					"family": "Rabb",
+					"given": "Dan"
+				}
+			],
+			"container": "Bisnow",
+			"publisher": "Bisnow",
+			"published": "2022-07-29",
+			"url": "https://www.bisnow.com/news/national/data-center/data-center-alleys-power-utility-warns-it-may-not-be-able-to-serve-new-projects-114094",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Dominion Resumes New Connections, But Loudoun Faces Lengthy Power Constraints",
+			"authors": [
+				{
+					"family": "Miller",
+					"given": "Rich"
+				}
+			],
+			"container": "Data Center Frontier",
+			"publisher": "Data Center Frontier",
+			"published": "2022-09-26",
+			"url": "https://datacenterfrontier.com/dominion-resumes-new-connections-but-loudoun-faces-lengthy-power-constraints/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "NOVA Projects",
+			"authors": [
+				{
+					"name": "Dominion Energy"
+				}
+			],
+			"publisher": "Dominion Energy",
+			"url": "https://www.dominionenergy.com/nova",
+			"accessed": "2026-11-22",
+			"note": "The company's own account of the Loudoun Reliability Loop"
+		},
+		{
+			"kind": "web",
+			"title": "Transmission Lines in Loudoun County",
+			"authors": [
+				{
+					"name": "Loudoun County"
+				}
+			],
+			"publisher": "Loudoun County, Virginia",
+			"url": "https://www.loudoun.gov/3600/Transmission-Lines-in-Loudoun-County",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "What's the Fate of Loudoun's Controversial Golden to Mars Transmission Line?",
+			"authors": [
+				{
+					"family": "Gelman",
+					"given": "Scott"
+				}
+			],
+			"container": "WTOP News",
+			"publisher": "WTOP",
+			"published": "2026-07-01",
+			"url": "https://wtop.com/loudoun-county/2026/07/whats-the-fate-of-loudouns-controversial-golden-to-mars-transmission-line/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "SCC Approves Route 3A for Golden-Mars Transmission Line Project",
+			"container": "The Blue Ridge Leader & Loudoun Today",
+			"publisher": "Blue Ridge Leader",
+			"published": "2026-07-01",
+			"url": "https://blueridgeleader.com/scc-approves-route-3a-for-golden-mars-transmission-line-project/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Loudoun Homeowners Appear to Lose Battle with Dominion's Data Center Transmission Lines",
+			"authors": [
+				{
+					"family": "Minock",
+					"given": "Nick"
+				}
+			],
+			"container": "WJLA 7News",
+			"publisher": "WJLA",
+			"published": "2026-07-03",
+			"url": "https://wjla.com/news/local/loudoun-county-homeowners-appear-to-lose-battle-with-dominion-energy-data-center-transmission-lines-state-corporation-commission-july-2026",
+			"accessed": "2026-11-22",
+			"note": "Includes Dominion's statement on the final order in full"
+		},
+		{
+			"kind": "article",
+			"title": "Data Center Boom: A Test of Local Regulations",
+			"authors": [
+				{
+					"family": "Murph",
+					"given": "John"
+				}
+			],
+			"container": "Washington Lawyer",
+			"publisher": "District of Columbia Bar",
+			"published": "2026-09",
+			"url": "https://dcbar.org/news-events/publications/washington-lawyer-articles/data-center-boom-a-test-of-local-regulations",
+			"accessed": "2026-11-22",
+			"note": "September/October 2026 issue"
+		},
+		{
+			"kind": "web",
+			"title": "Briskman and TeKrony Seek to End 2025 Data Center Grandfathering Exceptions",
+			"authors": [
+				{
+					"name": "Office of Supervisor Juli E. Briskman"
+				}
+			],
+			"publisher": "Loudoun County, Virginia",
+			"published": "2026-08-19",
+			"url": "https://www.loudoun.gov/DocumentCenter/View/222051/Release---Briskman-and-TeKrony-Seek-to-End-2025-Data-Center-Grandfathering-Exceptions",
+			"accessed": "2026-11-22",
+			"note": "A release from the two supervisors' offices"
+		},
+		{
+			"kind": "web",
+			"title": "Statement from Data Center Coalition on Joint Legislative Audit & Review Commission (JLARC) Data Center Study",
+			"authors": [
+				{
+					"name": "Data Center Coalition"
+				}
+			],
+			"publisher": "Data Center Coalition",
+			"published": "2024-12-09",
+			"url": "https://www.datacentercoalition.org/cpages/jlarc-statement",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "media",
+			"title": "Data centers in Ashburn",
+			"url": "https://commons.wikimedia.org/wiki/File:Data_centers_in_Ashburn.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC0",
+			"file": "ashburn.jpg",
+			"authors": [
+				{
+					"family": "Christopher",
+					"given": "Theodore"
+				}
+			],
+			"container": "Wikimedia Commons",
+			"published": "2025-11-26"
+		},
+		{
+			"kind": "media",
+			"title": "Data center demand billed by Dominion Energy, 2013–2025",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Dominion Energy, LSE 20-Year Data Center Forecast, presented to PJM, September 29, 2026, slide 3",
+			"url": "https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/las/2026/20260929/20260929-item-5ai---dominion_energy.pdf",
+			"accessed": "2026-11-22",
+			"licence": "MIT",
+			"file": "billing.svg"
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"datacenters/dry-places": [
+		["Arizona", "arizona"],
+		["Colorado River", "colorado-river"],
+		["Phoenix", "phoenix-arizona"],
+		["Mesa", "mesa-arizona"],
+		["Google", "google"],
+		["Microsoft", "microsoft"],
+		["Tucson", "tucson-arizona"],
+		["Texas", "texas"],
+		["Texas Water Development Board", "texas-water-development-board"],
+		["Chile", "chile"],
+		["Uruguay", "uruguay"],
+		["Talavera de la Reina", "talavera-de-la-reina"],
+		["Meta", "meta-platforms"]
+	],
+	"datacenters/small-water-systems": [
+		["_The Oregonian_", "the-oregonian"],
+		["The Dalles", "the-dalles-oregon"],
+		["Google", "google"],
+		[
+			"Reporters Committee for Freedom of the Press",
+			"reporters-committee-for-freedom-of-the-press"
+		],
+		["_The New York Times_", "the-new-york-times"],
+		["Newton County", "newton-county-georgia"],
+		["Georgia", "georgia-u-s-state"],
+		["Meta", "meta-platforms"],
+		["Loudoun Water", "loudoun-county-sanitation-authority"]
+	],
+	"datacenters/zero-water": [
+		["Microsoft", "microsoft"],
+		["cooling tower", "cooling-tower"],
+		["immersion cooling", "immersion-cooling"],
+		["Phoenix", "phoenix-arizona"],
+		["Meta", "meta-platforms"],
+		["Google", "google"],
+		["Douglas County", "douglas-county-georgia"],
+		["Amazon", "amazon-company"],
+		["Loudoun Water", "loudoun-county-sanitation-authority"],
+		["PFAS", "pfas"],
+		["3M", "3m"]
+	]
+}

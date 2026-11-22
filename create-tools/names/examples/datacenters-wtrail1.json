@@ -1,0 +1,36 @@
+{
+	"datacenters/withdrawal-consumption": [
+		["United States Geological Survey", "united-states-geological-survey"],
+		["Google", "google"],
+		["Council Bluffs", "council-bluffs-iowa"],
+		["cooling towers", "cooling-tower"],
+		["Environmental Protection Agency", "united-states-environmental-protection-agency"],
+		["Lawrence Berkeley National Laboratory", "lawrence-berkeley-national-laboratory"]
+	],
+	"datacenters/cooling-tower": [
+		["cooling tower", "cooling-tower"],
+		["latent heat", "latent-heat"],
+		["Joseph Black", "joseph-black"],
+		["Environmental Protection Agency", "united-states-environmental-protection-agency"],
+		["wet-bulb temperature", "wet-bulb-temperature"],
+		["Lawrence Berkeley National Laboratory", "lawrence-berkeley-national-laboratory"],
+		["steam engine", "steam-engine"],
+		["Frederik van Iterson", "frederik-van-iterson"],
+		["Google", "google"]
+	],
+	"datacenters/wue": [
+		["Water usage effectiveness", "water-usage-effectiveness"],
+		["The Green Grid", "the-green-grid"],
+		["Microsoft", "microsoft"],
+		[
+			"International Organization for Standardization",
+			"international-organization-for-standardization"
+		],
+		["Amazon", "amazon-company"],
+		["Meta", "meta-platforms"],
+		["Google", "google"],
+		["Lawrence Berkeley National Laboratory", "lawrence-berkeley-national-laboratory"],
+		["World Resources Institute", "world-resources-institute"],
+		["power usage effectiveness", "power-usage-effectiveness"]
+	]
+}

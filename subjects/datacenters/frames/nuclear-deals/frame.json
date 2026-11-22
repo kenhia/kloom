@@ -1,0 +1,356 @@
+{
+	"id": "nuclear-deals",
+	"topic": "Nuclear power for data centers",
+	"position": {
+		"label": "Nuclear"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Tech companies signed for",
+		"accent": "REACTORS.",
+		"palette": "current",
+		"illustration": "scene.svg",
+		"metadata": ["CRANE · SUSQUEHANNA · PALISADES", "CONSTELLATION · TALEN · KAIROS · FERC"],
+		"counter": {
+			"value": "835 MW",
+			"label": "Crane's output, sold to Microsoft for 20 years"
+		}
+	},
+	"connections": [
+		{
+			"to": "physics/fission",
+			"why": "A pressurized-water reactor such as Crane's sustains the fission chain reaction that Fermi's pile first held in Chicago in 1942, and uses its heat to raise steam."
+		},
+		{
+			"to": "datacenters/the-fight",
+			"why": "Gallup asked about a nuclear plant nearby in the same words as a data center in March 2026: 53% opposed the plant, 71% the data center."
+		},
+		{
+			"to": "datacenters/who-pays-grid",
+			"why": "FERC's 2024 rejection turned on whether a plant serving one data center shifts grid costs to others."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Constellation to Launch Crane Clean Energy Center, Restoring Jobs and Carbon-Free Power to the Grid",
+			"container": "Constellation Newsroom",
+			"publisher": "Constellation Energy",
+			"published": "2024-09-20",
+			"url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+			"accessed": "2026-11-22",
+			"note": "The 20-year agreement with Microsoft and the 2028 target"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Constellation Energy Corporation, Quarterly Report for the Period Ended September 30, 2026",
+			"authors": [
+				{
+					"name": "Constellation Energy"
+				}
+			],
+			"publisher": "Constellation Energy",
+			"published": "2026-11-09",
+			"url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000119/ceg-20260930.htm",
+			"accessed": "2026-11-22",
+			"number": "Form 10-Q",
+			"note": "Crane's regulatory status, Note 3; FERC's co-location orders; the 2026 contracts with Amazon and Google"
+		},
+		{
+			"kind": "web",
+			"title": "Crane Restart",
+			"authors": [
+				{
+					"name": "U.S. Department of Energy"
+				}
+			],
+			"container": "Loan Programs Office",
+			"publisher": "U.S. Department of Energy",
+			"published": "2025-11",
+			"url": "https://www.energy.gov/lpo/crane-restart",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Incident Pauses Palisades Fuel Loading; Plant Connected to Switchyard",
+			"container": "Nuclear Newswire",
+			"publisher": "American Nuclear Society",
+			"published": "2026-09-25",
+			"url": "https://www.ans.org/news/2026-09-25/article-8436/incident-pauses-palisades-fuel-loading-plant-connected-to-switchyard/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Talen Energy Statement on FERC Order Rejecting Susquehanna ISA",
+			"authors": [
+				{
+					"name": "Talen Energy"
+				}
+			],
+			"container": "Form 8-K, exhibit 99.1",
+			"publisher": "Talen Energy",
+			"published": "2024-11-03",
+			"url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828024044828/a20241103pressreleaseferco.htm",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "Talen Energy Corporation, Quarterly Report for the Period Ended September 30, 2024",
+			"authors": [
+				{
+					"name": "Talen Energy"
+				}
+			],
+			"publisher": "Talen Energy",
+			"published": "2024-11-14",
+			"url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828024047751/tln-20240930.htm",
+			"accessed": "2026-11-22",
+			"number": "Form 10-Q",
+			"note": "The amended agreement for 480 MW, Exelon's and AEP's protest, and FERC's 2–1 decision, Note 10"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Commissioner Christie's Concurrence in PJM's Susquehanna Co-Location Proposal, ER24-2172",
+			"authors": [
+				{
+					"family": "Christie",
+					"given": "Mark C."
+				}
+			],
+			"container": "FERC Statements",
+			"publisher": "Federal Energy Regulatory Commission",
+			"published": "2024-11-01",
+			"url": "https://www.ferc.gov/news-events/news/commissioner-christies-concurrence-pjms-susquehanna-co-location-proposal-er24-2172",
+			"accessed": "2026-11-22",
+			"note": "Quotes the market monitor and Exelon's and AEP's filings; read through the Wayback Machine"
+		},
+		{
+			"kind": "web",
+			"title": "Chairman Phillips' Dissent in PJM's Susquehanna Co-Location Proposal, ER24-2172",
+			"authors": [
+				{
+					"family": "Phillips",
+					"given": "Willie"
+				}
+			],
+			"container": "FERC Statements",
+			"publisher": "Federal Energy Regulatory Commission",
+			"published": "2024-11-01",
+			"url": "https://www.ferc.gov/news-events/news/chairman-phillips-dissent-pjms-susquehanna-co-location-proposal-er24-2172",
+			"accessed": "2026-11-22",
+			"note": "Read through the Wayback Machine"
+		},
+		{
+			"kind": "report",
+			"title": "Answer of the Independent Market Monitor for PJM, Docket Nos. ER24-2172-000 and ER24-2172-001",
+			"authors": [
+				{
+					"name": "Independent Market Monitor for PJM"
+				}
+			],
+			"publisher": "Independent Market Monitor for PJM",
+			"published": "2024",
+			"citedIn": "Commissioner Christie's Concurrence in PJM's Susquehanna Co-Location Proposal, ER24-2172"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Talen Energy Expands Nuclear Energy Relationship with Amazon",
+			"authors": [
+				{
+					"name": "Talen Energy"
+				}
+			],
+			"container": "Form 8-K, exhibit 99.1",
+			"publisher": "Talen Energy",
+			"published": "2025-06-11",
+			"url": "https://www.sec.gov/Archives/edgar/data/1622536/000162828025030559/a20250611pressreleasebusin.htm",
+			"accessed": "2026-11-22",
+			"note": "1,920 MW through 2042, front of the meter"
+		},
+		{
+			"kind": "report",
+			"title": "Talen Energy Corporation, Quarterly Report for the Period Ended June 30, 2026",
+			"authors": [
+				{
+					"name": "Talen Energy"
+				}
+			],
+			"publisher": "Talen Energy",
+			"published": "2026-08-05",
+			"url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm",
+			"accessed": "2026-11-22",
+			"number": "Form 10-Q",
+			"note": "The transition to the revised Amazon agreement in April 2026"
+		},
+		{
+			"kind": "web",
+			"title": "Google Signs Advanced Nuclear Clean Energy Agreement with Kairos Power",
+			"authors": [
+				{
+					"family": "Terrell",
+					"given": "Michael"
+				}
+			],
+			"container": "The Keyword",
+			"publisher": "Google",
+			"published": "2024-10-14",
+			"url": "https://blog.google/outreach-initiatives/sustainability/google-kairos-power-nuclear-energy-agreement/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Amazon Enlists Nuclear Small Modular Reactors in Push for Net Carbon-Zero",
+			"container": "About Amazon",
+			"publisher": "Amazon",
+			"published": "2024-10-16",
+			"url": "https://www.aboutamazon.com/news/sustainability/amazon-nuclear-small-modular-reactor-net-carbon-zero",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Meta Announces Nuclear Energy Projects, Unlocking Up to 6.6 GW to Power American Leadership in AI Innovation",
+			"container": "Meta Newsroom",
+			"publisher": "Meta",
+			"published": "2026-01-09",
+			"url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "Small Modular Reactors: Still Too Expensive, Too Slow and Too Risky",
+			"authors": [
+				{
+					"family": "Schlissel",
+					"given": "David"
+				},
+				{
+					"family": "Wamsted",
+					"given": "Dennis"
+				}
+			],
+			"publisher": "Institute for Energy Economics and Financial Analysis",
+			"published": "2024-05-29",
+			"url": "https://ieefa.org/resources/small-modular-reactors-still-too-expensive-too-slow-and-too-risky",
+			"accessed": "2026-11-22",
+			"note": "Read through the Wayback Machine"
+		},
+		{
+			"kind": "web",
+			"title": "Americans Oppose AI Data Centers in Their Area",
+			"authors": [
+				{
+					"family": "Jones",
+					"given": "Jeffrey M."
+				}
+			],
+			"container": "Gallup News",
+			"publisher": "Gallup",
+			"published": "2026-05-13",
+			"url": "https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Three Mile Island Nuclear Generating Station",
+			"url": "https://en.wikipedia.org/w/index.php?title=Three_Mile_Island_Nuclear_Generating_Station&oldid=1383292401",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-01"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Palisades Nuclear Generating Station",
+			"url": "https://en.wikipedia.org/w/index.php?title=Palisades_Nuclear_Generating_Station&oldid=1385312030",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-12"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Kairos Power",
+			"url": "https://en.wikipedia.org/w/index.php?title=Kairos_Power&oldid=1382914204",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-30"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "X-energy",
+			"url": "https://en.wikipedia.org/w/index.php?title=X-energy&oldid=1384872294",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "NuScale Power",
+			"url": "https://en.wikipedia.org/w/index.php?title=NuScale_Power&oldid=1386783185",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Pressurized water reactor",
+			"url": "https://en.wikipedia.org/w/index.php?title=Pressurized_water_reactor&oldid=1385788514",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-15"
+		},
+		{
+			"kind": "media",
+			"title": "Three Mile Island Nuclear Generating Station",
+			"url": "https://commons.wikimedia.org/wiki/File:Three_Mile_Island_Nuclear_Generating_Station_1.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC BY 2.0",
+			"file": "three-mile-island.jpg",
+			"authors": [
+				{
+					"name": "U.S. Nuclear Regulatory Commission"
+				}
+			],
+			"container": "Flickr, via Wikimedia Commons",
+			"published": "2015-05-19"
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"title": "Google's scope 2 emissions by the two methods, 2019–2025",
+	"description": "Grouped bar chart, millions of tonnes of CO2 equivalent from purchased electricity, as Google reports them. Location-based: 5.17 in 2019, 5.85 in 2020, 6.50 in 2021, 7.96 in 2022, 9.09 in 2023, 11.07 in 2024, 15.15 in 2025. Market-based: 0.79, 0.92, 1.77, 2.43, 3.29, 2.90 and 2.82. Data: Google 2026 Environmental Report, environmental metrics data tables.",
+	"heading": "GOOGLE · SCOPE 2 · MILLION TONNES CO2e",
+	"unit": "",
+	"width": 600,
+	"axis": {
+		"max": 17,
+		"ticks": [
+			[0, "0"],
+			[5, "5"],
+			[10, "10"],
+			[15, "15"]
+		]
+	},
+	"series": [{ "label": "LOCATION-BASED" }, { "label": "MARKET-BASED" }],
+	"bars": [
+		{ "label": "2019", "values": [5.17, 0.79], "displays": ["5.2", "0.8"] },
+		{ "label": "2020", "values": [5.85, 0.92], "displays": ["5.8", "0.9"] },
+		{ "label": "2021", "values": [6.5, 1.77], "displays": ["6.5", "1.8"] },
+		{ "label": "2022", "values": [7.96, 2.43], "displays": ["8.0", "2.4"] },
+		{ "label": "2023", "values": [9.09, 3.29], "displays": ["9.1", "3.3"] },
+		{ "label": "2024", "values": [11.07, 2.9], "displays": ["11.1", "2.9"] },
+		{ "label": "2025", "values": [15.15, 2.82], "displays": ["15.1", "2.8"] }
+	],
+	"source": {
+		"container": "Google 2026 Environmental Report, environmental metrics data tables, p. 90",
+		"url": "https://sustainability.google/reports/google-2026-environmental-report/"
+	}
+}

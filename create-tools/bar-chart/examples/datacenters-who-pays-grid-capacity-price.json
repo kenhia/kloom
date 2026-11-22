@@ -1,0 +1,31 @@
+{
+	"title": "PJM capacity auction clearing prices, delivery years 2024/25 to 2028/29",
+	"description": "Bar chart of the price at which PJM's base residual capacity auction cleared across its whole region, in dollars per megawatt-day of unforced capacity: $28.92 for 2024/25, $269.92 for 2025/26, then at the price cap: $329.17 for 2026/27, $333.44 for 2027/28 and $325.00 for 2028/29. Data: PJM, 2028/2029 Base Residual Auction report, table 2.",
+	"heading": "PJM CAPACITY PRICE, $/MW-DAY · HIGHLIGHT: AT THE CAP",
+	"unit": "",
+	"width": 500,
+	"axis": {
+		"min": 0,
+		"max": 400,
+		"ticks": [
+			[0, "0"],
+			[100, "100"],
+			[200, "200"],
+			[300, "300"],
+			[400, "400"]
+		]
+	},
+	"bars": [
+		{ "label": "2024/25", "value": 28.92 },
+		{ "label": "2025/26", "value": 269.92 },
+		{ "label": "2026/27", "value": 329.17, "highlight": true },
+		{ "label": "2027/28", "value": 333.44, "highlight": true },
+		{ "label": "2028/29", "value": 325.0, "display": "325.00", "highlight": true }
+	],
+	"source": {
+		"container": "PJM, 2028/2029 RPM Base Residual Auction Report, table 2",
+		"url": "https://www.pjm.com/-/media/DotCom/markets-ops/rpm/rpm-auction-info/2028-2029/2028-2029-bra-results-report.pdf",
+		"accessed": "2026-11-22"
+	},
+	"barWidth": 48
+}

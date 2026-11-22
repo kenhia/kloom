@@ -1,0 +1,171 @@
+{
+	"id": "eniac-room",
+	"topic": "ENIAC's room",
+	"position": {
+		"label": "1946",
+		"sort": 1946
+	},
+	"scene": {
+		"headline": "ENIAC turned power into",
+		"accent": "HEAT.",
+		"palette": "punchcard",
+		"illustration": "scene.svg",
+		"metadata": ["MOORE SCHOOL, PHILADELPHIA · 1946", "ABERDEEN PROVING GROUND · 1947–1955"],
+		"counter": {
+			"value": "174 kW",
+			"label": "drawn, by the Army's 1955 survey"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/eniac",
+			"why": "The computing frame tells how ENIAC computed; this one follows its power and its heat, the 150 to 174 kilowatts its panels turned into heat in one room."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "A Report on the ENIAC (Electronic Numerical Integrator and Computer), Part I: Technical Description of the ENIAC",
+			"authors": [
+				{
+					"family": "Goldstine",
+					"given": "Adele K."
+				}
+			],
+			"publisher": "Moore School of Electrical Engineering, University of Pennsylvania",
+			"place": "Philadelphia",
+			"published": "1946-06-01",
+			"url": "https://ftp.arl.army.mil/~mike/comphist/46eniac-report/chap1.html",
+			"accessed": "2026-11-22",
+			"note": "The U of panels, section 1.1; ventilating and power equipment, section 1.5"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "A Survey of Domestic Electronic Digital Computing Systems",
+			"authors": [
+				{
+					"family": "Weik",
+					"given": "Martin H."
+				}
+			],
+			"publisher": "Ballistic Research Laboratories",
+			"place": "Aberdeen Proving Ground, MD",
+			"number": "BRL Report No. 971",
+			"published": "1955",
+			"url": "https://ed-thelen.org/comp-hist/BRL-e-h.html",
+			"mirror": true,
+			"accessed": "2026-11-22",
+			"note": "The ENIAC entry: tubes, power, space, air conditioning and its operating record for 1954 and 1955"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Electronic Computers Within the Ordnance Corps",
+			"authors": [
+				{
+					"family": "Kempf",
+					"given": "Karl"
+				}
+			],
+			"publisher": "U.S. Army Ordnance Corps",
+			"published": "1961-11",
+			"url": "https://ftp.arl.army.mil/~mike/comphist/61ordnance/chap2.html",
+			"accessed": "2026-11-22",
+			"note": "Chapter 2, on ENIAC's panels, power and heat"
+		},
+		{
+			"kind": "article",
+			"title": "The ENIAC Story",
+			"authors": [
+				{
+					"family": "Weik",
+					"given": "Martin H."
+				}
+			],
+			"container": "Ordnance",
+			"publisher": "American Ordnance Association",
+			"published": "1961",
+			"url": "https://ftp.arl.army.mil/~mike/comphist/eniac-story.html",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "My Life with the ENIAC: A Worm's Eye View",
+			"authors": [
+				{
+					"family": "Reed",
+					"given": "Harry"
+				}
+			],
+			"container": "History of Computing Information",
+			"publisher": "U.S. Army Research Laboratory",
+			"url": "https://ftp.arl.army.mil/~mike/comphist/harry_reed.pdf",
+			"accessed": "2026-11-22",
+			"note": "Remarks to an ACM history panel on ENIAC in 1996, pages 153–158 of the printed panel"
+		},
+		{
+			"kind": "web",
+			"title": "Q&A: A Lost Interview with ENIAC Co-Inventor J. Presper Eckert",
+			"authors": [
+				{
+					"family": "Randall",
+					"given": "Alexander, 5th"
+				}
+			],
+			"container": "Computerworld",
+			"published": "2006-02-14",
+			"url": "https://www.computerworld.com/article/1701347/q-a-a-lost-interview-with-eniac-co-inventor-j-presper-eckert.html",
+			"accessed": "2026-11-22",
+			"note": "Eckert interviewed in 1989"
+		},
+		{
+			"kind": "web",
+			"title": "ENIAC",
+			"container": "Penn Engineering",
+			"publisher": "University of Pennsylvania",
+			"url": "https://www.engineering.upenn.edu/about/history-heritage/eniac/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Vertiv Codevelops with NVIDIA Complete Power and Cooling Blueprint for NVIDIA GB200 NVL72 Platform",
+			"container": "Vertiv News Releases",
+			"publisher": "Vertiv",
+			"place": "Columbus, OH",
+			"published": "2024-10-15",
+			"url": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/vertiv-codevelops-with-nvidia-complete-power-and-cooling-blueprint-for--nvidia-gb200-nvl72-platform/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "ENIAC",
+			"url": "https://en.wikipedia.org/w/index.php?title=ENIAC&oldid=1386201736",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-17"
+		},
+		{
+			"kind": "media",
+			"title": "ENIAC at the Moore School, Cpl. Irwin Goldstein setting a function table",
+			"url": "https://commons.wikimedia.org/wiki/File:Classic_shot_of_the_ENIAC.jpg",
+			"accessed": "2026-11-22",
+			"licence": "Public domain",
+			"file": "eniac.jpg",
+			"authors": [
+				{
+					"name": "U.S. Army photographer"
+				}
+			],
+			"published": "1946",
+			"container": "U.S. Army Research Laboratory, historic computer images"
+		}
+	]
+}

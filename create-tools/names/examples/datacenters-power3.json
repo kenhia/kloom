@@ -1,0 +1,31 @@
+{
+	"datacenters/carbon-accounting": [
+		["Greenhouse Gas Protocol", "ghg-protocol-corporate-standard"],
+		["Meta", "meta-platforms"],
+		["renewable energy certificate", "renewable-energy-certificate-united-states"],
+		["power purchase agreement", "power-purchase-agreement"],
+		["Google", "google"],
+		["Microsoft", "microsoft"],
+		["Amazon", "amazon-company"],
+		["_The Guardian_", "the-guardian"],
+		["carbon dioxide", "carbon-dioxide"]
+	],
+	"datacenters/flexible-load": [
+		["demand response", "demand-response"],
+		["Duke University", "duke-university"],
+		["Energy Information Administration", "energy-information-administration"],
+		["Electric Power Research Institute", "electric-power-research-institute"],
+		["Google", "google"],
+		["Nvidia", "nvidia"],
+		["PJM", "pjm-interconnection"],
+		["Electric Reliability Council of Texas", "electric-reliability-council-of-texas"],
+		["Tennessee Valley Authority", "tennessee-valley-authority"],
+		["Oracle", "oracle-corporation"],
+		["Salt River Project", "salt-river-project"],
+		["Texas", "texas"],
+		[
+			"North American Electric Reliability Corporation",
+			"north-american-electric-reliability-corporation"
+		]
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"id": "colossus-data-center",
+	"wikidata": "Q130614744",
+	"name": "Colossus (data center)",
+	"aliases": ["Colossus"],
+	"kind": "artifact",
+	"description": "Cluster of AI supercomputing data centers built by xAI in and around Memphis, Tennessee, from 2024, used to train its Grok models.",
+	"home": "datacenters/memphis-turbines"
+}

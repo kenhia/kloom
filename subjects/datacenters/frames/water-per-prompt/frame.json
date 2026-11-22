@@ -1,0 +1,335 @@
+{
+	"id": "water-per-prompt",
+	"topic": "The water in a chatbot answer",
+	"asOf": "2026-11-22",
+	"position": {
+		"label": "Per prompt"
+	},
+	"scene": {
+		"headline": "Counting the water in an",
+		"accent": "ANSWER.",
+		"palette": "tower",
+		"illustration": "scene.svg",
+		"metadata": ["UC RIVERSIDE · THE WASHINGTON POST", "GOOGLE · OPENAI · MISTRAL AI · 2023–2025"],
+		"counter": {
+			"value": "2,000×",
+			"label": "largest published estimate per response over the smallest"
+		}
+	},
+	"connections": [
+		{
+			"to": "ai/chat-assistants",
+			"why": "The per-response water estimates are for ChatGPT and its rivals, and their totals depend on the volume of use whose growth that frame traces."
+		},
+		{
+			"to": "datacenters/power-plant-water",
+			"why": "Most of the water in the larger per-answer estimates is power-plant water, not the data center's own."
+		},
+		{
+			"to": "datacenters/small-water-systems",
+			"why": "Shaolei Ren and Pengfei Li, who made the high per-answer estimates, are among the authors of the preprint on small water systems."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"title": "Making AI Less “Thirsty”: Uncovering and Addressing the Secret Water Footprint of AI Models",
+			"authors": [
+				{
+					"family": "Li",
+					"given": "Pengfei"
+				},
+				{
+					"family": "Yang",
+					"given": "Jianyi"
+				},
+				{
+					"family": "Islam",
+					"given": "Mohammad A."
+				},
+				{
+					"family": "Ren",
+					"given": "Shaolei"
+				}
+			],
+			"container": "arXiv preprint arXiv:2304.03271",
+			"published": "2025-03-26",
+			"url": "https://arxiv.org/abs/2304.03271v5",
+			"accessed": "2026-11-22",
+			"key": true,
+			"note": "Version 5: per-response water by location, table 1; the energy assumption, section 3.3.2"
+		},
+		{
+			"kind": "article",
+			"title": "Making AI Less “Thirsty”: Uncovering and Addressing the Secret Water Footprint of AI Models",
+			"authors": [
+				{
+					"family": "Li",
+					"given": "Pengfei"
+				},
+				{
+					"family": "Yang",
+					"given": "Jianyi"
+				},
+				{
+					"family": "Islam",
+					"given": "Mohammad A."
+				},
+				{
+					"family": "Ren",
+					"given": "Shaolei"
+				}
+			],
+			"container": "arXiv preprint arXiv:2304.03271",
+			"published": "2023-04-06",
+			"url": "https://arxiv.org/abs/2304.03271v1",
+			"accessed": "2026-11-22",
+			"note": "Version 1, the first “500ml bottle” claim"
+		},
+		{
+			"kind": "article",
+			"title": "Making AI Less “Thirsty”: Uncovering and Addressing the Secret Water Footprint of AI Models",
+			"authors": [
+				{
+					"family": "Li",
+					"given": "Pengfei"
+				},
+				{
+					"family": "Yang",
+					"given": "Jianyi"
+				},
+				{
+					"family": "Islam",
+					"given": "Mohammad A."
+				},
+				{
+					"family": "Ren",
+					"given": "Shaolei"
+				}
+			],
+			"container": "arXiv preprint arXiv:2304.03271",
+			"published": "2023-10-25",
+			"url": "https://arxiv.org/abs/2304.03271v2",
+			"accessed": "2026-11-22",
+			"note": "Version 2, “roughly 10-50 responses”"
+		},
+		{
+			"kind": "article",
+			"title": "Making AI Less ‘Thirsty’",
+			"authors": [
+				{
+					"family": "Li",
+					"given": "Pengfei"
+				},
+				{
+					"family": "Yang",
+					"given": "Jianyi"
+				},
+				{
+					"family": "Islam",
+					"given": "Mohammad A."
+				},
+				{
+					"family": "Ren",
+					"given": "Shaolei"
+				}
+			],
+			"container": "Communications of the ACM",
+			"volume": "68",
+			"issue": "7",
+			"pages": "54–61",
+			"published": "2025-06-27",
+			"doi": "10.1145/3724499",
+			"accessed": "2026-11-22",
+			"read": "record"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "A Bottle of Water per Email: The Hidden Environmental Costs of Using AI Chatbots",
+			"authors": [
+				{
+					"family": "Verma",
+					"given": "Pranshu"
+				},
+				{
+					"family": "Tan",
+					"given": "Shelly"
+				}
+			],
+			"container": "The Washington Post",
+			"published": "2024-09-18",
+			"url": "https://www.washingtonpost.com/technology/2024/09/18/energy-ai-use-electricity-water-data-centers/",
+			"accessed": "2026-11-22",
+			"note": "The 519 mL and 0.14 kWh figures are in the article's graphics"
+		},
+		{
+			"kind": "article",
+			"title": "Measuring the Environmental Impact of Delivering AI at Google Scale",
+			"authors": [
+				{
+					"family": "Elsworth",
+					"given": "Cooper"
+				},
+				{
+					"family": "Huang",
+					"given": "Keguo"
+				},
+				{
+					"family": "Patterson",
+					"given": "David"
+				},
+				{
+					"family": "Schneider",
+					"given": "Ian"
+				},
+				{
+					"family": "Sedivy",
+					"given": "Robert"
+				},
+				{
+					"family": "Goodman",
+					"given": "Savannah"
+				},
+				{
+					"family": "Townsend",
+					"given": "Ben"
+				}
+			],
+			"etAl": true,
+			"container": "arXiv preprint arXiv:2508.15734",
+			"published": "2025-08-21",
+			"url": "https://arxiv.org/abs/2508.15734",
+			"accessed": "2026-11-22",
+			"key": true,
+			"note": "The median Gemini Apps text prompt, tables 1 and 2; the water formula, section 3.3"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Our Contribution to a Global Environmental Standard for AI",
+			"authors": [
+				{
+					"name": "Mistral AI"
+				}
+			],
+			"container": "Mistral AI News",
+			"publisher": "Mistral AI",
+			"published": "2025-07-22",
+			"url": "https://mistral.ai/news/our-contribution-to-a-global-environmental-standard-for-ai",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "The Gentle Singularity",
+			"authors": [
+				{
+					"family": "Altman",
+					"given": "Sam"
+				}
+			],
+			"container": "Sam Altman",
+			"published": "2025-06",
+			"url": "https://blog.samaltman.com/the-gentle-singularity",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "The Power and Water Demand of Data Centers: Some Questions (and Answers)",
+			"authors": [
+				{
+					"family": "Ren",
+					"given": "Shaolei"
+				}
+			],
+			"container": "Witness documents on H.727, House Committee on Energy and Digital Infrastructure",
+			"publisher": "Vermont General Assembly",
+			"published": "2026-02-25",
+			"url": "https://legislature.vermont.gov/Documents/2026/Workgroups/House%20Energy%20and%20Digital/Bills/H.727/Witness%20Documents/H.727~Shaolei%20Ren~The%20Power%20and%20Water%20Demand%20of%20Data%20Centers:%20Some%20Questions%20(and%20Answers)~2-25-2026.pdf",
+			"accessed": "2026-11-22",
+			"note": "Slide 13"
+		},
+		{
+			"kind": "article",
+			"title": "Language Models Are Few-Shot Learners",
+			"authors": [
+				{
+					"family": "Brown",
+					"given": "Tom B."
+				},
+				{
+					"family": "Mann",
+					"given": "Benjamin"
+				},
+				{
+					"family": "Ryder",
+					"given": "Nick"
+				},
+				{
+					"family": "Subbiah",
+					"given": "Melanie"
+				},
+				{
+					"family": "Kaplan",
+					"given": "Jared"
+				},
+				{
+					"family": "Dhariwal",
+					"given": "Prafulla"
+				},
+				{
+					"family": "Neelakantan",
+					"given": "Arvind"
+				}
+			],
+			"etAl": true,
+			"container": "arXiv preprint arXiv:2005.14165",
+			"published": "2020",
+			"url": "https://arxiv.org/abs/2005.14165",
+			"accessed": "2026-11-22",
+			"citedIn": "Li et al., Making AI Less “Thirsty”: Uncovering and Addressing the Secret Water Footprint of AI Models"
+		},
+		{
+			"kind": "report",
+			"title": "2024 United States Data Center Energy Usage Report",
+			"authors": [
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Smith",
+					"given": "Sarah J."
+				},
+				{
+					"family": "Hubbard",
+					"given": "Alex"
+				},
+				{
+					"family": "Newkirk",
+					"given": "Alex"
+				},
+				{
+					"family": "Lei",
+					"given": "Nuoa"
+				},
+				{
+					"family": "Siddik",
+					"given": "Md Abu Bakar"
+				},
+				{
+					"family": "Holecek",
+					"given": "Billie"
+				}
+			],
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"number": "LBNL-2001637",
+			"published": "2024-12",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+			"accessed": "2026-11-22",
+			"note": "Indirect water per kilowatt-hour for data centers, 2023, p. 57"
+		}
+	]
+}

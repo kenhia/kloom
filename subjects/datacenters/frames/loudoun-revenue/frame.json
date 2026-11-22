@@ -1,0 +1,170 @@
+{
+	"id": "loudoun-revenue",
+	"topic": "What data centers pay Loudoun",
+	"position": {
+		"label": "FY 2014–2027",
+		"sort": 2019
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Loudoun taxed the",
+		"accent": "COMPUTERS.",
+		"palette": "chamber",
+		"illustration": "scene.svg",
+		"metadata": ["LOUDOUN COUNTY BUDGETS · FY 2014–2027", "COMPUTER EQUIPMENT · $4.15 PER $100"],
+		"counter": {
+			"value": "$1.2 billion",
+			"label": "data center property tax, FY 2026"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"title": "Fiscal Year 2027 Adopted Budget",
+			"authors": [
+				{
+					"name": "Loudoun County Board of Supervisors"
+				}
+			],
+			"publisher": "Loudoun County",
+			"place": "Leesburg, VA",
+			"published": "2026",
+			"url": "https://www.loudoun.gov/DocumentCenter/View/221475/FY-2027-Adopted-Budget-Document",
+			"accessed": "2026-11-22",
+			"note": "General Fund revenue, pp. 104–155: actuals for FY 2023–2025, tax rates, the assessment of business property; Fiscal Trends: the revenue stabilization fund and average assessed values",
+			"key": true
+		},
+		{
+			"kind": "report",
+			"title": "Fiscal Year 2024 Adopted Budget",
+			"authors": [
+				{
+					"name": "Loudoun County Board of Supervisors"
+				}
+			],
+			"publisher": "Loudoun County",
+			"place": "Leesburg, VA",
+			"published": "2023",
+			"url": "https://lfportal.loudoun.gov/LFPortalinternet/0/edoc/1952765/Fiscal%20Year%202024%20Adopted%20Budget%20-%20Volume%201.pdf",
+			"accessed": "2026-11-22",
+			"note": "General property taxes, p. R-4: actuals for FY 2020–2022"
+		},
+		{
+			"kind": "report",
+			"title": "Fiscal Year 2021 Adopted Budget",
+			"authors": [
+				{
+					"name": "Loudoun County Board of Supervisors"
+				}
+			],
+			"publisher": "Loudoun County",
+			"place": "Leesburg, VA",
+			"published": "2020",
+			"url": "https://lfportal.loudoun.gov/LFPortalInternet/0/edoc/1952714/Fiscal%20Year%202021%20Adopted%20Budget%20-%20Volume%20One.pdf",
+			"accessed": "2026-11-22",
+			"note": "General property taxes: actuals for FY 2017–2019; the capital program's share of the equipment tax"
+		},
+		{
+			"kind": "report",
+			"title": "Fiscal Year 2018 Adopted Budget",
+			"authors": [
+				{
+					"name": "Loudoun County Board of Supervisors"
+				}
+			],
+			"publisher": "Loudoun County",
+			"place": "Leesburg, VA",
+			"published": "2017",
+			"url": "https://lfportal.loudoun.gov/LFPortalinternet/0/edoc/1952687/Fiscal%20Year%202018%20Adopted%20Budget-%20Volume%20One.pdf",
+			"accessed": "2026-11-22",
+			"note": "General property taxes: actuals for FY 2014–2016; tax rates for 2013–2017"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Data Centers: Tax Revenues & County Budget",
+			"container": "Loudoun County, VA, Official Website",
+			"publisher": "Loudoun County",
+			"url": "https://www.loudoun.gov/6409/Tax-Revenues-County-Budget",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Data Centers: Data Center Dashboard",
+			"container": "Loudoun County, VA, Official Website",
+			"publisher": "Loudoun County",
+			"url": "https://www.loudoun.gov/6439/Data-Center-Dashboard",
+			"accessed": "2026-11-22",
+			"note": "Data center revenue in FY 2026 and FY 2027"
+		},
+		{
+			"kind": "web",
+			"title": "Business Personal Property Tax Assessment Schedules",
+			"container": "Loudoun County, VA, Official Website",
+			"publisher": "Loudoun County Commissioner of the Revenue",
+			"url": "https://www.loudoun.gov/6301/Business-Personal-Property-Tax-Assessment",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"key": false,
+			"title": "Data Centers in Virginia",
+			"authors": [
+				{
+					"name": "Joint Legislative Audit and Review Commission"
+				}
+			],
+			"publisher": "Joint Legislative Audit and Review Commission",
+			"place": "Richmond, VA",
+			"number": "Report 598",
+			"published": "2024-12",
+			"url": "https://jlarc.virginia.gov/pdfs/reports/Rpt598.pdf",
+			"accessed": "2026-11-22",
+			"note": "Local tax revenue, chapter 2, figures 2-4 and 2-5"
+		},
+		{
+			"kind": "web",
+			"title": "How Northern Virginia Became 'Data Center Alley'",
+			"authors": [
+				{
+					"family": "Giorno",
+					"given": "Taylor"
+				},
+				{
+					"family": "Norman",
+					"given": "Zara"
+				},
+				{
+					"family": "Larreal",
+					"given": "Samuel"
+				}
+			],
+			"container": "NOTUS",
+			"published": "2026-07-09",
+			"url": "https://washingtonsun.com/metro/northern-virginia-data-center-capital",
+			"accessed": "2026-11-22",
+			"note": "Published by NOTUS; read where it is now served, on The Washington Sun's site"
+		},
+		{
+			"kind": "media",
+			"title": "Loudoun County's tax on computer equipment, fiscal years 2014–2025",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Loudoun County adopted budgets, FY 2018, FY 2021, FY 2024 and FY 2027, General Fund revenue tables (actuals)",
+			"url": "https://www.loudoun.gov/budget",
+			"accessed": "2026-11-22",
+			"licence": "MIT",
+			"file": "computer-tax.svg"
+		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/ashburn-power",
+			"why": "The lines that carry the county's data centers' power are approved by the state, and their cost is settled outside the county's budget."
+		}
+	]
+}

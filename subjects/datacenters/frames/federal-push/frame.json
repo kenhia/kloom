@@ -1,0 +1,270 @@
+{
+	"id": "federal-push",
+	"topic": "The federal push for data centers",
+	"position": {
+		"label": "Washington"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Washington set out to speed",
+		"accent": "PERMITS.",
+		"palette": "chamber",
+		"illustration": "scene.svg",
+		"metadata": [
+			"EO 14141 · EO 14318 · AMERICA'S AI ACTION PLAN",
+			"DOE · FERC · ARMY CORPS · SENATE · 2025–2026"
+		],
+		"counter": {
+			"value": "100 MW",
+			"label": "new AI load that makes a “Data Center Project,” EO 14318"
+		}
+	},
+	"connections": [
+		{
+			"to": "ai/governance",
+			"why": "Governance follows the federal AI orders of 2025, EO 14365's challenge to state AI laws among them; this frame follows the orders on data centers, and the room EO 14365 leaves for state data center rules."
+		},
+		{
+			"to": "datacenters/race-for-compute",
+			"why": "The orders' national-security case is the race argument."
+		}
+	],
+	"citations": [
+		{
+			"kind": "statute",
+			"key": true,
+			"title": "Executive Order 14318: Accelerating Federal Permitting of Data Center Infrastructure",
+			"code": {
+				"volume": "90",
+				"name": "Fed. Reg.",
+				"page": "35385"
+			},
+			"published": "2025-07-23",
+			"container": "Federal Register",
+			"publisher": "Office of the Federal Register",
+			"url": "https://www.federalregister.gov/documents/2025/07/28/2025-14212/accelerating-federal-permitting-of-data-center-infrastructure",
+			"accessed": "2026-11-22",
+			"note": "Definitions, sec. 2; the revocation of EO 14141, sec. 4; NEPA, FAST-41, the EPA and the Corps, secs. 5–8; federal land, sec. 9"
+		},
+		{
+			"kind": "statute",
+			"key": true,
+			"title": "Executive Order 14141: Advancing United States Leadership in Artificial Intelligence Infrastructure",
+			"code": {
+				"volume": "90",
+				"name": "Fed. Reg.",
+				"page": "5469"
+			},
+			"published": "2025-01-14",
+			"container": "Federal Register",
+			"publisher": "Office of the Federal Register",
+			"url": "https://www.federalregister.gov/documents/2025/01/17/2025-01395/advancing-united-states-leadership-in-artificial-intelligence-infrastructure",
+			"accessed": "2026-11-22",
+			"note": "Federal sites, sec. 4; costs to ratepayers and labor standards among what developers must plan"
+		},
+		{
+			"kind": "statute",
+			"title": "Executive Order 14365: Ensuring a National Policy Framework for Artificial Intelligence",
+			"code": {
+				"volume": "90",
+				"name": "Fed. Reg.",
+				"page": "58499"
+			},
+			"published": "2025-12-11",
+			"container": "Federal Register",
+			"publisher": "Office of the Federal Register",
+			"url": "https://www.federalregister.gov/documents/2025/12/16/2025-23092/ensuring-a-national-policy-framework-for-artificial-intelligence",
+			"accessed": "2026-11-22",
+			"note": "The exceptions to the legislative recommendation, sec. 8(b)"
+		},
+		{
+			"kind": "report",
+			"title": "America's AI Action Plan",
+			"authors": [
+				{
+					"name": "The White House"
+				}
+			],
+			"publisher": "The White House",
+			"published": "2025-07",
+			"url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+			"accessed": "2026-11-22",
+			"note": "Pillar II, \"Create Streamlined Permitting for Data Centers\""
+		},
+		{
+			"kind": "web",
+			"title": "DOE Announces Site Selection for AI Data Center and Energy Infrastructure Development on Federal Lands",
+			"container": "Energy.gov",
+			"publisher": "United States Department of Energy",
+			"published": "2025-07-24",
+			"url": "https://www.energy.gov/articles/doe-announces-site-selection-ai-data-center-and-energy-infrastructure-development-federal",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Energy Department Seeks Proposals for AI Data Centers, Energy Projects at Idaho National Laboratory",
+			"container": "Energy.gov",
+			"publisher": "United States Department of Energy",
+			"published": "2025-09-08",
+			"url": "https://www.energy.gov/ne/articles/energy-department-seeks-proposals-ai-data-centers-energy-projects-idaho-national",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "U.S. Energy Department Seeks Proposals for AI Data Centers, Energy Projects at Oak Ridge",
+			"container": "Energy.gov",
+			"publisher": "United States Department of Energy",
+			"published": "2025-09-30",
+			"url": "https://www.energy.gov/em/articles/us-energy-department-seeks-proposals-ai-data-centers-energy-projects-oak-ridge",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "U.S. Energy Department Seeks Proposals for AI Data Centers, Energy Projects at Paducah Site",
+			"container": "Energy.gov",
+			"publisher": "United States Department of Energy",
+			"published": "2025-11-04",
+			"url": "https://www.energy.gov/em/articles/us-energy-department-seeks-proposals-ai-data-centers-energy-projects-paducah-site",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Special Report Details World's Largest AI Data Center at Portsmouth Site",
+			"authors": [
+				{
+					"name": "Office of Environmental Management"
+				}
+			],
+			"container": "Energy.gov",
+			"publisher": "United States Department of Energy",
+			"published": "2026-04-07",
+			"url": "https://www.energy.gov/em/articles/special-report-details-worlds-largest-ai-data-center-portsmouth-site",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The 'Time-Consuming' Permits Dozens of Data Centers Are Skipping",
+			"authors": [
+				{
+					"family": "Willson",
+					"given": "Miranda"
+				}
+			],
+			"container": "E&E News",
+			"publisher": "Politico",
+			"published": "2026-07-08",
+			"url": "https://www.eenews.net/articles/the-time-consuming-permits-dozens-of-data-centers-are-skipping/",
+			"accessed": "2026-11-22",
+			"note": "POLITICO's analysis of 95 data center projects' Army Corps records, January 2024 to June 2026"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "FERC Has a New Plan for Data Centers",
+			"authors": [
+				{
+					"family": "Zeitlin",
+					"given": "Matthew"
+				}
+			],
+			"container": "Heatmap News",
+			"publisher": "Heatmap",
+			"published": "2026-06-18",
+			"url": "https://heatmap.news/energy/ferc-data-center-plan",
+			"accessed": "2026-11-22",
+			"note": "The commission's show-cause orders to six grid operators, and DOE's notice of October 2025"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "The Senate Just Passed Permitting Reform",
+			"authors": [
+				{
+					"family": "Kaufman",
+					"given": "Alexander C."
+				}
+			],
+			"container": "Heatmap News",
+			"publisher": "Heatmap",
+			"published": "2026-11-20",
+			"url": "https://heatmap.news/am/permitting-reform-iea",
+			"accessed": "2026-11-22",
+			"note": "The 62–33 vote and the House procedure"
+		},
+		{
+			"kind": "web",
+			"title": "The Senate Permitting Deal Contains a Data Center Double Tap",
+			"authors": [
+				{
+					"family": "Meyer",
+					"given": "Robinson"
+				}
+			],
+			"container": "Heatmap News",
+			"publisher": "Heatmap",
+			"published": "2026-10-01",
+			"url": "https://heatmap.news/daily/data-center-permitting-deal",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "The Data Center Backlash Is Coming for Permitting Reform",
+			"authors": [
+				{
+					"family": "Holzman",
+					"given": "Jael"
+				}
+			],
+			"container": "Heatmap News",
+			"publisher": "Heatmap",
+			"published": "2026-10-09",
+			"url": "https://heatmap.news/plus/the-fight/spotlight/data-centers-permitting",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "The Freakout Over the Data Center Loophole That Wasn't",
+			"authors": [
+				{
+					"family": "Holzman",
+					"given": "Jael"
+				}
+			],
+			"container": "Heatmap News",
+			"publisher": "Heatmap",
+			"published": "2026-11-20",
+			"url": "https://heatmap.news/plus/the-fight/spotlight/internet-access-senate-permitting-bill-data-centers",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "The Permitting Bill's Next Battleground",
+			"authors": [
+				{
+					"family": "Pontecorvo",
+					"given": "Emily"
+				}
+			],
+			"container": "Heatmap News",
+			"publisher": "Heatmap",
+			"published": "2026-11-20",
+			"url": "https://heatmap.news/politics/baaja-house",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "One Big Beautiful Bill Act",
+			"url": "https://en.wikipedia.org/w/index.php?title=One_Big_Beautiful_Bill_Act&oldid=1386072850",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-16"
+		}
+	]
+}

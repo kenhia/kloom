@@ -1,0 +1,24 @@
+{
+	"datacenters/data-center-jobs": [
+		["Gallup", "gallup-inc"],
+		["data center", "data-center"],
+		["Virginia", "virginia"],
+		["Digital Realty", "digital-realty"],
+		["Google", "google"],
+		["Council Bluffs", "council-bluffs-iowa"],
+		["PwC", "pwc"],
+		["input–output model", "input-output-model"],
+		["Bureau of Labor Statistics", "bureau-of-labor-statistics"],
+		["Georgia", "georgia-u-s-state"],
+		["Texas", "texas"]
+	],
+	"datacenters/tax-base": [
+		["data center", "data-center"],
+		["Virginia", "virginia"],
+		["Georgia", "georgia-u-s-state"],
+		["Carl Vinson Institute of Government", "carl-vinson-institute-of-government"],
+		["Prince William County", "prince-william-county-virginia"],
+		["Loudoun County", "loudoun-county-virginia"],
+		["payment in lieu of taxes", "payment-in-lieu-of-taxes"]
+	]
+}

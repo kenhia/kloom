@@ -1,0 +1,28 @@
+{
+	"title": "Electricity used by Google's data centers, 2020–2024",
+	"description": "Bar chart, terawatt-hours of electricity used by Google's data centers each year, as the company reports it: 14.4 in 2020, 17.7 in 2021, 20.8 in 2022, 24.3 in 2023 and 30.8 in 2024. Over the same five years Google says its data centers came to deliver more than six times as much computing power per unit of electricity. Data: Google, 2025 Environmental Report.",
+	"heading": "GOOGLE DATA CENTER ELECTRICITY · TWH · COMPANY-REPORTED",
+	"unit": "",
+	"width": 520,
+	"axis": {
+		"max": 35,
+		"ticks": [
+			[0, "0"],
+			[10, "10"],
+			[20, "20"],
+			[30, "30"]
+		]
+	},
+	"bars": [
+		{ "label": "2020", "value": 14.4 },
+		{ "label": "2021", "value": 17.7 },
+		{ "label": "2022", "value": 20.8 },
+		{ "label": "2023", "value": 24.3 },
+		{ "label": "2024", "value": 30.8 }
+	],
+	"source": {
+		"container": "Google, 2025 Environmental Report, environmental data table",
+		"url": "https://www.gstatic.com/gumdrop/sustainability/google-2025-environmental-report.pdf"
+	},
+	"barWidth": 56
+}

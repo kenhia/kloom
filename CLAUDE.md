@@ -361,6 +361,14 @@ Sprint 058 the thirteenth subject, `subjects/music`, _Sound and Score_
 three trails: tuning, the voice, the piano), kloom's first arts subject,
 written by 27 parallel authors; a `recording` citation kind, since kloom
 plays no audio and every reading cites what it describes.
+Sprint 059 the fourteenth subject, `subjects/datacenters`, _The Cloud on
+the Ground_ (55 frames: a dated section of rooms, then power, water,
+neighbors and who decides; three trails: water measured, Loudoun County,
+the countries that paused first), kloom's first subject on a live
+controversy, written to take no side; the grow skill's §A contested
+subject (steelman both sides, every number labeled measured, modeled,
+projected or claimed, funders named) and a balance review in
+author-subject.
 
 Inspiration: <https://x.com/IterIntellectus/status/2103212539895017864>.
 

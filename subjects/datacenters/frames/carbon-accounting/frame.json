@@ -1,0 +1,245 @@
+{
+	"id": "carbon-accounting",
+	"topic": "Counting a data center's carbon",
+	"position": {
+		"label": "Carbon"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "The same carbon, two",
+		"accent": "COUNTS.",
+		"palette": "current",
+		"illustration": "scene.svg",
+		"metadata": ["GHG PROTOCOL · SCOPE 2 GUIDANCE · 2015", "GOOGLE · MICROSOFT · AMAZON · META"],
+		"counter": {
+			"value": "722 to 1",
+			"label": "Meta's 2025 scope 2, location- to market-based"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/keeling-curve",
+			"why": "Every accounting method here multiplies metered electricity by a factor; the carbon dioxide that Keeling's record measures in the air is the quantity no convention changes."
+		},
+		{
+			"to": "datacenters/gas-plants",
+			"why": "Meta left RE100 over its new gas power, the plants Entergy is building for Hyperion."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "GHG Protocol Scope 2 Guidance: An Amendment to the GHG Protocol Corporate Standard",
+			"authors": [
+				{
+					"family": "Sotos",
+					"given": "Mary"
+				}
+			],
+			"publisher": "World Resources Institute and World Business Council for Sustainable Development",
+			"place": "Washington, DC",
+			"published": "2015",
+			"url": "https://ghgprotocol.org/sites/default/files/2023-03/Scope%202%20Guidance.pdf",
+			"accessed": "2026-11-22",
+			"note": "The two methods and dual reporting, section 1.5"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2026 Environmental Report",
+			"authors": [
+				{
+					"name": "Google"
+				}
+			],
+			"publisher": "Google",
+			"place": "Mountain View, CA",
+			"published": "2026-06-30",
+			"url": "https://sustainability.google/reports/google-2026-environmental-report/",
+			"accessed": "2026-11-22",
+			"note": "Emissions data tables, p. 90; carbon-free energy, pp. 72–73; net zero, p. 74"
+		},
+		{
+			"kind": "report",
+			"title": "2026 Environmental Sustainability Report",
+			"authors": [
+				{
+					"name": "Microsoft"
+				}
+			],
+			"publisher": "Microsoft",
+			"place": "Redmond, WA",
+			"published": "2026-07-09",
+			"url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/2026-Microsoft-Environmental-Sustainability-Report-PDF.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2026 Environmental Data Fact Sheet",
+			"authors": [
+				{
+					"name": "Microsoft"
+				}
+			],
+			"publisher": "Microsoft",
+			"place": "Redmond, WA",
+			"published": "2026-07-09",
+			"url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/2026-Microsoft-Environmental-Data-Fact-Sheet-PDF.pdf",
+			"accessed": "2026-11-22",
+			"note": "Scope 2 by both methods, tables 1A and 1B; spot certificates discontinued in February 2025, table 6, note 2"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2025 Amazon Sustainability Report",
+			"authors": [
+				{
+					"name": "Amazon"
+				}
+			],
+			"publisher": "Amazon",
+			"place": "Seattle, WA",
+			"published": "2026-07",
+			"url": "https://sustainability.aboutamazon.com/2025-amazon-sustainability-report.pdf",
+			"accessed": "2026-11-22",
+			"note": "Carbon footprint, 2019–2025, data tables, p. 46"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2026 Sustainability Report",
+			"authors": [
+				{
+					"name": "Meta"
+				}
+			],
+			"publisher": "Meta Platforms",
+			"place": "Menlo Park, CA",
+			"published": "2026-11-19",
+			"url": "https://sustainability.atmeta.com/wp-content/uploads/2026/08/Meta-2026-Sustainability-Report.pdf",
+			"accessed": "2026-11-22",
+			"note": "Re-evaluating the 2030 timeframe, p. 5; scope 2 by both methods, pp. 71–72"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Data Center Emissions Probably 662% Higher than Big Tech Claims. Can It Keep Up the Ruse?",
+			"authors": [
+				{
+					"family": "O'Brien",
+					"given": "Isabel"
+				}
+			],
+			"container": "The Guardian",
+			"publisher": "Guardian News & Media",
+			"published": "2024-09-15",
+			"url": "https://www.theguardian.com/technology/2024/sep/15/data-center-gas-emissions-tech",
+			"accessed": "2026-11-22",
+			"note": "Amended September 18, 2024"
+		},
+		{
+			"kind": "report",
+			"title": "Burns Trust: The Amazon Unsustainability Report",
+			"authors": [
+				{
+					"name": "Amazon Employees for Climate Justice"
+				}
+			],
+			"publisher": "Amazon Employees for Climate Justice",
+			"published": "2024-07-10",
+			"url": "https://static1.squarespace.com/static/65681f099d7c3d48feb86a5f/t/668ebf702516716ca72bbf98/1720631157044/unsustainability-report.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Cloud Sustainability: Amazon Employees Question Firm's Renewable Energy Claims",
+			"authors": [
+				{
+					"family": "Donnelly",
+					"given": "Caroline"
+				}
+			],
+			"container": "Computer Weekly",
+			"publisher": "TechTarget",
+			"published": "2024-07-19",
+			"url": "https://www.computerweekly.com/news/366596253/Amazon-employees-question-firms-renewable-energy-claims",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Meta Leaves RE100 Clean Energy Pact after a Decade as Its Gas Buildout for AI Outpaces Renewables",
+			"authors": [
+				{
+					"family": "Stan",
+					"given": "Alina Maria"
+				}
+			],
+			"container": "The Next Web",
+			"published": "2026-07-24",
+			"url": "https://thenextweb.com/news/meta-leaves-re100-clean-energy-gas-ai-data-centres",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Putting 'Emissions First': Meta Leads New Joint Approach to Electricity Greenhouse Gas Accounting to Accelerate Climate Action",
+			"authors": [
+				{
+					"family": "Lahd",
+					"given": "Holly"
+				}
+			],
+			"container": "Meta Sustainability",
+			"publisher": "Meta Platforms",
+			"published": "2022-12-13",
+			"url": "https://sustainability.atmeta.com/blog/2022/12/13/putting-emissions-first/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "Scope 2 Public Consultation Feedback Summary: Executive Summary",
+			"authors": [
+				{
+					"name": "Greenhouse Gas Protocol"
+				}
+			],
+			"publisher": "Greenhouse Gas Protocol",
+			"place": "Washington, DC",
+			"published": "2026-07-29",
+			"url": "https://ghgprotocol.org/sites/default/files/2026-07/S2-ExecutiveSummary-PublicConsultation%20ummaryofFeedback-2026.07.29.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Scope 2 Market-Based Method Update: From 2025–2026 Public Consultation to Current Status",
+			"authors": [
+				{
+					"name": "Greenhouse Gas Protocol"
+				}
+			],
+			"container": "GHG Protocol News",
+			"publisher": "Greenhouse Gas Protocol",
+			"published": "2026-10-16",
+			"url": "https://ghgprotocol.org/blog/scope-2-market-based-method-update-2025-2026-public-consultation-current-status",
+			"accessed": "2026-11-22",
+			"note": "The two market-based methods and the timeline to 2028"
+		},
+		{
+			"kind": "media",
+			"title": "Google's scope 2 emissions by the two methods, 2019–2025",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Google 2026 Environmental Report, environmental metrics data tables, p. 90",
+			"url": "https://sustainability.google/reports/google-2026-environmental-report/",
+			"accessed": "2026-11-22",
+			"licence": "MIT",
+			"file": "google-scope2.svg"
+		}
+	]
+}

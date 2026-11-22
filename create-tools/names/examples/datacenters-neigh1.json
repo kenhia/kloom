@@ -1,0 +1,30 @@
+{
+	"datacenters/noise": [
+		["Virginia", "virginia"],
+		["decibels", "decibel"],
+		["A-weighting", "a-weighting"],
+		["Prince William County", "prince-william-county-virginia"],
+		["Fairfax", "fairfax-county-virginia"],
+		["Amazon", "amazon-company"],
+		["World Health Organization", "world-health-organization"]
+	],
+	"datacenters/diesel-generators": [
+		["uninterruptible power supply", "uninterruptible-power-supply"],
+		["diesel generators", "diesel-generator"],
+		["Virginia", "virginia"],
+		["Loudoun County", "loudoun-county-virginia"],
+		["Piedmont Environmental Council", "piedmont-environmental-council"],
+		["NOx", "nox"],
+		["particulate matter", "particulate-matter"],
+		[
+			"United States Environmental Protection Agency",
+			"united-states-environmental-protection-agency"
+		],
+		["selective catalytic reduction", "selective-catalytic-reduction"],
+		["Department of Environmental Quality", "virginia-department-of-environmental-quality"],
+		["diesel exhaust", "diesel-exhaust"],
+		["International Agency for Research on Cancer", "international-agency-for-research-on-cancer"],
+		["Microsoft", "microsoft"],
+		["fuel cell", "fuel-cell"]
+	]
+}

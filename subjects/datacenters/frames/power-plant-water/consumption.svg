@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" role="img" aria-labelledby="t d">
+<title id="t">Water consumed per megawatt-hour by generating technology and cooling, medians from Macknick and colleagues, 2012</title>
+<desc id="d">Bar chart of median operational water consumption, in gallons per megawatt-hour, from the literature review by Macknick, Newmark, Heath and Hallett (2012): wind 0, utility-scale photovoltaics 1, gas combined cycle with dry cooling 2, gas combined cycle once-through 100, gas combined cycle with a cooling tower 205, coal once-through 250, nuclear once-through 269, nuclear with a cooling tower 672 and coal with a cooling tower 687. Hydropower's median, 4,491, is left off the chart, as the paper's own figures leave it off. Data: Environmental Research Letters 7, 045802, tables 1 and 2.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="580" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="580" y1="196.5" y2="196.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="200.5" text-anchor="end">200</text>
+<line x1="64" x2="580" y1="143.0" y2="143.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="147.0" text-anchor="end">400</text>
+<line x1="64" x2="580" y1="89.5" y2="89.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="93.5" text-anchor="end">600</text>
+<line x1="64" x2="580" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">800</text>
+</g>
+<rect x="72.7" y="250.0" width="40" height="1.0" fill-opacity="0.85"/>
+<text x="92.7" y="244.0" text-anchor="middle">0</text>
+<text x="92.7" y="266" text-anchor="middle">WIND</text>
+<rect x="130.0" y="249.7" width="40" height="1.0" fill-opacity="0.85"/>
+<text x="150.0" y="243.7" text-anchor="middle">1</text>
+<text x="150.0" y="266" text-anchor="middle">PV</text>
+<rect x="187.3" y="249.5" width="40" height="1.0" fill-opacity="0.85"/>
+<text x="207.3" y="243.5" text-anchor="middle">2</text>
+<text x="207.3" y="266" text-anchor="middle">GAS CC</text>
+<text x="207.3" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">DRY</text>
+<rect x="244.7" y="223.2" width="40" height="26.8" fill-opacity="0.85"/>
+<text x="264.7" y="217.2" text-anchor="middle">100</text>
+<text x="264.7" y="266" text-anchor="middle">GAS CC</text>
+<text x="264.7" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">ONCE</text>
+<rect x="302.0" y="195.2" width="40" height="54.8" fill-opacity="0.85"/>
+<text x="322.0" y="189.2" text-anchor="middle">205</text>
+<text x="322.0" y="266" text-anchor="middle">GAS CC</text>
+<text x="322.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">TOWER</text>
+<rect x="359.3" y="183.1" width="40" height="66.9" fill-opacity="0.85"/>
+<text x="379.3" y="177.1" text-anchor="middle">250</text>
+<text x="379.3" y="266" text-anchor="middle">COAL</text>
+<text x="379.3" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">ONCE</text>
+<rect x="416.7" y="178.0" width="40" height="72.0" fill-opacity="0.85"/>
+<text x="436.7" y="172.0" text-anchor="middle">269</text>
+<text x="436.7" y="266" text-anchor="middle">NUCLEAR</text>
+<text x="436.7" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">ONCE</text>
+<rect x="474.0" y="70.2" width="40" height="179.8" fill-opacity="0.85"/>
+<text x="494.0" y="64.2" text-anchor="middle">672</text>
+<text x="494.0" y="266" text-anchor="middle">NUCLEAR</text>
+<text x="494.0" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">TOWER</text>
+<rect x="531.3" y="66.2" width="40" height="183.8" fill-opacity="0.85"/>
+<text x="551.3" y="60.2" text-anchor="middle">687</text>
+<text x="551.3" y="266" text-anchor="middle">COAL</text>
+<text x="551.3" y="280" text-anchor="middle" font-size="9" class="muted" fill="currentColor">TOWER</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">WATER CONSUMED · GALLONS PER MWH · MEDIANS</text>
+</g></svg>

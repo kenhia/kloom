@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M54 209 L384 209"/>
+		<path pathLength="1" d="M54 172 L384 172"/>
+		<path pathLength="1" d="M54 135 L384 135"/>
+		<path pathLength="1" d="M54 98 L384 98"/>
+		<path pathLength="1" d="M54 61 L384 61"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M54 31.4 L54 246 L384 246"/>
+		<path pathLength="1" d="M60.3 235.2 L80.7 235.2 L80.7 246 L60.3 246 Z"/>
+		<path pathLength="1" d="M60.3 236.9 L80.7 236.9"/>
+		<path pathLength="1" d="M93.3 231.8 L113.7 231.8 L113.7 246 L93.3 246 Z"/>
+		<path pathLength="1" d="M93.3 235.1 L113.7 235.1"/>
+		<path pathLength="1" d="M126.3 218.1 L146.7 218.1 L146.7 246 L126.3 246 Z"/>
+		<path pathLength="1" d="M126.3 230.8 L146.7 230.8"/>
+		<path pathLength="1" d="M159.3 199 L179.7 199 L179.7 246 L159.3 246 Z"/>
+		<path pathLength="1" d="M159.3 220.4 L179.7 220.4"/>
+		<path pathLength="1" d="M192.3 183.9 L212.7 183.9 L212.7 246 L192.3 246 Z"/>
+		<path pathLength="1" d="M192.3 211.6 L212.7 211.6"/>
+		<path pathLength="1" d="M225.3 173.6 L245.7 173.6 L245.7 246 L225.3 246 Z"/>
+		<path pathLength="1" d="M225.3 205.9 L245.7 205.9"/>
+		<path pathLength="1" d="M258.3 150.3 L278.7 150.3 L278.7 246 L258.3 246 Z"/>
+		<path pathLength="1" d="M258.3 188.2 L278.7 188.2"/>
+		<path pathLength="1" d="M291.3 126.5 L311.7 126.5 L311.7 246 L291.3 246 Z"/>
+		<path pathLength="1" d="M291.3 168.7 L311.7 168.7"/>
+		<path pathLength="1" d="M324.3 92.3 L344.7 92.3 L344.7 246 L324.3 246 Z"/>
+		<path pathLength="1" d="M324.3 154 L344.7 154"/>
+		<path pathLength="1" d="M357.3 44.8 L377.7 44.8 L377.7 246 L357.3 246 Z"/>
+		<path pathLength="1" d="M357.3 119.8 L377.7 119.8"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M78.6 236.9 L80.7 239.1 M72.9 236.9 L80.7 244.8 M67.2 236.9 L76.3 246 M61.6 236.9 L70.6 246 M60.3 241.3 L65 246"/>
+		<path pathLength="1" d="M110.6 235.1 L113.7 238.2 M105 235.1 L113.7 243.8 M99.3 235.1 L110.2 246 M93.7 235.1 L104.6 246 M93.3 240.3 L98.9 246"/>
+		<path pathLength="1" d="M145.9 230.8 L146.7 231.6 M140.3 230.8 L146.7 237.2 M134.6 230.8 L146.7 242.9 M129 230.8 L144.2 246 M126.3 233.8 L138.5 246 M126.3 239.4 L132.9 246 M126.3 245.1 L127.2 246"/>
+		<path pathLength="1" d="M175.1 220.4 L179.7 225 M169.5 220.4 L179.7 230.6 M163.8 220.4 L179.7 236.3 M159.3 221.5 L179.7 242 M159.3 227.2 L178.1 246 M159.3 232.8 L172.5 246 M159.3 238.5 L166.8 246 M159.3 244.1 L161.1 246"/>
+		<path pathLength="1" d="M211.6 211.6 L212.7 212.7 M206 211.6 L212.7 218.4 M200.3 211.6 L212.7 224 M194.7 211.6 L212.7 229.7 M192.3 214.9 L212.7 235.4 M192.3 220.6 L212.7 241 M192.3 226.2 L212.1 246 M192.3 231.9 L206.4 246 M192.3 237.5 L200.7 246 M192.3 243.2 L195.1 246"/>
+		<path pathLength="1" d="M245.5 205.9 L245.7 206.1 M239.9 205.9 L245.7 211.8 M234.2 205.9 L245.7 217.4 M228.6 205.9 L245.7 223.1 M225.3 208.3 L245.7 228.8 M225.3 214 L245.7 234.4 M225.3 219.6 L245.7 240.1 M225.3 225.3 L245.7 245.7 M225.3 230.9 L240.3 246 M225.3 236.6 L234.7 246 M225.3 242.2 L229 246"/>
+		<path pathLength="1" d="M278.7 188.2 L278.7 188.2 M273 188.2 L278.7 193.9 M267.4 188.2 L278.7 199.5 M261.7 188.2 L278.7 205.2 M258.3 190.4 L278.7 210.8 M258.3 196 L278.7 216.5 M258.3 201.7 L278.7 222.2 M258.3 207.4 L278.7 227.8 M258.3 213 L278.7 233.5 M258.3 218.7 L278.7 239.1 M258.3 224.3 L278.7 244.8 M258.3 230 L274.3 246 M258.3 235.6 L268.6 246 M258.3 241.3 L263 246"/>
+		<path pathLength="1" d="M310.2 168.7 L311.7 170.3 M304.5 168.7 L311.7 176 M298.9 168.7 L311.7 181.6 M293.2 168.7 L311.7 187.3 M291.3 172.5 L311.7 192.9 M291.3 178.1 L311.7 198.6 M291.3 183.8 L311.7 204.2 M291.3 189.4 L311.7 209.9 M291.3 195.1 L311.7 215.6 M291.3 200.8 L311.7 221.2 M291.3 206.4 L311.7 226.9 M291.3 212.1 L311.7 232.5 M291.3 217.7 L311.7 238.2 M291.3 223.4 L311.7 243.8 M291.3 229 L308.2 246 M291.3 234.7 L302.6 246 M291.3 240.4 L296.9 246"/>
+		<path pathLength="1" d="M340.6 154 L344.7 158.1 M335 154 L344.7 163.7 M329.3 154 L344.7 169.4 M324.3 154.6 L344.7 175 M324.3 160.2 L344.7 180.7 M324.3 165.9 L344.7 186.3 M324.3 171.5 L344.7 192 M324.3 177.2 L344.7 197.7 M324.3 182.8 L344.7 203.3 M324.3 188.5 L344.7 209 M324.3 194.2 L344.7 214.6 M324.3 199.8 L344.7 220.3 M324.3 205.5 L344.7 225.9 M324.3 211.1 L344.7 231.6 M324.3 216.8 L344.7 237.2 M324.3 222.4 L344.7 242.9 M324.3 228.1 L342.2 246 M324.3 233.8 L336.5 246 M324.3 239.4 L330.9 246 M324.3 245.1 L325.2 246"/>
+		<path pathLength="1" d="M374.3 119.8 L377.7 123.2 M368.7 119.8 L377.7 128.8 M363 119.8 L377.7 134.5 M357.4 119.8 L377.7 140.1 M357.3 125.3 L377.7 145.8 M357.3 131 L377.7 151.5 M357.3 136.7 L377.7 157.1 M357.3 142.3 L377.7 162.8 M357.3 148 L377.7 168.4 M357.3 153.6 L377.7 174.1 M357.3 159.3 L377.7 179.7 M357.3 164.9 L377.7 185.4 M357.3 170.6 L377.7 191.1 M357.3 176.3 L377.7 196.7 M357.3 181.9 L377.7 202.4 M357.3 187.6 L377.7 208 M357.3 193.2 L377.7 213.7 M357.3 198.9 L377.7 219.3 M357.3 204.5 L377.7 225 M357.3 210.2 L377.7 230.7 M357.3 215.8 L377.7 236.3 M357.3 221.5 L377.7 242 M357.3 227.2 L376.1 246 M357.3 232.8 L370.5 246 M357.3 238.5 L364.8 246 M357.3 244.1 L359.1 246"/>
+	</g>
+	<g>
+		<text x="50" y="248.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">0</text>
+		<text x="50" y="174.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">20</text>
+		<text x="50" y="100.5" font-size="7" text-anchor="end" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">40</text>
+		<text x="58" y="24" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">$ MILLIONS A YEAR</text>
+		<text x="70.5" y="259" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FY13</text>
+		<text x="169.5" y="259" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FY16</text>
+		<text x="268.5" y="259" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FY19</text>
+		<text x="367.5" y="259" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">FY22</text>
+		<text x="367.5" y="39.8" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">54.4</text>
+		<text x="70.5" y="230.2" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">2.9</text>
+		<text x="62" y="71.4" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">ABOVE: FURNITURE, FIXTURES</text>
+		<text x="62" y="82.4" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HATCHED: COMPUTERS</text>
+	</g>
+</svg>

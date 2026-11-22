@@ -1,0 +1,120 @@
+{
+	"id": "open-questions",
+	"topic": "What no one knows yet",
+	"position": {
+		"label": "Open questions"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "The rest is still",
+		"accent": "OPEN.",
+		"palette": "horizon",
+		"illustration": "scene.svg",
+		"metadata": ["WHAT IS NOT COUNTED · WHAT IS NOT YET", "SIX QUESTIONS FOR THE NEXT CLAIM"]
+	},
+	"connections": [
+		{
+			"to": "datacenters/the-fight",
+			"why": "The subject opens on the fight and its way of reading numbers, and closes on the questions the fight has left open."
+		},
+		{
+			"to": "datacenters/bubble",
+			"why": "Whether AI revenue grows into the buildings before the loans come due is one of the open questions gathered here."
+		},
+		{
+			"to": "datacenters/hardware-churn",
+			"why": "What a server's making emits, and how long AI chips will be kept, are among the questions this frame gathers."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2024 United States Data Center Energy Usage Report",
+			"authors": [
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Smith",
+					"given": "Sarah J."
+				},
+				{
+					"family": "Hubbard",
+					"given": "Alex"
+				},
+				{
+					"family": "Newkirk",
+					"given": "Alex"
+				},
+				{
+					"family": "Lei",
+					"given": "Nuoa"
+				},
+				{
+					"family": "Siddik",
+					"given": "Md Abu Bakar"
+				},
+				{
+					"family": "Holecek",
+					"given": "Billie"
+				}
+			],
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"number": "LBNL-2001637",
+			"published": "2024-12",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+			"accessed": "2026-11-21",
+			"note": "\"the lack of data availability significantly limits the analysis in this report\", p. 6"
+		},
+		{
+			"kind": "article",
+			"title": "Estimating Data Center Water Use: Best Practices and Critical Questions",
+			"authors": [
+				{
+					"family": "Masanet",
+					"given": "Eric"
+				}
+			],
+			"container": "arXiv preprint arXiv:2610.04735",
+			"published": "2026-10-03",
+			"url": "https://arxiv.org/abs/2610.04735",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "Economic Development Incentives 2026: Spending and Performance",
+			"authors": [
+				{
+					"name": "Joint Legislative Audit and Review Commission"
+				}
+			],
+			"publisher": "Joint Legislative Audit and Review Commission",
+			"place": "Richmond, VA",
+			"number": "Report 623",
+			"published": "2026-11-09",
+			"url": "https://jlarc.virginia.gov/pdfs/reports/Rpt623.pdf",
+			"accessed": "2026-11-22",
+			"note": "Commission draft. Return in revenue, table 11; the 50.2% \"but for\" assumption, p. 29; the exemption by fiscal year, table D-3"
+		},
+		{
+			"kind": "web",
+			"title": "Americans Oppose AI Data Centers in Their Area",
+			"authors": [
+				{
+					"family": "Jones",
+					"given": "Jeffrey M."
+				}
+			],
+			"container": "Gallup News",
+			"publisher": "Gallup",
+			"published": "2026-05-13",
+			"url": "https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx",
+			"accessed": "2026-11-21",
+			"note": "A telephone survey of 1,000 adults, March 2–18, 2026, and the open answers of 2,054 panel members, April 1–15"
+		}
+	]
+}

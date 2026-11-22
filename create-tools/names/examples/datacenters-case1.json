@@ -1,0 +1,23 @@
+{
+	"datacenters/what-runs-there": [
+		["data center", "data-center"],
+		["Lawrence Berkeley National Laboratory", "lawrence-berkeley-national-laboratory"],
+		["International Energy Agency", "international-energy-agency"],
+		["Bitcoin", "bitcoin"],
+		["cloud computing", "cloud-computing"],
+		["Erik Brynjolfsson", "erik-brynjolfsson"],
+		["The Shift Project", "the-shift-project"],
+		["Netflix", "netflix"]
+	],
+	"datacenters/efficiency-case": [
+		["Google", "google"],
+		["tensor processing units", "tensor-processing-unit"],
+		["Jonathan Koomey", "jonathan-koomey"],
+		["Lawrence Berkeley National Laboratory", "lawrence-berkeley-national-laboratory"],
+		["Virtual machines", "virtual-machine"],
+		["power usage effectiveness", "power-usage-effectiveness"],
+		["Natural Resources Defense Council", "natural-resources-defense-council"],
+		["Koomey's law", "koomeys-law"],
+		["Dennard scaling", "dennard-scaling"]
+	]
+}

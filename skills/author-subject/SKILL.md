@@ -201,6 +201,13 @@ lookup`, never from memory; the id is lookup's, so two authors reach the
   of, where sources disagreed and what it did, and every place the grow
   skill misled it.
 
+**Web searches are one budget for the whole session** (about 200 a turn,
+shared by every subagent), and in sprint 059 it ran out partway through
+nearly every one of 23 parts. Put the primary sources' URLs in the brief, and
+tell authors to fetch known pages and save searches for the latest status.
+A present-state frame's lead names pending laws, cases and bills too, not
+only reports: sprint 059's leads missed a German bill and a Senate vote.
+
 **Check the brief before it goes out.** `subject_plan.py --check` passes
 on the plan it quotes (sprint 024's topics had two over 40 characters),
 every part gets connection candidates, trails included, every name two
@@ -444,6 +451,13 @@ As each author reports:
    author lists the ones they want in this subject, and the reviewer adds
    them once both ends are committed, checking each _why_ against a
    reading. Sprint 021 added 45 this way.
+
+**A contested subject gets a balance review** (sprint 059): once its
+frames are committed, reviewers read each frame twice, as a committed
+opponent and as a committed advocate (grow skill §A contested subject), and
+may reword but not change a fact; anything factual they report to the lead.
+Give each reviewer a third of the subject, and its hand frames as the bar
+(`.scratch/059/balance-brief.md` is the brief that ran).
 
 When all are in: `subject_plan.py --check` names nothing still to write
 and no problem, `just check` is green (it runs every mark spec with `mark

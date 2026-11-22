@@ -1,0 +1,9 @@
+{
+	"id": "internet-exchange-point",
+	"wikidata": "Q1433061",
+	"name": "Internet exchange point",
+	"aliases": ["IXP", "exchange point", "Network Access Point"],
+	"kind": "artifact",
+	"description": "A shared facility where internet networks connect and exchange traffic with one another.",
+	"home": "datacenters/carrier-hotel"
+}

@@ -1,0 +1,30 @@
+{
+	"title": "Microsoft's reported capital goods emissions, fiscal years 2020–2025",
+	"description": "Bar chart of the Scope 3 capital goods emissions Microsoft reports, in millions of tonnes of carbon dioxide equivalent, by fiscal year ending in June: 3.43 in 2020, 4.09 in 2021, 4.79 in 2022, 5.99 in 2023, 6.29 in 2024 and 9.04 in 2025. Data: Microsoft, 2026 Environmental Data Fact Sheet, table 1A.",
+	"heading": "CAPITAL GOODS, MILLION t CO2e · COMPANY-REPORTED",
+	"unit": "",
+	"width": 480,
+	"axis": {
+		"min": 0,
+		"max": 10,
+		"ticks": [
+			[0, "0"],
+			[5, "5"],
+			[10, "10"]
+		]
+	},
+	"bars": [
+		{ "label": "FY20", "value": 3.43 },
+		{ "label": "FY21", "value": 4.09 },
+		{ "label": "FY22", "value": 4.79 },
+		{ "label": "FY23", "value": 5.99 },
+		{ "label": "FY24", "value": 6.29 },
+		{ "label": "FY25", "value": 9.04, "highlight": true }
+	],
+	"source": {
+		"container": "Microsoft, 2026 Environmental Data Fact Sheet, table 1A",
+		"url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/2026-Microsoft-Environmental-Data-Fact-Sheet-PDF.pdf",
+		"accessed": "2026-11-22"
+	},
+	"barWidth": 44
+}

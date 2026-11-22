@@ -1,0 +1,152 @@
+{
+	"id": "community-benefits",
+	"topic": "Community benefit agreements",
+	"position": {
+		"label": "Agreements"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Hosts and builders wrote",
+		"accent": "TERMS.",
+		"palette": "chamber",
+		"illustration": "scene.svg",
+		"metadata": ["RICHLAND PARISH, LOUISIANA · META · ENTERGY", "MICROSOFT · AMAZON WEB SERVICES"],
+		"counter": {
+			"value": "20%",
+			"label": "of assessed property tax Meta pays at its top tier"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Louisiana Hands Meta a Tax Break and Power for Its Biggest Data Center",
+			"authors": [
+				{
+					"family": "Abraham",
+					"given": "Roshan"
+				}
+			],
+			"container": "Wired",
+			"publisher": "Condé Nast",
+			"published": "2025-09-22",
+			"url": "https://www.wired.com/story/louisiana-hands-meta-a-tax-break-and-power-for-its-biggest-data-center/",
+			"accessed": "2026-11-22",
+			"note": "The terms of the tax incentive agreement and ground lease, read through public-records requests"
+		},
+		{
+			"kind": "web",
+			"title": "Meta's Richland Parish Data Center",
+			"authors": [
+				{
+					"name": "Meta"
+				}
+			],
+			"publisher": "Meta Platforms",
+			"published": "2024-12",
+			"url": "https://datacenters.atmeta.com/wp-content/uploads/2024/12/Metas-Richland-Parish-Data-Center.pdf",
+			"accessed": "2026-11-22",
+			"note": "The company's fact sheet: its pledges for infrastructure, bill assistance and grants"
+		},
+		{
+			"kind": "web",
+			"title": "Entergy Louisiana Gains Regulatory Approval for Massive Meta Power Project",
+			"authors": [
+				{
+					"family": "Muller",
+					"given": "Wesley"
+				}
+			],
+			"container": "Louisiana Illuminator",
+			"published": "2025-08-20",
+			"url": "https://lailluminator.com/2025/08/20/entergy-meta/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Building Community-First AI Infrastructure",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Brad"
+				}
+			],
+			"container": "Microsoft On the Issues",
+			"publisher": "Microsoft",
+			"published": "2026-01-13",
+			"url": "https://blogs.microsoft.com/on-the-issues/2026/01/13/community-first-ai-infrastructure/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Microsoft Responds to AI Data Center Revolt, Vowing to Cover Full Power Costs and Reject Local Tax Breaks",
+			"authors": [
+				{
+					"family": "Bishop",
+					"given": "Todd"
+				}
+			],
+			"container": "GeekWire",
+			"published": "2026-01-13",
+			"url": "https://www.geekwire.com/2026/microsoft-responds-to-ai-data-center-revolt-vowing-to-cover-full-power-costs-and-reject-local-tax-breaks/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "Sustainability Report 2025: AWS Summary",
+			"authors": [
+				{
+					"name": "Amazon Web Services"
+				}
+			],
+			"publisher": "Amazon",
+			"published": "2026-07",
+			"url": "https://sustainability.aboutamazon.com/2025-aws-summary.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Community benefits agreement",
+			"url": "https://en.wikipedia.org/w/index.php?title=Community_benefits_agreement&oldid=1378194017",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-03",
+			"key": true
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Project Labor Agreement",
+			"url": "https://en.wikipedia.org/w/index.php?title=Project_Labor_Agreement&oldid=1385998633",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-16"
+		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/gas-plants",
+			"why": "Meta's Louisiana agreement commits it to pay for Entergy's gas plants for fifteen years."
+		},
+		{
+			"to": "datacenters/who-pays-grid",
+			"why": "Microsoft's 2026 pledge to pay its own way on electricity meets the large-load tariffs that frame describes."
+		},
+		{
+			"to": "datacenters/gigawatt-campus",
+			"why": "The agreement is for Meta's Hyperion campus in Richland Parish."
+		}
+	]
+}

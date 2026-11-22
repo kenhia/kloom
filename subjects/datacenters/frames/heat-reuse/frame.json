@@ -1,0 +1,183 @@
+{
+	"id": "heat-reuse",
+	"topic": "Reusing a data center's heat",
+	"position": {
+		"label": "Heat reuse"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Server heat can reach the",
+		"accent": "RADIATORS.",
+		"palette": "horizon",
+		"illustration": "scene.svg",
+		"metadata": ["ODENSE · STOCKHOLM · ESPOO", "HEAT PUMPS · DISTRICT HEATING"],
+		"counter": {
+			"value": "165,000 MWh",
+			"label": "heat Meta said in 2026 its Odense data center delivers"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Hyperscale Data Center Warms Odense",
+			"authors": [
+				{
+					"family": "Edelman",
+					"given": "Lauren"
+				}
+			],
+			"container": "Tech at Meta",
+			"publisher": "Meta",
+			"published": "2020-07-07",
+			"url": "https://tech.facebook.com/engineering/2020/07/odense-data-center-2/",
+			"accessed": "2026-11-22",
+			"note": "The coils in 176 cooling units, the 100,000 MWh goal and the coal estimate, Meta's own"
+		},
+		{
+			"kind": "report",
+			"title": "Meta's Odense Data Centre",
+			"authors": [
+				{
+					"name": "Meta"
+				}
+			],
+			"publisher": "Meta",
+			"published": "2026",
+			"url": "https://datacenters.atmeta.com/asset/odense-data-center-info-sheet/",
+			"accessed": "2026-11-22",
+			"note": "An information sheet: 165,000 MWh of surplus heat to up to about 9,000 households"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Fjernvarme Fyn: Utilization of Surplus Heat from Data Centers",
+			"container": "Knowledge Management System",
+			"publisher": "Copenhagen Centre on Energy Efficiency",
+			"url": "https://c2e2.unepccc.org/kms_object/fjernvarme-fyn-utilization-of-surplus-heat-from-data-centers/",
+			"accessed": "2026-11-22",
+			"note": "Heat at most about 50 °C; the 2017 agreement; nine heat pumps, 24 MW, about 6% of Odense's heat"
+		},
+		{
+			"kind": "web",
+			"title": "Largest Danish Heat Pump Installation Utilizing Surplus Heat from Data Center",
+			"container": "Ramboll Projects",
+			"publisher": "Ramboll",
+			"url": "https://www.ramboll.com/en-us/technology/projects/energy/meta-surplus-heat-to-district-heating",
+			"accessed": "2026-11-22",
+			"note": "Ammonia heat pumps to 70–75 °C, 45 MW, the 215,000 MWh and 12,000 homes; Ramboll was the plant's owner's engineer"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Värmeåtervinning från datahallar: Stockholm, Sverige",
+			"authors": [
+				{
+					"name": "Covenant of Mayors Europe"
+				}
+			],
+			"publisher": "Covenant of Mayors Europe",
+			"place": "Brussels",
+			"published": "2023-09",
+			"url": "https://eu-mayors.ec.europa.eu/sites/default/files/2023-10/2023_CoMo_CaseStudy_Stockholm_SE.pdf",
+			"accessed": "2026-11-22",
+			"language": "sv",
+			"note": "Payment of about €190,000 a year per MW; 100 GWh from 20 suppliers in 2022, 1.5% of demand; who pays for the heat pumps"
+		},
+		{
+			"kind": "web",
+			"title": "Stockholm Data Parks",
+			"publisher": "Stockholm Exergi",
+			"url": "https://stockholmdataparks.com/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Heat Offtake from Microsoft's Data Centers",
+			"container": "Fortum",
+			"publisher": "Fortum",
+			"url": "https://www.fortum.com/data-centres-helsinki-region",
+			"accessed": "2026-11-22",
+			"note": "About 40% of the area's district heat, eventually; about 75% of the waste heat used in a year"
+		},
+		{
+			"kind": "web",
+			"title": "Construction of Fortum's Heat Pump Plant Has Started at Microsoft's Data Centre Site in Kirkkonummi",
+			"container": "Fortum",
+			"publisher": "Fortum",
+			"url": "https://www.fortum.com/data-centres-helsinki-region/construction-fortums-heat-pump-plant-has-started-microsofts-data-centre-site-kirkkonummi",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "U.S. District Energy Services Market Characterization",
+			"authors": [
+				{
+					"name": "U.S. Energy Information Administration"
+				}
+			],
+			"place": "Washington, DC",
+			"publisher": "U.S. Energy Information Administration",
+			"published": "2018-02",
+			"url": "https://www.eia.gov/analysis/studies/buildings/districtservices/pdf/districtservices.pdf",
+			"accessed": "2026-11-22",
+			"note": "The 660 systems in the International District Energy Association's database, p. 1"
+		},
+		{
+			"kind": "web",
+			"title": "Germany Wants to Reuse Data Centers' Heat. No One Is Buying It",
+			"authors": [
+				{
+					"name": "Bloomberg News"
+				}
+			],
+			"container": "Bloomberg",
+			"publisher": "Bloomberg",
+			"published": "2023-01-14",
+			"url": "https://www.bloomberg.com/news/articles/2023-01-14/germany-wants-to-reuse-data-centers-heat-no-one-is-buying-it",
+			"accessed": "2026-11-22",
+			"note": "Read in its syndicated copy in Data Center Knowledge, January 17, 2023"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Heat pump",
+			"url": "https://en.wikipedia.org/w/index.php?title=Heat_pump&oldid=1386235921",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-17"
+		},
+		{
+			"kind": "media",
+			"title": "District heating work",
+			"url": "https://commons.wikimedia.org/wiki/File:Stockholm_Exergi,_fj%C3%A4rrv%C3%A4rmearbeten_2020.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC BY-SA 4.0",
+			"file": "stockholm-pipes.jpg",
+			"authors": [
+				{
+					"family": "Fouganthin",
+					"given": "Frankie"
+				}
+			],
+			"container": "Wikimedia Commons",
+			"published": "2020-06-28"
+		}
+	],
+	"connections": [
+		{
+			"to": "physics/carnot",
+			"why": "A heat pump is Carnot's cycle run backwards, as that frame explains, and Carnot's limit is what sets the least electricity needed to lift a data center's lukewarm heat to a district heating network's temperature."
+		},
+		{
+			"to": "datacenters/germany-efficiency-act",
+			"why": "Germany requires new data centers to reuse a rising share of their heat, which needs the networks this frame describes."
+		}
+	]
+}

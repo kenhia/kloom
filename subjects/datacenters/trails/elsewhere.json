@@ -1,0 +1,16 @@
+{
+	"id": "elsewhere",
+	"title": "Elsewhere",
+	"anchor": "moratoriums",
+	"spine": {
+		"segments": [
+			{
+				"id": "elsewhere-seg",
+				"title": "Elsewhere",
+				"labelKind": "date",
+				"palette": "chamber",
+				"frames": ["singapore-pause", "netherlands-pause", "ireland-grid", "germany-efficiency-act"]
+			}
+		]
+	}
+}

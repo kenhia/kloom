@@ -1,0 +1,29 @@
+{
+	"datacenters/the-fight": [
+		["Gallup", "gallup-inc"],
+		["data center", "data-center"],
+		["Microsoft", "microsoft"],
+		["Alphabet", "alphabet-inc"],
+		["Amazon", "amazon-company"],
+		["Meta", "meta-platforms"],
+		["PwC", "pwc"],
+		["Virginia", "virginia"],
+		["Georgia", "georgia-u-s-state"],
+		["NIMBY", "nimby"]
+	],
+	"datacenters/inside-a-data-center": [
+		["data center", "data-center"],
+		["Lawrence Berkeley National Laboratory", "lawrence-berkeley-national-laboratory"],
+		["uninterruptible power supply", "uninterruptible-power-supply"],
+		["diesel generators", "diesel-generator"],
+		["chiller", "chiller"],
+		["cooling tower", "cooling-tower"],
+		["The Green Grid", "the-green-grid"],
+		["Power usage effectiveness", "power-usage-effectiveness"],
+		["Water usage effectiveness", "water-usage-effectiveness"],
+		["Google", "google"],
+		["Nvidia", "nvidia"],
+		["graphics processing units", "graphics-processing-unit"],
+		["ENIAC", "eniac"]
+	]
+}

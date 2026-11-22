@@ -1,0 +1,78 @@
+{
+	"title": "The Cloud on the Ground",
+	"subtitle": "data centers: good, evil, or something in between?",
+	"palettes": {
+		"hall": {
+			"scheme": "dark",
+			"background": "#0d1117",
+			"ink": "#e6edf3",
+			"muted": "#9aa7b4",
+			"accent": "#6cc4e0",
+			"line": "#c4cfd9",
+			"counterpart": "punchcard"
+		},
+		"punchcard": {
+			"scheme": "light",
+			"background": "#f4f1e6",
+			"ink": "#1b1d22",
+			"muted": "#555a63",
+			"accent": "#8a4b12",
+			"line": "#262a31",
+			"counterpart": "hall"
+		},
+		"current": {
+			"scheme": "dark",
+			"background": "#12100c",
+			"ink": "#efe9dc",
+			"muted": "#b2a892",
+			"accent": "#f0b43c",
+			"line": "#d4cbb8",
+			"counterpart": "ledger"
+		},
+		"ledger": {
+			"scheme": "light",
+			"background": "#f2f3ee",
+			"ink": "#1a1f1b",
+			"muted": "#52594f",
+			"accent": "#2f5d8a",
+			"line": "#252b26",
+			"counterpart": "current"
+		},
+		"tower": {
+			"scheme": "dark",
+			"background": "#0b1416",
+			"ink": "#e3eff0",
+			"muted": "#98aeb1",
+			"accent": "#5fd0c0",
+			"line": "#c0d3d4",
+			"counterpart": "parcel"
+		},
+		"parcel": {
+			"scheme": "light",
+			"background": "#f3f0ea",
+			"ink": "#201c18",
+			"muted": "#5b544b",
+			"accent": "#7b4a8c",
+			"line": "#2b2621",
+			"counterpart": "tower"
+		},
+		"chamber": {
+			"scheme": "dark",
+			"background": "#14111a",
+			"ink": "#ece7f2",
+			"muted": "#aca3b8",
+			"accent": "#e8a477",
+			"line": "#cfc7da",
+			"counterpart": "horizon"
+		},
+		"horizon": {
+			"scheme": "light",
+			"background": "#eef2f4",
+			"ink": "#161c20",
+			"muted": "#4d5960",
+			"accent": "#1d6380",
+			"line": "#20282d",
+			"counterpart": "chamber"
+		}
+	}
+}

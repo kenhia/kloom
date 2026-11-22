@@ -1,0 +1,35 @@
+{
+	"title": "Average power usage effectiveness reported to the Uptime Institute, 2007–2025",
+	"description": "Bar chart of the weighted average annual PUE that operators reported in the Uptime Institute's surveys, on an axis starting at 1.0, the ideal: 2.50 in 2007, 1.98 in 2011, 1.65 in 2014, 1.58 in 2018, 1.67 in 2019, 1.59 in 2020, 1.57 in 2021, 1.55 in 2022, 1.58 in 2023, 1.56 in 2024 and 1.54 in 2025 (681 operators). Data: Uptime Institute Global Data Center Survey 2025, figure 2.",
+	"heading": "AVERAGE PUE REPORTED BY OPERATORS · 1.0 IS NO OVERHEAD",
+	"unit": "",
+	"width": 560,
+	"axis": {
+		"min": 1,
+		"max": 2.6,
+		"ticks": [
+			[1, "1.0"],
+			[1.5, "1.5"],
+			[2, "2.0"],
+			[2.5, "2.5"]
+		]
+	},
+	"bars": [
+		{ "label": "2007", "value": 2.5, "display": "2.50" },
+		{ "label": "2011", "value": 1.98 },
+		{ "label": "2014", "value": 1.65 },
+		{ "label": "2018", "value": 1.58 },
+		{ "label": "2019", "value": 1.67 },
+		{ "label": "2020", "value": 1.59 },
+		{ "label": "2021", "value": 1.57 },
+		{ "label": "2022", "value": 1.55 },
+		{ "label": "2023", "value": 1.58 },
+		{ "label": "2024", "value": 1.56 },
+		{ "label": "2025", "value": 1.54, "highlight": true }
+	],
+	"source": {
+		"container": "Uptime Institute Global Data Center Survey 2025, figure 2",
+		"url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf"
+	},
+	"barWidth": 32
+}

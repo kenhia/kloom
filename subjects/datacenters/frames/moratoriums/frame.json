@@ -1,0 +1,411 @@
+{
+	"id": "moratoriums",
+	"topic": "Moratoriums and local votes",
+	"position": {
+		"label": "Pauses and votes"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Some places chose to",
+		"accent": "WAIT.",
+		"palette": "chamber",
+		"illustration": "scene.svg",
+		"metadata": [
+			"CASCADE LOCKS · WARRENTON · INDEPENDENCE",
+			"NEW YORK · TEXAS · 41 BALLOTS · 2023–2026"
+		],
+		"counter": {
+			"value": "40 of 41",
+			"label": "ballot contests won by limits, Nov. 3, 2026"
+		}
+	},
+	"connections": [
+		{
+			"to": "datacenters/the-fight",
+			"why": "The fight over data centers weighs Data Center Watch's count of blocked projects, its funder and Exponent's caution, the measure this frame's pauses and votes are often counted by."
+		},
+		{
+			"to": "datacenters/zoning",
+			"why": "Counties paused approvals to write the zoning rules that frame describes."
+		},
+		{
+			"to": "datacenters/loudoun-by-right",
+			"why": "Warrenton removed data centers as a permitted use, as Loudoun later ended approval by right."
+		}
+	],
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Voters Favored Limiting Data Center Development in 40 of 41 Local Ballot Measures on Nov. 3",
+			"authors": [
+				{
+					"name": "Ballotpedia staff"
+				}
+			],
+			"container": "Ballotpedia News",
+			"publisher": "Ballotpedia",
+			"published": "2026-11-06",
+			"url": "https://news.ballotpedia.org/2026/11/06/voters-favored-limiting-data-center-development-in-40-of-41-local-ballot-measures-on-nov-3/",
+			"accessed": "2026-11-22",
+			"note": "The 41 contests by kind of measure"
+		},
+		{
+			"kind": "web",
+			"title": "Voters Have Decided on 47 Measures Related to Data Centers in 2026: In December, They Will Consider Four More",
+			"authors": [
+				{
+					"family": "McCauley",
+					"given": "Brandon"
+				}
+			],
+			"container": "Ballotpedia News",
+			"publisher": "Ballotpedia",
+			"published": "2026-11-15",
+			"url": "https://news.ballotpedia.org/2026/11/15/voters-have-decided-on-47-measures-related-to-data-centers-in-2026-in-december-they-will-consider-four-more/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "First Statewide Moratorium on New Hyperscale Data Centers Launched by Governor Kathy Hochul",
+			"container": "Governor Kathy Hochul",
+			"publisher": "State of New York",
+			"published": "2026-07-14",
+			"url": "https://www.governor.ny.gov/news/first-statewide-moratorium-new-hyperscale-data-centers-launched-governor-kathy-hochul",
+			"accessed": "2026-11-22",
+			"note": "Executive Order 62: the pause on state environmental permits and the generic environmental impact statement"
+		},
+		{
+			"kind": "web",
+			"title": "Governor Abbott Directs TCEQ to Halt Data Center Permits",
+			"container": "Office of the Texas Governor",
+			"publisher": "State of Texas",
+			"published": "2026-09-21",
+			"url": "https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Gov. Greg Abbott Broadens Moratorium on Data Center Approvals to Include Environmental Permits",
+			"authors": [
+				{
+					"family": "Cobler",
+					"given": "Paul"
+				}
+			],
+			"container": "The Texas Tribune",
+			"publisher": "The Texas Tribune",
+			"published": "2026-09-21",
+			"url": "https://www.texastribune.org/2026/09/21/texas-data-center-moratorium-water-energy/",
+			"accessed": "2026-11-22",
+			"note": "The August 3 order on grid connections, the September 21 order on permits, and the water survey"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "June 13th, 2023 Port of Cascade Locks Recall Election: Official Election Results Summary",
+			"authors": [
+				{
+					"name": "Hood River County"
+				}
+			],
+			"publisher": "Hood River County",
+			"published": "2023-07-06",
+			"url": "https://www.hoodrivercounty.gov/vertical/sites/%7B4BB5BFDA-3709-449E-9B16-B62A0A0DD6E4%7D/uploads/Official_Election_Results_Summary(5).pdf",
+			"accessed": "2026-11-22",
+			"note": "Questions 14-74 and 14-75"
+		},
+		{
+			"kind": "web",
+			"title": "Cascade Locks Port and Roundhouse Inc Jointly Announce Decision to Discontinue Datacenter Project",
+			"container": "Port of Cascade Locks",
+			"publisher": "Port of Cascade Locks",
+			"published": "2023-07-20",
+			"url": "https://portofcascadelocks.gov/july-20-2023-cascade-locks-port-and-roundhouse-inc-jointly-announce-decision-to-discontinue-datacenter-project",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Cascade Locks Rejects $100 Million Data Center in the Columbia River Gorge",
+			"authors": [
+				{
+					"family": "Rogoway",
+					"given": "Mike"
+				}
+			],
+			"container": "The Bulletin",
+			"publisher": "The Bulletin",
+			"published": "2023-07-21",
+			"url": "https://bendbulletin.com/?p=503968",
+			"accessed": "2026-11-22",
+			"note": "First published in The Oregonian"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Cascade Locks, Oregon",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cascade_Locks,_Oregon&oldid=1384041462",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-06"
+		},
+		{
+			"kind": "report",
+			"title": "Resolution to Withdraw Petition for Appeal",
+			"authors": [
+				{
+					"name": "Town Council of Warrenton"
+				}
+			],
+			"publisher": "Town of Warrenton",
+			"published": "2025-01",
+			"url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/warrntonva-meet-f3e240446b9d4df78b4376e531e1ca28/ITEM-Attachment-001-32d1cecefffa4801be1952e99343a443.pdf",
+			"accessed": "2026-11-22",
+			"note": "Names the election of November 5, 2024"
+		},
+		{
+			"kind": "report",
+			"title": "Zoning Determination Letter ZNG-25-31: Amazon Vested Rights Determination",
+			"authors": [
+				{
+					"family": "Jenkins",
+					"given": "Heather E."
+				}
+			],
+			"publisher": "Town of Warrenton",
+			"published": "2025-10-24",
+			"url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/warrntonva-meet-f6462a15a41642e0a3568c0ad292af15/ITEM-Attachment-001-581d07917cca4538a10e219732acac39.pdf",
+			"accessed": "2026-11-22",
+			"note": "The February 2023 permit, the consent order of January 14, 2025, and the town's answer on vested rights"
+		},
+		{
+			"kind": "web",
+			"title": "Judge Hears Arguments in Lawsuit Seeking to Halt Amazon Data Center in Warrenton",
+			"authors": [
+				{
+					"family": "Bowman",
+					"given": "Jack"
+				}
+			],
+			"container": "Rappahannock News",
+			"published": "2026-06-16",
+			"url": "https://www.rappnews.com/land-use/judge-hears-arguments-in-lawsuit-seeking-to-halt-amazon-data-center-in-warrenton-9e942284",
+			"accessed": "2026-11-22",
+			"note": "A FauquierNow report"
+		},
+		{
+			"kind": "web",
+			"title": "Report Claims $64bn in Data Center Projects Blocked or Delayed",
+			"authors": [
+				{
+					"family": "Hung",
+					"given": "Winnie"
+				},
+				{
+					"family": "Murphy",
+					"given": "Patrick"
+				},
+				{
+					"family": "Hudgins",
+					"given": "Alex"
+				},
+				{
+					"family": "Lau",
+					"given": "Erwin"
+				}
+			],
+			"container": "Exponent Insights",
+			"publisher": "Exponent",
+			"published": "2025-05-15",
+			"url": "https://www.exponent.com/article/report-claims-64bn-data-center-projects-blocked-or-delayed",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Independence's AI Data Center Decision Cost Another Council Member His Seat. What Happens Next?",
+			"authors": [
+				{
+					"family": "Taborda",
+					"given": "Noah"
+				}
+			],
+			"container": "KCUR",
+			"publisher": "KCUR 89.3",
+			"published": "2026-09-03",
+			"url": "https://www.kcur.org/politics-elections-and-government/2026-09-03/independences-ai-data-center-decision-cost-another-council-member-his-seat-what-happens-next",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Wisconsin City Passes Nation's First Anti-Data-Center Referendum",
+			"authors": [
+				{
+					"family": "Katzenberger",
+					"given": "Tyler"
+				}
+			],
+			"container": "E&E News",
+			"publisher": "Politico",
+			"published": "2026-04-09",
+			"url": "https://www.eenews.net/articles/wisconsin-city-passes-nations-first-anti-data-center-referendum",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "DeKalb County Approves 100-Day Moratorium on Data Center Applications, Permits",
+			"authors": [
+				{
+					"name": "WSBTV.com News Staff"
+				}
+			],
+			"container": "WSB-TV",
+			"publisher": "Cox Media Group",
+			"published": "2025-07-09",
+			"url": "https://www.yahoo.com/news/dekalb-county-approves-100-day-145248223.html",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Dane County Board Approves 18-Month Pause on Hyperscale Data Center Development",
+			"authors": [
+				{
+					"name": "Dane County Board"
+				}
+			],
+			"publisher": "Dane County",
+			"published": "2026-06-04",
+			"url": "https://danecounty.gov/PressDetail/11898",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Missoula County Adopts Temporary Moratorium on Data Centers",
+			"authors": [
+				{
+					"family": "Fairbanks",
+					"given": "Katie"
+				}
+			],
+			"container": "Route Fifty",
+			"publisher": "GovExec",
+			"published": "2026-07-10",
+			"url": "https://www.route-fifty.com/artificial-intelligence/2026/07/missoula-county-adopts-temporary-moratorium-data-centers/414694/",
+			"accessed": "2026-11-22",
+			"note": "First published by the Montana Free Press"
+		},
+		{
+			"kind": "web",
+			"title": "Montgomery County Council Approves 18-Month Moratorium on Data Centers",
+			"authors": [
+				{
+					"family": "Ryan",
+					"given": "Kate"
+				}
+			],
+			"container": "WTOP News",
+			"publisher": "WTOP",
+			"published": "2026-07-29",
+			"url": "https://wtop.com/montgomery-county/2026/07/montgomery-county-council-approves-18-month-moratorium-on-data-centers/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Pima County Passes 120-Day Moratorium on Future Data Center Projects",
+			"authors": [
+				{
+					"family": "Reznick",
+					"given": "Alisa"
+				}
+			],
+			"container": "KJZZ",
+			"published": "2026-09-23",
+			"url": "https://www.kjzz.org/fronteras-desk/2026-09-23/pima-county-passes-120-day-moratorium-on-future-data-center-projects",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "The “Backslash Backlash”: Counties Pivot in the Data Center Buildout",
+			"authors": [
+				{
+					"family": "Ban",
+					"given": "Charlie"
+				}
+			],
+			"container": "County News",
+			"publisher": "National Association of Counties",
+			"published": "2026-10-20",
+			"url": "https://www.naco.org/news/backslash-backlash-counties-pivot-data-center-buildout",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Q1 2026: Data Center Watch Report",
+			"container": "Data Center Watch",
+			"publisher": "Data Center Watch",
+			"published": "2026",
+			"url": "https://www.datacenterwatch.org/q1-2026",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "letter",
+			"title": "HB 120, “Moratorium on Construction of New Data Centers: Co-Location and Generation Contingency” (Unfavorable)",
+			"authors": [
+				{
+					"family": "Boender",
+					"given": "Khara"
+				}
+			],
+			"recipients": [
+				{
+					"name": "House Environment and Transportation Committee, Maryland General Assembly"
+				}
+			],
+			"written": "2026-02-03",
+			"container": "Committee Testimony, 2026 Session",
+			"publisher": "Maryland General Assembly",
+			"url": "https://mgaleg.maryland.gov/cmte_testimony/2026/ent/11LTgs6dj_2_lIWLJh8OPNg0xYvpg_XND.pdf",
+			"accessed": "2026-11-22",
+			"note": "Written for the Data Center Coalition"
+		},
+		{
+			"kind": "web",
+			"title": "Data Center Moratoriums Are Not a Substitute for Oversight",
+			"authors": [
+				{
+					"family": "Turner Lee",
+					"given": "Nicol"
+				},
+				{
+					"family": "West",
+					"given": "Darrell M."
+				}
+			],
+			"container": "TechTank",
+			"publisher": "Brookings Institution",
+			"published": "2026-07-28",
+			"url": "https://www.brookings.edu/articles/data-center-moratoriums-are-not-a-substitute-for-oversight/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Moratorium (law)",
+			"url": "https://en.wikipedia.org/w/index.php?title=Moratorium_(law)&oldid=1377571398",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-30"
+		}
+	]
+}

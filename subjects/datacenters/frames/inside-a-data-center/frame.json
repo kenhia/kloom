@@ -1,0 +1,169 @@
+{
+	"id": "inside-a-data-center",
+	"topic": "Inside a data center",
+	"position": {
+		"label": "Anatomy"
+	},
+	"scene": {
+		"headline": "The cloud is a",
+		"accent": "BUILDING.",
+		"palette": "hall",
+		"illustration": "scene.svg",
+		"metadata": ["SERVERS · POWER · COOLING · NETWORK", "PUE AND WUE · THE GREEN GRID"],
+		"counter": {
+			"value": "1.54",
+			"label": "average PUE reported, 2025"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2024 United States Data Center Energy Usage Report",
+			"authors": [
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Smith",
+					"given": "Sarah J."
+				},
+				{
+					"family": "Hubbard",
+					"given": "Alex"
+				},
+				{
+					"family": "Newkirk",
+					"given": "Alex"
+				},
+				{
+					"family": "Lei",
+					"given": "Nuoa"
+				},
+				{
+					"family": "Siddik",
+					"given": "Md Abu Bakar"
+				},
+				{
+					"family": "Holecek",
+					"given": "Billie"
+				}
+			],
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"number": "LBNL-2001637",
+			"published": "2024-12",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+			"accessed": "2026-11-21",
+			"note": "Space types, table 4.1; cooling systems, table 4.2; the national PUE, figure 4.6; energy use, figure ES-1"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Uptime Institute Global Data Center Survey 2025",
+			"authors": [
+				{
+					"name": "Uptime Institute"
+				}
+			],
+			"publisher": "Uptime Institute",
+			"number": "UII Keynote Report 180",
+			"published": "2025-07",
+			"url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf",
+			"accessed": "2026-11-21",
+			"note": "The weighted average PUE, figure 2 (681 operators)"
+		},
+		{
+			"kind": "report",
+			"title": "Data Center Capacity Growth Trends: Findings from the 2026 Global Data Center Survey",
+			"authors": [
+				{
+					"name": "Uptime Institute"
+				}
+			],
+			"publisher": "Uptime Institute",
+			"published": "2026-08",
+			"url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026%20Annual%20Survey%20Data%20Center%20Growth%20v6.pdf",
+			"accessed": "2026-11-21"
+		},
+		{
+			"kind": "web",
+			"title": "Efficiency",
+			"container": "Google Data Centers",
+			"publisher": "Google",
+			"url": "https://datacenters.google/efficiency/",
+			"accessed": "2026-11-21",
+			"note": "The fleet's 2025 average PUE of 1.09, Google's own measurement"
+		},
+		{
+			"kind": "web",
+			"title": "Vertiv Codevelops with NVIDIA Complete Power and Cooling Blueprint for NVIDIA GB200 NVL72 Platform",
+			"container": "Vertiv News Releases",
+			"publisher": "Vertiv",
+			"place": "Columbus, OH",
+			"published": "2024-10-15",
+			"url": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/vertiv-codevelops-with-nvidia-complete-power-and-cooling-blueprint-for--nvidia-gb200-nvl72-platform/",
+			"accessed": "2026-11-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Power usage effectiveness",
+			"url": "https://en.wikipedia.org/w/index.php?title=Power_usage_effectiveness&oldid=1380738647",
+			"accessed": "2026-11-21",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Data center",
+			"url": "https://en.wikipedia.org/w/index.php?title=Data_center&oldid=1386997254",
+			"accessed": "2026-11-21",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-21"
+		},
+		{
+			"kind": "media",
+			"title": "Server racks on a raised floor",
+			"url": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
+			"accessed": "2026-11-21",
+			"licence": "CC BY 2.0",
+			"file": "racks.jpg",
+			"authors": [
+				{
+					"name": "Carl Lender"
+				}
+			],
+			"container": "Flickr, via Wikimedia Commons",
+			"published": "2015-11-04"
+		},
+		{
+			"kind": "media",
+			"title": "Average power usage effectiveness reported to the Uptime Institute, 2007–2025",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Uptime Institute Global Data Center Survey 2025, figure 2",
+			"url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.Annual.Survey.Report.pdf",
+			"accessed": "2026-11-21",
+			"licence": "MIT",
+			"file": "pue.svg"
+		}
+	]
+}

@@ -1,0 +1,200 @@
+{
+	"id": "cooling-tower",
+	"topic": "How a cooling tower works",
+	"position": {
+		"label": "Cooling towers"
+	},
+	"scene": {
+		"headline": "Heat leaves as",
+		"accent": "VAPOR.",
+		"palette": "tower",
+		"illustration": "scene.svg",
+		"metadata": [
+			"EVAPORATION · DRIFT · BLOWDOWN · MAKE-UP",
+			"LATENT HEAT · WET BULB · VAN ITERSON, 1916"
+		],
+		"counter": {
+			"value": "1.5 L",
+			"label": "evaporated per kWh of heat, by our arithmetic"
+		}
+	},
+	"connections": [
+		{
+			"to": "chemistry/fixed-air",
+			"why": "The latent heat Joseph Black found at Glasgow around 1761 is the heat a cooling tower carries off by evaporating water, about one and a half liters for each kilowatt-hour."
+		},
+		{
+			"to": "western-civ/steam",
+			"why": "Cooling towers grew out of the steam engine's condenser, which Watt separated from the cylinder in 1765 and which needs a steady supply of cool water."
+		}
+	],
+	"citations": [
+		{
+			"kind": "wikipedia",
+			"title": "Cooling tower",
+			"url": "https://en.wikipedia.org/w/index.php?title=Cooling_tower&oldid=1386770297",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-20",
+			"key": true,
+			"note": "How a wet tower works, its history, and plumes"
+		},
+		{
+			"kind": "chapter",
+			"title": "6.3 Cooling Towers",
+			"container": "WaterSense at Work: Best Management Practices for Commercial and Institutional Facilities",
+			"authors": [
+				{
+					"name": "U.S. Environmental Protection Agency"
+				}
+			],
+			"publisher": "U.S. Environmental Protection Agency",
+			"place": "Washington, DC",
+			"published": "2012-10",
+			"pages": "6-8–6-12",
+			"url": "https://www.epa.gov/system/files/documents/2023-05/ws-commercial-watersense-at-work_Section_6.3_Cooling_Towers.pdf",
+			"accessed": "2026-11-22",
+			"key": true,
+			"note": "Evaporation, drift, blowdown, make-up and cycles of concentration, with the 1% per 10 °F rule"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Latent heat",
+			"url": "https://en.wikipedia.org/w/index.php?title=Latent_heat&oldid=1377175610",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-28",
+			"key": true,
+			"note": "Black's term, and the fit for water's latent heat between −25 and 40 °C, from Rogers and Yau"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Enthalpy of vaporization",
+			"url": "https://en.wikipedia.org/w/index.php?title=Enthalpy_of_vaporization&oldid=1378383544",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Wet-bulb temperature",
+			"url": "https://en.wikipedia.org/w/index.php?title=Wet-bulb_temperature&oldid=1383662673",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Frederik van Iterson",
+			"url": "https://en.wikipedia.org/w/index.php?title=Frederik_van_Iterson&oldid=1379135982",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-08"
+		},
+		{
+			"kind": "report",
+			"title": "2024 United States Data Center Energy Usage Report",
+			"authors": [
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Smith",
+					"given": "Sarah J."
+				},
+				{
+					"family": "Hubbard",
+					"given": "Alex"
+				},
+				{
+					"family": "Newkirk",
+					"given": "Alex"
+				},
+				{
+					"family": "Lei",
+					"given": "Nuoa"
+				},
+				{
+					"family": "Siddik",
+					"given": "Md Abu Bakar"
+				},
+				{
+					"family": "Holecek",
+					"given": "Billie"
+				}
+			],
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"number": "LBNL-2001637",
+			"published": "2024-12",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+			"accessed": "2026-11-22",
+			"key": true,
+			"note": "Cooling systems, table 4.2; simulated PUE and WUE by cooling system, figure 4.4, read from the figure"
+		},
+		{
+			"kind": "report",
+			"title": "2026 Environmental Report",
+			"authors": [
+				{
+					"name": "Google"
+				}
+			],
+			"publisher": "Google",
+			"place": "Mountain View, CA",
+			"published": "2026-06",
+			"url": "https://sustainability.google/google-2026-environmental-report/",
+			"accessed": "2026-11-22",
+			"note": "Water as an efficient means of cooling, p. 35; the caption to the photograph of the towers at The Dalles, p. 37"
+		},
+		{
+			"kind": "media",
+			"title": "Koeltorens op mijnterrein \"Emma\"",
+			"url": "https://commons.wikimedia.org/wiki/File:Koeltorens_op_mijnterrein_%22Emma%22_-_Treebeek_-_20209795_-_RCE.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC BY-SA 4.0",
+			"file": "emma-towers.jpg",
+			"authors": [
+				{
+					"family": "Tangel",
+					"given": "Loek"
+				}
+			],
+			"container": "Rijksdienst voor het Cultureel Erfgoed, via Wikimedia Commons",
+			"number": "20209795",
+			"published": "1977-12"
+		}
+	]
+}

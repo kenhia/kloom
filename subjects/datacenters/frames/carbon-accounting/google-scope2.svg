@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" role="img" aria-labelledby="t d">
+<title id="t">Google's scope 2 emissions by the two methods, 2019–2025</title>
+<desc id="d">Grouped bar chart, millions of tonnes of CO2 equivalent from purchased electricity, as Google reports them. Location-based: 5.17 in 2019, 5.85 in 2020, 6.50 in 2021, 7.96 in 2022, 9.09 in 2023, 11.07 in 2024, 15.15 in 2025. Market-based: 0.79, 0.92, 1.77, 2.43, 3.29, 2.90 and 2.82. Data: Google 2026 Environmental Report, environmental metrics data tables.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="580" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="580" y1="187.1" y2="187.1" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="191.1" text-anchor="end">5</text>
+<line x1="64" x2="580" y1="124.1" y2="124.1" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="128.1" text-anchor="end">10</text>
+<line x1="64" x2="580" y1="61.2" y2="61.2" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="65.2" text-anchor="end">15</text>
+</g>
+<rect x="70.4" y="184.9" width="29.5" height="65.1" fill-opacity="0.85"/>
+<text x="85.1" y="178.9" text-anchor="middle" font-size="9">5.2</text>
+<rect x="101.9" y="240.1" width="29.5" height="9.9" class="accent" fill="currentColor"/>
+<text x="116.6" y="234.1" text-anchor="middle" font-size="9">0.8</text>
+<text x="100.9" y="266" text-anchor="middle">2019</text>
+<rect x="144.1" y="176.4" width="29.5" height="73.6" fill-opacity="0.85"/>
+<text x="158.8" y="170.4" text-anchor="middle" font-size="9">5.8</text>
+<rect x="175.6" y="238.4" width="29.5" height="11.6" class="accent" fill="currentColor"/>
+<text x="190.3" y="232.4" text-anchor="middle" font-size="9">0.9</text>
+<text x="174.6" y="266" text-anchor="middle">2020</text>
+<rect x="217.8" y="168.2" width="29.5" height="81.8" fill-opacity="0.85"/>
+<text x="232.5" y="162.2" text-anchor="middle" font-size="9">6.5</text>
+<rect x="249.3" y="227.7" width="29.5" height="22.3" class="accent" fill="currentColor"/>
+<text x="264.0" y="221.7" text-anchor="middle" font-size="9">1.8</text>
+<text x="248.3" y="266" text-anchor="middle">2021</text>
+<rect x="291.5" y="149.8" width="29.5" height="100.2" fill-opacity="0.85"/>
+<text x="306.2" y="143.8" text-anchor="middle" font-size="9">8.0</text>
+<rect x="323.0" y="219.4" width="29.5" height="30.6" class="accent" fill="currentColor"/>
+<text x="337.8" y="213.4" text-anchor="middle" font-size="9">2.4</text>
+<text x="322.0" y="266" text-anchor="middle">2022</text>
+<rect x="365.2" y="135.6" width="29.5" height="114.4" fill-opacity="0.85"/>
+<text x="380.0" y="129.6" text-anchor="middle" font-size="9">9.1</text>
+<rect x="396.7" y="208.6" width="29.5" height="41.4" class="accent" fill="currentColor"/>
+<text x="411.5" y="202.6" text-anchor="middle" font-size="9">3.3</text>
+<text x="395.7" y="266" text-anchor="middle">2023</text>
+<rect x="438.9" y="110.6" width="29.5" height="139.4" fill-opacity="0.85"/>
+<text x="453.7" y="104.6" text-anchor="middle" font-size="9">11.1</text>
+<rect x="470.4" y="213.5" width="29.5" height="36.5" class="accent" fill="currentColor"/>
+<text x="485.2" y="207.5" text-anchor="middle" font-size="9">2.9</text>
+<text x="469.4" y="266" text-anchor="middle">2024</text>
+<rect x="512.6" y="59.3" width="29.5" height="190.7" fill-opacity="0.85"/>
+<text x="527.4" y="53.3" text-anchor="middle" font-size="9">15.1</text>
+<rect x="544.1" y="214.5" width="29.5" height="35.5" class="accent" fill="currentColor"/>
+<text x="558.9" y="208.5" text-anchor="middle" font-size="9">2.8</text>
+<text x="543.1" y="266" text-anchor="middle">2025</text>
+<rect x="403.6" y="12" width="8" height="8" fill-opacity="0.85"/>
+<text x="415.6" y="20" font-size="9">LOCATION-BASED</text>
+<rect x="503.2" y="12" width="8" height="8" class="accent" fill="currentColor"/>
+<text x="515.2" y="20" font-size="9">MARKET-BASED</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">GOOGLE · SCOPE 2 · MILLION TONNES CO2e</text>
+</g></svg>

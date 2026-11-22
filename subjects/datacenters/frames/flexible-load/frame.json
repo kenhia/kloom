@@ -1,0 +1,204 @@
+{
+	"id": "flexible-load",
+	"topic": "Data centers as flexible load",
+	"position": {
+		"label": "Flexibility"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "A data center that can",
+		"accent": "PAUSE.",
+		"palette": "current",
+		"illustration": "scene.svg",
+		"metadata": ["DUKE NICHOLAS INSTITUTE · EPRI DCFLEX", "ERCOT · TEXAS SENATE BILL 6 · 2025"],
+		"counter": {
+			"value": "76 GW",
+			"label": "new load at 0.25% curtailment, modeled (2025)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Rethinking Load Growth: Assessing the Potential for Integration of Large Flexible Loads in US Power Systems",
+			"authors": [
+				{
+					"family": "Norris",
+					"given": "Tyler H."
+				},
+				{
+					"family": "Profeta",
+					"given": "Tim"
+				},
+				{
+					"family": "Patino-Echeverri",
+					"given": "Dalia"
+				},
+				{
+					"family": "Cowie-Haskell",
+					"given": "Adam"
+				}
+			],
+			"number": "NI R 25-01",
+			"publisher": "Nicholas Institute for Energy, Environment & Sustainability, Duke University",
+			"place": "Durham, NC",
+			"published": "2025-02",
+			"url": "https://nicholasinstitute.duke.edu/publications/rethinking-load-growth",
+			"accessed": "2026-11-22",
+			"note": "Key results, p. 2; method, pp. 15–16; limitations, pp. 23–24"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "How We're Making Data Centers More Flexible to Benefit Power Grids",
+			"authors": [
+				{
+					"family": "Terrell",
+					"given": "Michael"
+				}
+			],
+			"container": "The Keyword",
+			"publisher": "Google",
+			"published": "2025-08-04",
+			"url": "https://blog.google/inside-google/infrastructure/how-were-making-data-centers-more-flexible-to-benefit-power-grids/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "A New Milestone for Smart, Affordable Electricity Growth",
+			"authors": [
+				{
+					"family": "Terrell",
+					"given": "Michael"
+				}
+			],
+			"container": "The Keyword",
+			"publisher": "Google",
+			"published": "2026-03-19",
+			"url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/demand-response-data-center-milestone/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "EPRI Launches Data Center Flexibility Initiative with Utilities, Google, Meta, NVIDIA",
+			"authors": [
+				{
+					"family": "Walton",
+					"given": "Robert"
+				}
+			],
+			"container": "Utility Dive",
+			"publisher": "Industry Dive",
+			"published": "2024-10-30",
+			"url": "https://www.utilitydive.com/news/epri-launches-data-center-flexibility-initiative-with-NVIDIA-google-meta/731490/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "About Us",
+			"container": "DCFlex",
+			"publisher": "Electric Power Research Institute",
+			"url": "https://dcflex.epri.com/about-us",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Turning AI Data Centers into Grid-Interactive Assets: Results from a Field Demonstration in Phoenix, Arizona",
+			"authors": [
+				{
+					"family": "Colangelo",
+					"given": "Philip"
+				},
+				{
+					"family": "Coskun",
+					"given": "Ayse K."
+				},
+				{
+					"family": "Megrue",
+					"given": "Jack"
+				},
+				{
+					"family": "Roberts",
+					"given": "Ciaran"
+				},
+				{
+					"family": "Sengupta",
+					"given": "Shayan"
+				},
+				{
+					"family": "Sivaram",
+					"given": "Varun"
+				},
+				{
+					"family": "Tiao",
+					"given": "Ethan"
+				}
+			],
+			"etAl": true,
+			"container": "arXiv preprint arXiv:2507.00909",
+			"published": "2025-07-01",
+			"url": "https://arxiv.org/abs/2507.00909",
+			"accessed": "2026-11-22",
+			"note": "Authors at Emerald AI, NVIDIA, the Salt River Project and EPRI; the events, pp. 2–3; limitations, p. 6"
+		},
+		{
+			"kind": "statute",
+			"key": true,
+			"title": "An Act relating to the planning for, interconnection and operation of, and costs related to providing service for certain electrical loads (Senate Bill 6)",
+			"code": {
+				"name": "Tex. Util. Code"
+			},
+			"section": "§§ 37.0561, 39.170",
+			"published": "2025-06-20",
+			"container": "Texas Legislature Online, 89th Legislature, Regular Session, enrolled version",
+			"publisher": "Texas Legislative Council",
+			"url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00006F.htm",
+			"accessed": "2026-11-22",
+			"note": "Signed by the governor June 20, 2025, effective immediately"
+		},
+		{
+			"kind": "report",
+			"title": "Incident Review: Considering Simultaneous Voltage-Sensitive Load Reductions",
+			"authors": [
+				{
+					"name": "North American Electric Reliability Corporation"
+				}
+			],
+			"publisher": "North American Electric Reliability Corporation",
+			"place": "Atlanta, GA",
+			"published": "2025-01-08",
+			"url": "https://www.nerc.com/pa/rrm/ea/Documents/Incident_Review_Large_Load_Loss.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "media",
+			"title": "A control room operator at the Electric Reliability Council of Texas",
+			"authors": [
+				{
+					"name": "Dpysh w"
+				}
+			],
+			"container": "Wikimedia Commons",
+			"published": "2012-10-03",
+			"url": "https://commons.wikimedia.org/wiki/File:ERCOTOperator_2.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC BY 3.0",
+			"file": "ercot-operator.jpg"
+		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/diesel-generators",
+			"why": "Some of a data center's 'flexibility' comes from switching to its own backup engines, whose emissions are counted there."
+		},
+		{
+			"to": "datacenters/who-pays-grid",
+			"why": "Supporters argue that a load able to pause needs less new grid, and so raises others' bills less."
+		},
+		{
+			"to": "datacenters/power-demand",
+			"why": "The Duke study asks how much of the forecast load growth the grid could take if new data centers accepted brief curtailment."
+		}
+	]
+}

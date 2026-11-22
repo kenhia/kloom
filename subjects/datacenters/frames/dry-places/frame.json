@@ -1,0 +1,245 @@
+{
+	"id": "dry-places",
+	"topic": "Data centers in dry places",
+	"asOf": "2026-11-22",
+	"position": {
+		"label": "Dry places"
+	},
+	"scene": {
+		"headline": "Data centers came to the",
+		"accent": "DESERT.",
+		"palette": "tower",
+		"illustration": "scene.svg",
+		"metadata": [
+			"PHOENIX · MESA · TUCSON · WEST TEXAS",
+			"SANTIAGO · CANELONES · TALAVERA DE LA REINA"
+		],
+		"counter": {
+			"value": "0.4%",
+			"label": "of Texas's water, data centers, 2025 (HARC model)"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Don't Blame Data Centers for Arizona's Colorado River Cuts: Water Experts",
+			"authors": [
+				{
+					"family": "Mamaghani",
+					"given": "Eileen"
+				}
+			],
+			"container": "Cronkite News",
+			"publisher": "Arizona PBS",
+			"published": "2026-09-11",
+			"url": "https://cronkitenews.azpbs.org/2026/09/11/data-centers-water-colorado-river/",
+			"accessed": "2026-11-22",
+			"note": "The federal cut, ADWR's 72% for agriculture, the proposed fee, and what the state does not track"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Arizona's Water Is Drying Up. That's Not Stopping the Data Center Rush",
+			"authors": [
+				{
+					"family": "Bittle",
+					"given": "Jake"
+				}
+			],
+			"container": "Grist",
+			"published": "2026-03-04",
+			"url": "https://grist.org/technology/arizona-water-data-centers-semiconducters/",
+			"accessed": "2026-11-22",
+			"note": "Ceres's estimates, Porter's reply, Mesa's figures and Microsoft's statement"
+		},
+		{
+			"kind": "web",
+			"title": "Arizona Data Centers Drive Up Water Demand, but Not the Way You Might Think",
+			"authors": [
+				{
+					"family": "Hager",
+					"given": "Alex"
+				}
+			],
+			"container": "KJZZ",
+			"published": "2026-10-28",
+			"url": "https://kjzz.org/science/2026-10-28/arizona-data-centers-drive-up-water-demand-but-not-the-way-you-might-think",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Drought-Stricken Communities Push Back against Data Centers",
+			"authors": [
+				{
+					"family": "Solon",
+					"given": "Olivia"
+				}
+			],
+			"container": "NBC News",
+			"published": "2021-06-19",
+			"url": "https://www.nbcnews.com/tech/internet/drought-stricken-communities-push-back-against-data-centers-n1271344",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Thirsty Data and the Lone Star State: The Impact of Data Center Growth on Texas' Water Supply",
+			"authors": [
+				{
+					"family": "Cook",
+					"given": "Margaret"
+				}
+			],
+			"publisher": "Houston Advanced Research Center",
+			"published": "2026-01",
+			"url": "https://harcresearch.org/wp-content/uploads/2026/01/Thirsty-Data-Water-Use-and-The-Projected-Data-Center-Boom-in-Texas.pdf",
+			"accessed": "2026-11-22",
+			"note": "The 2025 estimate and 2030 range, and the state water plan"
+		},
+		{
+			"kind": "web",
+			"title": "Data Center Boom Threatens Texas Agriculture Industry",
+			"authors": [
+				{
+					"family": "Lozano Carver",
+					"given": "Jayme"
+				}
+			],
+			"container": "The Texas Tribune",
+			"published": "2026-08-27",
+			"url": "https://www.texastribune.org/2026/08/27/texas-agriculture-data-centers/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "Environmental Report 2026",
+			"authors": [
+				{
+					"name": "Google"
+				}
+			],
+			"publisher": "Google",
+			"published": "2026",
+			"url": "https://sustainability.google/files/google-2026-environmental-report.pdf",
+			"accessed": "2026-11-22",
+			"note": "Water use by data center location, 2025, p. 97: the company's own figures"
+		},
+		{
+			"kind": "web",
+			"title": "Inside Microsoft's Two-Decade Push to Cut Water Intensity while Scaling for Growth",
+			"authors": [
+				{
+					"family": "Priest",
+					"given": "Judy"
+				},
+				{
+					"family": "Solomon",
+					"given": "Steve"
+				}
+			],
+			"container": "The Official Microsoft Blog",
+			"publisher": "Microsoft",
+			"published": "2026-06-24",
+			"url": "https://blogs.microsoft.com/blog/2026/06/24/inside-microsofts-two-decade-push-to-cut-water-intensity-while-scaling-for-growth/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Chile Partially Reverses Google Data Center Permit over Water Use Concerns",
+			"authors": [
+				{
+					"family": "Moss",
+					"given": "Sebastian"
+				}
+			],
+			"container": "DatacenterDynamics",
+			"published": "2024-02-28",
+			"url": "https://www.datacenterdynamics.com/en/news/chile-partially-reverses-google-data-center-permit-over-water-use-concerns/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Google's Uruguay Data Center Approved after Reformulation",
+			"authors": [
+				{
+					"family": "Yadav",
+					"given": "Niva"
+				}
+			],
+			"container": "DatacenterDynamics",
+			"published": "2024-07-28",
+			"url": "https://www.datacenterdynamics.com/en/news/googles-uruguay-data-center-approved-after-reformulation/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "IA y crisis climática: las grandes tecnológicas escogen España para instalar sus gigantescos centros de datos",
+			"authors": [
+				{
+					"family": "Jiménez Arandia",
+					"given": "Pablo"
+				}
+			],
+			"container": "El Salto",
+			"published": "2024-05-27",
+			"language": "es",
+			"url": "https://www.elsaltodiario.com/inteligencia-artificial/meta-centro-datos-agua-sequia",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Meta ultima en Talavera un centro de datos de 1.000 M€ que se abastecerá de agua del Tajo por la red municipal",
+			"authors": [
+				{
+					"family": "Maceira",
+					"given": "Alejandro"
+				}
+			],
+			"container": "iAgua",
+			"published": "2026-08-28",
+			"language": "es",
+			"url": "https://www.iagua.es/noticias/redaccion-iagua/meta-ultima-en-talavera-un-centro-de-datos-de-1-000-me-que-se-abastecera-de-agua-del-tajo-por-la-red-municipal",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Central Arizona Project canal and the Colorado River",
+			"authors": [
+				{
+					"name": "OpenStreetMap contributors"
+				}
+			],
+			"container": "OpenStreetMap",
+			"publisher": "OpenStreetMap Foundation",
+			"url": "https://www.openstreetmap.org/",
+			"accessed": "2026-11-22",
+			"note": "The plate's canal and river are drawn from OpenStreetMap's geometry (ODbL)"
+		},
+		{
+			"kind": "media",
+			"title": "Central Arizona Project (CAP) Canal",
+			"url": "https://commons.wikimedia.org/wiki/File:CAPCanal.2013.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC BY-SA 3.0",
+			"file": "canal.jpg",
+			"authors": [
+				{
+					"name": "Onel5969"
+				}
+			],
+			"container": "Wikimedia Commons",
+			"published": "2013-02-23"
+		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/zero-water",
+			"why": "Air cooling and reclaimed water are dry-climate operators' answer."
+		},
+		{
+			"to": "datacenters/secrecy",
+			"why": "Tucson's Project Blue, rejected in 2025, is a case of a code name and NDAs."
+		}
+	]
+}

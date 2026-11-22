@@ -1,0 +1,363 @@
+{
+	"id": "power-demand",
+	"topic": "How much electricity data centers use",
+	"position": {
+		"label": "Demand"
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Every forecast is a",
+		"accent": "RANGE.",
+		"palette": "current",
+		"illustration": "scene.svg",
+		"metadata": ["LBNL · IEA · EPRI · PJM", "ESTIMATED TO 2024 · PROJECTED TO 2030"],
+		"counter": {
+			"value": "192 TWh",
+			"label": "used by US data centers in 2024, estimated"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/where-computing-is",
+			"why": "Both cite the International Energy Agency's estimates of the world's data center electricity, 415 TWh in 2024 and 485 TWh in 2025, and Jonathan Koomey's work on what computing costs in energy."
+		},
+		{
+			"to": "datacenters/who-pays-grid",
+			"why": "How much load comes is half the question of rates; who pays for the lines and plants it needs is the other half."
+		}
+	],
+	"citations": [
+		{
+			"kind": "report",
+			"title": "2024 United States Data Center Energy Usage Report",
+			"authors": [
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Smith",
+					"given": "Sarah J."
+				},
+				{
+					"family": "Hubbard",
+					"given": "Alex"
+				},
+				{
+					"family": "Newkirk",
+					"given": "Alex"
+				},
+				{
+					"family": "Lei",
+					"given": "Nuoa"
+				},
+				{
+					"family": "Siddik",
+					"given": "Md Abu Bakar"
+				},
+				{
+					"family": "Holecek",
+					"given": "Billie"
+				}
+			],
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"published": "2024-12",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+			"accessed": "2026-11-22",
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"number": "LBNL-2001637",
+			"doi": "10.71468/P1WC7Q",
+			"key": true,
+			"note": "Estimates 2014–2023 and the 2028 range, figure ES-1 and pp. 5–6, 52; forecasts' record, pp. 10–11"
+		},
+		{
+			"kind": "report",
+			"title": "United States Data Center Energy Usage Report: 2025 Update",
+			"authors": [
+				{
+					"family": "Smith",
+					"given": "Sarah J."
+				},
+				{
+					"family": "Hubbard",
+					"given": "Alex"
+				},
+				{
+					"family": "Newkirk",
+					"given": "Alex"
+				},
+				{
+					"family": "Ganeshalingam",
+					"given": "Mohan"
+				},
+				{
+					"family": "Holecek",
+					"given": "Billie"
+				},
+				{
+					"family": "Sartor",
+					"given": "Dale"
+				},
+				{
+					"family": "Mills",
+					"given": "Michael"
+				}
+			],
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"published": "2026-06-18",
+			"url": "https://escholarship.org/uc/item/33m6w3x0",
+			"accessed": "2026-11-22",
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"number": "LBNL-2001758",
+			"doi": "10.71468/P1RP4F",
+			"key": true,
+			"note": "192 TWh in 2024; the 2030 reference case and range, table 2"
+		},
+		{
+			"kind": "report",
+			"title": "Energy and AI",
+			"authors": [
+				{
+					"name": "International Energy Agency"
+				}
+			],
+			"publisher": "International Energy Agency",
+			"published": "2025-04",
+			"url": "https://www.iea.org/reports/energy-and-ai",
+			"accessed": "2026-11-22",
+			"place": "Paris",
+			"note": "Executive summary: 415 TWh in 2024, about 945 TWh in 2030"
+		},
+		{
+			"kind": "report",
+			"title": "Key Questions on Energy and AI",
+			"authors": [
+				{
+					"name": "International Energy Agency"
+				}
+			],
+			"publisher": "International Energy Agency",
+			"published": "2026-04-16",
+			"url": "https://www.iea.org/reports/key-questions-on-energy-and-ai",
+			"accessed": "2026-11-22",
+			"place": "Paris",
+			"note": "Executive summary: 485 TWh in 2025, about 950 TWh in 2030"
+		},
+		{
+			"kind": "report",
+			"title": "Powering Intelligence: Analyzing Artificial Intelligence and Data Center Energy Consumption",
+			"authors": [
+				{
+					"name": "Electric Power Research Institute"
+				}
+			],
+			"publisher": "Electric Power Research Institute",
+			"published": "2024-05",
+			"url": "https://restservice.epri.com/publicdownload/000000003002028905/0/Product",
+			"accessed": "2026-11-22",
+			"place": "Palo Alto, CA",
+			"number": "3002028905"
+		},
+		{
+			"kind": "report",
+			"title": "Powering Intelligence 2026: Updated Scenarios of U.S. Data Center Electricity Use and Power Strategies",
+			"authors": [
+				{
+					"name": "Electric Power Research Institute"
+				}
+			],
+			"publisher": "Electric Power Research Institute",
+			"published": "2026-02",
+			"url": "https://restservice.epri.com/publicdownload/000000003002034696/0/Product",
+			"accessed": "2026-11-22",
+			"place": "Palo Alto, CA",
+			"number": "3002034696",
+			"key": true
+		},
+		{
+			"kind": "report",
+			"title": "2024 PJM Load Forecast Report",
+			"authors": [
+				{
+					"name": "PJM Resource Adequacy Planning Department"
+				}
+			],
+			"publisher": "PJM Interconnection",
+			"published": "2024-01",
+			"url": "https://www.pjm.com/-/media/library/reports-notices/load-forecast/2024-load-report.pdf",
+			"accessed": "2026-11-22",
+			"place": "Valley Forge, PA"
+		},
+		{
+			"kind": "report",
+			"title": "2025 Long-Term Load Forecast Report",
+			"authors": [
+				{
+					"name": "PJM Resource Adequacy Planning Department"
+				}
+			],
+			"publisher": "PJM Interconnection",
+			"published": "2025-01-24",
+			"url": "https://www.pjm.com/-/media/library/reports-notices/load-forecast/2025-load-report.pdf",
+			"accessed": "2026-11-22",
+			"place": "Valley Forge, PA"
+		},
+		{
+			"kind": "report",
+			"title": "2026 PJM Load Forecast Report",
+			"authors": [
+				{
+					"name": "PJM Resource Adequacy Planning Department"
+				}
+			],
+			"publisher": "PJM Interconnection",
+			"published": "2026-01-14",
+			"url": "https://www.pjm.com/-/media/DotCom/library/reports-notices/load-forecast/2026-load-report.pdf",
+			"accessed": "2026-11-22",
+			"place": "Valley Forge, PA"
+		},
+		{
+			"kind": "report",
+			"title": "Rebuttal to Testimony on 'Kyoto and the Internet: The Energy Implications of the Digital Economy'",
+			"authors": [
+				{
+					"family": "Koomey",
+					"given": "Jonathan G."
+				}
+			],
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"published": "2000-08",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/lbnl-46509.pdf",
+			"accessed": "2026-11-22",
+			"key": true,
+			"place": "Berkeley, CA",
+			"number": "LBNL-46509",
+			"note": "Mills's claims and the factor of eight, pp. 1–2; supported by the EPA"
+		},
+		{
+			"kind": "article",
+			"title": "Dig More Coal—the PCs Are Coming",
+			"authors": [
+				{
+					"family": "Huber",
+					"given": "Peter"
+				},
+				{
+					"family": "Mills",
+					"given": "Mark P."
+				}
+			],
+			"container": "Forbes",
+			"published": "1999-05-31",
+			"citedIn": "Koomey, Rebuttal to Testimony on 'Kyoto and the Internet: The Energy Implications of the Digital Economy'"
+		},
+		{
+			"kind": "report",
+			"title": "United States Data Center Energy Usage Report",
+			"authors": [
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Smith",
+					"given": "Sarah"
+				},
+				{
+					"family": "Sartor",
+					"given": "Dale"
+				},
+				{
+					"family": "Brown",
+					"given": "Richard"
+				},
+				{
+					"family": "Herrlin",
+					"given": "Magnus"
+				},
+				{
+					"family": "Koomey",
+					"given": "Jonathan"
+				},
+				{
+					"family": "Masanet",
+					"given": "Eric"
+				}
+			],
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"published": "2016-06",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/lbnl-1005775_v2.pdf",
+			"accessed": "2026-11-22",
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"number": "LBNL-1005775",
+			"note": "The 2006 and 2010–2014 estimates and the 2020 projection, executive summary and pp. 1–2"
+		},
+		{
+			"kind": "web",
+			"title": "Manufacturers Say AEP Ohio Still Inflating Data Center Demand after Halving Forecast",
+			"authors": [
+				{
+					"family": "Howland",
+					"given": "Ethan"
+				}
+			],
+			"container": "Utility Dive",
+			"publisher": "Industry Dive",
+			"published": "2026-02-06",
+			"url": "https://www.utilitydive.com/news/aep-ohio-data-center-load-tariff-oma-manufacturers/811583/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Data Centers 'Primary Reason' for High PJM Capacity Prices: Market Monitor",
+			"authors": [
+				{
+					"family": "Howland",
+					"given": "Ethan"
+				}
+			],
+			"container": "Utility Dive",
+			"publisher": "Industry Dive",
+			"published": "2025-10-02",
+			"url": "https://www.utilitydive.com/news/data-centers-pjm-capacity-auction-market-monitor/801780/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "PJM's Revised Data Center Backstop Procurement Plan Reduces Utility Risks: ICF",
+			"container": "Utility Dive",
+			"publisher": "Industry Dive",
+			"published": "2026-11-03",
+			"url": "https://www.utilitydive.com/news/pjm-revised-data-center-backstop-procurement-ferc/873551/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "PUCO Orders AEP Ohio to Create Data Center Specific Tariff",
+			"container": "News release",
+			"publisher": "Public Utilities Commission of Ohio",
+			"published": "2025-07-09",
+			"url": "https://content.govdelivery.com/accounts/OHPUC/bulletins/3e8bb79",
+			"accessed": "2026-11-22",
+			"note": "Case 24-508-EL-ATA"
+		},
+		{
+			"kind": "media",
+			"title": "US data center electricity use, estimated 2014–2023 and projected for 2028",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "2024 United States Data Center Energy Usage Report, figure ES-1",
+			"doi": "10.71468/P1WC7Q",
+			"accessed": "2026-11-22",
+			"licence": "MIT",
+			"file": "us-use.svg"
+		}
+	]
+}

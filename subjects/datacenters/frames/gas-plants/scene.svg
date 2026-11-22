@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+	<g stroke-width="0.6" opacity="0.55">
+		<path pathLength="1" d="M14 92 L176 92"/>
+		<path pathLength="1" d="M150 214 L300 214"/>
+		<path pathLength="1" d="M10 268 L390 268"/>
+		<path pathLength="1" d="M200 44 L200 150"/>
+		<path pathLength="1" d="M212 44 L212 150"/>
+		<path pathLength="1" d="M224 44 L224 150"/>
+		<path pathLength="1" d="M236 44 L236 150"/>
+		<path pathLength="1" d="M248 44 L248 150"/>
+		<path pathLength="1" d="M260 44 L260 150"/>
+		<path pathLength="1" d="M272 44 L272 150"/>
+	</g>
+	<g>
+		<path pathLength="1" d="M24 65 L70 79 L70 105 L24 119 Z"/>
+		<path pathLength="1" d="M70 75 L92 75 L92 109 L70 109 Z"/>
+		<path pathLength="1" d="M92 77 L136 63 L136 121 L92 107 Z"/>
+		<path pathLength="1" d="M142 79 L168 79 L168 105 L142 105 Z"/>
+		<path pathLength="1" d="M147 92 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0"/>
+		<path pathLength="1" d="M136 63 L190 40 L282 40 L282 6"/>
+		<path pathLength="1" d="M136 121 L190 156 L300 156 L300 6"/>
+		<path pathLength="1" d="M190 201 L250 186 L250 242 L190 227 Z"/>
+		<path pathLength="1" d="M254 201 L280 201 L280 227 L254 227 Z"/>
+		<path pathLength="1" d="M259 214 a8 8 0 1 0 16 0 a8 8 0 1 0 -16 0"/>
+		<path pathLength="1" d="M196 238 L250 238 L250 260 L196 260 Z"/>
+	</g>
+	<g stroke-width="0.9" opacity="0.8">
+		<path pathLength="1" d="M31.7 69.3 L31.7 114.7"/>
+		<path pathLength="1" d="M39.3 71.7 L39.3 112.3"/>
+		<path pathLength="1" d="M47 74 L47 110"/>
+		<path pathLength="1" d="M54.7 76.3 L54.7 107.7"/>
+		<path pathLength="1" d="M62.3 78.7 L62.3 105.3"/>
+		<path pathLength="1" d="M100.8 76.2 L100.8 107.8"/>
+		<path pathLength="1" d="M109.6 73.4 L109.6 110.6"/>
+		<path pathLength="1" d="M118.4 70.6 L118.4 113.4"/>
+		<path pathLength="1" d="M127.2 67.8 L127.2 116.2"/>
+		<path pathLength="1" d="M200 200.5 L200 227.5"/>
+		<path pathLength="1" d="M210 198 L210 230"/>
+		<path pathLength="1" d="M220 195.5 L220 232.5"/>
+		<path pathLength="1" d="M230 193 L230 235"/>
+		<path pathLength="1" d="M240 190.5 L240 237.5"/>
+		<path pathLength="1" d="M204 156 L204 180 L176 180 L176 214 L190 214"/>
+		<path pathLength="1" d="M185.5 216.2 L190 214 L185.5 211.8"/>
+		<path pathLength="1" d="M223 260 L223 278 L362 278 L362 172 L290 172 L290 156"/>
+		<path pathLength="1" d="M292.2 160.5 L290 156 L287.8 160.5"/>
+		<path pathLength="1" d="M265 278 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0"/>
+		<path pathLength="1" d="M4 92 L20 92"/>
+		<path pathLength="1" d="M15.5 94.2 L20 92 L15.5 89.8"/>
+		<path pathLength="1" d="M81 40 L81 75"/>
+		<path pathLength="1" d="M78.8 70.5 L81 75 L83.2 70.5"/>
+		<path pathLength="1" d="M285 4 q 3 -4 0 -8"/>
+		<path pathLength="1" d="M291 4 q 3 -4 0 -8"/>
+		<path pathLength="1" d="M297 4 q 3 -4 0 -8"/>
+		<path pathLength="1" d="M166 249 L196 249"/>
+		<path pathLength="1" d="M191.5 251.2 L196 249 L191.5 246.8"/>
+		<path pathLength="1" d="M250 249 L276 249"/>
+		<path pathLength="1" d="M271.5 251.2 L276 249 L271.5 246.8"/>
+		<path pathLength="1" d="M22 160 L62 160 L62 170 L22 170 Z"/>
+		<path pathLength="1" d="M22 186 L82 186 L82 196 L22 196 Z"/>
+		<path pathLength="1" d="M22 156 L22 202"/>
+	</g>
+	<g>
+		<text x="47" y="132" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COMPRESSOR</text>
+		<text x="81" y="121" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">BURNER</text>
+		<text x="114" y="134" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GAS TURBINE</text>
+		<text x="92" y="44" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GAS</text>
+		<text x="10" y="84" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">AIR</text>
+		<text x="236" y="32" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">HEAT-RECOVERY BOILER</text>
+		<text x="306" y="20" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">STACK</text>
+		<text x="286" y="217" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">STEAM TURBINE</text>
+		<text x="223" y="254" font-size="7" text-anchor="middle" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">CONDENSER</text>
+		<text x="22" y="152" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">SHARE OF FUEL HEAT TO POWER</text>
+		<text x="66" y="168" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">GAS TURBINE ~40%</text>
+		<text x="86" y="194" font-size="7" text-anchor="start" fill="currentColor" stroke="none" font-family="ui-monospace, monospace" letter-spacing="1">COMBINED CYCLE ~60%</text>
+	</g>
+</svg>

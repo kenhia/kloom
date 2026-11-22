@@ -477,6 +477,38 @@ description (a registry essay, a review, the score), said as such.
   "Foldout") to find a plate, and expect another scan of the same book
   to have cleaner OCR.
 
+## Energy, utilities and local government (sprint 059)
+
+- **SEC EDGAR** refuses a User-Agent without an email address, which kloom's
+  rules forbid: use a company's investor-relations page for its 10-K, 10-Q
+  and 8-K, or the filing as a named reporter quotes it.
+- **FERC** answers a script with 403; the Wayback Machine's CDX index
+  (`web.archive.org/cdx/search/cdx?url=ferc.gov/news-events/*`) finds its
+  statement pages, and their archived copies serve.
+- **Virginia's State Corporation Commission docket, its legislature and the
+  DEQ, and Municode's ordinance library** sit behind bot checks. JLARC's
+  reports download directly (`jlarc.virginia.gov/pdfs/reports/RptNNN.pdf`;
+  `Rpt598-1.pdf` is a different report). Virginia's agency reports to the
+  Assembly are at `rga.lis.virginia.gov/Published/<year>/<RD>/PDF`.
+- **County and federal map services are open and measured**: county ArcGIS
+  feature services (Loudoun's building layer, Prince William's Digital
+  Gateway), Census TIGERweb for roads and boundaries, the National Park
+  Service's boundaries. Plates drawn from them say so and give the source.
+- **Epoch AI's data** (`epoch.ai/data/…`, CSVs under CC BY) is the best
+  independent record of AI models' compute and of data centers actually
+  running, beside what companies announce.
+- **NREL's reports** (now the National Laboratory of the Rockies) come
+  through OSTI's `osti.gov/servlets/purl/<id>`; **USGS** publications through
+  `pubs.usgs.gov/pubs-services/publication/<id>` when the page refuses.
+- **The EU's press corner** renders in JavaScript; its JSON endpoint serves
+  the text: `ec.europa.eu/commission/presscorner/api/documents?reference=
+IP/26/1667&language=en`.
+- **The IEA** answers 403; the Wayback `id_` form serves its pages.
+- **A modern gazette** (the Bundesgesetzblatt since 2023, the EU Official
+  Journal's L series, the Staatscourant) is numbered by act, not page: the
+  `gazette` form still asks a page, so give the act's first page, "1", and
+  the issue number in `note` until the schema holds one.
+
 ## Broken certificates
 
 - **Oracc**'s cuneiform editions serve an incomplete certificate chain:

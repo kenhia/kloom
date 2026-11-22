@@ -1,0 +1,262 @@
+{
+	"id": "carrier-hotel",
+	"topic": "Carrier hotels and colocation",
+	"position": {
+		"label": "1992–2001",
+		"sort": 1997
+	},
+	"scene": {
+		"headline": "The networks checked into a",
+		"accent": "HOTEL.",
+		"palette": "punchcard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MAE-EAST · 60 HUDSON STREET · ONE WILSHIRE",
+			"EXODUS · EQUINIX · THE TELECOM BUST"
+		],
+		"counter": {
+			"value": "4",
+			"label": "Network Access Points the NSF funded, 1994"
+		}
+	},
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Retiring the NSFNET Backbone Service: Chronicling the End of an Era",
+			"authors": [
+				{
+					"family": "Harris",
+					"given": "Susan R."
+				},
+				{
+					"family": "Gerich",
+					"given": "Elise"
+				}
+			],
+			"container": "ConneXions",
+			"volume": "10",
+			"issue": "4",
+			"published": "1996-04",
+			"url": "https://www.merit.edu/wp-content/uploads/2019/06/Retiring-the-NSFNET-Backbone-Service_-Chronicling-the-End-of-an-Era-1.pdf",
+			"accessed": "2026-11-22",
+			"note": "The 1994 awards and the four Network Access Points; read in Merit Network's reprint"
+		},
+		{
+			"kind": "chapter",
+			"key": true,
+			"title": "Internet Traffic Growth: Sources and Implications",
+			"authors": [
+				{
+					"family": "Odlyzko",
+					"given": "Andrew M."
+				}
+			],
+			"container": "Optical Transmission Systems and Equipment for WDM Networking II",
+			"editors": [
+				{
+					"family": "Dingel",
+					"given": "Benjamin B."
+				},
+				{
+					"family": "Weiershausen",
+					"given": "Werner"
+				},
+				{
+					"family": "Dutta",
+					"given": "Achyut K."
+				},
+				{
+					"family": "Sato",
+					"given": "Ken-Ichi"
+				}
+			],
+			"volume": "5247",
+			"publisher": "SPIE",
+			"published": "2003-08-19",
+			"doi": "10.1117/12.512942",
+			"url": "https://www-users.cse.umn.edu/~odlyzko/doc/itcom.internet.growth.pdf",
+			"accessed": "2026-11-22",
+			"note": "Table 1, traffic estimates; section 3, the 'doubling every 100 days' claim; section 4, utilization"
+		},
+		{
+			"kind": "web",
+			"title": "Exodus Files for Chapter 11 Bankruptcy Protection",
+			"authors": [
+				{
+					"name": "eWEEK Editors"
+				}
+			],
+			"container": "eWeek",
+			"publisher": "TechnologyAdvice",
+			"published": "2001-09-26",
+			"url": "https://www.eweek.com/news/exodus-files-for-chapter-11-bankruptcy-protection/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "MAE-East",
+			"url": "https://en.wikipedia.org/w/index.php?title=MAE-East&oldid=1378512805",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "MAE-West",
+			"url": "https://en.wikipedia.org/w/index.php?title=MAE-West&oldid=1384003041",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-06"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Internet exchange point",
+			"url": "https://en.wikipedia.org/w/index.php?title=Internet_exchange_point&oldid=1328732568",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2025-12-21"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "60 Hudson Street",
+			"url": "https://en.wikipedia.org/w/index.php?title=60_Hudson_Street&oldid=1381177223",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "One Wilshire",
+			"url": "https://en.wikipedia.org/w/index.php?title=One_Wilshire&oldid=1386760177",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-20"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Colocation centre",
+			"url": "https://en.wikipedia.org/w/index.php?title=Colocation_centre&oldid=1373665111",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-07"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Exodus Communications",
+			"url": "https://en.wikipedia.org/w/index.php?title=Exodus_Communications&oldid=1386209122",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-17"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Equinix",
+			"url": "https://en.wikipedia.org/w/index.php?title=Equinix&oldid=1383785461",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-04"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dot-com bubble",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dot-com_bubble&oldid=1384765294",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-10"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Dark fibre",
+			"url": "https://en.wikipedia.org/w/index.php?title=Dark_fibre&oldid=1384557636",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-11-08"
+		},
+		{
+			"kind": "media",
+			"title": "60 Hudson Street",
+			"url": "https://commons.wikimedia.org/wiki/File:60_Hudson_Street.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC BY-SA 4.0",
+			"file": "hudson.jpg",
+			"authors": [
+				{
+					"name": "Beyond My Ken"
+				}
+			],
+			"container": "Wikimedia Commons",
+			"published": "2012-02-15"
+		}
+	],
+	"connections": [
+		{
+			"to": "computing/internet",
+			"why": "The NSFNET backbone that the internet frame sees retired in April 1995 left long-distance traffic to commercial carriers, and the exchange points and carrier hotels here are where those carriers met."
+		},
+		{
+			"to": "datacenters/bubble",
+			"why": "The fiber and colocation overbuild of the late 1990s is the history both sides cite in arguing whether AI building is a bubble."
+		}
+	]
+}

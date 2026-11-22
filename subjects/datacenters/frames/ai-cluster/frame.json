@@ -1,0 +1,229 @@
+{
+	"id": "ai-cluster",
+	"topic": "The AI training cluster",
+	"position": {
+		"label": "2020–24",
+		"sort": 2023
+	},
+	"scene": {
+		"headline": "Thousands of chips work as",
+		"accent": "ONE.",
+		"palette": "punchcard",
+		"illustration": "scene.svg",
+		"metadata": [
+			"MICROSOFT AND OPENAI, IOWA · META, LLAMA 3",
+			"H100 GPUS · 700 W EACH · A THREE-LAYER NETWORK"
+		],
+		"counter": {
+			"value": "16,384",
+			"label": "GPUs that trained Llama 3 405B"
+		}
+	},
+	"connections": [
+		{
+			"to": "ai/compute",
+			"why": "Both describe Meta's clusters of about 24,000 H100 chips: AI compute and hardware for the chips and the growth of training compute, this frame for the network, power and water of the building around them."
+		},
+		{
+			"to": "datacenters/inside-a-data-center",
+			"why": "Inside a data center gives the 132-kilowatt liquid-cooled rack and the ratios a building is measured by; this frame shows the training cluster that drove racks toward that density."
+		},
+		{
+			"to": "datacenters/water-totals",
+			"why": "The AP's report on Microsoft's West Des Moines campus in July 2022 is one of few measured water figures for a training cluster."
+		},
+		{
+			"to": "datacenters/flexible-load",
+			"why": "Meta's Llama 3 paper reports power swings of tens of megawatts across the cluster as jobs paused and resumed."
+		},
+		{
+			"to": "datacenters/carbon-accounting",
+			"why": "Meta reports its emissions under both accounting methods, the gap that frame explains."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "The Llama 3 Herd of Models",
+			"authors": [
+				{
+					"name": "Llama Team, AI @ Meta"
+				}
+			],
+			"container": "arXiv preprint arXiv:2407.21783",
+			"published": "2024-07",
+			"url": "https://arxiv.org/abs/2407.21783",
+			"accessed": "2026-11-22",
+			"note": "The cluster and its network, section 3.3.1; the power swings, section 3.3.4"
+		},
+		{
+			"kind": "web",
+			"title": "Llama 3.1 Model Card",
+			"container": "meta-llama/llama-models, GitHub",
+			"publisher": "Meta",
+			"published": "2024-07",
+			"url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Artificial Intelligence Technology behind ChatGPT Was Built in Iowa — with a Lot of Water",
+			"authors": [
+				{
+					"family": "O'Brien",
+					"given": "Matt"
+				},
+				{
+					"family": "Fingerhut",
+					"given": "Hannah"
+				}
+			],
+			"container": "AP News",
+			"publisher": "Associated Press",
+			"published": "2023-09-09",
+			"url": "https://apnews.com/article/chatgpt-gpt4-iowa-ai-water-consumption-microsoft-f551fde98083d17a7e8d904f8be822c4",
+			"accessed": "2026-11-22",
+			"note": "Read through the Wayback Machine"
+		},
+		{
+			"kind": "web",
+			"title": "Microsoft Announces New Supercomputer, Lays Out Vision for Future AI Work",
+			"authors": [
+				{
+					"family": "Langston",
+					"given": "Jennifer"
+				}
+			],
+			"container": "Microsoft Source",
+			"publisher": "Microsoft",
+			"published": "2020-05-19",
+			"url": "https://news.microsoft.com/source/features/innovation/openai-azure-supercomputer/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2024 United States Data Center Energy Usage Report",
+			"authors": [
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Smith",
+					"given": "Sarah J."
+				},
+				{
+					"family": "Hubbard",
+					"given": "Alex"
+				},
+				{
+					"family": "Newkirk",
+					"given": "Alex"
+				},
+				{
+					"family": "Lei",
+					"given": "Nuoa"
+				},
+				{
+					"family": "Siddik",
+					"given": "Md Abu Bakar"
+				},
+				{
+					"family": "Holecek",
+					"given": "Billie"
+				}
+			],
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"number": "LBNL-2001637",
+			"published": "2024-12",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+			"accessed": "2026-11-22",
+			"note": "Training and inference, and the measured H100 node power, pp. 22–24; AI servers' energy use, figure 5.1"
+		},
+		{
+			"kind": "report",
+			"title": "Key Questions on Energy and AI",
+			"authors": [
+				{
+					"name": "International Energy Agency"
+				}
+			],
+			"place": "Paris",
+			"publisher": "International Energy Agency",
+			"published": "2026-04",
+			"url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+			"accessed": "2026-11-22",
+			"note": "Read in its executive summary"
+		},
+		{
+			"kind": "article",
+			"title": "The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink",
+			"authors": [
+				{
+					"family": "Patterson",
+					"given": "David"
+				},
+				{
+					"family": "Gonzalez",
+					"given": "Joseph"
+				},
+				{
+					"family": "Hölzle",
+					"given": "Urs"
+				},
+				{
+					"family": "Le",
+					"given": "Quoc"
+				},
+				{
+					"family": "Liang",
+					"given": "Chen"
+				},
+				{
+					"family": "Munguia",
+					"given": "Lluis-Miquel"
+				},
+				{
+					"family": "Rothchild",
+					"given": "Daniel"
+				}
+			],
+			"etAl": true,
+			"container": "Computer",
+			"volume": "55",
+			"issue": "7",
+			"pages": "18–28",
+			"published": "2022-07",
+			"doi": "10.1109/MC.2022.3148714",
+			"url": "https://arxiv.org/abs/2204.05149",
+			"accessed": "2026-11-22",
+			"note": "Read in the arXiv preprint"
+		},
+		{
+			"kind": "report",
+			"title": "Data Center Capacity Growth Trends: Findings from the 2026 Global Data Center Survey",
+			"authors": [
+				{
+					"name": "Uptime Institute"
+				}
+			],
+			"publisher": "Uptime Institute",
+			"published": "2026-08",
+			"url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026%20Annual%20Survey%20Data%20Center%20Growth%20v6.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "NVIDIA GB200 NVL72",
+			"container": "NVIDIA Data Center",
+			"publisher": "NVIDIA",
+			"url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+			"accessed": "2026-11-22"
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"datacenters/moratoriums": [
+		["moratorium", "moratorium-law"],
+		["Kathy Hochul", "kathy-hochul"],
+		["New York", "new-york-state"],
+		["Greg Abbott", "greg-abbott"],
+		["Texas", "texas"],
+		["ERCOT", "electric-reliability-council-of-texas"],
+		["Cascade Locks, Oregon", "cascade-locks-oregon"],
+		["Warrenton, Virginia", "warrenton-virginia"],
+		["Amazon", "amazon-company"],
+		["Independence, Missouri", "independence-missouri"],
+		["Port Washington, Wisconsin", "port-washington-wisconsin"],
+		["Ballotpedia", "ballotpedia"],
+		["Montgomery County", "montgomery-county-maryland"],
+		["Pima County", "pima-county-arizona"],
+		["Brookings Institution", "brookings-institution"]
+	],
+	"datacenters/federal-push": [
+		["Joe Biden", "joe-biden"],
+		["Donald Trump", "donald-trump"],
+		["National Environmental Policy Act", "national-environmental-policy-act"],
+		["Army Corps of Engineers", "united-states-army-corps-of-engineers"],
+		["Department of Energy", "united-states-department-of-energy"],
+		["Idaho National Laboratory", "idaho-national-laboratory"],
+		["Paducah Gaseous Diffusion Plant", "paducah-gaseous-diffusion-plant"],
+		["Savannah River Site", "savannah-river-site"],
+		["Portsmouth Gaseous Diffusion Plant", "portsmouth-gaseous-diffusion-plant"],
+		["Clean Water Act", "clean-water-act"],
+		["Chris Wright", "chris-wright"],
+		["Federal Energy Regulatory Commission", "federal-energy-regulatory-commission"],
+		["Martin Heinrich", "martin-heinrich"],
+		["Southern Environmental Law Center", "southern-environmental-law-center"],
+		["One Big Beautiful Bill Act", "one-big-beautiful-bill-act"]
+	]
+}

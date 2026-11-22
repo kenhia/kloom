@@ -1,0 +1,59 @@
+{
+	"title": "US data center electricity use, estimated 2014–2023 and projected for 2028",
+	"description": "Bar chart of Lawrence Berkeley National Laboratory's December 2024 estimates of US data center electricity use, in terawatt-hours: about 60 in 2014 and in 2016, 76 in 2018 and 176 in 2023, and its projection for 2028 of 325 in the low scenario and 580 in the high one, 6.7% to 12.0% of US electricity. Data: 2024 United States Data Center Energy Usage Report, figure ES-1.",
+	"heading": "US DATA CENTER USE, TWh · 2028 PROJECTED",
+	"unit": "",
+	"width": 480,
+	"axis": {
+		"min": 0,
+		"max": 600,
+		"ticks": [
+			[0, "0"],
+			[200, "200"],
+			[400, "400"],
+			[600, "600"]
+		]
+	},
+	"bars": [
+		{
+			"label": "2014",
+			"sublabel": "est.",
+			"value": 60,
+			"display": "~60"
+		},
+		{
+			"label": "2016",
+			"sublabel": "est.",
+			"value": 60,
+			"display": "~60"
+		},
+		{
+			"label": "2018",
+			"sublabel": "est.",
+			"value": 76
+		},
+		{
+			"label": "2023",
+			"sublabel": "est.",
+			"value": 176
+		},
+		{
+			"label": "2028",
+			"sublabel": "proj. low",
+			"value": 325,
+			"highlight": true
+		},
+		{
+			"label": "2028",
+			"sublabel": "proj. high",
+			"value": 580,
+			"highlight": true
+		}
+	],
+	"source": {
+		"container": "2024 United States Data Center Energy Usage Report, figure ES-1",
+		"doi": "10.71468/P1WC7Q",
+		"accessed": "2026-11-22"
+	},
+	"barWidth": 44
+}

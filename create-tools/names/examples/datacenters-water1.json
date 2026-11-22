@@ -1,0 +1,25 @@
+{
+	"datacenters/where-water-goes": [
+		["Lawrence Berkeley National Laboratory", "lawrence-berkeley-national-laboratory"],
+		["Microsoft", "microsoft"],
+		["heat exchanger", "heat-exchanger"],
+		["cooling tower", "cooling-tower"],
+		["chiller", "chiller"],
+		["evaporative cooler", "evaporative-cooler"],
+		["water usage effectiveness", "water-usage-effectiveness"],
+		["Google", "google"],
+		["Council Bluffs", "council-bluffs-iowa"],
+		["Amazon", "amazon-company"],
+		["Environmental and Energy Study Institute", "environmental-and-energy-study-institute"]
+	],
+	"datacenters/water-totals": [
+		["Lawrence Berkeley National Laboratory", "lawrence-berkeley-national-laboratory"],
+		["Google", "google"],
+		["Microsoft", "microsoft"],
+		["Meta", "meta-platforms"],
+		["Amazon", "amazon-company"],
+		["United States Geological Survey", "united-states-geological-survey"],
+		["Environmental and Energy Study Institute", "environmental-and-energy-study-institute"],
+		["California", "california"]
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"datacenters/power-plant-water": [
+		["Lawrence Berkeley National Laboratory", "lawrence-berkeley-national-laboratory"],
+		["thermal power station", "thermal-power-station"],
+		["Carnot", "nicolas-leonard-sadi-carnot"],
+		["cooling tower", "cooling-tower"],
+		["United States Geological Survey", "united-states-geological-survey"],
+		["National Renewable Energy Laboratory", "national-laboratory-of-the-rockies"],
+		["Hydroelectricity", "hydroelectricity"],
+		["Energy Information Administration", "energy-information-administration"]
+	],
+	"datacenters/water-per-prompt": [
+		["University of California, Riverside", "university-of-california-riverside"],
+		["ChatGPT", "chatgpt"],
+		["GPT-3", "gpt-3"],
+		["OpenAI", "openai"],
+		["Microsoft", "microsoft"],
+		["The Washington Post", "the-washington-post"],
+		["GPT-4", "gpt-4"],
+		["Google", "google"],
+		["Gemini", "gemini-language-model"],
+		["Sam Altman", "sam-altman"],
+		["Mistral AI", "mistral-ai"]
+	]
+}

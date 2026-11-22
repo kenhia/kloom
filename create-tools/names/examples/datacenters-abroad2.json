@@ -1,0 +1,21 @@
+{
+	"datacenters/ireland-grid": [
+		["Ireland", "republic-of-ireland"],
+		["Central Statistics Office", "central-statistics-office-ireland"],
+		["data centers", "data-center"],
+		["Dublin", "dublin"],
+		["EirGrid", "eirgrid"],
+		["Commission for Regulation of Utilities", "commission-for-regulation-of-utilities"],
+		["ClientEarth", "clientearth"]
+	],
+	"datacenters/germany-efficiency-act": [
+		["Germany", "germany"],
+		["data center", "data-center"],
+		["power usage effectiveness", "power-usage-effectiveness"],
+		["European Union", "european-union"],
+		["Frankfurt", "frankfurt"],
+		["DE-CIX", "de-cix"],
+		["district heating", "district-heating"],
+		["Umweltbundesamt", "umweltbundesamt"]
+	]
+}

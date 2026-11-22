@@ -1,0 +1,264 @@
+{
+	"id": "efficiency-case",
+	"topic": "The efficiency argument",
+	"position": {
+		"label": "Efficiency"
+	},
+	"scene": {
+		"headline": "For eight years, energy stayed nearly",
+		"accent": "FLAT.",
+		"palette": "ledger",
+		"illustration": "scene.svg",
+		"metadata": ["MASANET · SHEHABI · LEI · SMITH · KOOMEY", "SCIENCE · FEBRUARY 2020 · 2010–2018"],
+		"counter": {
+			"value": "6%",
+			"label": "energy rise as compute rose 550%, 2010–18 (estimate)"
+		}
+	},
+	"connections": [
+		{
+			"to": "computing/end-of-scaling",
+			"why": "Koomey's law slowed after 2000 with the end of Dennard scaling, the power wall that end-of-scaling describes, which is why efficiency could no longer double every year and a half."
+		},
+		{
+			"to": "datacenters/inside-a-data-center",
+			"why": "Power usage effectiveness, the overhead ratio that frame defines, fell by a quarter from 2010 to 2018 and is one of the four reasons the Science estimate gives for nearly flat energy use."
+		},
+		{
+			"to": "datacenters/power-demand",
+			"why": "The flat decade the efficiency argument rests on ended after 2017, the turn the national estimates and forecasts start from."
+		}
+	],
+	"citations": [
+		{
+			"kind": "article",
+			"key": true,
+			"title": "Recalibrating Global Data Center Energy-Use Estimates",
+			"authors": [
+				{
+					"family": "Masanet",
+					"given": "Eric"
+				},
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Lei",
+					"given": "Nuoa"
+				},
+				{
+					"family": "Smith",
+					"given": "Sarah"
+				},
+				{
+					"family": "Koomey",
+					"given": "Jonathan"
+				}
+			],
+			"container": "Science",
+			"volume": "367",
+			"issue": "6481",
+			"pages": "984–86",
+			"published": "2020-02-28",
+			"doi": "10.1126/science.aba3758",
+			"accessed": "2026-11-22",
+			"note": "The 2010–2018 estimate and its first figure; funding in the acknowledgments"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "2024 United States Data Center Energy Usage Report",
+			"authors": [
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Smith",
+					"given": "Sarah J."
+				},
+				{
+					"family": "Hubbard",
+					"given": "Alex"
+				},
+				{
+					"family": "Newkirk",
+					"given": "Alex"
+				},
+				{
+					"family": "Lei",
+					"given": "Nuoa"
+				},
+				{
+					"family": "Siddik",
+					"given": "Md Abu Bakar"
+				},
+				{
+					"family": "Holecek",
+					"given": "Billie"
+				}
+			],
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"number": "LBNL-2001637",
+			"published": "2024-12",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+			"accessed": "2026-11-22",
+			"note": "The end of flat energy use, executive summary and section 7; comparison with the 2016 report, section 5; total use, figure ES-1"
+		},
+		{
+			"kind": "report",
+			"key": true,
+			"title": "Scaling Up Energy Efficiency Across the Data Center Industry: Evaluating Key Drivers and Barriers",
+			"authors": [
+				{
+					"family": "Whitney",
+					"given": "Josh"
+				},
+				{
+					"family": "Delforge",
+					"given": "Pierre"
+				}
+			],
+			"publisher": "Natural Resources Defense Council",
+			"place": "New York",
+			"number": "IP:14-08-a",
+			"published": "2014-08",
+			"url": "https://www.nrdc.org/sites/default/files/data-center-efficiency-assessment-IP.pdf",
+			"accessed": "2026-11-22",
+			"note": "Research by Anthesis for NRDC; server utilization, section 2.2"
+		},
+		{
+			"kind": "article",
+			"title": "Implications of Historical Trends in the Electrical Efficiency of Computing",
+			"authors": [
+				{
+					"family": "Koomey",
+					"given": "Jonathan"
+				},
+				{
+					"family": "Berard",
+					"given": "Stephen"
+				},
+				{
+					"family": "Sanchez",
+					"given": "Marla"
+				},
+				{
+					"family": "Wong",
+					"given": "Henry"
+				}
+			],
+			"container": "IEEE Annals of the History of Computing",
+			"volume": "33",
+			"issue": "3",
+			"pages": "46–54",
+			"published": "2011",
+			"doi": "10.1109/MAHC.2010.28",
+			"accessed": "2026-11-22",
+			"read": "abstract"
+		},
+		{
+			"kind": "web",
+			"title": "Moore's Law Might Be Slowing Down, But Not Energy Efficiency",
+			"authors": [
+				{
+					"family": "Koomey",
+					"given": "Jonathan"
+				},
+				{
+					"family": "Naffziger",
+					"given": "Samuel"
+				}
+			],
+			"container": "IEEE Spectrum",
+			"publisher": "IEEE",
+			"published": "2015-03-31",
+			"url": "https://spectrum.ieee.org/moores-law-might-be-slowing-down-but-not-energy-efficiency",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "2025 Environmental Report",
+			"authors": [
+				{
+					"name": "Google"
+				}
+			],
+			"publisher": "Google",
+			"published": "2025",
+			"url": "https://www.gstatic.com/gumdrop/sustainability/google-2025-environmental-report.pdf",
+			"accessed": "2026-11-22",
+			"note": "The company's own figures: data center electricity in the environmental data table; computing per unit of electricity, p. 21"
+		},
+		{
+			"kind": "web",
+			"title": "Efficiency",
+			"container": "Google Data Centers",
+			"publisher": "Google",
+			"url": "https://datacenters.google/efficiency/",
+			"accessed": "2026-11-22",
+			"note": "Over three times more compute per unit of energy in 2025 than five years before, Google's own figure"
+		},
+		{
+			"kind": "report",
+			"title": "Key Questions on Energy and AI",
+			"authors": [
+				{
+					"name": "International Energy Agency"
+				}
+			],
+			"place": "Paris",
+			"publisher": "International Energy Agency",
+			"published": "2026-04-16",
+			"url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Koomey's law",
+			"url": "https://en.wikipedia.org/w/index.php?title=Koomey's_law&oldid=1376476242",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-09-24"
+		},
+		{
+			"kind": "media",
+			"title": "Server room",
+			"url": "https://commons.wikimedia.org/wiki/File:Server_room_-_Flickr_-_sylvar.jpg",
+			"accessed": "2026-11-22",
+			"licence": "CC BY 2.0",
+			"file": "server-closet.jpg",
+			"authors": [
+				{
+					"name": "sylvar"
+				}
+			],
+			"container": "Flickr, via Wikimedia Commons",
+			"published": "2005-08-05"
+		},
+		{
+			"kind": "media",
+			"title": "Electricity used by Google's data centers, 2020–2024",
+			"authors": [
+				{
+					"name": "kloom contributors"
+				}
+			],
+			"published": "2026",
+			"container": "Google, 2025 Environmental Report, environmental data table",
+			"url": "https://www.gstatic.com/gumdrop/sustainability/google-2025-environmental-report.pdf",
+			"accessed": "2026-11-22",
+			"licence": "MIT",
+			"file": "google-electricity.svg"
+		}
+	]
+}

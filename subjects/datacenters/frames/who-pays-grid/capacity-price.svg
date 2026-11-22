@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-labelledby="t d">
+<title id="t">PJM capacity auction clearing prices, delivery years 2024/25 to 2028/29</title>
+<desc id="d">Bar chart of the price at which PJM's base residual capacity auction cleared across its whole region, in dollars per megawatt-day of unforced capacity: $28.92 for 2024/25, $269.92 for 2025/26, then at the price cap: $329.17 for 2026/27, $333.44 for 2027/28 and $325.00 for 2028/29. Data: PJM, 2028/2029 Base Residual Auction report, table 2.</desc>
+<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="11" fill="currentColor">
+<g class="muted">
+<line x1="64" x2="480" y1="250.0" y2="250.0" stroke="currentColor" stroke-opacity="0.9" stroke-width="1"/>
+<text x="56" y="254.0" text-anchor="end">0</text>
+<line x1="64" x2="480" y1="196.5" y2="196.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="200.5" text-anchor="end">100</text>
+<line x1="64" x2="480" y1="143.0" y2="143.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="147.0" text-anchor="end">200</text>
+<line x1="64" x2="480" y1="89.5" y2="89.5" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="93.5" text-anchor="end">300</text>
+<line x1="64" x2="480" y1="36.0" y2="36.0" stroke="currentColor" stroke-opacity="0.3" stroke-width="0.6"/>
+<text x="56" y="40.0" text-anchor="end">400</text>
+</g>
+<rect x="81.6" y="234.5" width="48" height="15.5" fill-opacity="0.85"/>
+<text x="105.6" y="228.5" text-anchor="middle">28.92</text>
+<text x="105.6" y="266" text-anchor="middle">2024/25</text>
+<rect x="164.8" y="105.6" width="48" height="144.4" fill-opacity="0.85"/>
+<text x="188.8" y="99.6" text-anchor="middle">269.92</text>
+<text x="188.8" y="266" text-anchor="middle">2025/26</text>
+<rect x="248.0" y="73.9" width="48" height="176.1" class="accent" fill="currentColor"/>
+<text x="272.0" y="67.9" text-anchor="middle">329.17</text>
+<text x="272.0" y="266" text-anchor="middle">2026/27</text>
+<rect x="331.2" y="71.6" width="48" height="178.4" class="accent" fill="currentColor"/>
+<text x="355.2" y="65.6" text-anchor="middle">333.44</text>
+<text x="355.2" y="266" text-anchor="middle">2027/28</text>
+<rect x="414.4" y="76.1" width="48" height="173.9" class="accent" fill="currentColor"/>
+<text x="438.4" y="70.1" text-anchor="middle">325.00</text>
+<text x="438.4" y="266" text-anchor="middle">2028/29</text>
+<text x="64" y="20" font-size="12" letter-spacing="1">PJM CAPACITY PRICE, $/MW-DAY · HIGHLIGHT: AT THE CAP</text>
+</g></svg>

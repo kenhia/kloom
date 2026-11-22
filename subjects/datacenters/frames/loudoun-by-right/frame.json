@@ -1,0 +1,194 @@
+{
+	"id": "loudoun-by-right",
+	"topic": "Loudoun ends by-right data centers",
+	"position": {
+		"label": "2025–26",
+		"sort": 2025
+	},
+	"asOf": "2026-11-22",
+	"scene": {
+		"headline": "Loudoun added a public",
+		"accent": "HEARING.",
+		"palette": "chamber",
+		"illustration": "scene.svg",
+		"metadata": [
+			"LOUDOUN COUNTY BOARD OF SUPERVISORS",
+			"ZOAM-2024-0001 · SPECIAL EXCEPTION · 2025–2026"
+		],
+		"counter": {
+			"value": "7–2",
+			"label": "the vote that ended by-right data centers, March 2025"
+		}
+	},
+	"citations": [
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Phase 1: Project Plan for Data Center Standards & Locations",
+			"authors": [
+				{
+					"name": "Loudoun County Department of Planning and Zoning"
+				}
+			],
+			"publisher": "Loudoun County, Virginia",
+			"url": "https://www.loudoun.gov/6221/Phase-1-Project-Plan-for-Data-Center-Sta",
+			"accessed": "2026-11-22",
+			"note": "CPAM-2024-0001 and ZOAM-2024-0001, the districts affected and the grandfathering cutoff"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "Loudoun Board Pauses Legislative Data Center & Substation Applications",
+			"authors": [
+				{
+					"name": "Loudoun County"
+				}
+			],
+			"publisher": "Loudoun County, Virginia",
+			"published": "2026-11-18",
+			"url": "https://www.loudoun.gov/CivicAlerts.aspx?AID=10993",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"key": true,
+			"title": "After Years of Residents' Pleas, Loudoun Pauses to Rethink Data Center Rules",
+			"container": "The Blue Ridge Leader & Loudoun Today",
+			"publisher": "Blue Ridge Leader",
+			"published": "2026-11-18",
+			"url": "https://blueridgeleader.com/after-years-of-residents-pleas-loudoun-pauses-to-rethink-data-center-rules/",
+			"accessed": "2026-11-22",
+			"note": "The hearing of November 17, 2026: residents', the industry's and the county attorney's accounts"
+		},
+		{
+			"kind": "web",
+			"title": "Data Centers: Land Use Considerations",
+			"authors": [
+				{
+					"name": "Loudoun County"
+				}
+			],
+			"publisher": "Loudoun County, Virginia",
+			"url": "https://www.loudoun.gov/6410/Land-Use-Considerations",
+			"accessed": "2026-11-22",
+			"note": "What by right means, and the county's view that a moratorium is not legally permissible"
+		},
+		{
+			"kind": "web",
+			"title": "Data Center By-Right Approval Process Killed in Loudoun County",
+			"authors": [
+				{
+					"family": "Leayman",
+					"given": "Emily"
+				}
+			],
+			"container": "Patch, Ashburn",
+			"publisher": "Patch Media",
+			"published": "2025-03-20",
+			"url": "https://patch.com/virginia/ashburn/data-center-right-approval-process-removed-loudoun-county",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Loudoun County Eliminates By-Right Use for Data Centers, Increasing Development Hurdles",
+			"authors": [
+				{
+					"name": "McGuireWoods"
+				}
+			],
+			"container": "Legal Alerts",
+			"publisher": "McGuireWoods",
+			"published": "2025-04-10",
+			"url": "https://www.mcguirewoods.com/client-resources/alerts/2025/4/loudoun-county-eliminates-by-right-use-for-data-centers-increasing-development-hurdles/",
+			"accessed": "2026-11-22",
+			"note": "The 5% limit on substantial modification"
+		},
+		{
+			"kind": "web",
+			"title": "Loudoun County, Virginia, Eliminates By-Right Data Center Development",
+			"authors": [
+				{
+					"family": "Schneider",
+					"given": "David I."
+				},
+				{
+					"family": "Becker",
+					"given": "Briana"
+				}
+			],
+			"container": "Holland & Knight Insights",
+			"publisher": "Holland & Knight",
+			"published": "2025-04-04",
+			"url": "https://www.hklaw.com/en/insights/publications/2025/04/loudoun-county-virginia-eliminates-by-right-data-center-development",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Loudoun Board Advances Review of Briskman-TeKrony Effort to End 2025 Grandfathering Exceptions",
+			"authors": [
+				{
+					"name": "Office of Supervisor Juli E. Briskman"
+				}
+			],
+			"publisher": "Loudoun County, Virginia",
+			"published": "2026-09-02",
+			"url": "https://www.loudoun.gov/DocumentCenter/View/222189/Loudoun-Board-Advances-Review-of-2025-Grandfathering-Exceptions",
+			"accessed": "2026-11-22",
+			"note": "A release from the two supervisors' offices: the 5–4 and 4–5 votes of March 2025, and 17 applications of about 11 million square feet"
+		},
+		{
+			"kind": "web",
+			"title": "Loudoun Board Formally Adopts Data Center Pause",
+			"authors": [
+				{
+					"name": "Office of Supervisor Juli E. Briskman"
+				}
+			],
+			"publisher": "Loudoun County, Virginia",
+			"published": "2026-11-18",
+			"url": "https://www.loudoun.gov/DocumentCenter/View/223074/Release---Loudoun-Board-Formally-Adopts-Data-Center-Pause",
+			"accessed": "2026-11-22",
+			"note": "A release from the supervisor's office: the counts of buildings and square feet"
+		},
+		{
+			"kind": "report",
+			"title": "Data Centers in Loudoun County",
+			"authors": [
+				{
+					"name": "Loudoun County"
+				}
+			],
+			"publisher": "Loudoun County, Virginia",
+			"published": "2026-09",
+			"url": "https://www.loudoun.gov/DocumentCenter/View/222193",
+			"accessed": "2026-11-22",
+			"note": "A county fact sheet, as of September 1, 2026: the FY 2027 budget's projected data center revenue"
+		},
+		{
+			"kind": "article",
+			"title": "Data Center Boom: A Test of Local Regulations",
+			"authors": [
+				{
+					"family": "Murph",
+					"given": "John"
+				}
+			],
+			"container": "Washington Lawyer",
+			"publisher": "District of Columbia Bar",
+			"published": "2026-09",
+			"url": "https://dcbar.org/news-events/publications/washington-lawyer-articles/data-center-boom-a-test-of-local-regulations",
+			"accessed": "2026-11-22",
+			"note": "September/October 2026 issue: the 2000 ruling and 2014 amendment, Supervisor Turner's paper, and the 2026 session"
+		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/zoning",
+			"why": "Loudoun's change moved data centers from approval by right to a special exception, the distinction zoning explains."
+		},
+		{
+			"to": "datacenters/ashburn-power",
+			"why": "Residents' complaints about new lines and substations were among the reasons supervisors gave for the change."
+		}
+	]
+}

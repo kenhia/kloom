@@ -1,0 +1,256 @@
+{
+	"id": "withdrawal-consumption",
+	"topic": "Withdrawal and consumption",
+	"position": {
+		"label": "Two numbers"
+	},
+	"scene": {
+		"headline": "Water is counted",
+		"accent": "TWICE.",
+		"palette": "tower",
+		"illustration": "scene.svg",
+		"metadata": ["WITHDRAWN · CONSUMED · DISCHARGED", "USGS · GOOGLE, COUNCIL BLUFFS, IOWA · 2025"],
+		"counter": {
+			"value": "78%",
+			"label": "of Google's data center withdrawals consumed, 2025"
+		}
+	},
+	"citations": [
+		{
+			"kind": "report",
+			"title": "Water Use Across the Conterminous United States, Water Years 2010–20",
+			"authors": [
+				{
+					"family": "Medalie",
+					"given": "L."
+				},
+				{
+					"family": "Galanter",
+					"given": "A. E."
+				},
+				{
+					"family": "Martinez",
+					"given": "A. J."
+				},
+				{
+					"family": "Archer",
+					"given": "A. A."
+				},
+				{
+					"family": "Luukkonen",
+					"given": "C. L."
+				},
+				{
+					"family": "Harris",
+					"given": "M. A."
+				},
+				{
+					"family": "Haynes",
+					"given": "J. V."
+				}
+			],
+			"publisher": "U.S. Geological Survey",
+			"place": "Reston, VA",
+			"number": "Professional Paper 1894–D",
+			"published": "2025",
+			"doi": "10.3133/pp1894D",
+			"url": "https://pubs.usgs.gov/pp/1894/d/pp1894D.pdf",
+			"accessed": "2026-11-22",
+			"key": true,
+			"note": "The terms, pp. 2–6; withdrawals and consumptive use by category, the abstract and key points"
+		},
+		{
+			"kind": "report",
+			"title": "2026 Environmental Report",
+			"authors": [
+				{
+					"name": "Google"
+				}
+			],
+			"publisher": "Google",
+			"place": "Mountain View, CA",
+			"published": "2026-06",
+			"url": "https://sustainability.google/google-2026-environmental-report/",
+			"accessed": "2026-11-22",
+			"key": true,
+			"note": "Water by data center location, p. 97, and the method, pp. 87–88: the company's own figures, given third-party limited assurance"
+		},
+		{
+			"kind": "chapter",
+			"title": "6.3 Cooling Towers",
+			"container": "WaterSense at Work: Best Management Practices for Commercial and Institutional Facilities",
+			"authors": [
+				{
+					"name": "U.S. Environmental Protection Agency"
+				}
+			],
+			"publisher": "U.S. Environmental Protection Agency",
+			"place": "Washington, DC",
+			"published": "2012-10",
+			"pages": "6-8–6-12",
+			"url": "https://www.epa.gov/system/files/documents/2023-05/ws-commercial-watersense-at-work_Section_6.3_Cooling_Towers.pdf",
+			"accessed": "2026-11-22",
+			"key": true,
+			"note": "Blowdown, cycles of concentration and water treatment"
+		},
+		{
+			"kind": "article",
+			"title": "Estimating Data Center Water Use: Best Practices and Critical Questions",
+			"authors": [
+				{
+					"family": "Masanet",
+					"given": "Eric"
+				}
+			],
+			"container": "arXiv preprint arXiv:2610.04735",
+			"published": "2026-10-03",
+			"url": "https://arxiv.org/abs/2610.04735",
+			"accessed": "2026-11-22",
+			"key": true,
+			"note": "Withdrawals, inputs, consumption and discharges, section 2; comparisons, sections 3.7 and 4.16"
+		},
+		{
+			"kind": "web",
+			"title": "Data Centers and Water Consumption",
+			"authors": [
+				{
+					"family": "Yañez-Barnuevo",
+					"given": "Miguel"
+				}
+			],
+			"container": "EESI",
+			"publisher": "Environmental and Energy Study Institute",
+			"published": "2025-06-25",
+			"url": "https://www.eesi.org/articles/view/data-centers-and-water-consumption",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "web",
+			"title": "Analyst Notes: Answering Your Questions about Data Centers and Water",
+			"authors": [
+				{
+					"name": "Trygve M."
+				}
+			],
+			"container": "USAFacts",
+			"publisher": "USAFacts",
+			"published": "2026-10-21",
+			"url": "https://usafacts.org/articles/analyst-notes/answering-your-questions-about-data-centers-and-water/",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "article",
+			"title": "Measuring the Environmental Impact of Delivering AI at Google Scale",
+			"authors": [
+				{
+					"family": "Elsworth",
+					"given": "Cooper"
+				},
+				{
+					"family": "Huang",
+					"given": "Keguo"
+				},
+				{
+					"family": "Patterson",
+					"given": "David"
+				},
+				{
+					"family": "Schneider",
+					"given": "Ian"
+				},
+				{
+					"family": "Sedivy",
+					"given": "Robert"
+				},
+				{
+					"family": "Goodman",
+					"given": "Savannah"
+				},
+				{
+					"family": "Townsend",
+					"given": "Ben"
+				}
+			],
+			"etAl": true,
+			"container": "arXiv preprint arXiv:2508.15734",
+			"published": "2025-08",
+			"url": "https://arxiv.org/abs/2508.15734",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "report",
+			"title": "2024 United States Data Center Energy Usage Report",
+			"authors": [
+				{
+					"family": "Shehabi",
+					"given": "Arman"
+				},
+				{
+					"family": "Smith",
+					"given": "Sarah J."
+				},
+				{
+					"family": "Hubbard",
+					"given": "Alex"
+				},
+				{
+					"family": "Newkirk",
+					"given": "Alex"
+				},
+				{
+					"family": "Lei",
+					"given": "Nuoa"
+				},
+				{
+					"family": "Siddik",
+					"given": "Md Abu Bakar"
+				},
+				{
+					"family": "Holecek",
+					"given": "Billie"
+				}
+			],
+			"etAl": true,
+			"place": "Berkeley, CA",
+			"publisher": "Lawrence Berkeley National Laboratory",
+			"number": "LBNL-2001637",
+			"published": "2024-12",
+			"url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+			"accessed": "2026-11-22"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "USAFacts",
+			"url": "https://en.wikipedia.org/w/index.php?title=USAFacts&oldid=1381583199",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-10-23"
+		},
+		{
+			"kind": "wikipedia",
+			"title": "Environmental and Energy Study Institute",
+			"url": "https://en.wikipedia.org/w/index.php?title=Environmental_and_Energy_Study_Institute&oldid=1338352825",
+			"accessed": "2026-11-22",
+			"authors": [
+				{
+					"name": "Wikipedia contributors"
+				}
+			],
+			"container": "Wikipedia, The Free Encyclopedia",
+			"publisher": "Wikimedia Foundation",
+			"published": "2026-02-14"
+		}
+	],
+	"connections": [
+		{
+			"to": "datacenters/small-water-systems",
+			"why": "A town's water system must be built for peak withdrawal on the hottest day, not for annual consumption."
+		}
+	]
+}
