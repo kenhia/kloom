@@ -310,4 +310,4 @@ Checked live:
 - `/datacenters`, `/datacenters/where-water-goes` and `/datacenters/open-questions` all return 200, and the water frame renders its headline.
 - `/api/stats` lists *The Cloud on the Ground* with its subtitle: 55 frames (14 on its 3 trails), 26 images, 18 charts, 735 citations and 122 connections. It counts 51,062 words, against the 45,568 above, because it counts table text and captions too.
 
-The public reader site is unchanged: the subject is not in `publish.json`, which is a decision for Ken.
+On Ken's word, `datacenters` was added to `publish.json` (PR #71, `2c1e6df9`) and published with `just publish-public` on 2026-11-23 at 03:38 UTC: Fly release v21 of `kloom-reader`, library `a31bbd`. `verify-public` passed every check, and the staged `content.db` lists the subject with its 55 frames.
