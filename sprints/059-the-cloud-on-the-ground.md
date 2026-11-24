@@ -307,7 +307,8 @@ drafts` with an exit status for one part; `subject_plan --check --accents`
 On 2026-11-22 at 19:00 UTC, `just deploy` ran on kai from merged `main` at `cdccacec` (PR #70). The service is `tailscale serve` on :4890, and content is on the same commit. Its own checks passed: the tailnet and ssh doors, write gating, reader data and notes kept from an anonymous read, library frames, and compression.
 
 Checked live:
+
 - `/datacenters`, `/datacenters/where-water-goes` and `/datacenters/open-questions` all return 200, and the water frame renders its headline.
-- `/api/stats` lists *The Cloud on the Ground* with its subtitle: 55 frames (14 on its 3 trails), 26 images, 18 charts, 735 citations and 122 connections. It counts 51,062 words, against the 45,568 above, because it counts table text and captions too.
+- `/api/stats` lists _The Cloud on the Ground_ with its subtitle: 55 frames (14 on its 3 trails), 26 images, 18 charts, 735 citations and 122 connections. It counts 51,062 words, against the 45,568 above, because it counts table text and captions too.
 
 On Ken's word, `datacenters` was added to `publish.json` (PR #71, `2c1e6df9`) and published with `just publish-public` on 2026-11-23 at 03:38 UTC: Fly release v21 of `kloom-reader`, library `a31bbd`. `verify-public` passed every check, and the staged `content.db` lists the subject with its 55 frames.

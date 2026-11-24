@@ -308,8 +308,8 @@ tools-test`, `just reader-gate`, every mark spec with `--check
   now in the US public domain, and 16 of these frames already cite one, and every reading
   already describes the sound. Whether kloom plays audio is a product
   decision; not filed, at the overseer's rule.
-- **Publishing**: music is not in `publish.json`, so the public reader site
-  will not carry it until Ken adds it.
+- **Publishing**: Ken approved adding music to the public reader site.
+  See [sprint 060](060-publish-music.md).
 - **The `recording` kind's next fields**, if wanted: a matrix or take
   number, an archive's call number, roles (conductor, ensemble, soloist),
   and wording for `read: "record"` on a recording ("Read in its catalog
