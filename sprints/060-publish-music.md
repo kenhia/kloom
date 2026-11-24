@@ -27,3 +27,13 @@ outside this sprint.
 
 - Fixed the Markdown formatting in sprint 059's deployment checklist
   after Prettier flagged it in `just check`.
+
+## Published
+
+A Codex leg prepared PR #72 through karc. The overseer reviewed it and
+squash-merged it by hand as `4656c171` (karc PD-18). `just deploy` was
+skipped: the tailnet service does not read `publish.json` and already
+served `/music`, and the rest of the change is sprint records. Published
+with `just publish-public` on 2026-11-24 at 19:14 UTC: Fly release v22 of
+`kloom-reader`, library `8f6a09`, commit `4656c171`. `verify-public` passed
+every check, and the staged `content.db` lists `music` with its 67 frames.
